@@ -4,6 +4,6 @@
 ## 收录题库
 | 序号 | 科目/书名 | 题量 | 状态 | 源码目录 | PDF 下载 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 01 | **Problem-Solving Book** | 400题 | ✅ 已完成 | [📂 点击查看](./Book-01-Problem-Solving) | [📥 下载 PDF](./Book-01-Problem-Solving/output.pdf) |
+| 01 | **数学分析讲义（程艺等人著）** | 400题 | ✅ 已完成 | [📂 点击查看](./Book-01-Problem-Solving) | [📥 下载 PDF](./Book-01-Problem-Solving/output.pdf) |
 | 02 | **高等数学错题集** | 待定 | ⏳ 制作中 | [📂 点击查看](./Book-02-Advanced-Math) | 暂无 |
 | 03 | **物理竞赛真题** | 待定 | ⏳ 排队中 | - | - |
