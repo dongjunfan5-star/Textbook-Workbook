@@ -27,20 +27,23 @@ Textbook-Workbook/
 ├── README.md
 ├── .gitignore
 ├── 制作要求.txt
-├── Book-01-Problem-Solving/
+├── 数学分析讲义/
 │   ├── main.tex          # XeLaTeX 主文件，固定输出 main.pdf
 │   ├── chapters/         # 按章节生成的 .tex 文件
 │   ├── figures/          # 从原始 PDF 截取的题目配图
 │   └── input/            # 原始扫描版 PDF（不提交）
-└── Book-02-Advanced-Math/
-    └── ...               # 结构同 Book-01
+└── 数学分析教程（史济怀著）/
+    ├── main.tex
+    ├── chapters/
+    ├── figures/
+    └── input/
 ```
 
 ## 收录数学教材做题本库
 | 序号 | 科目/书名 | 题量 | 状态 | 源码目录 | PDF 下载 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 01 | **数学分析讲义（程艺等人著）** | 400题 | 🚧 结构已建，内容待补 | [📂 点击查看](./Book-01-Problem-Solving) | 暂无（待生成 main.pdf） |
-| 02 | **数学分析（史济怀著）** | 待定 | 🚧 制作中（结构已建） | [📂 点击查看](./Book-02-Advanced-Math) | 暂无（待生成 main.pdf） |
+| 01 | **数学分析讲义（程艺等人著）** | 400题 | 🚧 结构已建，内容待补 | [📂 点击查看](./数学分析讲义) | 暂无（待生成 main.pdf） |
+| 02 | **数学分析教程（史济怀著）** | 待定 | 🚧 制作中（结构已建） | [📂 点击查看](<./数学分析教程（史济怀著）>) | 暂无（待生成 main.pdf） |
 | 03 | **线性代数及其应用** | 待定 | ⏳ 排队中 | - | - |
 
 ## 本地构建
@@ -48,7 +51,7 @@ Textbook-Workbook/
 需要安装 TeX Live 或 MiKTeX（含 ctex 宏包），在对应项目目录下用 XeLaTeX 连续编译两次：
 
 ```bash
-cd Book-01-Problem-Solving
+cd 数学分析讲义
 xelatex main.tex
 xelatex main.tex
 ```
