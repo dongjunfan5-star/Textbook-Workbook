@@ -16,10 +16,41 @@
 
 保护原始资料： 原始教材仅作为只读输入，不允许脚本覆盖或删除。
 
-本仓库中存放了我用OCR和LaTeX工具自动化重构的各种做题本。所有编码均已开源，并已提供编译好的PDF下载。
+本仓库中存放了我用OCR和LaTeX工具自动化重构的各种做题本。所有编码均已开源；编译好的 PDF 会在对应项目完成后提供下载。
+
+## 仓库结构
+
+每本教材对应一个独立项目目录，生成流程见根目录的 [制作要求.txt](./制作要求.txt)：
+
+```text
+Textbook-Workbook/
+├── README.md
+├── .gitignore
+├── 制作要求.txt
+├── Book-01-Problem-Solving/
+│   ├── main.tex          # XeLaTeX 主文件，固定输出 main.pdf
+│   ├── chapters/         # 按章节生成的 .tex 文件
+│   ├── figures/          # 从原始 PDF 截取的题目配图
+│   └── input/            # 原始扫描版 PDF（不提交）
+└── Book-02-Advanced-Math/
+    └── ...               # 结构同 Book-01
+```
+
 ## 收录数学教材做题本库
 | 序号 | 科目/书名 | 题量 | 状态 | 源码目录 | PDF 下载 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 01 | **数学分析讲义（程艺等人著）** | 400题 | ✅ 已完成 | [📂 点击查看](./Book-01-Problem-Solving) | [📥 下载 PDF](./Book-01-Problem-Solving/output.pdf) |
-| 02 | **数学分析（史济怀著）** | 待定 | ⏳ 制作中 | [📂 点击查看](./Book-02-Advanced-Math) | 暂无 |
+| 01 | **数学分析讲义（程艺等人著）** | 400题 | 🚧 结构已建，内容待补 | [📂 点击查看](./Book-01-Problem-Solving) | 暂无（待生成 main.pdf） |
+| 02 | **数学分析（史济怀著）** | 待定 | 🚧 制作中（结构已建） | [📂 点击查看](./Book-02-Advanced-Math) | 暂无（待生成 main.pdf） |
 | 03 | **线性代数及其应用** | 待定 | ⏳ 排队中 | - | - |
+
+## 本地构建
+
+需要安装 TeX Live 或 MiKTeX（含 ctex 宏包），在对应项目目录下用 XeLaTeX 连续编译两次：
+
+```bash
+cd Book-01-Problem-Solving
+xelatex main.tex
+xelatex main.tex
+```
+
+编译产物固定为 `main.pdf`。原始扫描版 PDF 放入对应项目的 `input/` 目录；`input/` 下的 PDF 与图片不会提交到仓库。
