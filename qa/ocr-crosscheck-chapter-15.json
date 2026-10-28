@@ -1,0 +1,491 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 15,
+  "source_id": "bd727a57b926",
+  "total_source_pages": 59,
+  "page_results": [
+    {
+      "page_number": 58,
+      "status": "verified",
+      "result_sha256": "486520d614671f0e4ebe7886317f26f7177a6618c617782537a9667504d0810e",
+      "structured_result_sha256": "0c653f3b0861e684ba439e16bf58f9df6b004c50927c3e4c88e4acb77193eb5d",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为定义、定理证明或前页例题解答，无新独立题目。"
+    },
+    {
+      "page_number": 59,
+      "status": "verified",
+      "result_sha256": "4ec05952ff9184756755572453de13f69870ec081a6d380acdc90a107dd2ec6f",
+      "structured_result_sha256": "6e4c8d6ab9b35d90a92d4ff0fd6f61850f1cf2dd976b77782ee6e52c7e8107c0",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为定义、定理证明或前页例题解答，无新独立题目。"
+    },
+    {
+      "page_number": 60,
+      "status": "verified",
+      "result_sha256": "29b780a2e2df3822198a067282e3e6fb60496ac1694ad356751d1f65cf628518",
+      "structured_result_sha256": "b941c882e2785ec3b17452dba1c98b25c99d5a06cc7fde96e30609c4fb57d760",
+      "units_count": 1,
+      "findings": "源图再核后补收sin函数的两个原像具体计算为1个改写例；OCR异常分数框不进入题目。"
+    },
+    {
+      "page_number": 61,
+      "status": "verified",
+      "result_sha256": "d33c18a0bb353c452cc665e7d7be5648c6146535b5df91e385ac1c3926e7e5a0",
+      "structured_result_sha256": "3460081de3a515f5e89bfeb034220a4485aade8192684f5c9d8643ed03d76ab5",
+      "units_count": 1,
+      "findings": "Dirichlet函数例的全实数域与有理数限制两部分均完整，改写为求证，未收原结论证明。"
+    },
+    {
+      "page_number": 62,
+      "status": "verified",
+      "result_sha256": "fd4f15f5e006b1b548749df83df232bf1f71c9a4d3fe0cd4e9f66c933941bf7d",
+      "structured_result_sha256": "211c31bca706c358cfc449a69913a0efabf77a19cb2aab5fed9e1bb4ef07c335",
+      "units_count": 1,
+      "findings": "cos(1/x)例题设、零点定义及振幅完整；OCR解答括号误识不进入题干。"
+    },
+    {
+      "page_number": 63,
+      "status": "verified",
+      "result_sha256": "7cea4d4d756f9bec92dacb75b7f6fa5f39c71fe7dcf3a401f586e0b8d00c4f76",
+      "structured_result_sha256": "8275a91401beee49ced04190a179cdd8c7076c5b10a4b7bfd0a403ee991d0eda",
+      "units_count": 1,
+      "findings": "给定闭集构造零点集的例题完整，解答与配图不收。"
+    },
+    {
+      "page_number": 64,
+      "status": "verified",
+      "result_sha256": "bfa2e6e89d775e78b283317f2dd0f6ec291711f8bf7e9c4f4d7df6c5189d7858",
+      "structured_result_sha256": "a7704a6c243cac7ad3e59db0288c26b1d165969f899d865297cfd63a207aa9d7",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为定义、定理证明或前页例题解答，无新独立题目。"
+    },
+    {
+      "page_number": 65,
+      "status": "verified",
+      "result_sha256": "d94fb9ed5cab48fc3f2980038ddf0421238ef21786b26e12d0a0f33b4fe1e893",
+      "structured_result_sha256": "424600f138b89df6bb8c22216bf03d09b44220e1a1f6258654341e90913a4774",
+      "units_count": 1,
+      "findings": "max/min连续性例已改写求证，两个函数均保留，原证明不收。"
+    },
+    {
+      "page_number": 66,
+      "status": "verified",
+      "result_sha256": "80f5d2c9f15f801b940b0a7765aec9c444c9cafb55b230be4c1aa123038ea814",
+      "structured_result_sha256": "ee56e5d9e018a76f97b2d9e00a3184992e1a971127bc1bc8f4fd458d81560ae4",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为定义、定理证明或前页例题解答，无新独立题目。"
+    },
+    {
+      "page_number": 67,
+      "status": "verified",
+      "result_sha256": "3402fc2f25fe2fc55880f9cc49d50cfcf3669e9b5557fed2a41a1cf59842c82d",
+      "structured_result_sha256": "dd2ca229e3fd8fbaf6c5122b1a7e6306c5402f5c946b974a1678dcb527487063",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为定义、定理证明或前页例题解答，无新独立题目。"
+    },
+    {
+      "page_number": 68,
+      "status": "verified",
+      "result_sha256": "dc8e45000ed8c7c0685103bb00974a4d7ef77b3ae58bc40303a20869db45450d",
+      "structured_result_sha256": "2b47970a1277eac6c811273ddbfd5b69655418c5cc31b80bce8e374304a950f4",
+      "units_count": 1,
+      "findings": "指数函数连续扩张例完整，正底数、闭区间上一致连续及扩张相容性均保留。"
+    },
+    {
+      "page_number": 69,
+      "status": "verified",
+      "result_sha256": "e3ae57afa0e37e3ca7986597d2944af85c2f00a4750d46ceb1d52c788e5bf53f",
+      "structured_result_sha256": "9adc29b659847eaa4882e70b2002712acea5a03a651ebadb7401c9fe50a7870c",
+      "units_count": 2,
+      "findings": "正式习题1、2完整；第2题开集部分跨70页接续，来源69。"
+    },
+    {
+      "page_number": 70,
+      "status": "verified",
+      "result_sha256": "9ca251b3a789a93fc25ebd89f999c576b107a06884b679ff00438a95b4534af4",
+      "structured_result_sha256": "d39de93bacfc3241cc30d8c081299386a8ca063c631e30ac81aea8e1daf52931",
+      "units_count": 12,
+      "findings": "正式习题3–14全部核对；OCR把上极限误成下极限，已对照源图保留limsup；紧支撑/分支定义等依赖已补足。"
+    },
+    {
+      "page_number": 71,
+      "status": "verified",
+      "result_sha256": "fd2e5f667c4fe475f552c9895a597a8cbad123e7e4a4c86bc560029c70f05111",
+      "structured_result_sha256": "75812a5d1d14961e585fd0ea6f632446fdbd4726a56efcde517b7a3c4ecd577a",
+      "units_count": 7,
+      "findings": "正式习题15–21完整，函数上下极限的扩充实数约定、上下半连续定义正确。"
+    },
+    {
+      "page_number": 72,
+      "status": "verified",
+      "result_sha256": "1d8d07d93f73feac42d5f789fc5bcf79f8c03fb13dcbc6537372df2ff43f490c",
+      "structured_result_sha256": "7ed84726116d50028da6af14ddb1f208d6e15f846e25860dd9cb66c7cc80340b",
+      "units_count": 7,
+      "findings": "正式习题22–28完整；间断点枚举题原书不当的递增枚举已校订为无重复枚举且保留校订标记。"
+    },
+    {
+      "page_number": 73,
+      "status": "verified",
+      "result_sha256": "8f8370692ee9c995cf8c32c8189c76b6202a6b5ac8eb5f3f6bdec99d657f026e",
+      "structured_result_sha256": "0565b12424239adea341532ad66e95d5472fba93f51ae9397f80a43fafa015b3",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为级数定义、一般性质或重排定理证明，无新独立题目。"
+    },
+    {
+      "page_number": 74,
+      "status": "verified",
+      "result_sha256": "9e986d931482493974c5c4007efb27c5db4fc19919db58c613195150e620326b",
+      "structured_result_sha256": "a23b1c362a9997101db12b9d5946ab80613bfe67f54c3366f18bd0faf4913b08",
+      "units_count": 1,
+      "findings": "根值和比值判别法明确留作习题，已收1个含两小问正文练习；源图上极限横线准确，OCR丢失横线未采入。"
+    },
+    {
+      "page_number": 75,
+      "status": "verified",
+      "result_sha256": "fdab5d51f355fcc336106a56947641a935e7d44ac93a761e3b21619451731836",
+      "structured_result_sha256": "ec114ba294cf7ac92f3e53bb9e52545f2048fd30e6254ce87a03814f7290ab4c",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为级数定义、一般性质或重排定理证明，无新独立题目。"
+    },
+    {
+      "page_number": 76,
+      "status": "verified",
+      "result_sha256": "c30e115a2ac2dc5872d5caeb1620ce8f4901d221e1704a1152d6bee0c83af3a4",
+      "structured_result_sha256": "4cdc86f49f3211914fef068efbe7cf691d02d2190ad42cd655e22f3dab9e5027",
+      "units_count": 0,
+      "findings": "完整核对OCR；本页为级数定义、一般性质或重排定理证明，无新独立题目。"
+    },
+    {
+      "page_number": 77,
+      "status": "verified",
+      "result_sha256": "c1d6bb0964835265318ba5eedfb3a4b7b34beda586afff9498a010bf6cc8d130",
+      "structured_result_sha256": "51cc97bbc4fc631c26b06222233ed8cc0da43dec5234043162049f4f111e8092",
+      "units_count": 1,
+      "findings": "绝对收敛双级数乘积例完整，按有序指标对计项以免相同数值被集合写法合并，校订标记保留。"
+    },
+    {
+      "page_number": 78,
+      "status": "verified",
+      "result_sha256": "80b042d3eee7553f490c72a048960df0dfc95c292bb354816c6e52dc4f1f0b70",
+      "structured_result_sha256": "18b8d614d9d1e78aa60faf94d0fcdc98b39484f07d19afee3746ae24b3171ffd",
+      "units_count": 1,
+      "findings": "交错调和级数重排例的原级数及正p负q重排两个小问完整；续79页，待下一页接续复核。"
+    },
+    {
+      "page_number": 79,
+      "status": "verified",
+      "result_sha256": "af25acf6399086005ae372e083d62e4f0835b5e4148497f38e05071c735f7811",
+      "structured_result_sha256": "9a8c441471701d902ff2eaad799b40a88b9a5ec077e9fc55d4b1ad579b0c5898",
+      "units_count": 0,
+      "findings": "交错调和重排例续页，正p负q分组、顺序与求和目标相符，未抄答案；来源仍78。"
+    },
+    {
+      "page_number": 80,
+      "status": "verified",
+      "result_sha256": "c683fb5b448eb652d503eeb629def7ee8f59f19d170df2fefcce057f6b5336ca",
+      "structured_result_sha256": "cad208c20c02b1c6f217eecf3420456456a33bb19717e37518b915039db3de00",
+      "units_count": 1,
+      "findings": "分段函数列例的三个区间、nx表达式及逐点/一致收敛两项均完整，图属解说不收。"
+    },
+    {
+      "page_number": 81,
+      "status": "verified",
+      "result_sha256": "72e5bc4c8aef82195034862270c3d225bfcbdd0d8f5f942762a639840bba388b",
+      "structured_result_sha256": "b106de73c6e7376c9534b2341ea3051a178e74981145b67ba6f8d8cbadfdd217",
+      "units_count": 0,
+      "findings": "完整核对OCR；为前页例题解答、定义或一般定理证明，无新独立题目。"
+    },
+    {
+      "page_number": 82,
+      "status": "verified",
+      "result_sha256": "1ad466207c9259142a82e9323534f4157bbc06bdc526ee15ceb0d18a789444a5",
+      "structured_result_sha256": "2b9887d095328c6dfd24e7eca9ca89c6df0e4ea888d3e0fa14d0cd2926a32b2e",
+      "units_count": 0,
+      "findings": "完整核对OCR；为前页例题解答、定义或一般定理证明，无新独立题目。"
+    },
+    {
+      "page_number": 83,
+      "status": "verified",
+      "result_sha256": "0a20626dac47d3097fbb4afa2187620470e2e023589a350d95eef9dd3e009f02",
+      "structured_result_sha256": "6ab8ed9877d6143fbe8b518a7cbf4baaa67911227b72a121233f83fe0f58921b",
+      "units_count": 1,
+      "findings": "给定可数集构造单调函数的例题完整，无构造方法泄露。"
+    },
+    {
+      "page_number": 84,
+      "status": "verified",
+      "result_sha256": "b62ea21f8d880f77f2824d176fb35377114acd2d8fc68ba036425dd08e0ec3ab",
+      "structured_result_sha256": "7a00b0df12ad9551df5a55b0ed1ed80104ccfe1ad19bfcc002784d790ba80314",
+      "units_count": 1,
+      "findings": "收敛半径例上极限、n次根及零/无穷约定正确，原证明未进入题目。"
+    },
+    {
+      "page_number": 85,
+      "status": "verified",
+      "result_sha256": "67be64261c1ddf7d240bb7d9d6f73e47120531fd574808d1b7b57ff1ebe29db6",
+      "structured_result_sha256": "3c040e11bd5cacf45506e34775897dd12512436b1d959502bae7f1831fec00fa",
+      "units_count": 1,
+      "findings": "处处连续不可微例的锯齿函数、周期2、比例3/4及4^k缩放均正确，改写求证不收证明用差商数列。"
+    },
+    {
+      "page_number": 86,
+      "status": "verified",
+      "result_sha256": "4c176d3fabb213f0c3db7fcfe67d6d2271826458f5fe0782b138e5f837e32f36",
+      "structured_result_sha256": "85a434d39f5489de72b8431caf4cffc13ce0c0bbb22a19bcb2ce83c4d73dc620",
+      "units_count": 0,
+      "findings": "完整核对OCR与对应源文；为例题证明或一般定理及证明，无新独立题目。"
+    },
+    {
+      "page_number": 87,
+      "status": "verified",
+      "result_sha256": "9879ea4f812d493c08e64717fbfcc9342148aee33dcf52abc30f99e508ada7e9",
+      "structured_result_sha256": "c11da4118de5c48929175036326827975cf2a114836edbe8ebaa85caac4f9863",
+      "units_count": 0,
+      "findings": "完整核对OCR与对应源文；为例题证明或一般定理及证明，无新独立题目。"
+    },
+    {
+      "page_number": 88,
+      "status": "verified",
+      "result_sha256": "15f0c162354267471a15bc1496553aa5966315fa4559ede19143a838b9910d9c",
+      "structured_result_sha256": "23ee8b586273629fb87de1c198caadb10042974a8223ea86e3bb739a067c723b",
+      "units_count": 0,
+      "findings": "完整核对OCR与对应源文；为例题证明或一般定理及证明，无新独立题目。"
+    },
+    {
+      "page_number": 89,
+      "status": "verified",
+      "result_sha256": "23d806b720034b63e5b098a554f94fede183fbb3bd02695f4e43a6593fc67657",
+      "structured_result_sha256": "9dff3495b5ae5ab175bf5c6ae8f1a773f2adaa713590574ba2705242152cffcc",
+      "units_count": 0,
+      "findings": "明确读者任务为一致收敛推出一致有界等度连续，与92页正式习题重复，按已有去重记录保留正式位置。"
+    },
+    {
+      "page_number": 90,
+      "status": "verified",
+      "result_sha256": "580a8b9ce3f6323bdbf7cc7ea3e0677f223b61defd569023bb19f8e2e60ace1c",
+      "structured_result_sha256": "6150d4a8bb15796c8d4647dc5483709ceffe4ad51e09b10375160d9533094899",
+      "units_count": 5,
+      "findings": "正式习题1–5完整；floor(sqrt n)、双指标求和、cos(k!πx)的2j次幂及两重极限次序均正确。"
+    },
+    {
+      "page_number": 91,
+      "status": "verified",
+      "result_sha256": "21fe08d611f2d0c51636f8fc6fbc3e6ed175dc3de1104ed7647a15d828ebfbc9",
+      "structured_result_sha256": "9a7aef7a84049fada3bd96f8e0d0906687964d391259f1f7e7b434726e5b3d4e",
+      "units_count": 11,
+      "findings": "正式习题6–16逐项核对，11题补可积性，12/13已补定义使独立可解，16题续92页。"
+    },
+    {
+      "page_number": 92,
+      "status": "verified",
+      "result_sha256": "b2f3060b4ec7fdae502be814ace085d54923b16aad51c33aa1959f77998d25e1",
+      "structured_result_sha256": "8985a635d9df7356439af9e1b828b9602b9538998c1057c73a39e4dcb8542aeb",
+      "units_count": 11,
+      "findings": "正式习题17–27及前页16续文全核；独立解题提示均已移除，支集定义保留为必要题设，27续93。"
+    },
+    {
+      "page_number": 93,
+      "status": "verified",
+      "result_sha256": "0faa6207c6a40030d8d5d0cec4150fa76ba40679d0e05d08b09d8742cd124a9d",
+      "structured_result_sha256": "32c5d177e74f18fe8647b11663598e7c3c519faf30c3299e7a96fd99d5f5d99a",
+      "units_count": 4,
+      "findings": "正式习题28–31完整；再看源图确认原书δ误依赖k，OCR恰已识为ε；校订记录仍有源图依据。导数撇号上标正常。"
+    },
+    {
+      "page_number": 94,
+      "status": "verified",
+      "result_sha256": "357b746ee45de5b8e417dc6d3a83fa8ae8ee0d0991fc0de49cf0c61cde441898",
+      "structured_result_sha256": "c6380f1d727b83465a4a93a8dc40f5e957979e66b8872b31953842b6c103520f",
+      "units_count": 1,
+      "findings": "插值多项式例题设完整，次数不超过n−1的必要校订保留。"
+    },
+    {
+      "page_number": 95,
+      "status": "verified",
+      "result_sha256": "608214f4c9c110ed18fd5831303f2dea63153e55cf5865885ade4bc604c160ab",
+      "structured_result_sha256": "645e6bc1d278a338839b5bd5e0fa361b6dabe448d0e54144de90181cc22cb7f4",
+      "units_count": 0,
+      "findings": "完整核对OCR与对应源文；为插值例解答、定义或一般性质证明，无新独立题目。"
+    },
+    {
+      "page_number": 96,
+      "status": "verified",
+      "result_sha256": "4347538d72517de54ae86d1e444b780f1a6bc4b1b21a8857068c6d29c1e79c51",
+      "structured_result_sha256": "52b717ed3599d42374a245169ff7712833c13efd7d216c483cecf788214e2d82",
+      "units_count": 0,
+      "findings": "卷积连续性正文练习与102页正式题合并，条件至少一函数紧支撑已保留；交换律结合律是一般说明，非独立题。"
+    },
+    {
+      "page_number": 97,
+      "status": "verified",
+      "result_sha256": "2c3c1cdb723498968a18d03e55bc56a4cecf59976eceae5234f5d2e00c3ea608",
+      "structured_result_sha256": "34c2c8d87272b1a9e86b4191dbb7b3b452a7c8779f4dbc9b6c69b304f2020e46",
+      "units_count": 1,
+      "findings": "源图再核后补具体矩形平均核的计算/一致逼近例，不收解题估计。"
+    },
+    {
+      "page_number": 98,
+      "status": "verified",
+      "result_sha256": "faff8f4aa5367e0f2853ac78f96963d13a103b44f431636df30166f6a3447910",
+      "structured_result_sha256": "a79a3bfbb356ea8cd092c6dfc8d05e8dc9d851551709faeb32e79cc30a87a83f",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 99,
+      "status": "verified",
+      "result_sha256": "a80cdf2d55e07b4a11303bb51b4dc7b5cd4e7f6f927e754e8547272fe0e29ef0",
+      "structured_result_sha256": "b9c7eb5aa59e64c51f6a9c971eaebde45fabffb269e66723ff2b2019c0dde054",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 100,
+      "status": "verified",
+      "result_sha256": "4d50b441c293f32121fb6634742373182ea7ae25b18aa5caaf1dbbf9ee00c8c5",
+      "structured_result_sha256": "f0c71ebc32bc9918bd7406a148c3e0ff450aebafcd443b0638dc3eaaf784a65f",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 101,
+      "status": "verified",
+      "result_sha256": "d4d509687cd2a322f71dbc3c03145b0f434eb3c530fdfcad560197b446803134",
+      "structured_result_sha256": "b2397e4356e5e9755c6c91a8b98414f5923201160c21d8ef2a6fb0870c3fa02a",
+      "units_count": 1,
+      "findings": "源图再核后补原文明示的矩唯一确定连续函数问题及区间推广，标改写；与103页偶函数仅给偶次矩的习题题设不同。"
+    },
+    {
+      "page_number": 102,
+      "status": "verified",
+      "result_sha256": "c15f9f4a05b299bd8e5ca23cc86777013a4d23b5e21e12e0b4facf5e457f22d7",
+      "structured_result_sha256": "eefe20a601e7ec1961424d527dd332a2e066ad47406f08d4b3c6f4fa2cb6b77e",
+      "units_count": 4,
+      "findings": "4个正式习题完整，插值节点互异条件已补，导数撇号正确；卷积题与96正文任务合并。"
+    },
+    {
+      "page_number": 103,
+      "status": "verified",
+      "result_sha256": "9adb7e2dd1692061653c73bb397c73f1e5fe0cbb330fd516293f2d8f4073b38a",
+      "structured_result_sha256": "f6cb52d6b47054c7d3670c61e4a91c7e8638b963ff21071ba5dc0e8f8904a9ca",
+      "units_count": 10,
+      "findings": "正式习题5–14全部核对，支持集包含、导数阶数k+m、非负多项式、矩条件和递推乘积均正确。独立证明提示已移除。"
+    },
+    {
+      "page_number": 104,
+      "status": "verified",
+      "result_sha256": "27e950b51c5a2e7559c2278774a5d87f585c0eafe1902f8d14bd42dc8c1b0682",
+      "structured_result_sha256": "f07a8a6e5e0d38b0d55599b4f4ae7799c214c7537f352434c1bf63157a9ae9e3",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 105,
+      "status": "verified",
+      "result_sha256": "5293c0b12d9882891548897063e7c7a19c03f45431492d768b627bc59c745c96",
+      "structured_result_sha256": "0f443d872f10825d4cc3b2fcdc3a3e8a6d3f46227d722cf61e2ea7412ddbbc67",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 106,
+      "status": "verified",
+      "result_sha256": "5a3e72334b6fd8ed24c7fc6230abd13e517367fbdf3e8ecad39b42d8c45ca477",
+      "structured_result_sha256": "1412575090616b982359cf0c0f4cfcf9d171b5ef09662b2e6631a1b3d4fc1964",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 107,
+      "status": "verified",
+      "result_sha256": "cd5dbb501cb1e6280585d230d1e8394d4a9cb0c92f595596cb80cb858f9666ce",
+      "structured_result_sha256": "3c86ffb40c52d5192e71c8f9d2034720bd7138addaf2b300ce9d6f714d46cc1c",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 108,
+      "status": "verified",
+      "result_sha256": "9350037a91aa266a2c682ff7a2c92ab78c2f939ac93eea5561c2fe38b19a8a98",
+      "structured_result_sha256": "6e42ceb0be952d7685409dca3f7b63c3bfd71d070b9d0139c58e541a91657966",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 109,
+      "status": "verified",
+      "result_sha256": "00d9a13d9ee3ab0f208915dbe788bf7b7db093c941520b25a91e9e82f9c46240",
+      "structured_result_sha256": "c2ac5ca89e486e52e2a4cdbe0637b08a4d28314639114ed5559b65a8ff642601",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为一般理论、性质或定理证明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 110,
+      "status": "verified",
+      "result_sha256": "64e043df390939c877e2b2492e49be21f9b30fafb489086c6059f06e6a94d845",
+      "structured_result_sha256": "2a1e89e119b2a6b59377a144bae53ad21a4b0600dc3be5c051d855f6d3a36cb5",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为Fourier收敛性、Fejér定理或平方平均收敛的一般理论与证明，无新独立题目。"
+    },
+    {
+      "page_number": 111,
+      "status": "verified",
+      "result_sha256": "bf4849b841447d41a0d283a6c7b9d7122caf51ffccc1b4030014bb34de994c2b",
+      "structured_result_sha256": "effcc6e4e4ed1cd07c74097db4d0ef9bcb5da0657a8d254d0d645569878864fd",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为Fourier收敛性、Fejér定理或平方平均收敛的一般理论与证明，无新独立题目。"
+    },
+    {
+      "page_number": 112,
+      "status": "verified",
+      "result_sha256": "1db7f745464f1f724b378a2a3b0f308ca1f244723ccaeb4499997c6728b25c99",
+      "structured_result_sha256": "1591ac0067cfd7b9780de4150b6f566f320c7e46ced1982c69f5c6e8d9298ea8",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为Fourier收敛性、Fejér定理或平方平均收敛的一般理论与证明，无新独立题目。"
+    },
+    {
+      "page_number": 113,
+      "status": "verified",
+      "result_sha256": "36f69e3ffa34eda3caaec0c7b2f7b725e3ab5e3ecc5c59e55cbba80dbc6dd618",
+      "structured_result_sha256": "c10c9729d9b30ee4d4aa778b39a9d5d1d0df63a56143fe143ae968eb2ab5d268",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为Fourier收敛性、Fejér定理或平方平均收敛的一般理论与证明，无新独立题目。"
+    },
+    {
+      "page_number": 114,
+      "status": "verified",
+      "result_sha256": "e883cd21a23d2b3a6afeaaaecb00e43ff9ed79f745d42edd1fc0c15ac3f335b9",
+      "structured_result_sha256": "c0c4626ff786ad84cbc8c40d71b1cb3541f72766ae9213f1a9018dd5a1f339cb",
+      "units_count": 0,
+      "findings": "完整核对OCR与源文；本页为Fourier收敛性、Fejér定理或平方平均收敛的一般理论与证明，无新独立题目。"
+    },
+    {
+      "page_number": 115,
+      "status": "verified",
+      "result_sha256": "55d6eba60b50c1c5c86f47fa62f946cd5e389cd6f6cb51a9791e82458e31fc0c",
+      "structured_result_sha256": "74c04ded63766a68b203ca4cfb4ea934dd8337aedf0f76d26b569216b4d227b4",
+      "units_count": 4,
+      "findings": "正式习题1–4完整，Dirichlet核定义、周期前提与Cesàro均值均已补足；跳跃点的周期平移作必要校订。"
+    },
+    {
+      "page_number": 116,
+      "status": "verified",
+      "result_sha256": "1332d743ffc0827c873336673ca3eae7f75fb159431a65e964e08d15e7d1f603",
+      "structured_result_sha256": "23ac9310b8ddeaced9497286a88203b29dc08cec8e5f78fb045f1b4096c467ef",
+      "units_count": 6,
+      "findings": "正式习题5–10完整，卷积及平移方向正确，最后原题4小问由builder拆为2题；商函数零分母处延拓已校订，无独立提示。"
+    }
+  ],
+  "method": "实际逐页阅读PaddleOCR完整结果，与已逐页查看的源图及校对题干比对；疑点再次查看源图。只记录实际核对过的页面，原始OCR不改写。",
+  "pages_checked": 59,
+  "source_units": 99,
+  "final_problems": 100,
+  "findings": [
+    "增补60页sin函数原像、97页具体平均核逼近、101页矩唯一性三则未编号例算，均标改写。",
+    "89/96页正文练习分别并入92/102页对应正式习题。",
+    "70/74页上下极限OCR误识按源图核正，93页δ依赖k的原书错误保留校订。",
+    "全部99源单元拆为100题；末题4小问按3+1拆分。"
+  ]
+}

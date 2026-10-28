@@ -1,0 +1,431 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{13}\section{实数理论}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.1（改写）}
+下面一列等式意在表达整数加法中的同一规律：\[2+1=1+2,\quad 2+2=2+2,\quad 2+3=3+2,\quad 2+4=4+2,\quad\ldots\]请用一个全称量词写出这一规律，并证明它。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.2（改写）}
+设 $\{a_n\}$ 为实数列，$a\in\mathbb R$。用量词完整表达“$\{a_n\}$ 以 $a$ 为极限”。证明：若把其中的量词顺序改成“存在正整数 $N$，对任意 $\varepsilon>0$ 及任意 $n>N$，都有 $|a_n-a|<\varepsilon$”，则必有 $a_{N+1}=a_{N+2}=\cdots=a$；据此说明两种表达为何不等价。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.3（改写）}
+考虑命题：“对任意整数 $a$，存在整数 $b$，满足 $b=a+1$。”写出交换“任意”与“存在”顺序后得到的命题，并证明原命题为真而交换后的命题为假。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.4（改写）}
+Goldbach 猜想的陈述为：“每个大于 $2$ 的偶数都是两个素数的和。”记 $E$ 为大于 $2$ 的偶数集合，$P$ 为素数集合。
+\SubQ{1}{用量词明确写出该猜想，并写出它的否定；证明你写出的否定与“存在一个不能表示为两个素数之和的大于 $2$ 的偶数”等价。}
+\SubQ{2}{将该猜想写成关于函数 $p,q:E\to P$ 的存在性命题，并说明这种表达与量词表达的对应关系。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.5（改写）}
+设函数列 $\{f_n\}$ 和函数 $f$ 定义在区域 $E$ 上。分别用量词写出 $f_n$ 在 $E$ 上逐点收敛于 $f$ 和一致收敛于 $f$ 的定义，比较其中量词的顺序以及 $N$ 对 $x$、$\varepsilon$ 的依赖，并证明一致收敛蕴含逐点收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.6（改写）}
+在 $\mathbb N=\{1,2,3,\ldots\}$ 中定义关系 $\sim$：\[x\sim y\quad\Longleftrightarrow\quad(x-y)/2\in\mathbb Z.\]证明 $\sim$ 是等价关系，并求出它的所有等价类及商集 $\mathbb N/\!\sim$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.7（改写）}
+设 $A=\mathbb Z\times(\mathbb Z\setminus\{0\})$。定义 $A$ 中元素的关系\[(p,q)\sim(p^{\prime},q^{\prime})\quad\Longleftrightarrow\quad pq^{\prime}=p^{\prime}q.\]证明 $\sim$ 是等价关系，并证明映射 $[(p,q)]\mapsto p/q$ 给出了 $A/\!\sim$ 与有理数集 $\mathbb Q$ 之间的一一对应。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.8}
+证明有理数系的 Archimedes（阿基米德）公理：对任意有理数 $a>0$，存在自然数 $n$，使得 $a>1/n$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.9}
+改写如下的数学命题，使所有的量词都一目了然；然后写出命题的否定，清晰地写出其中的量词；最后把命题的否定改写为和原命题类似的形式。
+\SubQ{1}{所有正整数都有唯一素因数分解。}
+\SubQ{2}{2 是唯一的偶素数。}
+\SubQ{3}{整数的乘法满足结合律。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.10}
+改写如下的数学命题，使所有的量词都一目了然；然后写出命题的否定，清晰地写出其中的量词；最后把命题的否定改写为和原命题类似的形式。
+\SubQ{1}{平面上两点决定一条直线。}
+\SubQ{2}{三角形的三条高相交于一点。}
+\SubQ{3}{如果信件的数目大于信箱数，那么至少有一个信箱里有两封以上的信件。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.11}
+下面每个命题都是全称—存在型命题。写出颠倒量词后相应的命题，并解释为什么它是错的。
+\SubQ{1}{每条线段都有中点。}
+\SubQ{2}{每个非零有理数都有倒数。}
+\SubQ{3}{自然数集合的每个非空子集都有最小元素。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.12}
+下面每个命题都是全称—存在型命题。写出颠倒量词后相应的命题，并解释为什么它是错的。
+\SubQ{1}{没有最大素数。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.13}
+写出如下命题的否定。
+\SubQ{1}{存在 $N$，使得任意正偶数都能表成不超过 $N$ 个素数之和。}
+\SubQ{2}{对每个正整数 $n$，存在正整数 $m$，对每个正整数 $x$，存在非负整数 $a_1,\ldots,a_m$，满足 $x=a_1^n+\cdots+a_m^n$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.14}
+利用量词规则表述命题：$E$ 中函数列 $\{f_n(x)\}$ 逐点收敛于 $f(x)$，但不是一致收敛于 $f(x)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.15}
+利用量词规则表述区间上函数的一致连续性以及否命题。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.16}
+具体给出一列两两不同的 $\mathbb N\to\mathbb Z$ 的一一对应。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.17}
+$\mathbb N$ 的有限子集构成的集合是可数集合还是不可数集合？证明你的答案。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.18}
+证明有理数集合 $\mathbb Q$ 是可数集合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.19}
+证明一个不可数集合里一个可数子集合的余集仍是不可数集合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.20}
+证明可数个可数无穷集合的直积是不可数集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.21}
+证明：单调递增的有界有理数列是有理数 Cauchy 列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.22（改写）}
+设两个有理数列为\[e_n=\left(1+\frac1n\right)^n,\qquad s_n=\sum_{k=0}^{n}\frac1{k!},\qquad n=1,2,\ldots.\]证明它们都是 Cauchy 列，且相互等价，即 $s_n-e_n\to0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.23}
+设 $\lambda$ 为无理数。证明集合 $A=\{m+n\lambda:m,n\in\mathbb Z\}$ 在实数集 $\mathbb R$ 中稠密。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.24（改写）}
+设 $a_j,b_j\in\mathbb R$，$b_j>0$（$j=1,2,\ldots,n$）。证明\[\min_{1\le j\le n}\frac{a_j}{b_j}\le\frac{a_1+\cdots+a_n}{b_1+\cdots+b_n}\le\max_{1\le j\le n}\frac{a_j}{b_j}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.25（改写）}
+证明下列几何—算术平均不等式及其推广。
+\SubQ{1}{设 $a,b>0$，$0<\lambda,\mu<1$，且 $\lambda+\mu=1$，证明 $a^{\lambda}b^{\mu}\le\lambda a+\mu b$。}
+\SubQ{2}{设 $a_i>0$，$0<\lambda_i<1$（$1\le i\le n$），且 $\sum_{i=1}^{n}\lambda_i=1$，证明 $\prod_{i=1}^{n}a_i^{\lambda_i}\le\sum_{i=1}^{n}\lambda_i a_i$。}
+\SubQ{3}{设 $a_i,p_i>0$（$1\le i\le n$），证明\[\left(\prod_{i=1}^{n}a_i^{p_i}\right)^{1/(p_1+\cdots+p_n)}\le\frac{p_1a_1+\cdots+p_na_n}{p_1+\cdots+p_n},\]并写出 $p_1=\cdots=p_n=1$ 时的结论。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.26（改写）}
+（H\"older 不等式）设 $a_i,b_i>0$（$i=1,2,\ldots,n$），$p,q>1$ 且 $1/p+1/q=1$。证明\[\sum_{i=1}^{n}a_i b_i\le\left(\sum_{i=1}^{n}a_i^p\right)^{1/p}\left(\sum_{i=1}^{n}b_i^q\right)^{1/q},\]并写出 $p=q=2$ 时的 Cauchy--Schwarz 不等式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.27（改写）}
+（Minkowski 不等式）设 $a_i,b_i>0$（$1\le i\le n$），$p>1$。证明\[\left(\sum_{i=1}^{n}(a_i+b_i)^p\right)^{1/p}\le\left(\sum_{i=1}^{n}a_i^p\right)^{1/p}+\left(\sum_{i=1}^{n}b_i^p\right)^{1/p}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.28}
+证明：如果 $x_1,x_2,\ldots$ 为有理数 Cauchy 列，则存在正整数 $N$，使得对任意 $j$，都有 $|x_j|\le N$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.29}
+证明任意实数都可以用有理数 Cauchy 列 $r_1,r_2,\ldots$ 表示，其中 $r_1,r_2,\ldots$ 都不是整数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.30}
+能被整数 Cauchy 列表示的实数是什么？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.31}
+设 $x_1,x_2,\ldots$ 和 $y_1,y_2,\ldots$ 是两个有理数 Cauchy 列，定义混合数列为 $x_1,y_1,x_2,y_2,\ldots$。证明该混合数列为 Cauchy 列的充分必要条件是 $\{x_n\}$ 与 $\{y_n\}$ 等价。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.32}
+证明改变一个 Cauchy 列的有限项后，得到的是一个等价的 Cauchy 列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.33}
+一个正有理数 Cauchy 列能与一个负有理数 Cauchy 列等价吗？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.34}
+证明代表一个实数的有理数 Cauchy 列的集合是不可数集合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.35}
+证明：如果有理数 Cauchy 列 $\{x_n^{\prime}\}$ 与 $\{x_n\}$ 等价，$\{y_n^{\prime}\}$ 与 $\{y_n\}$ 等价，那么 $\{x_n^{\prime}y_n^{\prime}\}$ 与 $\{x_ny_n\}$ 为等价的 Cauchy 列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.36}
+设代表两个实数 $x,y$ 的有理数 Cauchy 列的集合分别为 $A,B$。证明 $A,B$ 具有相同的基数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.37}
+设 $x$ 为实数，证明存在一个代表 $x$ 的有理数 Cauchy 列 $x_1,x_2,x_3,\ldots$，使得对所有 $n$，都有 $x_n<x$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.38}
+设 $x$ 为实数，证明存在一个代表 $x$ 的有理数 Cauchy 列 $x_1,x_2,x_3,\ldots$，使得对所有 $n$，都有 $x_n<x_{n+1}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.39}
+证明在两个不同的实数之间存在无限多个有理数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.40}
+设 $x$ 为正实数，证明存在一个代表 $x$ 的有理数 Cauchy 列，它的每一项可以表示为 $p^2/q^2$，其中 $p,q$ 为整数，$q\ne0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.41}
+证明对任意实数 $x,y$，都有 $|x-y|\ge|x|-|y|$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.42}
+利用有序域的公理，证明对任意实数 $x,y$ 成立下列不等式。
+\SubQ{1}{$\dfrac{x^2+y^2}{x^2}\ge1$（$x\ne0$）。}
+\SubQ{2}{$2xy\le x^2+y^2$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.43}
+设 $a_j>0$（$j=1,2,\ldots$），定义\[A_n=\frac{a_1+a_2+\cdots+a_n}{n},\qquad n=1,2,\ldots.\]证明 $p>1$ 时，\[\sum_{n=1}^{m}A_n^p\le\frac{p}{p-1}\sum_{n=1}^{m}A_n^{p-1}a_n.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.44}
+证明 Hardy--Landau 不等式：设 $p>1$，$a_j>0$（$j=1,2,\ldots$），证明\[\sum_{n=1}^{m}\left(\frac{a_1+\cdots+a_n}{n}\right)^p\le\left(\frac{p}{p-1}\right)^p\sum_{n=1}^{m}a_n^p.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.45（改写）}
+设 $a$ 为正实数。证明存在唯一的正实数 $b$，使得 $b^2=a$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.46}
+证明 Kepler 方程\[x=q\sin x+a\]的实数解存在且唯一，其中 $a,q$ 为常数，$0<q<1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.47（改写）}
+在扩充实数系 $\mathbb R_\infty=\mathbb R\cup\{+\infty,-\infty\}$ 上，按照与实数列极限相容的原则，确定以下运算的结果，并证明这些规则与相应的极限运算一致。
+\SubQ{1}{对任意 $a\in\mathbb R$，确定 $a+(+\infty)$、$a+(-\infty)$ 以及同号两个无穷量之和。}
+\SubQ{2}{对任意非零实数 $a$，确定 $a(\pm\infty)$、$(\pm\infty)/a$ 及 $a/(\pm\infty)$。}
+\SubQ{3}{用实数列举例说明，为什么 $+\infty+(-\infty)$、$0\cdot(\pm\infty)$ 以及无穷量与无穷量之商不能按同样原则定义为唯一值。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.48（改写）}
+设 $a_1>b_1>0$，定义数列\[a_{n+1}=\frac{a_n+b_n}{2},\qquad b_{n+1}=\sqrt{a_nb_n},\qquad n=1,2,\ldots.\]
+\SubQ{1}{证明这两个数列有相同的极限，记这个共同极限为 $P(a_1,b_1)$。}
+\SubQ{2}{用 $P(a_1,b_1)$ 表示椭圆积分\[I(a_1,b_1)=\int_0^{\pi/2}\frac{\mathrm dx}{\sqrt{a_1^2\cos^2x+b_1^2\sin^2x}}.\]}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.49（改写、校订）}
+设 $\{x_n\}$ 为实数列，$x\in\mathbb R\cup\{+\infty,-\infty\}$。证明：$\lim_{n\to\infty}x_n=x$ 当且仅当 $\{x_n\}$ 在扩充实数系中只有一个极限点 $x$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.50}
+构造一个有理数列，使它的极限点集合为 $\mathbb R\cup\{+\infty,-\infty\}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.51（校订）}
+证明下列命题与实数的完备性（每个实数 Cauchy 列都收敛）等价。
+\SubQ{1}{确界原理：每个非空、有上界的实数集合都有上确界。}
+\SubQ{2}{列紧性定理：每个有界实数列都有收敛子列。}
+\SubQ{3}{单调有界实数列必有极限。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.52（校订）}
+证明下列命题与实数的完备性（每个实数 Cauchy 列都收敛）等价。
+\SubQ{1}{每个有界闭实数集合的任意开覆盖都有有限子覆盖。}
+\SubQ{2}{若非空有界闭区间满足 $[a_{n+1},b_{n+1}]\subseteq[a_n,b_n]$，则 $\bigcap_{n=1}^{\infty}[a_n,b_n]\ne\varnothing$。}
+\SubQ{3}{设 $X,Y$ 为 $\mathbb R$ 的两个非空子集，且对任意 $x\in X,y\in Y$ 都有 $x\le y$。则存在 $a\in\mathbb R$，使对任意 $x\in X,y\in Y$ 都有 $x\le a\le y$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.53}
+求证：无理数全体是不可数集合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.54}
+设 $\{x_n\}$ 为有上界的实数列，$y_n=\sup_{j>n}x_j$。补证以下情形：若 $\lim_{n\to\infty}y_n=-\infty$，则 $-\infty$ 是 $\{x_n\}$ 的极限点，且 $\limsup_{n\to\infty}x_n=-\infty$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.55}
+设 $\lim_{n\to\infty}a_n=a\in\mathbb R$，证明\[\lim_{n\to\infty}\frac{a_1+a_2+\cdots+a_n}{n}=a.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.56}
+设非负数列 $\{x_n\}$ 满足\[x_{k+n}\le x_k+x_n\qquad(\forall k,n\in\mathbb N).\]证明数列 $\{x_n/n\}$ 收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.57（改写）}
+设 $\{a_n\}$ 是正数列。证明\[\liminf_{n\to\infty}\frac{a_{n+1}}{a_n}\le\liminf_{n\to\infty}\sqrt[n]{a_n}\le\limsup_{n\to\infty}\sqrt[n]{a_n}\le\limsup_{n\to\infty}\frac{a_{n+1}}{a_n}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.58}
+证明每个实数有唯一的实立方根。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.59}
+设 $x_1,x_2,x_3,\ldots$ 是满足 $|x_n|\le 1/2^n$ 的实数列，令 $y_n=x_1+x_2+\cdots+x_n$。证明数列 $y_1,y_2,y_3,\ldots$ 收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.60}
+设 $\{x_n\}$ 是非负数列，$\lim_{n\to\infty}x_n=x$，证明 $\lim_{n\to\infty}\sqrt{x_n}=\sqrt{x}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.61}
+证明无理数集合在 $\mathbb R$ 中稠密。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.62}
+计算下列数列的上确界、下确界、上极限、下极限和所有极限点。
+\SubQ{1}{$x_n=(-1)^n+\dfrac1n$。}
+\SubQ{2}{$x_n=1+\dfrac{(-1)^n}{n}$。}
+\SubQ{3}{$x_n=(-1)^n+\dfrac1n+2\sin(n\pi/2)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.63}
+计算下列数列的上确界、下确界、上极限、下极限和所有极限点。
+\SubQ{1}{（*）$x_n=\sin n$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.64}
+设一个有界数列 $\{x_n\}$ 是一个单调增数列 $\{y_n\}$ 与一个单调减数列 $\{z_n\}$ 的和，即 $x_n=y_n+z_n$。问 $\{x_n\}$ 收敛吗？如果再假设 $\{y_n\}$、$\{z_n\}$ 有界呢？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.65}
+设 $E$ 是 $\mathbb R$ 的非空子集，$y$ 是两个数列 $\{x_n\}$、$\{y_n\}$ 的共同极限，其中 $x_n\in E$，$y_n$ 是 $E$ 的上界。证明 $y=\sup E$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.66}
+构造一个数列，使它的实数极限点集恰好为整数集合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.67}
+是否存在一个数列，它的极限点恰好为 $1,1/2,1/3,\ldots$？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.68}
+约定空集的上确界为 $-\infty$。设 $A,B$ 为 $\mathbb R$ 的非空子集，证明 $\sup(A\cup B)\ge\sup A$，$\sup(A\cap B)\le\sup A$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.69}
+证明 $\liminf_{n\to\infty}x_n=-\limsup_{n\to\infty}(-x_n)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.70}
+设 $\{x_n\}$、$\{y_n\}$ 是实数列。证明以下不等式，并举例说明其中的等号可以不成立（排除无意义的运算情形）。
+\SubQ{1}{$\limsup_{n\to\infty}(x_n+y_n)\le\limsup_{n\to\infty}x_n+\limsup_{n\to\infty}y_n$。}
+\SubQ{2}{$\liminf_{n\to\infty}x_n+\liminf_{n\to\infty}y_n\le\liminf_{n\to\infty}(x_n+y_n)\le\limsup_{n\to\infty}x_n+\liminf_{n\to\infty}y_n$。}
+\SubQ{3}{若 $x_n,y_n\ge0$，则 $\limsup_{n\to\infty}(x_ny_n)\le(\limsup_{n\to\infty}x_n)(\limsup_{n\to\infty}y_n)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.71}
+设 $\{x_n\}$、$\{y_n\}$ 是实数列，$\lim_{n\to\infty}x_n=x\in\mathbb R$。证明：
+\SubQ{1}{$\limsup_{n\to\infty}(x_n+y_n)=x+\limsup_{n\to\infty}y_n$。}
+\SubQ{2}{$\liminf_{n\to\infty}(x_n+y_n)=x+\liminf_{n\to\infty}y_n$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.72}
+证明 $\limsup_{n\to\infty}x_n=a\in\mathbb R$ 当且仅当对任意 $\varepsilon>0$，同时有：存在无限多个 $n$ 满足 $x_n>a-\varepsilon$；当 $n$ 充分大时，$x_n<a+\varepsilon$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.73}
+证明下列命题。
+\SubQ{1}{如果数列 $\{x_j\}$ 满足 $\limsup_{n\to\infty}x_n=\lim_{k\to\infty}\sup_{j>k}x_j=-\infty$，那么 $\lim_{j\to\infty}x_j=-\infty$。}
+\SubQ{2}{如果数列 $\{x_j\}$ 在扩充实数系中只有一个极限点，且该极限点为 $+\infty$，那么 $\lim_{j\to\infty}x_j=+\infty$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.74}
+任取所有有理数的一个排列 $r_1,r_2,r_3,\ldots$，证明此数列的极限点集合是扩充实数系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.75}
+证明数列 $\{x_j\}$、$\{y_j\}$ 的混合数列 $x_1,y_1,x_2,y_2,\ldots$ 的极限点集合是 $\{x_j\}$ 与 $\{y_j\}$ 的极限点集合的并。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.76}
+考虑沿无限矩阵\[\begin{matrix}a_{11}&a_{12}&a_{13}&\cdots\\a_{21}&a_{22}&a_{23}&\cdots\\a_{31}&a_{32}&a_{33}&\cdots\\\vdots&\vdots&\vdots&\ddots\end{matrix}\]的反对角线行进得到的数列 $a_{11},a_{21},a_{12},a_{31},a_{22},a_{13},\ldots$。证明矩阵中每一行或列构成的数列的极限点都是上述数列的极限点。是否能够通过这种方式得到此数列的所有极限点？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.77}
+设 $c\in\mathbb R$，定义数列\[x_1=\frac c2,\qquad x_{n+1}=\frac c2+\frac{x_n^2}{2},\qquad n=1,2,\ldots.\]讨论数列 $\{x_n\}$ 的敛散性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.78}
+设 $\lim_{n\to\infty}x_n=x$，$\lim_{n\to\infty}y_n=y$，$x,y\in\mathbb R$，求\[\lim_{n\to\infty}\frac{x_1y_n+x_2y_{n-1}+\cdots+x_ny_1}{n}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.79}
+设 $\{x_n\}$ 是单调递减的正数列，$\sum_{n=1}^{\infty}x_n$ 收敛。设 $P$ 表示从该级数中任意抽取有限或无限项求和所得数的全体（包含空和 $0$）。证明 $P$ 是一个区间当且仅当对任意 $n$ 有\[x_n\le\sum_{j=n+1}^{\infty}x_j.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.80}
+证明\[\lim_{n\to\infty}\sqrt{1+2\sqrt{1+3\sqrt{1+\cdots\sqrt{1+(n-1)\sqrt{1+n}}}}}=3.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.81}
+设 $0<x_1<1$，$x_{n+1}=x_n(1-x_n)$（$n=1,2,\ldots$）。证明 $\lim_{n\to\infty}nx_n=1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.82}
+设非负数列 $\{x_n\}$ 满足 $x_{m+n}\le x_mx_n$（$\forall m,n\in\mathbb N$），证明数列 $\{\sqrt[n]{x_n}\}$ 收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.83}
+设 $a_0,a_1,a_2,\ldots$ 为整数列，其中 $a_1,a_2,\ldots$ 为正整数。定义有理数列\[x_0=a_0,\quad x_1=a_0+\frac1{a_1},\quad x_2=a_0+\frac1{a_1+\frac1{a_2}},\quad x_3=a_0+\frac1{a_1+\frac1{a_2+\frac1{a_3}}},\quad\ldots.\]证明此数列为 Cauchy 列，且其极限为某个无理数 $x$。称整数列 $a_0,a_1,a_2,\ldots$ 为 $x$ 的连分数展开，记为 $x=[a_0,a_1,a_2,\ldots]$。证明任意无理数都有连分数展开。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.84}
+设 $A,B$ 是两个实数集合，定义 $B\setminus A=\{x\in B:x\notin A\}$。证明：如果 $B$ 是闭集，$A$ 是开集，则 $B\setminus A$ 是闭集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.85}
+求证：如果实数集合 $A$ 的子集 $B$ 在 $A$ 中稠密，则 $\sup A=\sup B$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{14.86（改写、校订）}
+从闭区间 $[0,1]$ 开始，第一步去掉中间三分之一的开区间 $(1/3,2/3)$，以后每一步都从当前剩余的每个闭区间中去掉中间三分之一的开区间。设 $J_n$ 为第 $n$ 步去掉的开区间之并，令\[J=\bigcup_{n=1}^{\infty}J_n,\qquad C=[0,1]\setminus J.\]证明：
+\SubQ{1}{$C$ 是闭集。}
+\SubQ{2}{$C$ 不包含任何非退化区间。}
+\SubQ{3}{$J$ 在 $[0,1]$ 中稠密。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.87}
+设 $A$ 为开集，且 $B$ 是 $A$ 的有限子集。证明 $A\setminus B=\{x\in A:x\notin B\}$ 是开集。如果 $B$ 是可数集合，同样的结论是否仍成立？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.88}
+设 $\{I_\lambda:\lambda\in\Gamma\}$ 是一族开区间，且 $\bigcap_{\lambda\in\Gamma}I_\lambda\ne\varnothing$。证明 $\bigcup_{\lambda\in\Gamma}I_\lambda$ 是一个开区间。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.89}
+设 $A=\{x_1,x_2,x_3,\ldots\}$ 是数列的附属集合。
+\SubQ{1}{证明 $A$ 的聚点是数列的极限点。}
+\SubQ{2}{如果 $A$ 中每个点在数列中只出现有限次，证明数列的实数极限点是 $A$ 的聚点。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.90}
+设 $A$ 是闭集，$x\in A$，$B=A\setminus\{x\}$。问何时 $B$ 仍是闭集？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.91}
+证明或举例说明下列命题。
+\SubQ{1}{如果 $B$ 是 $A$ 的稠密子集，那么 $A$ 与 $B$ 具有相同的聚点集。}
+\SubQ{2}{证明 $\mathbb R$ 的每个无限子集都存在一个可数的稠密子集。举例说明存在集合 $A$，使 $A\cap\mathbb Q$ 不在 $A$ 中稠密。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.92}
+证明一个数列的实数极限点集合为闭集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.93}
+称一个闭集为完全集，是指它的每个点都是聚点。证明 Cantor 集是不含任何非退化区间的完全集，且它是不可数集合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.94}
+什么实数集合既是开集，又是闭集？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.95（校订）}
+证明：有限个紧集的并是紧集；任意非空族紧集的交是紧集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.96}
+证明实数集合 $A$ 紧致等价于它具有如下有限交性质：如果 $\mathcal B$ 是任意闭集族，且其中任意有限个闭集的交都含有 $A$ 中的点，那么 $\mathcal B$ 中所有闭集的交都含有 $A$ 中的点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.97}
+对于两个非空实数集合 $A,B$，定义 $A+B=\{a+b:a\in A,b\in B\}$。
+\SubQ{1}{证明：如果 $A$ 是开集，那么 $A+B$ 是开集。}
+\SubQ{2}{证明：如果 $A,B$ 均为紧集，那么 $A+B$ 为紧集。}
+\SubQ{3}{给出 $A,B$ 均为闭集，但 $A+B$ 不是闭集的例子。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.98}
+证明：如果 $A$ 是非空紧集，那么 $\sup A$ 和 $\inf A$ 都属于 $A$。给出一个非紧集 $A$，但 $\sup A$ 和 $\inf A$ 都属于 $A$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.99}
+证明每个无限紧集都有一个聚点。同样的结论对闭集成立吗？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.100}
+证明：如果 $B$ 是紧集，则存在有限闭区间 $[a,b]$ 和开集 $A$，使得 $B=[a,b]\setminus A$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.101}
+如果 $A\subset B_1\cup B_2$，其中 $B_1,B_2$ 是不相交的开集，且 $A$ 为紧集，证明 $A\cap B_1$ 为紧集。若 $B_1$ 与 $B_2$ 相交，结论仍成立吗？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.102}
+设 $A$ 是 $\mathbb R$ 的不可数子集。证明 $A$ 含有不可数个 $A$ 的聚点。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.103}
+在无限十进小数的系统上定义加法、乘法及大小关系，并验证这些定义与相应实数的运算及次序一致。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.104}
+设 $x\in\mathbb R$，令 $\alpha_x=\{q\in\mathbb Q:q<x\}$。证明 $\alpha_x$ 是一个 Dedekind 分割，即它是 $\mathbb Q$ 的非空真子集，向下封闭，且没有最大元素。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.105}
+令 $\mathcal R$ 为 Dedekind 分割全体，$\Phi:\mathcal R\to\mathbb R$ 定义为 $\Phi(\alpha)=\sup\alpha$。已知 $\Phi$ 保持加法和乘法。证明它还保持大小关系、零元、单位元、加法逆元和非零元的乘法逆元，从而是有序域同构。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.106}
+设有理数 $a$ 不能表示为有限小数。证明它的无限小数表示一定是循环的，即存在非负整数 $N$ 和正整数 $k$，使从小数点后第 $N+1$ 位起，以长为 $k$ 的数字组循环。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.107}
+设 $\alpha,\beta$ 为两个 Dedekind 分割，$0^*=\{q\in\mathbb Q:q<0\}$。证明下列性质。
+\SubQ{1}{$\{a+b:a\in\alpha,b\in\beta\}$ 仍是一个分割，定义为 $\alpha+\beta$。}
+\SubQ{2}{$\alpha+0^*=\alpha$。}
+\SubQ{3}{分割的加法满足结合律。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.108}
+设 Dedekind 分割 $\alpha,\beta\ge0^*$，定义\[\gamma=\{r\in\mathbb Q:r<0\text{，或存在 }a\in\alpha,b\in\beta,\ a,b\ge0\text{ 且 }r=ab\}.\]证明 $\gamma$ 是一个分割。该分割记作 $\alpha\beta$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.109}
+设 Dedekind 分割 $\alpha>0^*$，定义\[\beta=\{b\in\mathbb Q:b\le0\}\cup\{b\in\mathbb Q:b>0,\ \exists c\in\mathbb Q\setminus\alpha,\ 1/b>c\}.\]证明 $\beta$ 是一个分割，且 $\beta>0^*$、$\alpha\beta=1^*$，其中 $1^*=\{q\in\mathbb Q:q<1\}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.110}
+证明对任意 Dedekind 分割 $\alpha$，都有 $\alpha1^*=\alpha$，其中 $1^*=\{q\in\mathbb Q:q<1\}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.111（校订）}
+设 $A$ 是 $\mathbb R$ 的非空子集，对每个 $x\in A$ 定义 $\alpha_x=\{q\in\mathbb Q:q<x\}$。证明 $\bigcup_{x\in A}\alpha_x$ 是一个 Dedekind 分割，或者是整个有理数集合 $\mathbb Q$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.112}
+设 $x,y$ 是正实数，$\alpha_t=\{q\in\mathbb Q:q<t\}$。证明 $\alpha_{xy}$ 是所有非正有理数与所有形如 $ab$ 的数的集合之并，其中 $0<a\in\alpha_x$，$0<b\in\alpha_y$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.113}
+设 $x,y$ 为实数，$\alpha_t=\{q\in\mathbb Q:q<t\}$。证明 $x\le y$ 当且仅当 $\alpha_x\subseteq\alpha_y$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{14.114（校订）}
+称实数 $x$ 为代数数，是指它是某个非零整系数多项式的根；不是代数数的实数称为超越数。证明下列命题。
+\SubQ{1}{设 $x_0$ 为无理代数数，$P(x)$ 是满足 $P(x_0)=0$ 的最低次数非零整系数多项式，次数为 $n$。证明存在正数 $A$，对区间 $[x_0-1,x_0+1]$ 中任意有理数 $p/q$（$p\in\mathbb Z,q\in\mathbb N$），成立 Liouville 不等式 $\left|p/q-x_0\right|\ge A/q^n$。}
+\SubQ{2}{证明 $\displaystyle\sum_{k=1}^{\infty}\frac1{10^{k!}}$ 是超越数。}
+\SubQ{3}{证明所有代数数构成可数集合，从而所有超越数的集合不可数。}
+\end{minipage}\par\vfill

@@ -1,0 +1,296 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 3,
+  "method": "依据2026-10-23已完成的逐页视觉与OCR交叉校核记录补齐章节级状态；本次不声称重新人工校对。原qa/review-chapter逐页ocr_cross_check均为complete。",
+  "pages": [
+    {
+      "page_number": 89,
+      "ocr_markdown_sha256": "36ba28a7695845059f079dbc581e09b19945b0e11371971ff4f3b3774f1b6b3e"
+    },
+    {
+      "page_number": 90,
+      "ocr_markdown_sha256": "ec50ec69d7576aea624ce6eaf77504a0c8657a8e9f00b2ebb3fff74c392ccfcf"
+    },
+    {
+      "page_number": 91,
+      "ocr_markdown_sha256": "0f9e2e758a9c2cfdc2fa53d42859ff13fd36b0b917185906e849148c5a23c24f"
+    },
+    {
+      "page_number": 92,
+      "ocr_markdown_sha256": "d248089568b7fbf0c8fa8c3d02dd0a1228b1b2e9bbf25aa0f71e6f4f13b88c66"
+    },
+    {
+      "page_number": 93,
+      "ocr_markdown_sha256": "870ec8e678d6f6a0c4fc8beb572e242bab20dce624571096137d2fad80ca3e47"
+    },
+    {
+      "page_number": 94,
+      "ocr_markdown_sha256": "43d1d5f88780254e51a87bacaa9ebfd48d824d4268c2f886a6d4501c967b41fa"
+    },
+    {
+      "page_number": 95,
+      "ocr_markdown_sha256": "c78b471fd0c3b1f07407bc21e480bac5172b048175c595fa3469634a796f3996"
+    },
+    {
+      "page_number": 96,
+      "ocr_markdown_sha256": "09f89ceba231a3e3047b12b4167f1ee48938385b995e45b3a10b5a6edb33e1b8"
+    },
+    {
+      "page_number": 97,
+      "ocr_markdown_sha256": "0e28ecc3ba792751b9f909124cb7f31bbe589f8eeccf51a20bb3e71aea3b23ac"
+    },
+    {
+      "page_number": 98,
+      "ocr_markdown_sha256": "a87c59a725134980e5ab0134652b45ed3819e3e4195ad70883ff3ac465f6b2b5"
+    },
+    {
+      "page_number": 99,
+      "ocr_markdown_sha256": "a7bb8fcf5024db980797376ca7d21d6d84eaa29eb06e3c2430970bd27fee9990"
+    },
+    {
+      "page_number": 100,
+      "ocr_markdown_sha256": "4192b90af4ce539bb1f234009ceccdec1e8fd0a4e6e7d7d0f74bcb7193c003e5"
+    },
+    {
+      "page_number": 101,
+      "ocr_markdown_sha256": "bd112b9d2df342776eacbb2ba4897c4664fc7ef5893e9a93594d0ec7d7ca6d99"
+    },
+    {
+      "page_number": 102,
+      "ocr_markdown_sha256": "56549af946914d47e80e3f1945b293375a5539742d6efc72eb85480c07e516bb"
+    },
+    {
+      "page_number": 103,
+      "ocr_markdown_sha256": "1d5ad8afadb25a5cc01cfef332a6634c341ab04abbdb009bd22cdb67e421d85a"
+    },
+    {
+      "page_number": 104,
+      "ocr_markdown_sha256": "896da8f07c77321e60f1865382cc9aeace50ed8cb6dd816dc55663c0a81e6669"
+    },
+    {
+      "page_number": 105,
+      "ocr_markdown_sha256": "2049f15bc059f9295a79688993b1e3b67219745584d6135009f1b2f032ef52f5"
+    },
+    {
+      "page_number": 106,
+      "ocr_markdown_sha256": "94a22d019c2f51f0e2fca79b8a2e37b4b100debfb3fe15d2f9264a38193a2693"
+    },
+    {
+      "page_number": 107,
+      "ocr_markdown_sha256": "d0465d956a1a471ed2a07b8d22e16aea5dc5f0769961d854713b35d582f3ee90"
+    },
+    {
+      "page_number": 108,
+      "ocr_markdown_sha256": "926e17ff16c1d1a841c70d20996eb39ae0afaa6e38ab7acebf1f40580877b8e7"
+    },
+    {
+      "page_number": 109,
+      "ocr_markdown_sha256": "fcd12b7e1d7f7cb5e9a38dd502c5a0feb84b063279622c09400b60af74ef467b"
+    },
+    {
+      "page_number": 110,
+      "ocr_markdown_sha256": "f703bacaeb052bac0c1feb207bf3ca73902091fa83587d3930588a86847176fa"
+    },
+    {
+      "page_number": 111,
+      "ocr_markdown_sha256": "807a180bca257a7b6b3e7e4566d35281f4b7c696d8e013faa1862c74caade570"
+    },
+    {
+      "page_number": 112,
+      "ocr_markdown_sha256": "273bdc4ea45fe2f928d65111c2cab9e54fba7bcf7741210670b50d57c02d34a5"
+    },
+    {
+      "page_number": 113,
+      "ocr_markdown_sha256": "ba496bbdce2d26f55370b8b24fa9bd97a05e7679c4b6c7208dc7a667661afaa2"
+    },
+    {
+      "page_number": 114,
+      "ocr_markdown_sha256": "bb23071a1e3d49a64686e7f07c3b2027c477029019f4be4569ed1c6533855847"
+    },
+    {
+      "page_number": 115,
+      "ocr_markdown_sha256": "d0f751139d2c126338f14beb0e3e15bef616720c57d4254f56201e6b5b9e53c4"
+    },
+    {
+      "page_number": 116,
+      "ocr_markdown_sha256": "efa580219cc6dd630c10f99332e349d2dd9bccd607471695a2db34aa861a8de0"
+    },
+    {
+      "page_number": 117,
+      "ocr_markdown_sha256": "ef7ac76be1e2b2e3d945e31bdfb65cc07af0dfb95f8652c39454842cb1792d2e"
+    },
+    {
+      "page_number": 118,
+      "ocr_markdown_sha256": "4824fc60c56e3004fd54751836133bf8333aba5e63d4c8813109182350f0bd3a"
+    },
+    {
+      "page_number": 119,
+      "ocr_markdown_sha256": "168e9376f07d26ca7676321f009714cfeeb86a96d182b75e34fcfa47ea993142"
+    },
+    {
+      "page_number": 120,
+      "ocr_markdown_sha256": "5d2f87ba328d672d21d09a7d3cfb6aea3af8d9b7b0e3dc45eff92e9f9bb24b5d"
+    },
+    {
+      "page_number": 121,
+      "ocr_markdown_sha256": "7b99bb295efd7535b1ea3c835358cd63f44d67b2d62f6683c8b875738460bcd7"
+    },
+    {
+      "page_number": 122,
+      "ocr_markdown_sha256": "0394988eae0a9e6f46f0affa3f053474852ff90efcb91e83607b137dba1af9a0"
+    },
+    {
+      "page_number": 123,
+      "ocr_markdown_sha256": "c945f1b59da1abfba676ae4715b5986c645fca17b6e777933f4c6a4242222c8a"
+    },
+    {
+      "page_number": 124,
+      "ocr_markdown_sha256": "621d5ee8651aaeb55f9b36b8ed37c8941136e771b7d4bcfa8325cbc52cab0a6c"
+    },
+    {
+      "page_number": 125,
+      "ocr_markdown_sha256": "4d7ce89f32dee5ccc44c4af52158b6cd5584a52327d4284a1821c871bf1d434a"
+    },
+    {
+      "page_number": 126,
+      "ocr_markdown_sha256": "82de971ef56e52869c5a2b048340b93b2b89a59a0f20bf4f35b022b1a1436709"
+    },
+    {
+      "page_number": 127,
+      "ocr_markdown_sha256": "c367ec437bb30a755f841d1f61fa91bbc8a1f806cc7d867c74e52dc409675e38"
+    },
+    {
+      "page_number": 128,
+      "ocr_markdown_sha256": "e28660c5af04e265f7b869a94a37db84e8bd8588084ecc8397a52b41ee02b920"
+    },
+    {
+      "page_number": 129,
+      "ocr_markdown_sha256": "4a61c0ddb809c3a56010de790c95665cf66a32192c0519f6567ea9d087ad2d4f"
+    },
+    {
+      "page_number": 130,
+      "ocr_markdown_sha256": "c66cc9e47812e79e42f984b14bd2f7fdedbe9c0f7e4d4f3654e44db8b80c4805"
+    },
+    {
+      "page_number": 131,
+      "ocr_markdown_sha256": "c81cab86bbe241fe9da500d8a5140cdbfcedf6414e16e40ea929e62a1dc9618d"
+    },
+    {
+      "page_number": 132,
+      "ocr_markdown_sha256": "e9e6e594a9226ff15b3789f48613cd5c91a387d44777f06e2049d1c5b0e9bca7"
+    },
+    {
+      "page_number": 133,
+      "ocr_markdown_sha256": "c1bbf6a80ec8fb23559785b602d914845eac2da0b28de9ddde60809cb8529972"
+    },
+    {
+      "page_number": 134,
+      "ocr_markdown_sha256": "98dc8900ef6fba9dedc1b42873825867cd13a345c884eab4d073e0e42ec4537b"
+    },
+    {
+      "page_number": 135,
+      "ocr_markdown_sha256": "811489f818ca05ffd65a934a0ae49cf72a9a03b50e6469b3331222fde5a191c6"
+    },
+    {
+      "page_number": 136,
+      "ocr_markdown_sha256": "de1feb85295636c969bf3bad02b66a7d7548d8f87aef60465d76cdbd37f2052d"
+    },
+    {
+      "page_number": 137,
+      "ocr_markdown_sha256": "975d8c7184a7645582080d2edb7742426d71e6ba7a270725e3efca0a2628d1d6"
+    },
+    {
+      "page_number": 138,
+      "ocr_markdown_sha256": "f0f24a21bc2fa2d4e613b65ba71d4763354e41e94994a2486f82ecd6708378da"
+    },
+    {
+      "page_number": 139,
+      "ocr_markdown_sha256": "7f00c83edc9a2f051b7e9a1a2e2b0c0b70c5fcf998c1f93ed3ddf1579f75494c"
+    },
+    {
+      "page_number": 140,
+      "ocr_markdown_sha256": "1e9fad35a128d83d44825eb877028b0f15460db9c557f07aa61273756dfe6b78"
+    },
+    {
+      "page_number": 141,
+      "ocr_markdown_sha256": "c6cfec3cf721cf04c0d9371d8038338f118bd43f0bca8451064ea9bc3b630bc2"
+    },
+    {
+      "page_number": 142,
+      "ocr_markdown_sha256": "2ed97339b27c53e47ce7f0d7aa5bb6b5a7847dc65241baab9396abd39c382eab"
+    },
+    {
+      "page_number": 143,
+      "ocr_markdown_sha256": "a8a85d2c5e7268ae3883ebb9ab60f38fba789d2acd9681e0a035bad684740bd5"
+    },
+    {
+      "page_number": 144,
+      "ocr_markdown_sha256": "52901e726cef31c209333057b3ffa5721a85132ee96a55393558f7910b4d319f"
+    },
+    {
+      "page_number": 145,
+      "ocr_markdown_sha256": "1c45c748adf56d6eb670e506f189a75fdd2d7e498f26854987063a181f38eee1"
+    },
+    {
+      "page_number": 146,
+      "ocr_markdown_sha256": "af9d95eb265dbb422cf8b07398b1a23bf9d8e5ac4bc768571bc0b3a49fadf0c2"
+    },
+    {
+      "page_number": 147,
+      "ocr_markdown_sha256": "98401c31b6f714cb1de08bffc42353cf1bf030ec26e7c3203f65925d9fbfbc80"
+    },
+    {
+      "page_number": 148,
+      "ocr_markdown_sha256": "3af3132c7c43377d70e5a5da270c6cb6478aef3e7535f1a178b86b6ca6a7d1fe"
+    },
+    {
+      "page_number": 149,
+      "ocr_markdown_sha256": "9602572f0b759e7f0135a09d48c6e9a21206626e6346b9f326235afa2bc6f22f"
+    },
+    {
+      "page_number": 150,
+      "ocr_markdown_sha256": "ab65f20e9aa0917f71c039d7e797b81ff1efc2e050d582cac22220162a4ed0ae"
+    },
+    {
+      "page_number": 151,
+      "ocr_markdown_sha256": "abe2b3c0620192c6e4c9a2339c3a61ebdc1ca0926c182221a956bfdc69f16db9"
+    },
+    {
+      "page_number": 152,
+      "ocr_markdown_sha256": "03eda953908990ed97bfa9e77cf3d0a2b0286b062f6b14e58b13641fc3ae3911"
+    },
+    {
+      "page_number": 153,
+      "ocr_markdown_sha256": "18f65c77e50804acb9a5cb70bcb01be959a93d5be5a55cd26d9f3c17f974ce4a"
+    },
+    {
+      "page_number": 154,
+      "ocr_markdown_sha256": "22afe78d4c0606d0ca8c145fa412770fc87134164ecf061d894ada2fa275e3d0"
+    },
+    {
+      "page_number": 155,
+      "ocr_markdown_sha256": "639aaa5e6ba3a3d5119283c3d7c45f6b2f30f9156a6ac5aa58468bcf322b85ac"
+    },
+    {
+      "page_number": 156,
+      "ocr_markdown_sha256": "5d747f689c50a6686fb795f8b9e148d2c51154dcec033d69d1a82ae9c0d54c16"
+    },
+    {
+      "page_number": 157,
+      "ocr_markdown_sha256": "3418eddc6742b4511e67924644c087dc74699c29980bdfeb2328a7a01f037ffd"
+    },
+    {
+      "page_number": 158,
+      "ocr_markdown_sha256": "394374cb2e254847679b462a6ca3ab0f870c91ae2645b8b40c88106388189503"
+    },
+    {
+      "page_number": 159,
+      "ocr_markdown_sha256": "3383a6c50816b6310154a38c57742288fd97c772fb7ad5e5122426b3009de5aa"
+    },
+    {
+      "page_number": 160,
+      "ocr_markdown_sha256": "1215fc91dbf456f8fa6c1353cc24d719d7e2149a9590915389157cc0424addfc"
+    }
+  ]
+}

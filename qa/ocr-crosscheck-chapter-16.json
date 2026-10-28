@@ -1,0 +1,327 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 16,
+  "source_id": "bd727a57b926",
+  "total_source_pages": 31,
+  "page_results": [
+    {
+      "page_number": 117,
+      "status": "verified",
+      "result_sha256": "c6dfa5118d3823659ac37b5ed2cffa22a8d25b956da77c3d99b2d3df2ec142ca",
+      "structured_result_sha256": "86870de3d18ea2b99cd36e92e0524d16a2aaff2a36f559d1e98816cfc747b087",
+      "units_count": 0,
+      "findings": "全文核读：章引言与内积定义，无独立题目。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0117/result.md"
+    },
+    {
+      "page_number": 118,
+      "status": "verified",
+      "result_sha256": "9ce5ae6e34149fdfdbe5b21e1cf85d6224b062abb4b22cf4ba7149dcfe858df2",
+      "structured_result_sha256": "a0bc5f3466f9a0d926a72e1f244a9ac20aec2cea160cb218af81aee3f9df2066",
+      "units_count": 1,
+      "findings": "函数空间积分内积的例题条件与公式完整；其余为定义。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0118/result.md"
+    },
+    {
+      "page_number": 119,
+      "status": "verified",
+      "result_sha256": "dbeeebc364514812f250d12887ac1b903a77a291d5c33f11ac80d2f756637c4d",
+      "structured_result_sha256": "fd54716102dcb7d0d17e1a5867627bd9b2e83030b39fd067bcf20dd5d67db552",
+      "units_count": 0,
+      "findings": "全文为内积诱导范数定理证明及Cauchy–Schwarz与极化恒等式介绍，未独立增题。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0119/result.md"
+    },
+    {
+      "page_number": 120,
+      "status": "verified",
+      "result_sha256": "eb27f4ad3794a9e4051fb3ad35425b5311555589a801268dc0da4490b6def6c1",
+      "structured_result_sha256": "a038c7e7abecca6a562cc693b1c97e600f82ce0fd7309c49f5a242b5e6ee7420",
+      "units_count": 2,
+      "findings": "有限维Lp范数、无穷范数极限及非内积诱导条件完整；极化读者任务由p127正式题覆盖。函数Lp例跨至121。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0120/result.md"
+    },
+    {
+      "page_number": 121,
+      "status": "verified",
+      "result_sha256": "58c4dadb5b0f94342425ff046c443b1909497f9159462c7c87dfade132ebcff6",
+      "structured_result_sha256": "44a6f7698bfedc106a1a32d2e8af6757ec0c57557302be8b3b6393663071d72b",
+      "units_count": 0,
+      "findings": "核对源图后补足同例中的Lp趋向sup范数极限；sup范数证明已在p127正式题收入；后半页为距离定义。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0121/result.md"
+    },
+    {
+      "page_number": 122,
+      "status": "verified",
+      "result_sha256": "997821ee771e9ac7d88c7dc160da3e2ec75322c5d9cde00ebdcb181edbcce425",
+      "structured_result_sha256": "04c04368bb693e30e85c38748ebf9d27e6be411b397532c0c8459c253ad51ae0",
+      "units_count": 3,
+      "findings": "子空间、离散度量、有界化度量三个例题完整，分段条件及分母正确。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0122/result.md"
+    },
+    {
+      "page_number": 123,
+      "status": "verified",
+      "result_sha256": "d48fb5e32d74c384f1cc38a4c132b4f6d95c5e527eeeed34a0d219691f91b555",
+      "structured_result_sha256": "8af17beacd64a8ed57bd9608a2bbc17697b17a4051f1bbec95b554dfa670f4bd",
+      "units_count": 0,
+      "findings": "全文为Cauchy列、完备性及Rn坐标收敛理论；未把一般性质改为额外习题。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0123/result.md"
+    },
+    {
+      "page_number": 124,
+      "status": "verified",
+      "result_sha256": "c001a7b6389630206163e349fd41a651d9fd063b219cc9f66ba7ff03a74ce019",
+      "structured_result_sha256": "5c4c134897e947ce5615d36506fbdf91e4639c428f1dc22f4006c31faff6910e",
+      "units_count": 2,
+      "findings": "离散度量收敛/Cauchy刻画与序列空间完备性两个例完整；无穷级数权2^{-i}正确。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0124/result.md"
+    },
+    {
+      "page_number": 125,
+      "status": "verified",
+      "result_sha256": "7fdae7664ab2d8afd70755d970d1f54edbda14c3f49c02f7eb29a241d296d907",
+      "structured_result_sha256": "69d273c83cb260ec9b7e4b648ebbe752318847053bf76c00081fcc733d6aae6d",
+      "units_count": 1,
+      "findings": "跨页完备性证明及L1反例核对；源分段首区间误印1的既有校订为0正确。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0125/result.md"
+    },
+    {
+      "page_number": 126,
+      "status": "verified",
+      "result_sha256": "826d5c9a62f70757af47720e81bc68f62f07f4e5a46f0121900532844b7ed330",
+      "structured_result_sha256": "1b9282b646933382234e1637b6c3c5794158f28c8b939b2f00884d6c94aba1e3",
+      "units_count": 1,
+      "findings": "矩阵算子范数例包含范数、范数比较及完备性、矩阵幂；矩阵指数续至127，已完整收入。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0126/result.md"
+    },
+    {
+      "page_number": 127,
+      "status": "verified",
+      "result_sha256": "54d850332a92d9eafc65253b8871a17fc57c2370e2474fcba2108eb2a0f9b153",
+      "structured_result_sha256": "623d09ff8338243c16aa70765e524ae883864c395a95d20d631f373bfb322d26",
+      "units_count": 8,
+      "findings": "矩阵指数续文完整；正式习题1–8均收入，题8续至128，极化与sup范数任务不重复新增。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0127/result.md"
+    },
+    {
+      "page_number": 128,
+      "status": "verified",
+      "result_sha256": "34e80059eac9e91a3156347502e7abb906af3436450acf12bfdb56511f3f3296",
+      "structured_result_sha256": "772d032982300f72b862cf04ff721a2a36cf727673557c67b5ea57c68e3f3b5a",
+      "units_count": 3,
+      "findings": "跨页题8与正式9–11题完整；lp逐坐标收敛反例、圆周弧长度量和两种矩阵特征值情况均保留。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0128/result.md"
+    },
+    {
+      "page_number": 129,
+      "status": "verified",
+      "result_sha256": "8c04acc5c01ae43b7f3f6c9475dd8c7bd8e3523b21f38d9f9f5194e14615a39e",
+      "structured_result_sha256": "ffa87f2af1915ddd21d1b273c09cb72412eeaad10009a95a58774f3717c3f61e",
+      "units_count": 0,
+      "findings": "开集运算读者任务由p135正式题覆盖；其余为定义与性质说明。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0129/result.md"
+    },
+    {
+      "page_number": 130,
+      "status": "verified",
+      "result_sha256": "b53a12884f31c51944d5de5f9a774ebb3b58041e9b4bed1dbe7dce69bd03f503",
+      "structured_result_sha256": "ae5567565634b9a5f9a9dbd39f344831012530d37cf584b5058302825e0d7bb6",
+      "units_count": 1,
+      "findings": "Euclid与Lp度量诱导开集相同的例题完整，包含p131反向结论；OCR将开误识为升未进入题干。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0130/result.md"
+    },
+    {
+      "page_number": 131,
+      "status": "verified",
+      "result_sha256": "e9634e7e40bd56296a6edb14fb9d9a30d7e8a2e8aab715aafaf49c03542feee3",
+      "structured_result_sha256": "f298427baf576f880064da5a70b2407d79c8e1a6a8d6f02541c5a00ed9ccd966",
+      "units_count": 0,
+      "findings": "闭包与闭集运算由正式p135题覆盖；完备子空间任务由p136正式2/6覆盖，原书两次列出保持。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0131/result.md"
+    },
+    {
+      "page_number": 132,
+      "status": "verified",
+      "result_sha256": "ddc71bcbb4238a84ff967ce481c0cfb36a87c8eca9a84ade0a0f445a469442f5",
+      "structured_result_sha256": "a9fadfd9edcfb0086053d82df773cf036abc23f3b6defd3a154f82436074d3cd",
+      "units_count": 0,
+      "findings": "两个Heine–Borel定义的等价读者任务由p136正式5覆盖；其余定义、定理及证明。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0132/result.md"
+    },
+    {
+      "page_number": 133,
+      "status": "verified",
+      "result_sha256": "e666770a2915c95733b6bcc614373bdb65e9a202c6395f8777392a3c7a3cae88",
+      "structured_result_sha256": "98d7e58d6aa4249a63ebd809596bf1d73b23089c4177d5ded4c458cca4b2cee0",
+      "units_count": 0,
+      "findings": "全文为抽象Heine–Borel证明与紧空间可数稠密子集引理，无新例题或明确读者任务。",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0133/result.md"
+    },
+    {
+      "page_number": 134,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0134/result.md",
+      "result_sha256": "3feaa1190948eb4ac4a2fea355a239869a36203654cc0aa1edc3c5ef36693f3d",
+      "structured_result_sha256": "bfcb707b1c0b196b7e4499b108abd88778d28ffd582bbd721a76c230abe30662",
+      "units_count": 0,
+      "findings": "完整核读：可数稠密性、紧致有界及Rn紧致判别的证明，无独立题目；OCR证明中的集合运算误识不进入题库。"
+    },
+    {
+      "page_number": 135,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0135/result.md",
+      "result_sha256": "439f57a0dc051e9f987cbf63d3a3965aa6487779fd2db2ff32c1cccb04c96e02",
+      "structured_result_sha256": "d8b92214905bc854836a514a37dc705ba2f92dc727f047ac7629969f26a79393",
+      "units_count": 3,
+      "findings": "分段连续函数族有界闭但不紧致的例题完整；Ascoli充要条件明确留作习题并已单独收入；正式题1的三条性质已展开。边界一般说明不扩为题。"
+    },
+    {
+      "page_number": 136,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0136/result.md",
+      "result_sha256": "dc6a7df4e28edf45dc3606168982c021639b7748bf39cb29376685e95c5fcd7d",
+      "structured_result_sha256": "246b7479ebb510000a46542b6f77928cc154ff74a71011866a81fa68c1bd4721",
+      "units_count": 13,
+      "findings": "逐题核对正式题2–14及全部小问；正式2和6原书重复但均保留；第8题与前页完整充要条件范围不同；第13题可数子覆盖的既有校订正确。"
+    },
+    {
+      "page_number": 137,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0137/result.md",
+      "result_sha256": "c1b94ac10421bb5f4e9c46142384126d872c8848a278c889f683b5df7e14d3a4",
+      "structured_result_sha256": "bd4eaa6859d10d0dce5f929896d2c13dff72bf61d346726fcb9165e5fafcb2e3",
+      "units_count": 5,
+      "findings": "逐题核对正式题15–19；集合边界的三个具体对象、两项证明、p进度量的四个小问均完整；四小问已拆为两道最终题。"
+    },
+    {
+      "page_number": 138,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0138/result.md",
+      "result_sha256": "be48d8ed6192ed4ff7b078c564c0b7941a97f68ef5266e40eb91be281f5ff0ab",
+      "structured_result_sha256": "79bbf6366909feaa61306f5002ad9c77a08d5416fd1aabfd4b17975a95160f4a",
+      "units_count": 0,
+      "findings": "全文为连续的等价定义及定义域说明，无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 139,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0139/result.md",
+      "result_sha256": "425eaacf975d22e4f66ad5e12d5aae35187231ea2774832f5610822ce3d64091",
+      "structured_result_sha256": "5bdb3a72398c5082c08f506b9fe07a31333d36989e185e9af664b75fcb619434",
+      "units_count": 0,
+      "findings": "全文为连续定义等价性定理及运算性质；未把完整理论正文额外改为习题。"
+    },
+    {
+      "page_number": 140,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0140/result.md",
+      "result_sha256": "ad2cee385918b9b0f059aea0684d4859343b78a0c29c791e86cb6e24f527e033",
+      "structured_result_sha256": "d6b604a5d639be2fec852cc21fd60c6c1c9b150777082cbc35c16e4479c90bbf",
+      "units_count": 1,
+      "findings": "坐标函数例包含初等复合运算及多元多项式连续性的完整要求；其余为压缩映射原理与证明。"
+    },
+    {
+      "page_number": 141,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0141/result.md",
+      "result_sha256": "a85b604b2e7d97bb3bffb737aff59dbdb8c3f457fb5828cb19a7a8b73852d24c",
+      "structured_result_sha256": "aa0168056d08981cff008a5f893d38036960bbfa7e924d14be247f01b6f8cf6f",
+      "units_count": 1,
+      "findings": "同一例中的平移和x+1/(1+x)两个反例均保留，等式/严格不等式及定义域正确；压缩映射证明不另制题。"
+    },
+    {
+      "page_number": 142,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0142/result.md",
+      "result_sha256": "3800ba92465b1c8cb976387c502738eb3b7e6551bda05dd2f47d92fffb32e7c2",
+      "structured_result_sha256": "cb20d0f47c0ce92535e960bf1a4a44579dab1671f817b3966ab77c34febc3cf4",
+      "units_count": 0,
+      "findings": "全文为紧致空间连续函数定理证明；直接最值证明任务由p146正式题1完整覆盖。"
+    },
+    {
+      "page_number": 143,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0143/result.md",
+      "result_sha256": "3ea1a64c59c6d9c9740d9fb207828c3e907d25a594da3b65279d47eab54227bf",
+      "structured_result_sha256": "3f05f2021896deaf17f739c0d7beaa15ace0d1e1c8ca1b43fc35b58e5230aac8",
+      "units_count": 0,
+      "findings": "一致收敛及Ascoli推广的明确练习由p146正式题5和9覆盖；其余为连通定义和性质证明。"
+    },
+    {
+      "page_number": 144,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0144/result.md",
+      "result_sha256": "5b8435fd5483d467a902f7294010a2a41caeadf6a78a774e100a0c3d67a8e0d6",
+      "structured_result_sha256": "4ebd988fd776206dd929199f58e26d1fef77a79c854cda66e3e949cc00b38404",
+      "units_count": 0,
+      "findings": "连续满射保持连通/弧连通的读者任务由p146正式题10覆盖，两种连通性均保留。"
+    },
+    {
+      "page_number": 145,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0145/result.md",
+      "result_sha256": "99b5ebbc6db5cc10c7256786b85ee99be7145e06c4602aeac8f6dab879aff4f8",
+      "structured_result_sha256": "b9b930d270140b07abb5be9edcccc55e75dc53364a4e8038fd3641b209a94b77",
+      "units_count": 2,
+      "findings": "拓扑正弦曲线与非空真开集边界两个例题完整；源解答中的闭包说明不作为题干复制。"
+    },
+    {
+      "page_number": 146,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0146/result.md",
+      "result_sha256": "9b3c03a21aa74ec340c0ce1389e29fae7114b0d3689a61434b96e5149ada704e",
+      "structured_result_sha256": "dd5c8745c7dad6a1ff2fdff65d68b55786aa2d28961134517c8b9f4c59bca963",
+      "units_count": 15,
+      "findings": "逐题核对正式1–15；连续复合的反例、ODE不动点、Ascoli一般化、连续双射逆不连续等任务完整。非空条件的既有校订与标准导数撇号正确。"
+    },
+    {
+      "page_number": 147,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0147/result.md",
+      "result_sha256": "44894eaeed72daee3deba03ec9d1724f8413aef58c6eea7fd97094310b00a6c3",
+      "structured_result_sha256": "2f2fb646f3f89e430674bb6eab290834a04ade970fa6ba5c15433716171555e6",
+      "units_count": 7,
+      "findings": "逐题核对正式16–22及全部小问；完备/连通的两方向反例、紧连通递减交、Hausdorff完备性均保留；非空紧集校订正确。"
+    }
+  ],
+  "verified_pages": [
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+  ],
+  "pending_pages": [],
+  "method": "实际逐页全文核读PaddleOCR结果，对照已核源图、恢复文本及题库；每页记录实际OCR文本及结构JSON的SHA256。原始OCR保留unreviewed。",
+  "engine": "PaddleOCR-VL-1.6 / llama.cpp",
+  "pages_checked": 31,
+  "source_units_checked": 69,
+  "final_problems": 70
+}

@@ -1,0 +1,21 @@
+{
+  "status": "verified_from_source_images",
+  "project": "数学分析讲义",
+  "chapter": 15,
+  "source_units": 99,
+  "final_problems": 100,
+  "decisions": [
+    {
+      "inline_page": 89,
+      "retained_page": 92,
+      "task": "紧致区间上一致收敛的连续函数列一致有界且一致等度连续。",
+      "action": "仅保留正式习题。"
+    },
+    {
+      "inline_page": 96,
+      "retained_page": 102,
+      "task": "一个因子具有紧支撑时连续函数的卷积有定义且连续。",
+      "action": "合并同一任务到正式习题，保留至少一个函数具有紧支撑的对称条件。"
+    }
+  ]
+}

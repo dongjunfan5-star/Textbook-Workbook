@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Whole-book production acceptance",
+  "type": "object",
+  "required": ["status", "planned_source_pages", "ocr_required_pages", "ocr_complete_pages", "review_complete_pages", "page_reviews_file", "projects"],
+  "properties": {
+    "status": {"type": "string", "description": "Only complete permits full publication. Keep an in-progress value until the entire review has finished."},
+    "planned_source_pages": {"type": "integer", "minimum": 1},
+    "ocr_required_pages": {"type": "integer", "minimum": 1, "description": "Count of included physical pages in config/production-books.json."},
+    "ocr_complete_pages": {"type": "integer", "minimum": 0},
+    "review_complete_pages": {"type": "integer", "minimum": 0, "description": "Reviewed pages including pages explicitly excluded with a reason."},
+    "page_reviews_file": {"type": "string", "pattern": "^qa/[^/]+\\.json$", "description": "An array of page_review records defined below; every physical page must occur exactly once."},
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["project", "status", "planned_source_pages", "ocr_required_pages", "ocr_complete_pages", "review_complete_pages", "problem_count", "pdf_sha256"],
+        "properties": {
+          "project": {"type": "string"},
+          "status": {"type": "string"},
+          "planned_source_pages": {"type": "integer", "minimum": 1},
+          "ocr_required_pages": {"type": "integer", "minimum": 1},
+          "ocr_complete_pages": {"type": "integer", "minimum": 0},
+          "review_complete_pages": {"type": "integer", "minimum": 0},
+          "problem_count": {"type": "integer", "minimum": 0},
+          "pdf_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "page_review": {
+      "type": "object",
+      "required": ["project", "source_file", "page_number", "status"],
+      "properties": {
+        "project": {"type": "string"},
+        "source_file": {"type": "string", "description": "Path relative to the project folder, matching config/projects.json."},
+        "page_number": {"type": "integer", "minimum": 1},
+        "status": {"enum": ["reviewed", "excluded"]},
+        "units_count": {"type": "integer", "minimum": 0, "description": "Source problem units beginning on this page, before splitting. Reviewed pages with zero units need a reason."},
+        "reason": {"type": "string"}
+      },
+      "if": {"properties": {"status": {"const": "excluded"}}},
+      "then": {"required": ["reason"], "properties": {"reason": {"minLength": 1}}},
+      "else": {"required": ["units_count"], "if": {"properties": {"units_count": {"const": 0}}}, "then": {"required": ["reason"], "properties": {"reason": {"minLength": 1}}}}
+    }
+  }
+}

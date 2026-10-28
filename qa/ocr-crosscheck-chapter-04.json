@@ -1,0 +1,96 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 4,
+  "pages": [
+    {
+      "page_number": 161,
+      "ocr_markdown_sha256": "c4074735fcf3ca5103c6db40f6b30e8e0f0b1a62ee21274766f2910003b8eefc"
+    },
+    {
+      "page_number": 162,
+      "ocr_markdown_sha256": "aaece7cf4abb71f18712d36aaeb1cd5aa3f150b9fa0f74c35676a37a0bac7615"
+    },
+    {
+      "page_number": 163,
+      "ocr_markdown_sha256": "82d22428f2aaaa28eb6c81008f0322915b1f2c6f134016ba0955e1a06b5f49d4"
+    },
+    {
+      "page_number": 164,
+      "ocr_markdown_sha256": "ec731fcaf6c06a9bf05363af5889b8afa00b7622ef714ded54d9c3b18eec1c1a"
+    },
+    {
+      "page_number": 165,
+      "ocr_markdown_sha256": "e269fefc937edc43e1dc2ad8326dbf27645b67642c74e72550dbb2e97fd2d55e"
+    },
+    {
+      "page_number": 166,
+      "ocr_markdown_sha256": "9c1cdb1ab817c324c527ed8cb3b6bf3b6d051f4e7a52c21ae54b4c9b78b463fb"
+    },
+    {
+      "page_number": 167,
+      "ocr_markdown_sha256": "e96432f06fdd552248d5129132f9f15551dda6b39563a30e41b5440ff59e1755"
+    },
+    {
+      "page_number": 168,
+      "ocr_markdown_sha256": "3326bba4607cdc1d7e6d6a0a1c04e492f9237fff94fe480706986bcd7c12bde9"
+    },
+    {
+      "page_number": 169,
+      "ocr_markdown_sha256": "c16d6c1f7d39979b4e6ddeeb8e7ed67739558541db81be0cd2d48c7dd933083c"
+    },
+    {
+      "page_number": 170,
+      "ocr_markdown_sha256": "0c8dfd7dde878d2421ce7ee2ad7be492bf09493c7ca39af20c53aa4398d07712"
+    },
+    {
+      "page_number": 171,
+      "ocr_markdown_sha256": "f489caa736d940de3f614c04bd58410367dda981e52fccce13d865a728c65074"
+    },
+    {
+      "page_number": 172,
+      "ocr_markdown_sha256": "517b7b0324296e99ac63560602c05a00e1ec1b6942bf385bd4a046eb924eb39c"
+    },
+    {
+      "page_number": 173,
+      "ocr_markdown_sha256": "05f61aa4240e1f14fa52583abd3e83c7457205a65f0d77c1f15c0c3a79d5f893"
+    },
+    {
+      "page_number": 174,
+      "ocr_markdown_sha256": "2eb4a3924d9f1b2ea3bfca2b91d4d7988522773db149ef855dcf17d88d32bbf5"
+    },
+    {
+      "page_number": 175,
+      "ocr_markdown_sha256": "a49494ed8a29b2612fdb4dedade5dd5e18775cc1fc2e76990a5a87cf4146c43a"
+    },
+    {
+      "page_number": 176,
+      "ocr_markdown_sha256": "5901f51b9b0107d7b682b46c7cceed886fb0f8638591036cc497f8f518cebbc0"
+    },
+    {
+      "page_number": 177,
+      "ocr_markdown_sha256": "a86f56ec782aefc3f410774a6dd3fc37b7b943febcaddc207d0ac04b9bd7cffe"
+    },
+    {
+      "page_number": 178,
+      "ocr_markdown_sha256": "f7f7ec4a489342142a5967d231e3dc34604e09bb8db650c02109df0e43e88637"
+    },
+    {
+      "page_number": 179,
+      "ocr_markdown_sha256": "b6c6418f43020b5cd02f174a09474e52c44b1f19b14e48e34f4fc48bcb60ea61"
+    },
+    {
+      "page_number": 180,
+      "ocr_markdown_sha256": "78246157b325b88704200754befe8f5e2a720a62614cd341cf7bd6065e1861d0"
+    }
+  ],
+  "source_units": 30,
+  "final_problems": 53,
+  "method": "逐页阅读全部 OCR 文本，对照已逐页审图的校订题库，核验例题、习题组的全部小问、跨页续题与明确读者任务。",
+  "findings": [
+    "第166、170页 OCR 漏掉部分积分符号，已核对源图，保留题库正确公式。",
+    "第171页第二换元法12个小问跨至172页；第172页26小问跨至173页，均保留首次页码并补足跨页元数据。",
+    "第177页双曲函数万能代换为明确读者任务，已收录。",
+    "所有题目公式与源图校订稿相符，本次未改动题目正文。"
+  ]
+}

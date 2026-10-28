@@ -1,0 +1,271 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{15}\section{度量空间的连续函数}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.1（改写）}
+设 $a<b$，$C([a,b])$ 为 $[a,b]$ 上实连续函数构成的线性空间。证明 $\displaystyle\langle f,g\rangle=\int_a^b f(x)g(x)\,dx$ 定义了该空间上的一个内积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.2（改写、校订）}
+在 $\mathbb R^n$ 中，设 $\displaystyle\|x\|_p=\left(\sum_{k=1}^n|x_k|^p\right)^{1/p}$（$1\le p<\infty$），$\|x\|_\infty=\max_{1\le k\le n}|x_k|$。
+\SubQ{1}{证明 $\|\cdot\|_p$ 是 $\mathbb R^n$ 上的范数。}
+\SubQ{2}{证明 $\lim_{p\to\infty}\|x\|_p=\|x\|_\infty$，并验证 $\|\cdot\|_\infty$ 是范数。}
+\SubQ{3}{当 $n\ge2$ 时，证明 $p\ne2$ 的上述范数不能由内积诱导（包括 $p=\infty$）。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.3（改写）}
+设 $a<b$，$1\le p<\infty$。证明 $\displaystyle\|f\|_p=\left(\int_a^b|f(x)|^p\,dx\right)^{1/p}$ 定义了 $C([a,b])$ 上的范数。并证明对每个 $f\in C([a,b])$，有 $\displaystyle\lim_{p\to\infty}\|f\|_p=\sup_{x\in[a,b]}|f(x)|$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.4（改写）}
+设 $(M,d)$ 是度量空间，$M_1\subset M$。证明将 $d$ 限制到 $M_1\times M_1$ 后，$(M_1,d)$ 仍为度量空间。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.5（改写）}
+设 $M$ 是非空集合。证明 $d(x,y)=\begin{cases}1,&x\ne y,\\0,&x=y\end{cases}$ 定义了 $M$ 上的度量（称为离散度量）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.6（改写）}
+设 $(M,d)$ 是度量空间。证明 $\displaystyle d_1(x,y)=\frac{d(x,y)}{1+d(x,y)}$ 也是 $M$ 上的一个度量。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.7（改写）}
+在离散度量空间中（不同点距离为 $1$），证明点列收敛当且仅当它从某项起为常点列；证明 Cauchy 列也有同样的刻画，并由此证明该空间完备。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.8（改写）}
+设 $M$ 是所有实数列构成的集合。对 $x=(x_i)$、$y=(y_i)$，定义 $\displaystyle d(x,y)=\sum_{i=1}^{\infty}2^{-i}\frac{|x_i-y_i|}{1+|x_i-y_i|}$。证明 $d$ 是 $M$ 上的度量，且 $(M,d)$ 完备。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.9（改写、校订）}
+在 $[0,1]$ 上定义连续函数列（$n\ge1$）\[f_n(x)=\begin{cases}0,&0\le x\le\frac{n-1}{2n},\\\frac12+n(x-\frac12),&\frac{n-1}{2n}\le x\le\frac{n+1}{2n},\\1,&\frac{n+1}{2n}\le x\le1.\end{cases}\]取范数 $\|f\|_1=\int_0^1|f(x)|\,dx$，证明 $\{f_n\}$ 是 Cauchy 列，但不依此范数收敛到任何连续函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.10（改写）}
+记 $M(m,n)$ 为实 $m\times n$ 矩阵空间，向量的 $|\cdot|$ 为 Euclid 范数。对 $A=(a_{ij})$ 定义 $\displaystyle\|A\|=\sup_{x\ne0}\frac{|Ax|}{|x|}$，$\displaystyle|A|=(\sum_{i,j}a_{ij}^2)^{1/2}$。
+\SubQ{1}{证明 $\|\cdot\|$ 是范数，且 $\frac1{mn}|A|\le\|A\|\le|A|$；由此说明 $M(m,n)$ 在该范数下完备。}
+\SubQ{2}{对方阵 $A\in M(n,n)$，证明 $\|A^k\|\le\|A\|^k$。}
+\SubQ{3}{令 $\displaystyle E_k(t)=I_n+\sum_{j=1}^k\frac{A^jt^j}{j!}$。证明它在每个有界 $t$ 区间上一致收敛，极限 $E(t)$ 满足 $E(0)=I_n$、$E^{\prime}(t)=AE(t)$，从而给出 $x^{\prime}=Ax$ 的基本解矩阵。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.11}
+设 $a<b$。证明 $\displaystyle\|f\|_\infty=\sup_{x\in[a,b]}|f(x)|$ 是 $C([a,b])$ 上的一个范数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.12}
+证明：如果实线性空间上的范数满足平行四边形法则\[\|x+y\|^2+\|x-y\|^2=2(\|x\|^2+\|y\|^2),\]那么极化恒等式 $\langle x,y\rangle=\frac14(\|x+y\|^2-\|x-y\|^2)$ 定义了一个内积，且它诱导的范数就是原来的范数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.13}
+设 $V$ 是 Euclid 空间 $\mathbb R^n$ 的线性子空间，定义 $d(x,V)=\inf_{y\in V}|x-y|$。
+\SubQ{1}{证明存在 $x_0\in V$ 使 $|x-x_0|=d(x,V)$。}
+\SubQ{2}{证明对于任意 $y\in V$，$d(x,V)=d(x+y,V)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.14}
+证明：若 $\|\cdot\|$ 是 $\mathbb R^n$ 上的范数，则存在正常数 $M$ 使 $\|x\|\le M|x|$ 对所有 $x\in\mathbb R^n$ 成立，其中 $|x|$ 是 Euclid 范数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.15}
+称集合 $M$ 上的两个度量 $d_1,d_2$ 等价，是指存在 $c_1,c_2>0$，对所有 $x,y\in M$ 有 $d_1(x,y)\le c_2d_2(x,y)$ 及 $d_2(x,y)\le c_1d_1(x,y)$。证明若二者等价，则按 $d_1$ 收敛的点列与按 $d_2$ 收敛的点列相同，且极限相同。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.16}
+设 $\{x_k\}$ 和 $\{y_k\}$ 是度量空间 $(M,d)$ 中的两个 Cauchy 列。证明实数列 $\{d(x_k,y_k)\}$ 收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.17}
+证明：当 $n>1$ 时，$\mathbb R^n$ 上的范数 $\|x\|_1=\sum_{j=1}^n|x_j|$ 不由任何内积诱导。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.18}
+证明 $\displaystyle d(x,y)=\frac{|x-y|}{1+|x-y|}$ 定义了 $\mathbb R^n$ 上的度量，但它不由任何范数诱导，其中 $|\cdot|$ 为 Euclid 范数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.19}
+设 $1\le p<\infty$，$\displaystyle\ell^p=\{(x_k)_{k\ge1}:x_k\in\mathbb R,\ \sum_{k=1}^{\infty}|x_k|^p<\infty\}$。对 $x,y\in\ell^p$ 定义 $\displaystyle d(x,y)=(\sum_{k=1}^{\infty}|x_k-y_k|^p)^{1/p}$。证明 $(\ell^p,d)$ 是完备度量空间；证明依此度量收敛推出每个坐标分量收敛，并举例说明反之不成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.20}
+设 $S=\{(x,y)\in\mathbb R^2:x^2+y^2=1\}$。对 $p,q\in S$，令 $d(p,q)$ 为圆周上连接二点的最短弧长。证明这定义了一个度量；它与 $S$ 作为 Euclid 平面子空间的度量是否相同？用 $(\cos\theta,\sin\theta)$ 表示圆周上的点时，写出弧长度量的具体表达式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.21}
+设 $A$ 为实 $n\times n$ 矩阵，$\displaystyle\|A\|=\sup_{x\ne0}\frac{|Ax|}{|x|}$，其中 $|\cdot|$ 为 Euclid 范数。证明：
+\SubQ{1}{若 $A$ 对称，则 $\|A\|$ 等于 $A$ 的特征值绝对值的最大值。}
+\SubQ{2}{对一般的 $A$，$\|A\|^2$ 等于对称矩阵 $A^{\mathsf T}A$ 的特征值绝对值的最大值。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.22（改写）}
+证明：$\mathbb R^n$ 上的 Euclid 度量与范数 $\|x\|_p=(\sum_{j=1}^n|x_j|^p)^{1/p}$（$1\le p<\infty$）以及 $\|x\|_\infty=\max_j|x_j|$ 所诱导的度量，定义相同的开集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.23（改写）}
+在 $C([-1,1])$ 上取度量 $d(f,g)=\sup_{x\in[-1,1]}|f(x)-g(x)|$。令\[f_n(x)=\begin{cases}0,&-1\le x\le0,\\nx,&0\le x\le1/n,\\1,&1/n\le x\le1.\end{cases}\]证明子集 $A=\{f_1,f_2,\ldots\}$ 有界且闭，但不紧致。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.24}
+设 $a<b$，在 $C([a,b])$ 上取上确界度量。证明其子空间紧致当且仅当它是有界闭集，并且作为函数族一致等度连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.25}
+在度量空间中证明下列命题：
+\SubQ{1}{任意多个开集的并是开集，有限多个开集的交是开集。}
+\SubQ{2}{集合 $E$ 的闭包 $\overline E$ 是闭集；$E$ 是闭集当且仅当 $E=\overline E$。}
+\SubQ{3}{有限多个闭集的并是闭集，任意多个闭集的交是闭集。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.26}
+设 $(M,d)$ 为完备度量空间。证明子集 $E\subset M$ 在诱导度量下完备，当且仅当 $E$ 是 $M$ 的闭子集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.27}
+设 $a<b$。证明 $C([a,b])$ 在下列各度量下均不完备：
+\SubQ{1}{$\displaystyle d_1(f,g)=\int_a^b|f(x)-g(x)|\,dx$。}
+\SubQ{2}{$\displaystyle d_2(f,g)=\left(\int_a^b|f(x)-g(x)|^2\,dx\right)^{1/2}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.28}
+证明：如果度量空间中的 Cauchy 列有极限点（即有收敛子列），那么该点列收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.29}
+设 $A$ 是度量空间 $M$ 的子空间。证明下列两种 Heine--Borel 性质等价：由 $M$ 中开集构成的 $A$ 的每个开覆盖有有限子覆盖；由 $A$ 的相对开集构成的 $A$ 的每个开覆盖有有限子覆盖。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.30}
+证明：完备度量空间 $M$ 的子空间 $M^{\prime}$ 完备，当且仅当 $M^{\prime}$ 是 $M$ 的闭集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.31（校订）}
+设 $\|\cdot\|$ 是 $\mathbb R^n$ 上的范数，$x_0\in\mathbb R^n$，$r>0$。证明开球 $B_r(x_0)=\{x:\|x-x_0\|<r\}$ 是凸集，即对 $x,y\in B_r(x_0)$ 和 $0<t<1$，有 $(1-t)x+ty\in B_r(x_0)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.32}
+证明：在上确界度量下，$C([a,b])$ 的紧致子空间作为连续函数族一致等度连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.33}
+设 $\ell^\infty$ 为所有有界复数列构成的集合，定义 $d((x_n),(y_n))=\sup_n|x_n-y_n|$。
+\SubQ{1}{证明 $(\ell^\infty,d)$ 是完备度量空间。}
+\SubQ{2}{证明由收敛于 $0$ 的复数列构成的子空间完备。}
+\SubQ{3}{证明 $(\ell^\infty,d)$ 不存在可数稠密子集。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.34}
+证明度量空间 $(M,d)$ 紧致，当且仅当它有界、完备且满足如下条件：任给 $\varepsilon>0$，存在有限多个点 $x_1,\ldots,x_N\in M$，使每个 $x\in M$ 均满足某个 $d(x,x_k)<\varepsilon$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.35}
+在赋予上确界度量的 $C([0,1])$ 中构造函数列 $f_1,f_2,\ldots$，使 $d(f_k,0)=1$，且 $d(f_j,f_k)=1$（$j\ne k$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.36}
+设 $A_1\supset A_2\supset\cdots$ 是度量空间中一列非空紧致子集。证明 $\bigcap_{n=1}^{\infty}A_n\ne\varnothing$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.37（校订）}
+具体构造 Euclid 空间 $\mathbb R^n$ 的一个可数稠密子集，并证明：
+\SubQ{1}{$\mathbb R^n$ 的任意子空间有至多可数的稠密子集。}
+\SubQ{2}{$\mathbb R^n$ 的任意子集的每个开覆盖均有至多可数的子覆盖。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.38}
+设 $d_1,d_2$ 是集合 $M$ 上的等价度量，即它们能被正常数倍相互控制。证明二者定义相同的开集；给出 $\mathbb R$ 上定义相同开集但不等价的两个度量。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.39}
+对 $\mathbb R^n$ 的非空子集 $A,B$，令 $d(A,B)=\inf\{|x-y|:x\in A,\ y\in B\}$。
+\SubQ{1}{若 $E_1,E_2$ 非空且紧致，证明 $d(E_1,E_2)>0$ 当且仅当 $E_1\cap E_2=\varnothing$。}
+\SubQ{2}{举例说明将“紧致”改为“闭”后，上述结论不成立。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.40}
+证明：$\mathbb R^2$ 的开集与 $x$ 轴的交，视为实直线的子集时是开集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.41}
+设 $D\subset\mathbb R^2$，$D^c$ 为其补集，$I$ 为闭矩形。证明：
+\SubQ{1}{$\mathbb R^2=D^\circ\cup\partial D\cup(D^c)^\circ$ 是无交并。}
+\SubQ{2}{若 $I\cap D\ne\varnothing$ 且 $I\not\subset D$，则 $I\cap\partial D\ne\varnothing$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.42}
+关于 $\mathbb R^2$ 中的边界，完成下列问题：
+\SubQ{1}{求 $A=\{(x,0):x\in\mathbb R\}$、$B=\{(x,y):x^2+y^2\le1\}$、$C=\mathbb Q\times\mathbb Q$ 的边界。}
+\SubQ{2}{证明对任意 $A\subset\mathbb R^2$，$\partial A=\partial(A^c)$。}
+\SubQ{3}{证明 $\partial A$ 是闭集。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.43}
+设 $p$ 为素数。非零整数 $z$ 有有限 $p$ 进展开 $z=\pm\sum_{j=0}^Na_jp^j$，其中 $0\le a_j\le p-1$。令 $|z|_p=p^{-k}$，$k$ 为满足 $a_k\ne0$ 的最小指标，另令 $|0|_p=0$。
+\SubQ{1}{证明 $d(x,y)=|x-y|_p$ 是 $\mathbb Z$ 上的度量。}
+\SubQ{2}{证明 $d(x,z)\le\max\{d(x,y),d(y,z)\}$。满足此条件的度量称为超度量。}
+\SubQ{3}{证明 $\mathbb R^3$ 的 Euclid 度量不是超度量。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.44}
+设 $p$ 为素数。非零整数 $z$ 有有限 $p$ 进展开 $z=\pm\sum_{j=0}^Na_jp^j$，其中 $0\le a_j\le p-1$。令 $|z|_p=p^{-k}$，$k$ 为满足 $a_k\ne0$ 的最小指标，另令 $|0|_p=0$。
+\SubQ{1}{记整数在该度量下的完备化为 $\mathbb Z_p$。证明其元素可用无限 $p$ 进整数 $\pm\cdots a_2a_1a_0$（$0\le a_j\le p-1$）实现，且整数加减法可扩充到 $\mathbb Z_p$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.45（改写）}
+对 $1\le k\le n$，证明坐标函数 $f_k:\mathbb R^n\to\mathbb R$，$f_k(x_1,\ldots,x_n)=x_k$ 连续；进而说明由坐标函数经有限次连续初等函数复合及代数运算所得的函数，在其自然定义域上连续，特别说明多元多项式连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.46（改写）}
+验证下列映射均无不动点，并说明它们如何表明压缩映射定理中的统一压缩常数 $r<1$ 不能省略：
+\SubQ{1}{$f:\mathbb R\to\mathbb R$，$f(x)=x+1$；验证 $|f(x)-f(y)|=|x-y|$。}
+\SubQ{2}{$f:[0,\infty)\to[0,\infty)$，$f(x)=x+\frac1{1+x}$；验证 $x\ne y$ 时 $|f(x)-f(y)|<|x-y|$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.47（改写）}
+令 $A=\{(x,\sin(1/x)):0<x\le1/\pi\}$，$B=\{(0,y):-1\le y\le1\}$。证明 Euclid 平面的子集 $M=A\cup B$ 连通但不弧连通。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{16.48（改写）}
+设 $A$ 是 $\mathbb R^n$ 的非空开集且 $A\ne\mathbb R^n$。证明其边界 $\partial A$ 为非空闭集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.49（校订）}
+设 $M$ 为非空紧致度量空间，$f:M\to\mathbb R$ 连续。直接证明 $f$ 有有限的最大值与最小值，且均能取到；要求不使用“连续函数把紧致集映为紧致集”这一更一般的定理。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.50}
+设 $(M,d)$ 是度量空间，$x_0\in M$。证明 $x\mapsto d(x,x_0)$ 是 $M$ 上的连续实函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.51}
+设 $M,N,P$ 为度量空间，$f:M\to N$、$g:N\to P$ 连续。证明 $g\circ f$ 连续；另构造 $g\circ f$ 连续但 $f,g$ 均不连续的例子。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.52}
+设度量空间间的映射 $f:M\to N$ 连续，$M_1\subset M$ 取诱导度量。证明限制映射 $f|_{M_1}$ 连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.53}
+给出度量空间间的函数列 $f_n:M\to N$ 一致收敛的定义，并证明连续函数列的一致极限连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.54}
+给出一个从 $(0,1)$ 到 $(0,1)$ 的连续满射，且它没有不动点。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.55}
+在 $C([0,1])$ 上取上确界度量，定义映射 $T$ 为 $\displaystyle(Tf)(x)=x+\int_0^x t f(t)\,dt$。证明 $T$ 为压缩映射，且其不动点是微分方程 $f^{\prime}(x)=xf(x)+1$ 的解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.56（校订）}
+设 $E\subset\mathbb R^n$ 为非空有界闭集，映射 $f:E\to E$ 满足 $|f(x)-f(y)|<|x-y|$（$x\ne y$）。证明 $f$ 有唯一的不动点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.57}
+设 $M$ 为紧致度量空间，$N$ 为完备度量空间，且 $N$ 中每个有界点列均有收敛子列。对函数列 $f_n:M\to N$，给出一致有界及一致等度连续的定义，陈述相应的 Arzel\`a--Ascoli 定理并证明。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.58}
+设 $f:M\to N$ 是度量空间间的连续满射。证明：若 $M$ 连通，则 $N$ 连通；若 $M$ 弧连通，则 $N$ 弧连通。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.59}
+举例说明存在连续满射 $f:M\to N$，其中 $N$ 连通但 $M$ 不连通。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.60}
+证明 $\mathbb R^3$ 中的单位球面 $\{(x_1,x_2,x_3):x_1^2+x_2^2+x_3^2=1\}$ 是连通子集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.61}
+给出从非紧致度量空间到紧致度量空间的连续满射的例子。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.62}
+设度量空间间的映射 $f:M\to N$ 是连续满射，且 $M$ 紧致。
+\SubQ{1}{证明 $A\subset N$ 为闭集，当且仅当 $f^{-1}(A)$ 是 $M$ 的闭集。}
+\SubQ{2}{若 $f$ 还是单射，证明逆映射 $f^{-1}:N\to M$ 连续。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.63}
+令 $S=\{(x,y)\in\mathbb R^2:x^2+y^2=1\}$。证明 $f:[0,2\pi)\to S$，$f(t)=(\cos t,\sin t)$ 连续且双射，但逆映射 $f^{-1}$ 不连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.64}
+举例说明存在完备但不连通的度量空间，也存在连通但不完备的度量空间。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.65}
+举例说明存在度量空间间的连续函数 $f:M\to N$，它不把 $M$ 中的 Cauchy 列映成 $N$ 中的 Cauchy 列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.66}
+分别举出连续满射 $f:M\to N$ 的例子，使得 $M$ 完备而 $N$ 不完备，以及 $M$ 不完备而 $N$ 完备。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.67}
+设 $I$ 是实区间，$f:I\to\mathbb R$ 连续。证明 $f$ 的图像是 $\mathbb R^2$ 的连通子集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.68}
+设 $A\subset\mathbb R^n$ 为非空开集且 $\partial A\ne\varnothing$，$E\subset A$ 为非空紧致子集。
+\SubQ{1}{证明 $d(E,\partial A)=\inf\{|x-y|:x\in E,\ y\in\partial A\}>0$。}
+\SubQ{2}{证明存在 $\delta>0$，使 $E_\delta=\{x\in\mathbb R^n:\exists y\in E,\ |x-y|<\delta\}\subset A$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.69}
+设 $A_1\supset A_2\supset\cdots$ 为度量空间中一列非空紧致连通集合。
+\SubQ{1}{证明 $\bigcap_{n=1}^{\infty}A_n$ 连通。}
+\SubQ{2}{若每个 $A_n$ 弧连通，交集是否弧连通？}
+\SubQ{3}{去掉紧致性条件后，以上命题是否仍成立？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{16.70（校订）}
+设 $(M,d)$ 为完备度量空间，$\mathcal K$ 为其非空紧致子集全体。对 $A,B\in\mathcal K$，令 $d_H(A,B)$ 为满足下列条件的 $\varepsilon>0$ 的下确界：每个 $a\in A$ 均有 $b\in B$ 使 $d(a,b)\le\varepsilon$，且每个 $b\in B$ 均有 $a\in A$ 使 $d(a,b)\le\varepsilon$。证明：
+\SubQ{1}{$d_H$ 是 $\mathcal K$ 上的度量（Hausdorff 距离）。}
+\SubQ{2}{$(\mathcal K,d_H)$ 是完备度量空间。}
+\end{minipage}\par\vfill

@@ -1,0 +1,230 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 13,
+  "source_units": 63,
+  "final_problems": 78,
+  "pages": [
+    {
+      "page_number": 309,
+      "ocr_markdown_sha256": "fd0d5daa3e09eae90f4eecb94f1e73eea7261a7aa65d4e132d33e953528405a6"
+    },
+    {
+      "page_number": 310,
+      "ocr_markdown_sha256": "2d4a340fe9a76e2cfddaaad62989ef4eeb002e37390a48549345344329a25a25"
+    },
+    {
+      "page_number": 311,
+      "ocr_markdown_sha256": "551e705922982bbc9ef1cb99c8431416eb0036babfbd78c256718b575901ffdd"
+    },
+    {
+      "page_number": 312,
+      "ocr_markdown_sha256": "0823685177be4422be0e41e5532f70d24089fb52d1b4dd0094e81a7198a71780"
+    },
+    {
+      "page_number": 313,
+      "ocr_markdown_sha256": "b1b49de14db8ff19b805888858bde1d9ef00ad22541574e2c07f0dcb5b31a59e"
+    },
+    {
+      "page_number": 314,
+      "ocr_markdown_sha256": "7253ed11fbfe29880f2ac062f2d158ff55ee778200ceffafc5022c662871dc26"
+    },
+    {
+      "page_number": 315,
+      "ocr_markdown_sha256": "e5e255d59b09248893175bcc82ee93d1eafc405afde119b47078a2594a7df7a9"
+    },
+    {
+      "page_number": 316,
+      "ocr_markdown_sha256": "60ba89e0a5c1c7609bf0d4573fe1f76d9eb8c44d08a3b66732098545ff7d1474"
+    },
+    {
+      "page_number": 317,
+      "ocr_markdown_sha256": "4456a5ce884f91f95cb7aa70fe3e103c74cadbd3a035585f472f548d04ad09dd"
+    },
+    {
+      "page_number": 318,
+      "ocr_markdown_sha256": "a1ba1435e70959b23fbe5ad1974030c03112d9597d25fc7e4a28871218a0bb92"
+    },
+    {
+      "page_number": 319,
+      "ocr_markdown_sha256": "6a7f3d45491f90fad10b126613d0dd9e05ccd647c1a695bc0e845fa29e3cd794"
+    },
+    {
+      "page_number": 320,
+      "ocr_markdown_sha256": "d67c55978f593ca001b7aa3f21526f194c91487cf89055300a34933261df8349"
+    },
+    {
+      "page_number": 321,
+      "ocr_markdown_sha256": "f1fa80b920b25050bb801d265f9b918d5da3e4a4efe0bdf6a35a572495fa3066"
+    },
+    {
+      "page_number": 322,
+      "ocr_markdown_sha256": "8cdec99a5bebbfab1472250b5e304536e52be18846d621eef59c47502ef5b906"
+    },
+    {
+      "page_number": 323,
+      "ocr_markdown_sha256": "1348c05a45b9195af65b3bb16e8d70a3ee34723295fde0bb0c90b2dd86af5e00"
+    },
+    {
+      "page_number": 324,
+      "ocr_markdown_sha256": "6d7d14fb11bfadb75a1cc2ebf444f073f3b9c16f4e24557735406db449a45c0e"
+    },
+    {
+      "page_number": 325,
+      "ocr_markdown_sha256": "8d83ae52dc8bfb7dc0dc7875b9703b26809158e8c5d0a21530ff9f7b2f932fb8"
+    },
+    {
+      "page_number": 326,
+      "ocr_markdown_sha256": "ad2090c8bd682ea56f93abb4684916349766a6c9f85730c014730ceb6e29ffe8"
+    },
+    {
+      "page_number": 327,
+      "ocr_markdown_sha256": "e76137bfad78acd2741366ce1439ddcc505cdd4a2795146953908d831587bf3c"
+    },
+    {
+      "page_number": 328,
+      "ocr_markdown_sha256": "c354e393697fc71bd290bb1001c195818f05b8055847844c4a30ea927d095841"
+    },
+    {
+      "page_number": 329,
+      "ocr_markdown_sha256": "2542c58a7cc311ff3adc655f5f63cffec64b4a785bf953ee01520a4e956e49c3"
+    },
+    {
+      "page_number": 330,
+      "ocr_markdown_sha256": "4e6e709dd7437cee21282c42fce0c545daf0fd48b5b09ea535a37cb2fedd6a86"
+    },
+    {
+      "page_number": 331,
+      "ocr_markdown_sha256": "3b773adf3081a44e6c7d8f931f26abae57db2b70315b8b0df183284acb17c02a"
+    },
+    {
+      "page_number": 332,
+      "ocr_markdown_sha256": "825ad2216d9b30ee593a252a14680890a99832c4a2236a4eddb4dc7802e2ed15"
+    },
+    {
+      "page_number": 333,
+      "ocr_markdown_sha256": "1a57fdd2b007e165978604ce264f03a84ba8dfd23df8e5491cefcb777eaa21f3"
+    },
+    {
+      "page_number": 334,
+      "ocr_markdown_sha256": "6d409b36b4babf2da58420df7058ceaafb3fa894a919d76c0ba8cbea04094485"
+    },
+    {
+      "page_number": 335,
+      "ocr_markdown_sha256": "1ea21522e80444db6fe9fde451bf7089a40c5436d13bd3534a5924874a98a31c"
+    },
+    {
+      "page_number": 336,
+      "ocr_markdown_sha256": "ea6acf6de44809c6bb4d4cae04dcc4556c5d5bbaab6e63c13cd0ddf05fbbaa81"
+    },
+    {
+      "page_number": 337,
+      "ocr_markdown_sha256": "08867b9adb3498efb37f6df3864447b6fd232bc81d86ba3d8d929baaa6ca839a"
+    },
+    {
+      "page_number": 338,
+      "ocr_markdown_sha256": "f8d4026c469dbe6c770b9f557a7697dee09fee632526c22f2431a43b8a2988b0"
+    },
+    {
+      "page_number": 339,
+      "ocr_markdown_sha256": "08277c27534762836a90896e285a2bbb9eb7c76f849d787c9a2a39e13abacafd"
+    },
+    {
+      "page_number": 340,
+      "ocr_markdown_sha256": "4b520a2214e11da623a018ee8472c9a0da5b719d1b797fbd930bcb6693bcf488"
+    },
+    {
+      "page_number": 341,
+      "ocr_markdown_sha256": "53057c185e18b7230db07e003f43bc140643423386593d77d29f34f4a84ef9d3"
+    },
+    {
+      "page_number": 342,
+      "ocr_markdown_sha256": "148bb6a92d7254d9b7389722fde244cfd427355c4b28a1e2e904acf0431ffabe"
+    },
+    {
+      "page_number": 343,
+      "ocr_markdown_sha256": "8f954c58ceb637f16787a72f59de090329b1256b8da91f25b00d95443778da0e"
+    },
+    {
+      "page_number": 344,
+      "ocr_markdown_sha256": "4fab2b69798a7255d4913add713a5c32d9fa9a0621a6fc4090dc94be18273314"
+    },
+    {
+      "page_number": 345,
+      "ocr_markdown_sha256": "6de28974c18b0a1694668619b7c611db193e998e7cd619fb82fd3887d4f4268d"
+    },
+    {
+      "page_number": 346,
+      "ocr_markdown_sha256": "bcff3d79d1c1b28dd9051907216e50f6061281216a785d7da3a757798c937a06"
+    },
+    {
+      "page_number": 347,
+      "ocr_markdown_sha256": "12e206869f62ac893aae690c29441bf28b6d9a5516758966432e811145d80d5a"
+    },
+    {
+      "page_number": 348,
+      "ocr_markdown_sha256": "7990d47806f5393cd23b049b417e70e8e2bc5cfbca5f61a277f95e52ce940027"
+    },
+    {
+      "page_number": 349,
+      "ocr_markdown_sha256": "aa9fa592704be1412fac2bfb1d7df2f5751dd54b3539102b9c0097592a155f82"
+    },
+    {
+      "page_number": 350,
+      "ocr_markdown_sha256": "80884f0c95558d09a774d8fac902db4c690d022bfd1a66a71bcaf79c8768e77e"
+    },
+    {
+      "page_number": 351,
+      "ocr_markdown_sha256": "0c659385087caf21f91edcdcaba73573ad718d3107c1add2e7d9e58d0e41cee3"
+    },
+    {
+      "page_number": 352,
+      "ocr_markdown_sha256": "2e65281656c3bf5b9dcfae064c924cee1430d7bf6241db27d42ea9969a3288a6"
+    },
+    {
+      "page_number": 353,
+      "ocr_markdown_sha256": "a4648741311b7c9c652bb2c3051158ab205537ec54d402b295ad24e2282c730a"
+    },
+    {
+      "page_number": 354,
+      "ocr_markdown_sha256": "31038ce5698ffff06638587a610da16b22faa2f7f2edde925ff52e89c6ea80f2"
+    },
+    {
+      "page_number": 355,
+      "ocr_markdown_sha256": "07d02a4979c5f2b025da825749fdae0861faf03ccee606ae98785ee1e981bea5"
+    }
+  ],
+  "content_changed": true,
+  "method": "真实审读全部题目所在页及跨页续文的OCR，与源图校订题库逐题核对公式、参数和全部小问；检索并逐条评估47页中的未编号例子和读者任务，发现不一致重新放大源图。不是仅以文件存在标记完成。",
+  "source_images_rechecked": [
+    311,
+    315,
+    317,
+    318,
+    319,
+    323,
+    332,
+    333,
+    334,
+    336,
+    337,
+    338,
+    340,
+    341,
+    343,
+    352,
+    354
+  ],
+  "findings": [
+    "p317两个例题原问研究敛散性，旧题库改为证明收敛而提前给出答案；已恢复原问题。",
+    "p319习题1(11)的分母是sqrt(sin x)cos x，旧题库把cos x也纳入根号。源图放大确认后修正。其余立方根和对数范围均已核实。",
+    "p323–324原文明确引出未编号例子：条件收敛级数构造的阶梯函数比较两种反常积分定义。补入两小问，标改写，不保留结论和级数重排提示，来源为首次页323。",
+    "p338–342的13.4.3明确进行三组重要积分的计算。补入Dirichlet、Laplace、Fresnel三组未编号计算示例，标改写，参数和两小问结构均按源书保留，省去推导与答案。",
+    "p318的ln(sin x)积分是回指第一册已有例5.4.2而非新例题，第5章已收录，不重复添加。",
+    "p332明确留给读者证明的Cauchy和Weierstrass两个判别法已完整收录。",
+    "p343 OCR漏识习题7(3)的(1-exp(-a x²))/x²积分；源图确认既有第3小问正确，无需修改。",
+    "p352 OCR把tan的alpha指数错识为x；源图确认题库为tan^alpha x、|alpha|<1正确。根号覆盖(1/x)ln(1/x)，与题库一致。",
+    "p329→330首题、p342→343收敛域题、p352→353 Hölder与Gamma凸性题、p354→355综合习题15均完整，保留首次出现物理页。",
+    "p324 Fresnel二重积分与p353综合习题2的解题提示均未进入题库；方法明确属于题设要求的语句保留。"
+  ]
+}

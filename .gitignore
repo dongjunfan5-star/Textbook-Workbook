@@ -1,6 +1,46 @@
-# ==========================================
-# 1. LaTeX 编译产生的临时文件
-# ==========================================
+# Local tools, models and working caches
+/.venv/
+/.venv-*/
+/venv/
+/env/
+/.tools/
+/.cache/
+**/models/
+**/model_cache/
+**/official_models/
+**/.paddlex/
+**/.paddle/
+**/.paddleocr/
+**/.huggingface/
+**/.modelscope/
+*.pdparams
+*.pdmodel
+*.pdiparams
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.gguf
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+tmp/
+temp/
+rendered_pages/
+
+# Original textbooks are read-only local inputs
+**/input/**
+!**/input/.gitkeep
+
+# Unreviewed OCR and page renders are not publication material
+**/data/ocr_raw/
+**/data/page_images/
+**/build/
+**/qa/rendered/
+
+# LaTeX intermediate products (keep main.pdf)
 *.aux
 *.log
 *.out
@@ -12,47 +52,32 @@
 *.synctex.gz
 *.synctex(busy)
 *.xdv
+*.nav
+*.snm
+*.vrb
 *.bbl
 *.blg
+*.bcf
+*.run.xml
 
-# ==========================================
-# 2. Python/OCR 脚本产生的临时文件
-# ==========================================
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-tmp/
-temp/
-# 如果你让 DSH 把 PDF 页面切成了临时图片，也可以在这里忽略
-rendered_pages/
-
-# ==========================================
-# 3. 原始大文件
-# ==========================================
-# 假设你的书籍都在各自的 input/ 目录下存放着几百页的原始扫描版 PDF
-# 这种文件往往几十上百 MB，GitHub 单文件超 100MB 就传不上去了
-**/input/*.pdf
-**/input/*.png
-**/input/*.jpg
-# 最终交付物为各书项目根目录下的 main.pdf，必须提交；不要添加忽略 *.pdf 的规则
-# 如需忽略其它中间 PDF，请只针对具体路径设置
-
-# ==========================================
-# 4. 操作系统或编辑器生成的垃圾文件
-# ==========================================
-# macOS
-.DS_Store
-# Windows
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.ssh/
+/secrets/
+credentials/
+id_rsa*
+id_ed25519*
+config.local.json
 Thumbs.db
-desktop.ini
-# VS Code
+Desktop.ini
+.DS_Store
 .vscode/
-# JetBrains (PyCharm/IntelliJ)
 .idea/
-
-# ==========================================
-# 5. 其他
-# ==========================================
-# 有些环境的备份文件
 *~
 *.bak

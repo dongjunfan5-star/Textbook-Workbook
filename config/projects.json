@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "base_dir": "..",
+  "projects": [
+    {
+      "name": "数学分析讲义",
+      "problems_per_page": 4,
+      "sources": [
+        "input/数学分析讲义（第一册）.pdf",
+        "input/数学分析讲义（第二册）.pdf",
+        "input/数学分析讲义（第三册）.pdf"
+      ],
+      "combine_volumes": true
+    }
+  ],
+  "rules": {
+    "include": [
+      "例题",
+      "节末习题",
+      "章末习题"
+    ],
+    "max_subquestions_per_problem": 3,
+    "keep_original_problem_number": false,
+    "source_page": "first_physical_page_1_based",
+    "representation": "proofread_latex_with_necessary_figures",
+    "duplicate_problem_screenshot": false,
+    "long_problem_own_page": true,
+    "explanatory_examples": "rewrite_as_explicit_problem_and_label",
+    "source_files_read_only": true,
+    "encoding": "UTF-8"
+  }
+}

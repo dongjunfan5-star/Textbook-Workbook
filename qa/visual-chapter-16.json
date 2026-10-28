@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析讲义",
+  "chapter": 16,
+  "pdf": ".cache/chapter-proofs/lecture-16/main.pdf",
+  "pdf_sha256": "4064be887a08154192a35622e539a2b13f4368d4a45f1336f08fe7f8d51ffeb5",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "method": "例16.1.3补足Lp趋向sup范数极限后重新编译；实际查看全部20页带页码联系表，检查新公式、题号、上下标、长题与边界，未见截断或重叠。",
+  "issues": []
+}

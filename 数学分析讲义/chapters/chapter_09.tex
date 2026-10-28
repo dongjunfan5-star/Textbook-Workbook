@@ -1,0 +1,853 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{8}\section{多变量函数的微分学}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.1}
+证明：平面上的任意有界点列 $\{M_n\}$ 都存在收敛的子列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.2}
+求证：$\displaystyle\lim_{(x,y)\to(0,0)}\frac{x^2y^2}{x^4+y^2}=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.3}
+求证：$\displaystyle\lim_{(x,y)\to(0,0)}\frac{x^3+y^3}{x^2+y^2}=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.4}
+求证：极限 $\displaystyle\lim_{(x,y)\to(0,0)}\frac{x^2y}{x^4+y^2}$ 不存在。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.5}
+讨论函数 $f(x,y)=\begin{cases}x\sin(1/y),&y\ne0,\\0,&y=0\end{cases}$ 在 $(0,0)$ 的极限和两种累次极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.6}
+讨论函数 $f(x,y)=y/x$（$x\ne0$）在 $(0,0)$ 的极限和两种累次极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.7}
+在定义域 $xy>-1$ 内，证明函数 \[f(x,y)=\begin{cases}\ln\bigl((1+xy)^{1/(xy)}\bigr),&xy\ne0,\\1,&xy=0\end{cases}\] 在 $(0,0)$ 处连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.8}
+设 $A,B$ 是同一全集中的子集，上标 $c$ 表示补集。证明：$(A\cap B)^c=A^c\cup B^c$，$(A\cup B)^c=A^c\cap B^c$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.9}
+证明：两个开集的交集和并集仍是开集，两个闭集的交集和并集仍是闭集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.10}
+证明：满足 $y>ax+b$ 的所有点 $(x,y)$ 构成一个开集。在坐标平面上画出它的范围，并求它的边界点应满足的关系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.11}
+设平面点列满足 $\lim_{n\to\infty}M_n=M_0$、$\lim_{n\to\infty}M'_n=M'_0$，$\rho$ 表示欧氏距离。求证：$\lim_{n\to\infty}\rho(M_n,M'_n)=\rho(M_0,M'_0)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.12}
+证明：平面上收敛的点列必然是有界的。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.13}
+证明：集合 \[E=\{(x,y)\mid y=\sin(1/x),\ 0<x\le2/\pi\}\cup\{(0,y)\mid0\le y\le1\}\] 是连通的，但不是道路连通的。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.14}
+确定并画出以下函数的定义域，并指出它们是否为区域、是否为闭区域（含参数 $a,b$ 的小问设 $a,b>0$）。
+\SubQ{1}{$z=\sqrt{x+y}$。}
+\SubQ{2}{$z=\sqrt{x-2y^2}$。}
+\SubQ{3}{$z=\dfrac{\sqrt{x^2+y^2+2x}}{\sqrt{2x-x^2-y^2}}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.15}
+确定并画出以下函数的定义域，并指出它们是否为区域、是否为闭区域（含参数 $a,b$ 的小问设 $a,b>0$）。
+\SubQ{1}{$z=\sqrt{\sin(x^2+y^2)}$。}
+\SubQ{2}{$z=\ln\left(1-\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}\right)$。}
+\SubQ{3}{$z=\sqrt{\cos x\sin y}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.16}
+确定并画出以下函数的定义域，并指出它们是否为区域、是否为闭区域（含参数 $a,b$ 的小问设 $a,b>0$）。
+\SubQ{1}{$u=\arcsin\dfrac{\sqrt{x^2+y^2}}{z}$。}
+\SubQ{2}{$u=\sqrt{2az-x^2-y^2-z^2}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.17}
+画出函数 $z=\cos(2x+y)$ 的略图以及对应于 $z=0,\ \pm1,\ \pm\tfrac12$ 的等高线。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.18}
+一个变量的一般形式的 $n$ 次多项式共有 $n+1$ 项单项式 $x^0,x^1,\ldots,x^n$。对于两个变量，单项式定义为 $x^ky^l$，次数定义为 $k+l$。问一般形式的 $n$ 次二元多项式一共有多少项？推广到 $k$ 个变量的情形呢？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.19}
+设 $f(x,y)=\dfrac{2xy}{x^2+y^2}$，求下列函数值或表达式。
+\SubQ{1}{$f(1,1)$。}
+\SubQ{2}{$f(y,x)$。}
+\SubQ{3}{$f(1,y/x)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.20}
+设 $f(x,y)=\dfrac{2xy}{x^2+y^2}$，求下列函数值或表达式。
+\SubQ{1}{$f(u,v)$。}
+\SubQ{2}{$f(\cos t,\sin t)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.21}
+设 $f(x,y)=\begin{cases}1,&y\ge x,\\0,&y<x,\end{cases}$ 又有 $x=\cos t$、$y=\sin t$，求 $F(t)=f(\cos t,\sin t)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.22}
+设 $f\left(x+y,\dfrac yx\right)=x^2-y^2$（$x\ne0$），求 $f(2,3)$ 和 $f(x,y)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.23}
+设 $f(x,y)=x^y$，$\varphi(x,y)=x+y$，$\psi(x,y)=x-y$，求下列复合函数（在各表达式有定义的范围内）。
+\SubQ{1}{$f[\varphi(x,y),\psi(x,y)]$。}
+\SubQ{2}{$\varphi[f(x,y),\psi(x,y)]$。}
+\SubQ{3}{$\psi[\varphi(x,y),f(x,y)]$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.24}
+判断下列极限是否存在；若有极限，求出其值（$a$ 为常数）。
+\SubQ{1}{$\displaystyle\lim_{(x,y)\to(0,0)}\frac{x^2+y^2}{|x|+|y|}$。}
+\SubQ{2}{$\displaystyle\lim_{(x,y)\to(0,a)}\frac{\sin xy}{x}$。}
+\SubQ{3}{$\displaystyle\lim_{x\to+\infty,\,y\to+\infty}\left(\frac{xy}{x^2+y^2}\right)^{x^2}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.25}
+判断下列极限是否存在；若有极限，求出其值（$a$ 为常数）。
+\SubQ{1}{$\displaystyle\lim_{x\to+\infty,\,y\to a}\left(1+\frac1x\right)^{x^2/(x+y)}$。}
+\SubQ{2}{$\displaystyle\lim_{(x,y)\to(0,0)}\frac{x^3+y^3}{x^2+y^2}$。}
+\SubQ{3}{$\displaystyle\lim_{x\to+\infty,\,y\to+\infty}\frac{x^2+y^2}{x^4+y^4}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.26}
+判断下列极限是否存在；若有极限，求出其值（$a$ 为常数）。
+\SubQ{1}{$\displaystyle\lim_{x\to+\infty,\,y\to+\infty}(x^2+y^2)e^{-(x+y)}$。}
+\SubQ{2}{$\displaystyle\lim_{(x,y)\to(1,0)}\frac{\ln(x+e^y)}{\sqrt{x^2+y^2}}$。}
+\SubQ{3}{$\displaystyle\lim_{(x,y)\to(0,0)}\frac{xy}{\sqrt{xy+1}-1}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.27}
+判断下列极限是否存在；若有极限，求出其值（$a$ 为常数）。
+\SubQ{1}{$\displaystyle\lim_{(x,y)\to(0,0)}\frac{\sqrt{xy+1}-1}{x+y}$。}
+\SubQ{2}{$\displaystyle\lim_{(x,y)\to(0,0)}\frac{1-\cos(x^2+y^2)}{(x^2+y^2)x^2y^2}$。}
+\SubQ{3}{$\displaystyle\lim_{(x,y)\to(0,0)}(1+xy)^{1/(x+y)}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.28}
+若 $x=r\cos\theta$、$y=r\sin\theta$，问沿怎样的方向 $\theta$（$0\le\theta\le2\pi$），下列极限存在？
+\SubQ{1}{$\displaystyle\lim_{r\to0^+}e^{1/(x^2-y^2)}$。}
+\SubQ{2}{$\displaystyle\lim_{r\to+\infty}e^{x^2-y^2}\sin2xy$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.29}
+设 $f$ 在 $(x_0,y_0)$ 的某邻域内有定义，且极限 $\lim_{(x,y)\to(x_0,y_0)}f(x,y)=A$ 存在。证明下列结论。
+\SubQ{1}{若对充分接近 $y_0$ 的每个 $y\ne y_0$，$\lim_{x\to x_0}f(x,y)$ 存在，则 $\displaystyle\lim_{y\to y_0}\lim_{x\to x_0}f(x,y)=A$。}
+\SubQ{2}{若对充分接近 $x_0$ 的每个 $x\ne x_0$，$\lim_{y\to y_0}f(x,y)$ 存在，则 $\displaystyle\lim_{x\to x_0}\lim_{y\to y_0}f(x,y)=A$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.30}
+研究下列函数的连续性。
+\SubQ{1}{$f(x,y)=\begin{cases}\dfrac{xy}{x-y},&x\ne y,\\0,&x=y.\end{cases}$}
+\SubQ{2}{$f(x,y)=\begin{cases}x\sin(1/y),&y\ne0,\\0,&y=0.\end{cases}$}
+\SubQ{3}{$f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}$}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.31}
+研究下列函数的连续性。
+\SubQ{1}{$f(x,y)=\begin{cases}\dfrac{x-y}{x+y},&x+y\ne0,\\0,&x+y=0.\end{cases}$}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.32}
+证明：函数 \[f(x,y)=\begin{cases}\dfrac{x^2y}{x^4+y^2},&x^2+y^2>0,\\0,&x^2+y^2=0\end{cases}\] 在点 $(0,0)$ 沿着过此点的每一射线 $x=t\cos\alpha$、$y=t\sin\alpha$（$0\le t<+\infty$）连续，即 $\lim_{t\to0^+}f(t\cos\alpha,t\sin\alpha)=f(0,0)$；但此函数在点 $(0,0)$ 并不连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.33（校订）}
+设 $f(x,y)$ 在开区域 $D\subset\mathbb R^2$ 上分别对 $x$ 和 $y$ 连续，且关于变量 $y$ 是单调的。证明：$f(x,y)$ 在 $D$ 上连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.34}
+设 $D\subset\mathbb R^2$，对任意 $(x,y)\in D$，令 $f(x,y)=x$，称其为 $D$ 在 $x$ 轴的投影函数。证明投影函数是连续函数，但它不一定将闭集映成闭集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.35}
+给出二元函数 $f(x,y)$ 在 $(x_0,y_0)$ 处收敛的 Cauchy 收敛准则的完整描述，并证明之。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.36}
+设 $f(x,y)$ 在 $(x_0,y_0)$ 处连续，$x=x(u,v)$、$y=y(u,v)$ 在 $(u_0,v_0)$ 处连续，且 $x(u_0,v_0)=x_0$、$y(u_0,v_0)=y_0$。用 $\varepsilon$--$\delta$ 语言证明复合函数 $f(x(u,v),y(u,v))$ 在 $(u_0,v_0)$ 处连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.37}
+设 $f(x,y)=\dfrac1{1-xy}$，$(x,y)\in[0,1]\times[0,1]$、$(x,y)\ne(1,1)$。证明：函数 $f(x,y)$ 连续但不一致连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.38（改写）}
+考虑函数 \[f(x,y)=\begin{cases}\dfrac{2xy}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}\] 求它在原点的两个偏导数，并判断它在原点是否连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.39}
+设 $f,g$ 为可微函数，$a,b$ 为常数。根据微分的定义证明 $d(af+bg)=a\,df+b\,dg$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.40}
+求函数 $r(x,y)=\sqrt{x^2+y^2}$ 沿单位方向 $\boldsymbol e=\cos\alpha\,\boldsymbol i+\cos\beta\,\boldsymbol j$ 的方向导数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.41}
+设各函数可微，$u=f(x,y,z)$，$y=\varphi(x,r)$，$z=\psi(x,y,r)$。将 $u$ 看作 $x,r$ 的复合函数，求 $\dfrac{\partial u}{\partial x}$ 和 $\dfrac{\partial u}{\partial r}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.42}
+置于原点的电荷 $q$ 产生电势 $u=q/r$，其中 $\boldsymbol r=(x,y,z)$，$r=\sqrt{x^2+y^2+z^2}\ne0$。
+\SubQ{1}{求电势在任意一点的梯度。}
+\SubQ{2}{求沿 $\boldsymbol r$ 方向的变化率。}
+\SubQ{3}{证明 $u$ 满足 Laplace 方程 $u_{xx}+u_{yy}+u_{zz}=0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.43（改写）}
+设可微向量值函数 $\boldsymbol a(t)$ 的长度恒定，即 $|\boldsymbol a(t)|=c$。证明 $\boldsymbol a(t)\cdot\boldsymbol a'(t)=0$，即它与自己的切向量垂直。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.44（改写）}
+在固定直角坐标系中，质量为常数 $m$ 的质点的位置向量为 $\boldsymbol r(t)$，速度为 $\boldsymbol v=d\boldsymbol r/dt$，动量为 $\boldsymbol p=m\boldsymbol v$，动量矩为 $\boldsymbol l=\boldsymbol r\times\boldsymbol p$。设牛顿第二定律 $d\boldsymbol p/dt=\boldsymbol F$ 成立，证明动量矩的变化率等于力矩：$d\boldsymbol l/dt=\boldsymbol r\times\boldsymbol F$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.45}
+设 $u=u(x,y)$、$v=v(x,y)$、$\xi=\xi(u,v)$、$\zeta=\zeta(u,v)$ 均可微。证明复合映射的 Jacobi 行列式满足链式法则\[\frac{\partial(\xi,\zeta)}{\partial(x,y)}=\frac{\partial(\xi,\zeta)}{\partial(u,v)}\frac{\partial(u,v)}{\partial(x,y)}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.46}
+求下列函数在指定点的偏微商。
+\SubQ{1}{$f(x,y)=x+y-\sqrt{x^2+y^2}$，求 $f_x(3,4)$。}
+\SubQ{2}{$f(x,y)=\sin(x^2y)$，求 $f_x(1,\pi)$。}
+\SubQ{3}{$f(x,y)=\ln\!\left[xy^2+yx^2+\sqrt{1+(xy^2+yx^2)^2}\right]$，求 $f_x(1,y)$ 与 $f_y(1,y)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.47}
+求下列函数对各自变量的偏微商。
+\SubQ{1}{$z=xe^y/y^2$。}
+\SubQ{2}{$z=3^{-y/x}$。}
+\SubQ{3}{$z=\sin(x/y)\cos(y/x)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.48}
+求下列函数对各自变量的偏微商。
+\SubQ{1}{$z=\ln(x+\sqrt{x^2+y^2})$。}
+\SubQ{2}{$u=\arctan\dfrac{x+y}{x-y}$。}
+\SubQ{3}{$u=e^{x(x^2+y^2+z^2)}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.49}
+求下列函数对各自变量的偏微商。
+\SubQ{1}{$u=x^{y^z}$。}
+\SubQ{2}{$u=xe^{-z}+\ln(x+\ln y)+z$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.50}
+设 $f(x,y)=\displaystyle\int_1^{x^2y}\frac{\sin t}{t}\,dt$，求 $\dfrac{\partial f}{\partial x}$ 与 $\dfrac{\partial f}{\partial y}$（被积函数在 $t=0$ 处按连续延拓理解）。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.51}
+设 $f(x,y)=\begin{cases}y\sin\dfrac1{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0.\end{cases}$ 考察它在原点的偏导数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.52}
+证明函数 $z=\sqrt{x^2+y^2}$ 在原点连续，但两个偏导数均不存在。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.53}
+求曲面 $z=(x^2+y^2)/4$ 与平面 $y=4$ 的交线在点 $(2,4,5)$ 处的切线与 $x$ 轴正方向所成的角。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.54}
+求曲线 $z=\sqrt{x^2+y^2+1}$，$x=1$ 在点 $(1,1,\sqrt3)$ 处的切线分别与 $x,y,z$ 轴正方向的夹角。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.55}
+证明函数 $u=t^{-1/2}e^{-x^2/(4t)}$（$t>0$）满足热传导方程 $\dfrac{\partial u}{\partial t}=\dfrac{\partial^2u}{\partial x^2}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.56}
+求下列函数的 $\dfrac{\partial^2z}{\partial x^2}$，$\dfrac{\partial^2z}{\partial x\partial y}$，$\dfrac{\partial^2z}{\partial y^2}$；$a,b$ 为常数。
+\SubQ{1}{$z=\dfrac{x-y}{x+y}$。}
+\SubQ{2}{$z=\arctan\dfrac{x+y}{1-xy}$。}
+\SubQ{3}{$z=\ln(x+\sqrt{x^2+y^2})$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.57}
+求下列函数的 $\dfrac{\partial^2z}{\partial x^2}$，$\dfrac{\partial^2z}{\partial x\partial y}$，$\dfrac{\partial^2z}{\partial y^2}$；$a,b$ 为常数。
+\SubQ{1}{$z=\sin^2(ax+by)$。}
+\SubQ{2}{$z=y^{\ln x}$。}
+\SubQ{3}{$z=\arcsin(xy)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.58}
+设 $u=e^{xyz}$，求 $\dfrac{\partial^3u}{\partial x\partial y\partial z}$ 和 $\dfrac{\partial^3u}{\partial x\partial y^2}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.59}
+设 $r=\sqrt{x^2+y^2+z^2}\ne0$。证明下列等式。
+\SubQ{1}{$r_{xx}+r_{yy}+r_{zz}=2/r$。}
+\SubQ{2}{$(\ln r)_{xx}+(\ln r)_{yy}+(\ln r)_{zz}=1/r^2$。}
+\SubQ{3}{$(1/r)_{xx}+(1/r)_{yy}+(1/r)_{zz}=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.60}
+设 $f(x,y)=\begin{cases}xy\dfrac{x^2-y^2}{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0.\end{cases}$ 证明：它的二阶偏导数存在，但所有二阶偏导数在原点都不连续，且两个混合偏导数在原点不相等。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.61}
+求下列函数的微分或在给定点的微分。
+\SubQ{1}{$z=\ln(x^2+y^2)$。}
+\SubQ{2}{$z=\dfrac{xy}{x^2+y^2}$。}
+\SubQ{3}{$u=\dfrac{s+t}{s-t}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.62}
+求下列函数的微分或在给定点的微分。
+\SubQ{1}{$z=\arctan(y/x)$。}
+\SubQ{2}{$z=\sin(xy)$，在点 $(0,0)$。}
+\SubQ{3}{$z=x^4+y^4-4x^2y^2$，在点 $(0,0)$ 和 $(1,1)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.63}
+设 $f,g$ 为两个可微函数。利用微分的定义证明 $d(fg)=g\,df+f\,dg$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.64}
+根据可微的定义证明 $f(x,y)=\sqrt{|xy|}$ 在原点不可微。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.65}
+证明 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0\end{cases}$ 在原点连续且偏导数存在，但在该点不可微。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.66}
+证明 $f(x,y)=\begin{cases}(x^2+y^2)\sin\dfrac1{\sqrt{x^2+y^2}},&x^2+y^2\ne0,\\0,&x^2+y^2=0\end{cases}$ 在原点连续且偏导数存在，偏导数在原点不连续，而 $f$ 在原点可微。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.67}
+对下列函数，求关于 $x,y$ 的所有一阶和二阶（含混合）偏导数。
+\SubQ{1}{$z=u\ln v$，其中 $u=x^2$，$v=1/(1+y)$。}
+\SubQ{2}{$z=u\arctan v$，其中 $u=xy/(x-y)$，$v=x^2y+y-x$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.68}
+求下列复合函数的偏导数或导数；$a$ 为常数。
+\SubQ{1}{$u=e^t+\arctan(t^2+1)$，$t=x^y$，求 $u_x,u_y$。}
+\SubQ{2}{$u=e^{xyz}$，$x=rs$，$y=r/s$，$z=r^s$，求 $u_r,u_s$。}
+\SubQ{3}{$u=\ln(x^2+y^2)$，$x=e^{t+s+r}$，$y=4(s^2+t^2)$，求 $u_r,u_s,u_t$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.69}
+求下列复合函数的偏导数或导数；$a$ 为常数。
+\SubQ{1}{$u=\dfrac{e^{ax}(y-z)}{a^2+1}$，$y=a\sin x$，$z=\cos x$，求 $du/dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.70}
+求下列复合函数的偏导数或导数，其中 $f$ 均有连续的二阶偏导数。
+\SubQ{1}{$u=f(x,y)$，$x=t^3$，$y=2t^2$，求 $du/dt$。}
+\SubQ{2}{$u=f(x,y,z)$，$x=\sin t$，$y=\cos t$，$z=e^t$，求 $du/dt$。}
+\SubQ{3}{$u=f(x^2-y^2,e^{xy})$，求 $u_x,u_{xy}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.71}
+求下列复合函数的偏导数或导数，其中 $f$ 均有连续的二阶偏导数。
+\SubQ{1}{$u=f(x+y+z,x^2+y^2+z^2)$，求 $u_x,u_{xx},u_{xy}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.72}
+求 $u=xyz$ 在点 $(1,2,-1)$ 沿方向 $\boldsymbol l=(3,-1,1)$ 的方向导数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.73}
+求 $z=\arctan(y/x)$ 在圆 $x^2+y^2-2x=0$ 上点 $P(1/2,\sqrt3/2)$ 处，沿该圆逆时针方向的方向导数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.74}
+求 $u=x^2+2y^2+3z^2+xy+3x-2y-6z$ 在点 $(1,1,-1)$ 的梯度和最大方向导数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.75}
+设 $\boldsymbol r=x\boldsymbol i+y\boldsymbol j+z\boldsymbol k$，$r=|\boldsymbol r|>0$。求下列梯度。
+\SubQ{1}{$\operatorname{grad}(1/r^2)$。}
+\SubQ{2}{$\operatorname{grad}\ln r$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.76}
+设 $u=f(t)$，$t=\varphi(xy,x+y)$，其中 $f,\varphi$ 分别具有连续的二阶导数及偏导数。求 $u_x,u_y,u_{xy}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.77}
+设 $z=f(xy)$，$f$ 可微。证明 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.78}
+设 $z=f(\ln x+1/y)$，$f$ 可微。证明 $x\dfrac{\partial z}{\partial x}+y^2\dfrac{\partial z}{\partial y}=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.79}
+证明 $u=\varphi(x-at)+\psi(x+at)$ 满足波动方程 $u_{tt}=a^2u_{xx}$，其中 $a$ 为常数，$\varphi,\psi$ 有连续的二阶导数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.80（校订）}
+设 $u=F(x,y)$ 可微，$x=r\cos\varphi$，$y=r\sin\varphi$，$r>0$。证明 $\left(\dfrac{\partial u}{\partial r}\right)^2+\left(\dfrac1r\dfrac{\partial u}{\partial\varphi}\right)^2=\left(\dfrac{\partial u}{\partial x}\right)^2+\left(\dfrac{\partial u}{\partial y}\right)^2$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.81}
+设 $u$ 的二阶偏导数连续。证明方程 $u_{xx}+2u_{xy}-3u_{yy}+2u_x+6u_y=0$ 经变换 $\xi=x+y$，$\eta=3x-y$ 后化为 $u_{\eta\xi}+\tfrac12u_\xi=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.82}
+设 $u$ 的二阶偏导数连续。证明方程 $u_{xx}+2\cos x\,u_{xy}-\sin^2x\,u_{yy}-\sin x\,u_y=0$ 经变换 $\xi=x-\sin x+y$，$\eta=x+\sin x-y$ 后化为 $u_{\xi\eta}=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.83}
+设 $z$ 的二阶偏导数连续。变换 $u=x-2y$，$v=x+ay$ 可将方程 $6z_{xx}+z_{xy}-z_{yy}=0$ 化为 $z_{uv}=0$，求常数 $a$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.84}
+求方程 $\dfrac{\partial z}{\partial y}=x^2+2y$ 满足条件 $z(x,x^2)=1$ 的解 $z=z(x,y)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.85（校订）}
+设 $u=u(x,y)$ 可微，当 $y=x^2$ 时 $u=1$，$u_x=x$。求在 $y=x^2$ 且 $x\ne0$ 处的 $u_y$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.86}
+设 $u=u(x,y)$ 的二阶偏导数连续，满足 $u_{xx}-u_{yy}=0$，且 $u(x,2x)=x$，$u_x(x,2x)=x^2$。求 $u_{xx}(x,2x)$，$u_{xy}(x,2x)$ 和 $u_{yy}(x,2x)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.87}
+求下列复合函数的微分 $du$，其中 $f$ 可微。
+\SubQ{1}{$u=f(t)$，$t=x+y$。}
+\SubQ{2}{$u=f(\xi,\eta)$，$\xi=xy$，$\eta=x/y$。}
+\SubQ{3}{$u=f(x,y,z)$，$x=t$，$y=t^2$，$z=t^3$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.88}
+求下列复合函数的微分 $du$，其中 $f$ 可微。
+\SubQ{1}{$u=f(x,\xi,\eta)$，$\xi=x^2+y^2$，$\eta=x^2+y^2+z^2$。}
+\SubQ{2}{$u=f(\xi,\eta,\zeta)$，$\xi=x^2+y^2$，$\eta=x^2-y^2$，$\zeta=2xy$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.89}
+求 Laplace 方程 $u_{xx}+u_{yy}+u_{zz}=0$ 在球面坐标 $x=r\sin\varphi\cos\theta$，$y=r\sin\varphi\sin\theta$，$z=r\cos\varphi$ 下的形式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.90}
+求坐标变换 $x=r\cos\theta$，$y=r\sin\theta$ 的 Jacobi 行列式 $\dfrac{\partial(x,y)}{\partial(r,\theta)}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.91}
+方程 $\sin(x+y)+2x+y=0$ 确定 $y$ 为 $x$ 的函数。在 $(x,y)=(0,0)$ 附近，求 $dy/dx$ 与 $d^2y/dx^2$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.92（改写）}
+考察方程 $F(x,y)=y^3-x=0$。计算 $F_y(0,0)$，求其在原点附近确定的函数 $y=y(x)$，并判断该函数在 $x=0$ 处是否可导；说明隐函数存在与可导的条件有何区别。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.93（改写）}
+设 $a>0$，Descartes 叶形线由 $x^3+y^3-3axy=0$ 给出。
+\SubQ{1}{判断原点附近的整段曲线能否表示为单一函数 $y=y(x)$ 或 $x=x(y)$ 的图像，并说明隐函数定理在原点是否适用。}
+\SubQ{2}{在 $y^2-ax\ne0$ 的曲线点附近求隐函数 $y(x)$ 的导数，并求其驻点和相应极值。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.94}
+设 $z=z(x,y)$ 是方程 $e^z-xyz=0$ 确定的可微隐函数，求 $z_x,z_y$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.95}
+设 $z=z(x,y)$ 是方程 $ax^2+by^2+cz^2=1$ 确定的二阶可微隐函数，其中 $a,b,c$ 为常数且 $cz\ne0$。求 $z_{xx},z_{xy},z_{yy}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.96}
+方程组 $u^2-v+x=0$，$u+v^2-y=0$ 在 $(x,y,u,v)=(0,0,0,0)$ 附近确定 $u,v$ 为 $x,y$ 的函数。求 $u_x$ 和 $v_x$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.97}
+求极坐标变换 $x=r\cos\theta$，$y=r\sin\theta$ 在 $r>0$ 处的局部逆变换的偏微商 $r_x,r_y,\theta_x,\theta_y$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.98}
+证明下列方程在指定点的邻域内对 $y$ 有唯一解，并求 $y$ 对 $x$ 在该点的一阶、二阶导数。
+\SubQ{1}{$x^2+xy+y^2=7$，在 $(2,1)$ 处。}
+\SubQ{2}{$x\cos(xy)=0$，在 $(1,\pi/2)$ 处。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.99}
+求下列方程所确定的隐函数的导数（在相应隐函数定理适用处）；所用函数具有所需阶数的连续导数。
+\SubQ{1}{$\sin(xy)-e^{xy}-x^2y=0$，求 $dy/dx$。}
+\SubQ{2}{$\ln\sqrt{x^2+y^2}=\arctan(y/x)$，求 $dy/dx,d^2y/dx^2$。}
+\SubQ{3}{$x^y=y^x$，求 $dy/dx,d^2y/dx^2$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.100}
+求下列方程所确定的隐函数的导数（在相应隐函数定理适用处）；所用函数具有所需阶数的连续导数。
+\SubQ{1}{$e^{-xy}-2z+e^z=0$，求 $z_x,z_y$、保持 $z$ 不变时的 $\partial x/\partial y$，以及 $z_{xx}$。}
+\SubQ{2}{$x/z=\ln(z/y)$，求 $z_x,z_y$。}
+\SubQ{3}{$F(x,x+y,x+y+z)=0$，求 $z_x,z_y$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.101}
+求下列方程所确定的隐函数的导数（在相应隐函数定理适用处）；所用函数具有所需阶数的连续导数。
+\SubQ{1}{$F(xz,yz)=0$，求 $z_x,z_y$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.102}
+求满足方程 $x^2+xy+y^2=27$ 的隐函数 $y=y(x)$ 的极大值与极小值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.103}
+求下列方程所确定的隐函数的微分（在相应隐函数定理适用处）。
+\SubQ{1}{$\cos^2x+\cos^2y+\cos^2z=1$，求 $dz$。}
+\SubQ{2}{$xyz=x+y+z$，求 $dz$。}
+\SubQ{3}{$u^3-3(x+y)u^2+z^3=0$，求 $du$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.104}
+求下列方程所确定的隐函数的微分（在相应隐函数定理适用处）。
+\SubQ{1}{$F(x-y,y-z,z-x)=0$，求 $dz$；$F$ 连续可微。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.105}
+证明：当 $1+xy=k(x-y)$（$k$ 为常数）时，有 $\dfrac{dx}{1+x^2}=\dfrac{dy}{1+y^2}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.106}
+设 $z=z(x,y)$ 是方程 $2\sin(x+2y-3z)=x+2y-3z$ 确定的可微隐函数。证明 $z_x+z_y=1$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.107（校订）}
+设 $a,b,c$ 为常数，$\varphi$ 可微，$z=z(x,y)$ 由 $\varphi(cx-az,cy-bz)=0$ 确定，且 $a\varphi_1+b\varphi_2\ne0$。证明 $az_x+bz_y=c$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.108}
+设 $z=x^2+y^2$，其中 $y=y(x)$ 由 $x^2-xy+y^2=1$ 确定。求 $dz/dx$ 和 $d^2z/dx^2$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.109}
+设 $y=f(x+t)$，而 $t$ 是方程 $y+g(x,t)=0$ 确定的 $x,y$ 的函数。求 $dy/dx$，其中函数可微且相应隐函数求导条件成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.110}
+设 $x=x(z),y=y(z)$ 由方程组 $x+y+z=0$，$x^2+y^2+z^2=1$ 确定。求 $dx/dz,dy/dz$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.111}
+设 $u=u(x,y),v=v(x,y)$ 由下列方程组确定。在相应隐函数定理适用处求 Jacobi 行列式 $\dfrac{\partial(u,v)}{\partial(x,y)}$。
+\SubQ{1}{$u^2+v^2+x^2+y^2=1$，$u+v+x+y=0$。}
+\SubQ{2}{$xu-yv=0$，$yu+xv=1$。}
+\SubQ{3}{$u=f(ux,v+y)$，$v=g(u-x,v^2y)$，其中 $f,g$ 连续可微。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.112}
+求下列函数组的局部反函数组的偏导数 $u_x,u_y,v_x,v_y$，假设相应 Jacobi 行列式不为零。
+\SubQ{1}{$x=f(u,v)$，$y=g(u,v)$，其中 $f,g$ 连续可微。}
+\SubQ{2}{$x=e^u+u\sin v$，$y=e^u-u\cos v$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.113}
+设 $u=f(x,y,z)$，$\varphi(x^2,e^y,z)=0$，$y=\sin x$。其中 $f,\varphi$ 都有一阶连续偏导数，且 $\varphi_z\ne0$。求 $du/dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.114}
+设 $y=y(x),z=z(x)$ 由方程 $z=xf(x+y)$ 与 $F(x,y,z)=0$ 确定，其中 $f$ 有一阶连续导数，$F$ 有一阶连续偏导数。求 $dz/dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.115}
+设 $u=u(x,y),v=v(x,y)$ 由 $F(x,y,u,v)=0$ 与 $G(x,y,u,v)=0$ 确定，其中 $F,G$ 具有一阶连续偏导数，且 $\partial(F,G)/\partial(u,v)\ne0$。求 $du,dv$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.116}
+证明：圆柱螺旋线 $x=a\cos t$，$y=a\sin t$，$z=bt$（$a,b>0$，$t\in\mathbb R$）在每一点的切向量与 $z$ 轴的夹角为常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.117}
+求螺旋线 $x=R\cos t$，$y=R\sin t$，$z=kt$（$R>0$，$k$ 为常数）在 $0\le t\le2\pi$ 的一段弧长。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.118}
+求螺旋线 $x=a\cos t$，$y=a\sin t$，$z=bt$（$a,b>0$，$t\in\mathbb R$）的曲率。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.119}
+设 $L$ 是摆线 $x=a(t-\sin t)$，$y=a(1-\cos t)$（$a>0$，$0<t<2\pi$），求 $L$ 的有向曲率（按参数 $t$ 增大的方向）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.120}
+求曲线 $x^2+y^2+z^2-4a^2=0$，$x^2+y^2-2ax=0$（$a>0$）在 $M_0(a,a,\sqrt2a)$ 处的切线和法平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.121}
+设 $\boldsymbol r(t)=(a\sin t,-a\cos t,bt^2)$，其中 $a,b$ 为常数。求 $\boldsymbol r'(t)$ 与 $\boldsymbol r''(t)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.122}
+设可微向量值函数 $\boldsymbol r(t)$ 是单位向量，证明 $d\boldsymbol r/dt\perp\boldsymbol r$，并说明其几何意义。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.123}
+证明曲线 $x=a\cos t$，$y=a\sin t$，$z=bt$（$a,b>0$）的切线与 $z$ 轴成定角。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.124}
+设曲线 $\boldsymbol r(t)=\left(\dfrac{t}{1+t},\dfrac{1+t}{t},t^2\right)$，$t>0$。判断它是否为简单曲线、光滑曲线，并求它在 $t=1$ 时的切线和法平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.125}
+求下列曲线在指定参数处的切线与法平面方程，所给参数取正则点；$a,b,c$ 为常数。
+\SubQ{1}{$x=a\sin^2t$，$y=b\sin t\cos t$，$z=c\cos^2t$，$t=\pi/4$。}
+\SubQ{2}{$x=t-\cos t$，$y=3+\sin^2t$，$z=1+\cos3t$，$t=\pi/2$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.126}
+求下列曲面在给定参数对应的正则点处的切平面与法线方程；$a,b,c>0$。
+\SubQ{1}{$x=u\cos v$，$y=u\sin v$，$z=av$，在 $(u_0,v_0)$ 处。}
+\SubQ{2}{$x=a\sin\theta\cos\varphi$，$y=b\sin\theta\sin\varphi$，$z=c\cos\theta$，在 $(\theta_0,\varphi_0)$ 处。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.127}
+两条隐式曲线 $F(x,y)=0$ 与 $G(x,y)=0$ 在 $(x_0,y_0)$ 相交。设 $F,G$ 可微且在交点处的梯度均不为零，求两条曲线在该点切线的夹角。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.128}
+求下列曲面在给定点的切平面和法线方程。
+\SubQ{1}{$z=\sqrt{x^2+y^2}-xy$，在 $(3,4,-7)$。}
+\SubQ{2}{$z=\arctan(y/x)$，在 $(1,1,\pi/4)$。}
+\SubQ{3}{$e^z-z+xy=3$，在 $(2,1,0)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.129}
+求下列曲面在给定点的切平面和法线方程。
+\SubQ{1}{$4+\sqrt{x^2+y^2+z^2}=x+y+z$，在 $(2,3,6)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.130}
+求椭球面 $x^2+2y^2+z^2=1$ 上平行于平面 $x-y+2z=0$ 的切平面方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.131}
+在曲面 $z=xy$ 上求一点，使该点的法线垂直于平面 $x+3y+z=0$，并写出该法线方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.132}
+求椭球面 $x^2+2y^2+3z^2=21$ 上点 $M$ 处的切平面 $\pi$，使其通过直线 $\dfrac{x-6}{2}=\dfrac{y-3}{1}=\dfrac{2z-1}{-2}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.133}
+直线 $x+y+b=0$，$x+ay-z-3=0$ 位于平面 $\pi$ 上，而 $\pi$ 与曲面 $z=x^2+y^2$ 相切于 $(1,-2,5)$。求 $a,b$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.134}
+证明曲面 $x^2+y^2+z^2=ax$ 与 $x^2+y^2+z^2=by$ 在其正则交点处互相正交，其中 $a,b$ 为非零常数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.135}
+证明曲面 $x+2y-\ln z+4=0$ 与 $x^2-xy-8x+z+5=0$ 在点 $(2,-3,1)$ 相切，即具有公共切平面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.136}
+证明曲面 $z=xe^{x/y}$（$y\ne0$）的每个切平面都通过原点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.137}
+求下列平面曲线在给定点的切线和法线方程。
+\SubQ{1}{$x^3y+xy^3=3-x^2y^2$，在 $(1,1)$。}
+\SubQ{2}{$\cos(xy)=x+2y$，在 $(1,0)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.138}
+求下列空间曲线在给定点的切线和法平面方程。
+\SubQ{1}{$y^2+z^2=25$，$x^2+y^2=10$，在 $(1,3,4)$。}
+\SubQ{2}{$2x^2+3y^2+z^2=47$，$x^2+2y^2=z$，在 $(-2,1,6)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.139}
+设 $p,q$ 为常数且 $p^2-q^2\ne0$。方程组 $pu+qv-t^2=0$，$qu+pv-s^2=0$ 确定隐函数 $u=u(s,t),v=v(s,t)$ 及可微的局部反函数 $s=s(u,v),t=t(u,v)$。证明 $\dfrac{\partial t}{\partial u}\dfrac{\partial u}{\partial t}=\dfrac{\partial s}{\partial v}\dfrac{\partial v}{\partial s}=\dfrac{p^2}{p^2-q^2}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.140}
+将 $f(x,y)=e^x\cos y$ 在 $(0,0)$ 处作 Taylor 展开至二次项。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.141}
+求 $f(x,y)=x^3-y^3+3x^2+3y^2-9x$ 的所有极值点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.142}
+求 $z=\sin x\sin y\sin(x+y)$ 在区域 $x\ge0$，$y\ge0$，$x+y\le\pi$ 上的最大值与最小值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.143（改写）}
+设 $f$ 在 $\mathbb R^n$ 中某开区域上具有连续二阶偏导数，$\boldsymbol x_0$ 是其驻点。令\[Q(\boldsymbol h)=\sum_{i,j=1}^n\frac{\partial^2 f}{\partial x_i\partial x_j}(\boldsymbol x_0)h_i h_j.\]利用 $Q$ 的正定性、负定性、半正定性、半负定性或不定性，讨论 $\boldsymbol x_0$ 是否为极值点，给出相应判别结论及证明；说明哪些情形仅凭 $Q$ 不能判定。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.144}
+求体积固定为 $V_0>0$ 而表面积最小的圆柱体的底面半径与高，表面积包含两个底面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.145}
+求约束条件 $(x-1)^2+y^2-1=0$ 下 $z=xy$ 的极值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.146}
+求原点到曲面 $(x-y)^2-z^2=1$ 的最短距离。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.147}
+将正数 $a$ 分成 $n$ 个正数的和，使这 $n$ 个正数的乘积最大。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.148}
+设 $x,y,h,k$ 为常数，求曲线 $F(t)=f(x+th,y+tk)$ 在 $t=1$ 处切线的斜率，其中 $f$ 如下。
+\SubQ{1}{$f(x,y)=\sin(x^2+y)$。}
+\SubQ{2}{$f(x,y)=x^2+2xy^2-y^4$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.149}
+求下列函数从 $(x_0,y_0)$ 变到 $(x_0+h,y_0+k)$ 时的增量。
+\SubQ{1}{$f(x,y)=x^3+y^2-6xy-39x+18y+4$，$(x_0,y_0)=(5,6)$。}
+\SubQ{2}{$f(x,y)=x^2y+xy^2-2xy$，$(x_0,y_0)=(1,-1)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.150}
+对函数 $f(x,y)=\sin\pi x+\cos\pi y$ 应用微分中值定理，证明存在 $0<\theta<1$ 使 $\dfrac4\pi=\cos\dfrac{\pi\theta}{2}+\sin\!\left[\dfrac\pi2(1-\theta)\right]$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.151}
+求下列函数的 Taylor 公式，并指出展开式成立的区域。
+\SubQ{1}{$f(x,y)=e^x\ln(1+y)$，在 $(0,0)$ 处展开至三阶。}
+\SubQ{2}{$f(x,y)=\sqrt{1-x^2-y^2}$，在 $(0,0)$ 处展开至四阶。}
+\SubQ{3}{$f(x,y)=\dfrac1{1-x-y+xy}$，在 $(0,0)$ 处展开至 $n$ 阶。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.152}
+求下列函数的 Taylor 公式，并指出展开式成立的区域。
+\SubQ{1}{$f(x,y)=\arctan\dfrac{1+x+y}{1-x+y}$，在 $(0,0)$ 处展开至二阶。}
+\SubQ{2}{$f(x,y)=\sin(x^2+y^2)$，在 $(0,0)$ 处展开至 $n$ 阶。}
+\SubQ{3}{$f(x,y)=\cos x/\cos y$，在 $(0,0)$ 处展开至二阶。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.153}
+求下列函数的 Taylor 公式，并指出展开式成立的区域。
+\SubQ{1}{$f(x,y)=2x^2-xy-y^2-6x-3y+5$，在 $(1,-2)$ 处展开。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.154}
+隐函数 $z=z(x,y)$ 满足 $z^3-2xz+y=0$，且 $z(1,1)=1$。按 $x-1$ 与 $y-1$ 的乘幂将 $z$ 展开至二次项。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.155（校订）}
+设单位球面上一个由大圆弧围成的球面三角形的三边弧长为 $x,y,z$，$x,y$ 的夹角为 $\theta$。由球面余弦定理 $\cos z=\cos x\cos y+\sin x\sin y\cos\theta$，证明当三边趋于零时，其二阶近似化为 Euclid 余弦定理 $z^2=x^2+y^2-2xy\cos\theta$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.156}
+求下列函数或隐函数的极值，其中 $a>0$。
+\SubQ{1}{$f(x,y)=xy+50/x+20/y$，$x>0,y>0$。}
+\SubQ{2}{$f(x,y)=4(x-y)-x^2-y^2$。}
+\SubQ{3}{$f(x,y)=e^{2x}(x+2y+y^2)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.157}
+求下列函数或隐函数的极值，其中 $a>0$。
+\SubQ{1}{$(x^2+y^2)^2=a^2(x^2-y^2)$，求隐函数 $y=y(x)$ 的极值。}
+\SubQ{2}{$x^2+y^2+z^2-2x+2y-4z-10=0$，求隐函数 $z=z(x,y)$ 的极值。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.158}
+求一个三角形，使它三个角的正弦乘积最大。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.159}
+画出 $z=xy$ 的等值线簇与圆 $(x-1)^2+y^2-1=0$ 相交的示意图，并在图中标出约束下的极值点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.160}
+求下列函数在指定条件下的极值，其中 $a,b$ 为非零常数。
+\SubQ{1}{$u=x^2+y^2$，$x/a+y/b=1$。}
+\SubQ{2}{$u=x+y+z$，$1/x+1/y+1/z=1$，$x,y,z>0$。}
+\SubQ{3}{$u=\sin x\sin y\sin z$，$x+y+z=\pi/2$，$x,y,z>0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.161}
+求下列函数在指定条件下的极值，其中 $a,b$ 为非零常数。
+\SubQ{1}{$u=xyz$，$x+y+z=0$ 且 $x^2+y^2+z^2=1$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.162}
+求下列函数在给定范围内的最大值与最小值。
+\SubQ{1}{$z=x^2-y^2$，$x^2+y^2\le4$。}
+\SubQ{2}{$z=x^2-xy+y^2$，$|x|+|y|\le1$。}
+\SubQ{3}{$z=\sin x+\sin y-\sin(x+y)$，$x\ge0,y\ge0,x+y\le2\pi$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.163}
+求下列函数在给定范围内的最大值与最小值。
+\SubQ{1}{$z=x^2y(4-x-y)$，$x\ge0,y\ge0,x+y\le6$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.164}
+在平面 $3x-2z=0$ 上求一点，使它到 $A(1,1,1)$ 与 $B(2,3,4)$ 的距离平方和最小。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.165}
+在曲线 $z=x^2+2y^2$，$z=6-2x^2-y^2$ 上，求竖坐标 $z$ 分别取最大值和最小值的点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.166}
+设 $f(x,y)=3x^2y-x^4-2y^2$。证明原点不是它的极值点，但沿每条经过原点的直线，原点都是限制函数的极大值点。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.167}
+帐篷下部为半径 $R$、高 $H$ 的圆柱，上部为同底半径、高 $h$ 的圆锥顶篷，容量固定为 $V_0>0$。帐篷不计底面，证明当 $R=\sqrt5H$、$h=2H$ 时，所用篷布最省。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.168}
+已知平行六面体所有棱长之和为 $12a$（$a>0$），求其最大体积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.169}
+在椭圆 $x^2/a^2+y^2/b^2=1$（$a,b>0$）的第一象限求一点 $M(x,y)$，使该点切线与坐标轴围成的有限三角形面积最小，并求此面积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.170}
+求平面上一点 $(x_0,y_0)$，使它到 $n$ 个定点 $(x_i,y_i)$（$i=1,\ldots,n$）的距离平方和最小。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.171}
+在椭球体 $x^2/a^2+y^2/b^2+z^2/c^2\le1$（$a,b,c>0$）的内接长方体中，求体积最大的长方体的体积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.172}
+在旋转椭球面 $x^2/4+y^2+z^2=1$ 上，求距平面 $x+y+2z=9$ 最远和最近的点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.173}
+设曲面 $S$ 为 $\sqrt x+\sqrt y+\sqrt z=\sqrt a$，其中 $a>0$，考虑 $x,y,z>0$ 的点。
+\SubQ{1}{证明 $S$ 上任一点处的切平面在三条坐标轴上的截距之和等于 $a$。}
+\SubQ{2}{求 $S$ 的一个切平面，使其与三个坐标面所围四面体的体积最大，并求此最大值。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.174}
+设 $q$ 为常数，$\boldsymbol r=(x,y,z)$，$r=|\boldsymbol r|>0$。求电场强度 $\boldsymbol E=q\boldsymbol r/r^3$ 的散度和旋度。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.175}
+设 $\boldsymbol\omega=\omega_1\boldsymbol i+\omega_2\boldsymbol j+\omega_3\boldsymbol k$ 为常向量，$\boldsymbol r=x\boldsymbol i+y\boldsymbol j+z\boldsymbol k$。求向量场 $\boldsymbol v=\boldsymbol\omega\times\boldsymbol r$ 的旋度，并给出合理的物理解释。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.176}
+求下列向量场在指定点的散度。
+\SubQ{1}{$\boldsymbol v=(3x^2-2yz,y^3+yz^2,xyz-3xz^2)$，在 $M(1,-2,2)$。}
+\SubQ{2}{$\boldsymbol v=x^2\sin y\,\boldsymbol i+y^2\sin(xz)\,\boldsymbol j+xy\sin(\cos z)\,\boldsymbol k$，在 $M(x,y,z)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.177}
+设 $\boldsymbol w$ 为常向量，$\boldsymbol r=(x,y,z)$，$r=|\boldsymbol r|$。计算下列散度，涉及 $1/r$ 时取 $r>0$。
+\SubQ{1}{$\operatorname{div}[(\boldsymbol r\cdot\boldsymbol w)\boldsymbol w]$。}
+\SubQ{2}{$\operatorname{div}(\boldsymbol r/r)$。}
+\SubQ{3}{$\operatorname{div}(\boldsymbol w\times\boldsymbol r)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.178}
+设 $\boldsymbol w$ 为常向量，$\boldsymbol r=(x,y,z)$，$r=|\boldsymbol r|$。计算下列散度，涉及 $1/r$ 时取 $r>0$。
+\SubQ{1}{$\operatorname{div}(r^2\boldsymbol w)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.179}
+求下列向量场的旋度。
+\SubQ{1}{$\boldsymbol v=y^2\boldsymbol i+z^2\boldsymbol j+x^2\boldsymbol k$。}
+\SubQ{2}{$\boldsymbol v=(xe^y+y)\boldsymbol i+(z+e^y)\boldsymbol j+(y+2ze^y)\boldsymbol k$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.180}
+设 $\boldsymbol w$ 为常向量，$\boldsymbol r=(x,y,z)$，$r=|\boldsymbol r|>0$，$f$ 可微。计算下列各式。
+\SubQ{1}{$\operatorname{rot}(\boldsymbol w\times\boldsymbol r)$。}
+\SubQ{2}{$\operatorname{rot}[f(r)\boldsymbol r]$。}
+\SubQ{3}{$\operatorname{rot}[f(r)\boldsymbol w]$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.181}
+设 $\boldsymbol w$ 为常向量，$\boldsymbol r=(x,y,z)$，$r=|\boldsymbol r|>0$，$f$ 可微。计算下列各式。
+\SubQ{1}{$\operatorname{div}[\boldsymbol r\times f(r)\boldsymbol w]$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.182}
+设 $\boldsymbol w$ 为常向量，$\boldsymbol r=(x,y,z)$，$r=|\boldsymbol r|>0$，$f(r)$ 可微。通过 $\nabla$ 运算求下列各式。
+\SubQ{1}{$\nabla[\boldsymbol w\cdot(f(r)\boldsymbol r)]$。}
+\SubQ{2}{$\nabla\cdot[\boldsymbol w\times(f(r)\boldsymbol r)]$。}
+\SubQ{3}{$\nabla\times[\boldsymbol w\times(f(r)\boldsymbol r)]$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.183}
+设 $\varphi,\psi$ 为可微数量场，$\boldsymbol a,\boldsymbol b$ 为可微向量场。证明下列运算公式。
+\SubQ{1}{$\nabla(\varphi+\psi)=\nabla\varphi+\nabla\psi$。}
+\SubQ{2}{$\nabla\cdot(\boldsymbol a+\boldsymbol b)=\nabla\cdot\boldsymbol a+\nabla\cdot\boldsymbol b$。}
+\SubQ{3}{$\nabla\times(\boldsymbol a+\boldsymbol b)=\nabla\times\boldsymbol a+\nabla\times\boldsymbol b$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.184}
+设 $\varphi,\psi$ 为可微数量场，$\boldsymbol a,\boldsymbol b$ 为可微向量场。证明下列运算公式。
+\SubQ{1}{$\nabla(\varphi\psi)=\varphi\nabla\psi+\psi\nabla\varphi$。}
+\SubQ{2}{$\nabla\cdot(\varphi\boldsymbol a)=\varphi(\nabla\cdot\boldsymbol a)+\boldsymbol a\cdot\nabla\varphi$。}
+\SubQ{3}{$\nabla\cdot(\boldsymbol a\times\boldsymbol b)=\boldsymbol b\cdot(\nabla\times\boldsymbol a)-\boldsymbol a\cdot(\nabla\times\boldsymbol b)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.185}
+设 $\varphi,\psi$ 为可微数量场，$\boldsymbol a,\boldsymbol b$ 为可微向量场。证明下列运算公式。
+\SubQ{1}{$\nabla\times(\varphi\boldsymbol a)=\nabla\varphi\times\boldsymbol a+\varphi(\nabla\times\boldsymbol a)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.186}
+设数量场 $\varphi$ 和向量场 $\boldsymbol a$ 具有连续的二阶偏导数。证明下列恒等式。
+\SubQ{1}{$\operatorname{rot}\operatorname{grad}\varphi=\nabla\times\nabla\varphi=0$。}
+\SubQ{2}{$\operatorname{div}\operatorname{rot}\boldsymbol a=\nabla\cdot(\nabla\times\boldsymbol a)=0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.187}
+设向量场 $\boldsymbol v$ 具有连续的二阶偏导数，证明 $\nabla\times(\nabla\times\boldsymbol v)=\nabla(\nabla\cdot\boldsymbol v)-\nabla^2\boldsymbol v$，其中 $\nabla^2$ 对向量场各分量分别作用。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.188（改写）}
+设 $\omega=y\,dx+z\,dy+x\,dz$。求 $d\omega$，并判断是否存在函数 $\theta$ 使 $\omega=d\theta$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{9.189（改写）}
+设 $\omega=yz\,dx+zx\,dy+xy\,dz$。求 $d\omega$，并寻找函数 $\theta$ 使 $\omega=d\theta$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.190}
+计算下列微分形式的外积。
+\SubQ{1}{$(x\,dx+y\,dy)\wedge(z\,dz-z\,dx)$。}
+\SubQ{2}{$(dx+dy+dz)\wedge(x\,dx\wedge dy-z\,dy\wedge dz)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.191}
+计算下列微分形式的外微分 $d\omega$。
+\SubQ{1}{$\omega=xy+yz+zx$。}
+\SubQ{2}{$\omega=xy\,dx$。}
+\SubQ{3}{$\omega=xy\,dx+x^2\,dy$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.192}
+计算下列微分形式的外微分 $d\omega$。
+\SubQ{1}{$\omega=x^2y\,dx-yze^2\,dy+\sin(xyz)\,dz$。}
+\SubQ{2}{$\omega=xy^2\,dy\wedge dz-xz^2\,dx\wedge dy$。}
+\SubQ{3}{$\omega=xy\,dy\wedge dz+yz\,dz\wedge dx+zx\,dx\wedge dy$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.193}
+设 $a_1,\ldots,a_n$ 是非零常数，$f(x_1,\ldots,x_n)$ 在 $\mathbb R^n$ 上可微。证明：存在 $\mathbb R$ 上一元可微函数 $F$，使 $f(x_1,\ldots,x_n)=F(a_1x_1+\cdots+a_nx_n)$ 的充要条件是 $a_j\dfrac{\partial f}{\partial x_i}=a_i\dfrac{\partial f}{\partial x_j}$ 对所有 $i,j=1,\ldots,n$ 成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.194}
+设 $f(x,y,z)=F(u,v,w)$，其中 $x^2=vw, y^2=wu, z^2=uv$。在这一可微坐标变换成立处，证明\[x\frac{\partial f}{\partial x}+y\frac{\partial f}{\partial y}+z\frac{\partial f}{\partial z}=u\frac{\partial F}{\partial u}+v\frac{\partial F}{\partial v}+w\frac{\partial F}{\partial w}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.195}
+在对正比例伸缩封闭的定义域上，若 $f(tx,ty,tz)=t^kf(x,y,z)$ 对一切 $t>0$ 成立，则称 $f$ 为 $k$ 次齐次函数。证明 Euler 定理：可微函数 $f$ 为 $k$ 次齐次函数的充分必要条件是\[x f_x+y f_y+z f_z=kf.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.196}
+设 $f(x,y,z)$ 是 $n$ 次齐次的可微函数，方程 $f(x,y,z)=0$ 在 $f_z\ne0$ 处确定可微隐函数分支 $z=\varphi(x,y)$。证明：在同一分支可连续缩放的范围内，$\varphi(tx,ty)=t\varphi(x,y)$，即该隐函数为一次齐次函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.197}
+设 $f\in C^2(\mathbb R^2)$，且对任意实数 $x,y,z$ 满足 $f(x,y)=f(y,x)$ 及\[f(x,y)+f(y,z)+f(z,x)=3f\!\left(\frac{x+y+z}{3},\frac{x+y+z}{3}\right).\]求 $f(x,y)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.198}
+证明：当 $x\ge0, y\ge0$ 时，\[\frac{x^2+y^2}{4}\le e^{x+y-2}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.199}
+设 $u=f(x,y,z)$ 定义在 $\mathbb R^3$ 上，对每个固定的 $(x,y)$ 都是 $z$ 的连续函数，且偏导数 $f_x,f_y$ 在 $\mathbb R^3$ 上连续。证明 $u$ 在 $\mathbb R^3$ 上连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.200}
+设 $D\subset\mathbb R^2$ 是包含原点的凸区域，$f\in C^1(D)$。证明：若\[x f_x(x,y)+y f_y(x,y)=0\qquad((x,y)\in D),\]则 $f$ 为常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.201}
+设 $f\in C^1(\mathbb R^2)$，$f(0,0)=0$。证明存在 $\mathbb R^2$ 上的连续函数 $g_1,g_2$，使\[f(x,y)=xg_1(x,y)+yg_2(x,y).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.202}
+设 $f(x,y)$ 在 $(x_0,y_0)$ 的某邻域 $U$ 上有定义，且 $f_x,f_y$ 在 $U$ 上存在。证明：如果 $f_x,f_y$ 中有一个在 $(x_0,y_0)$ 处连续，则 $f$ 在该点可微。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.203}
+设 $u\in C^2(\mathbb R^2)$ 且处处取正值。证明：$u$ 满足\[u\frac{\partial^2u}{\partial x\partial y}=\frac{\partial u}{\partial x}\frac{\partial u}{\partial y}\]的充分必要条件是存在一元函数 $f,g$，使 $u(x,y)=f(x)g(y)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.204}
+设 $\boldsymbol r(t)=x(t)\boldsymbol i+y(t)\boldsymbol j$，$t\in[a,b]$，具有连续导数。证明存在 $\theta\in(a,b)$，使\[|\boldsymbol r(b)-\boldsymbol r(a)|\le |\boldsymbol r'(\theta)|(b-a).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.205}
+设 $f\in C^1(\mathbb R^3)$ 且 $f_x=f_y=f_z$。如果 $f(x,0,0)>0$ 对任意 $x\in\mathbb R$ 成立，证明 $f(x,y,z)>0$ 对任意 $(x,y,z)\in\mathbb R^3$ 成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.206}
+求 $f(x,y)=x^2+xy^2-x$ 在区域 $D=\{(x,y):x^2+y^2\le2\}$ 上的最大值和最小值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.207（校订）}
+设 $n\ge3$，$x_1,\ldots,x_n$ 为正数且 $x_1+\cdots+x_n=n$。用 Lagrange 乘数法证明\[x_1\cdots x_n\left(\frac1{x_1}+\cdots+\frac1{x_n}\right)\le n,\]且等号成立当且仅当 $x_1=\cdots=x_n=1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.208}
+设 $a_i\ge0$（$i=1,\ldots,n$），$p>1$。证明\[\frac{a_1+\cdots+a_n}{n}\le\left(\frac{a_1^p+\cdots+a_n^p}{n}\right)^{1/p},\]并讨论等号成立的条件。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{9.209}
+设 $y_i=y_i(x_1,\ldots,x_n)$（$i=1,\ldots,n$）是 $n$ 个可微的 $n$ 元函数。证明\[dy_1\wedge\cdots\wedge dy_n=\frac{\partial(y_1,\ldots,y_n)}{\partial(x_1,\ldots,x_n)}\,dx_1\wedge\cdots\wedge dx_n.\]
+\end{minipage}\par\vfill

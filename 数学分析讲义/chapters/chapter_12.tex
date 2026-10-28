@@ -1,0 +1,240 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{11}\section{Fourier 分析}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.1}
+设 $f$ 以 $2\pi$ 为周期，在 $[-\pi,\pi)$ 上 $f(x)=\begin{cases}x,&0\le x<\pi,\\0,&-\pi\le x<0.\end{cases}$ 将 $f$ 展开为 Fourier 级数，并说明收敛值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.2}
+求 $f(x)=\cos(ax)$ 在 $[-\pi,\pi]$ 上的 Fourier 级数，其中 $a\in\mathbb R\setminus\mathbb Z$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.3}
+半波整流函数的周期为 $2\pi/\omega$，且在一个周期内 $f(t)=\begin{cases}0,&-\pi/\omega\le t<0,\\E\sin\omega t,&0\le t\le\pi/\omega.\end{cases}$ 其中 $\omega,E>0$，求其 Fourier 级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.4}
+设 $0<h<l$，求函数 $f(x)=\begin{cases}1/(2h),&|x|<h,\\0,&h\le|x|\le l\end{cases}$ 在 $[-l,l]$ 上的 Fourier 级数，并说明间断点处的收敛值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.5}
+设 $l>0$，将函数 $f(x)=\begin{cases}x,&0\le x<l/2,\\l-x,&l/2\le x\le l\end{cases}$ 分别展开为正弦级数与余弦级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.6}
+将 $f(x)=x^2$ 在 $[0,1]$ 上展开为以 $1$ 为周期的 Fourier 级数，并说明端点处的收敛值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.7}
+作出下列周期为 $2\pi$ 的函数的图形，将它们展开为 Fourier 级数并说明收敛情况。
+\SubQ{1}{在 $[-\pi,\pi)$ 中，$f(x)=\begin{cases}-\pi,&-\pi\le x\le0,\\x,&0<x<\pi.\end{cases}$}
+\SubQ{2}{在 $[-\pi,\pi)$ 中，$f(x)=\cos(x/2)$。}
+\SubQ{3}{在 $[-\pi,\pi)$ 中，$f(x)=\begin{cases}e^x,&-\pi\le x\le0,\\1,&0<x<\pi.\end{cases}$}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.8}
+将下列函数展开成以指定区间长度为周期的 Fourier 级数，并说明收敛情况。
+\SubQ{1}{$f(x)=1-\sin(x/2)$，$0\le x\le\pi$。}
+\SubQ{2}{$f(x)=x/3$，$0\le x\le T$，$T>0$。}
+\SubQ{3}{$f(x)=e^{ax}$，$-l\le x\le l$，$l>0$，$a\in\mathbb R$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.9}
+将下列函数展开成以指定区间长度为周期的 Fourier 级数，并说明收敛情况。
+\SubQ{1}{$f(x)=\begin{cases}1,&|x|<1,\\-1,&1\le|x|\le2.\end{cases}$}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.10}
+把下列函数分别展开为正弦级数和余弦级数。
+\SubQ{1}{$f(x)=2x^2$，$0\le x\le\pi$。}
+\SubQ{2}{$f(x)=\begin{cases}A,&0\le x<1/2,\\0,&1/2\le x\le l,\end{cases}$ 其中 $l>1/2$，$A$ 为常数。}
+\SubQ{3}{$f(x)=\begin{cases}1-x/(2h),&0\le x\le2h,\\0,&2h<x\le\pi,\end{cases}$ 其中 $0<2h<\pi$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.11}
+已知下列 Fourier 展开式，分别求常数 $a$。
+\SubQ{1}{$\displaystyle\sum_{n=1}^{\infty}\frac{\cos(2n-1)x}{(2n-1)^2}=a(2a-|x|)$，$-\pi\le x\le\pi$。}
+\SubQ{2}{$\displaystyle\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}n\sin nx=ax$，$-\pi<x<\pi$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.12}
+求下列 Fourier 级数的指定收敛值。
+\SubQ{1}{设 $f(x)=\begin{cases}x,&0\le x\le1/2,\\2-2x,&1/2<x<1,\end{cases}$ $a_n=2\int_0^1f(x)\cos n\pi x\,dx$（$n\ge0$），$S(x)=a_0/2+\sum_{n=1}^{\infty}a_n\cos n\pi x$。求 $S(9/4)$ 与 $S(-5/2)$。}
+\SubQ{2}{设 $f(x)=\begin{cases}-1,&-\pi<x\le0,\\1+x^2,&0<x\le\pi.\end{cases}$ 其周期为 $2\pi$ 的 Fourier 级数的和函数为 $S$。求 $S(3\pi)$ 与 $S(-4\pi)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.13}
+设 $f$ 为周期 $2\pi$ 的可积函数，Fourier 系数为 $a_n,b_n$。证明下列结论。
+\SubQ{1}{若 $f(x+\pi)=-f(x)$，则 $a_{2n}=0$（$n\ge0$），$b_{2n}=0$（$n\ge1$），即展开中只含奇次谐波。}
+\SubQ{2}{若 $f(x+\pi)=f(x)$，则 $a_{2n-1}=b_{2n-1}=0$（$n\ge1$），即展开中只含偶次谐波。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.14}
+已知周期 $2\pi$ 的可积函数 $f$ 的 Fourier 系数为 $a_n,b_n$。证明平移函数 $f(x+h)$ 的系数满足 $\bar a_0=a_0$，$\bar a_n=a_n\cos nh+b_n\sin nh$，$\bar b_n=b_n\cos nh-a_n\sin nh$（$n\ge1$），其中 $h$ 为常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.15}
+将 $f(x)=1-x^2$ 在 $[-\pi,\pi]$ 上展开为 Fourier 级数，并利用结果求 $\sum_{n=1}^{\infty}(-1)^{n-1}/n^2$ 与 $\sum_{n=1}^{\infty}1/n^2$ 的和。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.16}
+将 $f(x)=1+x$（$0\le x\le\pi$）展开成周期为 $2\pi$ 的余弦级数，并求 $\sum_{n=1}^{\infty}\cos(2n-1)/(2n-1)^2$ 与 $\sum_{n=1}^{\infty}\cos[4(2n-1)]/(2n-1)^2$ 的和。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.17}
+设 $0<\tau<T$，周期为 $T$ 的函数在一个周期内为 $f(x)=\begin{cases}0,&-T/2\le x<-\tau/2,\\H,&-\tau/2\le x<\tau/2,\\0,&\tau/2\le x\le T/2.\end{cases}$ 将它展开为 Fourier 级数的复数形式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.18}
+证明下列关于连续函数的 Fourier 系数的结论。
+\SubQ{1}{若 $f\in C[-\pi,\pi]$ 且与 $1,\cos nx,\sin nx$（$n\ge1$）均正交，则 $f\equiv0$。}
+\SubQ{2}{若 $f,g\in C[-\pi,\pi]$ 的全部 Fourier 系数相等，则 $f=g$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.19（改写）}
+将 $f(x)=|x|$（$-\pi\le x\le\pi$）展开为 Fourier 级数，再用 Parseval 等式求 $\sum_{n=1}^{\infty}1/(2n-1)^4$ 与 $\sum_{n=1}^{\infty}1/n^4$ 的和。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.20}
+设 $0<a<\pi$，将 $f(x)=\begin{cases}1,&|x|<a,\\0,&a\le|x|<\pi\end{cases}$ 展开为周期 $2\pi$ 的 Fourier 级数，然后利用 Parseval 等式求 $\sum_{n=1}^{\infty}\sin^2(na)/n^2$ 与 $\sum_{n=1}^{\infty}\cos^2(na)/n^2$ 的和。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.21}
+设 $f$ 在 $[-\pi,\pi]$ 上可积且平方可积，$a_n,b_n$ 为其 Fourier 系数。证明 $\sum_{n=1}^{\infty}a_n/n$ 与 $\sum_{n=1}^{\infty}b_n/n$ 收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.22}
+求周期 $2\pi$ 的函数 $f(x)=\begin{cases}-1,&-\pi<x<0,\\1,&0\le x\le\pi\end{cases}$ 的 Fourier 级数，并求 $\sum_{n=1}^{\infty}1/(2n-1)^2$ 与 $\sum_{n=1}^{\infty}\cos((2n-1)x)/(2n-1)^2$（$0\le x\le\pi$）的和。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.23}
+证明下列函数系为正交函数系，并求相应的标准正交系，其中 $l>0$。
+\SubQ{1}{$1,\cos x,\cos2x,\ldots$，在 $[0,\pi]$ 上。}
+\SubQ{2}{$\sin(\pi x/l),\sin(2\pi x/l),\ldots$，在 $[0,l]$ 上。}
+\SubQ{3}{$\sin x,\sin3x,\sin5x,\ldots$，在 $[0,\pi/2]$ 上。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.24}
+证明下列函数系为正交函数系，并求相应的标准正交系，其中 $l>0$。
+\SubQ{1}{$\cos(\pi x/(2l)),\cos(3\pi x/(2l)),\ldots$，在 $[0,l]$ 上。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.25}
+将 $f(x)=a(1-x/l)$（$0\le x\le l$，$l>0$）按函数系 $\{\sin(n\pi x/l):n\ge1\}$ 展开为广义 Fourier 级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.26}
+将 $f(x)=x$（$0\le x\le l$，$l>0$）按函数系 $\{\cos((2n+1)\pi x/(2l)):n\ge0\}$ 展开为广义 Fourier 级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.27}
+证明 Legendre 多项式 $\displaystyle P_n(x)=\frac1{2^nn!}\frac{d^n}{dx^n}(x^2-1)^n$（$n=0,1,\ldots$）在 $[-1,1]$ 上构成正交函数系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.28}
+设 Legendre 多项式 $P_n(x)=\frac1{2^nn!}\frac{d^n}{dx^n}(x^2-1)^n$。证明下列性质，其中递推关系取 $n\ge1$。
+\SubQ{1}{$(1-x^2)P_n^{\prime\prime}(x)-2xP_n^{\prime}(x)+n(n+1)P_n(x)=0$。}
+\SubQ{2}{$(n+1)P_{n+1}(x)=(2n+1)xP_n(x)-nP_{n-1}(x)$。}
+\SubQ{3}{$\frac{x^2-1}{n}P_n^{\prime}(x)=xP_n(x)-P_{n-1}(x)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.29}
+设 Legendre 多项式 $P_n(x)=\frac1{2^nn!}\frac{d^n}{dx^n}(x^2-1)^n$。证明下列性质，其中递推关系取 $n\ge1$。
+\SubQ{1}{$(2n+1)P_n(x)=\frac d{dx}[P_{n+1}(x)-P_{n-1}(x)]$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.30}
+将 $f(x)=\operatorname{sgn}x$（$-\pi<x<\pi$）展开为 Fourier 级数，证明 $\sum_{k=1}^{\infty}\sin((2k-1)x)/(2k-1)=\pi/4$（$0<x<\pi$），并求 $\sum_{n=1}^{\infty}(-1)^{n-1}/(2n-1)$ 的和。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.31}
+在区间 $(-\pi,\pi)$ 上将下列函数展开为 Fourier 级数。
+\SubQ{1}{$|x|$。}
+\SubQ{2}{$\sin(ax)$，其中 $a\notin\mathbb Z$。}
+\SubQ{3}{$x\sin x$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.32}
+将 $f(x)=x-\lfloor x\rfloor$ 在 $[0,1]$ 上展开为 Fourier 级数，其中 $\lfloor x\rfloor$ 为不超过 $x$ 的最大整数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.33}
+利用 $\cos(ax)$ 在 $[-\pi,\pi]$ 上的 Fourier 展开式，证明下列等式，其中 $x\notin\pi\mathbb Z$。
+\SubQ{1}{$\displaystyle\cot x=\frac1x+\sum_{n=1}^{\infty}\frac{2x}{x^2-n^2\pi^2}$。}
+\SubQ{2}{$\displaystyle\frac1{\sin x}=\frac1x+\sum_{n=1}^{\infty}(-1)^n\frac{2x}{x^2-n^2\pi^2}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.34}
+证明对任意实数 $x$，下列等式成立。
+\SubQ{1}{$\displaystyle|\cos x|=\frac2\pi+\frac4\pi\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{4n^2-1}\cos2nx$。}
+\SubQ{2}{$\displaystyle|\sin x|=\frac2\pi-\frac4\pi\sum_{n=1}^{\infty}\frac{1}{4n^2-1}\cos2nx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.35}
+对 $x\in(0,2\pi)$、实数 $a\ne0$，证明 $\displaystyle e^{ax}=\frac{e^{2a\pi}-1}{\pi}\left(\frac1{2a}+\sum_{k=1}^{\infty}\frac{a\cos kx-k\sin kx}{k^2+a^2}\right)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.36}
+从展开式 $\displaystyle x=2\sum_{n=1}^{\infty}(-1)^{n-1}\frac{\sin nx}{n}$（$-\pi<x<\pi$）出发逐项积分，完成以下问题。
+\SubQ{1}{求 $x^2$ 在 $(-\pi,\pi)$ 上的 Fourier 展开式。}
+\SubQ{2}{求 $x^3$ 在 $(-\pi,\pi)$ 上的 Fourier 展开式。}
+\SubQ{3}{求 $x^4$ 在 $(-\pi,\pi)$ 上的 Fourier 展开式。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.37}
+从展开式 $\displaystyle x=2\sum_{n=1}^{\infty}(-1)^{n-1}\frac{\sin nx}{n}$（$-\pi<x<\pi$）出发逐项积分，完成以下问题。
+\SubQ{1}{证明 $\sum_{n=1}^{\infty}1/n^6=\pi^6/945$。}
+\SubQ{2}{证明 $\sum_{n=1}^{\infty}1/n^8=\pi^8/9450$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.38}
+设 $f(x)=\begin{cases}(\pi-1)x/2,&0\le x\le1,\\(\pi-x)/2,&1<x\le\pi.\end{cases}$ 证明 $\displaystyle f(x)=\sum_{n=1}^{\infty}\frac{\sin n}{n^2}\sin nx$（$0\le x\le\pi$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.39}
+已知 $\displaystyle\sum_{n=1}^{\infty}\frac{\sin n}{n^2}\sin nx=\begin{cases}(\pi-1)x/2,&0\le x\le1,\\(\pi-x)/2,&1<x\le\pi.\end{cases}$ 利用这一展开式证明：
+\SubQ{1}{$\displaystyle\sum_{n=1}^{\infty}\frac{\sin n}{n}=\sum_{n=1}^{\infty}\left(\frac{\sin n}{n}\right)^2=\frac{\pi-1}{2}$。}
+\SubQ{2}{$\displaystyle\sum_{n=1}^{\infty}\frac{\sin^2n}{n^4}=\frac{(\pi-1)^2}{6}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.40}
+求指数衰减函数 $f(x)=\begin{cases}e^{-\beta x},&x\ge0,\\0,&x<0\end{cases}$（$\beta>0$）的 Fourier 变换 $F(\lambda)=\int_{-\infty}^{\infty}f(x)e^{-i\lambda x}\,dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.41}
+求分段函数 $f(x)=\begin{cases}1,&|x|<a,\\1/2,&|x|=a,\\0,&|x|>a\end{cases}$（$a>0$）的 Fourier 变换，约定 $F(\lambda)=\int_{-\infty}^{\infty}f(x)e^{-i\lambda x}\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.42}
+求 $f(x)=e^{-ax}$（$a>0,x\ge0$）的 Fourier 余弦变换与正弦变换，约定 $F_c(\lambda)=2\int_0^{\infty}f(x)\cos\lambda x\,dx$，$F_s(\lambda)=2\int_0^{\infty}f(x)\sin\lambda x\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.43}
+利用 Fourier 变换的性质求正弦衰减函数 $f(x)=\begin{cases}e^{-\beta x}\sin\omega_0x,&x\ge0,\\0,&x<0\end{cases}$（$\beta>0$）的 Fourier 变换，约定 $F(\lambda)=\int_{-\infty}^{\infty}f(x)e^{-i\lambda x}\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{12.44（改写、校订）}
+无穷长细杆的温度 $T(x,t)$ 满足 $T_t=T_{xx}$（$x\in\mathbb R,t>0$），初始条件为 $T(x,0)=f(x)$，其中 $f$ 连续、有界且在 $\mathbb R$ 上绝对可积。用 Fourier 变换求温度分布的积分表达式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.45}
+用 Fourier 积分表示下列函数，并说明间断点处的收敛值。
+\SubQ{1}{$f(x)=\begin{cases}0,&x\le0,\\kx,&0<x<T,\\0,&x\ge T,\end{cases}$ 其中 $T>0$、$k$ 为常数。}
+\SubQ{2}{$f(x)=\begin{cases}\operatorname{sgn}x,&|x|\le1,\\0,&|x|>1.\end{cases}$}
+\SubQ{3}{$f(x)=1/(a^2+x^2)$，$a>0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.46}
+求下列函数的 Fourier 变换，约定 $F(\lambda)=\int_{-\infty}^{\infty}f(x)e^{-i\lambda x}\,dx$。
+\SubQ{1}{$f(x)=xe^{-a|x|}$，$a>0$。}
+\SubQ{2}{$f(x)=e^{-a|x|}\cos bx$，$a>0,b\in\mathbb R$。}
+\SubQ{3}{$f(x)=\begin{cases}\cos x,&|x|\le\pi/2,\\0,&|x|>\pi/2.\end{cases}$}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.47}
+将 $f(x)=e^{-x}$（$x\ge0$）按下列方式延拓后表示为 Fourier 积分，并说明 $x=0$ 处的收敛值。
+\SubQ{1}{先作偶延拓。}
+\SubQ{2}{先作奇延拓（原点取零）。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.48}
+求 $f(x)=\begin{cases}1,&|x|<1,\\0,&|x|>1\end{cases}$ 的 Fourier 变换（端点值任意，变换约定为 $\int_{\mathbb R}f(x)e^{-i\lambda x}\,dx$），并由此证明 $\displaystyle\int_0^{\infty}\frac{\sin\alpha\cos(\alpha x)}{\alpha}\,d\alpha=\begin{cases}\pi/2,&|x|<1,\\\pi/4,&|x|=1,\\0,&|x|>1.\end{cases}$
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.49}
+求函数 $F(\lambda)=\lambda e^{-\beta|\lambda|}$（$\beta>0$）的 Fourier 逆变换 $f(x)=\frac1{2\pi}\int_{-\infty}^{\infty}F(\lambda)e^{i\lambda x}\,d\lambda$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.50}
+证明级数 $\displaystyle\sum_{n=2}^{\infty}\frac{\sin nx}{\ln n}$ 在不含 $2\pi$ 整数倍的任意闭区间上一致收敛，但它不是任何 $[-\pi,\pi]$ 上平方可积函数的 Fourier 级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.51}
+证明下列等式。
+\SubQ{1}{$\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}\frac{\cos nx}{n}=\ln\left(2\cos\frac x2\right)$，$-\pi<x<\pi$。}
+\SubQ{2}{$\displaystyle\sum_{n=1}^{\infty}\frac{\cos nx}{n}=-\ln\left(2\sin\frac x2\right)$，$0<x<2\pi$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.52}
+设 $f$ 为周期 $2\pi$ 的可积且绝对可积函数，$b_n=\pi^{-1}\int_0^{2\pi}f(x)\sin nx\,dx$。证明：
+\SubQ{1}{若 $f$ 在 $(0,2\pi)$ 上递减，则对每个 $n\ge1$，$b_n\ge0$。}
+\SubQ{2}{若 $f$ 在 $(0,2\pi)$ 上递增，则对每个 $n\ge1$，$b_n\le0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.53}
+设 $f$ 的周期为 $2\pi$，在 $[-\pi,\pi]$ 上 Riemann 可积，且在 $(-\pi,\pi)$ 上单调。证明其 Fourier 系数满足 $a_n=O(1/n),\ b_n=O(1/n)$（$n\to\infty$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.54}
+设 $a>0$，$f$ 在 $[-a,a]$ 上连续，且在 $0$ 处可导。证明 $\displaystyle\lim_{n\to\infty}\int_{-a}^{a}\frac{1-\cos nx}{x}f(x)\,dx=\int_0^a\frac{f(x)-f(-x)}{x}\,dx$，其中可去间断点处按连续延拓理解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.55}
+设 $f$ 在 $[a,b]$ 上 Riemann 可积。证明下列极限。
+\SubQ{1}{$\displaystyle\lim_{n\to\infty}\int_a^bf(x)|\cos nx|\,dx=\frac2\pi\int_a^bf(x)\,dx$。}
+\SubQ{2}{$\displaystyle\lim_{n\to\infty}\int_a^bf(x)|\sin nx|\,dx=\frac2\pi\int_a^bf(x)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.56}
+设 $f$ 为周期 $2\pi$ 的分段可导连续函数，令 $F(x)=\pi^{-1}\int_{-\pi}^{\pi}f(t)f(x+t)\,dt$。用 $a_n,b_n$ 与 $A_n,B_n$ 分别表示 $f,F$ 的 Fourier 系数。证明 $A_0=a_0^2$，$A_n=a_n^2+b_n^2$，$B_n=0$（$n\ge1$），并由此推出 $f$ 的 Parseval 等式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{12.57}
+设 $f$ 在 $[-\pi,\pi]$ 上连续，其导数 $f'$ 可积且平方可积，且 $f(-\pi)=f(\pi)$、$\int_{-\pi}^{\pi}f(x)\,dx=0$。证明 $\displaystyle\int_{-\pi}^{\pi}[f'(x)]^2\,dx\ge\int_{-\pi}^{\pi}f^2(x)\,dx$，并证明等号成立当且仅当 $f(x)=\alpha\cos x+\beta\sin x$。
+\end{minipage}\par\vfill

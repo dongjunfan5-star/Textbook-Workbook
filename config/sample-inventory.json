@@ -1,0 +1,92 @@
+[
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "chapter": 1,
+    "chapter_title": "极限",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "source_id": "8c6dc2ce907d",
+    "page_number": 24,
+    "image": "数学分析讲义/data/page_images/8c6dc2ce907d/p0024.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "chapter": 1,
+    "chapter_title": "极限",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "source_id": "8c6dc2ce907d",
+    "page_number": 25,
+    "image": "数学分析讲义/data/page_images/8c6dc2ce907d/p0025.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "chapter": 1,
+    "chapter_title": "极限",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "source_id": "8c6dc2ce907d",
+    "page_number": 26,
+    "image": "数学分析讲义/data/page_images/8c6dc2ce907d/p0026.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "chapter": 1,
+    "chapter_title": "极限",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "source_id": "8c6dc2ce907d",
+    "page_number": 27,
+    "image": "数学分析讲义/data/page_images/8c6dc2ce907d/p0027.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "chapter": 8,
+    "chapter_title": "空间解析几何",
+    "source_sha256": "0c78ae5d67cd9294b9ff88630765a246245661bd0b6dc64658cf20d5eaf53421",
+    "source_id": "0c78ae5d67cd",
+    "page_number": 22,
+    "image": "数学分析讲义/data/page_images/0c78ae5d67cd/p0022.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "chapter": 8,
+    "chapter_title": "空间解析几何",
+    "source_sha256": "0c78ae5d67cd9294b9ff88630765a246245661bd0b6dc64658cf20d5eaf53421",
+    "source_id": "0c78ae5d67cd",
+    "page_number": 23,
+    "image": "数学分析讲义/data/page_images/0c78ae5d67cd/p0023.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "chapter": 14,
+    "chapter_title": "实数理论",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "source_id": "bd727a57b926",
+    "page_number": 13,
+    "image": "数学分析讲义/data/page_images/bd727a57b926/p0013.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "chapter": 14,
+    "chapter_title": "实数理论",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "source_id": "bd727a57b926",
+    "page_number": 14,
+    "image": "数学分析讲义/data/page_images/bd727a57b926/p0014.png"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "chapter": 14,
+    "chapter_title": "实数理论",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "source_id": "bd727a57b926",
+    "page_number": 15,
+    "image": "数学分析讲义/data/page_images/bd727a57b926/p0015.png"
+  }
+]

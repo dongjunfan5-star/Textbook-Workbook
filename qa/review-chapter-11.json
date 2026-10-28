@@ -1,0 +1,616 @@
+[
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 201,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 202,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 203,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 204,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 205,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 206,
+    "status": "reviewed",
+    "units_count": 3,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 207,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 208,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 209,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 210,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 211,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 212,
+    "status": "reviewed",
+    "units_count": 6,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 213,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 214,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 215,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 216,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 217,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 218,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 219,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 220,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 221,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 222,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 223,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 224,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 225,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 226,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 227,
+    "status": "reviewed",
+    "units_count": 4,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 228,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 229,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 230,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 231,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 232,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 233,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 234,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 235,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 236,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 237,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 238,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 239,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 240,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 241,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 242,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 243,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 244,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 245,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 246,
+    "status": "reviewed",
+    "units_count": 8,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 247,
+    "status": "reviewed",
+    "units_count": 3,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 248,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 249,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 250,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 251,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 252,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 253,
+    "status": "reviewed",
+    "units_count": 3,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 254,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 255,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 256,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 257,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 258,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 259,
+    "status": "reviewed",
+    "units_count": 4,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 260,
+    "status": "reviewed",
+    "units_count": 7,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 261,
+    "status": "reviewed",
+    "units_count": 5,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 262,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 263,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 264,
+    "status": "reviewed",
+    "units_count": 6,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第二册）.pdf",
+    "page_number": 265,
+    "status": "reviewed",
+    "units_count": 5,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  }
+]

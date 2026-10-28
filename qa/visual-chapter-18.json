@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析讲义",
+  "chapter": 18,
+  "pdf": ".cache/chapter-proofs/lecture-18/main.pdf",
+  "pdf_sha256": "eddca51996732092cc0f04e047442f0ff41413f0b05adc97f99ecb637a8d8f48",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "method": "完整性复核增补具体实例后重新编译；实际查看全部13页带页码渲染联系表，核查新增题目、公式、最终题号、改写和校订标记、每页题数及边界，无重叠截断。",
+  "issues": []
+}

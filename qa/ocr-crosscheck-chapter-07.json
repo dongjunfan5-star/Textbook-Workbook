@@ -1,0 +1,238 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 7,
+  "pages": [
+    {
+      "page_number": 266,
+      "ocr_markdown_sha256": "d11768558ecb1445888ac9547b523ea163b8b4b96d822e71f939e4d2d6a60497"
+    },
+    {
+      "page_number": 267,
+      "ocr_markdown_sha256": "39ae5d3b558240061754f9d24fcf5eb48760e79384be04c006f927e3f8beb39f"
+    },
+    {
+      "page_number": 268,
+      "ocr_markdown_sha256": "1a220c1a97a831a8f78ab4c5a9f8fd3e5e2e454864327dc79a2b456342f3a69b"
+    },
+    {
+      "page_number": 269,
+      "ocr_markdown_sha256": "b237575c114af1f2aa84f2c31068e1031eacf5fe36cc5822c457a5c283027707"
+    },
+    {
+      "page_number": 270,
+      "ocr_markdown_sha256": "57a613f93c8c047320d2ccd9cd491b9c1d1dcf3027ec1e29a429c4fc64119cc2"
+    },
+    {
+      "page_number": 271,
+      "ocr_markdown_sha256": "101c4e3fcfabfa1f9080280fa0319240e53a75a63d017652f545625aa1fd254f"
+    },
+    {
+      "page_number": 272,
+      "ocr_markdown_sha256": "88120322f7fd35c78859ab4a941efd3859eebf905977bb5331364ca2f6164a18"
+    },
+    {
+      "page_number": 273,
+      "ocr_markdown_sha256": "9aaf78903743e75bfbb8ddd4fee987d3852c533a6545d3ff881ff36d9f0259ea"
+    },
+    {
+      "page_number": 274,
+      "ocr_markdown_sha256": "7b82863a3ce7c6c409378f91673cff39c5b29a0ac8d8aca6a44c6020a4d0d8a4"
+    },
+    {
+      "page_number": 275,
+      "ocr_markdown_sha256": "746ce4008c02572597fbe59b46fe6bb9abe3a1de4ec7daeabfa806acd4506624"
+    },
+    {
+      "page_number": 276,
+      "ocr_markdown_sha256": "d9fb6f02f38ffed91e90f0593b081baf29810d60434016929c15623fa0d91e2c"
+    },
+    {
+      "page_number": 277,
+      "ocr_markdown_sha256": "a4c8250cc6d8413110152ca9eba44c49e0ac81065cdcd3b1edf895e03c21ed20"
+    },
+    {
+      "page_number": 278,
+      "ocr_markdown_sha256": "aa7dcc8a816edfc6fcf3dec378f4dba20521ed4509bc69786db7e9d99883ee2d"
+    },
+    {
+      "page_number": 279,
+      "ocr_markdown_sha256": "a28396d3c3734dedead37a4d5bede31609bdd2fc7f5bb5eb9c0b378e83a1134d"
+    },
+    {
+      "page_number": 280,
+      "ocr_markdown_sha256": "b8e14c79ab69902a9c6e5b35c4dad5eb03bc00befb5f714a38111ae1b0bcdcf9"
+    },
+    {
+      "page_number": 281,
+      "ocr_markdown_sha256": "8f47f6cdd7cadf55fa2cecf28c5ef8e210e0c9bf6dc32432b4e31699356f29ab"
+    },
+    {
+      "page_number": 282,
+      "ocr_markdown_sha256": "1596f3c9105cdb572d157d1138cbf20cac430db46b286b9f715100f711e4e9d9"
+    },
+    {
+      "page_number": 283,
+      "ocr_markdown_sha256": "5e8a6aa6e37b9861a59bb2e16f036788405210d060f8b01e29223b1f7412906b"
+    },
+    {
+      "page_number": 284,
+      "ocr_markdown_sha256": "e195af04064f43219d3d5d7cdf98123ee483a5839b57eb17d8e913f86c23afe9"
+    },
+    {
+      "page_number": 285,
+      "ocr_markdown_sha256": "a4b97109af2ccd1d6e5db2e9f8c717efb596feecc888edf761512ca0f27b511f"
+    },
+    {
+      "page_number": 286,
+      "ocr_markdown_sha256": "bd52fc7c88b0943ace7333cd6836cf764dfe5cc88e5ff490a7733e20e071359e"
+    },
+    {
+      "page_number": 287,
+      "ocr_markdown_sha256": "1562281b2f23d735f64679f845365c1a9db58e08f163cf25744b3a8a717c24ff"
+    },
+    {
+      "page_number": 288,
+      "ocr_markdown_sha256": "b2cd088f11442143b4a5b88c578ba248b3532a475d5f406fcb3439dc91184e86"
+    },
+    {
+      "page_number": 289,
+      "ocr_markdown_sha256": "808d618fd1607bf106a23c6c844b7b8dd903176b57750fb37ebefe1643f7c889"
+    },
+    {
+      "page_number": 290,
+      "ocr_markdown_sha256": "f135c81d566a3a051e7d21d1710a059ee5db5241301caf9662e085f77dd28199"
+    },
+    {
+      "page_number": 291,
+      "ocr_markdown_sha256": "e337bfeb85390006d87dc472a460ee5794147a14471365df3e0875e408e93c8e"
+    },
+    {
+      "page_number": 292,
+      "ocr_markdown_sha256": "36d5a408e045cc68dc05efe927b81022f86ce078dd326894defc72535fd17e91"
+    },
+    {
+      "page_number": 293,
+      "ocr_markdown_sha256": "8d2e82b8704570770764dfe118ee751aa2f427ee9a366f8843c6150db601b0b6"
+    },
+    {
+      "page_number": 294,
+      "ocr_markdown_sha256": "2b9456f44e9d51bea37274ef059009bef081aad1e3f691b99eebf92e2c706d35"
+    },
+    {
+      "page_number": 295,
+      "ocr_markdown_sha256": "cbca92f94a2a5e146a6c3c97f9c51fc3f1b02c61923f97c22509c1b1d8fb005b"
+    },
+    {
+      "page_number": 296,
+      "ocr_markdown_sha256": "1336110bf500c80c72367e85b72ecfe22d1a4d7cf301c0d5c49d29cae93c6465"
+    },
+    {
+      "page_number": 297,
+      "ocr_markdown_sha256": "874147d4ad168a0b53396c19ae56d201fcfd755940ac67b3eb2a53fbe430b9f8"
+    },
+    {
+      "page_number": 298,
+      "ocr_markdown_sha256": "9c272758dfafc1754ac18244e10d016a92a44b4b7f7d57264fad1d263bd683bd"
+    },
+    {
+      "page_number": 299,
+      "ocr_markdown_sha256": "9636316f995ccb64e45a28ef63f9811fc94729ae97e34809e13388586a7deabd"
+    },
+    {
+      "page_number": 300,
+      "ocr_markdown_sha256": "a9dd89b2d199757eace950a48052cde86432830ed103bcc084e5c138f11bb30c"
+    },
+    {
+      "page_number": 301,
+      "ocr_markdown_sha256": "da222cab6c760095e92651252fa6f32a1473c0ae046b29adc228432b9e7e543a"
+    },
+    {
+      "page_number": 302,
+      "ocr_markdown_sha256": "413f056a3d7ef68764056028663938990cdca1f7c0bf178948782f5031695b62"
+    },
+    {
+      "page_number": 303,
+      "ocr_markdown_sha256": "a757ec41522b61cb9d206792f3c645fe625dc8e29ee830b55301e8005d114de6"
+    },
+    {
+      "page_number": 304,
+      "ocr_markdown_sha256": "d4139c85a1c1d496ab3991abc7f786eb3e1307c683bcbcce1700ad801977a6df"
+    },
+    {
+      "page_number": 305,
+      "ocr_markdown_sha256": "f81886ea7882d77e2a2b6e85e6d50682593ecf94d206e1ef4f17f61c1f416c32"
+    },
+    {
+      "page_number": 306,
+      "ocr_markdown_sha256": "2283eff235e5e4a2b19bc1e1db0b13708b149c32ae116e002ea5c8fd28e5bae3"
+    },
+    {
+      "page_number": 307,
+      "ocr_markdown_sha256": "8ed2e728340337abdb2544f7c0d1dc8cf35359329c997fb7b923ae7b334ca333"
+    },
+    {
+      "page_number": 308,
+      "ocr_markdown_sha256": "db77701a25a38419560e1af2e1b31db81ddd163ce2c5aa26ad14d0e7bacf1af8"
+    },
+    {
+      "page_number": 309,
+      "ocr_markdown_sha256": "d0422f1ed01a35c5d04e167e5431cf29a8419a74097e2a86f38b235436e2e3ff"
+    },
+    {
+      "page_number": 310,
+      "ocr_markdown_sha256": "2812d36235ce4c86cbfca73cc3c0918110e22598afc16f0ac86b1703aae20fd1"
+    },
+    {
+      "page_number": 311,
+      "ocr_markdown_sha256": "b928a3ce5c259440f5cb0498c8de8030e2d50a23c49af861d44c1e51d3c28caa"
+    },
+    {
+      "page_number": 312,
+      "ocr_markdown_sha256": "92781b79fc89cfbba058da359ed9a11bdaf5619e4a59def07494dec8436b160a"
+    },
+    {
+      "page_number": 313,
+      "ocr_markdown_sha256": "29bf92b1e7155815e85dd563a8605fe6c521c7d033ae5c66d43d08bcac8acaeb"
+    },
+    {
+      "page_number": 314,
+      "ocr_markdown_sha256": "6d827e166e2c778e1a3884b4d1475333d36aa5403eb2792f24669b40fc69e3e8"
+    },
+    {
+      "page_number": 315,
+      "ocr_markdown_sha256": "c75f4ad64853c8f33f82a8a8d6bc5d11a7c430cc1a56ed21d807e74a2f905f37"
+    },
+    {
+      "page_number": 316,
+      "ocr_markdown_sha256": "775d8aa0f6f21dea5b73e4a0d20ec5d6475ac523311bb5cc325edebab8facad8"
+    },
+    {
+      "page_number": 317,
+      "ocr_markdown_sha256": "bfc52ff89f5116e821890c4b82ec4f67db28b4fce0b7bf7c7cf80af43d5f4168"
+    },
+    {
+      "page_number": 318,
+      "ocr_markdown_sha256": "c6d400c1789841029c91528687b50703c66fe343ffb77960e76e355155e4db19"
+    },
+    {
+      "page_number": 319,
+      "ocr_markdown_sha256": "ed7940731480012b42eac2e41dbbf3d987f0430938a0895880b8d94ba2c50a38"
+    },
+    {
+      "page_number": 320,
+      "ocr_markdown_sha256": "7e010561affae7d6b3edc825e44c10be5998492e075b6dd84df75ecfe9af3096"
+    },
+    {
+      "page_number": 321,
+      "ocr_markdown_sha256": "c4e7751277c1153d7a4eb9d2a8c8b4d9982b762ddf8a8d42e19578139b79a4f6"
+    }
+  ],
+  "method": "56页源图全页核查；全部习题页全文、全部编号例题和明确读者任务与OCR核对；无题页扫描例题及读者任务标记。原图疑点另行放大核实。",
+  "corrections": [
+    "p291 OCR误在S_n外加绝对值，按源图恢复S_n=sin(nx)/sqrt(n)。",
+    "p320 OCR漏掉根指数中的平方：原图为(n!)的n²次方根，已恢复。",
+    "p311题目分母(2n-1)!!经放大原图核实为双阶乘，保留。",
+    "p320原题允许a_n=0而Phi未在0定义，补Phi(0)=0并标校订。"
+  ]
+}

@@ -1,0 +1,153 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{17}\section{Riemann积分}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.1（改写）}
+设 $S=([0,1]\cap\mathbb Q)\times([0,1]\cap\mathbb Q)$。求 $S$ 的 Jordan 内面积与外面积，并判断 $S$ 是否 Jordan 可测。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.2（改写）}
+设 $f:[a,b]\to\mathbb R$ 连续，证明其图形 $\Gamma=\{(x,f(x)):x\in[a,b]\}$ 是平面上的 Jordan 零测集。由此证明：若一个有界平面区域的边界由有限段这样的连续函数图形构成，则该区域 Jordan 可测。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.3}
+设 $U\subset\mathbb R^2$ 为非空开集，$f:U\to\mathbb R^2$ 为 $C^1$ 映射，$E\subset U$ 紧致。令 $C=\{x\in E:\det df_x=0\}$，证明 $f(C)$ 是 Jordan 零测集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.4}
+设矩形 $I=[a,b]\times[c,d]$。证明 $I^\circ=(a,b)\times(c,d)$ 是 Jordan 可测集，且 $\sigma(I^\circ)=\sigma(I)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.5}
+证明函数 $f(x)=\sin(1/x)$（$0<x\le1$）的图形在 $\mathbb R^2$ 中的 Jordan 测度为零。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.6}
+设 $D\subset\mathbb R^2$ 有界。证明下列三个条件等价。
+\SubQ{1}{$D$ 是 Jordan 零测集。}
+\SubQ{2}{任意 $\varepsilon>0$，均存在有限个闭矩形 $I_1,\ldots,I_N$，使 $D\subset\bigcup_{k=1}^N I_k$ 且 $\sum_{k=1}^N\sigma(I_k)<\varepsilon$。}
+\SubQ{3}{任意 $\varepsilon>0$，均存在有限个开矩形 $I_1,\ldots,I_N$，使 $D\subset\bigcup_{k=1}^N I_k$ 且 $\sum_{k=1}^N\sigma(I_k)<\varepsilon$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.7}
+设 $D$ 为 Jordan 可测集，且 $D^\circ=\varnothing$。证明 $\sigma(D)=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.8}
+设 $D$ 为 Jordan 可测集。证明任意 $\varepsilon>0$，均存在紧致集 $E\subset D$，满足 $\sigma^+(D\setminus E)<\varepsilon$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.9}
+设 $D\subset\mathbb R^2$ 为开集，$D_n$ 是有界的 Jordan 可测开集，满足 $D_n\subset D_{n+1}\subset D$、$\bigcup_{n=1}^{\infty}D_n=D$。这样的序列称为 $D$ 的竭尽递增列。证明：若 $D$ 有界且 Jordan 可测，则 $\sigma(D_n)\to\sigma(D)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.10}
+设 $A\subset\mathbb R^2$ 是 Jordan 零测集。证明它的闭包 $\overline A$ 也是 Jordan 零测集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.11}
+设 $\gamma:[0,1]\to\mathbb R^2$ 为 $C^1$ 曲线。证明其像集是 Jordan 零测集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.12}
+设 $U\subset\mathbb R^2$ 为有界开集，且 $\partial U$ 是 Jordan 零测集。设 $g:\overline U\to\mathbb R^2$ 可延拓为包含 $\overline U$ 的某开集上的 $C^1$ 映射。证明 $\partial(g(U))$ 是 Jordan 零测集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.13}
+设 $E\subset\mathbb R^2$ 紧致，$E\subset\bigcup_{i=1}^{\infty}E_i$，且每个 $E_i$ 都是 Jordan 零测集。证明 $E$ 是 Jordan 零测集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.14}
+把 $n$ 阶实方阵空间等同于 $\mathbb R^{n^2}$。证明不可逆矩阵全体可写成可数个 Jordan 零测集的并。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.15}
+设 $f:\mathbb R^2\to\mathbb R$ 有界且有紧支撑。对平面矩形网格分割 $\pi=\{I\}$，定义 Darboux 下、上和\[\underline S_\pi(f)=\sum_{I\in\pi}(\inf_I f)\sigma(I),\qquad\overline S_\pi(f)=\sum_{I\in\pi}(\sup_I f)\sigma(I),\]并令 $\underline S(f)=\sup_\pi\underline S_\pi(f)$、$\overline S(f)=\inf_\pi\overline S_\pi(f)$。证明以下性质。
+\SubQ{1}{若 $\pi_2$ 为 $\pi_1$ 的加细，则 $\underline S_{\pi_1}(f)\le\underline S_{\pi_2}(f)$、$\overline S_{\pi_1}(f)\ge\overline S_{\pi_2}(f)$。}
+\SubQ{2}{$\underline S(f)\le\overline S(f)$；等号成立当且仅当存在分割列 $\pi_n$，使 $\overline S_{\pi_n}(f)-\underline S_{\pi_n}(f)\to0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.16（改写）}
+设 $D=(0,1)\times(0,1)$。若 $P=(p/q,p^{\prime}/q^{\prime})\in D$ 的两个坐标均为有理数，且分数均既约、分母均为正，令 $f(P)=1/(qq^{\prime})$；其余点令 $f(P)=0$。证明 $f$ 在 $D$ 上 Riemann 可积，并求其积分。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.17}
+设 $A,B\subset\mathbb R^2$，以 $\chi_E$ 表示集合 $E$ 的特征函数。证明下列恒等式。
+\SubQ{1}{$\chi_{A\cup B}=\chi_A+\chi_B-\chi_{A\cap B}$。}
+\SubQ{2}{$\chi_{A\cap B}=\chi_A\chi_B$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.18}
+设 $A,B\subset\mathbb R^2$ 均为 Jordan 可测集。证明 $A\cup B$、$A\cap B$、$A\setminus B$ 均可测，且\[\sigma(A\cup B)+\sigma(A\cap B)=\sigma(A)+\sigma(B),\qquad \sigma(A\setminus B)=\sigma(A)-\sigma(A\cap B).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.19}
+设 $D_1,D_2\subset\mathbb R^2$ 均为 Jordan 可测集，且 $D_1\cap D_2$ 是 Jordan 零测集。若 $f$ 在 $D_1,D_2$ 上分别 Riemann 可积，证明它在 $D_1\cup D_2$ 上可积，且\[\int_{D_1\cup D_2}f\,d\sigma=\int_{D_1}f\,d\sigma+\int_{D_2}f\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.20}
+设 $D$ 为 Jordan 可测集，$D_1\subset D$ 也 Jordan 可测，$f$ 在 $D$ 上 Riemann 可积。证明 $f$ 在 $D_1$ 上可积。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.21}
+设 $D\subset\mathbb R^2$ 为非空 Jordan 可测开集，$f$ 为 $D$ 上连续、非负的 Riemann 可积函数。证明\[\lim_{n\to\infty}\left(\int_D f^n\,d\sigma\right)^{1/n}=\sup_{P\in D}f(P).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.22}
+设 $f$ 为 Jordan 可测集 $D$ 上的 Riemann 可积函数，$P\in D^\circ$，且 $f$ 在 $P$ 连续。证明\[\lim_{r\to0^+}\frac1{\sigma(B_r(P))}\int_{B_r(P)}f\,d\sigma=f(P).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.23}
+设 $D$ 为 Jordan 可测集，$f:D\to\mathbb R$。令 $f^+(P)=\max\{f(P),0\}$、$f^-(P)=-\min\{f(P),0\}$。证明 $f$ Riemann 可积当且仅当 $f^+,f^-$ 均可积，且\[\int_D f\,d\sigma=\int_D f^+\,d\sigma-\int_D f^-\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.24}
+设 $f\ge0$ 为 Jordan 可测集 $D$ 上的 Riemann 可积函数，且 $\int_D f\,d\sigma=0$。证明任意正整数 $n$ 对应的集合 $D_n=\{P\in D:f(P)\ge1/n\}$ 都是 Jordan 零测集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.25（校订）}
+设 $D\subset\mathbb R^2$ 为 Jordan 可测集，$f,g$ 在 $D$ 上 Riemann 可积，$h$ 为 $D$ 上满足 $g\le h\le f$ 的函数。若 $\int_D f\,d\sigma=\int_D g\,d\sigma$，证明 $h$ 可积，且\[\int_D h\,d\sigma=\int_D f\,d\sigma=\int_D g\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.26}
+设 $f$ 为平面 Jordan 可测集 $D$ 上的 Riemann 可积函数，$f$ 处处非零且 $1/f$ 有界。证明 $1/f$ 在 $D$ 上 Riemann 可积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.27}
+设 $D\subset\mathbb R^2$ 为 Jordan 可测集，$D_n$ 均 Jordan 可测，且 $D_n\subset D_{n+1}\subset D$、$\bigcup_{n=1}^{\infty}D_n=D$。证明 $\sigma(D_n)\to\sigma(D)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.28（改写）}
+设 $f:[-\pi,\pi]\to\mathbb R$ 为 Riemann 可积函数，Fourier 系数定义为\[a_k=\frac1\pi\int_{-\pi}^{\pi}f(x)\cos(kx)\,dx\quad(k\ge0),\qquad b_k=\frac1\pi\int_{-\pi}^{\pi}f(x)\sin(kx)\,dx\quad(k\ge1).\]证明 Parseval 等式\[\frac{a_0^2}{2}+\sum_{k=1}^{\infty}(a_k^2+b_k^2)=\frac1\pi\int_{-\pi}^{\pi}f(x)^2\,dx.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.29}
+设 $A\subset\mathbb R$ 为 Jordan 可测集，$f:A\to\mathbb R$ 有界。对定义于 $A$ 的函数 $f$，记点 $x\in A$ 处的振幅为\[\omega_f(x)=\lim_{r\to0^+}\left(\sup_{A\cap B_r(x)}f-\inf_{A\cap B_r(x)}f\right).\]证明 $f$ 在 $A$ 上 Riemann 可积当且仅当每个 $\delta>0$ 对应的集合 $\{x\in A:\omega_f(x)\ge\delta\}$ 都是 Jordan 零测集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.30}
+设 $f(x,y)$ 在矩形 $I=[a,b]\times[c,d]$ 上 Riemann 可积。分别记关于 $y$ 的 Darboux 下、上积分为\[\varphi(x)=\underline{\int_c^d}f(x,y)\,dy,\qquad\psi(x)=\overline{\int_c^d}f(x,y)\,dy.\]证明 $\varphi,\psi$ 在 $[a,b]$ 上 Riemann 可积，且\[\iint_I f\,d\sigma=\int_a^b\varphi(x)\,dx=\int_a^b\psi(x)\,dx.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.31}
+证明：定义在有限闭区间 $[a,b]$ 上的实值单调函数 Riemann 可积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.32}
+从 $[0,1]$ 中删去中间的开三分之一，再对每个剩余闭区间反复作同样删除；所有阶段剩余闭集的交称为 Cantor 三分集。证明它的 Jordan 测度等于零。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.33}
+设 $D\subset\mathbb R^2$ 为 Jordan 可测集，$\sigma(D)>0$，$f$ 在 $D$ 上 Riemann 可积且处处严格大于零。证明 $\int_D f\,d\sigma>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.34}
+设 $D\subset\mathbb R^2$ 为 Jordan 可测集，$f_n$ 为 $D$ 上的 Riemann 可积函数列，且一致收敛于 $f$。证明 $f$ 在 $D$ 上可积，且\[\int_D f\,d\sigma=\lim_{n\to\infty}\int_D f_n\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.35}
+设 $D_n$ 为一列非空的平面 Jordan 可测开集，$D_n\subset D_{n+1}$，且 $D=\bigcup_{n=1}^{\infty}D_n$ 也 Jordan 可测。若 $f$ 在 $D$ 上 Riemann 可积，证明\[\int_D f\,d\sigma=\lim_{n\to\infty}\int_{D_n}f\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.36}
+设 $E\subset\mathbb R^2$ 紧致。证明 $E$ 为 Jordan 零测集当且仅当它为 Lebesgue 零测集。这里 Lebesgue 零测是指：任意 $\varepsilon>0$，均可用可数个矩形覆盖 $E$，且矩形面积之和小于 $\varepsilon$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.37}
+设 $D\subset\mathbb R^2$ 为 Jordan 可测集，$f\ge0$ 为 $D$ 上的 Riemann 可积函数，且 $\int_D f\,d\sigma=0$。证明 $\{P\in D:f(P)>0\}$ 是 Lebesgue 零测集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.38（校订）}
+按以下步骤构造定义于 $[0,1]$ 的可微函数 $F$，使其导函数 $f$ 有界但不 Riemann 可积。
+\SubQ{1}{构造 $[0,1]$ 中一列两两不相交、长度为正的闭子区间 $I_n$，使 $\sum_n|I_n|=1/2$，并使每个长度为正的闭子区间 $J\subset[0,1]$ 或包含于 $\bigcup_n I_n$，或包含某个 $I_n$。}
+\SubQ{2}{令 $\widetilde I_n$ 与 $I_n$ 同中心，且 $|\widetilde I_n|=|I_n|^2$。在每个 $\widetilde I_n$ 上令 $f$ 为分段线性的三角形函数：中心处取 $1$、两端取 $0$，在其余处令 $f=0$。证明 $f$ 不 Riemann 可积。}
+\SubQ{3}{定义\[F(x)=\sum_{n=1}^{\infty}\int_{[0,x]\cap\widetilde I_n}f(t)\,dt.\]证明 $F^{\prime}(x)=f(x)$；端点处导数取相应单侧导数。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.39（改写）}
+设 $n\ge2$。采用 $n$ 维极坐标 $x_1=r\cos\theta_1$，$x_j=r\sin\theta_1\cdots\sin\theta_{j-1}\cos\theta_j$（$2\le j\le n-1$），$x_n=r\sin\theta_1\cdots\sin\theta_{n-1}$；其中 $r>0$、$0<\theta_j<\pi$（$1\le j\le n-2$）、$-\pi<\theta_{n-1}<\pi$。
+\SubQ{1}{对具有紧支撑的 Riemann 可积函数 $f:\mathbb R^n\to\mathbb R$，推导相应的极坐标积分换元公式。}
+\SubQ{2}{若 $f(x)=g(|x|)$ 为径向函数，证明积分可化为 $c_n\int_0^{\infty}g(r)r^{n-1}\,dr$，并求常数 $c_n$。}
+\SubQ{3}{计算半径为 $a>0$ 的 $n$ 维球 $B_n(a)=\{x:|x|\le a\}$ 的体积，以及其边界球面的 $(n-1)$ 维面积。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.40（校订）}
+将 $n$ 阶实矩阵空间等同于 $\mathbb R^{n^2}$，记 $G=\operatorname{GL}(n,\mathbb R)$。设 $f:\mathbb R^{n^2}\to\mathbb R$ 连续、非负且有紧支撑。证明任意 $Y\in G$ 均满足\[\int_G f(XY)|\det X|^{-n}\,dX=\int_G f(X)|\det X|^{-n}\,dX.\]若将 $XY$ 改为 $YX$，结论是否仍成立？积分按非负广义积分理解，允许取 $+\infty$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.41}
+在 $\mathbb R^{2n+1}$ 上定义运算\[(x,y,t)\circ(x^{\prime},y^{\prime},t^{\prime})=(x+x^{\prime},y+y^{\prime},t+t^{\prime}+\langle x,y^{\prime}\rangle-\langle x^{\prime},y\rangle),\]其中 $x,y\in\mathbb R^n$、$t\in\mathbb R$。设 $f:\mathbb R^{2n+1}\to\mathbb R$ 连续且有紧支撑。证明任意固定的 $(x^{\prime},y^{\prime},t^{\prime})$ 均满足\[\int_{\mathbb R^{2n+1}}f\bigl((x,y,t)\circ(x^{\prime},y^{\prime},t^{\prime})\bigr)\,dx\,dy\,dt=\int_{\mathbb R^{2n+1}}f(x,y,t)\,dx\,dy\,dt.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.42}
+设 $f:\mathbb R^n\to\mathbb R$ 连续且有紧支撑。
+\SubQ{1}{对每个 $t>0$，证明 $\int_{\mathbb R^n}f(tx)\,dx=t^{-n}\int_{\mathbb R^n}f(x)\,dx$。}
+\SubQ{2}{再设 $f$ 在原点某邻域内恒为零。证明对每个 $t>0$，\[\int_{\mathbb R^n}\frac{f(tx)}{|x|^n}\,dx=\int_{\mathbb R^n}\frac{f(x)}{|x|^n}\,dx,\qquad\int_{\mathbb R^n}\frac{f(x/|x|^2)}{|x|^n}\,dx=\int_{\mathbb R^n}\frac{f(x)}{|x|^n}\,dx.\]被积函数在原点均按零延拓。}
+\end{minipage}\par\vfill

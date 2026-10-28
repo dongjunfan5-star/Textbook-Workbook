@@ -1,0 +1,8 @@
+paddleocr[doc-parser]==3.3.2
+paddlex==3.3.10
+paddlepaddle==3.2.2
+PyMuPDF==1.26.7
+numpy==1.26.4
+pypdf==6.1.3
+Pillow==11.3.0
+fonttools==4.60.1

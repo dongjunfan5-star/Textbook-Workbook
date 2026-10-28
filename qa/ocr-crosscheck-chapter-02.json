@@ -1,0 +1,76 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 2,
+  "method": "依据2026-10-23已完成的逐页视觉与OCR交叉校核记录补齐章节级状态；本次不声称重新人工校对。原qa/review-chapter逐页ocr_cross_check均为complete。",
+  "pages": [
+    {
+      "page_number": 72,
+      "ocr_markdown_sha256": "a0bcc617a38617a07d164c68404eef4848439e6dcb1ba9dffb1382c5c8c9cf4e"
+    },
+    {
+      "page_number": 73,
+      "ocr_markdown_sha256": "6c9dc65e304e5f17e271449d9c68e5b3da36ec9557d02471ff05795ee7bccd99"
+    },
+    {
+      "page_number": 74,
+      "ocr_markdown_sha256": "986d15444a230979781ad8414a34da6a7afab05f7969e8efff15413998c03f99"
+    },
+    {
+      "page_number": 75,
+      "ocr_markdown_sha256": "17cafa185eee156c6abb3e3f25e1b243aeb2717f47cf632f1ed6f0bcfd7cdbd4"
+    },
+    {
+      "page_number": 76,
+      "ocr_markdown_sha256": "8df04a17ff34279923c9659a35bc1bf6f1a0fb37951542080aadd36f14bc4e12"
+    },
+    {
+      "page_number": 77,
+      "ocr_markdown_sha256": "0c1a36205b4408ca3d2bd02f35986d8c3ebb467feff622c5f65caf5f6b9a975e"
+    },
+    {
+      "page_number": 78,
+      "ocr_markdown_sha256": "6994417eb8514e56e6dcb855ba4ea9521aff0e5c8e0845e6d4ed389e7e6c5d10"
+    },
+    {
+      "page_number": 79,
+      "ocr_markdown_sha256": "3ca3d6d378e4460fb007c8e4528d9e9c606ae2399a37dd7478deca7e1b60b553"
+    },
+    {
+      "page_number": 80,
+      "ocr_markdown_sha256": "5ba68847328b7c448940b52a9352531ffb116651a926a5af434106c27dbeb6e5"
+    },
+    {
+      "page_number": 81,
+      "ocr_markdown_sha256": "0ac3f40b536a73e5d23dc3ddd8695e15582f626731b4c2ab34288685d1f3ca2c"
+    },
+    {
+      "page_number": 82,
+      "ocr_markdown_sha256": "ea78bc97376beee2ec574db6773d72fdc9abf6b72bff3d3c5485cd3bd208bf8d"
+    },
+    {
+      "page_number": 83,
+      "ocr_markdown_sha256": "3981a4c7c592c9d25641aa76b6d71bb26c52d45eca4abe7a64ee723a1de8f12e"
+    },
+    {
+      "page_number": 84,
+      "ocr_markdown_sha256": "454a39251bea5ff8715d529288dff47642c1a432a837abe96cd43ec8282f6b65"
+    },
+    {
+      "page_number": 85,
+      "ocr_markdown_sha256": "11561487f3163b94f65f56594330c820e2ce6290bd2beecf974a92b3f6226ba6"
+    },
+    {
+      "page_number": 86,
+      "ocr_markdown_sha256": "120574314c1b9ea36b370d8473cfa5684d4a0216720f4fdf43147d1054ee34c4"
+    },
+    {
+      "page_number": 87,
+      "ocr_markdown_sha256": "5f6d221e78e2989bf715b1086b3043e63cf8b1675dfe12393102a375c86e96dc"
+    },
+    {
+      "page_number": 88,
+      "ocr_markdown_sha256": "0571c162fff3bff2da3c4c9773685fcd8ad8625d208b9d950d8d397416a7a931"
+    }
+  ]
+}

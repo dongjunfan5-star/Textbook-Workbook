@@ -1,0 +1,357 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{14}\section{连续性与收敛性}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.1（改写）}
+设 $f:\mathbb R\to\mathbb R$，$f(x)=\sin x$。求下列集合在 $f$ 下的原像，其中 $f^{-1}(A)=\{x\in\mathbb R:f(x)\in A\}$。
+\SubQ{1}{$(0,+\infty)$。}
+\SubQ{2}{$[1,+\infty)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.2（改写）}
+定义 Dirichlet 函数\[D(x)=\begin{cases}1,&x\in\mathbb Q,\\0,&x\in\mathbb R\setminus\mathbb Q.\end{cases}\]证明：将 $D$ 视为 $\mathbb R$ 上的函数时，每个点都是其第二类间断点；将其限制在 $\mathbb Q$ 上时，它是连续函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.3（改写）}
+设\[f(x)=\begin{cases}\cos(1/x),&x\ne0,\\0,&x=0.\end{cases}\]讨论 $f$ 在 $0$ 处的连续性，并计算它在 $0$ 处的振幅\[\omega_f(0)=\lim_{\delta\to0^+}\sup_{|x|,|y|<\delta}|f(x)-f(y)|.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.4}
+给定闭集 $A\subset\mathbb R$，构造一个实直线上的连续函数 $f$，使它恰好在 $A$ 上等于 $0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.5（改写）}
+设 $f,g$ 为 $D\subset\mathbb R$ 上的连续函数。逐点定义 $\max(f,g)(x)=\max\{f(x),g(x)\}$ 和 $\min(f,g)(x)=\min\{f(x),g(x)\}$。证明这两个函数都在 $D$ 上连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.6（改写）}
+设 $a>0$，在 $\mathbb Q$ 上用整数幂及开方定义 $f(x)=a^x$。证明对任意有界闭区间 $I$，$f$ 在 $I\cap\mathbb Q$ 上一致连续，因而在 $I$ 上有唯一的连续扩张。进一步证明这些扩张相容，由此定义 $\mathbb R$ 上的指数函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.7}
+设 $f$ 定义在一个闭集上。证明 $f$ 连续当且仅当每个闭集的原像为闭集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.8}
+设 $f_1,\ldots,f_n$ 为 $\mathbb R$ 上的连续函数。证明集合\[A=\{x\in\mathbb R:f_1(x)\ge0,\ldots,f_n(x)\ge0\}\]为闭集，而集合\[B=\{x\in\mathbb R:f_1(x)>0,\ldots,f_n(x)>0\}\]为开集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.9（校订）}
+给出 $\lim_{x\to+\infty}f(x)=y$ 的定义，并证明它成立当且仅当对于取值在 $f$ 的定义域中且趋于 $+\infty$ 的任意数列 $\{x_n\}$，都有 $\lim_{n\to\infty}f(x_n)=y$。（假设定义域向上无界。）
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.10}
+设 $x_0$ 是函数 $f$ 的跳跃间断点。证明：如果 $\{x_n\}$ 是定义域中收敛于 $x_0$ 的点列，那么数列 $\{f(x_n)\}$ 至多有三个极限点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.11}
+设 $f(x,y)$ 定义在 $\mathbb R^2$ 上，分别对 $x,y$ 连续，且关于 $y$ 单调。证明 $f$ 是 $\mathbb R^2$ 上的二元连续函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.12}
+给出一个 $\mathbb R$ 上的连续函数 $f$，使某个闭集在 $f$ 下的像不是闭集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.13}
+讨论以下一致连续性问题。
+\SubQ{1}{$\mathbb R$ 上的函数 $f(x)=x^2$ 是否一致连续？}
+\SubQ{2}{证明满足 Lipschitz 条件的函数一致连续。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.14}
+设 $f$ 在 $\mathbb R$ 上连续。在下式有意义时，它是否必成立？\[f\left(\limsup_{n\to\infty}x_n\right)=\limsup_{n\to\infty}f(x_n).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.15}
+设 $[0,1]$ 上的函数 $f(x)=x^\beta$，$0<\beta<1$。证明：若 $0<\alpha\le\beta$，则 $f$ 是 $\alpha$ 阶 H\"older 连续的；若 $\alpha>\beta$，则结论不成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.16}
+证明对任意函数 $f$ 及其陪域中的子集 $A,B$，\[f^{-1}(A\cup B)=f^{-1}(A)\cup f^{-1}(B),\qquad f^{-1}(A\cap B)=f^{-1}(A)\cap f^{-1}(B).\]如果改为考虑定义域中集合的像，对应等式是否仍成立？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.17}
+设 $f$ 是有界开区间 $(a,b)$ 上的连续函数。证明 $f$ 一致连续当且仅当它在 $a$ 点的右极限和 $b$ 点的左极限都存在且有限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.18}
+设 $f$ 为 $[a,b]$ 上的连续函数，$g$ 为 $[b,c]$ 上的连续函数，且 $f(b)=g(b)$。证明\[h(x)=\begin{cases}f(x),&a\le x\le b,\\g(x),&b\le x\le c\end{cases}\]在 $[a,c]$ 上连续。这种构造方法称为连续函数的粘合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.19}
+设 $A\subset\mathbb R$ 是非空闭集。定义 $f$ 在 $A$ 上为 $0$；在 $\mathbb R\setminus A$ 的每个有限开区间分支 $(a,b)$ 上令 $f(x)=\min\{x-a,b-x\}$；在可能出现的分支 $(-\infty,a)$ 或 $(b,+\infty)$ 上，分别令 $f(x)=a-x$ 或 $f(x)=x-b$。验证\[|f(x)-f(y)|\le|x-y|\qquad(x,y\in\mathbb R).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.20}
+设 $a<b$ 为实数，$f\in C^1((a,b))$，且 $f^{\prime}$ 在端点 $a,b$ 的单边极限存在且有限。证明 $f$ 在端点的单边极限也存在，且 $f$ 可以扩充为 $[a,b]$ 上的 $C^1$ 函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.21}
+设 $f$ 是区间上的单调增函数，区间的内点 $x_0$ 是 $f$ 的不连续点。证明对于任意满足 $x_1<x_0<x_2$ 的区间内两点，$f$ 在 $x_0$ 的跳跃不超过 $f(x_2)-f(x_1)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.22}
+设 $f$ 是区间 $I$ 上的单调增函数，左右端点分别为 $a,b$，端点可以属于或不属于 $I$。证明 $\lim_{x\to a^+}f(x)$ 与 $\lim_{x\to b^-}f(x)$ 存在，前者可以取 $-\infty$，后者可以取 $+\infty$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.23（校订）}
+设 $f$ 为 $D$ 上的函数，$x_0$ 为 $D$ 的聚点。对 $\delta>0$ 定义\[M(\delta)=\sup\{f(x):x\in D,\ 0<|x-x_0|<\delta\},\]\[m(\delta)=\inf\{f(x):x\in D,\ 0<|x-x_0|<\delta\}.\]证明：
+\SubQ{1}{$M(\delta)$ 与 $m(\delta)$ 在 $(0,+\infty)$ 上分别单调增和单调减。}
+\SubQ{2}{$\lim_{\delta\to0^+}M(\delta)$ 与 $\lim_{\delta\to0^+}m(\delta)$ 存在（可能为 $\pm\infty$），分别称为 $f$ 在 $x_0$ 的上极限和下极限，记为 $\limsup_{x\to x_0}f(x)$ 与 $\liminf_{x\to x_0}f(x)$。}
+\SubQ{3}{$f$ 在 $x_0$ 处的扩充实数极限存在，当且仅当 $\limsup_{x\to x_0}f(x)=\liminf_{x\to x_0}f(x)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.24}
+设 $f$ 为 $D$ 上的函数。称 $f$ 上（下）半连续，是指对 $D$ 中同时为其聚点的任意 $x_0$，有\[f(x_0)\ge\limsup_{x\to x_0}f(x)\quad\left(f(x_0)\le\liminf_{x\to x_0}f(x)\right).\]证明：若 $D$ 是开集，则 $f$ 上半连续当且仅当对任意 $a\in\mathbb R$，集合 $\{x\in D:f(x)<a\}$ 是开集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.25}
+证明：如果区间上的连续函数 $f$ 只取有限个值，那么 $f$ 为常值函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.26}
+设 $f$ 定义在闭区间 $[a,b]$ 上。对任意 $\delta>0$，证明函数振幅满足\[D_\delta=\{x\in[a,b]:\omega_f(x)\ge\delta\}\]是闭集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.27}
+设 $f$ 是区间上的单调函数。证明：如果它的像集是一个区间，则它连续。另举出一个定义在区间上的函数，它既不单调，也不连续，但像集是一个区间。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.28}
+设 $f,g$ 是 $D$ 上的一致连续函数，且它们有界。证明 $fg$ 一致连续。举反例说明有界假设不能一般地去掉。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.29（校订）}
+举出一个 $\mathbb R$ 上的不连续函数 $f$，它在每个非空紧集上都能达到最大值、最小值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.30}
+设 $f$ 是 $\mathbb R$ 上的连续函数，且 $\lim_{x\to+\infty}f(x)$、$\lim_{x\to-\infty}f(x)$ 均存在且有限。证明 $f$ 在 $\mathbb R$ 上一致连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.31}
+实数上的 Riemann 函数定义为\[R(x)=\begin{cases}0,&x\notin\mathbb Q,\\1/q,&x=p/q\in\mathbb Q,\end{cases}\]其中 $p\in\mathbb Z$，$q>0$ 为整数，$\gcd(|p|,q)=1$。证明在任意点 $x$，函数的极限均为 $0$；从而它在所有无理点连续，在任意有理点不连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.32}
+证明 $\mathbb R$ 上连续的周期函数一致连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.33（校订）}
+设 $f$ 在 $[a,b]$ 上单调增，$\{x_k\}$ 无重复地枚举它在 $(a,b)$ 内的间断点。定义 $h(a)=0$，当 $x>a$ 时，\[h(x)=f(a+0)-f(a)+\sum_{a<x_k<x}\bigl(f(x_k+0)-f(x_k-0)\bigr)+f(x)-f(x-0).\]证明：
+\SubQ{1}{$h$ 是单调增函数。}
+\SubQ{2}{$g(x)=f(x)-h(x)$ 连续。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.34}
+设 $f$ 是区间 $I$ 上的严格单调函数，$E=f(I)$ 为其值域。求证：$f^{-1}:E\to I$ 是连续函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.35}
+给定实数项级数 $\sum_{n=1}^{\infty}a_n$，证明以下根值与比值判别法。
+\SubQ{1}{设 $c=\limsup_{n\to\infty}\sqrt[n]{|a_n|}$。若 $c<1$，则级数绝对收敛；若 $c>1$，则级数发散。}
+\SubQ{2}{当比值有定义时，若 $\limsup_{n\to\infty}|a_{n+1}/a_n|<1$，则级数绝对收敛；若充分大的 $n$ 均有 $|a_{n+1}/a_n|>1$，则级数发散。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.36（改写、校订）}
+设级数 $\sum_{n=1}^{\infty}a_n$ 和 $\sum_{n=1}^{\infty}b_n$ 均绝对收敛，和分别为 $A,B$。证明：将各项 $a_kb_l$ 按任意顺序逐一相加（每个有序指标对 $(k,l)\in\mathbb N^2$ 恰出现一次），所得级数均绝对收敛，且和为 $AB$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.37（改写）}
+讨论交错调和级数 $\sum_{n=1}^{\infty}(-1)^{n+1}/n$ 及其重排。
+\SubQ{1}{证明原级数收敛，并求其和。}
+\SubQ{2}{固定正整数 $p,q$，按原来的相对次序先取 $p$ 个正项，再取 $q$ 个负项，如此反复。证明所得重排级数收敛，并求其和。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.38}
+研究 $\mathbb R$ 上函数列 $\{f_n\}$ 的逐点收敛性和一致收敛性，其中\[f_n(x)=\begin{cases}0,&x\le0,\\nx,&0<x<1/n,\\1,&x\ge1/n.\end{cases}\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.39（改写）}
+给定任意可数集合 $A\subset\mathbb R$，构造一个 $\mathbb R$ 上的单调增函数 $f$，使它恰好在 $A$ 上不连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.40}
+证明幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 的收敛半径 $R$ 满足\[\frac1R=\limsup_{n\to\infty}\sqrt[n]{|a_n|},\]其中约定 $1/0=+\infty$、$1/(+\infty)=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.41（改写）}
+设函数 $u$ 在 $[0,2]$ 上定义为\[u(x)=\begin{cases}x,&0\le x\le1,\\2-x,&1\le x\le2,\end{cases}\]并按周期 $2$ 延拓到 $\mathbb R$。令\[f(x)=\sum_{k=0}^{\infty}\left(\frac34\right)^k u(4^kx).\]证明 $f$ 在实直线上处处连续、处处不可微。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.42}
+写出级数比较判别法的逆否命题，并说明它怎样用于判定一个级数发散。比较判别法是：若 $|a_n|\le b_n$ 且 $\sum b_n$ 收敛，则 $\sum a_n$ 绝对收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.43}
+设 $\sum_{n=1}^{\infty}a_n$ 为每项均为正的收敛级数。证明存在绝对收敛级数 $\sum_{n=1}^{\infty}b_n$ 使得 $\lim_{n\to\infty}a_n/b_n=0$。说明这意味着不存在一个收敛正项级数，可用于比较判定所有级数是否绝对收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.44}
+证明级数 $\displaystyle\sum_{n=1}^{\infty}\frac{(-1)^{\lfloor\sqrt n\rfloor}}n$ 收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.45（校订）}
+设 $\displaystyle\sum_{m=1}^{\infty}\left(\sum_{n=1}^{\infty}|a_{mn}|\right)<+\infty$。证明：
+\SubQ{1}{将所有指标对 $(m,n)\in\mathbb N^2$ 任意排列后，对相应项 $a_{mn}$ 求和，所得级数均收敛。}
+\SubQ{2}{$\displaystyle\sum_{m=1}^{\infty}\left(\sum_{n=1}^{\infty}a_{mn}\right)=\sum_{n=1}^{\infty}\left(\sum_{m=1}^{\infty}a_{mn}\right)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.46}
+求实直线上逐点定义的极限 $\displaystyle\lim_{k\to\infty}\left(\lim_{j\to\infty}(\cos(k!\pi x))^{2j}\right)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.47}
+给出定义在一个紧集上的连续函数列，使它逐点收敛但不一致收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.48}
+设 $f_n$ 逐点收敛于 $f$，且所有 $f_n$ 都单调增。问 $f$ 一定单调增吗？若 $f_n$ 都严格单调增，又如何？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.49}
+给出定义在非紧集合 $D$ 上的连续函数列 $\{f_n\}$，使它不一致收敛，却满足：对 $D$ 中任意收敛点列 $x_n\to x\in D$，都有 $f_n(x_n)\to f(x)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.50}
+设 $f_n$ 一致收敛于 $f$，且对每个 $n$，极限 $\lim_{x\to x_0}f_n(x)$ 均存在。证明 $\lim_{x\to x_0}f(x)$ 与 $\lim_{n\to\infty}\bigl(\lim_{x\to x_0}f_n(x)\bigr)$ 均存在且相等。不假定 $f$ 或 $f_n$ 连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.51}
+设 $f_n$ 一致收敛于 $f$，且所有 $f_n$ 的间断点都仅为第一类间断点。证明 $f$ 的间断点也仅为第一类间断点。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.52（校订）}
+设可积函数列 $f_n$ 在 $[a,b]$ 上一致收敛于 $f$，令 $F_n(x)=\int_a^x f_n(t)\,dt$，$F(x)=\int_a^x f(t)\,dt$。证明 $F_n$ 在 $[a,b]$ 上一致收敛于 $F$。如果把 $[a,b]$ 换成整个实直线，并假设有关积分存在，同样的结论成立吗？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.53}
+集合 $A\subset\mathbb R$ 的特征函数定义为 $\chi_A(x)=1$（$x\in A$）和 $\chi_A(x)=0$（$x\notin A$）。称形如 $\sum_{j=1}^n c_j\chi_{[a_j,b_j)}$ 的函数为阶梯函数，其中 $[a_j,b_j)$ 两两不交。证明紧致区间上的每个连续函数均为阶梯函数限制在该区间后的均匀极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.54}
+称紧致区间 $[a,b]$ 上的连续函数为线性样条，是指存在区间的一个分割，使该函数在每个子区间上均为一次函数（允许常数函数）。证明 $[a,b]$ 上的每个连续函数都是线性样条的一致极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.55}
+给出 $[0,1]$ 上的一列连续函数 $f_n$，使它们逐点收敛于 $0$，但 $\lim_{n\to\infty}\int_0^1 f_n(x)\,dx=0$ 不成立。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.56}
+举例说明：函数项级数在定义域内一致收敛不蕴含在定义域内每一点绝对收敛；反之亦然。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.57}
+设 $f(0)=0$，$f(x)=e^{-1/x^2}$（$x\ne0$）。证明：
+\SubQ{1}{$f$ 是 $\mathbb R$ 上的光滑函数。}
+\SubQ{2}{$f$ 关于原点无幂级数展开。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.58}
+对任意实数 $x_0\ne1$，给出 $1/(1-x)$ 关于 $x_0$ 的幂级数展开，并写出收敛区间。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.59}
+设幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 与 $\sum_{n=0}^{\infty}b_nx^n$ 均在 $(-R,R)$（$R>0$）收敛。令\[E=\left\{x\in(-R,R):\sum_{n=0}^{\infty}a_nx^n=\sum_{n=0}^{\infty}b_nx^n\right\}.\]证明：若 $E$ 有一个聚点属于 $(-R,R)$，则 $a_n=b_n$，$n=0,1,2,\ldots$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.60}
+设 $\{b_n\}$ 单调下降且非负。证明级数 $\sum_{n=1}^{\infty}b_n\sin nx$ 在 $\mathbb R$ 上一致收敛的充分必要条件是 $\lim_{n\to\infty}nb_n=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.61}
+设 $f_n$ 为紧致区间 $[a,b]$ 上一致收敛的连续函数列。证明 $\{f_n\}$ 一致有界且一致等度连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.62}
+证明 $[0,1]$ 上的函数列 $\{\sin nx\}$ 不存在一致收敛子列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.63}
+设 $f_n$ 为 $\mathbb R$ 上有紧致支集的连续函数列，且在 $\mathbb R$ 上一致收敛于有紧致支集的连续函数 $f$。证明 $\{f_n\}$ 一致有界且一致等度连续。这里连续函数 $g$ 的支集为 $\{x\in\mathbb R:g(x)\ne0\}$ 的闭包。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.64}
+设 $f_n$ 为紧致区间上一致等度连续的函数列，且逐点收敛于 $f$。证明 $f_n$ 一致收敛于 $f$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.65}
+设紧致区间 $I$ 上的函数列 $\{f_n\}$ 满足：存在与 $n$ 无关的常数 $M>0$ 和 $\alpha>0$，使任意 $x,y\in I$ 均有 $|f_n(x)-f_n(y)|\le M|x-y|^\alpha$。证明 $\{f_n\}$ 在 $I$ 上一致等度连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.66}
+设 $f_n$ 是一个紧致区间上的一列 $C^\infty$ 函数，且对每个非负整数 $k$，存在常数 $M_k$ 使所有 $n,x$ 均满足 $|f_n^{(k)}(x)|\le M_k$。证明存在一个子列一致收敛到某个 $C^\infty$ 函数 $f$，且该子列的任意阶导函数均一致收敛于 $f^{(k)}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.67}
+给出紧致区间 $[a,b]$ 上的一列一致等度连续的函数，使它们不一致有界。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.68}
+证明由 $[0,1]$ 上次数不超过 $N$ 且对所有 $x\in[0,1]$ 满足 $|P(x)|\le1$ 的多项式 $P$ 全体组成的函数族一致等度连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.69}
+设 $f_1,\ldots,f_n$ 为一个紧致区间上的连续函数。证明所有线性组合 $\sum_{j=1}^n a_jf_j$（$|a_j|\le1$）组成的函数族一致有界且一致等度连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.70}
+给出一列在 $\mathbb R$ 上一致有界且一致等度连续的函数，使它没有一致收敛子列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.71}
+设 $f_k$ 定义在开区间 $(a,b)$ 上（允许无穷端点），满足 $|f_k(x)|\le F(x)$、$|f_k^{\prime}(x)|\le G(x)$，其中 $F,G$ 是 $(a,b)$ 上的连续函数。证明存在 $\{f_k\}$ 的一个子列，在 $(a,b)$ 的每个紧致子区间上均一致收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.72（校订）}
+设一个区间上的函数列 $\{f_k\}$ 逐点有界，即每个 $x$ 均存在 $M(x)>0$ 使所有 $k$ 满足 $|f_k(x)|\le M(x)$；又逐点等度连续，即每个 $x$ 及 $\varepsilon>0$ 均存在与 $k$ 无关的 $\delta>0$，使对所有 $k$ 及区间内满足 $|y-x|<\delta$ 的 $y$，有 $|f_k(x)-f_k(y)|\le\varepsilon$。证明存在逐点收敛子列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.73（校订）}
+设 $x_1,\ldots,x_n$ 是两两不同的实数，$a_1,\ldots,a_n$ 是任意实数。求一个次数不超过 $n-1$ 的多项式 $P$，满足 $P(x_k)=a_k$，$k=1,\ldots,n$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.74（改写）}
+设 $f:\mathbb R\to\mathbb R$ 一致连续，并令 $g_n(y)=n$（$0\le y\le1/n$），在其余点令 $g_n(y)=0$，其中 $n\ge1$。以 $(f*g_n)(x)=\int_{-\infty}^{\infty}f(x-y)g_n(y)\,dy$ 定义卷积。
+\SubQ{1}{将 $f*g_n$ 写为一个有限区间上的积分。}
+\SubQ{2}{证明 $f*g_n$ 在 $\mathbb R$ 上一致收敛于 $f$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{15.75（改写）}
+设 $f$ 为 $[-1,1]$ 上的连续函数，其第 $n$ 阶矩定义为 $a_n=\int_{-1}^1f(x)x^n\,dx$（$n=0,1,2,\ldots$）。
+\SubQ{1}{连续函数 $f$ 是否由它的全部矩唯一确定？证明你的结论。}
+\SubQ{2}{将区间换成任意有限闭区间 $[a,b]$（$a<b$），结论是否仍成立？说明理由。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.76（校订）}
+设 $x_1,\ldots,x_n$ 为两两不同的实数。证明：对任意实数 $a_k,b_k$，存在次数不超过 $2n-1$ 的多项式 $P$，满足 $P(x_k)=a_k$ 和 $P^{\prime}(x_k)=b_k$，$k=1,\ldots,n$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.77}
+设 $f\in C^1([a,b])$。证明存在次数不超过 $3$ 的多项式 $P$，使 $f-P$ 及其导数在区间的两个端点均为零。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.78}
+设 $f\in C^1([a,b])$。构造 $f$ 到整个 $\mathbb R$ 的一个 $C^1$ 扩张，使它在 $[a-1,b+1]$ 外恒为零。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.79}
+证明：若 $f,g$ 在 $\mathbb R$ 上连续，且至少一个函数在某个有限区间之外恒为零，则卷积 $(f*g)(x)=\int_{-\infty}^{\infty}f(x-y)g(y)\,dy$ 有定义且连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.80}
+设 $f,g,h$ 为 $\mathbb R$ 上的连续函数，其中两个函数在某个有限区间之外恒为零。以 $(u*v)(x)=\int_{-\infty}^{\infty}u(x-y)v(y)\,dy$ 定义卷积，证明 $(f*g)*h=f*(g*h)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.81}
+定义函数 $f:\mathbb R\to\mathbb R$ 的支集 $\operatorname{supp}f=\overline{\{x:f(x)\ne0\}}$。
+\SubQ{1}{证明连续函数 $f$ 的支集为紧集当且仅当 $f$ 在某个有限区间外恒为零。}
+\SubQ{2}{设 $f,g$ 连续且其中一个有紧致支集。证明 $\operatorname{supp}(f*g)\subset\operatorname{supp}f+\operatorname{supp}g$。这里 $A+B=\{x+y:x\in A,\ y\in B\}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.82}
+设 $f\ge0$ 为 $[a,b]$ 上的连续函数。证明：任意 $\varepsilon>0$，均存在在 $[a,b]$ 上非负的多项式 $P$，使 $|P(x)-f(x)|\le\varepsilon$ 对所有 $x\in[a,b]$ 成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.83}
+设 $f\in C^k(\mathbb R)$、$g\in C^m(\mathbb R)$，且其中一个函数有紧致支集。证明\[f*g\in C^{k+m}(\mathbb R),\qquad(f*g)^{(k+m)}=f^{(k)}*g^{(m)}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.84}
+设 $f$ 为 $[a,b]$ 上的连续函数，且 $f(c)=0$，其中 $c\in[a,b]$。证明可以找到一列在 $c$ 处均为零的多项式，在 $[a,b]$ 上一致收敛于 $f$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.85}
+设 $f$ 为 $[-1,1]$ 上的连续偶函数。证明：若 $\int_{-1}^1f(x)x^{2k}\,dx=0$ 对所有 $k=0,1,2,\ldots$ 成立，则 $f\equiv0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.86}
+设多项式列 $P_n$ 在区间 $[a,b]$ 上一致收敛于 $f$，且每个 $P_n$ 的次数均不超过固定整数 $N$。证明 $f$ 也是次数不超过 $N$ 的多项式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.87}
+计算卷积 $f*f$，其中 $f$ 为 $[0,1]$ 的特征函数，即区间内等于 $1$，其他点等于 $0$；卷积定义为 $(f*f)(x)=\int_{-\infty}^{\infty}f(x-y)f(y)\,dy$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.88}
+设 $c_m=\int_{-1}^1(1-x^2)^m\,dx$。
+\SubQ{1}{用分部积分得到递推式 $(1+2m)c_m=2mc_{m-1}$。}
+\SubQ{2}{证明 $\displaystyle c_m=2\frac{2\cdot4\cdot6\cdots(2m)}{3\cdot5\cdot7\cdots(2m+1)}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.89}
+设 $g$ 为 $\mathbb R$ 上的连续非负函数，且 $\int_{-\infty}^{\infty}g(x)\,dx=1$。证明 $g_n(x)=ng(nx)$（$n=1,2,\ldots$）为单位近似：$g_n\ge0$，$\int_{\mathbb R}g_n=1$，且对每个 $\delta>0$ 有 $\lim_{n\to\infty}\int_{|x|\ge\delta}g_n(x)\,dx=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.90}
+设 $D_n(t)=\frac12+\sum_{k=1}^n\cos kt$ 为 Dirichlet 核。证明存在常数 $c>0$，使所有 $n\ge1$ 满足\[\int_{-\pi}^{\pi}|D_n(t)|\,dt\ge c\left(1+\frac12+\cdots+\frac1n\right)\ge c\log n.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.91}
+设 $f$ 为周期 $2\pi$ 的连续函数，且 $f^{\prime}(x_0)$ 存在。记 $S_nf$ 为 $f$ 的 Fourier 级数的前 $n$ 次部分和。证明 $S_nf(x_0)\to f(x_0)$（$n\to\infty$）。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.92}
+设 $f$ 为周期 $2\pi$ 的 Riemann 可积函数，且在 $x_0$ 连续。记 $S_nf$ 为 Fourier 部分和，$\sigma_nf=(S_0f+\cdots+S_nf)/(n+1)$ 为 Cesàro 和。证明 $\sigma_nf(x_0)\to f(x_0)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.93（校订）}
+设周期 $2\pi$ 的函数 $f$ 除 $x_0+2k\pi$（$k\in\mathbb Z$）外均连续，且 $x_0$ 为跳跃间断点。记 $S_nf$ 为 Fourier 部分和，$\sigma_nf=(S_0f+\cdots+S_nf)/(n+1)$ 为 Cesàro 和。证明\[\sigma_nf(x_0)\longrightarrow\frac{f(x_0+0)+f(x_0-0)}2.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.94}
+（提高题）设 $f$ 为周期 $2\pi$ 的 Riemann 可积函数。记 $S_nf$ 为 Fourier 部分和，$\sigma_nf=(S_0f+\cdots+S_nf)/(n+1)$ 为 Cesàro 和。证明 $\int_{-\pi}^{\pi}|\sigma_nf(x)-f(x)|\,dx\to0$（$n\to\infty$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.95}
+设 $f_k$ 为周期 $2\pi$ 的连续函数列，且一致收敛于 $f$。证明 $f_k$ 的各个 Fourier 系数分别收敛于 $f$ 的相应 Fourier 系数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.96}
+设 $f$ 为周期 $2\pi$ 的连续函数，$\tau_yf(x)=f(x+y)$。问 $f$ 与 $\tau_yf$ 的 Fourier 系数之间有何关系？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.97}
+对周期 $2\pi$ 的连续函数 $f,g$，定义周期卷积\[(f*g)(x)=\int_{-\pi}^{\pi}f(x-y)g(y)\,dy.\]问 $f,g$ 与 $f*g$ 的 Fourier 系数之间有何关系？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.98}
+证明：当 $|x|\le\pi$ 时，$|x|\le\pi|\sin(x/2)|$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.99（校订）}
+设 $f$ 为周期 $2\pi$ 的 $C^k$ 函数，$k\ge2$。记 $S_nf$ 为 $f$ 的 Fourier 级数的前 $n$ 次部分和。对固定 $x$，令\[g_x(y)=\frac{f(x-y)-f(x)}{\sin(y/2)}\qquad(y\notin2\pi\mathbb Z),\]并在 $2\pi\mathbb Z$ 处按极限连续延拓。
+\SubQ{1}{证明 $g_x$ 为 $C^{k-1}$ 函数，且存在与 $x,y$ 无关的常数 $M$ 使 $|g_x^{(k-1)}(y)|\le M$。}
+\SubQ{2}{证明 $g_x(y+2\pi)=-g_x(y)$。}
+\SubQ{3}{证明 $k$ 为偶数时\[S_nf(x)-f(x)=\pm\frac1{2\pi}\int_{-\pi}^{\pi}g_x^{(k-1)}(y)\frac{\cos((n+\tfrac12)y)}{(n+\tfrac12)^{k-1}}\,dy;\]当 $k$ 为奇数时也有类似等式，其中余弦换为正弦。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{15.100（校订）}
+设 $f$ 为周期 $2\pi$ 的 $C^k$ 函数，$k\ge2$。记 $S_nf$ 为 $f$ 的 Fourier 级数的前 $n$ 次部分和。对固定 $x$，令\[g_x(y)=\frac{f(x-y)-f(x)}{\sin(y/2)}\qquad(y\notin2\pi\mathbb Z),\]并在 $2\pi\mathbb Z$ 处按极限连续延拓。
+\SubQ{1}{证明当 $n\to\infty$ 时，$S_nf(x)-f(x)=O(n^{-(k-1)})$ 对 $x$ 一致成立。}
+\end{minipage}\par\vfill

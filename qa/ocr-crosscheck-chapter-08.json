@@ -1,0 +1,198 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 8,
+  "pages": [
+    {
+      "page_number": 13,
+      "ocr_markdown_sha256": "46d20720b218ed860714226f39d1445c4049d772fb44b5fcf224c30780b8fd83"
+    },
+    {
+      "page_number": 14,
+      "ocr_markdown_sha256": "2d8d9d045a2faddf22c7b3345993ce9f61420dbaeef01c81518fe5334c47d04b"
+    },
+    {
+      "page_number": 15,
+      "ocr_markdown_sha256": "c2536fcdf2d0e0a7ca5e36f22c05b6d2030163776f7cba6544e20dec51225aa3"
+    },
+    {
+      "page_number": 16,
+      "ocr_markdown_sha256": "ac52dc812cfa9aabd7b48507c9e4852273976e068a2135f4ac97fc75fe96286c"
+    },
+    {
+      "page_number": 17,
+      "ocr_markdown_sha256": "b191663c6e30a098e2dfd8be82d3f3744b1d44d7425f51b48f788c0c811051b0"
+    },
+    {
+      "page_number": 18,
+      "ocr_markdown_sha256": "1f5874430f04806713ec190b3d01e94ddad1d4176df6df65eabc89eebb92abab"
+    },
+    {
+      "page_number": 19,
+      "ocr_markdown_sha256": "ecef2de8797b4bc41a6a312a1981fc290daea3870e463da359791c63712a03ae"
+    },
+    {
+      "page_number": 20,
+      "ocr_markdown_sha256": "0b8212f1d210c145bfaaf52b2355c6c7284af1ee719487c23beb29ea1bc0e49a"
+    },
+    {
+      "page_number": 21,
+      "ocr_markdown_sha256": "1bae6c3668d764c2cbc96b399a5a4bb69766b579a0b415a67f8b84af4fed72b1"
+    },
+    {
+      "page_number": 22,
+      "ocr_markdown_sha256": "8cfb30ddc06188cac784bd378e0d49f76dba2b6dc5f3e850e24d45ffc552e8d2"
+    },
+    {
+      "page_number": 23,
+      "ocr_markdown_sha256": "4ea12512d4728bef4d70f2050a2b8f398be9dbe5b48a335d366c03c0ae90b89a"
+    },
+    {
+      "page_number": 24,
+      "ocr_markdown_sha256": "cc8a676d6bff205d98f952d2bbb28e39689c1373dea4344fca79a1c15ec48196"
+    },
+    {
+      "page_number": 25,
+      "ocr_markdown_sha256": "35c884fd3f1949c0f98cca04ce08f83693ed02f569d88df63e23b8e7f5ef098c"
+    },
+    {
+      "page_number": 26,
+      "ocr_markdown_sha256": "b95d96aedac3200b0fa002a4f9799fc9b0f5a43f4afe4d46187a3c328831301c"
+    },
+    {
+      "page_number": 27,
+      "ocr_markdown_sha256": "8c8d7ebe71db182a7989a4316e83b10581e1a3b5fdca81d89eb826df75afab5d"
+    },
+    {
+      "page_number": 28,
+      "ocr_markdown_sha256": "0f110a6c4e935a845c7e8f89dd42123f0963fc0a708e84cd6416b5e1ce53afc4"
+    },
+    {
+      "page_number": 29,
+      "ocr_markdown_sha256": "356687147808329a13f08fd6033378cde686610657d15cd9f4d4e900e6e77d46"
+    },
+    {
+      "page_number": 30,
+      "ocr_markdown_sha256": "869b6cc5b2c26196195de3944eb059064b4734777d97d26ac243cc44e3da7a3b"
+    },
+    {
+      "page_number": 31,
+      "ocr_markdown_sha256": "90339069ad6fc9366ca27535bcaa4ac8ab50ec2dbc5bd3c63b4258c24b6161b1"
+    },
+    {
+      "page_number": 32,
+      "ocr_markdown_sha256": "ccc1d003a58d6941b7cee25fae42325ad394d382df2a7811a2bc87bb7f68c13d"
+    },
+    {
+      "page_number": 33,
+      "ocr_markdown_sha256": "955631dc88a1f428d73422791328626ff8ac44fa08a87f33585a041f1b4b9bdc"
+    },
+    {
+      "page_number": 34,
+      "ocr_markdown_sha256": "f0bc31d685604c9d71c0332e3ea31b8466e314559f9fac568d75942a7bc2505c"
+    },
+    {
+      "page_number": 35,
+      "ocr_markdown_sha256": "31e4b7e7496850b04d796c64bbad47acea3f76e2e4a690704b2e728e68d6de6e"
+    },
+    {
+      "page_number": 36,
+      "ocr_markdown_sha256": "3a81dd03420cad12faf059e1832a5a943a762bafb00ca97af89e2e043b966eb2"
+    },
+    {
+      "page_number": 37,
+      "ocr_markdown_sha256": "5b339822aaa34c9230ae082a98ee1fa9f74aecde914ad459ce64e9648d27262f"
+    },
+    {
+      "page_number": 38,
+      "ocr_markdown_sha256": "febacc030ccc4f1f327ac9475325b330fed0f795136be71a52d4bfe1a840adf6"
+    },
+    {
+      "page_number": 39,
+      "ocr_markdown_sha256": "429f4892ff0aae4b86951550eee3ba09144d89437a6e23de1e846991337860ea"
+    },
+    {
+      "page_number": 40,
+      "ocr_markdown_sha256": "744762ee5f1bf99bc92707128a927595bc02d2cfb8bca77bcfefb339619bf5a5"
+    },
+    {
+      "page_number": 41,
+      "ocr_markdown_sha256": "342471bb743233e73044c0da423da6eec35ec9f2f3101849d371898615f57e80"
+    },
+    {
+      "page_number": 42,
+      "ocr_markdown_sha256": "38fcc935796965c4409ff182cc314ba9a4c81dbf754102a9e6025313fb9d5735"
+    },
+    {
+      "page_number": 43,
+      "ocr_markdown_sha256": "11363f506ceb47e11ddfd5cd5b0e7457c228adcd9dc5f8eb32bc65897de098f0"
+    },
+    {
+      "page_number": 44,
+      "ocr_markdown_sha256": "b0537f439f5dd3d816963f1726860b492f597f2de44ba24542f8706fc6d67c56"
+    },
+    {
+      "page_number": 45,
+      "ocr_markdown_sha256": "e1d7a9934199f9fdaaf350ffb66924d26fd6ffd9d10b7dde3e5f357a94683fb8"
+    },
+    {
+      "page_number": 46,
+      "ocr_markdown_sha256": "f959807dd04ac249c3c29fde00c38be36e36bc664ca757befe1ba84db3871b76"
+    },
+    {
+      "page_number": 47,
+      "ocr_markdown_sha256": "5e3a61f7a4e107daa7ca99dddfdcaaebe67a5635b9d3b16fa72a4a531799978e"
+    },
+    {
+      "page_number": 48,
+      "ocr_markdown_sha256": "cad8194bb86288001a1a057cf405cd1dc8cc4e540c1ec699eee1352705ffec05"
+    },
+    {
+      "page_number": 49,
+      "ocr_markdown_sha256": "e89bd9292aee977d50b232b5e557adf20f2550619b251946774a7bfef142bc43"
+    },
+    {
+      "page_number": 50,
+      "ocr_markdown_sha256": "c167720e08b6534356a73ac772393dde46baf3ea79a893cecebf07c603c1c098"
+    },
+    {
+      "page_number": 51,
+      "ocr_markdown_sha256": "f747b8f062977a03849c1e7ae15dc2bfc68176ecc2d6eec05e4b5bba81863065"
+    },
+    {
+      "page_number": 52,
+      "ocr_markdown_sha256": "e0c5f042d0fc5b52508c3145333a45c7238f12b4f9b661e5ee3dbf5f87c6cf95"
+    },
+    {
+      "page_number": 53,
+      "ocr_markdown_sha256": "4cd72d28ea559b7ac8f9246a6a3b8532c2edf83946a7590bc0d8e204dbfae2d7"
+    },
+    {
+      "page_number": 54,
+      "ocr_markdown_sha256": "7430a419c4eb997cda26671f2eaff4163e375d86294878e592bcd6dfc4e3ae62"
+    },
+    {
+      "page_number": 55,
+      "ocr_markdown_sha256": "62335419043eb6d05f13e04eda25d3da0238bab44d4750e5a8d51b59fad728f3"
+    },
+    {
+      "page_number": 56,
+      "ocr_markdown_sha256": "e95becb09f6c14688563b74237d5d07b23bb9cde704705d02314715e5c37d089"
+    },
+    {
+      "page_number": 57,
+      "ocr_markdown_sha256": "1fce6275c3715c016225a303d9f886041e32f7fcef3d87f6965ebc7fac7a2c0f"
+    }
+  ],
+  "source_units": 117,
+  "final_problems": 132,
+  "method": "逐页核对 OCR 题干与已逐页源图审查的题库；全量读取习题页、例题题干和说明例，并筛查无题页的例题/读者任务标记。",
+  "findings": [
+    "16个正式例题、87个节末习题和14个综合习题均已收录。",
+    "OCR第25页内分比把PB误识为DD，第26页丢失部分向量箭头；题库保留源图正确符号。",
+    "第43页三个说明例与第23页有向面积例已改写并标注，未保留解答。",
+    "第26、36、55页的跨页小问完整接续；第55页球坐标约定补在共用题干中。",
+    "第23页Cauchy等号条件和第27页不相容方向角题的显式校订保留。",
+    "本次交叉核验无需更改题目正文，原有校样视觉检查继续有效。"
+  ]
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 117,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "全文核读：章引言与内积定义，无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 118,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "函数空间积分内积的例题条件与公式完整；其余为定义。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 119,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "全文为内积诱导范数定理证明及Cauchy–Schwarz与极化恒等式介绍，未独立增题。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 120,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "有限维Lp范数、无穷范数极限及非内积诱导条件完整；极化读者任务由p127正式题覆盖。函数Lp例跨至121。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 121,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "核对源图后补足同例中的Lp趋向sup范数极限；sup范数证明已在p127正式题收入；后半页为距离定义。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 122,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "子空间、离散度量、有界化度量三个例题完整，分段条件及分母正确。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 123,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "全文为Cauchy列、完备性及Rn坐标收敛理论；未把一般性质改为额外习题。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 124,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "离散度量收敛/Cauchy刻画与序列空间完备性两个例完整；无穷级数权2^{-i}正确。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 125,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "跨页完备性证明及L1反例核对；源分段首区间误印1的既有校订为0正确。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 126,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "矩阵算子范数例包含范数、范数比较及完备性、矩阵幂；矩阵指数续至127，已完整收入。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 127,
+    "status": "reviewed",
+    "units_count": 8,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "矩阵指数续文完整；正式习题1–8均收入，题8续至128，极化与sup范数任务不重复新增。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 128,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "跨页题8与正式9–11题完整；lp逐坐标收敛反例、圆周弧长度量和两种矩阵特征值情况均保留。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 129,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "开集运算读者任务由p135正式题覆盖；其余为定义与性质说明。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 130,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "Euclid与Lp度量诱导开集相同的例题完整，包含p131反向结论；OCR将开误识为升未进入题干。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 131,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "闭包与闭集运算由正式p135题覆盖；完备子空间任务由p136正式2/6覆盖，原书两次列出保持。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 132,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "两个Heine–Borel定义的等价读者任务由p136正式5覆盖；其余定义、定理及证明。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 133,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "全文为抽象Heine–Borel证明与紧空间可数稠密子集引理，无新例题或明确读者任务。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 134,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "完整核读：可数稠密性、紧致有界及Rn紧致判别的证明，无独立题目；OCR证明中的集合运算误识不进入题库。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 135,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "分段连续函数族有界闭但不紧致的例题完整；Ascoli充要条件明确留作习题并已单独收入；正式题1的三条性质已展开。边界一般说明不扩为题。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 136,
+    "status": "reviewed",
+    "units_count": 13,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "逐题核对正式题2–14及全部小问；正式2和6原书重复但均保留；第8题与前页完整充要条件范围不同；第13题可数子覆盖的既有校订正确。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 137,
+    "status": "reviewed",
+    "units_count": 5,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "逐题核对正式题15–19；集合边界的三个具体对象、两项证明、p进度量的四个小问均完整；四小问已拆为两道最终题。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 138,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "全文为连续的等价定义及定义域说明，无新独立例题或明确读者任务。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 139,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "全文为连续定义等价性定理及运算性质；未把完整理论正文额外改为习题。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 140,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "坐标函数例包含初等复合运算及多元多项式连续性的完整要求；其余为压缩映射原理与证明。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 141,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "同一例中的平移和x+1/(1+x)两个反例均保留，等式/严格不等式及定义域正确；压缩映射证明不另制题。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 142,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "全文为紧致空间连续函数定理证明；直接最值证明任务由p146正式题1完整覆盖。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 143,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "一致收敛及Ascoli推广的明确练习由p146正式题5和9覆盖；其余为连通定义和性质证明。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 144,
+    "status": "reviewed",
+    "units_count": 0,
+    "reason": "定义、性质/定理及证明正文，或已归于首次出现页的例题续文；明确留作练习者已在节末对应题中收录。",
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "连续满射保持连通/弧连通的读者任务由p146正式题10覆盖，两种连通性均保留。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 145,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "拓扑正弦曲线与非空真开集边界两个例题完整；源解答中的闭包说明不作为题干复制。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 146,
+    "status": "reviewed",
+    "units_count": 15,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "逐题核对正式1–15；连续复合的反例、ODE不动点、Ascoli一般化、连续双射逆不连续等任务完整。非空条件的既有校订与标准导数撇号正确。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第三册）.pdf",
+    "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+    "page_number": 147,
+    "status": "reviewed",
+    "units_count": 7,
+    "ocr_crosscheck_status": "verified",
+    "ocr_review_note": "逐题核对正式16–22及全部小问；完备/连通的两方向反例、紧连通递减交、Hausdorff完备性均保留；非空紧集校订正确。"
+  }
+]

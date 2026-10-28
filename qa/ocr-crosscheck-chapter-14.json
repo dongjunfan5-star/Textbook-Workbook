@@ -1,0 +1,491 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 14,
+  "source_id": "bd727a57b926",
+  "engine": "PaddleOCR-VL-1.6 / llama.cpp",
+  "pages_checked": 53,
+  "source_units_checked": 110,
+  "total_source_pages": 53,
+  "method": "53页完整PaddleOCR文本逐页与源图、全部校对题目交叉核验；页码、原始OCR结果及结构化结果的SHA256记录对应已实际核过内容。原始OCR仍保持unreviewed。",
+  "page_results": [
+    {
+      "page_number": 5,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0005/result.md",
+      "result_sha256": "6793b1618b778bfad1575a5be30e3e79ad80bbd3f8484988f5d3e96313b06c24",
+      "structured_result_sha256": "8f879f66168aeb6c6048a3b5a99f65d43ee9217bbf5593e7ac5656113293dc0d",
+      "units_count": 1,
+      "findings": "实际核对OCR全文、源图与量词等式例题。原说明例改写为用全称量词表达并求证，等式和范围相符；原答案未抄入题干。"
+    },
+    {
+      "page_number": 6,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0006/result.md",
+      "result_sha256": "632a8f99cf5b09de4216f23c774fa3a548b45c1efd3a1b52d45570a0eaf79a00",
+      "structured_result_sha256": "d47be82108c60e4588bda1f37ecf8cee14f7e0a9e7664eba4e5e3cfd6dc7d564",
+      "units_count": 2,
+      "findings": "实际核对两则量词说明例与校对稿；极限定义及量词换序的结论、整数a与b的先后次序完整，均标改写且无原证明。"
+    },
+    {
+      "page_number": 7,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0007/result.md",
+      "result_sha256": "6a2addeba005153ddddf7ec7ea51d9ac573062ad0d1fd88dbef54729ede47f35",
+      "structured_result_sha256": "74d3ffe5f9858653d41f9d1586ba324dd3c5eb558b3128f7dfb88b74f38d1b64",
+      "units_count": 1,
+      "findings": "实际核对Goldbach逻辑表达例，源例跨物理页7–8。题目只要求量词表达、否定及函数表达的对应，不要求证明猜想；公式范围和来源正确。OCR对上方理论推导的漏字不影响题目。"
+    },
+    {
+      "page_number": 8,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0008/result.md",
+      "result_sha256": "1cfddecc2c72dadd102366ce4b722dbbad29fddc232a31cfa0822870022e73c6",
+      "structured_result_sha256": "503c41ac0f6e2d93156d5b5d9c260d9f226f85c00ec0f077d16c5a76b50945f7",
+      "units_count": 1,
+      "findings": "实际核对前页例的否定续文及逐点/一致收敛说明例；量词、变量依赖与包含关系正确，1个首次出现单元。"
+    },
+    {
+      "page_number": 9,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0009/result.md",
+      "result_sha256": "e2c289143522190aca168a1d80b66871fa89a3c31ce88611cb0acdc7fbab5f9e",
+      "structured_result_sha256": "b4fd6cbe0e0ab994b4d8f11ebdd19b2dcddb002eb0a8cd4a881b2d7c090edcb5",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。量词说明结尾、无限集合定义、可数概念和性质证明开头，无独立例题或明确留作练习；0单元保持。"
+    },
+    {
+      "page_number": 10,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0010/result.md",
+      "result_sha256": "554dc4d9f811d24d7f3ee98efed3cd83b6965c063e16cf2dc58c7a5d93eb223f",
+      "structured_result_sha256": "4cdeb0e6c902f17333b7e005a37c45f0691d64cbbcdbc1407ec8bffab65fef8b",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。均为性质14.1.2–14.1.3的已给出证明及枚举示意，不作为习题收录；0单元保持。"
+    },
+    {
+      "page_number": 11,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0011/result.md",
+      "result_sha256": "ad4de60dc20a44a3266b9c284e2d8f842f9ae10908a86981e33245eb666a72d4",
+      "structured_result_sha256": "7e0bbec32a5dfcc9e5fab784ea042be44a8129ce351661c3b950bff680410e3a",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。集合直积、基数、幂集和特征函数属于定义与一般理论说明，无正式例题或明确留作练习；0单元保持。"
+    },
+    {
+      "page_number": 12,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0012/result.md",
+      "result_sha256": "f756442e40014bd12e2ffb54c84dd21fa95e2e58697430b22ec319efa5e902bb",
+      "structured_result_sha256": "d0cb2e2a05344df604dcc64686040a4efdad074638331f44937fa5f17b094acc",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。Cantor定理证明、连续统注记、等价关系及商集性质均为正文理论；0单元保持。"
+    },
+    {
+      "page_number": 13,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0013/result.md",
+      "result_sha256": "af905a8a167122a58e23a56b186ac469e5771c9936b7cc3336490b2dfc177ee5",
+      "structured_result_sha256": "06bccbaccae8266c1440ba6aff7b028ef5df1de39c36c58b8c9324034f7cb31b",
+      "units_count": 3,
+      "findings": "实际逐项对照OCR、源图与3个校订单元：两个说明性例已改写求证题，Archimedes公理正文练习完整。OCR将集合定义后的脚注2误作平方、在解说中把交叉相乘等式误成分式；校对稿依据源图保持Z×(Z\\{0})及pq′=p′q，未收录答案。"
+    },
+    {
+      "page_number": 14,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0014/result.md",
+      "result_sha256": "c3248c71340328d6cae3f06854b96316878aaa80f78c4fa49bbe1308f4ac8576",
+      "structured_result_sha256": "e2af4e4975e3be06832ca919c1f1b7cce989f39e9f6b74c1ef43e31d63a06c84",
+      "units_count": 1,
+      "findings": "实际核对域定义正文和习题14.1第1题；题干及前5小问与源图、校对稿一致，第6问续于物理页15，来源仍记14。定义正文中的排印问题不属于题目，不纳入题集。"
+    },
+    {
+      "page_number": 15,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0015/result.md",
+      "result_sha256": "36a355415a36912c9cdd31969dcbdfea4bfad19ca86f0b3244416e165cdb5c5d",
+      "structured_result_sha256": "1dd5a7f3bcfe8732870954e6c835b03d93fbe24cacfa595dfc47a5fd9b0704d8",
+      "units_count": 9,
+      "findings": "实际核对跨页第1题第6问及首次出现的正式习题2–10，共9源单元；量词、幂次和函数列条件一致。OCR在第8题提示误识Q\\{0}，该独立提示已按规则删除；第10题的可数按本书定义写明可数无穷。"
+    },
+    {
+      "page_number": 16,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0016/result.md",
+      "result_sha256": "94a2fd51f2b07d95227ebd5aef165306a2359ce30d1248776f5d7510185243f2",
+      "structured_result_sha256": "c887420f36468859ae7132af58ada0205047aab69b7516d7ba7a2b191c88e071",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。有理数系缺陷的回顾和实数构造引入，无独立题目；OCR将递推式下标上方误加横线，不进入题库。"
+    },
+    {
+      "page_number": 17,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0017/result.md",
+      "result_sha256": "6f5c0a4b8c1f0445497a945f8d171c62c01d0449bcf0576e1ac1144778b2d59b",
+      "structured_result_sha256": "372ae389bc46c18ecf425efede7f5c7f56b0c97603c6d19162b82b1be0f61524",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。Cauchy列定义、有界性证明与数轴直观图解，无独立题目；OCR在max公式中重复片段，不进入题库。"
+    },
+    {
+      "page_number": 18,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0018/result.md",
+      "result_sha256": "368e52ce9b504897c0090577453765338d732f066c6fd5215bc2ddd893811f1e",
+      "structured_result_sha256": "d1619921be438fd3971ed33fb647d6c9e45f79202554bc4ec3d1990a5bf6c215",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。闭区间套直观解释、等价定义、引理与已给出证明，无明确读者任务；0单元保持。"
+    },
+    {
+      "page_number": 19,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0019/result.md",
+      "result_sha256": "b378918d359cbfc66d52913c755aecaabe71bd66cb71d89023f5bb09367bda7d",
+      "structured_result_sha256": "a06820169bb5902270806bd025779e86d1bf061c818dea9c3b5b97e281cd83b9",
+      "units_count": 2,
+      "findings": "实际核对两道例题及校对稿；有界单调有理数列命题与e_n、s_n的式子、k=0下限及Cauchy等价结论一致。说明性第二例已标改写。"
+    },
+    {
+      "page_number": 20,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0020/result.md",
+      "result_sha256": "e729c1886b650791b3e56b7bf1ccd9c46dddb2b2fc2e30d1db0f898b1b9a91f7",
+      "structured_result_sha256": "ac31e8e8313d9da8ec30af9b1da03d4e84e705eb1e5f0dc84920a161ebbc4c77",
+      "units_count": 0,
+      "findings": "实际核对OCR、源图与乘法正文练习，乘积Cauchy性与代表元无关性两小问完整。OCR在引理第2项漏撇，校对稿依源图保留上标prime；任务在物理页21明示，首来源20正确。 本轮语义去重：本页引理中的乘法Cauchy性与代表元等价性在物理页21留给读者完成；物理页27正式习题8明确要求证明乘积为等价的Cauchy列，覆盖两项，故仅保留正式习题。源页仍逐页审查。"
+    },
+    {
+      "page_number": 21,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0021/result.md",
+      "result_sha256": "ef1bbfbfe7ccc0f1d72f5b4151050802a7e2f0de04d144c4d67b4eccd4ef1bb5",
+      "structured_result_sha256": "717b1fcff5edc773844af153e656ab4008f46874336550b06116722b622d3df8",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。页首明确要求读者完成乘法结论，该单元已计首次页20；有界性独立提示已移除。其余为实数域、非零代表元下界等理论和证明，无新增题。 本轮语义去重：本页明确要求完成的乘法结论起于物理页20，与物理页27正式习题8重复，故不重复收录；其余为定义、定理与已给出证明。"
+    },
+    {
+      "page_number": 22,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0022/result.md",
+      "result_sha256": "09fe75402d0bc5a03ccb96931ea473071a23920b3ee6de60ed5e5db90de8b2db",
+      "structured_result_sha256": "e568116036e3dca4ee6744245990c0298e81344453365f5fb757304c548da9ef",
+      "units_count": 0,
+      "findings": "实际核对整页OCR与源图。非零代表元引理续证、逆元构造、正数定义与定理证明，无独立例题或明确留作练习；0单元保持。"
+    },
+    {
+      "page_number": 23,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0023/result.md",
+      "result_sha256": "8b0b5ed9dcee989d2baeee93115c7eed6dafea6958cc5b97179b8cadb71b9307",
+      "structured_result_sha256": "edc04ea9230ba8e17d0ae5a75325e17beb18b157be9bfaa362c18de51a9ab492",
+      "units_count": 1,
+      "findings": "实际核对OCR、源图和稠密性例题；lambda为无理数、m与n均取整数、A在R稠密条件完全一致；其余定义及已给出证明不收录。"
+    },
+    {
+      "page_number": 24,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0024/result.md",
+      "result_sha256": "b2a75215c9c20a3135a09a8780ad8bd3a9b3ebeda25e59cb463eca38e78301c4",
+      "structured_result_sha256": "65c223aef85bcaaac1a9a6396156c1337faaf260e4c1cc4e414adcae251a285b",
+      "units_count": 0,
+      "findings": "实际对照OCR全文和源图。前页稠密性例的证明、三角不等式与Archimedes定理均已给出论证，无新题目；0单元保持。"
+    },
+    {
+      "page_number": 25,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0025/result.md",
+      "result_sha256": "a833975e458cdf6527d35ee87381f4b1539af17165feb22b0b6e6768185b699b",
+      "structured_result_sha256": "f000b515047ac420c753f3df88f6b2b5bca024bd797b62faf16ca810452a1044",
+      "units_count": 2,
+      "findings": "实际核对比值加权平均例及几何—算术平均例；a_j、b_j和权重条件、最小最大界均一致。后例推广延续至26页，合为3小问，来源25正确。"
+    },
+    {
+      "page_number": 26,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0026/result.md",
+      "result_sha256": "0db01d7acec76a62f05fa1960340e8b6d9ca6f4f5431d2aee853f99926c5f40a",
+      "structured_result_sha256": "d8063724227bc2f734079b37ac241670576965d1cb485090c6c7e6f75c4640bd",
+      "units_count": 2,
+      "findings": "实际核对前页均值推广、Hölder和Minkowski两例，p、q、共轭指数与幂次一致；OCR额外竖线、分数框噪声未进入题库，原证明已移除。"
+    },
+    {
+      "page_number": 27,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0027/result.md",
+      "result_sha256": "444669a74fe75ec672c0578830725daf6775081749a84372ea31f2486897d41b",
+      "structured_result_sha256": "0c00d34074138a323040aee52dfd1d1456e35133dc06fb27f29d56c6b8b317bb",
+      "units_count": 11,
+      "findings": "实际逐题核对正式习题1–11共11单元；第11题条件续28页，source_end_page正确。习题8要求乘积为等价Cauchy列，包含20–21页正文任务两项，已仅保留此正式题。"
+    },
+    {
+      "page_number": 28,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0028/result.md",
+      "result_sha256": "a12033bf22e085eb0048e1c2d56d935fb9ea3ea3565043a8cfe06eb75aa90a1f",
+      "structured_result_sha256": "69cc6baf9a68929a4fbdb1a15503ba502aa2a654459b6837b33c383a38447bb2",
+      "units_count": 6,
+      "findings": "实际核对上一页第11题续文与正式习题12–17共6新单元；平方有理逼近、二次不等式、Hardy与Hardy–Landau各求和边界和幂次正确。"
+    },
+    {
+      "page_number": 29,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0029/result.md",
+      "result_sha256": "be39f146e799b09b05c0ceb73ca523a44b5a006be66fff986b8c8be60e8120f5",
+      "structured_result_sha256": "cfca0c6c30051cf50ca0f7cc16e850ceb4f1b40add349685d47ac250d2e7d533",
+      "units_count": 0,
+      "findings": "实际核对OCR全文与源图。实数列极限及Cauchy定义、代表元极限的证明，无独立题目；0单元保持。"
+    },
+    {
+      "page_number": 30,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0030/result.md",
+      "result_sha256": "5d85e8a26072c96234ab6cb8639081e06a0654f9fa17d99bc505e23e3856071b",
+      "structured_result_sha256": "253d29d82a6c58efeaf882180e35da5628421b79f8e7e81e97f0320b2e667506",
+      "units_count": 0,
+      "findings": "实际核对OCR全文与源图。极限基本性质回顾与完备性定理证明，无明示读者练习；0单元保持。"
+    },
+    {
+      "page_number": 31,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0031/result.md",
+      "result_sha256": "3c0ee1cc6af3fedfdd1ad9b616edd1a2c0902366e4c4f434b3d0aaedc2645ece",
+      "structured_result_sha256": "6c8eaec0237cdf56c7e810a36e56441e1f2663a0cc9d6c1767365a8522f48e78",
+      "units_count": 2,
+      "findings": "实际核对平方根存在唯一性例与Kepler方程例；a>0、0<q<1及方程一致。原证明中的笔误未抄入题干，2单元均完整。"
+    },
+    {
+      "page_number": 32,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0032/result.md",
+      "result_sha256": "c8ca1e909a1661c7f6870381919f5c9ec286afe55e335733f87cdb30c035f07f",
+      "structured_result_sha256": "37e315c1d574cca1da8009df6fac68663b9be91f6cb9c3d2a8f0ad2829c8b878",
+      "units_count": 1,
+      "findings": "实际核对OCR全文与源图。Kepler方程证明不收录；页末明确要求读者补充扩充实数系的有意义算术规则，发现原题库漏收，补1个自足正文练习。"
+    },
+    {
+      "page_number": 33,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0033/result.md",
+      "result_sha256": "d1f0079164cb1d1a5a3b4b271c1e8870ee1b173ab686a73357ce028c7e328d93",
+      "structured_result_sha256": "0bf1447a8300645eb183769f83131d92850905593112a019c7bf648462db0029",
+      "units_count": 0,
+      "findings": "实际核对OCR全文与源图。确界定义及存在性证明，无正式例或明确留作练习；OCR漏掉证明末y的撇，不涉及题目。"
+    },
+    {
+      "page_number": 34,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0034/result.md",
+      "result_sha256": "fba4c34563985fe42dc5cddd341cd1df25ab60ea6e87de7d06ec606ca07740d7",
+      "structured_result_sha256": "25d2d28ec2515d92c9f07a7177ebc3d199e6cc30141f435464414ca7b9555aee",
+      "units_count": 1,
+      "findings": "实际核对均值迭代例及后续椭圆积分应用。原题库只取了共同极限证明；已把同例后半的积分求值合入第2小问，记共同极限P而不提供结果或变量变换，来源34、续页35，标改写。"
+    },
+    {
+      "page_number": 35,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0035/result.md",
+      "result_sha256": "896b81f8aea81bb02f4202f65320dce8cb6f5b38e16b3b9abd450f3f819692e8",
+      "structured_result_sha256": "58c44aecfd8954f87fd6cced347ba02f4cd03f07fdc2f82a19df70b3acad5c01",
+      "units_count": 0,
+      "findings": "实际核对OCR和源图；均值例的椭圆积分计算续文已与34页合为完整例题，不另计单元。OCR及源文中间演算有漏平方等问题，所取题设积分按原始定义准确，未抄中间过程。"
+    },
+    {
+      "page_number": 36,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0036/result.md",
+      "result_sha256": "919607eff700e15fae56a8731e215ad96509b8f3c02f439b4f7c8d4e110be6b6",
+      "structured_result_sha256": "2a084611b869c800a23d4ddf6eea6ac19b8fe5aed2230a1964e3e726530ec779",
+      "units_count": 2,
+      "findings": "实际核对唯一极限点例和构造有理数列例，均完整；第一例已补明扩充实数系的范围，第二例目标集合R及正负无穷一致。原证明与枚举方法未进入题库。"
+    },
+    {
+      "page_number": 37,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0037/result.md",
+      "result_sha256": "6bae410c1854f7d7f667c677f24c070a85512b7c562098054aca2dcd86dd1b96",
+      "structured_result_sha256": "6405f72049b2d468acae5c93d35fa4f9e7a2b083231b512f2e532660c21a0cc1",
+      "units_count": 2,
+      "findings": "实际核对前页构造解答续文、正文完备性等价任务与无理数不可数例。正文6项完整，超3小问由builder拆分；明确原证明及二分法提示均不进入题干。"
+    },
+    {
+      "page_number": 38,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0038/result.md",
+      "result_sha256": "c425bbcd263eece14ff6db9f9e38e2f58da8e1c3a2c3ea56545f1ad0fbb3ef33",
+      "structured_result_sha256": "6a39b56ba456c448afde2a1abafc17519d3ba4433fd009fc3bb640590d47b7f6",
+      "units_count": 1,
+      "findings": "实际核对源图、OCR与尾项上确界趋负无穷的补证任务，正式明示留作练习在39页，命题首现38。与42页正式习题15(1)不同：此处待证limsup表示及极限点，正式题假设表示成立后求数列极限，暂保留。"
+    },
+    {
+      "page_number": 39,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0039/result.md",
+      "result_sha256": "d183f2637bec396612e604d2f0f726e8542e4ee0ff26dc1332cf9448b6787f89",
+      "structured_result_sha256": "05bfab01d1d775d482bc163eb58880d505eb556f4e65375728b7827d4c286a21",
+      "units_count": 0,
+      "findings": "实际核对OCR全文与源图。页首y=负无穷留作练习已归首次38；页尾上下极限三不等式留作习题与42页正式12重复，仅保留正式题。源页完整覆盖，0首次单元。"
+    },
+    {
+      "page_number": 40,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0040/result.md",
+      "result_sha256": "08a25473a2579076713dc8fafbd16c22b15afb8e4a8d0e64fb37fc2caba4f059",
+      "structured_result_sha256": "1df4c57c8441636b9c09811bcabf3010f7151c2c82c689d8230534e335481e2b",
+      "units_count": 2,
+      "findings": "实际核对Cesaro均值极限例和非负次可加数列例，条件、索引和结论均一致，2单元。页首三不等式与42页正式12重复，正文不重收。OCR上下横线误识未进入题干。"
+    },
+    {
+      "page_number": 41,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0041/result.md",
+      "result_sha256": "4b0a770d05ee2719a61b5cc7a28f54b562ec9396e4204b88e8ffde83767f3a49",
+      "structured_result_sha256": "2ad17a8039305fd057d2d28eaff024990df446d99ae24a3d7cf0ecb3ec5884c0",
+      "units_count": 3,
+      "findings": "实际核对整页OCR、源图与3个源单元。例14.3.9的上下极限链、两道正式习题完整；前页例的证明续文不重复收录。"
+    },
+    {
+      "page_number": 42,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0042/result.md",
+      "result_sha256": "55f333a070e63ba4c6805dedba0fceed77c32756d65fef4f0141a229ab190cc9",
+      "structured_result_sha256": "110ffd01ef7632421762d8ee66b919761be65c79f632b61da06a049417f501bd",
+      "units_count": 15,
+      "findings": "实际逐题对照15个首次出现单元及全部小问。OCR漏掉正式习题11的上下极限横线，校对稿依源图保留liminf与limsup。习题12的引用已展开并覆盖物理39–40页正文任务；最后一题接续43页，来源保持42。"
+    },
+    {
+      "page_number": 43,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0043/result.md",
+      "result_sha256": "76192420bb1c5f586f6a8b99919c4ab1b25933375b0eedb2bb2e491de5a68a18",
+      "structured_result_sha256": "77f52cccc1c8d63153dd82ac21de2878f6ad58a4fd0c1b21449575ca8fbaf189",
+      "units_count": 8,
+      "findings": "实际核对上一页混合数列题续文与8个首次出现单元。无限矩阵、嵌套根式、子级数和集及连分数均正确；OCR将连分数最内层a3误成a2，校对稿按源图保留a3。"
+    },
+    {
+      "page_number": 44,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0044/result.md",
+      "result_sha256": "c4a9030518b3c302909ceb9b7e864da21380b69d68b5c25f86695350fc966abd",
+      "structured_result_sha256": "852e96df7e901511f96406025b83fae25d60ed088ccab651384c74846aeb3b3a",
+      "units_count": 0,
+      "findings": "实际核对OCR全文及完整源图。开集定义、性质和已经给出的证明，无正式例题或明确留作练习；0单元。"
+    },
+    {
+      "page_number": 45,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0045/result.md",
+      "result_sha256": "926e543096f4d9e3aa10fc8f859005f518084fabbcc83f2551cfcea87ebd42a2",
+      "structured_result_sha256": "dbdafc6bc03e0cc168eded238129c15ab36e4c37c8813f8f7df7b60c424375f8",
+      "units_count": 0,
+      "findings": "实际核对OCR全文及完整源图。J_x为开区间的正文任务等同于物理51页正式习题2的公共点开区间族之并，仅保留正式题；其余为开集结构定理证明和极限定义。"
+    },
+    {
+      "page_number": 46,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0046/result.md",
+      "result_sha256": "26650d82f8fc3b306f572d60a918a16ee86321eb9e3116bf0f1bad9531349907",
+      "structured_result_sha256": "d999df5783e6dc57183a6a43df2b569907656b840d8127d2de54f079f37b57e9",
+      "units_count": 0,
+      "findings": "实际核对OCR全文及完整源图。聚点、闭集定义及性质证明，无正式例题或明确留作练习；0单元。"
+    },
+    {
+      "page_number": 47,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0047/result.md",
+      "result_sha256": "7aa95a87c8a08f30fb2e782dac3c45c926bf7e3ebcd0437cd7af7ce4a31cc552",
+      "structured_result_sha256": "af908d7eef30813ddebd83c02a8a0d929e3e55a661d7a85771cac6c4ce24c465",
+      "units_count": 1,
+      "findings": "实际核对OCR全文、源图与闭集减开集的正式例题；定义、题设和结论完整，其余为内部及闭包的一般理论。"
+    },
+    {
+      "page_number": 48,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0048/result.md",
+      "result_sha256": "f24d92e1ada7597e4b3dfb03a0e9060f0a1e233b9c5beea0dd78181c253705a5",
+      "structured_result_sha256": "1c9682f47009474aca2a5e67a663e84a1bf416e29101a783cbd14087e5e3c600",
+      "units_count": 2,
+      "findings": "实际核对稠密子集上确界例与Cantor集说明例，后例延续49页并改写为3小问。Cantor构造完整写入文字，不需重复构造示意图；源文J1下端点误排1/2，校对稿按本页前述构造采用1/3。"
+    },
+    {
+      "page_number": 49,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0049/result.md",
+      "result_sha256": "a7b669de591187fe9a38d8c0a0d821be842c2715098288dd7f363694297b9943",
+      "structured_result_sha256": "d5e27088936f450056e3bd850df9e06b36e099dd93a73574846b8a8aa12c25b9",
+      "units_count": 0,
+      "findings": "实际核对OCR全文及完整源图。前页Cantor例的闭性、无区间和补集稠密结论均已合入48页单元；其余为开覆盖定义、说明及紧致性定理，无新独立任务。"
+    },
+    {
+      "page_number": 50,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0050/result.md",
+      "result_sha256": "db238d6ec48773ed5bd20f5c65c39515e9e429e4f6e25ec9a4169a9456977607",
+      "structured_result_sha256": "1248e5938e628ae9a85e96029aa7d6475e540b5b97cba51e720315a4c6c23ae1",
+      "units_count": 0,
+      "findings": "实际核对OCR全文及完整源图。紧致性定理证明及末尾正文习题，与52页正式习题14重复的紧集表示任务只保留正式题。"
+    },
+    {
+      "page_number": 51,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0051/result.md",
+      "result_sha256": "b771c7705f4c26080829174133278478a14a8faf9b8023fb0c0d1c384c9a1f0c",
+      "structured_result_sha256": "33e1e00fd02ee3e7483101262274c5e910833c0313426f7ca93c959842ab2a7e",
+      "units_count": 9,
+      "findings": "实际逐项核对9道正式习题，所有条件与小问完整。习题2同时覆盖45页正文任务；习题9已补非空族条件，防止空族交为全实轴的例外。"
+    },
+    {
+      "page_number": 52,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0052/result.md",
+      "result_sha256": "6ef54aa370d3513c2060a27e99ba3504e74d872cc89a454ac9aaa0ec9a412f58",
+      "structured_result_sha256": "057e78ae98bd10fbb9225a3a1bde630b87ccbc9c7dc9935a29aea54d65cdacae",
+      "units_count": 7,
+      "findings": "实际逐项核对7道正式习题，有限交性质、和集、确界、聚点与开集分离条件完整。有限交性质的独立解法提示已删除。"
+    },
+    {
+      "page_number": 53,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0053/result.md",
+      "result_sha256": "d969de361f7b9221afbd19039c15c45bc1eb505a522c5a1d185a1678dfd07303",
+      "structured_result_sha256": "ab024ca8b7d9c2daab403f78a6bdced00e05612afabfbf85f8dce1f7363b740c",
+      "units_count": 0,
+      "findings": "实际核对OCR全文及完整源图。十进小数与定理证明，无正式例题或明确留作练习；0单元。"
+    },
+    {
+      "page_number": 54,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0054/result.md",
+      "result_sha256": "1682efb6db1087e533099cd91b3a5f633dd25d6102215ec634d7c8368efc7d4d",
+      "structured_result_sha256": "a89ec4228588a7760fad112e96dc82578fa27ef00c80bc49ec8aed5617a5a3c8",
+      "units_count": 1,
+      "findings": "实际核对OCR全文及完整源图。无限小数系统上的算术及序保留1个正文练习；有理数循环表示及Dedekind加法正文任务在57页正式题1、2收录，不重复。"
+    },
+    {
+      "page_number": 55,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0055/result.md",
+      "result_sha256": "dace6f1588b9d5d49add9eaf8dfbe10db48600b5dc0e2dff60489f7db1a41939",
+      "structured_result_sha256": "0614fbebbe687f55beeabb78d0bf60fed9a702d6ad3975df0d5ba2b6f92fbc47",
+      "units_count": 0,
+      "findings": "实际核对OCR全文及完整源图。Dedekind加法正文任务及乘法正文任务分别由57页正式题2、3覆盖，其余是定义及已给出的加法逆元证明；0首次单元。"
+    },
+    {
+      "page_number": 56,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0056/result.md",
+      "result_sha256": "8df66038d1d7706ee7ef52bfda04fa88b16863f046737f8002b332cdac189bd5",
+      "structured_result_sha256": "e0b967d1b4c7df1c0093e63993738d8b16ed1b7a8906c4e6ca70a019e1c6bfaa",
+      "units_count": 2,
+      "findings": "实际核对OCR全文、源图和2个正文任务。补收原文明确要求验证的alpha_x为分割任务；保留一一对应保持其余域结构的练习。乘法分割与乘法逆元任务分别由57页正式题3、4覆盖。"
+    },
+    {
+      "page_number": 57,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0057/result.md",
+      "result_sha256": "1897e3d0c0bf2dbc8d2a2ea6fca6df73464778fd342a09367713526187c72f34",
+      "structured_result_sha256": "3f3f2fe3a8513411adc361a9385cebf583a53b1efe30f909dc86fb0d3d552e96",
+      "units_count": 9,
+      "findings": "实际逐题核对9道正式习题及3个Liouville小问。引用的分割性质均已展开；非空A和非零整系数多项式的校订保留；OCR错把10的k!次幂写成10^k!，校对稿按源图保持10^{k!}。"
+    }
+  ],
+  "final_problems": 114
+}

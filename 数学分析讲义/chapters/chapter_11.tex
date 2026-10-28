@@ -1,0 +1,462 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{10}\section{曲线积分和曲面积分}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.1}
+计算曲线积分 $\int_Lxy\,ds$，其中 $L$ 为椭圆 $x^2/a^2+y^2/b^2=1$ 在第一象限内的部分，$a,b>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.2}
+计算曲线积分 $\int_Lx\,ds$，其中 $L$ 是顶点为 $O(0,0),A(1,0),B(0,1)$ 的三角形边界。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.3}
+计算下列曲线的弧长，涉及的长度参数 $a>0$。
+\SubQ{1}{$\boldsymbol r(t)=e^t\cos t\,\boldsymbol i+e^t\sin t\,\boldsymbol j+e^t\boldsymbol k$，$0\le t\le2\pi$。}
+\SubQ{2}{$x=3t,\ y=3t^2,\ z=2t^3$ 从 $O(0,0,0)$ 到 $A(3,3,2)$ 的一段。}
+\SubQ{3}{$x=a\cos t,\ y=a\sin t,\ z=a\ln(\cos t)$，$0\le t\le\pi/4$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.4}
+计算下列曲线的弧长，涉及的长度参数 $a>0$。
+\SubQ{1}{$z^2=2ax$ 与 $9y^2=16xz$ 的交线，由 $O(0,0,0)$ 到 $A(2a,8a/3,2a)$ 的一段。}
+\SubQ{2}{$4ax=(y+z)^2$ 与 $4x^2+3y^2=3z^2$ 的交线，由原点到点 $M(x,y,z)$ 的一段，其中 $z\ge0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.5}
+计算下列曲线积分，涉及的长度参数 $a>0$。
+\SubQ{1}{$\int_Ly^2\,ds$，$L:x=a(t-\sin t),\ y=a(1-\cos t)$，$0\le t\le2\pi$。}
+\SubQ{2}{$\int_L\frac{z^2}{x^2+y^2}\,ds$，$L:x=a\cos t,\ y=a\sin t,\ z=at$，$0\le t\le2\pi$。}
+\SubQ{3}{$\int_L(x+y)\,ds$，$L$ 是顶点为 $O(0,0),A(1,0),B(0,1)$ 的三角形边界。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.6}
+计算下列曲线积分，涉及的长度参数 $a>0$。
+\SubQ{1}{$\int_L\frac{ds}{x-y}$，$L$ 是从 $A(0,-2)$ 到 $B(4,0)$ 的直线段。}
+\SubQ{2}{$\int_L(x+y+z)\,ds$，$L$ 由直线段 $AB$（$A(1,1,0),B(1,0,0)$）及螺线 $BC:x=\cos t,\ y=\sin t,\ z=t$（$0\le t\le2\pi$）组成。}
+\SubQ{3}{$\int_Le^{\sqrt{x^2+y^2}}\,ds$，$L$ 是极坐标下由 $r=a,\varphi=0,\varphi=\pi/4$ 所围扇形的边界。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.7}
+计算下列曲线积分，涉及的长度参数 $a>0$。
+\SubQ{1}{$\int_Lx\,ds$，$L$ 是对数螺线 $r=ae^{k\varphi}$（$k>0$）在圆 $r=a$ 内的一段。}
+\SubQ{2}{$\int_Lz\,ds$，$L$ 是圆锥螺线 $x=t\cos t,\ y=t\sin t,\ z=t$，$0\le t\le t_0$，$t_0>0$。}
+\SubQ{3}{$\int_Lx\sqrt{x^2-y^2}\,ds$，$L$ 是双纽线 $(x^2+y^2)^2=a^2(x^2-y^2)$ 中 $x\ge0$ 的一半。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.8}
+计算下列曲线积分，涉及的长度参数 $a>0$。
+\SubQ{1}{$\int_L(x^2+y^2+z^2)^n\,ds$，$L$ 是圆周 $x^2+y^2=a^2,\ z=0$，$n$ 为给定实数。}
+\SubQ{2}{$\int_Lx^2\,ds$，$L$ 是圆周 $x^2+y^2+z^2=a^2,\ x+y+z=0$。}
+\SubQ{3}{$\int_L(xy+yz+zx)\,ds$，$L$ 是圆周 $x^2+y^2+z^2=a^2,\ x+y+z=0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.9}
+求曲线 $x=e^t\cos t,\ y=e^t\sin t,\ z=e^t$ 从 $t=0$ 到任意 $t=T>0$ 的弧段质量。各点线密度与该点到原点的距离平方成反比，且在 $(1,0,1)$ 处的线密度为 $1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.10}
+求螺旋线一圈 $x=a\cos t,\ y=a\sin t,\ z=\frac{h}{2\pi}t$（$0\le t\le2\pi$，$a,h>0$）对于各坐标轴的转动惯量，线密度为 $\rho=1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.11}
+半径为 $a>0$ 的均匀半圆弧的线密度为 $\rho$，求它对处在圆心 $O$、质量为 $M$ 的质点的引力（引力常量记为 $G$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.12}
+求半径为 $R>0$ 的球面的面积。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.13}
+求球面 $x^2+y^2+z^2=R^2$ 被圆柱面 $x^2+y^2=Rx$ 截下的内部部分的面积，$R>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.14}
+求锥面 $y^2+z^2=x^2$ 被圆柱面 $y^2+z^2=R^2$ 截下的部分的面积，$R>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.15}
+计算 $\iint_S(x^2+y^2)\,dS$，其中 $S$ 是球面 $x^2+y^2+z^2=R^2$ 在第一卦限的部分，$R>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.16}
+计算 $\iint_S(y^2z^2+z^2x^2+x^2y^2)\,dS$，其中 $S$ 是锥面 $z^2=k^2(x^2+y^2)$ 的上半部在圆柱面 $x^2+y^2=2ax$ 内的部分，$a,k>0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.17}
+求下列曲面在指定部分的面积，涉及的长度参数 $a,h>0$。
+\SubQ{1}{锥面 $z=\sqrt{x^2+y^2}$ 包含在圆柱面 $x^2+y^2=2x$ 内的部分。}
+\SubQ{2}{柱面 $x^2+y^2=a^2$ 被平面 $x+z=0,\ x-z=0$ 截下且满足 $x>0,y>0$ 的部分。}
+\SubQ{3}{柱面 $x^2+y^2=a^2$ 被圆柱面 $y^2+z^2=a^2$ 截下的部分。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.18}
+求下列曲面在指定部分的面积，涉及的长度参数 $a,h>0$。
+\SubQ{1}{球面 $x^2+y^2+z^2=3a^2$ 与抛物面 $x^2+y^2=2az$（$z\ge0$）所围成立体的全表面。}
+\SubQ{2}{曲面 $x=\tfrac12(2y^2+z^2)$ 被柱面 $4y^2+z^2=1$ 截下的部分。}
+\SubQ{3}{锥面 $z^2=x^2+y^2$ 被 $Oxy$ 平面和平面 $z=\sqrt2(x/2+1)$ 截下的部分。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.19}
+求下列曲面在指定部分的面积，涉及的长度参数 $a,h>0$。
+\SubQ{1}{螺旋面 $x=r\cos\varphi,\ y=r\sin\varphi,\ z=h\varphi$ 中 $0<r<a,\ 0<\varphi<2\pi$ 的部分。}
+\SubQ{2}{曲面 $(x^2+y^2+z^2)^2=2a^2xy$ 的全部。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.20}
+计算下列曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_S(x+y+z)\,dS$，$S$ 为立方体 $0\le x,y,z\le1$ 的全表面。}
+\SubQ{2}{$\iint_Sxyz\,dS$，$S$ 为平面 $x+y+z=1$ 在第一卦限的部分。}
+\SubQ{3}{$\iint_S(x^2+y^2)\,dS$，$S$ 为 $z=\sqrt{x^2+y^2}$ 与 $z=1$ 所围立体的全表面。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.21}
+计算下列曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_S(xy+yz+zx)\,dS$，$S$ 为锥面 $z=\sqrt{x^2+y^2}$ 在圆柱面 $x^2+y^2=2ax$ 内的部分。}
+\SubQ{2}{$\iint_S(x^4-y^4+y^2z^2-x^2z^2+1)\,dS$，$S$ 为锥面 $z=\sqrt{x^2+y^2}$ 在圆柱面 $x^2+y^2=2x$ 内的部分。}
+\SubQ{3}{$\iint_S\frac{dS}{r^2}$，$S$ 为圆柱面 $x^2+y^2=R^2$ 介于 $z=0$ 与 $z=H$ 之间的部分，$r$ 为曲面上各点到原点的距离。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.22}
+计算下列曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_S|xyz|\,dS$，$S$ 为抛物面 $z=x^2+y^2$ 介于 $z=0$ 与 $z=1$ 之间的部分。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.23}
+利用对称性计算下列曲面积分，其中 $a,R>0$。
+\SubQ{1}{$\iint_S(x^2+y^2)\,dS$，$S:x^2+y^2+z^2=R^2$。}
+\SubQ{2}{$\iint_S(x+y+z)\,dS$，$S:x^2+y^2+z^2=a^2,\ z\ge0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.24}
+设 $G$ 是平面 $Ax+By+Cz+D=0$（$C\ne0$）上面积非零的有界闭区域，在 $Oxy$ 平面上的投影为 $G_1$。证明：$\displaystyle\frac{\operatorname{area}(G)}{\operatorname{area}(G_1)}=\sqrt{\frac{A^2+B^2+C^2}{C^2}}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.25}
+求抛物面壳 $z=\tfrac12(x^2+y^2)$（$0\le z\le1$）的质量，其各点的面密度为 $\rho=z$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.26}
+半径为 $R>0$、面密度为 $\rho$ 的均匀球壳绕其直径旋转，求它的转动惯量。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.27}
+已知面密度为 $\rho$ 的均匀截锥面 $z=\sqrt{x^2+y^2}$（$0<a\le z\le b$），求它对于处在锥顶、质量为 $m$ 的质点的引力（引力常量记为 $G$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.28}
+设有关向量场连续、定向曲线逐段光滑，证明第二型曲线积分的下列性质。
+\SubQ{1}{线性性：$\int_L(c_1\boldsymbol v_1+c_2\boldsymbol v_2)\cdot d\boldsymbol r=c_1\int_L\boldsymbol v_1\cdot d\boldsymbol r+c_2\int_L\boldsymbol v_2\cdot d\boldsymbol r$。}
+\SubQ{2}{路径可加性：若 $L_{AC}$ 由 $L_{AB}$ 与 $L_{BC}$ 接成，则 $\int_{L_{AC}}\boldsymbol v\cdot d\boldsymbol r=\int_{L_{AB}}\boldsymbol v\cdot d\boldsymbol r+\int_{L_{BC}}\boldsymbol v\cdot d\boldsymbol r$。}
+\SubQ{3}{方向性：$\int_{L_{AB}}\boldsymbol v\cdot d\boldsymbol r=-\int_{L_{BA}}\boldsymbol v\cdot d\boldsymbol r$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.29}
+计算 $\oint_Lxy\,dx+x^2\,dy$，其中 $L$ 是三角形 $OAB$ 的逆时针边界，$O(0,0),A(1,0),B(1,2)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.30}
+在力场 $\boldsymbol F=y\boldsymbol i-x\boldsymbol j+z\boldsymbol k$ 的作用下，质点从 $A(R,0,0)$ 沿圆柱螺线 $x=R\cos t,\ y=R\sin t,\ z=kt$（$0\le t\le2\pi$）运动到 $B(R,0,2\pi k)$。求力场所做的功，$R,k>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.31}
+太阳对地球的引力可视为质量分别为 $M,m$ 的两个质点之间的引力 $\boldsymbol F=-k\frac{mM}{r^3}\boldsymbol r$，其中 $\boldsymbol r$ 为从质点 $M$ 指向质点 $m$ 的位矢，$r=|\boldsymbol r|$，$k$ 为引力常量。求质点 $m$ 沿不经过质点 $M$ 的光滑路径从 $A$ 到 $B$ 运动时引力所做的功。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.32}
+求下列向量场沿 $Oxy$ 平面上圆周 $L:x^2+y^2=R^2$ 逆时针方向的环量，$R>0$。
+\SubQ{1}{$\boldsymbol v_1=\frac{-y\boldsymbol i+x\boldsymbol j}{x^2+y^2}$。}
+\SubQ{2}{$\boldsymbol v_2=\frac{x\boldsymbol i+y\boldsymbol j}{x^2+y^2}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.33（改写）}
+设 $P,Q$ 在矩形 $D=[a,b]\times[c,d]$（$a<b,c<d$）的邻域内具有连续一阶偏导数。通过直接沿四条边积分，将向量场 $\boldsymbol v=P\boldsymbol i+Q\boldsymbol j$ 沿 $\partial D$ 逆时针方向的环量表示成 $D$ 上的二重积分。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.34}
+设 $\Gamma$ 是不经过原点的逐段光滑简单闭曲线，取逆时针方向。求向量场 $\boldsymbol v=\frac{-y\boldsymbol i+x\boldsymbol j}{x^2+y^2}$ 沿 $\Gamma$ 的环量，分别讨论原点在 $\Gamma$ 内部与外部的情形。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.35}
+平面上的简单多边形 $D$ 的顶点按逆时针顺序为 $(x_1,y_1),\ldots,(x_n,y_n)$。用 Green 公式求其面积的表达式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.36}
+计算下列第二型曲线积分，涉及的长度参数 $a>0$。
+\SubQ{1}{$\int_L(x^2+y^2)\,dx+(x^2-y^2)\,dy$，$L$ 是曲线 $y=1-|1-x|$ 从 $(0,0)$ 到 $(2,0)$ 的一段。}
+\SubQ{2}{$\int_L\frac{dx+dy}{|x|+|y|}$，$L$ 沿顶点为 $A(1,0),B(0,1),C(-1,0),D(0,-1)$ 的正方形逆时针一周。}
+\SubQ{3}{$\int_L\frac{-x\,dx+y\,dy}{x^2+y^2}$，$L$ 沿圆周 $x^2+y^2=a^2$ 逆时针一周。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.37}
+计算下列第二型曲线积分，涉及的长度参数 $a>0$。
+\SubQ{1}{$\int_Ly^2\,dx+xy\,dy+xz\,dz$，$L$ 是依次经过 $O(0,0,0),A(1,0,0),B(1,1,0),C(1,1,1)$ 的折线。}
+\SubQ{2}{$\int_Le^{x+y+z}\,dx+e^{x+y+z}\,dy+e^{x+y+z}\,dz$，$L:x=\cos\varphi,\ y=\sin\varphi,\ z=\varphi/\pi$，从 $A(1,0,0)$ 到 $B(0,1,1/2)$。}
+\SubQ{3}{$\int_Ly\,dx+z\,dy+x\,dz$，$L$ 是 $x+y=2$ 与 $x^2+y^2+z^2=2(x+y)$ 的交线，从原点看去为顺时针方向。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.38}
+求向量场 $\boldsymbol v=(y+z)\boldsymbol i+(z+x)\boldsymbol j+(x+y)\boldsymbol k$ 沿曲线 $L:x=a\sin^2t,\ y=2a\sin t\cos t,\ z=a\cos^2t$（$0\le t\le\pi$，$a>0$）参数增加方向的曲线积分。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.39}
+质点处于指向原点的弹性力场中，力的大小与质点到原点的距离成正比，比例系数为 $k>0$。质点沿椭圆 $x^2/a^2+y^2/b^2=1$ 从 $(a,0)$ 移到 $(0,b)$，求弹性力所做的功，$a,b>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.40}
+利用 Green 公式计算下列曲线积分，涉及的长度参数 $a,b>0$。
+\SubQ{1}{$\oint_L(x+y)^2\,dx+(x^2-y^2)\,dy$，$L$ 为顶点 $A(1,1),B(3,3),C(3,5)$ 的三角形的逆时针周界。}
+\SubQ{2}{$\oint_L(xy+x+y)\,dx+(xy+x-y)\,dy$，$L$ 为椭圆 $x^2/a^2+y^2/b^2=1$，取顺时针方向。}
+\SubQ{3}{$\oint_L(yx^3+e^y)\,dx+(xy^3+xe^y-2y)\,dy$，$L$ 为关于两坐标轴对称的逐段光滑简单闭曲线，取逆时针方向。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.41}
+利用 Green 公式计算下列曲线积分，涉及的长度参数 $a,b>0$。
+\SubQ{1}{$\oint_L\sqrt{x^2+y^2}\,dx+y[xy+\ln(x+\sqrt{x^2+y^2})]\,dy$，$L$ 为 $y^2=x-1$ 与 $x=2$ 所围的逆时针闭曲线。}
+\SubQ{2}{$\int_{AMB}(x^2+2xy-y^2)\,dx+(x^2-2xy+y^2)\,dy$，路径从 $A(0,-1)$ 沿 $y=x-1$ 到 $M(1,0)$，再沿单位圆的第一象限圆弧到 $B(0,1)$。}
+\SubQ{3}{$\int_{AMO}(e^x\sin y-my)\,dx+(e^x\cos y-m)\,dy$，$m$ 为常数，路径是从 $A(a,0)$ 到 $O(0,0)$ 的上半圆周 $x^2+y^2=ax$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.42}
+利用曲线积分计算下列区域的面积，$a>0$。
+\SubQ{1}{星形线 $x=a\cos^3t,\ y=a\sin^3t$（$0\le t\le2\pi$）围成的区域。}
+\SubQ{2}{摆线 $x=a(t-\sin t),\ y=a(1-\cos t)$（$0\le t\le2\pi$）与 $x$ 轴围成的区域。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.43}
+计算曲线积分 $\int_L\frac{-y\,dx+x\,dy}{x^2+y^2}$。
+\SubQ{1}{$L$ 从 $A(-a,0)$ 沿上半圆 $y=\sqrt{a^2-x^2}$ 到 $B(a,0)$，$a>0$。}
+\SubQ{2}{$L$ 从 $A(-1,0)$ 沿抛物线 $y=4-(x-1)^2$ 到 $B(3,0)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.44}
+设 $D$ 为平面上由逐段光滑简单闭曲线 $L$ 围成的区域，$\boldsymbol n$ 是单位外法向量，$\Delta=\partial^2/\partial x^2+\partial^2/\partial y^2$。
+\SubQ{1}{若 $f$ 在 $\overline D$ 的邻域内具有连续二阶偏导数，证明 $\oint_L\frac{\partial f}{\partial\boldsymbol n}\,ds=\iint_D\Delta f\,dx\,dy$；特别地，当 $\Delta f=0$ 时，该曲线积分为零。}
+\SubQ{2}{若 $\boldsymbol a$ 为单位常向量，证明 $\oint_L\cos(\boldsymbol a,\boldsymbol n)\,ds=0$。}
+\SubQ{3}{若 $u,v$ 在 $\overline D$ 的邻域内具有连续二阶偏导数，证明第二 Green 公式：$\displaystyle\oint_L\left(v\frac{\partial u}{\partial\boldsymbol n}-u\frac{\partial v}{\partial\boldsymbol n}\right)ds=\iint_D(v\Delta u-u\Delta v)\,dx\,dy$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.45}
+求向量场 $\boldsymbol v=\frac{-y\boldsymbol i+x\boldsymbol j}{x^2+y^2}$ 通过正方形 $S=\{(x,0,z):1\le x\le3,\ 0\le z\le2\}$ 的通量，曲面定向为 $y$ 轴正方向。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.46（改写）}
+设 $S$ 为球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$。
+\SubQ{1}{将连续向量场 $\boldsymbol v=P\boldsymbol i+Q\boldsymbol j+R\boldsymbol k$ 通过 $S$ 的通量表示为球面坐标下的二重积分。}
+\SubQ{2}{特别地，计算点电荷场 $\boldsymbol E=q\boldsymbol r/|\boldsymbol r|^3$ 通过 $S$ 的通量，其中 $\boldsymbol r=x\boldsymbol i+y\boldsymbol j+z\boldsymbol k$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.47（改写）}
+设 $S$ 为圆柱面 $x^2+y^2=a^2,\ -h\le z\le h$ 的外侧，$a,h>0$。
+\SubQ{1}{将连续向量场 $\boldsymbol v=P\boldsymbol i+Q\boldsymbol j+R\boldsymbol k$ 通过 $S$ 的通量表示为柱面坐标下的二重积分。}
+\SubQ{2}{特别地，计算点电荷场 $\boldsymbol E=q\boldsymbol r/|\boldsymbol r|^3$ 通过 $S$ 的通量，其中 $\boldsymbol r=x\boldsymbol i+y\boldsymbol j+z\boldsymbol k$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.48}
+求向量场 $\boldsymbol v=y(x-z)\boldsymbol i+x^2\boldsymbol j+(y^2+xz)\boldsymbol k$ 通过长方体 $0\le x\le a,\ 0\le y\le b,\ 0\le z\le c$ 的外侧表面的通量，$a,b,c>0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.49}
+求曲面积分 $\iint_Sx^2\,dy\,dz+y^2\,dz\,dx+z^2\,dx\,dy$，其中 $S$ 为半球面 $x^2+y^2+z^2=a^2,\ z\ge0$ 的上侧，$a>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.50}
+计算曲面积分 $\iint_Sx^3\,dy\,dz+y^3\,dz\,dx$，其中 $S$ 为上半椭球面 $x^2/a^2+y^2/b^2+z^2/c^2=1,\ z\ge0$ 的上侧，$a,b,c>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.51}
+计算下列第二型曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_S(x+y^2+z)\,dx\,dy$，$S$ 为椭球面 $x^2/a^2+y^2/b^2+z^2/c^2=1$ 的外侧。}
+\SubQ{2}{$\iint_Sxyz\,dx\,dy$，$S$ 为柱面 $x^2+z^2=R^2$ 中 $x\ge0,\ 0\le y\le h$ 的部分，取外侧。}
+\SubQ{3}{$\iint_Sxy^2z^2\,dy\,dz$，$S$ 为球面 $x^2+y^2+z^2=R^2$ 中 $x\le0$ 的一半，取远离球心的一侧。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.52}
+计算下列第二型曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_Syz\,dz\,dx$，$S$ 为球面 $x^2+y^2+z^2=1$ 中 $z\ge0$ 的部分，取外侧。}
+\SubQ{2}{$\iint_Sx^2\,dy\,dz+y^2\,dz\,dx+z^2\,dx\,dy$，$S$ 为平面 $x+y+z=1$ 在第一卦限的部分，取远离原点的一侧。}
+\SubQ{3}{$\iint_S(y-z)\,dy\,dz+(z-x)\,dz\,dx+(x-y)\,dx\,dy$，$S$ 为圆锥面 $x^2+y^2=z^2$（$0\le z\le1$）的下侧。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.53}
+计算下列第二型曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_Sxz^2\,dy\,dz+x^2y\,dz\,dx+y^2z\,dx\,dy$，$S$ 为上半球面 $z=\sqrt{a^2-x^2-y^2}$ 的上侧。}
+\SubQ{2}{$\iint_Sf(x)\,dy\,dz+g(y)\,dz\,dx+h(z)\,dx\,dy$，$f,g,h$ 为连续函数，$S$ 为长方体 $[0,a]\times[0,b]\times[0,c]$ 的外侧。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.54}
+求向量场 $\boldsymbol v=(x^3-yz)\boldsymbol i-2x^2y\boldsymbol j+z\boldsymbol k$ 通过长方体 $[0,a]\times[0,b]\times[0,c]$ 外侧表面的通量，$a,b,c>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.55}
+用 Gauss 公式计算 $\iint_Sy(x-z)\,dy\,dz+x^2\,dz\,dx+(y^2+xz)\,dx\,dy$，其中 $S$ 为长方体 $[0,a]\times[0,b]\times[0,c]$ 的外侧表面，$a,b,c>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.56}
+设 $S=\{(x,y,z):x+y+z=1,\ x,y,z\ge0\}$，定向与 $\boldsymbol i+\boldsymbol j+\boldsymbol k$ 相同。求力场 $\boldsymbol F=y^2\boldsymbol i+z^2\boldsymbol j+x^2\boldsymbol k$ 绕 $S$ 的正向边界一周所做的功。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.57}
+设 $L$ 是椭圆抛物面 $z=3x^2+4y^2$ 与椭圆柱面 $4x^2+y^2=4y$ 的交线，从 $z$ 轴正方向看为顺时针方向。求向量场 $\boldsymbol v=y(z+1)\boldsymbol i+zx\boldsymbol j+(xy-z)\boldsymbol k$ 沿 $L$ 的环量。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.58}
+计算下列曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_S(x+1)\,dy\,dz+y\,dz\,dx+(xy+z)\,dx\,dy$，$S$ 为顶点 $O(0,0,0),A(1,0,0),B(0,1,0),C(0,0,1)$ 的四面体外侧表面。}
+\SubQ{2}{$\iint_Sxy\,dy\,dz+yz\,dz\,dx+zx\,dx\,dy$，$S$ 为 $x=0,y=0,z=0,x+y+z=1$ 围成的四面体外表面。}
+\SubQ{3}{$\iint_Sx^2\,dy\,dz+y^2\,dz\,dx+z^2\,dx\,dy$，$S$ 为球面 $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ 的外侧。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.59}
+计算下列曲面积分，涉及的长度参数均为正。
+\SubQ{1}{$\iint_Sxy^2\,dy\,dz+yz^2\,dz\,dx+zx^2\,dx\,dy$，$S$ 为球面 $x^2+y^2+z^2=z$ 的外侧。}
+\SubQ{2}{$\iint_S(x-z)\,dy\,dz+(y-x)\,dz\,dx+(z-y)\,dx\,dy$，$S$ 为旋转抛物面 $z=x^2+y^2$（$0\le z\le1$）的下侧。}
+\SubQ{3}{$\iint_S(y^2+z^2)\,dy\,dz+(z^2+x^2)\,dz\,dx+(x^2+y^2)\,dx\,dy$，$S$ 为上半球面 $x^2+y^2+z^2=a^2,\ z\ge0$ 的上侧。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.60}
+求引力场 $\boldsymbol F=-km\boldsymbol r/r^3$ 通过下列闭曲面外侧的通量，其中 $\boldsymbol r$ 为从原点出发的位矢，$r=|\boldsymbol r|$。
+\SubQ{1}{包围原点处质点 $m$ 的光滑闭曲面。}
+\SubQ{2}{不包围质点 $m$ 且不经过原点的光滑闭曲面。}
+\SubQ{3}{质点 $m$ 位于光滑闭曲面上；积分按挖去以原点为中心的小球后取极限理解。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.61}
+设 $V$ 由曲面 $x^2+y^2-z^2/2=1$ 及平面 $z=1,z=-1$ 围成，$S=\partial V$ 取外侧。计算 $\displaystyle\iint_S\frac{x\,dy\,dz+y\,dz\,dx+z\,dx\,dy}{(x^2+y^2+z^2)^{3/2}}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.62}
+设对半空间 $x>0$ 内任意光滑有向闭曲面 $S$ 都有 $\displaystyle\iint_Sxf(x)\,dy\,dz-xyf(x)\,dz\,dx-e^{2x}z\,dx\,dy=0$，其中 $f\in C^1(0,+\infty)$，且 $\lim_{x\to0^+}f(x)=1$。求 $f(x)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.63}
+证明：光滑闭曲面 $S$ 围成立体的体积可表示为 $\displaystyle V=\frac13\iint_Sx\,dy\,dz+y\,dz\,dx+z\,dx\,dy$，其中积分沿 $S$ 的外侧进行。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.64}
+用曲面积分证明 Archimedes 原理：物体全部浸入密度为常数 $\rho$ 的静止液体中时，所受浮力的大小等于与物体同体积的液体的重量，方向竖直向上。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.65}
+设 $\boldsymbol c$ 为非零常向量，$S$ 为任意光滑闭曲面，$\boldsymbol n$ 为其连续选取的单位法向量。证明 $\displaystyle\iint_S\cos(\boldsymbol c,\boldsymbol n)\,dS=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.66}
+设 $L$ 为 $Oxy$ 平面上光滑简单闭曲线，取逆时针方向，围成区域 $D$。令 $V=D\times[0,1]$。写出向量场 $\boldsymbol v=P(x,y)\boldsymbol i+Q(x,y)\boldsymbol j$ 在 $V$ 上的 Gauss 公式，并由此证明平面 Green 公式；设 $P,Q$ 在 $\overline D$ 的邻域内具有连续一阶偏导数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.67}
+计算下列曲线积分，涉及的长度参数均为正。
+\SubQ{1}{$\oint_Ly\,dx+z\,dy+x\,dz$，$L$ 为顶点 $A(1,0,0),B(0,1,0),C(0,0,1)$ 的三角形边界，从原点看去为顺时针方向。}
+\SubQ{2}{$\oint_L(y-z)\,dx+(z-x)\,dy+(x-y)\,dz$，$L$ 为圆柱面 $x^2+y^2=a^2$ 与平面 $x/a+z/h=1$ 的交线，从 $x$ 轴正向看为逆时针方向。}
+\SubQ{3}{$\oint_L(y^2-z^2)\,dx+(z^2-x^2)\,dy+(x^2-y^2)\,dz$，$L$ 为平面 $x+y+z=3a/2$ 与立方体 $[0,a]^3$ 表面的交线，从 $z$ 轴正向看为逆时针方向。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.68}
+计算下列曲线积分，涉及的长度参数均为正。
+\SubQ{1}{$\oint_Ly^2\,dx+xy\,dy+xz\,dz$，$L$ 为圆柱面 $x^2+y^2=2y$ 与平面 $y=z$ 的交线，从 $z$ 轴正向看为逆时针方向。}
+\SubQ{2}{$\oint_L(y^2-y)\,dx+(z^2-z)\,dy+(x^2-x)\,dz$，$L$ 为球面 $x^2+y^2+z^2=a^2$ 与平面 $x+y+z=0$ 的交线，方向从 $z$ 轴正向看为逆时针方向。}
+\SubQ{3}{$\oint_L(y^2-z^2)\,dx+(2z^2-x^2)\,dy+(3x^2-y^2)\,dz$，$L$ 为平面 $x+y+z=2$ 与柱面 $|x|+|y|=1$ 的交线，从 $z$ 轴正向看为逆时针方向。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.69}
+设 $L$ 为 $Oxy$ 平面上逆时针方向的圆周 $x^2+y^2=R^2,z=0$，$R>0$。利用 Stokes 公式将 $\oint_Lx^2y^3\,dx+dy+z\,dz$ 化为以 $L$ 为边界的曲面 $S$ 上的积分并计算，比较两种选择的结果。
+\SubQ{1}{$S$ 取圆面 $x^2+y^2\le R^2,z=0$，定向向上。}
+\SubQ{2}{$S$ 取半球面 $z=\sqrt{R^2-x^2-y^2}$，定向向上。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.70}
+证明：常向量场 $\boldsymbol c$ 沿任意光滑闭曲线的环量都等于零。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.71}
+求向量场 $\boldsymbol v=(y^2+z^2)\boldsymbol i+(z^2+x^2)\boldsymbol j+(x^2+y^2)\boldsymbol k$ 沿曲线 $L$ 的环量。$L$ 为半球面 $x^2+y^2+z^2=R^2,z\ge0$ 与圆柱面 $x^2+y^2=Rx$ 的交线，从 $x$ 轴正向看为逆时针方向，$R>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.72}
+利用散度的积分表示 $\displaystyle\operatorname{div}\boldsymbol v(P)=\lim_{V\to P}\frac1{|V|}\iint_{\partial V}\boldsymbol v\cdot\boldsymbol n\,dS$，推导散度在柱面坐标 $x=r\cos\theta,y=r\sin\theta,z=z$ 下的表达式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.73}
+利用梯度的积分表示 $\displaystyle\nabla\varphi(P)=\lim_{V\to P}\frac1{|V|}\iint_{\partial V}\varphi\boldsymbol n\,dS$，推导梯度在球面坐标 $x=r\sin\theta\cos\phi,\ y=r\sin\theta\sin\phi,\ z=r\cos\theta$ 下的表达式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.74}
+设 $u\in C^2(\overline V)$，其中 $V$ 为光滑闭曲面 $S$ 围成的区域，$\Delta u=u_{xx}+u_{yy}+u_{zz}=0$，$\boldsymbol n$ 是 $S$ 的单位外法向量。证明：
+\SubQ{1}{$\displaystyle\iint_S\frac{\partial u}{\partial\boldsymbol n}\,dS=0$。}
+\SubQ{2}{$\displaystyle\iint_Su\frac{\partial u}{\partial\boldsymbol n}\,dS=\iiint_V|\nabla u|^2\,dV$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.75}
+设力场 $\boldsymbol F$ 为保守场，势能函数为 $U$，即 $\boldsymbol F=-\nabla U$。用 $U$ 表示力场对质点从 $A$ 运动到 $B$ 所做的功。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.76}
+证明向量场 $\boldsymbol v=(x^2-yz)\boldsymbol i+(y^2-zx)\boldsymbol j+(z^2-xy)\boldsymbol k$ 是有势场，并求它的一个势函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.77}
+求电场强度 $\boldsymbol E=q\boldsymbol r/r^3$ 的一个势函数，其中 $\boldsymbol r=x\boldsymbol i+y\boldsymbol j+z\boldsymbol k$，$r=|\boldsymbol r|>0$，势函数约定满足 $\boldsymbol E=\nabla\varphi$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.78}
+计算曲线积分 $\displaystyle\int_{(1,0)}^{(3,1)}(e^y+1)\,dx+(xe^y-2y)\,dy$，路径为连接两端点的任意逐段光滑曲线。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.79}
+设平面上从 $(0,0)$ 到 $(1,1)$ 的四条路径为：$L_1$ 经 $(1,0)$ 的折线，$L_2$ 为抛物线 $y=x^2$，$L_3$ 为直线段，$L_4$ 经 $(0,1)$ 的折线。分别求下列力场沿这四条路径所做的功，并说明结果为什么相等或不等。
+\SubQ{1}{$\boldsymbol F=-y\boldsymbol i+x\boldsymbol j$。}
+\SubQ{2}{$\boldsymbol F=2xy\boldsymbol i+x^2\boldsymbol j$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.80}
+求下列曲线积分，其中 $a,h>0$。
+\SubQ{1}{$\int_L(2x+y)\,dx+(x+4y+2z)\,dy+(2y-6z)\,dz$，路径从 $P_1(a,0,0)$ 沿 $x^2+y^2=a^2,z=0$ 的第一象限圆弧到 $P_2(0,a,0)$，再沿直线 $y+z=a,x=0$ 到 $P_3(0,0,a)$。}
+\SubQ{2}{$\int_L(x^2-yz)\,dx+(y^2-zx)\,dy+(z^2-xy)\,dz$，$L$ 为柱面螺线 $x=a\cos\varphi,\ y=a\sin\varphi,\ z=\frac{h}{2\pi}\varphi$ 从 $A(a,0,0)$ 到 $B(a,0,h)$ 的一圈。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.81}
+证明下列向量场为有势场，并求出它们的势函数。
+\SubQ{1}{$\boldsymbol v=(2x\cos y-y^2\sin x)\boldsymbol i+(2y\cos x-x^2\sin y)\boldsymbol j$。}
+\SubQ{2}{$\boldsymbol v=yz(2x+y+z)\boldsymbol i+xz(2y+z+x)\boldsymbol j+xy(2z+x+y)\boldsymbol k$。}
+\SubQ{3}{$\boldsymbol v=r^2\boldsymbol r$，其中 $\boldsymbol r=x\boldsymbol i+y\boldsymbol j+z\boldsymbol k$，$r=|\boldsymbol r|$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.82}
+当常数 $a$ 取何值时，向量场 $\boldsymbol F=(x^2+5ay+3yz)\boldsymbol i+(5x+3axz-2)\boldsymbol j+[(a+2)xy-4z]\boldsymbol k$ 是有势场？并求此时的势函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.83}
+求下列全微分的原函数 $u$。
+\SubQ{1}{$du=(3x^2+6xy^2)\,dx+(6x^2y-4y^3)\,dy$。}
+\SubQ{2}{$du=(x^2-2yz)\,dx+(y^2-2xz)\,dy+(z^2-2xy)\,dz$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.84}
+验证下列积分在被积式有定义的连通区域内与路径无关，并求值。路径均取在相应端点所在区域内。
+\SubQ{1}{$\displaystyle\int_{(0,0)}^{(1,1)}(x-y)(dx-dy)$。}
+\SubQ{2}{$\displaystyle\int_{(1,1)}^{(2,2)}\left(\frac1y\sin\frac xy-\frac{y}{x^2}\cos\frac yx+1\right)dx+\left(\frac1x\cos\frac yx-\frac{x}{y^2}\sin\frac xy+\frac1{y^2}\right)dy$。}
+\SubQ{3}{$\displaystyle\int_{(1,0)}^{(6,3)}\frac{x\,dx+y\,dy}{\sqrt{x^2+y^2}}$，路径不经过原点。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.85}
+验证下列积分在被积式有定义的连通区域内与路径无关，并求值。路径均取在相应端点所在区域内。
+\SubQ{1}{$\displaystyle\int_{(0,0,2)}^{(2,3,-4)}x\,dx+y^2\,dy-z^3\,dz$。}
+\SubQ{2}{$\displaystyle\int_{(1,1,1)}^{(2,2,2)}\left(1-\frac1y+\frac yz\right)dx+\left(\frac xz+\frac{x}{y^2}\right)dy-\frac{xy}{z^2}\,dz$。}
+\SubQ{3}{$\displaystyle\int_{(x_1,y_1,z_1)}^{(x_2,y_2,z_2)}\frac{x\,dx+y\,dy+z\,dz}{\sqrt{x^2+y^2+z^2}}$，两端点均在球面 $x^2+y^2+z^2=a^2$ 上，$a>0$，路径不经过原点。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.86}
+设 $f$ 连续但不一定可微，$L$ 为相应空间中任意分段光滑闭曲线。证明：
+\SubQ{1}{$\displaystyle\oint_Lf(x^2+y^2)(x\,dx+y\,dy)=0$。}
+\SubQ{2}{$\displaystyle\oint_Lf(\sqrt{x^2+y^2+z^2})(x\,dx+y\,dy+z\,dz)=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.87}
+稳恒电流 $I$ 通过作为 $z$ 轴的无穷长直导线产生磁场 $\boldsymbol B=\frac{2I}{x^2+y^2}(-y\boldsymbol i+x\boldsymbol j)$。讨论 $\boldsymbol B$ 沿 $Oxy$ 平面上不经过原点的任意光滑闭曲线的环量。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.88}
+求二阶连续可微函数 $f(x)$，使曲线积分 $\displaystyle\int_L[f'(x)+6f(x)+e^{-2x}]y\,dx+f'(x)\,dy$ 与积分路径无关。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.89}
+已知 $\alpha(0)=0,\alpha'(0)=2,\beta(0)=2$，令 $P(x,y)=[2x\alpha'(x)+\beta(x)]y^2-2y\beta(x)\tan2x$，$Q(x,y)=[\alpha'(x)+4x\alpha(x)]y+\beta(x)$。在条带 $|x|<\pi/4$ 内讨论下列问题。
+\SubQ{1}{求 $\alpha(x),\beta(x)$，使 $\int_LP\,dx+Q\,dy$ 与路径无关。}
+\SubQ{2}{求 $\displaystyle\int_{(0,0)}^{(0,2)}P\,dx+Q\,dy$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.90}
+设 $Q\in C^1(\mathbb R^2)$，曲线积分 $\int_L2xy\,dx+Q(x,y)\,dy$ 与路径无关，且对任意实数 $t$ 有 $\displaystyle\int_{(0,0)}^{(t,1)}2xy\,dx+Q(x,y)\,dy=\int_{(0,0)}^{(1,t)}2xy\,dx+Q(x,y)\,dy$。求 $Q(x,y)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.91}
+求解下列微分方程。
+\SubQ{1}{$(xy^2+2y-2y\cos x-y\sin x)\,dx+(x^2y+2x+\cos x-2\sin x)\,dy=0$。}
+\SubQ{2}{$2xy\,dx+(y^2-x^2)\,dy=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.92}
+设 $f$ 具有二阶连续导数，$f(0)=0,f'(0)=2$，且 $[e^x\sin y+x^2y+f(x)y]\,dx+[f'(x)+e^x\cos y+2x]\,dy=0$ 是全微分方程。求 $f(x)$ 及此方程的通解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.93}
+确定常数 $\lambda$，使右半平面 $x>0$ 上的向量场 $\boldsymbol v=2xy(x^4+y^2)^\lambda\boldsymbol i-x^2(x^4+y^2)^\lambda\boldsymbol j$ 为某二元函数 $u(x,y)$ 的梯度，并求 $u(x,y)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.94}
+给出二维情况下梯度与 Laplace 算子在极坐标系 $x=r\cos\theta,y=r\sin\theta$ 下的表示。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.95}
+利用 Laplace 算子在极坐标与球面坐标下的表示，分别验证下列函数在原点以外满足 $\Delta u=0$。
+\SubQ{1}{$u(x,y)=\ln\sqrt{x^2+y^2}$。}
+\SubQ{2}{$u(x,y,z)=1/\sqrt{x^2+y^2+z^2}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.96}
+求解微分方程 $(2x\cos y-y^2\sin x)\,dx+(2y\cos x-x^2\sin y)\,dy=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{11.97}
+求解微分方程 $(x+y^2)\,dx-2xy\,dy=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.98}
+求第一型曲线积分 $\int_Lz\,ds$，其中 $L$ 为曲面 $x^2+y^2=z^2$ 与 $y^2=ax$（$a>0$）的交线上，从 $(0,0,0)$ 到 $(a,a,a\sqrt2)$ 的弧段。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.99（校订）}
+设 $a,b,c>0$，$n$ 为正整数。求曲线 $\displaystyle(x/a)^{2n+1}+(y/b)^{2n+1}=c(x/a)^n(y/b)^n$ 的闭合回路所围区域的面积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.100}
+求两个椭圆 $x^2/a^2+y^2/b^2=1$ 与 $x^2/b^2+y^2/a^2=1$ 内部公共区域的面积，$a>b>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.101}
+（Poisson 公式）设 $S$ 为单位球面，$f$ 是 $\mathbb R$ 上的连续函数，$a,b,c$ 为实数，$k=\sqrt{a^2+b^2+c^2}$。证明 $\displaystyle\iint_Sf(ax+by+cz)\,dS=2\pi\int_{-1}^{1}f(kt)\,dt$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.102}
+设 $S(t)$ 为平面 $x+y+z=t$ 在单位球内部的部分，$F(x,y,z)=1-(x^2+y^2+z^2)$。证明：当 $|t|\le\sqrt3$ 时，$\displaystyle\iint_{S(t)}F(x,y,z)\,dS=\frac{\pi}{18}(3-t^2)^2$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.103}
+设 $k=\sqrt{a^2+b^2+c^2}$，$f$ 在 $[-k,k]$ 上连续。证明 $\displaystyle\iiint_{x^2+y^2+z^2\le1}f\!\left(\frac{ax+by+cz}{\sqrt{x^2+y^2+z^2}}\right)dx\,dy\,dz=\frac{2\pi}{3}\int_{-1}^{1}f(kt)\,dt$。原点处的被积函数可任意赋值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.104}
+设 $D$ 为平面光滑简单闭曲线 $L$ 围成的区域，$f\in C^2(\overline D)$ 且 $f_{xx}+f_{yy}=0$。证明：若 $f$ 在 $L$ 上恒为零，则在 $D$ 上也恒为零。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.105（校订）}
+设 $f\in C^2(\overline B(P_0,R))$，$P_0=(x_0,y_0)$，且 $f_{xx}+f_{yy}=0$。证明：对 $0<r\le R$，有 $\displaystyle f(P_0)=\frac1{2\pi r}\oint_Lf(x,y)\,ds$，其中 $L$ 为以 $P_0$ 为圆心、$r$ 为半径的圆周。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.106}
+设 $D$ 为平面光滑简单闭曲线 $L$ 围成的区域，$f\in C^2(\overline D)$ 且 $f_{xx}+f_{yy}=0$。证明：若 $f$ 不是常数，则它在 $\overline D$ 上的最大值与最小值都只能在 $L$ 上取得。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{11.107（校订）}
+设 $f\in C^2(\overline B(P_0,R))$，$P_0=(x_0,y_0,z_0)$，且 $\Delta f=f_{xx}+f_{yy}+f_{zz}=0$。证明：对 $0<r\le R$，有 $\displaystyle f(P_0)=\frac1{4\pi r^2}\iint_Sf(x,y,z)\,dS$，其中 $S$ 为以 $P_0$ 为球心、$r$ 为半径的球面。
+\end{minipage}\par\vfill

@@ -1,0 +1,447 @@
+{
+  "project": "数学分析讲义",
+  "chapter": 17,
+  "source_id": "bd727a57b926",
+  "page_results": [
+    {
+      "page_number": 148,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0148/result.md",
+      "result_sha256": "5e45fc2f7e7de45a93ea1a2f537485bd10f96582620a724886b65b9a0be7bd6d",
+      "structured_result_sha256": "c9dfe0345cf693c7d042939e2312df36c767534cad6ee36513f1991b62bce75f",
+      "units_count": 0,
+      "findings": "完整核读：线性映射、算子范数定义及基本性质证明，无独立例题或明确练习。OCR重复分数结构未转入题干。"
+    },
+    {
+      "page_number": 149,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0149/result.md",
+      "result_sha256": "5cfdb4996cd75d4f6f824ad1343daeec5bea1b4483545e0c6003f9ead16eeb4a",
+      "structured_result_sha256": "c937b9b3f24b8eab578da630d81e2b5c9650ade6fec33f15a5ce312e2c034ed2",
+      "units_count": 0,
+      "findings": "完整核读：线性映射性质及可逆映射集合定理证明，无新独立题目。"
+    },
+    {
+      "page_number": 150,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0150/result.md",
+      "result_sha256": "2a61b36822bc1f3b58609555dc8adbce56ef3f2c6094b8e5e80a8b4fb71c9fb2",
+      "structured_result_sha256": "114a19c933e4bce153a6104a4172c80c54dc9cb22597b58971689b9c6cd6a9f0",
+      "units_count": 1,
+      "findings": "矩阵元素逐项收敛的明确读者任务已收入，含一般Rn至Rm情形，范围比后页正式方阵习题宽；其余对偶基解释不另扩题。"
+    },
+    {
+      "page_number": 151,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0151/result.md",
+      "result_sha256": "7a92fd9ad9eadfe4a4c3466fee4c51e7ada49cdfc516c14e94f963cd85f33b56",
+      "structured_result_sha256": "b10fefa4a80a92951ae3037f28468cd794aacb36e59584c9bbfdb1c06cc7643c",
+      "units_count": 5,
+      "findings": "正式习题1–5及第3题全部三小问完整，矩阵标准基、算子范数与参数连续条件均保留。"
+    },
+    {
+      "page_number": 152,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0152/result.md",
+      "result_sha256": "66bd302338c248f57b83a548410d419f44533bb3cae50f59b8ba1a7f25bad271",
+      "structured_result_sha256": "65a94d5f126f7811e1744c5eb4e533ea1c6628467365210c102873d061ab3965",
+      "units_count": 0,
+      "findings": "完整核读：可微映射定义及微分的坐标表达，无新独立题目。"
+    },
+    {
+      "page_number": 153,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0153/result.md",
+      "result_sha256": "dda1993323e6c546926e4867caeff9f7b37b82aeeae3b9bea6897ccf40a749fe",
+      "structured_result_sha256": "5e30f5157d079609797ee4de800e64251dd0cdf73b2c7f1da677bde959b5ba15",
+      "units_count": 0,
+      "findings": "完整核读：坐标微分、分量函数性质及Jacobi表示为一般理论推导；对应分量可微任务已在正式p159题2。"
+    },
+    {
+      "page_number": 154,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0154/result.md",
+      "result_sha256": "c02448429a328fee1b08f1b17fb7a887ba89fd61c3e2d3d87864b8b1628957e5",
+      "structured_result_sha256": "dc7fe04f5dc19bc7f33b964c67f350740df3c4fec71de3b5bd3e9ee75bf09605",
+      "units_count": 2,
+      "findings": "线性映射和曲线微分两个例题完整；连续性及唯一性的明确练习由p159正式题1覆盖，已去掉重复正文题。"
+    },
+    {
+      "page_number": 155,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0155/result.md",
+      "result_sha256": "0ed34b914fcd3270f92dc28f7a7c3331221052a8ae5168ba42ddc3909a70ed4e",
+      "structured_result_sha256": "652f00560ed5b4dd240eb0273759e78e2002122011cc4a950ff4d45d009f0208",
+      "units_count": 1,
+      "findings": "梯度例的唯一向量、标准基坐标及范数等式完整；随后Jacobi表示是对上述例子的统一解释，不增加独立理论题。"
+    },
+    {
+      "page_number": 156,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0156/result.md",
+      "result_sha256": "50056644cb19b587742ffefc1bcf8ef663140f3e57d3e38fc58d4d4c83415a39",
+      "structured_result_sha256": "62d7db0d62ce24e5ef3232b44d9d3271618730c96ba2660464cca65a83937f0e",
+      "units_count": 0,
+      "findings": "完整核读：统一Jacobi范数说明和链式法则定理证明，无新独立题目。"
+    },
+    {
+      "page_number": 157,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0157/result.md",
+      "result_sha256": "2b19a477ca2a3ca0fc4258ac323e58d54caa6616c6d56f93df0005e2b887de23",
+      "structured_result_sha256": "b17681b9e4559fcac746d1771523e633a305f585567311146c6f3e0d38df8ac3",
+      "units_count": 1,
+      "findings": "复合曲线切向量例完整保留m=1与m>1两种梯度表示；导数撇号正确。"
+    },
+    {
+      "page_number": 158,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0158/result.md",
+      "result_sha256": "664ab85b4439a34eab705ecd92bd3a11b2d878249f9242211664aa909c24c62d",
+      "structured_result_sha256": "a58899d2e53daa67f0e8551d78aeac24ae02bf76c631123d3609132daa3e66b7",
+      "units_count": 1,
+      "findings": "新增的具体半圆曲线反例与OCR吻合，两种中值等式均保留；后续拟中值定理为独立理论，不另改写。"
+    },
+    {
+      "page_number": 159,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0159/result.md",
+      "result_sha256": "f89bc16221c10b6c43b52d1dbf81c805b99d8557299c4e23bc8c0e9f979b7707",
+      "structured_result_sha256": "261fdd2087bde8e6c02a881a8771d5204536ff5724c45ba375e2e6553b1730b4",
+      "units_count": 2,
+      "findings": "正式题1的连续性/微分唯一性及题2分量可微等价均完整展开；前半页为拟中值定理及常值推论证明。"
+    },
+    {
+      "page_number": 160,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0160/result.md",
+      "result_sha256": "c7ecdae202bdf3fea5933ee364de2925c83df47409a2320f5b7d76d90ad6b0e2",
+      "structured_result_sha256": "417149285f2d6d7ef0e430022599eecbbaf0d627456bc67958c53ead0a677e7f",
+      "units_count": 9,
+      "findings": "逐题核对正式3–11及全部小问；多项式、范数函数、Jacobi、内外积、凸函数、逆矩阵等题的系数、变量、条件完整。"
+    },
+    {
+      "page_number": 161,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0161/result.md",
+      "result_sha256": "61f7b509d6bf35664d43be35e953c746dbe56625b8b2e10c966f44be6c45ab37",
+      "structured_result_sha256": "5615c2ae6f20da6606841f2b557c38a5b2a4c5dea29d9417d78295882b5b6ac2",
+      "units_count": 0,
+      "findings": "完整核读：逆映射定理陈述及微分表达，无独立读者任务。"
+    },
+    {
+      "page_number": 162,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0162/result.md",
+      "result_sha256": "bf2fa6911fa2e8026316279272806a6c3933bd6def2f72e31b5a76d5fb76e605",
+      "structured_result_sha256": "133707f33ef56fdd0636973191ab5e064806b224d73028c3191ca641641d765c",
+      "units_count": 0,
+      "findings": "完整核读：逆映射定理的压缩映射证明、引理与注释，无新增题目。"
+    },
+    {
+      "page_number": 163,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0163/result.md",
+      "result_sha256": "681cbad1243982fc67bceb9ba411de09ead104b2b79fd22fc84a76446a1edc00",
+      "structured_result_sha256": "d50fefac2160e1be8bc96b492696e54f31e19546aadbaa4c4686aadb0ff3f3d6",
+      "units_count": 0,
+      "findings": "完整核读：逆映射连续与可微性的证明，无新独立题目。"
+    },
+    {
+      "page_number": 164,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0164/result.md",
+      "result_sha256": "33637e1b26044138a931aad5a67c8336eab7e719c3e15cfcfa6c136462ce958c",
+      "structured_result_sha256": "edbfc81e6d0da82e06db57310fce0204dd35abd0e625a84ed81a144cc739597d",
+      "units_count": 1,
+      "findings": "复平方映射例起始页；Jacobi矩阵、行列式、局部逆与全局不单射均收入，续至165页。"
+    },
+    {
+      "page_number": 165,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0165/result.md",
+      "result_sha256": "96f1efc02f8228df138d7bd7500e4dfc39e5f384f556559b90921dfca695cdc2",
+      "structured_result_sha256": "3b47c0428b761f3ef000f1f1220203200002c59ddb32c67747de8f66eebf57c9",
+      "units_count": 1,
+      "findings": "复平方例续文及平面极坐标例完整；限制角域、像集及微分同胚任务都保留。一般仿射变换是定义说明，不另增题。"
+    },
+    {
+      "page_number": 166,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0166/result.md",
+      "result_sha256": "d2eb520a408131ae3598bc2856cdd2b240a21ee97e12cae47754dd9c1e30fdc2",
+      "structured_result_sha256": "d541d2a66ccd74a4200ca3134f2ebb7da0cb72e5a690baeb19813c838b0b6b77",
+      "units_count": 1,
+      "findings": "高维极坐标例起始页，二维有向极角和n≥3递归约定、Jacobi计算已完整收入，跨至169页。"
+    },
+    {
+      "page_number": 167,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0167/result.md",
+      "result_sha256": "5c0433efcf34a1f7a09b75611be02961326428cccbd4254c6d9b6980387f68df",
+      "structured_result_sha256": "2b05ed6d4dc451f10f18b8e665d4930b88528012d139f196ae13f69dfc9b2c46",
+      "units_count": 0,
+      "findings": "同一高维极坐标例的四维特例和一般递归续文，包含于n维计算任务，未重复建题。"
+    },
+    {
+      "page_number": 168,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0168/result.md",
+      "result_sha256": "26f31c25e24c0b089874505ad9c95d9627ddc30b4f044df49393e1f165f13fc0",
+      "structured_result_sha256": "467dccca68d179991e68ccc0027944ea3204e23919cf0b72ca31970e80771712",
+      "units_count": 0,
+      "findings": "同例一般坐标式、Jacobi行列式与逆变换续文已覆盖；原书逆角公式有下标和反正切分支问题，题干要求推导正确逆式，不复制原解公式。"
+    },
+    {
+      "page_number": 169,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0169/result.md",
+      "result_sha256": "9afefb82605b04c809f8957a237d19bc08259e66e950b607a9564a6930a68a5c",
+      "structured_result_sha256": "50a0f15e613144814e7b4046dd37fdb4bd9461f1ee8506e339cb6dd22340aed6",
+      "units_count": 6,
+      "findings": "极坐标例的开角域与微分同胚条件完整；逐题核对正式1–6，值域、临界点、逆映射、同胚、Cauchy–Riemann及矩阵平方根任务完整，独立提示已删除。"
+    },
+    {
+      "page_number": 170,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0170/result.md",
+      "result_sha256": "e7035b9bcca544a25633eff21ddb6572de55a924929e4816d9e19c62084de269",
+      "structured_result_sha256": "8a1c4026370e2c8016d806df6868e852adf1a83da78ae36ff52f711cdc32e0da",
+      "units_count": 0,
+      "findings": "完整核读：隐映射引言及一般线性方程分块求解，属于定理准备，无独立例题或读者任务。"
+    },
+    {
+      "page_number": 171,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0171/result.md",
+      "result_sha256": "6fb222f2a47e6c5c0b6c38110a6aad254c72a22f7fb8da0788973c9797e96c9c",
+      "structured_result_sha256": "7cff548fb6cd27cee86a0cb3322a0278211d2b7cc2aa217f996f083c9d7b4019",
+      "units_count": 0,
+      "findings": "完整核读：隐映射定理陈述及证明起始，无新独立题目；OCR指数、矩阵维数及误加绝对值均未复制为题。"
+    },
+    {
+      "page_number": 172,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0172/result.md",
+      "result_sha256": "87f87d5bcadb44e4bafec2f02fbcc6e7af66b73ba77f8b4cc5b450235d116966",
+      "structured_result_sha256": "ad24219f9117d58151a748c1109a509477fb9e6cee3052e94adfcdf3a627348b",
+      "units_count": 0,
+      "findings": "完整核读：隐映射定理证明与分量坐标表述，无新独立题目。"
+    },
+    {
+      "page_number": 173,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0173/result.md",
+      "result_sha256": "8e3a95039cfa441233e99ebed1100b52df36449c770c824133292e51567e0117",
+      "structured_result_sha256": "148765a8ce3ca586f00425a2e3254049f011e094c81983d9d907bf05ec443896",
+      "units_count": 1,
+      "findings": "两函数隐映射例完整，既有校订补明原点是方程组解；四个偏导数计算要求均保留，续至174。"
+    },
+    {
+      "page_number": 174,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0174/result.md",
+      "result_sha256": "f38056c3b7343e29a3fbac76adb1d4c224e4aedf3dace565e59fed13f01bccf2",
+      "structured_result_sha256": "4a8df7d44739a335116ff1561699801b69775befe30aedd5fc4812ec3ef8f722",
+      "units_count": 2,
+      "findings": "隐映射例四个偏导续文完整；具体平方映射在四个点的秩计算已新增并按三小问拆题；正式线性秩标准形及矩阵关系完整。"
+    },
+    {
+      "page_number": 175,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0175/result.md",
+      "result_sha256": "6d04fb247063dfa3631aad578956c983960345d9b6198fb66be73c0f7e5036d8",
+      "structured_result_sha256": "30ab81ae5d423ad8acb52810c9821ded0858de6a111e6e42c944c13939a180d7",
+      "units_count": 0,
+      "findings": "线性秩例的分块矩阵证明续文已核；后续为独立秩定理，不扩大例题范围。"
+    },
+    {
+      "page_number": 176,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0176/result.md",
+      "result_sha256": "6fa024060d00b898218468a59e767d6bc57800459e5f9ee3ad5868863f96a045",
+      "structured_result_sha256": "6304f1604bb31d452e16fd421b137c844b353e32ff63d0293df4f8ed55dda2d8",
+      "units_count": 0,
+      "findings": "完整核读：秩定理证明续文，无新例题或明确读者任务。"
+    },
+    {
+      "page_number": 177,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0177/result.md",
+      "result_sha256": "d0ffa75e6ee99d6c4c88c028c8482a0ffb8a49353c691ee2d8b8d7ec36233255",
+      "structured_result_sha256": "e31d255c1cd03ce65ed103225fb0d83a7acfad74f2a65856e0f60bfc250135b7",
+      "units_count": 5,
+      "findings": "正式题1–5及各小问全部核对；补回第2题参数向量非零条件；隐映射具体表达式的系数及点坐标正确，原书提示未收入。"
+    },
+    {
+      "page_number": 178,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0178/result.md",
+      "result_sha256": "95ee9121c8ad78e6de4689b29ed546ec9935cbc289c6e8e7a21eaa57b7bfe85a",
+      "structured_result_sha256": "8fa8dc02b406cbf1b12a6f5b9101026255eef3e29bfdad078310b27f00153231",
+      "units_count": 1,
+      "findings": "正式第6题两部分完整；Morse标准形末项原印ε₂u²缺变量下标，校对稿补为ε₂u₂²并标校订。独立积分提示已删除。"
+    },
+    {
+      "page_number": 179,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0179/result.md",
+      "result_sha256": "c69f7165e18e486d16093db4619c7881f70505ee83ea3972af81f83069753822",
+      "structured_result_sha256": "0bdb2c24a6f650f7ad56a717b8d7c107f8264d551b4a7e2dfe50855906400d02",
+      "units_count": 2,
+      "findings": "单位圆、单位球面两个例包含有限图册/参数表示；球面与xy平面交线的后续内容也收入，续至180。"
+    },
+    {
+      "page_number": 180,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0180/result.md",
+      "result_sha256": "8f06d46b80c5978053ef432a8d7c7015c04b9cacda3cbe8cd0faf6012c2e187a",
+      "structured_result_sha256": "cf712f3d735aec9139aca839ed3b6e0d22e99a12ff7e93c759fe074c893d6529",
+      "units_count": 2,
+      "findings": "尖点曲线例的参数、正则性及函数可微性完整；一般映射图例同时保留任意坐标作为自变量的推广，续至181。"
+    },
+    {
+      "page_number": 181,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0181/result.md",
+      "result_sha256": "01dac9097cbfde4546ac69de426e81a85e6033c568ea8af812daf982f6f0b097",
+      "structured_result_sha256": "2b04b3ec6e846a4b75f4f3ba8dec27aa604782288fd7d258a2c3a41b9d268ee9",
+      "units_count": 0,
+      "findings": "前页映射图例续文已核；球面与交线的回顾由既有例覆盖，后续满秩曲面性质为独立理论不另制题。"
+    },
+    {
+      "page_number": 182,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0182/result.md",
+      "result_sha256": "f9454c8c295db81637e0a9d452b373e20cbcc938b4d4bc7316fee9d630d71dae",
+      "structured_result_sha256": "a0dd3a6b11b0253bc6d7d6417fdf041533ff1d1d8ed47d6f2d5590853a4767dd",
+      "units_count": 0,
+      "findings": "完整核读：满秩曲面性质证明及切空间定义、一般函数图切空间推导；无新独立例题或明确读者任务。"
+    },
+    {
+      "page_number": 183,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0183/result.md",
+      "result_sha256": "32991545c719e03ed117c2a3b3c6246aeb8281f1e1022a04d823b1f66a9eb94f",
+      "structured_result_sha256": "899b3ada34ae00ecb0a67d600d42f990076c3c4a1f6942b6e231ee7d411cb5d9",
+      "units_count": 1,
+      "findings": "等值面例的非零梯度条件、维数及完整切空间表达均保留；随后一般方程组切空间性质为独立理论。"
+    },
+    {
+      "page_number": 184,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0184/result.md",
+      "result_sha256": "4c21a1538bf0841b02bdd1bdb5fb64581d2ec64a63150b5e99adad28880944ad",
+      "structured_result_sha256": "c0b71df4ef7b97d44922f98ce7abe2b0aa38a6d654b6a1f326047fc6bccc502e",
+      "units_count": 0,
+      "findings": "全文为法空间定义和条件极值性质证明，无新独立题目。"
+    },
+    {
+      "page_number": 185,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0185/result.md",
+      "result_sha256": "41b617fc9705d21ad2996fc30dec5276ae28bc70246a59b695d884c69776be4b",
+      "structured_result_sha256": "c57cccba3bfb2807ba0778a10f57b98e59ce189ed3f449d789ab0d34562664a4",
+      "units_count": 0,
+      "findings": "全文为Lagrange乘数法定理及Hessian判别准备，无新独立例题或读者任务。"
+    },
+    {
+      "page_number": 186,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0186/result.md",
+      "result_sha256": "2aae0b9fe87e1e3c233c9af7086c606ee9c5ed609c074c03a9ad006b62f7391d",
+      "structured_result_sha256": "b01663dee6929257b127b893cbe642f72e9735bd1298005d428ec2c8006f5e87",
+      "units_count": 0,
+      "findings": "全文为条件极值充分条件及证明，无新独立题目。"
+    },
+    {
+      "page_number": 187,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0187/result.md",
+      "result_sha256": "faa0c45788e0df86d34144456556f1ff6d98c4586dbd7d6bc69541b96484d2f7",
+      "structured_result_sha256": "6ce0667271cfb38167fa95a2fccc002abf6e04b3e7e4e32e043e9ad5b5f2218e",
+      "units_count": 1,
+      "findings": "xyz在球面与平面双约束下求最大最小值例题完整，续至188；前半为判别定理证明。"
+    },
+    {
+      "page_number": 188,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0188/result.md",
+      "result_sha256": "d3137927bd4807a3d4f00b5bf8e0b17e6c11e1658b2aa52fd77c80e7a0d854a0",
+      "structured_result_sha256": "780182106b73b0f645ef353fc9f329af74e7f681db650603a84dea705fdf28f0",
+      "units_count": 1,
+      "findings": "前例解答续文与对称二次型例完整核对；单位球面条件和求全部极值任务保留，续至189。"
+    },
+    {
+      "page_number": 189,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0189/result.md",
+      "result_sha256": "12a3714dd0869a5bed7f3a3600630ea44aba7b581048bf7c623477fa3af8aacf",
+      "structured_result_sha256": "2b7096710a1e936e9e2ffc1ef3048565be094e9373cf5eb5ac79e016f7a16018",
+      "units_count": 4,
+      "findings": "对称二次型解答中的中间特征值非极值判别包含于原题求极值任务；正式题1–4及小问完整，上一题曲面引用已具体展开。"
+    },
+    {
+      "page_number": 190,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0190/result.md",
+      "result_sha256": "8368e829728a8c406af9f0ba4996b0527908cb82401091e2122be6006e8d2dd1",
+      "structured_result_sha256": "5402744f4bd30f4df8069205da568531c0fded535af7f1cb37f0da1a969a9588",
+      "units_count": 13,
+      "findings": "逐题核对正式5–17和两组极值题全部三小问；只写方程的限制、矩阵行向量及行列式绝对值完整，负熵函数正定义域校订保留；OCR误加绝对值框未转入题库。"
+    }
+  ],
+  "status": "verified",
+  "engine": "PaddleOCR-VL-1.6 / llama.cpp",
+  "total_source_pages": 43,
+  "pages_checked": 43,
+  "source_units_checked": 64,
+  "final_problems": 65,
+  "verified_pages": [
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190
+  ],
+  "pending_pages": [],
+  "method": "实际逐页全文核读PaddleOCR结果，对照已核源图、恢复文本及题库；每页记录实际OCR文本及结构JSON的SHA256。原始OCR保留unreviewed。"
+}

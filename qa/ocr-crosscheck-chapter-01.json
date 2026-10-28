@@ -1,0 +1,499 @@
+{
+  "chapter": 1,
+  "project": "数学分析讲义",
+  "source_id": "8c6dc2ce907d",
+  "status": "verified",
+  "engine": "PaddleOCR-VL-1.6 / llama.cpp",
+  "pages_checked": 54,
+  "source_units_checked": 112,
+  "method": "逐页对照54页源PDF图像核对题目边界、文字、公式；再对全部来源页的PaddleOCR-VL 1.6结果作题目锚点、漏项、条件、上下标及跨页接续交叉检查。OCR与图像冲突时以图像为准，原始OCR保留未校对状态。",
+  "split_context_review": "All groups self-contained: repeated stem contains common definitions and assumptions; no unresolved references to earlier subquestions.",
+  "page_results": [
+    {
+      "page_number": 18,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0018/result.md",
+      "result_sha256": "0cb22373f60b553ce5492b02f723ff7548ea97fe52aaa0e3184d790c099ba812",
+      "structured_result_sha256": "08e856acbe876336de0dd6b7476af2db7784544dba45f7248d34d9cea74aeea6",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 19,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0019/result.md",
+      "result_sha256": "ffc186b11fcf6c074c75397ab49053161a9a1df4fb25244803b608db947364b2",
+      "structured_result_sha256": "f97031a53412b6e56b100971ec6738025702026895490f4209bcc270347a585f",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 20,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0020/result.md",
+      "result_sha256": "1345810bb17caf0842608ad8ddd424f151b3cdeeebc73911d6cd19f6d317f49a",
+      "structured_result_sha256": "82344bf6aa1ea225c116ab1a9276802593dadbe4e368fc6680b4429a80adb5f2",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 21,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0021/result.md",
+      "result_sha256": "ba3b0c10dbf6975f6c871f1742b3b67f68982ceaf4904c2d63f676493ad7903e",
+      "structured_result_sha256": "f4abcf64cb6965977154e648ce4e94f668af91949b12d5c7d93e22fa37757aec",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 22,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0022/result.md",
+      "result_sha256": "6abc8bb60ac0ee0f4a55103dfd95153ad3debad27a3424669ec0790eef946da0",
+      "structured_result_sha256": "98d652f8fe0ab86b442abdb2343ba96b13a37d419a2b522ee3559b41747beb57",
+      "units_count": 6,
+      "findings": "OCR丢失循环小数循环点；按源图保留0.\\overline{375}、4.\\overline{518}。"
+    },
+    {
+      "page_number": 23,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0023/result.md",
+      "result_sha256": "b4bfcdca23b01a22fc32af368fc96c25923ae4cb9c71cbfbca3e07793dc49f5c",
+      "structured_result_sha256": "80ce7330fdef987f2ac6194b41b4baec3d2addeb1c132831f5b9a21be302cd40",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 24,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0024/result.md",
+      "result_sha256": "046c56b0731c36ffd941d5420b25b34e59f7ce1a4012682faa273baba39053cd",
+      "structured_result_sha256": "bc538420daff6c6bacbc72bf43609035793080d975ebf48bd82ce49997ae01eb",
+      "units_count": 3,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 25,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0025/result.md",
+      "result_sha256": "fc451a8288a74c8ee24ec0434d43b915e696cabe37802ed84fe8b91c085976fe",
+      "structured_result_sha256": "7d69712c7020fee8a88efc2d5d3b9fc8717301cade77239e8eeb8a1134992335",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 26,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0026/result.md",
+      "result_sha256": "3c948c40e283c11fe395a2df8b8b6e8206aa90a5a96c4ede78aca69ea04cd6f9",
+      "structured_result_sha256": "34087dac5ce2f544e0b2c64b539484a4cf7c3b2a78e6f65b5ad4d0bcb23cec21",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 27,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0027/result.md",
+      "result_sha256": "6a7bf5fe2ff604c7ef1113f54769fb99bc919bddef975616c5818f2a0b7e7060",
+      "structured_result_sha256": "f17fd5babe0abd0a96dfaee689c60c464ad3fc444d895c830f0564442d1d130c",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 28,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0028/result.md",
+      "result_sha256": "788562504816159cc2e4e5a084d04a80ee7f92d61345fcb86b0489c23cf9d610",
+      "structured_result_sha256": "71b4d86cf4379760b529bdd44c67f9400a31e040c98e4d9dd2101890cce4e5bc",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 29,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0029/result.md",
+      "result_sha256": "390e900d919edc814ee2fe6bd84ba49a819f633323ba54069f671f4ad2123d1f",
+      "structured_result_sha256": "305c336ee33eb604f523e340aac03c86adb54158c971d0aa82f0e8aa951cbfe9",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 30,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0030/result.md",
+      "result_sha256": "03187d422d3c44a1d383f01300a3ecb2238f1bf2f3742d9dca7c3deaf7c23d26",
+      "structured_result_sha256": "bf56abb1292a4639be6c366bf3416773c7133ada8b438d9560beb3ef872b7a37",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 31,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0031/result.md",
+      "result_sha256": "9040eaab7c076583d9c45fac5b9aa4d77f82bebe550fccfbf376e20983dae465",
+      "structured_result_sha256": "adfe6970837a28457b81f214712ddfed3abccba14a23eca17b96972ab57ee0e7",
+      "units_count": 3,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 32,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0032/result.md",
+      "result_sha256": "41c182f317ea8fa9260bbedd6f4e0dfc410051aa785ba8d8b91a1c0f1fe20591",
+      "structured_result_sha256": "f1c2171a7792479a27ec16fbb679e7f350bbc9403c5fc18b16df248f2fb8e619",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 33,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0033/result.md",
+      "result_sha256": "896ffc528b863347770d382ad05b05a3d6143fa3159107e58ef8502375a72f10",
+      "structured_result_sha256": "5c63b86c1e059e265af95767933e8b2c16a6b9f20c0ffbffa5b9807c0b84ea1b",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 34,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0034/result.md",
+      "result_sha256": "4e6af0f914a86cdb8ad34872cd2e37193a257042f33d303566762638a55e3c60",
+      "structured_result_sha256": "73186be6a4249e6c3b6e6b9ae3bec0ec79b0cd6327fb2e44dbfb8168532d3170",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 35,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0035/result.md",
+      "result_sha256": "bc51f8503856e86aedaad4983ea7841c1f53b4a19e48d162a7c2ac52c77dae55",
+      "structured_result_sha256": "630e53a5cecb83837de7c20539b61ab0bc938bc831c5680cae10e39b2dd24c7f",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 36,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0036/result.md",
+      "result_sha256": "110bf48f8df5795c748b6208ac9d1defd99128089c47f4466a57a8f0299cc94e",
+      "structured_result_sha256": "b804dd59e76b5051448a2b37778741a3f5ef3f2bfc09d4a65b3e5b2352a7f41b",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 37,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0037/result.md",
+      "result_sha256": "ef4ddc13bc0b6ef583496aca0e4f6b4916ff5617bb8d6cd331d21e7732a1b4e0",
+      "structured_result_sha256": "dc2d8f58918e3c7afac1a892066dbac8436d5d15629d5dc69358d041fa770792",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 38,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0038/result.md",
+      "result_sha256": "61fae50d709e8c9d8f2dba4679171bf01a593231ebb61de1efa84a951a297f4e",
+      "structured_result_sha256": "fbbf5c5843eaba87c2e8410f73ea5acd47f40bed8bb0c054c19da2d4852ffc97",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 39,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0039/result.md",
+      "result_sha256": "9b849219ec5ede6af822c29208536fbb8e43b70c4d85b3377040d1b5289d0f89",
+      "structured_result_sha256": "b60ad2d2f8329dcdfa42f0274bc19ba35a2c31936b33e80ba446b7d636b56d25",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 40,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0040/result.md",
+      "result_sha256": "ccc9fb00399d3ebb20ce20c33c61e7537792feeac2407dee46ef1ae489e902db",
+      "structured_result_sha256": "63c410a7ef6191ec53c8cd9842b152e8450a15a55d4e208b4dfcbc86963e17e1",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 41,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0041/result.md",
+      "result_sha256": "1155f2af6584f2921279c8c40b875721c2ce634f23533af722c49c1162c10544",
+      "structured_result_sha256": "2960af108d2398c56b3e752333e4303bff8d5262f27998781f285f22fc1b998b",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 42,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0042/result.md",
+      "result_sha256": "29a41661fb67630555f348fd7d6f17c7d41117dee0f1693fceede34e4ec94395",
+      "structured_result_sha256": "b6b2064a6bd8d69f0944c098c5feea638e0f06afa42ab4474d2456de8a9a068a",
+      "units_count": 9,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 43,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0043/result.md",
+      "result_sha256": "14c9c557c155de3e0360c643e93ea77364c1a4d69ad3c7fbe9816192ce527299",
+      "structured_result_sha256": "f4801b9d98d4e28baf9967e147e7383b560a54c14916db86e8d5d2704d8d4e0e",
+      "units_count": 7,
+      "findings": "OCR将最后一个根式的次数2^n识别为2n；已对照源图保留2^n。判断推理题中原题给出的错误推理属于题干，完整保留。"
+    },
+    {
+      "page_number": 44,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0044/result.md",
+      "result_sha256": "41cd1c725c566725958cecb43ddd2509908577f271caaa916c9ea607b96871bf",
+      "structured_result_sha256": "c8908a651766b5d02c1f9404c31d47882f73666850c2b85ed429448ed5bb9262",
+      "units_count": 11,
+      "findings": "OCR将b_{n+1}识别为v_{n+1}；按源图保留b_{n+1}。Newton迭代提示补明n≥1。0/0型Stolz题已补入p41定理条件。"
+    },
+    {
+      "page_number": 45,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0045/result.md",
+      "result_sha256": "e519103f9b1ec4f0e6fc8cc6bb5fdcca61ab984f9cb7ee780dc4ada357f70b93",
+      "structured_result_sha256": "16e33b66dc8053ce92ea4fd06f1cf66fafdcbc37e4d6eebf78abb5d35fab5d87",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 46,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0046/result.md",
+      "result_sha256": "ac62026de66d94acd3769faa3030db1b1c60b9fe090ec3d38fe882605a2c8c17",
+      "structured_result_sha256": "e2d8529356ceed510887d7f797926525eadaed0c731cf0d5c91527c58ac2dd52",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 47,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0047/result.md",
+      "result_sha256": "637694e03e239d94e6ed4362df518c035fdfa7897c63c5636fa0236265c84148",
+      "structured_result_sha256": "1e03f2b1baae9959d14b6529f13aa76d19f97588e12bb31f76759d2e70e067f5",
+      "units_count": 3,
+      "findings": "双曲余切定义排除x=0；说明性例已改写并标注。"
+    },
+    {
+      "page_number": 48,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0048/result.md",
+      "result_sha256": "260a7f2f79371cb61516b3e3acd10b4634c4352885a7a9d13d401ea651cfaaaa",
+      "structured_result_sha256": "400af6ee7d1e6d409fbbf43130774a39996420deaffead023699b7a01d6d6c14",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 49,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0049/result.md",
+      "result_sha256": "fd32add28ac76aeb9f4d319db2901ad31502e7ccadfb118e81600d8d9c79373b",
+      "structured_result_sha256": "0c878571aed627b0ff004e6b07a3ba30180646a3bac818a70f2bc7df7a0cdf3b",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 50,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0050/result.md",
+      "result_sha256": "da70ea9409b04f1052a7eae8a96a8829606df5fbac8b855d6d411a062fcee407",
+      "structured_result_sha256": "4c8b4cfb0f147980481e8dd009ca31678b41e24f0ee09e7315fde8a1a7d0ac33",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 51,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0051/result.md",
+      "result_sha256": "8da8679cf991eb9b3e017b4c88ee1ce7ed109dfe655860944652835e625a2c75",
+      "structured_result_sha256": "b6e1f971edb59784cb33aa2a74ed3cb9386ebf76d78acab2fde7dd0c9a9e9ac6",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 52,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0052/result.md",
+      "result_sha256": "596f7e90c348cf4861704c1d6f3c0734601c6fb30abf52a2c4a451e7ef83d882",
+      "structured_result_sha256": "b28d3214dc2f105c6b1782d539694dcb941be78a723c457392b4497274b1d172",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 53,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0053/result.md",
+      "result_sha256": "826d196f5c916671f42785a5fb5a360e79a82f068f0b899adc510300dd9de105",
+      "structured_result_sha256": "2c50e00ce72f8eb24dcfc156aa427c122c1ed8fb0e30959f013018776d52bfbe",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 54,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0054/result.md",
+      "result_sha256": "a8d62f53f030ecd5533a64fb56af79cd682cb640d730bc258ad0a788ba56268a",
+      "structured_result_sha256": "8e11ac64676184ad621dc0fb77a50e8bbc2c8843461d269938e5a3ef0b9f52c4",
+      "units_count": 3,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 55,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0055/result.md",
+      "result_sha256": "3bddc422707feae9517591e5d156ed5ed37bafc516425a381ed02d6c7078035e",
+      "structured_result_sha256": "f2bf21e5f33e3d01b437b722607fd6d4f4ec96d6c204d2d695ba4e1ec19c451b",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 56,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0056/result.md",
+      "result_sha256": "7051891915e2cb64b7f0ab06aae13bba12158c96084bd26f4ba07d435e3708f4",
+      "structured_result_sha256": "caa74321d1629dc78c821ed44eed0e43a3da9edf9228e704a10705cb04bbfce2",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 57,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0057/result.md",
+      "result_sha256": "47bc2a444807fcbeb9d58713cffa3045997fa8031a33450bd76def3a1644dc74",
+      "structured_result_sha256": "408fc35916d7c07be04dd777983419d0f70b679e56694458388a4f7615908577",
+      "units_count": 3,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 58,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0058/result.md",
+      "result_sha256": "6afc85549cba7f8d5e951904ed7d123f0377e85da96fd9095a48b1ac3d3d14e4",
+      "structured_result_sha256": "ae148dc8a432a18a3af1c2c86951956e6a9907e2d8faad8845fd115727d1971c",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 59,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0059/result.md",
+      "result_sha256": "60a79f505d6e963072c725f909f7f5a5599ea6d97ea97dee3764768eafdd234e",
+      "structured_result_sha256": "c6e9d5b3114312d5dc315b39822944d90592f9873523fc3210e4554bf64a0ff6",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 60,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0060/result.md",
+      "result_sha256": "5059e1c4a2faa695d9746ed96ed8644e82d8a19d10ba14b9445b80a1d50088d0",
+      "structured_result_sha256": "11069ecadc81d546613cb3236f22a27029e41c08b99b19ee37131269c167fe01",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 61,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0061/result.md",
+      "result_sha256": "493f38bb6815f5704bcd4f27f0e9ea3fb492ed50251141bf5cff18bd94286001",
+      "structured_result_sha256": "95c1c3c8a27554dba29a504e754384c7c8fbd4718e67600b881e5066d878334b",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 62,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0062/result.md",
+      "result_sha256": "fa43283b2c4cd3ef1c732c03756ad4de822f2cee897923acbdb642fe9a0d2629",
+      "structured_result_sha256": "16156a53622da8d23579a58acee42623cc8772404cdcb066273d59ecce728ced",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 63,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0063/result.md",
+      "result_sha256": "3a637db289a19cf343225271ca1893093cc1bb5b34f573590f3cedce253cc6d4",
+      "structured_result_sha256": "ff58f699609ba0199d034d5d8ccc84ba8e7dbbf7a9b7dbe07065f22ec58c3c08",
+      "units_count": 1,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 64,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0064/result.md",
+      "result_sha256": "b5ced52c9f1e0ddbe468380f85e9af13cb3e88dbce98640aaec1f534873925ed",
+      "structured_result_sha256": "4556012f200bcefe07d1d4ecc147a8a824bb7577b7c83be972f52bd1945de448",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 65,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0065/result.md",
+      "result_sha256": "06f77746635805559d4e8844800b227a492191b000330c9879f0f40ac3f0a052",
+      "structured_result_sha256": "9ff0313085d86b235a9ef61a64af1e002a4e050ac01a859d06516687046d7fb3",
+      "units_count": 0,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 66,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0066/result.md",
+      "result_sha256": "04cc76cf598762b1316a2d422225d99cab00716e4910f294e145069dcd21b960",
+      "structured_result_sha256": "f6d9eec418d2d195d51892b4e225fa7beecdc4d06be56cda7f3e7623ac695b10",
+      "units_count": 2,
+      "findings": "题目锚点、内容和跨页接续与已逐页审核的源图及校对稿一致；纯正文页不生成题目。"
+    },
+    {
+      "page_number": 67,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0067/result.md",
+      "result_sha256": "589a00aea8ec714dedf6746c79970fca079210b9b78ee2cb81e44cf21ab69dfb",
+      "structured_result_sha256": "ffd88c08e15bfc5a995fbd63676a747b887f39b1049e1e42e005f5bcac73de0c",
+      "units_count": 7,
+      "findings": "OCR漏掉“证明下列极限不存在”的题头；按源图补全。"
+    },
+    {
+      "page_number": 68,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0068/result.md",
+      "result_sha256": "aafe0a9ebc6c79fa0b6b7c7e62834c86dc551317c286b5efc24eaa6bb73e7ed3",
+      "structured_result_sha256": "1df8de34aadc7ad7b9c26932db2e8b956a9a4404c48ae213af5db35336d74095",
+      "units_count": 7,
+      "findings": "OCR将tan极限的左侧趋近符号漏掉；按源图保留x→(π/2)^-。渐近线题连接p69续文。"
+    },
+    {
+      "page_number": 69,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0069/result.md",
+      "result_sha256": "c846ce35f90b043eb8f9003f9e2b4353a426ea6cb70c165f4ae81f6d0c031b48",
+      "structured_result_sha256": "40fea9594457c5c41f359fbe9553a008ec7bc93a0e0c8afc733b267fa7a87736",
+      "units_count": 7,
+      "findings": "OCR把比较x^3+x^2与sin²x的同一小问拆成两块；按源图合并。章末跨页题保留此页为首次页。"
+    },
+    {
+      "page_number": 70,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0070/result.md",
+      "result_sha256": "1b00e3a29dbcd4f370d32d241d99d689d54665f67cbe213187fed12e36156477",
+      "structured_result_sha256": "2ca14bccc34952cbd42c2181efcab1e2783c3387f72e9bc68e21fec14b081db5",
+      "units_count": 12,
+      "findings": "原提示n ln n首项为0，补明从n≥2开始并补合适正首项，标注校订。"
+    },
+    {
+      "page_number": 71,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/8c6dc2ce907d/p0071/result.md",
+      "result_sha256": "cb933b816100526193dad52b69a37bb746c191da130f27b107c171248ce4780a",
+      "structured_result_sha256": "b21c3d1a84eac0e77bb1b8a1410700adc17f88b13ceb709be50f0afdd244fd5d",
+      "units_count": 1,
+      "findings": "OCR在本页实际题目之后因透印/空白区误识别生成大量重复三角式与连等式；逐像核对确认非本页题干，全部排除。"
+    }
+  ]
+}

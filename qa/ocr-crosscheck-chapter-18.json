@@ -1,0 +1,427 @@
+{
+  "project": "数学分析讲义",
+  "chapter": 18,
+  "source_id": "bd727a57b926",
+  "page_results": [
+    {
+      "page_number": 191,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0191/result.md",
+      "result_sha256": "1d63c358c7914a0576454327aed45cc98289803748f20aae2316ed05a402f65a",
+      "structured_result_sha256": "3a56fe7fc6880a806724b718c49a6764b4c3f642df6c3a5cbba6e77e35afe1cf",
+      "units_count": 0,
+      "findings": "章节导言与面积网格定义，无独立读者任务。"
+    },
+    {
+      "page_number": 192,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0192/result.md",
+      "result_sha256": "838b464428f803c6bccb93848fd91cc91fbb3a0805f1c5fede85d7f6768c4a3f",
+      "structured_result_sha256": "e7c25fa39a942c7973d7e4f828bd080fed3c688654954ab832c575ff329ee06e",
+      "units_count": 0,
+      "findings": "分割、内外面积定义及细化论证，无例题或独立读者任务。"
+    },
+    {
+      "page_number": 193,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0193/result.md",
+      "result_sha256": "c5611ae5a91fff003478c8aa9bd4f5ca981d2907790533cc4aad36d92868fc5e",
+      "structured_result_sha256": "c6a04ef985b9a8af011dbf1aed179c24261f7a5de1b415eb98af8d351b1eb045",
+      "units_count": 1,
+      "findings": "已收有理坐标点集的具体计算实例并标改写，内面积0、外面积1及不可测性完整；后文为测度定义与引理。"
+    },
+    {
+      "page_number": 194,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0194/result.md",
+      "result_sha256": "15e31f66855d38259808108800e402ac7d79a1de918dc3aa1b633b9811961ce9",
+      "structured_result_sha256": "ed46507c8fb720f0fca1934f399ec978609b32521ea05408337a3140c81e7bc7",
+      "units_count": 0,
+      "findings": "Jordan可测性边界判据及完整证明，属于独立理论。"
+    },
+    {
+      "page_number": 195,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0195/result.md",
+      "result_sha256": "28fb15cdee784ad7bafeb7dbcc3393efb056ee452d4e3a64f0784940f5fe73b3",
+      "structured_result_sha256": "bc267af3daba5afaee4af657835442627db2797f10daaf7b9169f9e2bfa2d97d",
+      "units_count": 0,
+      "findings": "边界判据续证及面积五项基本性质，均有完整理论证明，无另列题目。"
+    },
+    {
+      "page_number": 196,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0196/result.md",
+      "result_sha256": "2888771c5e7eb31b56830fd42a146f1d438bb808008f547be77d730b484465ea",
+      "structured_result_sha256": "5738076d26ab2344d888f129aad830f4acd6ff2b2e84e407e0a0a25404a13d33",
+      "units_count": 0,
+      "findings": "二进网格内外逼近的一般定理及证明，无独立读者任务。"
+    },
+    {
+      "page_number": 197,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0197/result.md",
+      "result_sha256": "721028756f1c968c952772efb35666f82016d9e9fa25aeb11669f6bc7545f887",
+      "structured_result_sha256": "98ea622f322e4de194a7d110557771d1560bda08d1cf7073ee4fc1541b8359ab",
+      "units_count": 1,
+      "findings": "例18.1.1连续函数图形零测及其有限段图形边界推论均已收入，跨页未丢；后续连续参数曲线警示不单独扩为理论题。"
+    },
+    {
+      "page_number": 198,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0198/result.md",
+      "result_sha256": "afc9e9f5c88f89502dd5ec012013f6e53ecf5c5863d146a714f30eb39a50d06d",
+      "structured_result_sha256": "71dcf5fb66e924509f9d56f6568209d9e65438c1bc5f0a04c72fe0f78eb943c4",
+      "units_count": 1,
+      "findings": "例18.1.2紧集上临界值零测的全部条件已收入；正文C1曲线像零测留作习题由p200正式第8题覆盖，不重复增加。"
+    },
+    {
+      "page_number": 199,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0199/result.md",
+      "result_sha256": "46af34577149bb15ce181fd0e25792a20a6abaaed63dd50b8af939831719d283",
+      "structured_result_sha256": "61fb2f345463f8c66c5db192f3977dd83a726e78e6f92a4f31f15c78274b5538",
+      "units_count": 5,
+      "findings": "例18.1.2续证不收入；正式习题1至5完整。特别复看源图：第3题覆盖式为D而不是闭包，OCR误识为bar D，题库保持源图D。"
+    },
+    {
+      "page_number": 200,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0200/result.md",
+      "result_sha256": "b0abe2e83411f6e7aa2eca46d2adf9fd5ab2869fb611ad153cbcc3bf28daaffa",
+      "structured_result_sha256": "d1daccaa5dc994d95b17e77efdd5f0378613ecb5eef91ee7830ce0a3cb0d91ef",
+      "units_count": 6,
+      "findings": "正式习题6至11全部覆盖；递增竭尽开集、闭包零测、C1曲线、边界映射、紧集可数覆盖和奇异矩阵集合的条件一致。"
+    },
+    {
+      "page_number": 201,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0201/result.md",
+      "result_sha256": "ddeb9008cfa6beb36b94b81f816ab5de8fb692046ad9e4e7daf19d088819cfef",
+      "structured_result_sha256": "e0ad7de5329c784fae315d42c0fd9ad45ea19ce08997e8e50d666d16b9320c18",
+      "units_count": 1,
+      "findings": "正文明确留作习题的两条Darboux性质已完整收入，含有界紧支撑前提及上下和定义。"
+    },
+    {
+      "page_number": 202,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0202/result.md",
+      "result_sha256": "8de056391f66f689d19e686c63be391dcdfcc2ced8d91701f8c8a263d4dc6d03",
+      "structured_result_sha256": "698c604f6b84dda52cdd55a4bf155ecbfed0326f749b6681ca28c3dcba88cf15",
+      "units_count": 0,
+      "findings": "积分两定义等价定理与技术引理的完整理论，无独立读者任务。"
+    },
+    {
+      "page_number": 203,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0203/result.md",
+      "result_sha256": "71f71774324219ff0759ec1e4ba6c7596e5e0bee76a91dc60fd6231f723fb9aa",
+      "structured_result_sha256": "3f634b948d2ee55bb72916c8612850f20d7306c6b589da86f83b65d3fc923aff",
+      "units_count": 0,
+      "findings": "积分定义等价定理续证，无另列例题或读者任务。"
+    },
+    {
+      "page_number": 204,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0204/result.md",
+      "result_sha256": "be089a142bcac03b2584e226915300a9e7b36232060a824f7451c783eeb48ac1",
+      "structured_result_sha256": "982e841fd3f3a45a178b370d52cfa8836b311259a6120b79984994ef78b7e963",
+      "units_count": 0,
+      "findings": "可积性代数性质及特征函数性质，属于正文独立理论；没有明确留作习题要求。"
+    },
+    {
+      "page_number": 205,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0205/result.md",
+      "result_sha256": "e9f2a17380669d90454a26d95b929b0c03a14f73aab2192b9a53c0707a678821",
+      "structured_result_sha256": "d320a963b68bd3242bb3d6b10de6239e9fb669750858612d580d70acd1321079",
+      "units_count": 0,
+      "findings": "零延拓、零测集上有界函数积分和剖分定义，为完整理论。"
+    },
+    {
+      "page_number": 206,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0206/result.md",
+      "result_sha256": "988335ddeb360cbc28c9df1fc0c3a8f28cdf06cc920d2353bd7de52faa4d8373",
+      "structured_result_sha256": "cb124d87c10fa5e52fd93533bf6665b5facaf0bec06e0eb454f94b77251bdcca",
+      "units_count": 0,
+      "findings": "任意剖分下Riemann和定理及证明，无独立读者任务。"
+    },
+    {
+      "page_number": 207,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0207/result.md",
+      "result_sha256": "470245239251a346be80075a225181b8eeea1b79c75be63838a34ed19a9d4046",
+      "structured_result_sha256": "f1f056b6c3f23aebbb94482d5a81e36580bc1380a03dd3aa94a511d40d4b41ea",
+      "units_count": 0,
+      "findings": "任意剖分积分定理续证，无例题或独立读者任务。"
+    },
+    {
+      "page_number": 208,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0208/result.md",
+      "result_sha256": "d0abab410cd411483c735d2a4160e75b076aed6547ce5e847e8a44d1b3377b9c",
+      "structured_result_sha256": "14b834dca5d35f2aa4e82e806bc5e5dba99f295ff0f9f83bfc2c62d2b3aaceb6",
+      "units_count": 1,
+      "findings": "例18.2.1二维Riemann函数已改写为证明可积并求积分，既约坐标及正分母条件齐全，去掉证明和积分答案。"
+    },
+    {
+      "page_number": 209,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0209/result.md",
+      "result_sha256": "bcfebb040d1a5d7352dc6d4a844eec176f773c2abfa6349fea70f8f9d9f082d7",
+      "structured_result_sha256": "c56a7e37e78f2b4598b46ba5fe67e43afadcceb15b3d15cdba14aee62f078c77",
+      "units_count": 10,
+      "findings": "正式习题1至10完整。第9题原书预先假定h可积的循环条件已作明确校订；其余取值、非负、内点、连续性条件及全部公式一致。"
+    },
+    {
+      "page_number": 210,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0210/result.md",
+      "result_sha256": "a436d5420aa88cecccfa680961e4012e1369e95fd75d12f375514b838d146d7b",
+      "structured_result_sha256": "4479b831ed7a5c9f399a58049db7473dc5bbc087aa89398dda43c70d1b080ce2",
+      "units_count": 1,
+      "findings": "正式习题11递增Jordan可测集面积极限完整；与p200开集版本有不同假设，均保留。"
+    },
+    {
+      "page_number": 211,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0211/result.md",
+      "result_sha256": "a0ece22b96b81801df164b9de3c8b7aaab4e5a830f5a7609ae7a931c5a885f56",
+      "structured_result_sha256": "721dcf85dda67de9fc789cd48cb2ce20b53c88b42ca877df36753398e2143b84",
+      "units_count": 0,
+      "findings": "连续函数可积性、振幅定义与一般性质，独立理论内容无明确读者任务。"
+    },
+    {
+      "page_number": 212,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0212/result.md",
+      "result_sha256": "9c12bc7a311a3724832065168ee42608f1a00099928e9afed9ad087190b6557f",
+      "structured_result_sha256": "c5e99819ecc30e304009d0f4e858023b35a71d956c3a1b9278ec24dd4106ba86",
+      "units_count": 0,
+      "findings": "振幅性质证明、可积判据与引理，均独立理论不扩为题。"
+    },
+    {
+      "page_number": 213,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0213/result.md",
+      "result_sha256": "efdbe01c7a11de5e986c117d6d5f9ea43c9c113085bb8ba3ac208fabe2a161e3",
+      "structured_result_sha256": "e4e3de60ee2af9f0b1ec7b5790746864182943cf7b8bab68840a9988f274d7ce",
+      "units_count": 0,
+      "findings": "可积判据充分性证明，无独立任务。"
+    },
+    {
+      "page_number": 214,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0214/result.md",
+      "result_sha256": "47ba4dfe9982e46a677c9dc50c85803a44222908d53942ea798a6deaebad4cea",
+      "structured_result_sha256": "1f1c6f383578bfda01e77ef9ffaddf99b7363ad60ae2e90e5a73f9022d7c16bb",
+      "units_count": 0,
+      "findings": "可积判据必要性证明及Lebesgue零测定义，无独立任务。"
+    },
+    {
+      "page_number": 215,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0215/result.md",
+      "result_sha256": "d14bb13895046902a860357cd6f802754552a2e7f7079169272de24ae629ea9d",
+      "structured_result_sha256": "7c67ed5b61c4922d9890272495433db48589bce3d058f7715a0afc2f16b6b940",
+      "units_count": 0,
+      "findings": "Lebesgue可积判据与任意可测域推广，均独立理论；无例题或明确读者任务。"
+    },
+    {
+      "page_number": 216,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0216/result.md",
+      "result_sha256": "18c60d89f5504cf36e1e025b62270c3133439c152766e0e1fbbf1258da216aed",
+      "structured_result_sha256": "3bf010ebda4f229f23ca1828413ebd984a73e24edbffc96c26ab26a1fa12c0cc",
+      "units_count": 0,
+      "findings": "一维振幅判据定理本身在p219正式第1题指定证明，题库已完整自足展开该题，无需正文再收一遍。"
+    },
+    {
+      "page_number": 217,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0217/result.md",
+      "result_sha256": "fd0082e34c2ed393260c0ad8d0a403c60f4b9cab947830c98c13d845a6d67c07",
+      "structured_result_sha256": "8b4c927ec4fb778cec24103298555e26795b4ec2ad55ff322ceb41b0c7976677",
+      "units_count": 1,
+      "findings": "例18.3.1 Parseval等式题面完整，Fourier系数在题中自足定义；证明中的Fejer核与Cesaro估计仅为解答，不作为新题。"
+    },
+    {
+      "page_number": 218,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0218/result.md",
+      "result_sha256": "e8496c4857751c542e91842e7fa688e90071442edf07d6ea0c83c5aaa461ba98",
+      "structured_result_sha256": "e771d76addf5f33065c13c01bcfb408f8be2e38bce700f1852dc9609ac3878d4",
+      "units_count": 0,
+      "findings": "Parseval例的证明至终止符结束；此后的瑕积分推广为独立注记，已按源图边界排除，不扩充例题。"
+    },
+    {
+      "page_number": 219,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0219/result.md",
+      "result_sha256": "6f554a404006d994261d7db85152ec3760c10a83f534216747cde0ce0e379415",
+      "structured_result_sha256": "b619883fc3d470b1bb81fe4b2dc485aea994a3d16f07bf07f61ec251028d697f",
+      "units_count": 5,
+      "findings": "页首独立注记续证不收；正式习题1至5完整，所引定理与Cantor集定义均展开，解题提示已去除。"
+    },
+    {
+      "page_number": 220,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0220/result.md",
+      "result_sha256": "84293e798cfa093705b028117a7025ad8e502f9a063e26e018acc317cb53e98e",
+      "structured_result_sha256": "c291c50c22f961228788b78b6c871bc098b6611971d0577d94ef6673d4423443",
+      "units_count": 5,
+      "findings": "正式习题6至10完整，Volterra构造三小问及积分定义齐全；闭区间长度为正的既有校订正确，端点导数明确为单侧，无独立提示残留。"
+    },
+    {
+      "page_number": 221,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0221/result.md",
+      "result_sha256": "e237db56958b16fd63ba9c972ee2123fed99e2628e84704eb764c0d6d823ce33",
+      "structured_result_sha256": "08e5976b4fd1d568f7458a67c292e00f24074248cc88e9f202d967b8df70f3ef",
+      "units_count": 0,
+      "findings": "行列式的有向体积意义及线性变换定义，是一般理论而非具体例题，无独立读者任务。"
+    },
+    {
+      "page_number": 222,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0222/result.md",
+      "result_sha256": "90820f9478b09b7a4b92332cc0148c1036bfd95be476a4adfafd1f773b8f18e9",
+      "structured_result_sha256": "fc6d9f647fad3664dbaf368306c3c47556ecc102543ec1d36d59e2192de6ce7e",
+      "units_count": 0,
+      "findings": "线性变换体积性质及证明、局部立方体记号，无另列任务。"
+    },
+    {
+      "page_number": 223,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0223/result.md",
+      "result_sha256": "47afa2e33106fa91d7dbddc355e6a83cba0f65996abe098a18df09d9ffde473b",
+      "structured_result_sha256": "0273a5053725362617cc145292b9b85bccd30c193db154d63d1c09b077d5ca2f",
+      "units_count": 0,
+      "findings": "C1映射下可测性引理及完整证明，无例题或明确读者任务。"
+    },
+    {
+      "page_number": 224,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0224/result.md",
+      "result_sha256": "23a0c95bd978124cf24afbad3e4d7f8ed5030fe792e54a553e6b391087a96fb5",
+      "structured_result_sha256": "576bd32f1a595e0fafd52848513b59c86aade9992b289505555478288d9a3ab0",
+      "units_count": 0,
+      "findings": "积分换元公式一般定理及证明开头，无独立任务。"
+    },
+    {
+      "page_number": 225,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0225/result.md",
+      "result_sha256": "3cb3b63e13042b26e0e5f1327927a31324688e64ef416112a40f1ea363a8b497",
+      "structured_result_sha256": "19bfaa4a749a048132c06ba80cb6a6d84bfe2862f65086c9d8d189551266a85d",
+      "units_count": 0,
+      "findings": "积分换元公式续证，非负函数到一般函数的分解仅属证明。"
+    },
+    {
+      "page_number": 226,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0226/result.md",
+      "result_sha256": "7ba7c2f6052cd752aa10945baec97b798d592cc02844ecae17afadf87fc80fae",
+      "structured_result_sha256": "56f7eabe24435aec21c63f83ef715b3c9775fd63b223411a1020212322b60e97",
+      "units_count": 0,
+      "findings": "积分换元定理终结及误差估计引理证明，无另列任务。"
+    },
+    {
+      "page_number": 227,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0227/result.md",
+      "result_sha256": "55826a26013fd1257fee4e87e640e989c7c4bb3b773374372b33e094d03a41da",
+      "structured_result_sha256": "3956852defb588fbb596dfa08c24c9faa130cc5f26a07d94763d3927abd4e874",
+      "units_count": 0,
+      "findings": "误差估计引理及立方体包含关系续证，无例题或明确读者任务。"
+    },
+    {
+      "page_number": 228,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0228/result.md",
+      "result_sha256": "6c7ea033c4b09135346d371d3d9e5ca737a5f76b08e57d063d90f775ed176370",
+      "structured_result_sha256": "5cf43f0fc8ce83910d100128ffa9b2c403a27e5ecfe939ff925b9326c321d106",
+      "units_count": 1,
+      "findings": "例18.4.1极坐标换元及径向积分化简已收入，角变量范围与源图复核一致，例题起始物理页保持228。"
+    },
+    {
+      "page_number": 229,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0229/result.md",
+      "result_sha256": "fd1842d11f5d8bc648bac71965d310ece306fcf6a5cec5005c26f3ce4052ee38",
+      "structured_result_sha256": "5c16bfa0302ee1c1d1c73b2c7b1fdfa62668db34f20529a03e27137e3cf1597e",
+      "units_count": 0,
+      "findings": "例18.4.1续文包含径向常数与n维球体积计算，现有三小问已覆盖；高斯积分是原书求常数的证明路线，不另拆解答为题。"
+    },
+    {
+      "page_number": 230,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0230/result.md",
+      "result_sha256": "04ad364973ddcd2ec9fee5067a5d2131f36128a27f28a4625c0f3a7791c09358",
+      "structured_result_sha256": "759389c8f84060ff8ce1547341287f26ba554da7278db4431851e6354a347b8b",
+      "units_count": 1,
+      "findings": "同例球面面积计算已由第三小问覆盖；正式习题18.4第1题的左右矩阵乘法两个要求均保留。非负加权广义积分可为正无穷的既有校订恰当。"
+    },
+    {
+      "page_number": 231,
+      "status": "verified",
+      "result_path": "数学分析讲义/data/ocr_raw/vl1.6/bd727a57b926/p0231/result.md",
+      "result_sha256": "3337ce778996fb18e195690bdb8ae49d6b0bbb5393536a2d11763b971fa36ed7",
+      "structured_result_sha256": "3df84afdd9f308342246f6c4b8b58d7fbb3103b8a4462a25f1a9466f10d57197",
+      "units_count": 2,
+      "findings": "正式习题第2题群运算积分不变性及第3题伸缩、反演两个小问完整；指数n、内积符号和原点附近为零条件一致，无解题提示。"
+    }
+  ],
+  "status": "verified",
+  "engine": "PaddleOCR-VL-1.6 / llama.cpp",
+  "total_source_pages": 41,
+  "pages_checked": 41,
+  "source_units_checked": 42,
+  "final_problems": 42,
+  "verified_pages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231
+  ],
+  "pending_pages": [],
+  "method": "实际逐页全文核读PaddleOCR结果，对照已核源图、恢复文本及题库；每页记录实际OCR文本及结构JSON的SHA256。原始OCR保留unreviewed。"
+}

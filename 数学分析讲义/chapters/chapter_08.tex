@@ -1,0 +1,539 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{7}\section{空间解析几何}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.1（改写）}
+设 $\{\mathbf e_1,\mathbf e_2,\mathbf e_3\}$ 是右手标准正交基，$\mathbf a=a_1\mathbf e_1+a_2\mathbf e_2$、$\mathbf b=b_1\mathbf e_1+b_2\mathbf e_2$ 是两个平面向量。
+\SubQ{1}{计算 $\mathbf a\times\mathbf b$，并求以 $\mathbf a,\mathbf b$ 为邻边的平行四边形面积。}
+\SubQ{2}{解释行列式 $\begin{vmatrix}a_1&a_2\\b_1&b_2\end{vmatrix}$ 作为该平行四边形有向面积的几何意义及正负号。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.2}
+已知 $\mathbf a,\mathbf b$ 是单位向量，它们的夹角 $\theta=\pi/3$。求向量 $\mathbf a-\mathbf b$ 与 $3\mathbf a+2\mathbf b$ 的夹角 $\varphi$ 的余弦。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.3（校订）}
+证明 Cauchy（柯西）不等式\[(a_1b_1+a_2b_2+a_3b_3)^2\le(a_1^2+a_2^2+a_3^2)(b_1^2+b_2^2+b_3^2),\]并证明等号成立当且仅当向量 $(a_1,a_2,a_3)$ 与 $(b_1,b_2,b_3)$ 线性相关（当 $(b_1,b_2,b_3)\ne\mathbf0$ 时，等价于存在实数 $\lambda$，使 $a_i=\lambda b_i$，$i=1,2,3$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.4}
+设 $A(x_1,y_1,z_1)$、$B(x_2,y_2,z_2)$ 是空间中两点，线段 $AB$ 上的点 $P(x,y,z)$ 将线段分成定比 $\lambda$，即 $|AP|/|PB|=\lambda$。求 $P$ 点的坐标。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.5}
+已知三角形的顶点 $A(1,2,3)$、$B(3,4,5)$、$C(-1,-2,7)$，求 $\triangle ABC$ 的面积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.6}
+设 $\lambda,\mu$ 为实数，$\mathbf a,\mathbf b$ 为向量。证明向量数乘的下列性质。
+\SubQ{1}{$\lambda(\mathbf a+\mathbf b)=\lambda\mathbf a+\lambda\mathbf b$。}
+\SubQ{2}{$(\lambda+\mu)\mathbf a=\lambda\mathbf a+\mu\mathbf a$。}
+\SubQ{3}{$(\lambda\mu)\mathbf a=\lambda(\mu\mathbf a)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.7}
+设 $\lambda$ 为实数，$\mathbf a,\mathbf b$ 为向量，证明叉乘的下列性质。
+\SubQ{1}{$(\lambda\mathbf a)\times\mathbf b=\mathbf a\times(\lambda\mathbf b)=\lambda(\mathbf a\times\mathbf b)$。}
+\SubQ{2}{$\mathbf a\times\mathbf b=-\mathbf b\times\mathbf a$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.8}
+判断下列结论是否成立，并举例说明（$\mathbf a,\mathbf b,\mathbf c$ 为向量）。
+\SubQ{1}{若 $\mathbf a\cdot\mathbf b=0$，则 $\mathbf a=\mathbf0$ 或 $\mathbf b=\mathbf0$。}
+\SubQ{2}{若 $\mathbf a\times\mathbf c=\mathbf a\times\mathbf b$，则必有 $\mathbf c=\mathbf b$。}
+\SubQ{3}{两单位向量的数量积必等于 $1$，向量积必等于一个单位向量。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.9}
+判断下列结论是否成立，并举例说明（$\mathbf a,\mathbf b,\mathbf c$ 为向量）。
+\SubQ{1}{$(\mathbf a\cdot\mathbf b)\mathbf c=\mathbf a(\mathbf b\cdot\mathbf c)$。}
+\SubQ{2}{$|\mathbf a\cdot\mathbf b|^2=|\mathbf a|^2|\mathbf b|^2$。}
+\SubQ{3}{$(\mathbf a+\mathbf b)\times(\mathbf a+\mathbf b)=\mathbf a\times\mathbf a+2\mathbf a\times\mathbf b+\mathbf b\times\mathbf b$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.10}
+证明 $(\mathbf a\times\mathbf b)\cdot\mathbf c=(\mathbf b\times\mathbf c)\cdot\mathbf a=(\mathbf c\times\mathbf a)\cdot\mathbf b$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.11}
+设 $\overrightarrow{AM}=\overrightarrow{MB}$，证明对任意一点 $O$，有 $\overrightarrow{OM}=\dfrac12(\overrightarrow{OA}+\overrightarrow{OB})$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.12}
+设 $\mathbf a,\mathbf b,\mathbf c$ 是满足 $\mathbf a+\mathbf b+\mathbf c=\mathbf0$ 的单位向量，试求 $\mathbf a\cdot\mathbf b+\mathbf b\cdot\mathbf c+\mathbf c\cdot\mathbf a$ 的值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.13}
+若向量 $\mathbf a+3\mathbf b$ 垂直于向量 $7\mathbf a-5\mathbf b$，向量 $\mathbf a-4\mathbf b$ 垂直于向量 $7\mathbf a-2\mathbf b$，求两个非零向量 $\mathbf a$ 和 $\mathbf b$ 间的夹角。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.14}
+已知向量 $\mathbf a$ 和 $\mathbf b$ 互相垂直，且 $|\mathbf a|=3$、$|\mathbf b|=4$，试计算：
+\SubQ{1}{$|(\mathbf a+\mathbf b)\times(\mathbf a-\mathbf b)|$。}
+\SubQ{2}{$|(3\mathbf a-\mathbf b)\times(\mathbf a-2\mathbf b)|$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.15}
+已知向量 $\mathbf a$ 和 $\mathbf b$ 的夹角 $\theta=2\pi/3$，且 $|\mathbf a|=1$、$|\mathbf b|=2$，试计算：
+\SubQ{1}{$|\mathbf a\times\mathbf b|^2$。}
+\SubQ{2}{$|(\mathbf a+3\mathbf b)\times(3\mathbf a-\mathbf b)|^2$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.16}
+已知 $\mathbf a+\mathbf b+\mathbf c=\mathbf0$，试证 $\mathbf a\times\mathbf b=\mathbf b\times\mathbf c=\mathbf c\times\mathbf a$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.17}
+已知 $\mathbf a,\mathbf b,\mathbf c$ 不共线，且 $\mathbf a\times\mathbf b=\mathbf b\times\mathbf c=\mathbf c\times\mathbf a$，求证 $\mathbf a+\mathbf b+\mathbf c=\mathbf0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.18}
+求证 $|\mathbf a\times\mathbf b|^2=|\mathbf a|^2|\mathbf b|^2-(\mathbf a\cdot\mathbf b)^2$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.19}
+计算以向量 $\mathbf a=\mathbf p-3\mathbf q+\mathbf r$、$\mathbf b=2\mathbf p+\mathbf q-3\mathbf r$ 和 $\mathbf c=\mathbf p+2\mathbf q+\mathbf r$ 为棱的平行六面体的体积，其中 $\mathbf p,\mathbf q,\mathbf r$ 是互相垂直的单位向量。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.20}
+已知 $\mathbf a=(3,-5,8)$、$\mathbf b=(-1,1,-4)$，求 $\mathbf a-\mathbf b$ 的模和方向余弦。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.21}
+已知 $\mathbf a=3\mathbf i+4\mathbf j-12\mathbf k$，求与 $\mathbf a$ 同方向的单位向量 $\mathbf e_a$ 的坐标。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.22（校订）}
+题设给出 $Oxy$ 平面内向量 $\mathbf a$ 与 $x$ 轴、$y$ 轴所夹的角分别为 $\alpha=60^\circ$、$\beta=120^\circ$，且 $|\mathbf a|=2$。判断这样的向量是否存在；若存在，求其坐标。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.23}
+已知 $\overrightarrow{OA}=2\mathbf i+4\mathbf j+\mathbf k$、$\overrightarrow{OB}=3\mathbf i+7\mathbf j+5\mathbf k$、$\overrightarrow{OC}=4\mathbf i+10\mathbf j+9\mathbf k$，问 $A,B,C$ 三点是否共线？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.24}
+已知向量 $\mathbf a,\mathbf b$ 的夹角 $\theta=2\pi/3$，且 $|\mathbf a|=3$、$|\mathbf b|=4$，计算：
+\SubQ{1}{$\mathbf a\cdot\mathbf b$。}
+\SubQ{2}{$(3\mathbf a-2\mathbf b)\cdot(\mathbf a+2\mathbf b)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.25}
+已知 $\mathbf a=(4,-2,4)$、$\mathbf b=(6,-3,2)$，试计算：
+\SubQ{1}{$\mathbf a\cdot\mathbf b$。}
+\SubQ{2}{$\sqrt{\mathbf b\cdot\mathbf b}$。}
+\SubQ{3}{$(2\mathbf a-3\mathbf b)\cdot(\mathbf a+2\mathbf b)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.26}
+已知 $\mathbf a=(4,-2,4)$、$\mathbf b=(6,-3,2)$，试计算：
+\SubQ{1}{$|\mathbf a-\mathbf b|^2$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.27}
+求向量 $\mathbf a=(2,-4,4)$ 和 $\mathbf b=(-3,2,6)$ 的夹角的余弦。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.28}
+求向量 $\mathbf a=(5,2,5)$ 在向量 $\mathbf b=(2,-1,2)$ 上的投影长，即数值 $\mathbf a\cdot\mathbf e_b$，其中 $\mathbf e_b=\mathbf b/|\mathbf b|$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.29}
+已知向量 $\mathbf a=(3,-1,-2)$ 和 $\mathbf b=(1,2,-1)$，求下列向量积的坐标：
+\SubQ{1}{$\mathbf a\times\mathbf b$。}
+\SubQ{2}{$(2\mathbf a-\mathbf b)\times(2\mathbf a+\mathbf b)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.30}
+已知点 $A(1,2,0)$、$B(3,0,-3)$、$C(5,2,6)$，求 $\triangle ABC$ 的面积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.31}
+计算顶点为 $A(2,-1,1)$、$B(5,5,4)$、$C(3,2,-1)$、$D(4,1,3)$ 的四面体的体积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.32}
+判断下列向量 $\mathbf a,\mathbf b,\mathbf c$ 是否共面。
+\SubQ{1}{$\mathbf a=(2,3,-1)$、$\mathbf b=(1,-1,3)$、$\mathbf c=(1,9,-11)$。}
+\SubQ{2}{$\mathbf a=(3,-2,1)$、$\mathbf b=(2,1,2)$、$\mathbf c=(3,-1,-2)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.33}
+判断四点 $A(1,2,-1)$、$B(0,1,5)$、$C(-1,2,1)$、$D(2,1,3)$ 是否在一个平面上。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.34}
+给定点 $A(a,b,c)$，求：
+\SubQ{1}{它关于三个坐标平面对称点的坐标。}
+\SubQ{2}{它关于三个坐标轴对称点的坐标。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.35}
+求点 $P(4,-3,5)$ 到坐标原点以及到各坐标轴的距离。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.36}
+在 $Oyz$ 平面上求一点 $P$，使它与三已知点 $A(3,1,2)$、$B(4,-2,-2)$ 及 $C(0,5,1)$ 等距离。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.37}
+求通过点 $P_0(3,2,1)$ 及 $x$ 轴的平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.38}
+求通过 $z$ 轴且与平面 $x-2y+5=0$ 垂直的平面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.39}
+求通过点 $P_1(8,-3,1)$ 与 $P_2(4,7,2)$ 且垂直于平面 $\pi:3x+5y-7z+21=0$ 的平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.40}
+求两相交平面 $x-y+z=0$ 与 $x+y-z=0$ 的夹角。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.41}
+一直线通过点 $(1,1,1)$ 且与两直线 $L_1:\dfrac{x}{1}=\dfrac{y}{2}=\dfrac{z}{3}$、$L_2:\dfrac{x-1}{2}=\dfrac{y+2}{1}=\dfrac{z-3}{4}$ 相交，求它的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.42}
+指出下列平面位置的特点，并作图。
+\SubQ{1}{$2x+2y+2z=-1$。}
+\SubQ{2}{$3x-3y+2=0$。}
+\SubQ{3}{$y-3z=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.43}
+指出下列平面位置的特点，并作图。
+\SubQ{1}{$3x-2=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.44}
+试求通过点 $M_1(2,-1,3)$ 和 $M_2(3,1,2)$ 且平行于向量 $\boldsymbol v=(3,-1,4)$ 的平面的方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.45}
+设平面通过点 $(5,-7,4)$ 且在 $x,y,z$ 三轴上的截距相等，求平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.46}
+试判断下列各组平面的位置关系（平行、重合、相交、垂直）。
+\SubQ{1}{$2x-3y+5z-7=0$ 与 $2x-3y+5z+3=0$。}
+\SubQ{2}{$4x+2y-4z+5=0$ 与 $2x+y+2z-1=0$。}
+\SubQ{3}{$x-3z+2=0$ 与 $2x-6z+4=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.47}
+试判断下列各组平面的位置关系（平行、重合、相交、垂直）。
+\SubQ{1}{$3x-y-2z-5=0$ 与 $x+9y-3z+2=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.48}
+求通过点 $M(3,-1,1)$ 且同时垂直于两个平面 $2x-z+1=0$ 和 $y=0$ 的平面方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.49}
+求通过点 $M(-5,2,-1)$ 且平行于坐标平面 $Oyz$ 的平面的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.50}
+求下列各对平面的夹角。
+\SubQ{1}{$2x-y+z-7=0$ 和 $x+y+2z-11=0$。}
+\SubQ{2}{$4x+2y+4z-7=0$ 和 $3x-4y=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.51}
+计算下列点到平面的距离 $d$。
+\SubQ{1}{$M(2,-1,-1)$，$16x-12y+15z-4=0$。}
+\SubQ{2}{$M(9,2,-2)$，$12y-5z+5=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.52}
+求下列两平行平面间的距离。
+\SubQ{1}{$3x+6y-2z-7=0$ 与 $3x+6y-2z+14=0$。}
+\SubQ{2}{$2x-y+2z+9=0$ 与 $4x-2y+4z-21=0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.53}
+试判定点 $M(2,-1,1)$ 与原点在下列平面的同侧还是异侧。
+\SubQ{1}{$5x+3y+z-18=0$。}
+\SubQ{2}{$x+5y+12z-1=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.54}
+求与两平面 $x+y-2z-1=0$ 和 $x+y-2z+3=0$ 等距离的平面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.55}
+求两平面 $2x-y+z-7=0$ 和 $x+y+2z-11=0$ 所成两个二面角的平分面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.56}
+在平面 $x+y+z-1=0$ 与三坐标平面所围成的四面体内求一点，使它到四个面的距离相等。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.57}
+分别按下列条件求平面方程。
+\SubQ{1}{平分两点 $A(1,2,3)$ 和 $B(2,-1,4)$ 间的线段且垂直于线段 $AB$。}
+\SubQ{2}{与平面 $6x+3y+2z+12=0$ 平行，而点 $(0,2,-1)$ 到这两个平面的距离相等。}
+\SubQ{3}{通过 $x$ 轴，且点 $(5,4,13)$ 到这个平面的距离为 $8$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.58}
+分别按下列条件求平面方程。
+\SubQ{1}{经过点 $M(0,0,1)$ 及 $N(3,0,0)$ 并与 $Oxy$ 平面的夹角为 $\pi/3$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.59}
+分别求出满足下列条件的直线方程。
+\SubQ{1}{过点 $(0,2,4)$ 而与两平面 $x+2z=1$、$y-3z=2$ 平行。}
+\SubQ{2}{过点 $(-1,2,1)$ 且平行于直线 $\begin{cases}x+y-2z-1=0,\\x+2y-z+1=0.\end{cases}$}
+\SubQ{3}{过点 $(2,-3,4)$ 且和 $z$ 轴垂直并相交。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.60}
+分别求出满足下列条件的直线方程。
+\SubQ{1}{过点 $(-1,-4,3)$ 并与两直线 $\begin{cases}2x-4y+z=1,\\x+3y=-5\end{cases}$ 和 $\begin{cases}x=2+4t,\\y=-1-t,\\z=-3+2t\end{cases}$ 都垂直。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.61}
+求直线 $\begin{cases}2x+3y-z-4=0,\\3x-5y+2z+1=0\end{cases}$ 的参数方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.62}
+求下列直线与平面的交点。
+\SubQ{1}{$\dfrac{x-1}{1}=\dfrac{y+1}{-2}=\dfrac{z}{6}$，$2x+3y+z-1=0$。}
+\SubQ{2}{$\dfrac{x+2}{-2}=\dfrac{y-1}{3}=\dfrac{z-3}{2}$，$x+2y-2z+6=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.63}
+求下列各对直线的夹角。
+\SubQ{1}{$\begin{cases}5x-3y+3z-9=0,\\3x-2y+z-1=0\end{cases}$ 和 $\begin{cases}2x+2y-z+23=0,\\3x+8y+z-18=0.\end{cases}$}
+\SubQ{2}{$\begin{cases}x+2y+z-1=0,\\x-2y+z+1=0\end{cases}$ 和 $\begin{cases}x-y-z-1=0,\\x-y+2z+1=0.\end{cases}$}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.64}
+证明下列各组直线互相平行，并求它们间的距离。
+\SubQ{1}{$\dfrac{x+2}{-2}=\dfrac{y-1}{3}=z$ 和 $\begin{cases}x+y-z=0,\\x-y-5z-8=0.\end{cases}$}
+\SubQ{2}{$\dfrac{x+7}{3}=\dfrac{y-5}{-1}=\dfrac{z-9}{4}$ 和 $\begin{cases}2x+2y-z-10=0,\\x-y-z-22=0.\end{cases}$}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.65}
+证明下列各组直线垂直相交，并求它们的交点。
+\SubQ{1}{$\begin{cases}x+2y=1,\\2y-z=1\end{cases}$ 和 $\begin{cases}x-y=1,\\x-2z=3.\end{cases}$}
+\SubQ{2}{$\begin{cases}4x+y-3z+24=0,\\z-5=0\end{cases}$ 和 $\begin{cases}x+y+3=0,\\x+2=0.\end{cases}$}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.66}
+求下列直线和平面的夹角 $\varphi$。
+\SubQ{1}{$\begin{cases}3x-2y=24,\\3x-z=-4\end{cases}$，$6x+15y-10z+31=0$。}
+\SubQ{2}{$\begin{cases}x+y+3z=0,\\x-y-z=0\end{cases}$，$x-y-z+1=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.67}
+求下列点到直线的距离 $d$。
+\SubQ{1}{$P_0(1,0,-1)$，$\dfrac{x}{1}=\dfrac{y-1}{2}=\dfrac{z}{-1}$。}
+\SubQ{2}{$M_0(1,2,3)$，$\begin{cases}x+y-z=1,\\2x+z=3.\end{cases}$}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.68}
+证明下列各组直线是异面直线，并求它们的距离（即两直线公垂线段之长）。
+\SubQ{1}{$\dfrac{x-9}{4}=\dfrac{y+2}{-3}=\dfrac{z}{1}$ 和 $\dfrac{x}{-2}=\dfrac{y+7}{9}=\dfrac{z-2}{2}$。}
+\SubQ{2}{$\begin{cases}x+y-z-1=0,\\2x+y-z-2=0\end{cases}$ 和 $\begin{cases}x+2y-z-2=0,\\x+2y+2z+4=0.\end{cases}$}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.69}
+试求通过直线 $\begin{cases}3x+2y-z-1=0,\\2x-3y+2z+2=0\end{cases}$ 并垂直于平面 $x+2y+3z-5=0$ 的平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.70}
+求通过直线 $x=3t+1$、$y=2t+3$、$z=-t-2$ 且平行于直线 $\begin{cases}2x-y+z-3=0,\\x+2y-z-5=0\end{cases}$ 的平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.71}
+过直线 $\begin{cases}5x-11z+7=0,\\5y+7z-4=0\end{cases}$ 作两互相垂直的平面，其中一平面过点 $(4,-3,1)$，求此二平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.72}
+求点 $(-1,2,0)$ 在平面 $x+2y-z+1=0$ 上的投影。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.73}
+求点 $(2,3,1)$ 在直线 $x=t-7$、$y=2t-2$、$z=3t-2$ 上的投影。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.74}
+求原点关于平面 $6x+2y-9z+121=0$ 对称的点的坐标。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.75}
+求点 $(1,2,3)$ 关于直线 $\dfrac{x}{1}=\dfrac{y-4}{-3}=\dfrac{z-3}{-2}$ 对称的点的坐标。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.76}
+试求 $\lambda$，使两直线 $\dfrac{x-1}{\lambda}=\dfrac{y+4}{5}=\dfrac{z-3}{-3}$ 与 $\dfrac{x+3}{3}=\dfrac{y-9}{-4}=\dfrac{z+14}{7}$ 相交，并求出交点和由此两直线确定的平面方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.77}
+一直线通过点 $(-3,5,-9)$，且与两直线 $\begin{cases}y=3x+5,\\z=2x-3\end{cases}$、$\begin{cases}4x-y-7=0,\\5x-z+10=0\end{cases}$ 相交，求其方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.78}
+求直线 $\begin{cases}x+y-z-1=0,\\x-y+z+1=0\end{cases}$ 在平面 $x+y+z=0$ 上的投影直线的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.79}
+写出垂直于平面 $5x-y+3z-2=0$，且与它的交线在 $Oxy$ 平面上的平面方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.80}
+求由原点到直线 $\dfrac{x-5}{4}=\dfrac{y-2}{3}=\dfrac{z+1}{-2}$ 的垂线方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.81（改写）}
+设 $a,b>0$，$L$ 是 $Oxz$ 平面上的双曲线 $\begin{cases}x^2/a^2-z^2/b^2=1,\\y=0.\end{cases}$ 求 $L$ 分别绕 $z$ 轴和 $x$ 轴旋转所得曲面的方程，并指出曲面的名称。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.82（改写）}
+设 $p>0$，求 $Oyz$ 平面上的抛物线 $\begin{cases}y^2=2pz,\\x=0\end{cases}$ 绕 $z$ 轴旋转所得曲面的方程，并指出曲面的名称。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.83（改写）}
+设 $a,c>0$，求 $Oyz$ 平面上的直线 $\begin{cases}y/a=z/c,\\x=0\end{cases}$ 绕 $z$ 轴旋转所得曲面的方程，并指出曲面的名称。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.84}
+指出下列方程中哪些表示旋转曲面，并说明它们是怎样产生的。
+\SubQ{1}{$\dfrac{x^2}{4}+\dfrac{y^2}{9}+\dfrac{z^2}{9}=1$。}
+\SubQ{2}{$x^2+y^2+z^2=1$。}
+\SubQ{3}{$x^2+2y^2+34z^2=1$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.85}
+指出下列方程中哪些表示旋转曲面，并说明它们是怎样产生的。
+\SubQ{1}{$x^2-\dfrac{y^2}{4}+z^2=1$。}
+\SubQ{2}{$\dfrac{x^2}{9}+\dfrac{y^2}{16}-\dfrac{z^2}{9}=-1$。}
+\SubQ{3}{$x^2-y^2-z^2=1$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.86}
+指出下列方程中哪些表示旋转曲面，并说明它们是怎样产生的。
+\SubQ{1}{$x^2+y^2=4z$。}
+\SubQ{2}{$\dfrac{x^2}{4}-\dfrac{y^2}{9}=3z$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.87}
+指出下列方程在平面直角坐标系 $Oxy$ 和空间直角坐标系 $Oxyz$ 中分别表示怎样的几何图形。
+\SubQ{1}{$x=2$。}
+\SubQ{2}{$y=x+1$。}
+\SubQ{3}{$x^2+y^2=4$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.88}
+指出下列方程在平面直角坐标系 $Oxy$ 和空间直角坐标系 $Oxyz$ 中分别表示怎样的几何图形。
+\SubQ{1}{$x^2-y^2=1$。}
+\SubQ{2}{$y=x^2+1$。}
+\SubQ{3}{$\begin{cases}5x-y+1=0,\\2x-y-3=0.\end{cases}$}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.89}
+指出下列方程在平面直角坐标系 $Oxy$ 和空间直角坐标系 $Oxyz$ 中分别表示怎样的几何图形。
+\SubQ{1}{$\begin{cases}x^2/4+y^2/9=1,\\y=2.\end{cases}$}
+\SubQ{2}{$\begin{cases}x^2/4-y^2/9=1,\\x=4.\end{cases}$}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.90}
+求下列旋转曲面的方程，并指出它们的名称。
+\SubQ{1}{曲线 $\begin{cases}y^2-z^2/4=1,\\x=0\end{cases}$ 绕 $z$ 轴旋转一周。}
+\SubQ{2}{曲线 $\begin{cases}y=\sin x\ (0\le x\le\pi),\\z=0\end{cases}$ 绕 $x$ 轴旋转一周。}
+\SubQ{3}{曲线 $\begin{cases}4x^2+9y^2=36,\\z=0\end{cases}$ 绕 $y$ 轴旋转一周。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.91}
+求 $Oyz$ 平面上的直线 $y-2z+1=0$ 绕该平面上的直线 $y=z$ 旋转所得旋转曲面的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.92}
+求直线 $L:\dfrac{x-1}{1}=\dfrac{y}{1}=\dfrac{z-1}{-1}$ 在平面 $\pi:x-y+2z-1=0$ 上的投影直线 $L_0$ 的方程，并求 $L_0$ 绕 $y$ 轴旋转一周所成曲面的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.93}
+画出下列各组曲面所围成的立体图形（含参数 $R$ 时设 $R>0$）。
+\SubQ{1}{$\dfrac{x}{3}+\dfrac{y}{2}+z=1$，$x=0$，$y=0$，$z=0$。}
+\SubQ{2}{$z=x^2+y^2$，$x=0$，$y=0$，$z=0$，$x+y-1=0$。}
+\SubQ{3}{$z=\sqrt{x^2+y^2}$，$x^2+y^2+z^2=R^2$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.94}
+画出下列各组曲面所围成的立体图形（含参数 $R$ 时设 $R>0$）。
+\SubQ{1}{$x^2+y^2=2x$，$z=0$，$z=1$。}
+\SubQ{2}{$x^2+y^2+z^2=R^2$，$x^2+y^2+(z-R)^2=R^2$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.95}
+研究曲面 $x^2-y^2-z^2=9$ 在下列平面上的截口。
+\SubQ{1}{$z=0$。}
+\SubQ{2}{$x=0$。}
+\SubQ{3}{$y=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.96}
+研究曲面 $x^2-y^2-z^2=9$ 在下列平面上的截口。
+\SubQ{1}{$x=5$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.97}
+一动点 $P(x,y,z)$ 到原点的距离等于它到平面 $z=4$ 的距离，试求此动点 $P$ 的轨迹，并判定它是什么曲面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.98}
+建立通过两曲面 $x^2+y^2+4z^2=1$ 和 $x^2=y^2+z^2$ 的交线，而母线平行于 $z$ 轴的柱面方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.99}
+已知一球面经过点 $(0,-3,1)$ 且与 $Oxy$ 平面交成圆周 $\begin{cases}x^2+y^2=16,\\z=0,\end{cases}$ 试求其方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.100}
+求单叶双曲面 $\dfrac{x^2}{16}+\dfrac{y^2}{4}-\dfrac{z^2}{5}=1$ 与平面 $x-2z+3=0$ 的交线在 $Oxy$ 平面上的投影曲线方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.101}
+问在 $Oxy$ 平面中方程 $xy=h$（$h$ 是或正、或负、或为零的常数）表示怎样的曲线？在空间直角坐标系中方程 $xy=z$ 表示什么曲面？试用截口法研究它的图形。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.102}
+方程 $4x^2+25y^2+4z^2-16x-50y-16z-43=0$ 刻画的是什么图形？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.103}
+将直角坐标系 $Oxyz$ 绕 $z$ 轴沿逆时针方向旋转 $\pi/4$，得新坐标系 $Ox'y'z'$。试表示新旧坐标间的变换关系，并将方程 $xy=z$ 变换为新坐标系下的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.104}
+利用坐标变换化简方程 \[45x^2+45y^2-8z^2-54xy+36\sqrt2x-108\sqrt2y+32z+184=0,\] 并指出它是什么曲面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.105}
+通过坐标系的平移，化简方程 $x^2-y^2-z^2-2x+2y+z-1=0$，并指出曲面的类型。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.106}
+通过坐标变换，化简方程 $xy-x+y+z+1=0$，并指出曲面的类型。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.107}
+通过坐标旋转，化简方程 $5x^2-3y^2+3z^2+8yz-5=0$，并指出它是什么曲面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.108}
+将下列方程按要求作相应的变换。柱面坐标满足 $x=r\cos\theta$、$y=r\sin\theta$；球面坐标采用 $x=r\sin\theta\cos\varphi$、$y=r\sin\theta\sin\varphi$、$z=r\cos\theta$。
+\SubQ{1}{$x^2-y^2=25$ 转换成柱面坐标系方程和球面坐标系方程。}
+\SubQ{2}{$x^2+y^2+4z^2=10$ 转换成柱面坐标系方程和球面坐标系方程。}
+\SubQ{3}{$2x^2+2y^2-4z^2=0$ 转换成球面坐标系方程。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.109}
+将下列方程按要求作相应的变换。柱面坐标满足 $x=r\cos\theta$、$y=r\sin\theta$；球面坐标采用 $x=r\sin\theta\cos\varphi$、$y=r\sin\theta\sin\varphi$、$z=r\cos\theta$。
+\SubQ{1}{$x^2-y^2-z^2=1$ 转换成球面坐标系方程。}
+\SubQ{2}{柱面坐标系方程 $r^2+2z^2=4$ 转换成球面坐标系方程。}
+\SubQ{3}{球面坐标系方程 $r=2\cos\varphi$ 转换成柱面坐标系方程。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.110}
+将下列方程按要求作相应的变换。柱面坐标满足 $x=r\cos\theta$、$y=r\sin\theta$；球面坐标采用 $x=r\sin\theta\cos\varphi$、$y=r\sin\theta\sin\varphi$、$z=r\cos\theta$。
+\SubQ{1}{$x+y=4$ 转换成柱面坐标系方程。}
+\SubQ{2}{$x+y+z=1$ 转换成球面坐标系方程。}
+\SubQ{3}{极坐标系方程 $r=2\sin\theta$ 转换成直角坐标系方程。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.111}
+将下列方程按要求作相应的变换。柱面坐标满足 $x=r\cos\theta$、$y=r\sin\theta$；球面坐标采用 $x=r\sin\theta\cos\varphi$、$y=r\sin\theta\sin\varphi$、$z=r\cos\theta$。
+\SubQ{1}{柱面坐标系方程 $r^2\cos2\theta=z$ 转换成直角坐标系方程。}
+\SubQ{2}{球面坐标系方程 $r\sin\varphi=1$ 转换成直角坐标系方程。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.112}
+将 $Ozx$ 平面上抛物线 $z=2x^2$ 绕 $z$ 轴旋转一周，写出所生成的曲面在柱面坐标系中的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.113}
+将 $Ozx$ 平面上双曲线 $2x^2-z^2=2$ 绕 $z$ 轴旋转一周，写出所生成的曲面在柱面坐标系中的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.114}
+设 $a>0$。已知 $Oxy$ 平面上以原点为圆心、$a$ 为半径的圆的参数方程为 $x=a\cos t$、$y=a\sin t$，$t\in[0,2\pi)$。求 $Oxy$ 平面上以点 $P_0(x_0,y_0)$ 为圆心、$a$ 为半径的圆的一个参数方程表示。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.115}
+设 $a>0$。已知 $Oxyz$ 空间中以原点为球心、$a$ 为半径的球面的参数方程为 \[x=a\sin u\cos v,\quad y=a\sin u\sin v,\quad z=a\cos u,\quad u\in[0,\pi],\ v\in[0,2\pi).\] 求以点 $P_0(x_0,y_0,z_0)$ 为球心、$a$ 为半径的球面的一个参数方程表示。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.116}
+设 $a,b,c>0$，求椭球面 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}+\dfrac{z^2}{c^2}=1$ 的一个参数方程表示。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.117}
+设 $a,b>0$，利用双曲函数，给出双曲线 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ 的一个参数方程表示。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.118}
+设 $a,b,c>0$，分别求单叶双曲面 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}-\dfrac{z^2}{c^2}=1$ 和双叶双曲面 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}-\dfrac{z^2}{c^2}=-1$ 的一个参数方程表示。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.119}
+设 $O$ 为一定点，$A,B,C$ 为不共线的三点。证明：点 $M$ 位于平面 $ABC$ 上的充分必要条件是存在实数 $k_1,k_2,k_3$，使得 \[\overrightarrow{OM}=k_1\overrightarrow{OA}+k_2\overrightarrow{OB}+k_3\overrightarrow{OC},\qquad k_1+k_2+k_3=1.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.120}
+证明：向量 $\boldsymbol a-\boldsymbol b+\boldsymbol c$、$-2\boldsymbol a+3\boldsymbol b-2\boldsymbol c$、$2\boldsymbol a-\boldsymbol b+2\boldsymbol c$ 线性相关。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.121}
+证明：三维空间中四个或四个以上的向量一定线性相关。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.122}
+设 $\boldsymbol e_1,\boldsymbol e_2,\boldsymbol e_3$ 为三维空间的一组基，并设 $\boldsymbol a=\boldsymbol e_1+2\boldsymbol e_2-\boldsymbol e_3$，$\boldsymbol b=2\boldsymbol e_1+\boldsymbol e_2+\boldsymbol e_3$。
+\SubQ{1}{证明：$\boldsymbol a,\boldsymbol b,\boldsymbol c=3\boldsymbol e_1+2\boldsymbol e_3$ 为一组基。}
+\SubQ{2}{设 $\widetilde{\boldsymbol c}=3\boldsymbol e_1+x\boldsymbol e_2+2\boldsymbol e_3$，问当 $x$ 取何值时，$\boldsymbol a,\boldsymbol b,\widetilde{\boldsymbol c}$ 共面？}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.123}
+设向量 $\boldsymbol a,\boldsymbol b$ 的夹角为 $60^\circ$，且 $|\boldsymbol a|=1$、$|\boldsymbol b|=2$。试求 $|\boldsymbol a\times\boldsymbol b|^2$ 和 $|(\boldsymbol a+\boldsymbol b)\times(\boldsymbol a-\boldsymbol b)|$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.124}
+证明：$(\boldsymbol a\times\boldsymbol b)\times\boldsymbol c+(\boldsymbol b\times\boldsymbol c)\times\boldsymbol a+(\boldsymbol c\times\boldsymbol a)\times\boldsymbol b=\boldsymbol0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.125}
+求准线为 $\begin{cases}y^2+z^2=1,\\x=1,\end{cases}$ 母线方向为 $(2,1,1)$ 的柱面的一般方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.126}
+求准线为 $\begin{cases}y^2+z^2=1,\\x=1,\end{cases}$ 顶点坐标为 $(2,1,1)$ 的锥面的一般方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.127}
+求直线 $x-1=y=z$ 绕直线 $x=y=1$ 旋转所得旋转曲面的参数方程和一般方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.128}
+求圆 $\begin{cases}(x-2)^2+y^2=1,\\z=0\end{cases}$ 绕 $y$ 轴旋转所得旋转曲面的参数方程和一般方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.129}
+将坐标系 $[O;\boldsymbol e_1,\boldsymbol e_2,\boldsymbol e_3]$ 绕 $\boldsymbol e_1$ 逆时针旋转 $\alpha$ 后得到新坐标系 $[O;\boldsymbol e_1,\widetilde{\boldsymbol e}_2,\widetilde{\boldsymbol e}_3]$，再将这一坐标系绕原坐标轴 $\boldsymbol e_2$ 逆时针旋转 $\beta$。求最终坐标系与原坐标系之间的坐标变换公式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.130}
+已知椭球面的三个半轴长分别为 $a,b,c>0$，三条对称轴方程分别为 \[3-x=\frac y2=\frac z2,\qquad \frac x2=3-y=\frac z2,\qquad \frac x2=\frac y2=3-z.\] 求椭球面的一般方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.131}
+设在球面坐标系中有两点 $(r_1,\theta_1,\varphi_1)$ 和 $(r_2,\theta_2,\varphi_2)$，其中 $\theta$ 为与 $z$ 轴的夹角、$\varphi$ 为方位角。设 $d$ 是这两点之间的直线距离。证明：\[d^2=(r_1-r_2)^2+2r_1r_2\bigl[1-\cos(\varphi_1-\varphi_2)\sin\theta_1\sin\theta_2-\cos\theta_1\cos\theta_2\bigr].\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.132}
+设在球面 $r=a>0$ 上有两个点 $(a,\theta_1,\varphi_1)$ 和 $(a,\theta_2,\varphi_2)$，其中 $\theta$ 为与 $z$ 轴的夹角、$\varphi$ 为方位角。证明：这两个点之间的球面距离是 $a\gamma$（$0\le\gamma\le\pi$），其中 $\gamma$ 满足 \[\cos\gamma=\cos(\varphi_1-\varphi_2)\sin\theta_1\sin\theta_2+\cos\theta_1\cos\theta_2.\]
+\end{minipage}\par\vfill

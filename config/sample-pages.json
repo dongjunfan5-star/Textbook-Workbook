@@ -1,0 +1,38 @@
+{
+  "description": "Sample pages for the published projects only.",
+  "items": [
+    {
+      "project": "数学分析讲义",
+      "source_file": "input/数学分析讲义（第一册）.pdf",
+      "chapter": 1,
+      "chapter_title": "极限",
+      "pages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "project": "数学分析讲义",
+      "source_file": "input/数学分析讲义（第二册）.pdf",
+      "chapter": 8,
+      "chapter_title": "空间解析几何",
+      "pages": [
+        22,
+        23
+      ]
+    },
+    {
+      "project": "数学分析讲义",
+      "source_file": "input/数学分析讲义（第三册）.pdf",
+      "chapter": 14,
+      "chapter_title": "实数理论",
+      "pages": [
+        13,
+        14,
+        15
+      ]
+    }
+  ]
+}

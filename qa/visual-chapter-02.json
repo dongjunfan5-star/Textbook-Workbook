@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析讲义",
+  "chapter": 2,
+  "pdf": ".cache/chapter-proofs/lecture-02/main.pdf",
+  "pdf_sha256": "b2dd806c567e821975c9f10a0760cfe0a2eda04e5055ef61e345a1aa989414da",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "method": "删除独立提示后重编，实际查看全部四页联系图，检查全部页面的题号、公式、留白、页眉和无裁切重叠。",
+  "issues": []
+}

@@ -1,0 +1,215 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{1}\section{单变量函数的连续性}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.1}
+研究函数 $f(x)=\dfrac{\sin x}{x}\ (x\ne0)$ 在 $x=0$ 处的连续性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.2}
+讨论函数\[f(x)=\begin{cases}3x+1,&x\ge1,\\2x-5,&x<1\end{cases}\]在 $x=1$ 处的连续性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.3}
+讨论函数\[f(x)=\begin{cases}\dfrac1x,&x>0,\\0,&x\le0\end{cases}\]在 $x=0$ 处的连续性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.4}
+证明 Dirichlet（狄利克雷）函数\[D(x)=\begin{cases}1,&x\in\mathbb Q,\\0,&x\notin\mathbb Q\end{cases}\]在每一点都有第二类间断。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.5}
+求 $\displaystyle\lim_{x\to0}\sin(\arctan(x+1))$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.6}
+求证 $\displaystyle\lim_{x\to0}\frac{\ln(1+x)}x=1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.7}
+设函数 $f(x)$ 在点 $x_0$ 附近有定义，且\[\lim_{h\to0}\bigl[f(x_0+h)-f(x_0-h)\bigr]=0.\]问 $f(x)$ 是否必在 $x=x_0$ 处连续？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.8}
+设 $a<b$，且对任意 $0<\varepsilon<\dfrac{b-a}{2}$，函数 $f(x)$ 在 $[a+\varepsilon,b-\varepsilon]$ 上连续。证明 $f(x)$ 在 $(a,b)$ 内连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.9}
+讨论下列情形中 $f(x)\pm g(x)$ 与 $f(x)g(x)$ 在 $x_0$ 处的连续性。
+\SubQ{1}{$f(x)$ 在 $x_0$ 处连续，而 $g(x)$ 在 $x_0$ 处不连续。}
+\SubQ{2}{$f(x)$ 和 $g(x)$ 在 $x_0$ 处都不连续。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.10}
+证明下列结论。
+\SubQ{1}{若 $f(x)$ 在 $x_0$ 处连续，则 $|f(x)|$ 在 $x_0$ 处也连续。}
+\SubQ{2}{若 $f(x),g(x)$ 在区间 $I$ 上连续，则 $M(x)=\max\{f(x),g(x)\}$ 和 $m(x)=\min\{f(x),g(x)\}$ 在 $I$ 上都连续。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.11}
+证明存在处处不连续的函数 $f(x)$，使 $|f(x)|$ 处处连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.12}
+指出下列函数的间断点，并说明其类型。符号 $\lfloor t\rfloor$ 表示不超过 $t$ 的最大整数。
+\SubQ{1}{$\displaystyle f(x)=\frac{x+1}{x-2}$。}
+\SubQ{2}{$\displaystyle f(x)=\begin{cases}\dfrac{\sin x}{|x|},&x\ne0,\\1,&x=0.\end{cases}$}
+\SubQ{3}{$f(x)=\lfloor|\cos x|\rfloor$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.13}
+指出下列函数的间断点，并说明其类型。符号 $\lfloor t\rfloor$ 表示不超过 $t$ 的最大整数。
+\SubQ{1}{$\displaystyle f(x)=\frac1{1+e^{1/x}}$。}
+\SubQ{2}{$\displaystyle f(x)=\begin{cases}\dfrac1{x+7},&x<-7,\\x,&-7\le x\le1,\\(x-1)\sin\dfrac1{x-1},&x>1.\end{cases}$}
+\SubQ{3}{$\displaystyle f(x)=\begin{cases}\dfrac{x^2-4}{x-2},&x\ne2,\\4,&x=2.\end{cases}$}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.14}
+确定常数 $a$，使函数\[f(x)=\begin{cases}e^x,&x<0,\\a+x,&x\ge0\end{cases}\]在 $x=0$ 处连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.15}
+证明函数\[f(x)=\begin{cases}\dfrac{e^{1/x}-e^{-1/x}}{e^{1/x}+e^{-1/x}},&x\ne0,\\1,&x=0\end{cases}\]在 $0$ 处右连续，但不左连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.16}
+证明对每个实数 $x$，极限 $\displaystyle\lim_{n\to\infty}\frac{1+x}{1+x^{2n}}$ 都存在。将此极限值记为 $f(x)$，讨论 $f(x)$ 的连续性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.17}
+证明：若 $f(x)$ 在 $x_0$ 处连续，则存在 $\delta>0$，使 $f(x)$ 在 $(x_0-\delta,x_0+\delta)$ 上有界。这一性质称为连续函数的局部有界性。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.18}
+证明：若 $f(x)$ 在 $x_0$ 处连续且 $f(x_0)\ne0$，则存在 $\delta>0$，使 $f(x)$ 在 $(x_0-\delta,x_0+\delta)$ 内与 $f(x_0)$ 同号；进一步，存在 $\gamma>0$，使在该区间内有 $|f(x)|\ge\gamma$。前一个性质称为连续函数的局部保号性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.19}
+设 $\displaystyle\lim_{x\to x_0}g(x)=a\ne g(x_0)$，且 $f(u)$ 在 $u=a$ 处连续。证明\[\lim_{x\to x_0}f(g(x))=f\!\left(\lim_{x\to x_0}g(x)\right)=f(a).\]这一结论对单侧极限以及自变量趋于 $+\infty$、$-\infty$ 或 $\infty$ 的极限过程也成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.20}
+证明：若 $u(x),v(x)$ 在 $x_0$ 处连续，且 $u(x_0)>0$，则 $u(x)^{v(x)}$ 也在 $x_0$ 处连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.21}
+设 $f(x)$ 在 $\mathbb R$ 上连续，且对任意实数 $x$ 都有 $f(2x)=f(x)$。求证 $f(x)$ 为常数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.22}
+设 $f(x)$ 在 $\mathbb R$ 上连续，且对任意实数 $x,y$ 都有 $f(x+y)=f(x)+f(y)$。求证 $f(x)=cx$，其中 $c$ 为常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.23}
+当 $x\to0$ 时，利用 $\sin x\sim x$、$\tan x\sim x$ 证明 $\arcsin x\sim x$、$\arctan x\sim x$；利用 $\ln(1+x)\sim x$ 证明 $e^x-1\sim x$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.24}
+求下列极限。
+\SubQ{1}{$\displaystyle\lim_{x\to0}\frac{\sqrt{1+x+x^2}-1}{\sin2x}$。}
+\SubQ{2}{$\displaystyle\lim_{x\to0}\frac{\sqrt{1+x^2}-1}{1-\cos x}$。}
+\SubQ{3}{$\displaystyle\lim_{x\to0}\frac{(\sqrt[10]{1+\tan x}-1)(\sqrt{1+x}-1)}{2x\sin x}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.25}
+求下列极限。
+\SubQ{1}{$\displaystyle\lim_{x\to0}\frac{x\arcsin(\sin x)}{1-\cos x}$。}
+\SubQ{2}{$\displaystyle\lim_{x\to0}\frac{1-\cos(1-\cos x)}{x^4}$。}
+\SubQ{3}{$\displaystyle\lim_{x\to-\infty}x\bigl(\sqrt{x^2+100}+x\bigr)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.26}
+求下列极限。
+\SubQ{1}{$\displaystyle\lim_{x\to+\infty}\bigl(\sin\sqrt{x+1}-\sin\sqrt x\bigr)$。}
+\SubQ{2}{$\displaystyle\lim_{x\to\infty}\sqrt{2-\frac{\sin x}{x}}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.27}
+证明 $f(x)=2^x-4x$ 在区间 $\left(0,\dfrac12\right)$ 内有一个零点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.28}
+证明任何实系数奇次多项式至少有一个实根。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.29（改写）}
+证明 $f(x)=\sin x$ 在 $\mathbb R$ 上一致连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.30（改写）}
+设 $f(x)=1/x$。证明下列结论。
+\SubQ{1}{$f(x)$ 在 $(0,1)$ 上不一致连续。}
+\SubQ{2}{任给 $0<a<1$，$f(x)$ 在 $[a,1)$ 上一致连续。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.31}
+证明函数 $x\,2^x-1$ 在 $[0,1]$ 内有零点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.32}
+设 $a,b>0$。证明函数 $x-a\sin x-b$ 在 $(0,+\infty)$ 上有零点，且零点不超过 $a+b$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.33}
+证明函数 $x-\sin(x+1)$ 有实零点。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.34}
+设 $f(x)$ 在 $[a,b]$ 上连续，且值域就是 $[a,b]$。证明 $f$ 在 $[a,b]$ 上必有不动点，即存在 $x_0\in[a,b]$，使 $f(x_0)=x_0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.35}
+设 $f(x),g(x)$ 在 $[a,b]$ 上连续，且 $f(a)>g(a)$、$f(b)<g(b)$。证明存在 $x_0\in(a,b)$，使 $f(x_0)=g(x_0)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.36}
+设 $a>0$，$f(x)$ 在 $[0,2a]$ 上连续，且 $f(0)=f(2a)$。证明存在 $x_0\in[0,a]$，使 $f(x_0)=f(x_0+a)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.37}
+设 $f(x)$ 在 $[a,b]$ 上连续，$x_1,\ldots,x_n$ 是该区间内任意 $n$ 个点。证明下列结论。
+\SubQ{1}{存在 $\xi\in[a,b]$，使 $\displaystyle f(\xi)=\frac1n\sum_{i=1}^n f(x_i)$。}
+\SubQ{2}{若 $q_i>0\ (i=1,\ldots,n)$ 且 $\sum_{i=1}^nq_i=1$，则存在 $\xi\in[a,b]$，使 $\displaystyle f(\xi)=\sum_{i=1}^nq_if(x_i)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.38}
+设 $f(x)$ 在 $[a,+\infty)$ 上连续，且有限极限 $\displaystyle\lim_{x\to+\infty}f(x)$ 存在。证明 $f(x)$ 在 $[a,+\infty)$ 上有界。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.39}
+证明函数 $\displaystyle f(x)=\frac{1+x^2}{1-x^2+x^4}$ 在 $\mathbb R$ 上有界。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.40}
+是否存在满足下列条件的连续函数？说明理由。
+\SubQ{1}{定义域为 $[0,1]$，值域为 $(0,+\infty)$。}
+\SubQ{2}{定义域为 $[0,1]$，值域为 $(0,1)$。}
+\SubQ{3}{定义域为 $[0,1]$，值域为 $[0,1]\cup[2,4]$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.41}
+是否存在满足下列条件的连续函数？说明理由。
+\SubQ{1}{定义域为 $(0,1)$，值域为 $(2,+\infty)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.42}
+设 $a<b$。举例说明：对任意 $0<\varepsilon<\dfrac{b-a}{2}$，函数 $f(x)$ 在 $[a+\varepsilon,b-\varepsilon]$ 上有界，并不能保证它在 $(a,b)$ 上有界。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.43}
+设 $f(x)$ 在开区间 $I=(a,b)$ 上连续且严格单调。证明其值域 $f(I)$ 也是开区间。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.44}
+设 $f(x)$ 在有限区间 $(a,b)$ 上一致连续。证明 $f(x)$ 在 $a$ 处的右极限和在 $b$ 处的左极限都存在。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.45}
+设 $f(x)$ 在 $(0,+\infty)$ 上一致连续，$\{a_n\}$ 是收敛数列且每项 $a_n>0$。证明 $\{f(a_n)\}$ 也收敛。若仅假设 $f(x)$ 连续，结论是否还成立？说明理由。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.46}
+设 $f(x)$ 在 $\mathbb R$ 上连续，$\{a_n\}$ 是收敛数列。证明 $\{f(a_n)\}$ 也收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.47}
+给出一个在 $\mathbb R$ 上连续且有界、但不一致连续的函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.48}
+证明函数\[f(x)=\begin{cases}0,&x\in\mathbb Q,\\x,&x\notin\mathbb Q\end{cases}\]仅在 $x=0$ 处连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.49}
+设 $x_1,\ldots,x_n\in[0,1]$，记 $\displaystyle f(x)=\frac{|x-x_1|+\cdots+|x-x_n|}{n}$。证明存在 $x_0\in[0,1]$，使 $f(x_0)=\dfrac12$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.50}
+设 $a_1,a_2,a_3>0$，$\lambda_1<\lambda_2<\lambda_3$。证明函数\[\frac{a_1}{x-\lambda_1}+\frac{a_2}{x-\lambda_2}+\frac{a_3}{x-\lambda_3}\]在 $(\lambda_1,\lambda_2)$ 与 $(\lambda_2,\lambda_3)$ 内各有一个零点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.51}
+设 $f(x)$ 为多项式。证明存在实数 $x_0$，使对任意实数 $x$ 都有 $|f(x_0)|\le|f(x)|$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.52}
+设 $f(x)$ 在 $[0,1]$ 上连续，且 $f(0)=f(1)$。证明对任意正整数 $n$，在 $\left[0,1-\dfrac1n\right]$ 中存在 $\xi$，使 $f(\xi)=f\!\left(\xi+\dfrac1n\right)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.53}
+证明存在实数 $x$，满足\[x^5+\frac{\cos x}{1+x^2+\sin^2x}=72.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.54}
+设 $f(x)$ 在 $[a,+\infty)$ 上连续，且有限极限 $\displaystyle\lim_{x\to+\infty}f(x)$ 存在。证明 $f(x)$ 在 $[a,+\infty)$ 上或者有最大值，或者有最小值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.55}
+前两问中，设 $f:[a,b]\to[a,b]$，且存在常数 $0<k<1$，使对任意 $x,y\in[a,b]$ 都有 $|f(x)-f(y)|\le k|x-y|$。
+\SubQ{1}{证明存在唯一的 $x_0\in[a,b]$，使 $f(x_0)=x_0$。}
+\SubQ{2}{任取 $x_1\in[a,b]$，定义 $x_{n+1}=f(x_n)\ (n\ge1)$。证明 $\displaystyle\lim_{n\to\infty}x_n=x_0$。}
+\SubQ{3}{另给出一个定义在整个实轴上的连续函数 $f$，使任意 $x\ne y$ 都满足 $|f(x)-f(y)|<|x-y|$，但方程 $f(x)-x=0$ 无解。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.56}
+证明：对任意正整数 $n$，方程 $x^n+x^{n-1}+\cdots+x=1$ 恰有一个正根 $x_n$；进一步证明数列 $\{x_n\}_{n\ge1}$ 收敛，并求其极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.57}
+设 $a<b$，$f(x)$ 在 $[a,b]$ 上连续，且对任意 $x\in[a,b)$，存在 $y\in(x,b)$，使 $f(y)>f(x)$。证明 $f(b)>f(a)$。
+\end{minipage}\par\vfill

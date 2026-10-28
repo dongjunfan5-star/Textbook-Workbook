@@ -1,0 +1,590 @@
+{
+  "status": "passed",
+  "scope": "formal_complete_book_structure_and_visual",
+  "project": "数学分析讲义",
+  "pdf": "数学分析讲义/main.pdf",
+  "pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234",
+  "page_count": 468,
+  "source_units": 1550,
+  "final_problems": 1762,
+  "tex_passes": 3,
+  "references_stable": true,
+  "latex_issues": [],
+  "number_sequence_verified": true,
+  "toc_and_bookmarks_verified": true,
+  "max_subquestions": 3,
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_units": 112,
+      "final_problems": 128,
+      "first_pdf_page": 3,
+      "last_pdf_page": 36,
+      "first_problem": "1.1",
+      "last_problem": "1.128",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 2,
+      "source_units": 53,
+      "final_problems": 57,
+      "first_pdf_page": 37,
+      "last_pdf_page": 51,
+      "first_problem": "2.1",
+      "last_problem": "2.57",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 3,
+      "source_units": 165,
+      "final_problems": 198,
+      "first_pdf_page": 52,
+      "last_pdf_page": 101,
+      "first_problem": "3.1",
+      "last_problem": "3.198",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 4,
+      "source_units": 30,
+      "final_problems": 53,
+      "first_pdf_page": 102,
+      "last_pdf_page": 115,
+      "first_problem": "4.1",
+      "last_problem": "4.53",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 5,
+      "source_units": 90,
+      "final_problems": 101,
+      "first_pdf_page": 116,
+      "last_pdf_page": 142,
+      "first_problem": "5.1",
+      "last_problem": "5.101",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 6,
+      "source_units": 34,
+      "final_problems": 40,
+      "first_pdf_page": 143,
+      "last_pdf_page": 152,
+      "first_problem": "6.1",
+      "last_problem": "6.40",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 7,
+      "source_units": 96,
+      "final_problems": 118,
+      "first_pdf_page": 153,
+      "last_pdf_page": 182,
+      "first_problem": "7.1",
+      "last_problem": "7.118",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 8,
+      "source_units": 117,
+      "final_problems": 132,
+      "first_pdf_page": 183,
+      "last_pdf_page": 217,
+      "first_problem": "8.1",
+      "last_problem": "8.132",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 9,
+      "source_units": 181,
+      "final_problems": 209,
+      "first_pdf_page": 218,
+      "last_pdf_page": 271,
+      "first_problem": "9.1",
+      "last_problem": "9.209",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 10,
+      "source_units": 80,
+      "final_problems": 93,
+      "first_pdf_page": 272,
+      "last_pdf_page": 295,
+      "first_problem": "10.1",
+      "last_problem": "10.93",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 11,
+      "source_units": 92,
+      "final_problems": 107,
+      "first_pdf_page": 296,
+      "last_pdf_page": 324,
+      "first_problem": "11.1",
+      "last_problem": "11.107",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 12,
+      "source_units": 53,
+      "final_problems": 57,
+      "first_pdf_page": 325,
+      "last_pdf_page": 339,
+      "first_problem": "12.1",
+      "last_problem": "12.57",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 13,
+      "source_units": 63,
+      "final_problems": 78,
+      "first_pdf_page": 340,
+      "last_pdf_page": 360,
+      "first_problem": "13.1",
+      "last_problem": "13.78",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 14,
+      "source_units": 110,
+      "final_problems": 114,
+      "first_pdf_page": 361,
+      "last_pdf_page": 392,
+      "first_problem": "14.1",
+      "last_problem": "14.114",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 15,
+      "source_units": 99,
+      "final_problems": 100,
+      "first_pdf_page": 393,
+      "last_pdf_page": 420,
+      "first_problem": "15.1",
+      "last_problem": "15.100",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 16,
+      "source_units": 69,
+      "final_problems": 70,
+      "first_pdf_page": 421,
+      "last_pdf_page": 439,
+      "first_problem": "16.1",
+      "last_problem": "16.70",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 17,
+      "source_units": 64,
+      "final_problems": 65,
+      "first_pdf_page": 440,
+      "last_pdf_page": 456,
+      "first_problem": "17.1",
+      "last_problem": "17.65",
+      "toc_destination_verified": true
+    },
+    {
+      "chapter": 18,
+      "source_units": 42,
+      "final_problems": 42,
+      "first_pdf_page": 457,
+      "last_pdf_page": 468,
+      "first_problem": "18.1",
+      "last_problem": "18.42",
+      "toc_destination_verified": true
+    }
+  ],
+  "boundary_pdf_pages_to_review": [
+    1,
+    2,
+    3,
+    36,
+    37,
+    51,
+    52,
+    101,
+    102,
+    115,
+    116,
+    142,
+    143,
+    152,
+    153,
+    182,
+    183,
+    217,
+    218,
+    271,
+    272,
+    295,
+    296,
+    324,
+    325,
+    339,
+    340,
+    360,
+    361,
+    392,
+    393,
+    420,
+    421,
+    439,
+    440,
+    456,
+    457,
+    468
+  ],
+  "full_book_all_pages_visual_review": "passed",
+  "ocr_crosscheck_status": "verified",
+  "visual_report": "数学分析讲义/qa/visual-review.json",
+  "visual_report_sha256": "41c350308a4c5fcb70ad9b3522c2bc5d0d043f702761ca7c421cd78e7bc6067f",
+  "boundary_pdf_pages_reviewed": [
+    1,
+    2,
+    3,
+    36,
+    37,
+    51,
+    52,
+    101,
+    102,
+    115,
+    116,
+    142,
+    143,
+    152,
+    153,
+    182,
+    183,
+    217,
+    218,
+    271,
+    272,
+    295,
+    296,
+    324,
+    325,
+    339,
+    340,
+    360,
+    361,
+    392,
+    393,
+    420,
+    421,
+    439,
+    440,
+    456,
+    457,
+    468
+  ],
+  "pdf_toc_link_annotations_verified": true,
+  "pdf_toc_link_results": [
+    {
+      "chapter": 1,
+      "toc_pdf_page": 1,
+      "printed_page": 3,
+      "destination_pdf_page": 3,
+      "named_destination": "section.chapter.1",
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "toc_pdf_page": 1,
+      "printed_page": 37,
+      "destination_pdf_page": 37,
+      "named_destination": "section.chapter.2",
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "toc_pdf_page": 1,
+      "printed_page": 52,
+      "destination_pdf_page": 52,
+      "named_destination": "section.chapter.3",
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "toc_pdf_page": 1,
+      "printed_page": 102,
+      "destination_pdf_page": 102,
+      "named_destination": "section.chapter.4",
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "toc_pdf_page": 1,
+      "printed_page": 116,
+      "destination_pdf_page": 116,
+      "named_destination": "section.chapter.5",
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "toc_pdf_page": 1,
+      "printed_page": 143,
+      "destination_pdf_page": 143,
+      "named_destination": "section.chapter.6",
+      "status": "passed"
+    },
+    {
+      "chapter": 7,
+      "toc_pdf_page": 1,
+      "printed_page": 153,
+      "destination_pdf_page": 153,
+      "named_destination": "section.chapter.7",
+      "status": "passed"
+    },
+    {
+      "chapter": 8,
+      "toc_pdf_page": 1,
+      "printed_page": 183,
+      "destination_pdf_page": 183,
+      "named_destination": "section.chapter.8",
+      "status": "passed"
+    },
+    {
+      "chapter": 9,
+      "toc_pdf_page": 1,
+      "printed_page": 218,
+      "destination_pdf_page": 218,
+      "named_destination": "section.chapter.9",
+      "status": "passed"
+    },
+    {
+      "chapter": 10,
+      "toc_pdf_page": 1,
+      "printed_page": 272,
+      "destination_pdf_page": 272,
+      "named_destination": "section.chapter.10",
+      "status": "passed"
+    },
+    {
+      "chapter": 11,
+      "toc_pdf_page": 1,
+      "printed_page": 296,
+      "destination_pdf_page": 296,
+      "named_destination": "section.chapter.11",
+      "status": "passed"
+    },
+    {
+      "chapter": 12,
+      "toc_pdf_page": 1,
+      "printed_page": 325,
+      "destination_pdf_page": 325,
+      "named_destination": "section.chapter.12",
+      "status": "passed"
+    },
+    {
+      "chapter": 13,
+      "toc_pdf_page": 1,
+      "printed_page": 340,
+      "destination_pdf_page": 340,
+      "named_destination": "section.chapter.13",
+      "status": "passed"
+    },
+    {
+      "chapter": 14,
+      "toc_pdf_page": 1,
+      "printed_page": 361,
+      "destination_pdf_page": 361,
+      "named_destination": "section.chapter.14",
+      "status": "passed"
+    },
+    {
+      "chapter": 15,
+      "toc_pdf_page": 1,
+      "printed_page": 393,
+      "destination_pdf_page": 393,
+      "named_destination": "section.chapter.15",
+      "status": "passed"
+    },
+    {
+      "chapter": 16,
+      "toc_pdf_page": 2,
+      "printed_page": 421,
+      "destination_pdf_page": 421,
+      "named_destination": "section.chapter.16",
+      "status": "passed"
+    },
+    {
+      "chapter": 17,
+      "toc_pdf_page": 2,
+      "printed_page": 440,
+      "destination_pdf_page": 440,
+      "named_destination": "section.chapter.17",
+      "status": "passed"
+    },
+    {
+      "chapter": 18,
+      "toc_pdf_page": 2,
+      "printed_page": 457,
+      "destination_pdf_page": 457,
+      "named_destination": "section.chapter.18",
+      "status": "passed"
+    }
+  ],
+  "chapter_snapshots": [
+    {
+      "chapter": 1,
+      "source_path": "数学分析讲义/data/chapters/chapter_01.reviewed.json",
+      "sha256": "22bf40d2f49ab0007bf9e5ed9c6fc291cffa149a4404ce4400db0cc509652af4",
+      "source_units": 112,
+      "final_problems": 128,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 2,
+      "source_path": "数学分析讲义/data/chapters/chapter_02.reviewed.json",
+      "sha256": "207fb30444d782f7054b22299c27ee3a2ebf14ea90f95ff5f688fab0b1314035",
+      "source_units": 53,
+      "final_problems": 57,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 3,
+      "source_path": "数学分析讲义/data/chapters/chapter_03.reviewed.json",
+      "sha256": "8139dd3fc5c090648e6e0a92726e6f52bf8a8ec2389c797b9c22be55e40baaed",
+      "source_units": 165,
+      "final_problems": 198,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 4,
+      "source_path": "数学分析讲义/data/chapters/chapter_04.reviewed.json",
+      "sha256": "896949c0a6ff88090c1b36ae5e1c9a292a7e2a85a71b15d6184523158f348339",
+      "source_units": 30,
+      "final_problems": 53,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 5,
+      "source_path": "数学分析讲义/data/chapters/chapter_05.reviewed.json",
+      "sha256": "acf8f4b0b18b6d0cd18f87b6d52e33c78f8c1bd94dbe17fe31bb1019a9ba9ec4",
+      "source_units": 90,
+      "final_problems": 101,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 6,
+      "source_path": "数学分析讲义/data/chapters/chapter_06.reviewed.json",
+      "sha256": "40f3323c79316359f0a21a9f8b33af5c325947c089aad65cb25e7b112022de4b",
+      "source_units": 34,
+      "final_problems": 40,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 7,
+      "source_path": "数学分析讲义/data/chapters/chapter_07.reviewed.json",
+      "sha256": "9b9dda51e4a1bb4d1339656a7f138e2cbde4e885eca5c2785edbd5211d3cfd64",
+      "source_units": 96,
+      "final_problems": 118,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 8,
+      "source_path": "数学分析讲义/data/chapters/chapter_08.reviewed.json",
+      "sha256": "84cd0f0d7d406e0df373d4052b7a3412b83bd0ec4db208a44b2eab14d707846e",
+      "source_units": 117,
+      "final_problems": 132,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 9,
+      "source_path": "数学分析讲义/data/chapters/chapter_09.reviewed.json",
+      "sha256": "405e5cfa9634099cad9149328db5b488a494a49b1221dc0f4e1f9e1c6f4bb4b2",
+      "source_units": 181,
+      "final_problems": 209,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 10,
+      "source_path": "数学分析讲义/data/chapters/chapter_10.reviewed.json",
+      "sha256": "a32d3ca0deea7e29e7b922b54970b297510cd1e6702d5baf4fd67a5b4b6643f7",
+      "source_units": 80,
+      "final_problems": 93,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 11,
+      "source_path": "数学分析讲义/data/chapters/chapter_11.reviewed.json",
+      "sha256": "50dd1c582146c787a914b47584393dae69ca35e711d0e187852754191b276c4a",
+      "source_units": 92,
+      "final_problems": 107,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 12,
+      "source_path": "数学分析讲义/data/chapters/chapter_12.reviewed.json",
+      "sha256": "2ebc3f24182a715e1bc909202798a2921ae70f12b6257f03eca6341402584b6f",
+      "source_units": 53,
+      "final_problems": 57,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 13,
+      "source_path": "数学分析讲义/data/chapters/chapter_13.reviewed.json",
+      "sha256": "c6bba75d11349ba4e49d676adde062f217fe071a13f33307cc5de0629d16cc0a",
+      "source_units": 63,
+      "final_problems": 78,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 14,
+      "source_path": "数学分析讲义/data/chapters/chapter_14.reviewed.json",
+      "sha256": "a8e4468b0b9b65215162e0690a46d65c7d1350d30f26e6187f10d800e1844fef",
+      "source_units": 110,
+      "final_problems": 114,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 15,
+      "source_path": "数学分析讲义/data/chapters/chapter_15.reviewed.json",
+      "sha256": "fe963a5a0a07072bc65e045509c88b504d351bc9ace6f06238270ab0dcf5e066",
+      "source_units": 99,
+      "final_problems": 100,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 16,
+      "source_path": "数学分析讲义/data/chapters/chapter_16.reviewed.json",
+      "sha256": "f53580085fa7efeb05cca8b679b6c748a22850189b1cec94e72c2d791938f233",
+      "source_units": 69,
+      "final_problems": 70,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 17,
+      "source_path": "数学分析讲义/data/chapters/chapter_17.reviewed.json",
+      "sha256": "03d210ed378867eb7ab52d459cac5a637fee7387d4bf08519e828fb144f063d4",
+      "source_units": 64,
+      "final_problems": 65,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 18,
+      "source_path": "数学分析讲义/data/chapters/chapter_18.reviewed.json",
+      "sha256": "5b20bd6307a7adaac6fb6ec0d849839a891b79e2a413b595cc619b6825722b27",
+      "source_units": 42,
+      "final_problems": 42,
+      "ocr_crosscheck_status": "verified"
+    }
+  ],
+  "curated_sha256": "e748b9b7c3f488880cb247379f100bf16189994a9856509b523d9e34c7046d01",
+  "notes": [
+    "正式版合并三册全部18章，1550个原始题目单位拆分为1762题；题库状态为complete。",
+    "全部468页重新渲染；467页PNG与已逐页检查的校样完全一致，变化的正式封面第1页重新实际查看通过。",
+    "874个正文源页均通过严格OCR证据核验；36个封面、目录等排除页具备明确排除原因。全部源页题目起始数与正式题库一致。",
+    "目录印刷页码、18个书签、18个PDF目录链接及1762个题号的顺序均与正式PDF实际内容相符。",
+    "本报告确认本地正式成品验收通过；GitHub上传状态另见发布记录。"
+  ],
+  "updated_at": "2026-10-28T05:09:13.627481+00:00",
+  "source_pages_total": 910,
+  "ocr_reviewed_source_pages": 874,
+  "excluded_source_pages": 36,
+  "source_review_coverage_verified": true,
+  "curated_status": "complete",
+  "problems_status": "complete"
+}

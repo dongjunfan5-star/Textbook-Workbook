@@ -1,0 +1,116 @@
+{
+  "status": "verified",
+  "project": "数学分析讲义",
+  "chapter": 6,
+  "pages": [
+    {
+      "page_number": 240,
+      "ocr_markdown_sha256": "04a4c9b7a1b00846cd29568acf7f76247d8a5b5e2753310d926d97cc7a6de2bb"
+    },
+    {
+      "page_number": 241,
+      "ocr_markdown_sha256": "8e720567677e51a098b35c3476851b0e810d99dfcead607f3d4d2f1b120a6ace"
+    },
+    {
+      "page_number": 242,
+      "ocr_markdown_sha256": "a36a77a34b280320f5058d664441ae178e28c346a5f255934f6d3077f9580340"
+    },
+    {
+      "page_number": 243,
+      "ocr_markdown_sha256": "908675e5c510752bcf2a33c3a58c1c9d2b519abded090287c6c232aea81011d2"
+    },
+    {
+      "page_number": 244,
+      "ocr_markdown_sha256": "37b494104b1de03d1365da323a1abf1e8f6afeddea7938ef5d3c3f988fcfb40a"
+    },
+    {
+      "page_number": 245,
+      "ocr_markdown_sha256": "609e5571072507d218175492daa42b57041f9d9995c0d3e75a636308930c24c5"
+    },
+    {
+      "page_number": 246,
+      "ocr_markdown_sha256": "a915f72dc13ea61fd226b0b15c987df21f8fc6235fa6252bad55fabcbe94e66a"
+    },
+    {
+      "page_number": 247,
+      "ocr_markdown_sha256": "690833a1cce4ec6cba03f9f21aa0d9fdaee5befee52a8d0fddc9e517732e6cb1"
+    },
+    {
+      "page_number": 248,
+      "ocr_markdown_sha256": "cbec642d1005d49469abc908c4f1b62c135e9969825223427b4a273a3d403b30"
+    },
+    {
+      "page_number": 249,
+      "ocr_markdown_sha256": "679dc29e0152a536f2c8f6e70d549aaf393c8582bba319fe91881a614de765dc"
+    },
+    {
+      "page_number": 250,
+      "ocr_markdown_sha256": "167e1eb0441b50d288feb0e3d0c7c8b27919f2dd7f3b621ba30c3e59211384a7"
+    },
+    {
+      "page_number": 251,
+      "ocr_markdown_sha256": "e8f62896a831b28b623c5a167b4bfe92203bf115be011d86da3756fa00f5db01"
+    },
+    {
+      "page_number": 252,
+      "ocr_markdown_sha256": "d98bada79eac82c647a25861a1b8338a65f31c0c38a170d113e695d7e7fc4c02"
+    },
+    {
+      "page_number": 253,
+      "ocr_markdown_sha256": "dd889ff8e61330b3faa6cdb55474952e0d9303a24b4e756af8e8b0f960a88163"
+    },
+    {
+      "page_number": 254,
+      "ocr_markdown_sha256": "c77193303e6acf1e03e3e4baee499918a3ac42d783141fea1fa87cb16457b3dd"
+    },
+    {
+      "page_number": 255,
+      "ocr_markdown_sha256": "89ccf39159a4113176ad02fb526b0e5a790547daf8c6b581281e9403fb3f2d44"
+    },
+    {
+      "page_number": 256,
+      "ocr_markdown_sha256": "1355060b20d73e8993d831ba77afb941b7aeda4d884b21ae5a9b84f0c5f6d475"
+    },
+    {
+      "page_number": 257,
+      "ocr_markdown_sha256": "9c550ecba3f8a975a4aad19953ec5333fc8a90eae1682cd5228ebdbc7944c8bc"
+    },
+    {
+      "page_number": 258,
+      "ocr_markdown_sha256": "829d4f54215049ac4e0c72e2706eb33d54e5aae5a9966d40f0b7f9e60e3b8c87"
+    },
+    {
+      "page_number": 259,
+      "ocr_markdown_sha256": "00f03db483f9b9815b8c4326d3dd618a0282170686278bda43d51440f223e9fa"
+    },
+    {
+      "page_number": 260,
+      "ocr_markdown_sha256": "28293705d89649d2e9ce81eaffbfbbd9a5c0432d1726b25d02d565a60c326331"
+    },
+    {
+      "page_number": 261,
+      "ocr_markdown_sha256": "2c6a27c6f708f73a3c628e4b233196eff0608e27bf3ba7600cf3cb26c25d275f"
+    },
+    {
+      "page_number": 262,
+      "ocr_markdown_sha256": "e91dea2ab21bf143f8187aedb9a6f89a251e937c0024dafb8ff93aaa17d341b3"
+    },
+    {
+      "page_number": 263,
+      "ocr_markdown_sha256": "d78ebc22c85e4043a44555ba7108215a7e39d39ee91fe454fb8fbc9d62e6c1fb"
+    },
+    {
+      "page_number": 264,
+      "ocr_markdown_sha256": "fffa2a9bb7028fd8fc272ddf39768a9c78601f489b4d5054d94931f36e37a3fe"
+    },
+    {
+      "page_number": 265,
+      "ocr_markdown_sha256": "a24ad672397d3ec49aa766d4210972003aecbb5adc3253b6d4d98bfad8af9100"
+    }
+  ],
+  "method": "26页源图全页核查；全部例题OCR片段、251/252/264/265页全部习题OCR与源图逐项对照；无题页扫描例题及读者任务标记。",
+  "corrections": [
+    "OCR将第252页第四方程与部分小问序号/双栏次序拆散，按源图重排。",
+    "第251页一般方程的退化系数情况以及第252页奇异初值题经原图放大确认，题面明确标注校订。"
+  ]
+}

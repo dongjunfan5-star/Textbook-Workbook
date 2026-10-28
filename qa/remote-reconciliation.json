@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "inspected_date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "repository": "dongjunfan5-star/Textbook-Workbook",
+  "url": "https://github.com/dongjunfan5-star/Textbook-Workbook",
+  "repository_id": 1424594066,
+  "visibility": "private",
+  "default_branch": "main",
+  "remote_head_sha": "ea8346d5f1cfafa1914e6b202ce14e08575c0c9c",
+  "remote_tree_sha": "e424e0c28afff6782377d12c10044fca017389c8",
+  "head_message": "Update math and physics textbook entries in README",
+  "head_parent_shas": [
+    "386d75f6d7e382d019c23db0746cbb99b902ff0b"
+  ],
+  "branch_protected": false,
+  "permissions": {
+    "admin": true,
+    "maintain": true,
+    "pull": true,
+    "push": true,
+    "triage": true
+  },
+  "inspection_method": "Authenticated GitHub connector; recursive tree and contents read at the recorded immutable head",
+  "remote_file_count": 11,
+  "remote_files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "sha": "3065a5c00bec42684891a3df43cf0759a45ce3c2",
+      "size": 1416
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "sha": "b17bf3cda09a1819bb485456ecf8e75765b73c8e",
+      "size": 2871
+    },
+    {
+      "path": "制作要求.txt",
+      "mode": "100644",
+      "sha": "c66f75ef22bf9b8f2f0745b61568d35900d379b1",
+      "size": 6860
+    },
+    {
+      "path": "数学分析教程（史济怀著）/chapters/.gitkeep",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "数学分析教程（史济怀著）/figures/.gitkeep",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "数学分析教程（史济怀著）/input/.gitkeep",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "数学分析教程（史济怀著）/main.tex",
+      "mode": "100644",
+      "sha": "cfb783cf3ddcc52720ab3d5fe84c7fb07f468e4b",
+      "size": 584
+    },
+    {
+      "path": "数学分析讲义/chapters/.gitkeep",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "数学分析讲义/figures/.gitkeep",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "数学分析讲义/input/.gitkeep",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "数学分析讲义/main.tex",
+      "mode": "100644",
+      "sha": "c4bdd14d84ce04ed36c2362baf18d50163044d59",
+      "size": 587
+    }
+  ],
+  "remote_license_present": false,
+  "remote_changes_made": false,
+  "local_git": {
+    "root_repository_present": false,
+    "sandbox_https_result": "getaddrinfo() thread failed to start",
+    "escalated_https_result": "Network reached GitHub; Git could not obtain credentials with interactive prompts disabled.",
+    "clone_created": false,
+    "credentials_or_global_config_modified": false,
+    "connector_authentication_available": true,
+    "ssh_key_required": false
+  },
+  "reconciliation": {
+    "keep_existing_history": true,
+    "readonly_snapshot": ".cache/remote-snapshot.json",
+    "remote_tutorial_path": "数学分析教程（史济怀著）",
+    "local_tutorial_path": "数学分析教程",
+    "tutorial_directory_action": "Preserve the four existing tutorial placeholders during the lecture-only release. Migrate only verified unchanged placeholders when the tutorial is completed and published.",
+    "readme_retain_future_titles": [
+      "线性代数及其应用",
+      "力学（舒幼生）",
+      "经典力学（高显）",
+      "力学（朗道）"
+    ],
+    "readme_fix": [
+      "Use actual PDF basenames for current textbooks",
+      "Replace old broken source/PDF links with verified project paths",
+      "Use actual curated problem counts",
+      "Preserve original project principles while applying explicitly approved rewritten-example and final-number rules"
+    ],
+    "remote_ignore_rules_missing_locally": [
+      "*.synctex(busy)",
+      ".ipynb_checkpoints/",
+      "tmp/",
+      "temp/",
+      "rendered_pages/",
+      ".vscode/",
+      ".idea/",
+      "*~",
+      "*.bak"
+    ],
+    "publish_exclusions": [
+      "Original input PDFs/images (except directory .gitkeep)",
+      "Environments and downloaded tools/models",
+      "Unreviewed OCR output and rendered whole textbook pages",
+      "Build intermediates",
+      "Credentials and machine-specific configuration"
+    ],
+    "publish_inclusions": [
+      "main.pdf in each selected completed project; this release selects 数学分析讲义 only",
+      "LaTeX sources, approved figures and curated data",
+      "Build/configuration scripts and tests",
+      "Review records and noncommercial license"
+    ]
+  },
+  "recommended_publication": {
+    "method": "GitHub connector Git Data API, one atomic fast-forward update after final validation",
+    "prerequisites": [
+      "Every selected publication project is completed and reviewed; unselected projects may remain in progress",
+      "Final PDF page/number/content audit passes",
+      "Re-read the current main ref and recursive tree immediately before publish"
+    ],
+    "sequence": [
+      "Create text blobs as UTF-8 and PDF/image blobs as base64 for explicit allowlisted publication files.",
+      "Create a tree with base_tree_sha set to the freshly read remote tree, preserving all unrelated existing entries.",
+      "For this lecture-only release, preserve all four tutorial placeholders; no deletions are proposed.",
+      "Create a commit whose parent_sha is the freshly read main head; message includes workbook names and verified final problem counts.",
+      "Update main using force=false and expected_sha equal to that same read head.",
+      "If the head changes or update is rejected, inspect the newer head/tree, reconcile and recreate against it; do not force.",
+      "Read back main, commit/tree and final PDFs to verify the publication."
+    ],
+    "direct_git_alternative": "If a Git credential becomes available through an approved normal mechanism, clone existing main, overlay only reviewed publication files, commit, and push normally. Do not initialize an unrelated root history or overwrite the existing remote."
+  },
+  "publication_preparation": {
+    "script": "scripts/prepare_publication.py",
+    "package_directory": ".cache/publication/",
+    "acceptance_status": "qa/production-status.json",
+    "acceptance_schema": "qa/production-status.schema.json",
+    "required_physical_page_review": "Each configured source PDF physical page must be reviewed or explicitly excluded with a reason. Reviewed pages record source units beginning on the page; zero units needs a reason.",
+    "ocr_coverage": "ocr_required_pages follows production-books.json included_ranges; required <= complete <= planned. Excluded front/back matter does not have to pass OCR.",
+    "complete_gate": "The selected project, curated data and built data must be complete. All-project mode also requires top-level completion. Counts, source hashes, OCR evidence, reviewed PDF hash, every PDF page and final problem sequence are checked.",
+    "filter": "Explicit allowlist intersected with repository .gitignore, denying inputs, OCR, page renders, caches, models, environments and credentials. Only referenced final-number figures are eligible.",
+    "remote_mutation": false,
+    "local_git_root_created": false,
+    "sample_preview_command": "python scripts/prepare_publication.py --sample-preview",
+    "sample_preview_ready_for_full_publication": false,
+    "obsolete_directory_deletion_policy": "Only the four recorded old tutorial placeholder files are proposed for removal. Re-read remote main immediately before publishing; preserve any new remote work and refuse stale-head updates.",
+    "selected_project_command": "python scripts/prepare_publication.py --project 数学分析讲义"
+  },
+  "publication_scope": [
+    "数学分析讲义"
+  ]
+}

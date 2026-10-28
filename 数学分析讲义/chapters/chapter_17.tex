@@ -1,0 +1,248 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{16}\section{映射的微分}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.1}
+设 $\mathcal A^{(k)},\mathcal A\in L(\mathbb R^n,\mathbb R^m)$，其标准基下的矩阵分别为 $(a_{ij}^{(k)})$、$(a_{ij})$。证明 $\|\mathcal A^{(k)}-\mathcal A\|\to0$ 当且仅当每个 $a_{ij}^{(k)}\to a_{ij}$。这里线性映射及矩阵的范数均为 Euclid 范数诱导的算子范数 $\|T\|=\sup_{|x|=1}|Tx|$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.2}
+设 $A$ 为 $n$ 阶实矩阵，定义线性映射 $\mathcal A:M(n,\mathbb R)\to M(n,\mathbb R)$，$\mathcal A(H)=AH$。求它在标准基 $\{E_{ij}\}$ 下的矩阵，其中 $E_{ij}$ 的第 $i$ 行第 $j$ 列为 $1$，其余元素为 $0$。请明确所采用的基的排列顺序。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.3}
+设 $f:\mathbb R^n\to\mathbb R$ 为线性函数，标准基上 $f(e_j)=a_j$。证明 $\|f\|=(\sum_{j=1}^n a_j^2)^{1/2}$。这里线性映射及矩阵的范数均为 Euclid 范数诱导的算子范数 $\|T\|=\sup_{|x|=1}|Tx|$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.4}
+设 $\mathcal A$ 为 Euclid 空间 $\mathbb R^n$ 上的线性变换，标准基下的矩阵为 $A=(a_{ij})$，即 $\mathcal Ae_j=\sum_{i=1}^n a_{ij}e_i$。这里线性映射及矩阵的范数均为 Euclid 范数诱导的算子范数 $\|T\|=\sup_{|x|=1}|Tx|$。
+\SubQ{1}{证明 $\|\mathcal A\|=\|A\|$。}
+\SubQ{2}{证明 $\|\mathcal A\|\le(\sum_{i,j}|a_{ij}|^2)^{1/2}$。}
+\SubQ{3}{若 $\mathcal A$ 为对称变换，特征值为 $\lambda_1,\ldots,\lambda_n$，证明 $\|\mathcal A\|=\max_j|\lambda_j|$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.5}
+设 $\mathcal A^{(k)}$ 为 $L(\mathbb R^n,\mathbb R^n)$ 中的序列，其标准基下的矩阵为 $(a_{ij}^{(k)})$。证明它依算子范数收敛于线性变换 $\mathcal A$，当且仅当所有矩阵元素 $a_{ij}^{(k)}$ 分别收敛于 $a_{ij}$，其中 $(a_{ij})$ 为 $\mathcal A$ 的矩阵。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.6}
+设 $\mathcal A:(a,b)\to L(\mathbb R^n,\mathbb R^m)$，其在标准基下的矩阵为 $(a_{ij}(t))$。证明 $\mathcal A(t)$ 依算子范数连续，当且仅当每个 $a_{ij}(t)$ 连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.7（改写）}
+设 $\mathcal L:\mathbb R^n\to\mathbb R^m$ 为线性映射。证明它在任意点 $x$ 可微，且 $d\mathcal L_x=\mathcal L$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.8（改写）}
+设 $\gamma:(a,b)\to\mathbb R^m$ 为可微映射。证明 $d\gamma_t(1)=\gamma^{\prime}(t)$，并证明微分的算子范数满足 $\|d\gamma_t\|=|\gamma^{\prime}(t)|$。说明曲线切向量与映射微分的关系。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.9（改写）}
+设 $M\subset\mathbb R^n$ 为开集，$f:M\to\mathbb R$ 可微。证明：存在唯一向量 $\nabla f(x)$ 使对所有 $h\in\mathbb R^n$ 有 $df_x(h)=\langle\nabla f(x),h\rangle$；求该向量在标准基下的坐标，并证明 $\|df_x\|=|\nabla f(x)|$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.10（改写）}
+设 $U\subset\mathbb R^n$ 为开集，$f:U\to\mathbb R^m$ 为 $C^1$ 映射，$\gamma(t)$ 为 $U$ 中的光滑曲线。证明\[\frac d{dt}(f\circ\gamma)(t)=df_{\gamma(t)}\bigl(\gamma^{\prime}(t)\bigr).\]当 $m=1$ 时，用梯度表示该切向量；当 $m>1$ 时，用 $f$ 的各分量函数的梯度表示它。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.11（改写）}
+设 $r(t)=(\cos t,\sin t)$，$0\le t\le\pi$。证明下列两种中值等式均不能成立。
+\SubQ{1}{不存在 $\theta\in[0,\pi]$ 使 $r(\pi)-r(0)=\pi r^{\prime}(\theta)$。}
+\SubQ{2}{不存在 $\theta\in[0,\pi]$ 使 $|r(\pi)-r(0)|=\pi|r^{\prime}(\theta)|$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.12}
+设 $M\subset\mathbb R^n$ 为开集，$f:M\to\mathbb R^m$ 在 $x\in M$ 可微。证明 $f$ 在 $x$ 连续，且在该点的微分唯一。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.13}
+设 $M\subset\mathbb R^n$ 为开集，$f=(f_1,\ldots,f_m):M\to\mathbb R^m$。证明 $f$ 在一点可微当且仅当每个分量函数在该点可微，且 $df=(df_1,\ldots,df_m)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.14}
+求下列函数在指定点的微分。
+\SubQ{1}{$f(x,y)=x^2-xy+y^3$，点 $(1,1)$。}
+\SubQ{2}{$f(x_1,\ldots,x_n)=(x_1^2+\cdots+x_n^2)^{1/2}$，点 $(a_1,\ldots,a_n)\ne0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.15}
+求下列映射的微分和 Jacobi 矩阵。
+\SubQ{1}{$f(x,y)=(x^2-y^2,2xy)$。}
+\SubQ{2}{$f(x,y,z)=(z-y,x-z,y-x)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.16}
+设 $D\subset\mathbb R^n$ 为开集，$f,g:D\to\mathbb R^m$ 为可微映射。证明 $\langle f,g\rangle:D\to\mathbb R$ 可微，并求 $d\langle f,g\rangle$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.17}
+设 $D\subset\mathbb R^n$ 为开集，$f,g:D\to\mathbb R^3$ 为可微映射。证明对 $x\in D$、$h\in\mathbb R^n$ 有\[d(f\times g)_x(h)=df_x(h)\times g(x)+f(x)\times dg_x(h).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.18}
+设 $D\subset\mathbb R^n$ 为开集，线段 $\{tx+(1-t)y:0\le t\le1\}$ 包含于 $D$，$f:D\to\mathbb R$ 为 $C^1$ 函数。证明该线段上存在一点 $z$，满足 $f(y)=f(x)+\langle\nabla f(z),y-x\rangle$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.19}
+设 $M\subset\mathbb R^n$ 为连通开集，$f:M\to\mathbb R^m$ 可微。若存在固定线性映射 $\mathcal L\in L(\mathbb R^n,\mathbb R^m)$，使每个 $x\in M$ 均有 $df_x=\mathcal L$，证明 $f(x)=\mathcal L(x)+c$，其中 $c\in\mathbb R^m$ 为常向量。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.20}
+设 $f:\mathbb R^n\to\mathbb R$ 可微，$\widetilde e_1,\ldots,\widetilde e_n$ 为一组单位正交基，以 $\partial f/\partial\widetilde e_j$ 表示沿 $\widetilde e_j$ 的方向导数。证明\[\sum_{j=1}^n\left(\frac{\partial f}{\partial\widetilde e_j}\right)^2=\sum_{j=1}^n\left(\frac{\partial f}{\partial x_j}\right)^2.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.21}
+设 $M\subset\mathbb R^n$ 为凸开集，$f:M\to\mathbb R$ 可微。称 $f$ 为凸函数，是指任意 $x,y\in M$ 和 $0<t<1$ 均满足 $f(tx+(1-t)y)\le tf(x)+(1-t)f(y)$。证明 $f$ 为凸函数当且仅当任意 $x,y\in M$ 均有 $f(y)-f(x)\ge df_x(y-x)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.22}
+设 $\Omega\subset M(n,\mathbb R)$ 为全体可逆矩阵。定义 $\phi:\Omega\to\Omega$，$\phi(A)=A^{-1}$。证明 $\phi$ 可微，并求其微分。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.23（改写）}
+考虑映射 $f:\mathbb R^2\setminus\{0\}\to\mathbb R^2$，$f(x,y)=(x^2-y^2,2xy)$，即复映射 $z\mapsto z^2$。计算 Jacobi 矩阵及其行列式，证明 $f$ 在每一点附近均存在局部逆映射，但在整个定义域上不是单射。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.24（改写）}
+设 $\phi(r,\theta)=(r\cos\theta,r\sin\theta)$，定义域为 $r>0$、$\theta\in\mathbb R$。计算 Jacobi 矩阵并证明处处局部可逆；说明它为何不是全局单射。把定义域限制为 $V=\{(r,\theta):r>0,\ 0<\theta<2\pi\}$，求像集并证明限制映射为微分同胚。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.25}
+讨论 $\mathbb R^n$（$n\ge2$）中极坐标的定义，并计算其 Jacobi 行列式。采用如下递归约定：$r=|x|$；二维时采用通常的有向极角；$n\ge3$ 时，$\theta_1$ 为 $x_1$ 轴与向量 $x$ 的夹角，再把 $x$ 向坐标子空间 $Ox_2\cdots x_n$ 的投影用 $(n-1)$ 维极坐标表示；最后一角为二维平面内的极角。写出坐标变换公式，并证明当 $r>0$、$0<\theta_j<\pi$（$1\le j\le n-2$）、$-\pi<\theta_{n-1}<\pi$ 时，该变换到其像集是微分同胚，并写出其逆变换公式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.26}
+设 $f:\mathbb R^2\to\mathbb R^2$，$f(x,y)=(e^x\cos y,e^x\sin y)$。
+\SubQ{1}{$f$ 是否为开映射？}
+\SubQ{2}{求集合 $f^{-1}(\{(1,0)\})$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.27}
+举例说明：存在同胚 $f:\mathbb R\to\mathbb R$，其为 $C^1$ 映射，但逆映射 $f^{-1}$ 不是 $C^1$ 映射。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.28}
+设 $f:\mathbb R^2\to\mathbb R^2$，$(u,v)=f(x,y)=(x^2+y^2,x^2-y^2)$。
+\SubQ{1}{求值域 $V=\operatorname{Im}f$。}
+\SubQ{2}{求临界点集合 $W=\{P\in\mathbb R^2:\det Jf(P)=0\}$。}
+\SubQ{3}{设 $U=\{(x,y):x>0,y>0\}$。证明 $f|_U$ 为单射且 $f(U)=V^\circ$，并求该限制映射的逆映射。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.29}
+证明以下命题。
+\SubQ{1}{同胚保持连通性、弧连通性与紧致性。}
+\SubQ{2}{$\mathbb R^n$ 与单位开球 $D^n=\{x\in\mathbb R^n:|x|<1\}$ 同胚。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.30（校订）}
+设 $f:\mathbb R^2\to\mathbb R^2$，$(u,v)=f(x,y)$ 为 $C^1$ 映射，满足 Cauchy--Riemann 方程\[u_x=v_y,\qquad u_y=-v_x.\]证明：若 $f$ 在一点的 Jacobi 矩阵可逆，则该点附近的局部逆映射也满足 Cauchy--Riemann 方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.31}
+证明：每个充分接近单位矩阵 $I_n$ 的 $n$ 阶实方阵 $M$ 均存在平方根，即方程 $A^2=M$ 有解；且在 $I_n$ 的某个固定邻域内，此解唯一。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.32（改写、校订）}
+设 $f,g\in C^1(\mathbb R^4)$，方程组 $f(x,y,u,v)=g(x,y,u,v)=0$ 在点 $P_0=(x_0,y_0,u_0,v_0)$ 成立，且 $\partial(f,g)/\partial(u,v)$ 在 $P_0$ 非零。证明在该点附近可唯一解出 $C^1$ 函数 $u=u(x,y)$、$v=v(x,y)$，并用 $f,g$ 的偏导数表示 $u_x,u_y,v_x,v_y$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.33（改写）}
+设 $f:\mathbb R^2\to\mathbb R^2$，$f(x_1,x_2)=(x_1^2,x_2^2)$。计算它的 Jacobi 矩阵以及在下列各点的秩，并据此判断映射的秩是否必为常数。
+\SubQ{1}{$(0,0)$。}
+\SubQ{2}{$(1,0)$。}
+\SubQ{3}{$(0,1)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.34（改写）}
+设 $f:\mathbb R^2\to\mathbb R^2$，$f(x_1,x_2)=(x_1^2,x_2^2)$。计算它的 Jacobi 矩阵以及在下列各点的秩，并据此判断映射的秩是否必为常数。
+\SubQ{1}{$(1,1)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.35（改写）}
+设线性映射 $\mathcal A:\mathbb R^m\to\mathbb R^n$ 的秩为 $r$。证明存在 $\mathbb R^m$ 与 $\mathbb R^n$ 的线性自同构 $\mathcal L_m,\mathcal L_n$，使\[(\mathcal L_n\circ\mathcal A\circ\mathcal L_m^{-1})(u_1,\ldots,u_m)=(u_1,\ldots,u_r,0,\ldots,0).\]并写出对应的矩阵等价关系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.36}
+设 $f=(f_1,f_2):\mathbb R^5\to\mathbb R^2$，其中\[f_1(x_1,x_2,y_1,y_2,y_3)=2e^{x_1}+x_2y_1-4y_2+3,\qquad f_2=x_2\cos x_1-6x_1+2y_1-y_3.\]令 $a=(0,1)$、$b=(3,2,7)$，则 $f(a,b)=0$。记 $A=df_{(a,b)}$，$A_x(h)=A(h,0)$、$A_y(k)=A(0,k)$。
+\SubQ{1}{求 $A,A_x,A_y$ 在标准基下的矩阵。}
+\SubQ{2}{证明 $A_x$ 可逆，故存在定义于 $b$ 附近的 $C^1$ 映射 $g$，满足 $g(b)=a$、$f(g(y),y)=0$；求 $dg_b$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.37}
+对参数 $a=(a_1,\ldots,a_n)\in\mathbb R^n\setminus\{0\}$，令\[f_a(x)=x^n+a_1x^{n-1}+\cdots+a_{n-1}x+a_n.\]若 $f_{a^*}$ 有 $n$ 个互异实根，证明存在 $a^*$ 的邻域 $U$，使每个 $a\in U$ 对应的 $f_a$ 也有 $n$ 个互异实根，且这些根可分别表示为系数 $a$ 的光滑函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.38}
+设 $f:\mathbb R^3\to\mathbb R$ 为 $C^1$ 函数。在什么条件下，由 $f(x,y,z)=0$ 所定义的局部隐函数满足\[\left(\frac{\partial z}{\partial y}\right)_x\left(\frac{\partial y}{\partial x}\right)_z\left(\frac{\partial x}{\partial z}\right)_y=-1?\]下标表示求偏导时保持不变的变量。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.39}
+设 $f:\mathbb R^3\to\mathbb R$ 光滑，$f(a)=0$ 且 $\nabla f(a)\ne0$。证明在 $a$ 附近可选取新的局部坐标，使曲面 $f(x,y,z)=0$ 在新坐标下表示为一个平面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.40}
+设 $f:\mathbb R^n\to\mathbb R^m$ 为 $C^1$ 映射，以 $\operatorname{rank}f(x)=\operatorname{rank}df_x$ 表示在 $x$ 的秩。证明每个 $x_0$ 均有邻域，使该邻域内 $\operatorname{rank}f(x)\ge\operatorname{rank}f(x_0)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.41（校订）}
+设 $f=f(x_1,x_2):\mathbb R^2\to\mathbb R$ 为 $C^3$ 函数。
+\SubQ{1}{若 $f(0)=0$，证明存在 $C^2$ 函数 $g_1,g_2$，使 $f(x_1,x_2)=x_1g_1(x_1,x_2)+x_2g_2(x_1,x_2)$，且 $g_i(0)=\partial f/\partial x_i(0)$。}
+\SubQ{2}{若 $P$ 为 $f$ 的驻点，且 $f$ 在 $P$ 的 Hessian 矩阵非退化，证明存在 $P$ 附近的 $C^1$ 微分同胚 $\phi:U\to V$，满足 $\phi(P)=0$ 及\[(f\circ\phi^{-1})(u_1,u_2)=f(P)+\varepsilon_1u_1^2+\varepsilon_2u_2^2,\qquad \varepsilon_i\in\{-1,1\}.\]}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.42（改写）}
+考虑单位圆 $S=\{(x,y):x^2+y^2=1\}$ 与参数映射 $q(\theta)=(\cos\theta,\sin\theta)$。证明不存在开区间 $I\subset\mathbb R$ 使 $q:I\to S$ 为双射。给出有限个开区间上的正则参数曲线，使它们的像覆盖 $S$；再把 $S$ 分成有限个局部图形，每个图形是 $x$ 的函数或 $y$ 的函数。这里正则指参数曲线的导数处处不为零。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.43（改写）}
+考虑单位球面 $S=\{(x,y,z):x^2+y^2+z^2=1\}$。把 $S$ 表示为有限个光滑函数图形的并，每个图形用其中两个坐标表示第三个坐标；并写出球坐标给出的球面参数表示。再讨论 $S$ 与 $xy$ 平面的交线：分别给出方程组和局部函数图形表示，并说明它为何不能表示为以 $z$ 为自变量的函数图形。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.44（改写）}
+考虑平面曲线 $y^3-x^2=0$。给出它的光滑参数表示，考察该表示在原点是否正则，并说明曲线在原点的几何特征。把它表示为 $y$ 关于 $x$ 的函数，讨论该函数在原点是否可微。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.45（改写）}
+设 $1\le m<n$，$U\subset\mathbb R^m$ 为开集，$\Phi:U\to\mathbb R^{n-m}$ 为 $C^k$ 映射（$k\ge1$）。定义图形 $\Gamma(\Phi)=\{(x,\Phi(x)):x\in U\}$。证明 $x\mapsto(x,\Phi(x))$ 为满秩映射，从而该图形给出一个 $m$ 维 $C^k$ 曲面。若允许任选 $m$ 个坐标作为自变量，写出相应的图形及其参数表示。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.46（改写）}
+设 $U\subset\mathbb R^n$ 为开集，$f:U\to\mathbb R$ 为 $C^k$ 函数（$k\ge1$），且 $\nabla f$ 处处非零。给定 $x^0\in U$，令 $S=\{x\in U:f(x)=f(x^0)\}$。证明 $S$ 是 $(n-1)$ 维曲面，并证明\[T_xS=\{v\in\mathbb R^n:\langle v,\nabla f(x)\rangle=0\}\qquad(x\in S).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.47}
+求函数 $f(x,y,z)=xyz$ 在约束条件 $x^2+y^2+z^2=1$、$x+y+z=0$ 下的最大值与最小值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.48}
+设 $A=(a_{ij})$ 为实对称矩阵。求二次型\[f(x)=\sum_{i,j=1}^n a_{ij}x_ix_j\]在单位球面 $S^{n-1}=\{x\in\mathbb R^n:|x|^2=1\}$ 上的极值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.49}
+下列方程或方程组中的实常数取何值时，其解集是非空的 $C^1$ 曲面？对这些情形给出局部函数图形表示。
+\SubQ{1}{$x^2+y^2-z^2=c$。}
+\SubQ{2}{$x^2+y^2+z^2=c_1,\quad x^2+y^2-z^2=c_2$。}
+\SubQ{3}{$xyz=c$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.50}
+对下列方程或方程组所定义的 $C^1$ 曲面，计算每一点的切空间与法空间；这里的切空间和法空间均指线性空间。
+\SubQ{1}{$x^2+y^2-z^2=c$。}
+\SubQ{2}{$x^2+y^2+z^2=c_1,\quad x^2+y^2-z^2=c_2$。}
+\SubQ{3}{$xyz=c$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.51}
+设 $M\subset\mathbb R^n$ 为 $m$ 维 $C^1$ 曲面，$f:M\to\mathbb R$ 为 $C^1$ 函数。证明：对每个 $x\in M$，存在 $x$ 在 $\mathbb R^n$ 中的邻域 $U$ 及 $C^1$ 函数 $F:U\to\mathbb R$，使每个 $y\in M\cap U$ 均有 $F(y)=f(y)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.52}
+设 $p=(\widetilde x,\widetilde y,\widetilde z)$ 为单位球面 $x^2+y^2+z^2=1$ 上一点，$v=(v_1,v_2,v_3)$ 为球面在该点的一个切向量。构造球面上的 $C^1$ 曲线 $\gamma$，使 $\gamma(0)=p$、$\gamma^{\prime}(0)=v$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.53}
+设 $n\ge m$。证明：秩为 $m$ 的线性映射 $\mathcal A\in L(\mathbb R^m,\mathbb R^n)$ 全体构成线性空间 $L(\mathbb R^m,\mathbb R^n)$ 中的一个开集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.54}
+设 $M$ 为一个位于 $xz$ 平面内且不与 $z$ 轴相交的圆周绕 $z$ 轴旋转一周所得的环面。证明 $M$ 是 $C^1$ 的二维曲面，并计算它在每一点的切空间。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.55}
+设 $M_1\subset\mathbb R^{n_1}$、$M_2\subset\mathbb R^{n_2}$ 分别为 $m_1$、$m_2$ 维 $C^1$ 曲面。证明 $M_1\times M_2$ 为 $\mathbb R^{n_1+n_2}$ 中的 $(m_1+m_2)$ 维 $C^1$ 曲面，并用 $T_xM_1$ 与 $T_yM_2$ 表示 $T_{(x,y)}(M_1\times M_2)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.56}
+设 $n\ge2$。证明方程 $x_1^2+\cdots+x_n^2=1$ 定义了 $\mathbb R^n$ 中的一个 $(n-1)$ 维 $C^1$ 曲面。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.57}
+设 $n\ge2$。把 $n$ 阶实方阵空间等同于 $\mathbb R^{n^2}$。证明行列式等于 $1$ 的矩阵全体构成一个 $(n^2-1)$ 维 $C^1$ 曲面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.58}
+设 $n\ge2$。把 $n$ 阶实方阵空间等同于 $\mathbb R^{n^2}$。证明正交矩阵全体构成一个维数为 $n(n-1)/2$ 的 $C^1$ 曲面。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.59}
+设 $M\subset\mathbb R^n$ 为 $C^1$ 曲面，$y^0\in\mathbb R^n\setminus M$。若 $x\in M$ 是与 $y^0$ 距离最大或最小的点，证明线段 $xy^0$ 与 $M$ 在 $x$ 处的切空间垂直。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.60}
+设 $M,M^{\prime}\subset\mathbb R^n$ 为两个不相交的 $C^1$ 曲面。若 $x^0\in M$、$y^0\in M^{\prime}$ 实现两曲面之间距离的最大值或最小值，证明线段 $x^0y^0$ 与两曲面在相应点处的切空间均垂直。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.61}
+用 Lagrange 乘数法求下列函数在指定约束下的极值。
+\SubQ{1}{$f(x,y,z)=x^2+4y^2-z^2$，约束 $x^2+y^2+z^2-1=0$。}
+\SubQ{2}{$f(x,y,z)=zx+2y$，约束 $x^2+y^2+2z^2-1=0$、$x^2+y+z=0$（此小问只需写出极值点应满足的方程）。}
+\SubQ{3}{$f(x,y,z)=x^2+y^2+z^2$，约束 $x^2+4y^2-2z^2-1=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.62}
+用二阶导数判别法判定下列约束极值问题中临界点的性质。
+\SubQ{1}{$f(x,y,z)=x^2+4y^2-z^2$，约束 $x^2+y^2+z^2-1=0$。}
+\SubQ{2}{$f(x,y,z)=zx+2y$，约束 $x^2+y^2+2z^2-1=0$、$x^2+y+z=0$。}
+\SubQ{3}{$f(x,y,z)=x^2+y^2+z^2$，约束 $x^2+4y^2-2z^2-1=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.63}
+求函数 $f(x,y)=x^3-3xy+y$ 在单位闭圆盘 $x^2+y^2\le1$ 上的最值；只需写出取得最值的点应满足的方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.64（校订）}
+设 $x_j>0$（$1\le j\le n$）。证明函数 $\sum_{j=1}^n x_j\log x_j$ 在约束 $\sum_{j=1}^n x_j=1$ 下，于点 $(1/n,\ldots,1/n)$ 取得最小值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.65}
+设 $X=(x_{ij})$ 为 $n$ 阶实方阵，$v_1,\ldots,v_n$ 为它的行向量。证明\[|\det X|\le |v_1|\cdots|v_n|.\]
+\end{minipage}\par\vfill

@@ -1,0 +1,189 @@
+[
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 72,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "章节引言与符号函数的说明性讨论；没有独立标为例的题目或习题。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 73,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "连续性定义与非独立编号的解释性例子；无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 74,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "单侧连续、间断点分类的定义及说明；无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 75,
+    "status": "reviewed",
+    "units_count": 4,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "本页首次出现的全部例题、节末习题和章末习题均已对照源图与 OCR 核对；讲解与解答不收录。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 76,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "连续函数运算、复合与反函数的定理和证明；无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 77,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "基本初等函数连续性的证明和解释；无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 78,
+    "status": "reviewed",
+    "units_count": 6,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "本页首次出现的全部例题、节末习题和章末习题均已对照源图与 OCR 核对；讲解与解答不收录。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 79,
+    "status": "reviewed",
+    "units_count": 13,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "本页首次出现的全部例题、节末习题和章末习题均已对照源图与 OCR 核对；讲解与解答不收录。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 80,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "上页求极限题的八个小问续文，全部归入首次出现的第79页；其余为零点定理及证明。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 81,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "零点定理证明和介值定理正文；无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 82,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "本页首次出现的全部例题、节末习题和章末习题均已对照源图与 OCR 核对；讲解与解答不收录。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 83,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "最值定理证明、反例说明与反函数定理正文；无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 84,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "反函数定理证明与一致连续性引入；无独立标为例的题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 85,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "一致连续性定义前的解释性讨论续文；无独立题目。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 86,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "本页首次出现的全部例题、节末习题和章末习题均已对照源图与 OCR 核对；讲解与解答不收录。 紧随说明性例的“请读者自证”作为该例第二小问保留。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 87,
+    "status": "reviewed",
+    "units_count": 13,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "本页首次出现的全部例题、节末习题和章末习题均已对照源图与 OCR 核对；讲解与解答不收录。"
+  },
+  {
+    "project": "数学分析讲义",
+    "source_file": "input/数学分析讲义（第一册）.pdf",
+    "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+    "page_number": 88,
+    "status": "reviewed",
+    "units_count": 13,
+    "visual_review": "complete",
+    "ocr_cross_check": "complete",
+    "reason": "本页首次出现的全部例题、节末习题和章末习题均已对照源图与 OCR 核对；讲解与解答不收录。"
+  }
+]

@@ -1,0 +1,6 @@
+# Independent client environment; GPU inference is served by pinned llama.cpp.
+paddleocr[doc-parser]==3.7.0
+paddlex==3.7.2
+paddlepaddle==3.2.2
+PyMuPDF==1.26.7
+numpy==1.26.4

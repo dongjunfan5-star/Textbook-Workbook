@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析讲义",
+  "chapter": 12,
+  "pdf": ".cache/chapter-proofs/lecture-12/main.pdf",
+  "pdf_sha256": "5704d2adfe5f726727a5b291e855a05cb56f9141ce3b877417d61b4481adbfcf",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "method": "全部16页渲染并通过4张四页联系表逐页检查；分段函数、级数上下标、题号与留白正常，无截断重叠。",
+  "issues": []
+}

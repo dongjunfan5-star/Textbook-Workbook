@@ -1,0 +1,1393 @@
+{
+  "schema_version": 1,
+  "inventory_date": "2026-10-23",
+  "page_convention": "1-based physical PDF page",
+  "verification": "章起始、卷末、答案/索引边界已视觉核验；节末习题锚点来自核验目录/书签，不声称逐题校对完成。",
+  "scope": [
+    "数学分析讲义"
+  ],
+  "books": [
+    {
+      "project": "数学分析讲义",
+      "source_file": "input/数学分析讲义（第一册）.pdf",
+      "source_id": "8c6dc2ce907d",
+      "source_sha256": "8c6dc2ce907d89c94f35ba6cfd7885b8460e97a4576926b5b0cf0a4e27368806",
+      "pdf_pages": 321,
+      "printed_page_to_physical_offset": 17,
+      "page_number_convention": "physical_1_based",
+      "bibliographic_metadata": {
+        "title": "数学分析讲义（第一册）",
+        "authors": [
+          "程艺",
+          "陈卿",
+          "李平"
+        ],
+        "publisher": "高等教育出版社",
+        "edition": "2019年3月第1版",
+        "printing": "2019年3月第1次印刷",
+        "isbn": "978-7-04-051033-1",
+        "evidence_physical_pages": [
+          1,
+          3,
+          4
+        ],
+        "status": "verified"
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "极限",
+          "physical_start": 18,
+          "physical_end": 71,
+          "printed_start": 1,
+          "printed_end": 54,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题1.1",
+              "physical_page": 21,
+              "printed_page": 4,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题1.2",
+              "physical_page": 42,
+              "printed_page": 25,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题1.3",
+              "physical_page": 67,
+              "printed_page": 50,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第1章综合习题",
+              "physical_page": 69,
+              "printed_page": 52,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "title": "单变量函数的连续性",
+          "physical_start": 72,
+          "physical_end": 88,
+          "printed_start": 55,
+          "printed_end": 71,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题2.1",
+              "physical_page": 78,
+              "printed_page": 61,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题2.2",
+              "physical_page": 87,
+              "printed_page": 70,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第2章综合习题",
+              "physical_page": 88,
+              "printed_page": 71,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "title": "单变量函数的微分学",
+          "physical_start": 89,
+          "physical_end": 160,
+          "printed_start": 72,
+          "printed_end": 143,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题3.1",
+              "physical_page": 108,
+              "printed_page": 91,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题3.2",
+              "physical_page": 115,
+              "printed_page": 98,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题3.3",
+              "physical_page": 123,
+              "printed_page": 106,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题3.4",
+              "physical_page": 132,
+              "printed_page": 115,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题3.5",
+              "physical_page": 146,
+              "printed_page": 129,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题3.6",
+              "physical_page": 157,
+              "printed_page": 140,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第3章综合习题",
+              "physical_page": 158,
+              "printed_page": 141,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "title": "不定积分",
+          "physical_start": 161,
+          "physical_end": 180,
+          "printed_start": 144,
+          "printed_end": 163,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题4.1",
+              "physical_page": 171,
+              "printed_page": 154,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题4.2",
+              "physical_page": 180,
+              "printed_page": 163,
+              "status": "verified_toc_only"
+            }
+          ],
+          "chapter_end_exercise_note": "目录未列独立综合习题，不能据此排除正文中未列入目录的题目。"
+        },
+        {
+          "chapter": 5,
+          "title": "单变量函数的积分学",
+          "physical_start": 181,
+          "physical_end": 239,
+          "printed_start": 164,
+          "printed_end": 222,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题5.1",
+              "physical_page": 206,
+              "printed_page": 189,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题5.2",
+              "physical_page": 217,
+              "printed_page": 200,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题5.3",
+              "physical_page": 227,
+              "printed_page": 210,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题5.4",
+              "physical_page": 234,
+              "printed_page": 217,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第5章综合习题",
+              "physical_page": 235,
+              "printed_page": 218,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "title": "常微分方程初步",
+          "physical_start": 240,
+          "physical_end": 265,
+          "printed_start": 223,
+          "printed_end": 248,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题6.1",
+              "physical_page": 251,
+              "printed_page": 234,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题6.2",
+              "physical_page": 264,
+              "printed_page": 247,
+              "status": "verified_toc_only"
+            }
+          ],
+          "chapter_end_exercise_note": "目录未列独立综合习题，不能据此排除正文中未列入目录的题目。"
+        },
+        {
+          "chapter": 7,
+          "title": "无穷级数",
+          "physical_start": 266,
+          "physical_end": 321,
+          "printed_start": 249,
+          "printed_end": 304,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题7.1",
+              "physical_page": 287,
+              "printed_page": 270,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题7.2",
+              "physical_page": 298,
+              "printed_page": 281,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题7.3",
+              "physical_page": 310,
+              "printed_page": 293,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题7.4",
+              "physical_page": 320,
+              "printed_page": 303,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第7章综合习题",
+              "physical_page": 320,
+              "printed_page": 303,
+              "status": "verified_toc_only"
+            }
+          ]
+        }
+      ],
+      "excluded_ranges": [
+        {
+          "physical_start": 1,
+          "physical_end": 17,
+          "reason": "封面、版权、前言、目录"
+        }
+      ],
+      "content_review_status": "inventory_only_not_problem_proofread",
+      "included_ranges": [
+        [
+          18,
+          321
+        ]
+      ],
+      "numbering_patterns": {
+        "example": "正文“例”后编号；讲义第三册常用章.节.序号，其他四卷需按局部上下文处理。",
+        "exercise": "讲义为“习题章.节”及部分“第x章综合习题”；教程为“练习题章.节”和“问题章.节”，两类均应保留。",
+        "final_numbers": "以上原书编号只用于抽取边界识别；成品只保留用户约定最终题号。",
+        "cross_page": "题干可以跨页；不得在目录/节/章边界前一页强行截断。"
+      }
+    },
+    {
+      "project": "数学分析讲义",
+      "source_file": "input/数学分析讲义（第二册）.pdf",
+      "source_id": "0c78ae5d67cd",
+      "source_sha256": "0c78ae5d67cd9294b9ff88630765a246245661bd0b6dc64658cf20d5eaf53421",
+      "pdf_pages": 358,
+      "printed_page_to_physical_offset": 12,
+      "page_number_convention": "physical_1_based",
+      "bibliographic_metadata": {
+        "title": "数学分析讲义（第二册）",
+        "authors": [
+          "程艺",
+          "陈卿",
+          "李平"
+        ],
+        "publisher": "高等教育出版社",
+        "edition": "2020年1月第1版",
+        "printing": "2021年11月第3次印刷",
+        "isbn": "978-7-04-053309-5",
+        "evidence_physical_pages": [
+          1,
+          3,
+          4
+        ],
+        "status": "verified"
+      },
+      "chapters": [
+        {
+          "chapter": 8,
+          "title": "空间解析几何",
+          "physical_start": 13,
+          "physical_end": 57,
+          "printed_start": 1,
+          "printed_end": 45,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题8.1",
+              "physical_page": 26,
+              "printed_page": 14,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题8.2",
+              "physical_page": 35,
+              "printed_page": 23,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题8.3",
+              "physical_page": 48,
+              "printed_page": 36,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题8.4",
+              "physical_page": 55,
+              "printed_page": 43,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第8章综合习题",
+              "physical_page": 57,
+              "printed_page": 45,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "title": "多变量函数的微分学",
+          "physical_start": 58,
+          "physical_end": 155,
+          "printed_start": 46,
+          "printed_end": 143,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题9.1",
+              "physical_page": 74,
+              "printed_page": 62,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题9.2",
+              "physical_page": 92,
+              "printed_page": 80,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题9.3",
+              "physical_page": 107,
+              "printed_page": 95,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题9.4",
+              "physical_page": 121,
+              "printed_page": 109,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题9.5",
+              "physical_page": 136,
+              "printed_page": 124,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题9.6",
+              "physical_page": 147,
+              "printed_page": 135,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题9.7",
+              "physical_page": 153,
+              "printed_page": 141,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第9章综合习题",
+              "physical_page": 153,
+              "printed_page": 141,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "title": "多变量函数的重积分",
+          "physical_start": 156,
+          "physical_end": 200,
+          "printed_start": 144,
+          "printed_end": 188,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题10.1",
+              "physical_page": 168,
+              "printed_page": 156,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题10.2",
+              "physical_page": 178,
+              "printed_page": 166,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题10.3",
+              "physical_page": 192,
+              "printed_page": 180,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题10.4",
+              "physical_page": 198,
+              "printed_page": 186,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第10章综合习题",
+              "physical_page": 199,
+              "printed_page": 187,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "title": "曲线积分和曲面积分",
+          "physical_start": 201,
+          "physical_end": 265,
+          "printed_start": 189,
+          "printed_end": 253,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题11.1",
+              "physical_page": 205,
+              "printed_page": 193,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题11.2",
+              "physical_page": 211,
+              "printed_page": 199,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题11.3",
+              "physical_page": 226,
+              "printed_page": 214,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题11.4",
+              "physical_page": 239,
+              "printed_page": 227,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题11.5",
+              "physical_page": 245,
+              "printed_page": 233,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题11.6",
+              "physical_page": 253,
+              "printed_page": 241,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题11.7",
+              "physical_page": 259,
+              "printed_page": 247,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第11章综合习题",
+              "physical_page": 264,
+              "printed_page": 252,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "title": "Fourier分析",
+          "physical_start": 266,
+          "physical_end": 308,
+          "printed_start": 254,
+          "printed_end": 296,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题12.1",
+              "physical_page": 281,
+              "printed_page": 269,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题12.2",
+              "physical_page": 291,
+              "printed_page": 279,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题12.3",
+              "physical_page": 297,
+              "printed_page": 285,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题12.4",
+              "physical_page": 306,
+              "printed_page": 294,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第12章综合习题",
+              "physical_page": 307,
+              "printed_page": 295,
+              "status": "verified_toc_only"
+            }
+          ]
+        },
+        {
+          "chapter": 13,
+          "title": "反常积分和含参变量的积分",
+          "physical_start": 309,
+          "physical_end": 355,
+          "printed_start": 297,
+          "printed_end": 343,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题13.1",
+              "physical_page": 319,
+              "printed_page": 307,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题13.2",
+              "physical_page": 324,
+              "printed_page": 312,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题13.3",
+              "physical_page": 329,
+              "printed_page": 317,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题13.4",
+              "physical_page": 342,
+              "printed_page": 330,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "习题13.5",
+              "physical_page": 352,
+              "printed_page": 340,
+              "status": "verified_toc_only"
+            },
+            {
+              "label": "第13章综合习题",
+              "physical_page": 353,
+              "printed_page": 341,
+              "status": "verified_toc_only"
+            }
+          ]
+        }
+      ],
+      "excluded_ranges": [
+        {
+          "physical_start": 1,
+          "physical_end": 12,
+          "reason": "封面、版权、目录等"
+        },
+        {
+          "physical_start": 356,
+          "physical_end": 358,
+          "reason": "空白页、郑重声明、空白页"
+        }
+      ],
+      "content_review_status": "inventory_only_not_problem_proofread",
+      "included_ranges": [
+        [
+          13,
+          355
+        ]
+      ],
+      "numbering_patterns": {
+        "example": "正文“例”后编号；讲义第三册常用章.节.序号，其他四卷需按局部上下文处理。",
+        "exercise": "讲义为“习题章.节”及部分“第x章综合习题”；教程为“练习题章.节”和“问题章.节”，两类均应保留。",
+        "final_numbers": "以上原书编号只用于抽取边界识别；成品只保留用户约定最终题号。",
+        "cross_page": "题干可以跨页；不得在目录/节/章边界前一页强行截断。"
+      }
+    },
+    {
+      "project": "数学分析讲义",
+      "source_file": "input/数学分析讲义（第三册）.pdf",
+      "source_id": "bd727a57b926",
+      "source_sha256": "bd727a57b926d1f610e779bab317192805e3ff17060148682bab76200dcb10da",
+      "pdf_pages": 231,
+      "printed_page_to_physical_offset": 4,
+      "page_number_convention": "physical_1_based",
+      "bibliographic_metadata": {
+        "title": "数学分析讲义 第三册",
+        "authors": [
+          "程艺",
+          "陈卿",
+          "李平",
+          "许斌"
+        ],
+        "institution": "中国科学技术大学",
+        "date_on_title_page": "2020年1月",
+        "publisher": null,
+        "edition": null,
+        "isbn": null,
+        "evidence_physical_pages": [
+          1
+        ],
+        "status": "verified_title_page_only",
+        "note": "电子讲义，未见出版社版权页，不按前两册出版元数据推断。"
+      },
+      "chapters": [
+        {
+          "chapter": 14,
+          "title": "实数理论",
+          "physical_start": 5,
+          "physical_end": 57,
+          "printed_start": 1,
+          "printed_end": 53,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题14.1",
+              "physical_page": 14,
+              "printed_page": 10,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题14.2",
+              "physical_page": 27,
+              "printed_page": 23,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题14.3",
+              "physical_page": 41,
+              "printed_page": 37,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题14.4",
+              "physical_page": 51,
+              "printed_page": 47,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题14.5",
+              "physical_page": 57,
+              "printed_page": 53,
+              "status": "bookmark_and_toc_verified"
+            }
+          ]
+        },
+        {
+          "chapter": 15,
+          "title": "连续性与收敛性",
+          "physical_start": 58,
+          "physical_end": 116,
+          "printed_start": 54,
+          "printed_end": 112,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题15.1",
+              "physical_page": 69,
+              "printed_page": 65,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题15.2",
+              "physical_page": 90,
+              "printed_page": 86,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题15.3",
+              "physical_page": 102,
+              "printed_page": 98,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题15.4",
+              "physical_page": 115,
+              "printed_page": 111,
+              "status": "bookmark_and_toc_verified"
+            }
+          ]
+        },
+        {
+          "chapter": 16,
+          "title": "度量空间的连续函数",
+          "physical_start": 117,
+          "physical_end": 147,
+          "printed_start": 113,
+          "printed_end": 143,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题16.1",
+              "physical_page": 127,
+              "printed_page": 123,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题16.2",
+              "physical_page": 135,
+              "printed_page": 131,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题16.3",
+              "physical_page": 146,
+              "printed_page": 142,
+              "status": "bookmark_and_toc_verified"
+            }
+          ]
+        },
+        {
+          "chapter": 17,
+          "title": "映射的微分",
+          "physical_start": 148,
+          "physical_end": 190,
+          "printed_start": 144,
+          "printed_end": 186,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题17.1",
+              "physical_page": 151,
+              "printed_page": 147,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题17.2",
+              "physical_page": 159,
+              "printed_page": 155,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题17.3",
+              "physical_page": 169,
+              "printed_page": 165,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题17.4",
+              "physical_page": 177,
+              "printed_page": 173,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题17.5",
+              "physical_page": 189,
+              "printed_page": 185,
+              "status": "bookmark_and_toc_verified"
+            }
+          ]
+        },
+        {
+          "chapter": 18,
+          "title": "Riemann积分",
+          "physical_start": 191,
+          "physical_end": 231,
+          "printed_start": 187,
+          "printed_end": 227,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像",
+          "exercise_start_anchors": [
+            {
+              "label": "习题18.1",
+              "physical_page": 199,
+              "printed_page": 195,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题18.2",
+              "physical_page": 209,
+              "printed_page": 205,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题18.3",
+              "physical_page": 219,
+              "printed_page": 215,
+              "status": "bookmark_and_toc_verified"
+            },
+            {
+              "label": "习题18.4",
+              "physical_page": 230,
+              "printed_page": 226,
+              "status": "bookmark_and_toc_verified"
+            }
+          ]
+        }
+      ],
+      "excluded_ranges": [
+        {
+          "physical_start": 1,
+          "physical_end": 4,
+          "reason": "扉页、目录"
+        }
+      ],
+      "content_review_status": "inventory_only_not_problem_proofread",
+      "included_ranges": [
+        [
+          5,
+          231
+        ]
+      ],
+      "outline": [
+        {
+          "level": 1,
+          "title": "实数理论",
+          "physical_page": 5
+        },
+        {
+          "level": 2,
+          "title": "预备知识",
+          "physical_page": 5
+        },
+        {
+          "level": 3,
+          "title": "量词的规则",
+          "physical_page": 5
+        },
+        {
+          "level": 3,
+          "title": "无限集合",
+          "physical_page": 9
+        },
+        {
+          "level": 3,
+          "title": "有理数系",
+          "physical_page": 12
+        },
+        {
+          "level": 4,
+          "title": "习题14.1",
+          "physical_page": 14
+        },
+        {
+          "level": 2,
+          "title": "实数的定义",
+          "physical_page": 16
+        },
+        {
+          "level": 3,
+          "title": "实数的定义",
+          "physical_page": 16
+        },
+        {
+          "level": 3,
+          "title": "实数的算术",
+          "physical_page": 20
+        },
+        {
+          "level": 4,
+          "title": "习题14.2",
+          "physical_page": 27
+        },
+        {
+          "level": 2,
+          "title": "实数的完备性",
+          "physical_page": 29
+        },
+        {
+          "level": 3,
+          "title": "实数列的极限",
+          "physical_page": 29
+        },
+        {
+          "level": 3,
+          "title": "完备性",
+          "physical_page": 30
+        },
+        {
+          "level": 3,
+          "title": "确界与极限点",
+          "physical_page": 32
+        },
+        {
+          "level": 3,
+          "title": "上极限与下极限",
+          "physical_page": 38
+        },
+        {
+          "level": 4,
+          "title": "习题14.3",
+          "physical_page": 41
+        },
+        {
+          "level": 2,
+          "title": "实直线的拓扑",
+          "physical_page": 44
+        },
+        {
+          "level": 3,
+          "title": "开集与闭集",
+          "physical_page": 44
+        },
+        {
+          "level": 3,
+          "title": "紧致集合",
+          "physical_page": 49
+        },
+        {
+          "level": 4,
+          "title": "习题14.4",
+          "physical_page": 51
+        },
+        {
+          "level": 2,
+          "title": "实数系的其它等价形式*",
+          "physical_page": 53
+        },
+        {
+          "level": 3,
+          "title": "无限十进小数",
+          "physical_page": 53
+        },
+        {
+          "level": 3,
+          "title": "Dedekind 分割",
+          "physical_page": 54
+        },
+        {
+          "level": 4,
+          "title": "习题14.5",
+          "physical_page": 57
+        },
+        {
+          "level": 1,
+          "title": "连续性与收敛性",
+          "physical_page": 58
+        },
+        {
+          "level": 2,
+          "title": "连续函数",
+          "physical_page": 58
+        },
+        {
+          "level": 3,
+          "title": "连续的等价条件",
+          "physical_page": 59
+        },
+        {
+          "level": 3,
+          "title": "函数的一致连续性",
+          "physical_page": 62
+        },
+        {
+          "level": 3,
+          "title": "连续函数的性质",
+          "physical_page": 64
+        },
+        {
+          "level": 3,
+          "title": "单调函数",
+          "physical_page": 68
+        },
+        {
+          "level": 4,
+          "title": "习题15.1",
+          "physical_page": 69
+        },
+        {
+          "level": 2,
+          "title": "级数的收敛性",
+          "physical_page": 73
+        },
+        {
+          "level": 3,
+          "title": "收敛与绝对收敛",
+          "physical_page": 73
+        },
+        {
+          "level": 3,
+          "title": "一致收敛",
+          "physical_page": 79
+        },
+        {
+          "level": 3,
+          "title": "等度连续",
+          "physical_page": 88
+        },
+        {
+          "level": 4,
+          "title": "习题15.2",
+          "physical_page": 90
+        },
+        {
+          "level": 2,
+          "title": "连续函数的多项式逼近",
+          "physical_page": 94
+        },
+        {
+          "level": 3,
+          "title": "Weierstrass 一致逼近定理",
+          "physical_page": 94
+        },
+        {
+          "level": 3,
+          "title": "卷积与单位近似",
+          "physical_page": 96
+        },
+        {
+          "level": 3,
+          "title": "Weierstrass 一致逼近定理的证明",
+          "physical_page": 98
+        },
+        {
+          "level": 3,
+          "title": " 导函数的一致逼近",
+          "physical_page": 101
+        },
+        {
+          "level": 4,
+          "title": "习题15.3",
+          "physical_page": 102
+        },
+        {
+          "level": 2,
+          "title": "Fourier级数的收敛性",
+          "physical_page": 104
+        },
+        {
+          "level": 3,
+          "title": "部分和函数的积分表示",
+          "physical_page": 104
+        },
+        {
+          "level": 3,
+          "title": "逐点收敛",
+          "physical_page": 105
+        },
+        {
+          "level": 3,
+          "title": "一致收敛",
+          "physical_page": 109
+        },
+        {
+          "level": 3,
+          "title": "Cesàro 和的收敛性和平方平均收敛 ",
+          "physical_page": 111
+        },
+        {
+          "level": 4,
+          "title": "习题15.4",
+          "physical_page": 115
+        },
+        {
+          "level": 1,
+          "title": "度量空间的连续函数",
+          "physical_page": 117
+        },
+        {
+          "level": 2,
+          "title": " Rn与度量空间",
+          "physical_page": 117
+        },
+        {
+          "level": 3,
+          "title": "内积与范数",
+          "physical_page": 117
+        },
+        {
+          "level": 3,
+          "title": "距离",
+          "physical_page": 121
+        },
+        {
+          "level": 3,
+          "title": "极限与完备性",
+          "physical_page": 122
+        },
+        {
+          "level": 4,
+          "title": "习题16.1",
+          "physical_page": 127
+        },
+        {
+          "level": 2,
+          "title": "度量空间的拓扑",
+          "physical_page": 129
+        },
+        {
+          "level": 3,
+          "title": " 开集",
+          "physical_page": 129
+        },
+        {
+          "level": 3,
+          "title": "闭集与紧致集",
+          "physical_page": 131
+        },
+        {
+          "level": 4,
+          "title": "习题16.2",
+          "physical_page": 135
+        },
+        {
+          "level": 2,
+          "title": "度量空间上的连续函数",
+          "physical_page": 138
+        },
+        {
+          "level": 3,
+          "title": "连续的定义",
+          "physical_page": 138
+        },
+        {
+          "level": 3,
+          "title": "压缩映射原理",
+          "physical_page": 140
+        },
+        {
+          "level": 3,
+          "title": "紧致空间上的连续函数",
+          "physical_page": 142
+        },
+        {
+          "level": 3,
+          "title": "连通性",
+          "physical_page": 143
+        },
+        {
+          "level": 4,
+          "title": "习题16.3",
+          "physical_page": 146
+        },
+        {
+          "level": 1,
+          "title": "映射的微分",
+          "physical_page": 148
+        },
+        {
+          "level": 2,
+          "title": "线性映射",
+          "physical_page": 148
+        },
+        {
+          "level": 3,
+          "title": "习题17.1",
+          "physical_page": 151
+        },
+        {
+          "level": 2,
+          "title": "映射的微分",
+          "physical_page": 152
+        },
+        {
+          "level": 3,
+          "title": "可微映射",
+          "physical_page": 152
+        },
+        {
+          "level": 3,
+          "title": "复合映射的微分",
+          "physical_page": 156
+        },
+        {
+          "level": 3,
+          "title": "拟微分中值定理",
+          "physical_page": 158
+        },
+        {
+          "level": 4,
+          "title": "习题17.2",
+          "physical_page": 159
+        },
+        {
+          "level": 2,
+          "title": "逆映射定理",
+          "physical_page": 161
+        },
+        {
+          "level": 3,
+          "title": "习题17.3",
+          "physical_page": 169
+        },
+        {
+          "level": 2,
+          "title": "隐映射定理与秩定理",
+          "physical_page": 170
+        },
+        {
+          "level": 3,
+          "title": "隐映射定理",
+          "physical_page": 170
+        },
+        {
+          "level": 3,
+          "title": "秩定理",
+          "physical_page": 174
+        },
+        {
+          "level": 4,
+          "title": "习题17.4",
+          "physical_page": 177
+        },
+        {
+          "level": 2,
+          "title": "条件极值",
+          "physical_page": 179
+        },
+        {
+          "level": 3,
+          "title": "m维曲面",
+          "physical_page": 179
+        },
+        {
+          "level": 3,
+          "title": "切空间",
+          "physical_page": 182
+        },
+        {
+          "level": 3,
+          "title": "条件极值",
+          "physical_page": 184
+        },
+        {
+          "level": 4,
+          "title": "习题17.5",
+          "physical_page": 189
+        },
+        {
+          "level": 1,
+          "title": "Riemann积分",
+          "physical_page": 191
+        },
+        {
+          "level": 2,
+          "title": "R2的有面积集合",
+          "physical_page": 191
+        },
+        {
+          "level": 3,
+          "title": "面积的定义",
+          "physical_page": 191
+        },
+        {
+          "level": 3,
+          "title": "面积的基本性质",
+          "physical_page": 193
+        },
+        {
+          "level": 4,
+          "title": "习题18.1",
+          "physical_page": 199
+        },
+        {
+          "level": 2,
+          "title": "Riemann积分",
+          "physical_page": 201
+        },
+        {
+          "level": 3,
+          "title": " 积分的定义",
+          "physical_page": 201
+        },
+        {
+          "level": 3,
+          "title": "积分的基本性质",
+          "physical_page": 204
+        },
+        {
+          "level": 4,
+          "title": "习题18.2",
+          "physical_page": 209
+        },
+        {
+          "level": 2,
+          "title": "可积函数类",
+          "physical_page": 211
+        },
+        {
+          "level": 3,
+          "title": "习题18.3",
+          "physical_page": 219
+        },
+        {
+          "level": 2,
+          "title": "重积分换元公式*",
+          "physical_page": 221
+        },
+        {
+          "level": 3,
+          "title": "行列式与体积",
+          "physical_page": 221
+        },
+        {
+          "level": 3,
+          "title": "换元公式",
+          "physical_page": 222
+        },
+        {
+          "level": 4,
+          "title": "习题18.4",
+          "physical_page": 230
+        }
+      ],
+      "numbering_patterns": {
+        "example": "正文“例”后编号；讲义第三册常用章.节.序号，其他四卷需按局部上下文处理。",
+        "exercise": "讲义为“习题章.节”及部分“第x章综合习题”；教程为“练习题章.节”和“问题章.节”，两类均应保留。",
+        "final_numbers": "以上原书编号只用于抽取边界识别；成品只保留用户约定最终题号。",
+        "cross_page": "题干可以跨页；不得在目录/节/章边界前一页强行截断。"
+      }
+    }
+  ],
+  "total_source_pages": 910,
+  "included_pages": 874,
+  "excluded_pages": 36
+}

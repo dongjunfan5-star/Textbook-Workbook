@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析讲义",
+  "chapter": 17,
+  "pdf": ".cache/chapter-proofs/lecture-17/main.pdf",
+  "pdf_sha256": "8ab883175e2a8205cb71053af4d4f40d016fc0f43eb96774bb6a2111f57058c6",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "method": "43页源书OCR逐页核完并补回原书非零参数条件后重编；实际查看全部18页带页码联系表，核查新增条件、公式、改写校订标记及边界，无重叠截断。",
+  "issues": []
+}
