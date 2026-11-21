@@ -91,6 +91,50 @@ class OcrEvidence(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Missing structured'):
             self.validate()
 
+    def test_included_appendix_requires_its_own_verified_report(self):
+        self.book['chapters'][0]['physical_end'] = 3
+        self.book['appendices'] = [{'chapter': 'A', 'physical_start': 4, 'physical_end': 4}]
+        self.write(self.report_path, {**self.report, 'pages': self.report['pages'][:1]})
+        appendix_path = self.report_path.with_name('ocr-crosscheck-chapter-A.json')
+        appendix = {**self.report, 'pages': self.report['pages'][1:]}
+        self.write(appendix_path, {**appendix, 'status': 'pending'})
+        with self.assertRaisesRegex(ValueError, 'not verified.*chapter-A'):
+            self.validate()
+        self.write(appendix_path, appendix)
+        self.assertEqual(self.validate(), 2)
+
+    def test_archived_review_preserves_lost_cache_but_rejects_changed_inputs(self):
+        source = self.root / self.book['project'] / self.book['source_file']
+        source.parent.mkdir()
+        source.write_bytes(b'unchanged source')
+        source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
+        self.book['source_sha256'] = source_hash
+        for page in (3, 4):
+            completion = self.folder(page) / 'completed.json'
+            record = json.loads(completion.read_text())
+            self.write(completion, {**record, 'source_sha256': source_hash})
+        for name in ('completed.json', 'result.md', 'result.json'):
+            (self.folder(4) / name).unlink()
+        self.write(self.report_path.with_name('archived-ocr-reviews.json'), {
+            'schema_version': 1,
+            'chapters': [{
+                'project': self.book['project'], 'source_file': self.book['source_file'],
+                'source_sha256': source_hash, 'chapter': 1, 'page_count': 2,
+                'report_sha256': hashlib.sha256(self.report_path.read_bytes()).hexdigest(),
+            }],
+        })
+        self.assertEqual(self.validate(), 2)
+        (self.folder(3) / 'result.md').write_text('changed live OCR', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'OCR evidence changed'):
+            self.validate()
+        source.write_bytes(b'wrong source')
+        with self.assertRaisesRegex(ValueError, 'Archived OCR source changed'):
+            self.validate()
+        source.write_bytes(b'unchanged source')
+        self.write(self.report_path, {**self.report, 'modified': True})
+        with self.assertRaisesRegex(ValueError, 'Archived OCR review ledger changed'):
+            self.validate()
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,125 @@
+{
+  "status": "text_corrected",
+  "chapters": [
+    {
+      "project": "数学分析讲义",
+      "chapter": 1,
+      "edits": [
+        {
+          "unit_index": 44,
+          "page_number": 44
+        },
+        {
+          "unit_index": 91,
+          "page_number": 68
+        },
+        {
+          "unit_index": 96,
+          "page_number": 69
+        },
+        {
+          "unit_index": 101,
+          "page_number": 70
+        }
+      ],
+      "status": "passed",
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234"
+    },
+    {
+      "project": "数学分析讲义",
+      "chapter": 2,
+      "edits": [
+        {
+          "unit_index": 10,
+          "page_number": 79
+        }
+      ],
+      "status": "passed",
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234"
+    },
+    {
+      "project": "数学分析讲义",
+      "chapter": 14,
+      "edits": [
+        {
+          "unit_index": 15,
+          "page_number": 15
+        },
+        {
+          "unit_index": 17,
+          "page_number": 15
+        },
+        {
+          "unit_index": 20,
+          "page_number": 20
+        },
+        {
+          "unit_index": 94,
+          "page_number": 52
+        }
+      ],
+      "status": "passed",
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234"
+    },
+    {
+      "project": "数学分析讲义",
+      "chapter": 16,
+      "edits": [
+        {
+          "unit_index": 31,
+          "page_number": 136
+        }
+      ],
+      "status": "passed",
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234"
+    },
+    {
+      "project": "数学分析教程",
+      "chapter": 11,
+      "edits": [
+        {
+          "unit_index": 16,
+          "page_number": 84
+        }
+      ]
+    },
+    {
+      "project": "数学分析教程",
+      "chapter": 14,
+      "edits": [
+        {
+          "unit_index": 63,
+          "page_number": 185
+        },
+        {
+          "unit_index": 69,
+          "page_number": 186
+        },
+        {
+          "unit_index": 71,
+          "page_number": 186
+        }
+      ]
+    },
+    {
+      "project": "数学分析教程",
+      "chapter": 17,
+      "edits": [
+        {
+          "unit_index": 37,
+          "page_number": 336
+        }
+      ],
+      "retained_method_requirement": {
+        "unit_index": 42,
+        "page_number": 338,
+        "reason": "原题明确要求利用前题结果；为独立读题完整重述该结果。"
+      }
+    }
+  ],
+  "notice": "仅删除独立解题提示，保留题设明确要求的方法。讲义相关修改已随正式整书编译及视觉检查通过；教程记录尚不代表正式整书完成。"
+}

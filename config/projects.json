@@ -11,14 +11,19 @@
         "input/数学分析讲义（第三册）.pdf"
       ],
       "combine_volumes": true
+    },
+    {
+      "name": "数学分析教程",
+      "problems_per_page": 3,
+      "sources": [
+        "input/数学分析教程 上册（数分A教材）.pdf",
+        "input/数学分析教程 下册（数分A教材）.pdf"
+      ],
+      "combine_volumes": true
     }
   ],
   "rules": {
-    "include": [
-      "例题",
-      "节末习题",
-      "章末习题"
-    ],
+    "include": ["例题", "节末习题", "章末习题"],
     "max_subquestions_per_problem": 3,
     "keep_original_problem_number": false,
     "source_page": "first_physical_page_1_based",

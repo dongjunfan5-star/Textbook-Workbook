@@ -88,5 +88,75 @@
     "source_id": "bd727a57b926",
     "page_number": 15,
     "image": "数学分析讲义/data/page_images/bd727a57b926/p0015.png"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "chapter": 1,
+    "chapter_title": "实数和数列极限",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "source_id": "336e4ff033f3",
+    "page_number": 26,
+    "image": "数学分析教程/data/page_images/336e4ff033f3/p0026.png"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "chapter": 1,
+    "chapter_title": "实数和数列极限",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "source_id": "336e4ff033f3",
+    "page_number": 27,
+    "image": "数学分析教程/data/page_images/336e4ff033f3/p0027.png"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "chapter": 1,
+    "chapter_title": "实数和数列极限",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "source_id": "336e4ff033f3",
+    "page_number": 28,
+    "image": "数学分析教程/data/page_images/336e4ff033f3/p0028.png"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "chapter": 1,
+    "chapter_title": "实数和数列极限",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "source_id": "336e4ff033f3",
+    "page_number": 29,
+    "image": "数学分析教程/data/page_images/336e4ff033f3/p0029.png"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "chapter": 10,
+    "chapter_title": "多重积分",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "source_id": "e3b1165409f0",
+    "page_number": 19,
+    "image": "数学分析教程/data/page_images/e3b1165409f0/p0019.png"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "chapter": 10,
+    "chapter_title": "多重积分",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "source_id": "e3b1165409f0",
+    "page_number": 20,
+    "image": "数学分析教程/data/page_images/e3b1165409f0/p0020.png"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "chapter": 10,
+    "chapter_title": "多重积分",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "source_id": "e3b1165409f0",
+    "page_number": 21,
+    "image": "数学分析教程/data/page_images/e3b1165409f0/p0021.png"
   }
 ]

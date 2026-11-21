@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析教程",
+  "chapter": 11,
+  "pdf": ".cache/chapter-proofs/tutorial-11/main.pdf",
+  "pdf_sha256": "5f5c8547eb511036038e316eceefcdc2853249d52f46bfe29e32227470600252",
+  "source_units": 31,
+  "final_problems": 33,
+  "pdf_page_count": 12,
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "method": "XeLaTeX 两遍编译稳定。查看最终校样全部12页的联系表，核查题干、公式、题号、页眉、留白和页面边界。第7页四区域示意图及小图标记清晰，原教材总图号已裁去。以 PDF 文本和链接核验连续终号、每页3题及目录跳转。",
+  "issues": [],
+  "page_results": [
+    {
+      "pdf_page": 1,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0001.png",
+      "render_sha256": "1969219d5f7736c0e86d2ea79fef7ffc96e399dc90a5262c713bee4dafd62576"
+    },
+    {
+      "pdf_page": 2,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0002.png",
+      "render_sha256": "4526f24ff5157cc520b038d20b3984e7da3fcaa157167ceb65c7e151383b9295"
+    },
+    {
+      "pdf_page": 3,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0003.png",
+      "render_sha256": "c7f0b6c1dee149da94f8eb7640895e5f50f3318e4b621973e2068ab339e22634"
+    },
+    {
+      "pdf_page": 4,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0004.png",
+      "render_sha256": "cf28083b4308ff246469c8b4b2d5dd8773b316feea7f6e805d7ad899eabce97f"
+    },
+    {
+      "pdf_page": 5,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0005.png",
+      "render_sha256": "58f1e6d6ad594bbf3c44a28c512b709f6c866387ba48545874c4226abc47060e"
+    },
+    {
+      "pdf_page": 6,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0006.png",
+      "render_sha256": "54d3aba0191f14473d0b3d401380688371d0a9aa50b711e5f233bd2fe1d8deea"
+    },
+    {
+      "pdf_page": 7,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0007.png",
+      "render_sha256": "392658669c9dc9f1054003c93d844be12c48276d22a3f66634762367d3f1e6ac"
+    },
+    {
+      "pdf_page": 8,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0008.png",
+      "render_sha256": "34ef94670db6ccf69b45b875d54d175be9fa7a1fff201a850e8117a168c43e83"
+    },
+    {
+      "pdf_page": 9,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0009.png",
+      "render_sha256": "c0e49335210e2f43be4d688f21202ab99c9e0fff7131df98ae8b5ea9749add83"
+    },
+    {
+      "pdf_page": 10,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0010.png",
+      "render_sha256": "d640645e4f5d14b6b866c6e80da5d54ac629629232aef900030b0920f8bbaa1f"
+    },
+    {
+      "pdf_page": 11,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0011.png",
+      "render_sha256": "172475cfee0a1b98ce036538625a3f782a4f54c3edcedff5cd55b04712e61bad"
+    },
+    {
+      "pdf_page": 12,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-11/rendered/page-0012.png",
+      "render_sha256": "e91b73ad9d054f0d1e6715f5cc43aaf91d40a21499b92ad966cbb7d41516538c"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "status": "verified",
+  "project": "数学分析教程",
+  "chapter": "A",
+  "pages": [
+    {
+      "page_number": 456,
+      "ocr_markdown_sha256": "ff5b3bc948f609ded1f6bee41e5150a9ef7fea79c73f6e0a9dce0f0040603ab8",
+      "structured_result_sha256": "647b6a636fb1843f2c5b5103302b4afeb8b42957200aefc8f0ef1d44faf28bdc",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:55:10+08:00"
+    },
+    {
+      "page_number": 457,
+      "ocr_markdown_sha256": "3a27a84ee91fdf22ea73aa9ad8949f57e723dc7efd21b2cdbda3097f9e39c416",
+      "structured_result_sha256": "10a27aa373cee43705a936ab0b2ba03e86228db02a40a71aff6a8eec1998cbe8",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:55:10+08:00"
+    },
+    {
+      "page_number": 458,
+      "ocr_markdown_sha256": "f1d46d41be00fe2fab819d857335b6f03e715ce360dc99d2eb1213b93f860062",
+      "structured_result_sha256": "92f836d145c41390d3a66f14726e2b4a4b021c8f9809579aef978fe62cd2adf3",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:55:11+08:00"
+    },
+    {
+      "page_number": 459,
+      "ocr_markdown_sha256": "d807829cfb873e5ab7503c54d426a16db54050bdad79b0aa5283b13048f71092",
+      "structured_result_sha256": "f81c2b4a3e08c55e5ce21c747531e5970cbbf3b88d947b363885e5392a3d8ef8",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:55:23+08:00"
+    },
+    {
+      "page_number": 460,
+      "ocr_markdown_sha256": "aa4a059b39cb55beedf6f1831c131e4b10bcee67eb6530388c8c09c0f5b66e03",
+      "structured_result_sha256": "454d5a610566552b87e285f40bb98313e730a0baebfff83b4ce83e1fa8899f2e",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:55:52+08:00"
+    },
+    {
+      "page_number": 461,
+      "ocr_markdown_sha256": "15f8daed19170b520a7ad33aaddbec959d6d01daf7623ce77dde08853851f0d2",
+      "structured_result_sha256": "df1ec10a6b505cb3a6b7cdef934d2d2ba1275ce1070691dd8d89bcf5c43c8fa5",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:55:52+08:00"
+    },
+    {
+      "page_number": 462,
+      "ocr_markdown_sha256": "e0f104bc78323e631934e411fdb63ddd97f96893f16a1891f68ae3d49a6e0d91",
+      "structured_result_sha256": "c8b688e454678363dec1c5697ac7ee57f293312545a6be6a18ed56c0a010251a",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:56:33+08:00"
+    },
+    {
+      "page_number": 463,
+      "ocr_markdown_sha256": "8d16eb9df3383ed0907c29b7bd0f5f2f843e35b63961715d7d663f7642f8b073",
+      "structured_result_sha256": "71a9f4bf37fb253e12ef783e040d3225a83c5e3dac93ad6f84abf2a24addb1c8",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:56:33+08:00"
+    },
+    {
+      "page_number": 464,
+      "ocr_markdown_sha256": "93ca26fc0ae0e923488ef30f2db859f2e4dfe5fe2284f5c7ab6771c279d8a169",
+      "structured_result_sha256": "0d39de78dc3c7458df69f89d3bfe927126311ae74deb649f18398217aa0c4dd8",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:56:33+08:00"
+    },
+    {
+      "page_number": 465,
+      "ocr_markdown_sha256": "595c459cece9bb4c5f8a75b4b49940ee38fd5531d402b17ff97e021dbfbe0e9e",
+      "structured_result_sha256": "db452367ce7fd00a81fe4840c0b5db7a84ae67d2a41d35c99812a31eee26b011",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:56:33+08:00"
+    },
+    {
+      "page_number": 466,
+      "ocr_markdown_sha256": "082b29c9c04fd77aed76c997046f4e11c7db99ff016cc3a1312754939281e167",
+      "structured_result_sha256": "2e68730339bc86d1ac1fce6b8abc6999b5f8927b691474aabe45c5358d0b167c",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:56:58+08:00"
+    },
+    {
+      "page_number": 467,
+      "ocr_markdown_sha256": "0618ecca874d964854cc88a4f1b921766e70b3aa3a7c707909a66f06094790ee",
+      "structured_result_sha256": "35205fdef0cc44391520d1a3357c446163c9ac66c7ade5c122dc14447d3a668e",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:56:58+08:00"
+    },
+    {
+      "page_number": 468,
+      "ocr_markdown_sha256": "632e3280a50f83bb890848713dd66e9b0b8780c9c3e9fcd80b771150ac42218d",
+      "structured_result_sha256": "47688aebec5f09f4d167d5741923b60bd3ac1032e01e81fd5e028feff1ca35d7",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:57:42+08:00"
+    },
+    {
+      "page_number": 469,
+      "ocr_markdown_sha256": "eea2752475093a36575a8cffd4e1996fe374d7df9c6137259e5f82ed21280eb2",
+      "structured_result_sha256": "52b11f0bba32f08aaa32739103434fc275388341350b71a08538ce4f3bdb01bb",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:57:42+08:00"
+    },
+    {
+      "page_number": 470,
+      "ocr_markdown_sha256": "8ba842d8d667c714c664a9ae6f576b093385a424f52646d1a683126d486e7f04",
+      "structured_result_sha256": "ca6c55911f76c975d09082358e8d83d1c131d29b8555dd81dcc9d58389047ba8",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:57:42+08:00"
+    },
+    {
+      "page_number": 471,
+      "ocr_markdown_sha256": "341f11c80212d7001dca52d2e50b144dd55b380615be5dd77c2f9a46ef976301",
+      "structured_result_sha256": "94726efcac24a272af46020e8fbbd9828c7bbb19d5b71e8d54001fd9047ccf35",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:58:08+08:00"
+    },
+    {
+      "page_number": 472,
+      "ocr_markdown_sha256": "50d82734f66ffbf729affeb02f1a571284dbaaaf84038215b1bc43de6e8ae356",
+      "structured_result_sha256": "57579b50e14eee4c1ac8bf471484b1828150fdfe2df5f775e3180077827a9b82",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:58:08+08:00"
+    },
+    {
+      "page_number": 473,
+      "ocr_markdown_sha256": "a34310cad03f6fa1cea96007f3c9a4d7d31daf41dbafe8231bbaebd172637317",
+      "structured_result_sha256": "fd7e9664c028243f8669d062f8e485b00cf119e330bd204a986567567cc27e81",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:58:08+08:00"
+    },
+    {
+      "page_number": 474,
+      "ocr_markdown_sha256": "d12a80eb87053c326276107c8675ba1561b8cfea1679bbfb1111fc87f811e2ca",
+      "structured_result_sha256": "be0102101b8a995d93090d9d201d9e2bdc91f917a3958973c3ffb808ac717cf3",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:58:35+08:00"
+    },
+    {
+      "page_number": 475,
+      "ocr_markdown_sha256": "2f29c7e180b3331725d3f903875848b88219be77564ee419cbdcdf9bb9a026d4",
+      "structured_result_sha256": "d62905f8e4be88b8d3cce276da03e78cf2b5856934cb91d9bb1aaeda69b241d9",
+      "status": "verified",
+      "method": "通读本页PaddleOCR，与源页图和本章题库逐项对照。",
+      "reviewed_at": "2026-11-21T22:58:35+08:00"
+    }
+  ],
+  "source_id": "336e4ff033f3",
+  "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+  "physical_start": 456,
+  "physical_end": 475,
+  "reason": "逐页OCR对照已完成。"
+}

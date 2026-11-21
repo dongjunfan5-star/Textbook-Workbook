@@ -1,0 +1,254 @@
+{
+  "status": "passed",
+  "scope": "source_image_coverage_precheck_only",
+  "project": "数学分析教程",
+  "chapter": 14,
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "ocr_crosscheck_status": "verified",
+  "curated_sha256": "ab88b97ecce7f8c188dd9147b6bf48469567376342f3d1c8308aa49abef203f3",
+  "source_pages_reviewed": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209
+  ],
+  "source_units": 128,
+  "final_problems": 142,
+  "previous_source_units": 121,
+  "previous_final_problems": 135,
+  "editorial_changes": [
+    {
+      "action": "restore_or_extend",
+      "page_number": 157,
+      "reason": "恢复教材物理第157页 p≥0 的完整取值范围。"
+    },
+    {
+      "action": "add",
+      "page_number": 159,
+      "reason": "正文用同一熟悉级数演示结合性逆命题失效，任务不同于仅证明原级数发散。",
+      "stem_latex": "将级数 $1-1+1-1+\\cdots$ 的相邻两项依次配成一组，比较配组前后两个级数的敛散性。据此判断：在不改变项的次序时，配组所得级数收敛，能否推出原级数收敛？"
+    },
+    {
+      "action": "add",
+      "page_number": 169,
+      "reason": "教材以两条具体级数说明判别法边界。",
+      "stem_latex": "分别计算级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac1n$ 与 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac1{n^2}$ 的通项的 $n$ 次方根极限，并比较两级数的敛散性。由此说明 Cauchy 根值判别法在极限等于 $1$ 时能否给出统一结论。"
+    },
+    {
+      "action": "restore_or_extend",
+      "page_number": 170,
+      "reason": "例题后的教材物理第172–173页继续用同一级数具体比较根值和比值判别法；将补充讨论并入该题。"
+    },
+    {
+      "action": "add",
+      "page_number": 173,
+      "reason": "教材正文具体比较几何级数、幂级数型正项级数和对数因子级数的通项衰减快慢。",
+      "stem_latex": "设 $0<q<1$、$\\alpha>1$、$\\beta>1$。对下面各对级数，证明它们都收敛，且前一条级数的通项与后一条级数的通项之比趋于零。"
+    },
+    {
+      "action": "add",
+      "page_number": 181,
+      "reason": "教材正文给出的具体逆命题反例；与仅判断此级数敛散性的方法题有不同目的。",
+      "stem_latex": "令 $a_n=1/(n\\ln n)$（$n\\ge2$）。验证 $\\{a_n\\}$ 递减且 $na_n\\to0$，并讨论 $\\displaystyle\\sum_{n=2}^{\\infty}a_n$ 的敛散性。由此判断递减正数列满足 $na_n\\to0$ 时，其级数是否必收敛。"
+    },
+    {
+      "action": "add",
+      "page_number": 181,
+      "reason": "教材物理第181–182页用两例说明 Leibniz 判别法；物理第188–189页对同两例再分类，合并其两个具体任务。",
+      "stem_latex": "分别用 Leibniz 判别法研究下列级数的敛散性，并判断收敛者属于绝对收敛还是条件收敛。"
+    },
+    {
+      "action": "add",
+      "page_number": 184,
+      "reason": "在余弦级数例题之后，教材物理第184页发端、185页给出正弦有限和的闭式及界。度量任务与单求无穷级数敛散性有区别。",
+      "stem_latex": "对 $x\\in\\mathbb R\\setminus2\\pi\\mathbb Z$ 和正整数 $N$，求 $\\displaystyle\\sum_{n=1}^N\\sin(nx)$ 的闭式，并证明其绝对值不超过 $1/|\\sin(x/2)|$。"
+    },
+    {
+      "action": "add",
+      "page_number": 188,
+      "reason": "教材用三条具体级数应用绝对收敛判别，物理第188页起，189页总结分类。",
+      "stem_latex": "判断下列各级数的绝对收敛性。记 $\\lfloor t\\rfloor$ 为不大于 $t$ 的最大整数，$x\\in\\mathbb R$。"
+    },
+    {
+      "action": "restore_or_extend",
+      "page_number": 205,
+      "reason": "恢复教材物理第205页两个无穷乘积的起始指标 n=2。"
+    },
+    {
+      "action": "restore_or_extend",
+      "page_number": 206,
+      "reason": "教材物理第206页讨论参数乘积的敛散性，207页用 α=1 的情形说明条件收敛。保留该具体分类，说明本节定义。"
+    },
+    {
+      "action": "correct_printed_formula",
+      "page_number": 208,
+      "reason": "第208页原式分母为 n(n+1)^2，原乘积至少为 2/3。去掉多写的平方后，因子为 (n−1)(n+2)/(n(n+1))，从 n=2 到 N 的部分积为 (N+2)/(3N)，与题中待证的 1/3 一致。"
+    },
+    {
+      "page_number": 175,
+      "practice_source_page": 179,
+      "action": "deduplicate",
+      "reason": "第175页 Raabe 判别法的极限形式留作练习，第179页正式习题再次要求证明，收录正式习题一次。"
+    },
+    {
+      "page_number": 207,
+      "practice_source_page": 208,
+      "action": "deduplicate",
+      "reason": "第207页条件收敛乘积重排定理证明留作练习，第208页正式重复出题，收录正式习题一次。"
+    },
+    {
+      "action": "restore_source_notation",
+      "page_number": 195,
+      "reason": "放大核对题干中的交错双指数级数。教材用 p 表示奇数分母的指数，用 q 表示偶数分母的指数；按原符号恢复。"
+    },
+    {
+      "action": "restore_source_order",
+      "page_number": 169,
+      "reason": "根值临界情形的两个具体例子出现在本页编号例1之前，按源页先后排入。"
+    },
+    {
+      "action": "restore_source_notation",
+      "page_number": 185,
+      "reason": "原图Cauchy收敛原理题的第三小问分子为 cos(n!)，第四小问分母为 n(n+sin(n!))；恢复两个清晰可见的阶乘号。"
+    },
+    {
+      "action": "restore_source_method",
+      "page_number": 199,
+      "reason": "编号例在验证绝对收敛时明确使用 D’Alembert 判别法，题干保留该方法与后半部分的 Cauchy 乘积。"
+    },
+    {
+      "action": "restore_source_proof_direction",
+      "page_number": 194,
+      "reason": "练习14.5第3题要求证明充分性。恢复为若两个正、负部分级数均收敛，则原级数绝对收敛。"
+    }
+  ],
+  "deduplication": [
+    {
+      "pages": [
+        155,
+        199,
+        247
+      ],
+      "reason": "第155页从第4章指数函数 Taylor 公式导出全实轴的指数级数，该具体展开题保留在第15章物理第247页编号例；第199页的 Cauchy 乘积任务另行保留。第155页对连续不可导构造仅作预告。"
+    },
+    {
+      "pages": [
+        157,
+        163,
+        166,
+        168
+      ],
+      "reason": "正文复述上册 p 级数敛散结论，保留166页积分判别编号例及168页要求用凝聚判别的正式问题；163页一般化的 a_n/S_n^α 已由168页正式问题覆盖。"
+    },
+    {
+      "pages": [
+        160,
+        161
+      ],
+      "reason": "一般部分和逆构造紧接161页正式构造题，正文为通用操作说明，没有独立给定数列。"
+    },
+    {
+      "pages": [
+        173,
+        179,
+        180
+      ],
+      "reason": "几何率和更慢收敛正项级数的正文命题已作为179–180页正式问题。"
+    },
+    {
+      "pages": [
+        175,
+        176,
+        179
+      ],
+      "reason": "Raabe 极限形式留作练习以及临界情形的例证由179页正式题覆盖。"
+    },
+    {
+      "pages": [
+        180,
+        188
+      ],
+      "reason": "180页仅列任意项级数三种形式而未求解；其中具体函数例的绝对收敛在188页实际应用后收录。"
+    },
+    {
+      "pages": [
+        189,
+        191,
+        194,
+        195
+      ],
+      "reason": "191页正文正负部分性质由195页正式练习覆盖。194页重排后三组数值是紧邻193页一般例的直接代入。"
+    },
+    {
+      "pages": [
+        197,
+        199,
+        200
+      ],
+      "reason": "两个交错级数的 Cauchy 乘积测试例和发散级数乘积说明已经由200页正式问题覆盖。"
+    },
+    {
+      "pages": [
+        203,
+        204,
+        206,
+        207,
+        208,
+        209
+      ],
+      "reason": "203页反例指向202页编号例；204页反例指向209页正式问题。206–207页因子重排的一般说明和正文留证由208页正式练习覆盖。"
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "status": "verified",
+  "project": "数学分析教程",
+  "chapter": 15,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "verified_pages": 63,
+  "source_unit_count": 136,
+  "final_problem_count": 146,
+  "checked_at": "2026-11-21T14:07:52.900307+00:00",
+  "method": "物理第210至272页逐页对照PaddleOCR Markdown、教材原图和LaTeX题库，按原图校正识别结果、题面、续页和改写标记。",
+  "pages": [
+    {
+      "page_number": 210,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0210/result.md",
+      "ocr_markdown_sha256": "7dbbd78f44888762c786a94bb58afb81ebb9b02dcf6147dbb5d3b72d24264441",
+      "structured_result_sha256": "3b3924d72613c751b556b68a831fd1d2c2885afad2cad809a4d164b74a8e8583",
+      "units_count": 1,
+      "findings": "对照章首、定义和几何级数具体例子。该例从n=0起，原书给出结论，题库改为求收敛点集与发散点集并标记改写。\n"
+    },
+    {
+      "page_number": 211,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0211/result.md",
+      "ocr_markdown_sha256": "16951c71510692a7f000d53561b03d385663e1b89cb5e64d1d97dc8271dfba7c",
+      "structured_result_sha256": "a05b8b3e0dc538461fd55e4c8709bcc29264859e5e51c4667099f2a4b0b2d427",
+      "units_count": 0,
+      "findings": "章首理论动机按连续性、可积性和可导性讨论，紧接本页给出函数列等价表述，由下一页四则具体反例落实。此页无独立例题或习题，未把末行极限下标的OCR歧义带入题库。\n"
+    },
+    {
+      "page_number": 212,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0212/result.md",
+      "ocr_markdown_sha256": "6b6a4ec5186cbd987dae7281e626e7b087020687eef66a01751650df33741ad7",
+      "structured_result_sha256": "06957acf725fb9779322618a43ca7374d24940f60e944008bbd759e9ec7452a6",
+      "units_count": 4,
+      "findings": "四个具体反例依源图收录。二阶指数为−n²x²，第四例分母为√n；OCR把原图导数不趋零误读为趋零，题库依原图作交换极限与求导的反例。\n"
+    },
+    {
+      "page_number": 213,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0213/result.md",
+      "ocr_markdown_sha256": "c353cac6f0f3e42606e6b4580b3d14fecc02c4b91aff8d751a3bd4743356cde8",
+      "structured_result_sha256": "e037575cef9c2f1a75b29bdf2dda1a3a8bb02c9725f4c84d5f07c1cc5db27d58",
+      "units_count": 4,
+      "findings": "八个收敛点集小问、三个问题与源图和OCR相符，保留第(5)分母n的n+x次幂及第(6)的两个正变量。小问按每三项拆分，援引上题的两个条件已各自补全。下部是一致收敛的引入，非题干。\n"
+    },
+    {
+      "page_number": 214,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0214/result.md",
+      "ocr_markdown_sha256": "f765e552b02632e2b6b90d3159abee9ba30bd7c6c9738be89c6dbb7e91ca06d1",
+      "structured_result_sha256": "2276b4e7814752edfd96556e8f60e4d1960977da22b58a40f2b3c3d457a08425",
+      "units_count": 1,
+      "findings": "两则函数列例子同用(0,1)，分别为x^n和1/(n+x)。题库结合原文的比较目的，合成带两个小问的改写题；OCR缺失的绝对值符号属于解说。\n"
+    },
+    {
+      "page_number": 215,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0215/result.md",
+      "ocr_markdown_sha256": "62d7075d1ecde80dbf131840ae17ff787ca7e1ac9bd39a95dc0da2fdb377fdc3",
+      "structured_result_sha256": "113fcee6b35377e13e2b2854bb0df1a0ba73c00ebf2953049a9563f267ab65a7",
+      "units_count": 0,
+      "findings": "承接上一页两个例子。源图两幅曲线图是定义与上一页例子的说明，函数列题意已用文字和公式完整表达，不增加图片或新题。\n"
+    },
+    {
+      "page_number": 216,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0216/result.md",
+      "ocr_markdown_sha256": "118885b233bf6ef11b9ef3d05e2b3d7cb62cc6d953ac83d3bd27abaa18b3b35e",
+      "structured_result_sha256": "f48c9745c2447b5e0e90066d912612fea88b1c8d5ce3aacd809b7206e29a79c3",
+      "units_count": 2,
+      "findings": "两道原书明确要求讨论一致收敛的例题。第一题的两个原题区间为(0,+∞)及[δ,+∞)，不采用解答末句缩写或误印的(0,1)；第二题公式2n²x exp(−n²x²)，与第212页同函数而所求不同。\n"
+    },
+    {
+      "page_number": 217,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0217/result.md",
+      "ocr_markdown_sha256": "608b868b83248dda46b6fdf968a8b58fdb8ea136f52d39f63eb14591411d3b9a",
+      "structured_result_sha256": "ab4643b5c9c1bd23e2264ed1860a76bea77d210e08fbd7a94b6dbccf2fe3f51e",
+      "units_count": 0,
+      "findings": "Cauchy判别推导和推论续页，未另起例题或习题。OCR漏掉公式的绝对值和小于ε的右端，原图用于判断这部分为定理内容。\n"
+    },
+    {
+      "page_number": 218,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0218/result.md",
+      "ocr_markdown_sha256": "ed3719dcf75090818d2493bbef360d42fe8be6f75e8b73f9af171ee2844fa07f",
+      "structured_result_sha256": "6e5c2f86b8177ad0aa3c7e4520179ab016d759604f484f3e7a0469baefe30f75",
+      "units_count": 3,
+      "findings": "反例1/(n+x)、指数级数及余弦级数三题都匹配，余弦例始于本页、续至219页。将页首通项趋零的反例移到两个编号例题之前；OCR在判别定理中漏绝对值，非题干。\n"
+    },
+    {
+      "page_number": 219,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0219/result.md",
+      "ocr_markdown_sha256": "524035950bc9dc4216b42f873da93452486ab4d85d9ea808e17dc9ea53c27978",
+      "structured_result_sha256": "4c9b0c0d2be73614bde582981618e6fc9fbac20daa5127b2a2525665546caed1",
+      "units_count": 2,
+      "findings": "前页余弦例的解答无独立题。两则具体说明例保留为改写，第一个分母1+n⁴x²，第二个区间的左端δ>0且闭。\n"
+    },
+    {
+      "page_number": 220,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0220/result.md",
+      "ocr_markdown_sha256": "e6a9cf98e15980fbe678a601f31e8c0a4c128963e07768e619ee23362b91da16",
+      "structured_result_sha256": "4d4cd76b015cd8bbedafa38329b575f981b7f5f1829bd96cfb1006b16eaaa0e0",
+      "units_count": 2,
+      "findings": "源图对照x^n与nx^n在(0,1)上的有界性，收录为两个说明改写例并保留逐点与一致有界的区别。后续是判别定理与证明。\n"
+    },
+    {
+      "page_number": 221,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0221/result.md",
+      "ocr_markdown_sha256": "fdc0d6135414afabf2699c66962ff1f82dfacd7add02e9e2103fc78fda1e280e",
+      "structured_result_sha256": "6fba2827ef79c14cffa9c4570753582acc597d931537621cfebba112e7df3431",
+      "units_count": 2,
+      "findings": "源图所问为何不能把数项级数的Abel证明移用到函数项级数，是明确的读者题，保留。紧接例题从本页起，两个三角级数均从n=1起，闭区间[δ,2π−δ]且0<δ<π，续页为解答。"
+    },
+    {
+      "page_number": 222,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0222/result.md",
+      "ocr_markdown_sha256": "64c0c18fb317550b79c8391435cb0da313b831a334d9c8b7e111e3b4da2ab10c",
+      "structured_result_sha256": "dcdc76c442e626127921d935315c7e6fdc46d225b8e5797f0b6bcb445949b02c",
+      "units_count": 4,
+      "findings": "接完前页例题解答。补录正文两三角级数的非绝对收敛例，按原次序置于交错幂级数与两组练习之前。放大源图核实交错级数区间为[0,1)，括号与OCR相符。核实第一练习第二组的三个区间，按各区间使原式有定义的最大参数范围标注校订；e^{−(x−n)²}第一域在源图为(−l,l)，OCR漏负号。第二练习续至223页。"
+    },
+    {
+      "page_number": 223,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0223/result.md",
+      "ocr_markdown_sha256": "da71ac4d196fecfb25e11bec40b835b7c216b1bc400757f12c6ba5d9885b4874",
+      "structured_result_sha256": "cb3ab739ca37e63d27922efeb8a9723b99069558365a7323f5599adab31f2ddd",
+      "units_count": 9,
+      "findings": "核对上页第二组余下三个小问及本页九道练习。对数项定义在开区间，原参数条件需补上上界，允许在界值取等。原图的局部一致收敛题应是同一函数列收敛于f，替换旧题库的函数项级数说法；独立括注提示未纳入。末题指数按原图写α，首项改从n=2起以排除未定义项并记录校订。"
+    },
+    {
+      "page_number": 224,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0224/result.md",
+      "ocr_markdown_sha256": "1c8073292d41622321957d22c91a55ffdb72ebf8bcd60f507fcfcc6081147c72",
+      "structured_result_sha256": "a99227d13f15ee8f38c309dfb8a982474e3e4b170718d96c2eb446bdbc8454b0",
+      "units_count": 9,
+      "findings": "核对两道节末练习和七道问题。原递推积分题的f_n(x) dt按积分自变量校为f_n(t) dt，原图与OCR均见误印。无有界性条件的乘积题追加源图明确要求的“试举例说明”。保留复合次数和第六题分母末项x^{2n−1}。"
+    },
+    {
+      "page_number": 225,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0225/result.md",
+      "ocr_markdown_sha256": "4e9be22a50b08f3be51f64f4778164df83ce08c8265b6e6458a5029d37f06f4e",
+      "structured_result_sha256": "303866d0385ac180cf9e675f0f727660ba9f1886e9109b99dcec44ff787e37e1",
+      "units_count": 3,
+      "findings": "三道连续性例题均有不同任务。原图第一道仅陈述，保留改写；后两道分别明确计算和证明，去掉第三道误加的改写标记。第三道的论证在226页继续。"
+    },
+    {
+      "page_number": 226,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0226/result.md",
+      "ocr_markdown_sha256": "b45ed61e6fd0dfbf9ebdbadf01f6fa5fbfe462836e50bbc24013aea0f2c935ca",
+      "structured_result_sha256": "71bcdac4274f419cddfad672349e6b3c5f26b2e31f31edec91cd5b8db5797dbd",
+      "units_count": 1,
+      "findings": "对照原图与OCR，级数例首项n=2，括号内x/ln n整体取n次幂。源图已明确提出证明，去掉误加的改写标记。其余是Dini定理引入和证明，延续至227页。"
+    },
+    {
+      "page_number": 227,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0227/result.md",
+      "ocr_markdown_sha256": "6e4988faca20da84bbb795984328d9e1d66a27ccdb849843ae8649a0c8978a7f",
+      "structured_result_sha256": "e4e0b5408be56b3cdf4c22a91df6f469240d818d838e2e2353096c9c9ad869fb",
+      "units_count": 1,
+      "findings": "Dini情形的三则新增反例合为三个小问，分别是x/n、[0,1)上的几何级数及以ln n为分母的n次幂级数。开区间(0,1)上的x^n函数列已在214页同题复现，按较早来源保留一次。后半进入可积性定理。"
+    },
+    {
+      "page_number": 228,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0228/result.md",
+      "ocr_markdown_sha256": "04e8ba5af787b50ac8516ca562e62a7de4eaa975fa6d23d81a20fda367e3fabb",
+      "structured_result_sha256": "7caa17aa73812482018ea47afe9d3eeff6934dbddc92cc4cd16a174302566e45",
+      "units_count": 0,
+      "findings": "只含可积性证明、相关推论与上一页反例转引，无独立题。OCR在末行误认一个无穷上限为3，未进入题库。"
+    },
+    {
+      "page_number": 229,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0229/result.md",
+      "ocr_markdown_sha256": "c6869929758aff71f3ef60ea84373b17a32043d183827b36d03e086b551812bb",
+      "structured_result_sha256": "b1bb768d47536adaa2c98ce447d0333207ab6cd886305e984e9687d8506f12cd",
+      "units_count": 1,
+      "findings": "首行续推论，之后唯一计算题由源图核实积分区间[0,π]、余弦分母n²且从n=1起；余下是逐项微分定理与证明。"
+    },
+    {
+      "page_number": 230,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0230/result.md",
+      "ocr_markdown_sha256": "4f57b2a98093dfc3d3bf3ad0219b92107d5b3f41d999233234621180f5718f59",
+      "structured_result_sha256": "cc22e57389109833ddad9de7c8c29850ebedd9e07949853c459ec7f1c0d4fb1f",
+      "units_count": 1,
+      "findings": "核对本页唯一例题，sine项分母n⁴；原书明确要求证明二阶连续可导并求二阶导数。解答末式在231页页首。"
+    },
+    {
+      "page_number": 231,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0231/result.md",
+      "ocr_markdown_sha256": "8122d22ed10ca690322cfef5ba1f36b94850365e0b17f2cf2709c54b67e5778d",
+      "structured_result_sha256": "ba757032f0be97ff57edd9591dec66fd881fe358e46dbb2b119162b388fce51f",
+      "units_count": 2,
+      "findings": "复核Abel正弦级数历史反例，保留(0,2π)上的已知和公式，让读者求整轴上取值与间断点；原图锯齿图为解答说明。页末练习从本页开始，按源文用“存在域”，两小问跨至232页；第一式确实无x。"
+    },
+    {
+      "page_number": 232,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0232/result.md",
+      "ocr_markdown_sha256": "546d966156872a3e52ba68a4e0ee13ab8e97b67271376e36e50c631ac49efecd",
+      "structured_result_sha256": "ed52337040b88d2d3e417136c1bf988abacb16f94cec94ec6a7a7ca758c8f6f0",
+      "units_count": 8,
+      "findings": "核对从231页开始的两小问、其后七道练习及跨页问题的开头。区别230页的sine例与本页cosine练习，分别保留；含几何因子题的余弦为cos(nπ/x)，末极限题分母是n(1−x^{2n})。"
+    },
+    {
+      "page_number": 233,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0233/result.md",
+      "ocr_markdown_sha256": "b0b0ffbe6e91f87fd4daa66993ce1706b9d6fe2502511262a241db23ff3ae451",
+      "structured_result_sha256": "1a42037f3f4d14c33e45d5d7ad51df9cc6b525f68a869a9e92ec9bb18bc96856",
+      "units_count": 4,
+      "findings": "页首续完有界收敛题；反常积分、导数与极限、不可导点三题按源图核定。把不可导点题的研究域明确恢复为(0,1)。分母x+2^n的新题从本页起，其余两问在234页。"
+    },
+    {
+      "page_number": 234,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0234/result.md",
+      "ocr_markdown_sha256": "4aa64a12559f6c3d66cdf7208bb8dacbfb35a05c1d1655e030699e06cde773f6",
+      "structured_result_sha256": "1c2643c0d656e62d49a3f6dd7034f93f5c6fe82e28d857cdeaa5734eae7c2c28",
+      "units_count": 2,
+      "findings": "核对上一页题干的余问，原书与OCR均把f(x)极限下标写作n，校为x并标注。两道新题分别为含(n!)²及2^{n+1}的恒等式、可导函数构造。其后是幂级数定义和Abel定理。"
+    },
+    {
+      "page_number": 235,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0235/result.md",
+      "ocr_markdown_sha256": "f6630544d975fbebfff1acfe66c517e3f64f69a34e4622c1d64f291787587c84",
+      "structured_result_sha256": "243d06d9aed63893daf9eb68ff109069f61fa3c44017e3eb70cf1a353d214047",
+      "units_count": 0,
+      "findings": "Abel定理证明续页与Cauchy–Hadamard定理及证明，无另起题目。公式的根指数和上极限按原图确认，为下一页改写题的计算方法。"
+    },
+    {
+      "page_number": 236,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0236/result.md",
+      "ocr_markdown_sha256": "f7edbcd7d1966c6015e95f0c7c1431ea07a0bbe3698e19b36e26761ce404867c",
+      "structured_result_sha256": "b3a5501c5774061fcb4a22d55a32e3c3480d82b17166022108f09e476c4d9cb8",
+      "units_count": 3,
+      "findings": "三道题覆盖半径计算、缺奇次项和两个端点的三种行为，首例恢复原书指定的Cauchy–Hadamard公式。页末几何级数非一致收敛与227页已有同一反例，保留先出现的题。"
+    },
+    {
+      "page_number": 237,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0237/result.md",
+      "ocr_markdown_sha256": "83557daeb9cf7f7c6fab1d1d8511f10544269caaf5cc49f8e2b5222f0d715383",
+      "structured_result_sha256": "27c4787343dee768e234b77aba848d4673a9bfe6bbf7dfc606e83b0bee481907",
+      "units_count": 0,
+      "findings": "仅有内闭一致收敛、逐项微分与积分定理及证明，无新题。OCR的根号范围有歧义，未用于题干。"
+    },
+    {
+      "page_number": 238,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0238/result.md",
+      "ocr_markdown_sha256": "a2361a5aa4b1b45c1008d08dc2046a0e01683478623a1a378f8c7616a53787a1",
+      "structured_result_sha256": "541fe5aef493af8c41ae6e8bf39a4fa3b10426efdced652333904b2213006bc9",
+      "units_count": 3,
+      "findings": "核对求nx^n级数和、代入1/2和1/3的具体和、ln(1+x)及arctan x两个展开式。把两个数项和的说明性改写放回原书顺序；展开例续至239页页首。"
+    },
+    {
+      "page_number": 239,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0239/result.md",
+      "ocr_markdown_sha256": "e11d1a1eea44def9693696155327fcc46327a3ee3c9006c6c37fa4ba2e4ab6a1",
+      "structured_result_sha256": "e11aa5a7ea42aa62534bd56afc4882ab2d12508eafb4bb30b83da3793a6ff38a",
+      "units_count": 2,
+      "findings": "核对上一页arctan x的解答与本页两道求和例。交错调和从n=1起，分母2n+1和3n+1的两个级数从n=0起；后例解答续至240页。"
+    },
+    {
+      "page_number": 240,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0240/result.md",
+      "ocr_markdown_sha256": "0cdf2f2c7f6cb29d9b533b1732698d2daa182a5587ecef755419f8f61abfcc50",
+      "structured_result_sha256": "d8db7202cabd6d9158a042bab992382ad64490e0a5eaa74a8dfa23ffa9bc1af5",
+      "units_count": 1,
+      "findings": "上一页求和例末为解答，OCR漏掉两处S(x)中的S。对照新增Abel逆命题的交错几何级数反例，左极限从x<1取，端点数项级数从n=0起；后续Tauber定理开始。"
+    },
+    {
+      "page_number": 241,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0241/result.md",
+      "ocr_markdown_sha256": "ad588749aacf0abb1ffa2a8b3f4161d9a3d1daa23b32c6f6e7a8b883866aab30",
+      "structured_result_sha256": "ad333dd3311a51d63b0850435a27667e417ac22c2cae5445773ca2567035f796",
+      "units_count": 0,
+      "findings": "Tauber证明与幂级数乘积引入。页末非负系数时的读者证明，与244页正式练习完全相同，题库保留正式题并注明页序，无重复题。"
+    },
+    {
+      "page_number": 242,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0242/result.md",
+      "ocr_markdown_sha256": "23ec6c866d994342b8b7592cacf0c49279e4dbbfa406ae479ab13b34e22dbb77",
+      "structured_result_sha256": "82816e792a5d2e5ae44b3e892534af28c79c63f00aa1cfdfbe43b84e1482c82a",
+      "units_count": 2,
+      "findings": "Cauchy乘积之后两例均匹配原图。前n项和及再求和的两条恒等式保留为改写。含(n+1)(n+2)的第二道原有“证明”，已校去改写标记；按题面从n=0起，OCR解答里出现的下限n=1不用于题干。"
+    },
+    {
+      "page_number": 243,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0243/result.md",
+      "ocr_markdown_sha256": "447d0c6af0a42d12ef5dd883ca48fcc0a446a990f121fc043affb01d3d1e8c74",
+      "structured_result_sha256": "7bf0c7beacdafe032aee57cd10773feba76c829883a7fac9e5560b65c383b092",
+      "units_count": 6,
+      "findings": "核对六组节末练习。OCR将第一条总题干重复读取一次，源图只收录一次。幂级数和及系数积的半径界恢复原书三个小问，第二问注明乘积须有定义。末练习从本页起，对照244页的续题结论，分母保持a_{n+1}。"
+    },
+    {
+      "page_number": 244,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0244/result.md",
+      "ocr_markdown_sha256": "0dc8ca6e757cadd31cc5a7c273f5f89d783fab206b5d413cb844011be5a87c9d",
+      "structured_result_sha256": "d912864cdb24ca6c955ccb1db7a4cc4492e247ee7ac9f7ce7f46298e1dfcd484",
+      "units_count": 7,
+      "findings": "核对练习续页、非负系数题、Cauchy乘积题及五道问题。含ln 2恒等式的源分子(2n+1)!!会使左边等于π/2，已校为(2n−1)!!；最后一题源印R_n校为R^n并限定有限正半径。两处均保留校订标记。"
+    },
+    {
+      "page_number": 245,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0245/result.md",
+      "ocr_markdown_sha256": "d02ac0f2b448d92c9491ea1f682af4216433ad7262dba287bfcbe66e60a6a1c0",
+      "structured_result_sha256": "dcf47e828bb1a81475b522e757e7a5922c1b5f6430092b84c64678878e1ea102",
+      "units_count": 0,
+      "findings": "Taylor级数的定义及一个具体正弦级数反例；核实正弦自变量为2^n x且分母n!，与251页正式证明题完全相同，保留正式题。末行仅起转述，下一页首处给出另一例的完整函数定义。"
+    },
+    {
+      "page_number": 246,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0246/result.md",
+      "ocr_markdown_sha256": "0753a1ac029a1b9514e3863b79edbd3b6cd013e19f45a2655b07ec5685299fd5",
+      "structured_result_sha256": "24f4e142200ec812179c38cda26bf33497ab6311a296ab53a7d164385d64d5d4",
+      "units_count": 1,
+      "findings": "对照零点分段与指数−1/x²，保留Taylor级数不复原原函数的说明性例并标为改写。其他问句引入一般判据，其余为Taylor余项和定理，无另起题目。"
+    },
+    {
+      "page_number": 247,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0247/result.md",
+      "ocr_markdown_sha256": "1fe5d9e7d8edf1274e35e3bab2d2270db6ecd5f0bf78c4cea7c78cfb0912dd1a",
+      "structured_result_sha256": "51d6deb325433a8d58743e236cc0a670a0a8611f44c0bdd910ff8876a4ecd9d1",
+      "units_count": 3,
+      "findings": "三道原书明确求Maclaurin展开的例题，函数分别为e^x、sin x与cos x，以及任意实指数的(1+x)^α。第三例从本页开始，其成立范围及端点讨论在248至249页。"
+    },
+    {
+      "page_number": 248,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0248/result.md",
+      "ocr_markdown_sha256": "858db24adb0808d9a14efc0b8a9d9a1d93a3e7dcb6ec7aa0cfc9eb1fa5edbbbe",
+      "structured_result_sha256": "7e34d191d42da26debedf161883ab29f0e22f4de7220ac5d70b4c198c066a612",
+      "units_count": 0,
+      "findings": "上页实指数二项式展开解答，含系数、余项与端点分情形，无新题。原图的绝对值优先，未照录OCR错漏。"
+    },
+    {
+      "page_number": 249,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0249/result.md",
+      "ocr_markdown_sha256": "7e8a7591708af95e3d9da12af3f208b1d801813417185a0796cb58f7ee65c446",
+      "structured_result_sha256": "a42e27dff53bcf6f795cc592966aa62499748be116460b739e04a6031de13af7",
+      "units_count": 1,
+      "findings": "前两部分结束247页开始的实指数例的证明；新题在页末，原函数分母为(1−x)(2−x)，展开中心为0，解答续至250页。"
+    },
+    {
+      "page_number": 250,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0250/result.md",
+      "ocr_markdown_sha256": "17fb7fb916eba9cd35a68c78a8387bdb6dea0613575d9d8b6f06ead9c0cf9163",
+      "structured_result_sha256": "e85a1cbaa6e0e2257128480d2f6396cbaac4efbf5d7a0b02751a6209f6c75480",
+      "units_count": 2,
+      "findings": "上一例解答之后有对数商和对数比的两则新例，分别为ln(1−x)/(1−x)和ln((1+x)/(1−x))，均按源图以0为中心。页末开始回顾六个结果，无需另录。"
+    },
+    {
+      "page_number": 251,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0251/result.md",
+      "ocr_markdown_sha256": "6eba5d30d13d40e3c054ea9bdd885b7a1825fa262a42d2de4580cca12af1adda",
+      "structured_result_sha256": "ffb9faa6e00d90de05b93fb7c88ee7678f0c964fbe39297204813d870de1b5f9",
+      "units_count": 6,
+      "findings": "核对三组实函数的幂级数、两个变量替换展开及页末Taylor反例起始。第一组恢复原题要求的“利用已知的初等函数展开式”，x/√(1+x)恢复“正整数次幂”。末题正弦自变量2^n x、求和自n=0，续问在252页。"
+    },
+    {
+      "page_number": 252,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0252/result.md",
+      "ocr_markdown_sha256": "4d83ece5f1669b36c101e63d022f6fc6b58451829ddd2177a08c5e0946e4cf33",
+      "structured_result_sha256": "805ab8bf5b2c71fa995da82125371a450c061ed6a9f8b4fcf6629613ad59d1f5",
+      "units_count": 3,
+      "findings": "先核对上一页正弦级数的Taylor发散条件，再核对三道新问题。Taylor等式区间以原公式0≤x<r为准；交错符号连续两正两负；Euler常数题内层从k=1起、外层从n=2起。后半为多项式逼近的定义与定理。"
+    },
+    {
+      "page_number": 253,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0253/result.md",
+      "ocr_markdown_sha256": "6d76606b792d091992bc4a318f026448efbd8f96bd59465490c59a5dd9cd3a8d",
+      "structured_result_sha256": "c088ddd16aeadff2416a471c77a62e0f0a2afbda7d5b89ff8d64a6e088f4e3ea",
+      "units_count": 0,
+      "findings": "首句接Weierstrass定理。Bernstein基底、三条一般性质及证明均是后续构造的理论，源图无题目。"
+    },
+    {
+      "page_number": 254,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0254/result.md",
+      "ocr_markdown_sha256": "8f5b204c87b3552600aecd971c496c4be69fdb456f7672682057c13c36c24a7f",
+      "structured_result_sha256": "d5ea978dbfbdfc497798d536d409b1c3091af738a6d1d09a90b902e22d720739",
+      "units_count": 1,
+      "findings": "原书给出 f=1、x、x² 三个具体Bernstein多项式作为示范，题库保留三个小问并标改写。定义的下标范围、抽样i/n和权重x^i(1−x)^{n−i}均一致。"
+    },
+    {
+      "page_number": 255,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0255/result.md",
+      "ocr_markdown_sha256": "08bb1d0679d923d1bafb7d41fdc83bab6571ae83beee82eccd5af29cf2d30189",
+      "structured_result_sha256": "2cfb165656ab15785b73e118b6c0dc1348cec21d1b24035334a8c7f90a8a6191",
+      "units_count": 0,
+      "findings": "Bernstein均方偏差上界与逼近定理一般性证明。核对原图，无例题或习题起始。"
+    },
+    {
+      "page_number": 256,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0256/result.md",
+      "ocr_markdown_sha256": "ff6af332eefa2fbc07fecb51b5ed922a3b263d9b63c9a46e25f596422abf6481",
+      "structured_result_sha256": "43f99d5aaebdcd6aa43d590d51a6414ed63a4c22c49c320b2824f5eb5af1da61",
+      "units_count": 1,
+      "findings": "原图先结束Weierstrass证明，再给出1/x在(0,1]和[1,+∞)上的两个反例，题库将两域分别列为小问。正文叙述“任一多项式”忽略了常数情形，未写入题面。"
+    },
+    {
+      "page_number": 257,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0257/result.md",
+      "ocr_markdown_sha256": "d7fe14501a94b373a43cc23598be3d8baa88e7cf4fa6cce0c36263eaa2e4cae3",
+      "structured_result_sha256": "d175b3b63afb1ac33f15c13019a5affedd999932ae9bbd849b78743a04704cb1",
+      "units_count": 5,
+      "findings": "把x²的Bernstein误差例放回节末练习之前。比对保形性质四小问、矩积分两问、存在固定正整数k的矩条件及奇偶性练习开头。按源图恢复N为正整数；奇偶题续至258页。"
+    },
+    {
+      "page_number": 258,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0258/result.md",
+      "ocr_markdown_sha256": "504371447e0f060a5e83604ab6f4a9eebc248d479b0f53196be768e538f63d24",
+      "structured_result_sha256": "8289c5a8042824ef24c9da3b28ea6d3b44d2c81a54708922e616d6d0c5e35b4f",
+      "units_count": 5,
+      "findings": "核对上一页奇偶题续文、两道练习和三道问题。整条实轴上的多项式逼近按源图仅需推出f是多项式，恢复单向命题；另一题的逼近式是P(1/x)，定义域为1≤x<+∞。Weierstrass构造题分三问，保留核函数与零延拓。"
+    },
+    {
+      "page_number": 259,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0259/result.md",
+      "ocr_markdown_sha256": "185830f147920493e9916c36ca818fbcc4ebdb09bf328c264c912ca4bfbb60ca",
+      "structured_result_sha256": "c60eeebdd665e782f7d87c2e5618dc5b39c27d5996a3eaa7373d534c06f58600",
+      "units_count": 1,
+      "findings": "母函数定义之后的Vandermonde恒等式及其具体特例均核对过。一般实参数题原有证明要求，第二小问从同页具体说明改写；组合题保留改写标记。"
+    },
+    {
+      "page_number": 260,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0260/result.md",
+      "ocr_markdown_sha256": "2dc0457369e465afc14baa0d7ffa42921b83f19e0c30990415070f3a5a093015",
+      "structured_result_sha256": "ca54b67c81e561f29b5cce5a679f9a90b0bc67f54f73f419d2b712776ad0c583",
+      "units_count": 2,
+      "findings": "第一道系数积恒等式为非负整数参数且下标依原式。第二个例子从本页给出a_0=a_1=1、n≥2的递推并要求通项，合收262页紧接此例的具体取整式；其推导跨260–262页。"
+    },
+    {
+      "page_number": 261,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0261/result.md",
+      "ocr_markdown_sha256": "ecf273b2c77762b77e021b07bea61647557ffe1f61848505fd8194244828a15a",
+      "structured_result_sha256": "baaf7e9243ead42041e266f17946ad964742cd18b1b08aade805632e9ffe25a6",
+      "units_count": 0,
+      "findings": "Fibonacci母函数和通项推导的续页，无新题。对照原式指数为n+1，代入初始值关系正确。"
+    },
+    {
+      "page_number": 262,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0262/result.md",
+      "ocr_markdown_sha256": "fa16125fb726914928970608ba8ec1a8afc18784686a8711cbf942fbc20b4f3e",
+      "structured_result_sha256": "5959cb34ba84196fcb79191f77450b2b243da3f07350710040a778189aa44e2a",
+      "units_count": 1,
+      "findings": "Fibonacci整数部分表达式继续前例，奇数项取整，偶数项取整后加1。下一道凸多边形问题明确为n−3条内部不相交的对角线分成n−2个三角形，恢复准确计数。图15.4用于说明解法，题干不依图。"
+    },
+    {
+      "page_number": 263,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0263/result.md",
+      "ocr_markdown_sha256": "c40da79aa557561aa13550c7fdb7a8cf4c87757c393626c68f218cc47bb44d69",
+      "structured_result_sha256": "958fefb0f2c687b37fbbba7f5a4d65486b3c5bed31ac4e9f6f09a305acfa0a28",
+      "units_count": 0,
+      "findings": "凸多边形题的非线性递推、母函数及展开式续解，无新题。"
+    },
+    {
+      "page_number": 264,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0264/result.md",
+      "ocr_markdown_sha256": "d22ec838b40daacc2c58ba7d2aa39ea365152a23cd512b007dbb55d515c648ee",
+      "structured_result_sha256": "eda94c0507e0a587d70b99dd7befe41f181a970350f86debe5eeb8ba5274bc11",
+      "units_count": 6,
+      "findings": "结束前例解答。核对本页六道正式练习，末题三个递推式、符号和初值均一致。加权二项式和题的母函数括注提示未纳入题库。"
+    },
+    {
+      "page_number": 265,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0265/result.md",
+      "ocr_markdown_sha256": "dcf419eefb31d062ce1d852bd80fc5547e139ae0a3aa8ca6f385b6e52d4d32bd",
+      "structured_result_sha256": "901f2c60bd9dc918f4b637a202f6373f512020207119e49c69ef354846551693",
+      "units_count": 6,
+      "findings": "核对五道母函数相关问题，参数二项和的上限原图和OCR均为[1/2]，依据同组恒等式校为⌊n/2⌋。页末是处处连续、处处不可微的构造例开头，首个三角波顶点在0、零点为半整数，题面采用等价的距离函数表达。"
+    },
+    {
+      "page_number": 266,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0266/result.md",
+      "ocr_markdown_sha256": "0ecad08e7413da2dfa2e6f859da13181ae3e3feece116eddc71550265395c318",
+      "structured_result_sha256": "9ec9449b2aa1c9fb826a7e2789543241d1104798130ee322c6cc0352b05198e8",
+      "units_count": 0,
+      "findings": "按原图确认后续三角波的零点每隔4^{-n}，题面已采用u_n=4^{-n}d(4^n x)。原书折线图用于说明第265页的同一构造，文字和等价公式已足，OCR图块无需进入题目。"
+    },
+    {
+      "page_number": 267,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0267/result.md",
+      "ocr_markdown_sha256": "392c11b78c9df9cafd90dd8b5b8784b92272e6cdf9170d13d14ddc55aa248d59",
+      "structured_result_sha256": "843de9a154b25393528896e728789847e7247b73dd0229927bbc8930f354c114",
+      "units_count": 0,
+      "findings": "处处连续的收敛论证及处处不可微的差商论证，是265页题的解答续文，无另起题。"
+    },
+    {
+      "page_number": 268,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0268/result.md",
+      "ocr_markdown_sha256": "89e3079ed776d1a0cd16d1462908370fb16f7289d0d586c81a2d2110b14664f3",
+      "structured_result_sha256": "82daa6fa00c3c4f4af702c9a5c16b2a80094515893f1cb7434981d9a91cedba5",
+      "units_count": 1,
+      "findings": "接完差商证明后首次给出填满正方形的连续曲线。核对φ分段、偶性、周期2、分母2^n及自变量上3的不同幂次，公式使题面自足。"
+    },
+    {
+      "page_number": 269,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0269/result.md",
+      "ocr_markdown_sha256": "f78892013e0d717406b8ab296495947a003b7bbe5d4147e0f9de69089a5a84f4",
+      "structured_result_sha256": "8337672563feb1f6968034f46df656b659826e3cbf02027913d7404813e415fb",
+      "units_count": 0,
+      "findings": "原图为周期函数图与正方形曲线满射的证明，属于268页同一题的解答。OCR把一个无穷求和上限省去，未影响题干。"
+    },
+    {
+      "page_number": 270,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0270/result.md",
+      "ocr_markdown_sha256": "2bd7af75de9749c321fe3a98e79c348748a8c013b78bad31299fcfe6269c4b2f",
+      "structured_result_sha256": "7028dc2315fcb5d11bb8a14cd4ac70219e51915349b74a1005bc235859afcbe5",
+      "units_count": 1,
+      "findings": "先核对正方形证明末尾。本页底部明确要求证明另一条曲线填满立方体，结论续至271页；记录首次来源270。第三坐标分母的扫描有叠影，OCR读为2^{n+1}，用272页同题清晰重印交叉核实为2^n。"
+    },
+    {
+      "page_number": 271,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0271/result.md",
+      "ocr_markdown_sha256": "33d15203b368b0ec60908fccffb3249a4b1dc73c009046001b7bcc6d18ac4743",
+      "structured_result_sha256": "4a482dfad195cc8c77ffdb2b3cb5cbc97c76031595139dceba6b8390b32fda39",
+      "units_count": 0,
+      "findings": "首行完成270页立方体题的目标陈述，之后是分形背景与讨论，无新题。"
+    },
+    {
+      "page_number": 272,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0272/result.md",
+      "ocr_markdown_sha256": "5a9d5021adb7a2267121896f83d2f886895e2b290fd25a36bcbd5b020102cb2f",
+      "structured_result_sha256": "5e6a2b45481fb627332595113a1fadbf046eea03a49c2b459934b531cf6d8d31",
+      "units_count": 0,
+      "findings": "比较原图和OCR，末尾正式练习完整重印270–271页的立方体题，第三坐标分母明确为2^n。题库仅收一次，采用正文已明确要求证明时的首见页270；其余为背景续文。"
+    }
+  ]
+}

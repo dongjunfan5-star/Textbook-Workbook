@@ -1,0 +1,185 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{12}\section{场的数学}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.1}
+设径向量 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|$。求 $p>0$ 时的梯度 $\nabla p$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.2}
+设 $f,g$ 为 $C^1$ 数量场且 $g\ne0$。证明\[\nabla\frac fg=\frac1{g^2}(g\nabla f-f\nabla g).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.3（校订）}
+设 $u$ 为 $C^1$ 数量场，$f=(f_1,f_2,f_3)$ 为 $C^1$ 向量场。计算乘积 $uf$ 的分量梯度 $\nabla(uf_i)$（$i=1,2,3$），从而写出 $uf$ 的 Jacobi 矩阵。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.4}
+设 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|>0$，$f$ 为可微单变量函数，$\mathbf a$ 为常向量。计算：
+\SubQ{1}{$\nabla\ln p$。}
+\SubQ{2}{$\nabla f(p)$。}
+\SubQ{3}{$\nabla f(p^2)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.5}
+设 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|>0$，$f$ 为可微单变量函数，$\mathbf a$ 为常向量。计算：
+\SubQ{1}{$\nabla\bigl(f(p)\mathbf p\cdot\mathbf a\bigr)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.6}
+设 $f,g$ 为 $C^1$ 数量场。在 $\nabla g\ne0$ 的点，求 $f$ 沿 $g$ 的梯度方向的变化率，并说明此变化率何时等于零。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.7（校订）}
+设 $u$ 在点 $\mathbf p$ 的邻域内属于 $C^1$。令闭区域 $\Omega$ 含 $\mathbf p$ 于内部，边界分段光滑并满足 Gauss 公式；记 $\mu(\Omega)$ 为体积，$\mathbf n$ 为单位外法向量。证明当 $\operatorname{diam}\Omega\to0$ 时，\[\nabla u(\mathbf p)=\lim_{\Omega\to\mathbf p}\frac1{\mu(\Omega)}\iint_{\partial\Omega}u\mathbf n\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.8}
+设 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|>0$，$\alpha\in\mathbb R$。计算 $\operatorname{div}(p^\alpha\mathbf p)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.9}
+在 $\mathbb R^3$ 中令 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|$。证明 $1/p$ 在 $p>0$ 的区域内为调和函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.10（改写）}
+证明静电场的 Gauss 定理：在取 Coulomb 常数为 $1$ 的单位制下，通过定向朝外闭曲面 $\Sigma$ 的电通量等于其内部电荷总量的 $4\pi$ 倍。分别考虑单个点电荷、有限个点电荷的叠加及连续电荷密度 $\rho$；点电荷均不位于 $\Sigma$ 上。并导出连续分布情形的微分形式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.11（改写）}
+设流体速度场为 $F(\mathbf p,t)$，密度为 $\rho(\mathbf p,t)$，二者足够光滑，且流体运动满足质量守恒。从任意固定控制区域的质量变化与边界流量出发，推导流体的连续性方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.12}
+在 $\mathbb R^2$ 中令 $\mathbf p=(x,y)$，$p=\|\mathbf p\|$。证明 $\ln p$ 在 $p>0$ 的区域内为调和函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.13}
+设 $f,g\in C^2$。证明 $\Delta(fg)=f\Delta g+g\Delta f+2\nabla f\cdot\nabla g$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.14（校订）}
+设 $\Omega$ 为适用 Gauss 公式的有界闭区域，$u,v$ 在其邻域内属于 $C^2$，$\mathbf n$ 为单位外法向量，$\partial/\partial n$ 为外法向导数。证明：
+\SubQ{1}{$\displaystyle\int_{\partial\Omega}\frac{\partial u}{\partial n}\,d\sigma=\int_\Omega\Delta u\,d\mu$。}
+\SubQ{2}{$\displaystyle\int_{\partial\Omega}v\frac{\partial u}{\partial n}\,d\sigma=\int_\Omega\nabla u\cdot\nabla v\,d\mu+\int_\Omega v\Delta u\,d\mu$。}
+\SubQ{3}{第二 Green 公式：$\displaystyle\int_{\partial\Omega}\begin{vmatrix}\partial u/\partial n&\partial v/\partial n\\u&v\end{vmatrix}d\sigma=\int_\Omega\begin{vmatrix}\Delta u&\Delta v\\u&v\end{vmatrix}d\mu$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.15}
+设 $u$ 在 $\mathbb R^3$ 的有界闭区域 $\Omega$ 的邻域内调和，$\partial\Omega$ 分段光滑，$\mathbf n$ 为单位外法向量。证明：
+\SubQ{1}{$\displaystyle\int_{\partial\Omega}\frac{\partial u}{\partial n}\,d\sigma=0$。}
+\SubQ{2}{$\displaystyle\int_{\partial\Omega}u\frac{\partial u}{\partial n}\,d\sigma=\int_\Omega\|\nabla u\|^2\,d\mu$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.16}
+设 $\Omega\subset\mathbb R^3$ 为有界闭区域，边界分段光滑，$u$ 在其邻域内调和。对内点 $\mathbf p_0$，记从 $\mathbf p_0$ 指向 $\partial\Omega$ 上动点的向量为 $\mathbf p$，$p=\|\mathbf p\|$，$\mathbf n$ 为单位外法向量。证明\[u(\mathbf p_0)=\frac1{4\pi}\int_{\partial\Omega}\left(u\frac{\cos\angle(\mathbf p,\mathbf n)}{p^2}+\frac1p\frac{\partial u}{\partial n}\right)d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.17（校订）}
+设 $u$ 在区域 $\Omega\subset\mathbb R^3$ 内调和，以 $\mathbf p_0$ 为球心、半径 $R>0$ 的闭球包含于 $\Omega$，边界球面为 $\Sigma$。证明平均值公式\[u(\mathbf p_0)=\frac1{4\pi R^2}\int_\Sigma u\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.18}
+设 $\Omega\subset\mathbb R^3$ 为有界闭区域，其内部连通；$u$ 在内部调和、在 $\Omega$ 上连续且非常数。证明 $u$ 只在 $\partial\Omega$ 上取得其在 $\Omega$ 上的最大值和最小值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.19（改写）}
+半径为 $r>0$ 的圆片绕过圆心且垂直于圆片的轴以角速度 $\omega>0$ 匀速旋转。记圆周为 $\Gamma$，其正向取旋转方向，$\mathbf t$ 为单位切向量，$\mathbf v$ 为圆片上各点的速度向量。计算环量 $\int_\Gamma\mathbf v\cdot\mathbf t\,ds$ 及单位圆片面积上的平均环量，并说明后者与角速度的关系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.20}
+设 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|>0$，$F(\mathbf p)=f(p)\mathbf p$，其中 $f\in C^1((0,\infty))$。证明此有心场满足 $\operatorname{rot}F=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.21}
+设向量场 $F\in C^2$，$\nabla^2F$ 表示对各分量分别作用 Laplace 算子。证明\[\nabla\times(\nabla\times F)=\nabla(\nabla\cdot F)-\nabla^2F.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.22}
+设 $F$ 在点 $\mathbf p$ 的邻域内属于 $C^1$。令含 $\mathbf p$ 于内部的闭区域 $\Omega$ 满足 Gauss 公式，$\mathbf n$ 为单位外法向量。证明当 $\operatorname{diam}\Omega\to0$ 时，\[\operatorname{rot}F(\mathbf p)=\lim_{\Omega\to\mathbf p}\frac1{\mu(\Omega)}\int_{\partial\Omega}\mathbf n\times F\,d\sigma.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.23}
+设 $\Omega$ 为适用 Gauss 公式的有界闭区域，$f\in C^2$ 且在 $\Omega$ 上处处非零，并满足 $\operatorname{div}(f\operatorname{grad}f)=af$、$\|\nabla f\|^2=bf$，其中 $a,b$ 为常数。用 $a,b$ 与 $\Omega$ 的体积表示 $\int_{\partial\Omega}\partial f/\partial n\,d\sigma$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.24（改写）}
+采用下列约定：若区域 $\Omega\subset\mathbb R^3$ 中任意封闭曲面所围成的有界内部都包含于 $\Omega$，称 $\Omega$ 空间单连通；若 $\Omega$ 中每条逐段光滑闭曲线都是 $\Omega$ 内某张逐片光滑曲面的边界，称 $\Omega$ 曲面单连通。分别判断下列区域是否具有这两种性质，并说明理由。
+\SubQ{1}{$\Omega_1=\{(x,y,z):x^2+y^2+z^2<1\}$。}
+\SubQ{2}{$\Omega_2=\{(x,y,z):x^2+y^2<1,\ 0<z<1\}$。}
+\SubQ{3}{$\Omega_3=\{(x,y,z):0<x^2+y^2+z^2<1\}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.25（改写）}
+采用下列约定：若区域 $\Omega\subset\mathbb R^3$ 中任意封闭曲面所围成的有界内部都包含于 $\Omega$，称 $\Omega$ 空间单连通；若 $\Omega$ 中每条逐段光滑闭曲线都是 $\Omega$ 内某张逐片光滑曲面的边界，称 $\Omega$ 曲面单连通。分别判断下列区域是否具有这两种性质，并说明理由。
+\SubQ{1}{$\Omega_4=\{(x,y,z):1<x^2+y^2+z^2<4\}$。}
+\SubQ{2}{$\Omega_5=\{(x,y,z):x^2+y^2+z^2<1,\ x^2+y^2>1/2\}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.26}
+设 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|>0$，$F(\mathbf p)=f(p)\mathbf p$，$f$ 连续。求此有心场的势函数，并求引力场 $F=-M\mathbf p/p^3$ 的势函数，其中 $M>0$，取 $\operatorname{grad}\varphi=F$ 的约定。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.27}
+设 $F=(x^2-2yz,y^2-2xz,z^2-2xy)$。证明 $F$ 为有势场，并求一个势函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.28（改写）}
+设 $F=\nabla f$ 为有势力场，质量 $m$ 的质点运动方程为 $\mathbf r=\mathbf r(t)$，并满足 $m\mathbf r^{\prime\prime}(t)=F(\mathbf r(t))$。取势能为 $-f$。证明动能与势能之和\[\frac m2\|\mathbf r^{\prime}(t)\|^2-f(\mathbf r(t))\]为常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.29}
+求微分方程 $(x+y+1)\,dx+(x-y^2+3)\,dy=0$ 的通解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.30}
+在各向量场的定义域内求其势函数。
+\SubQ{1}{$\displaystyle F=\left(1-\frac1y+\frac yz,\ \frac xz+\frac{x}{y^2},\ -\frac{xy}{z^2}\right)$，$yz\ne0$。}
+\SubQ{2}{$\displaystyle F=\frac{(x+y,x+y,z)}{x^2+y^2+z^2+2xy}$，$(x+y)^2+z^2>0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.31}
+计算下列恰当微分的曲线积分，路径取在被积表达式的定义域内。
+\SubQ{1}{$\displaystyle\int_{(1,1,1)}^{(2,3,-4)}x\,dx+y^2\,dy-z^2\,dz$。}
+\SubQ{2}{$\displaystyle\int_{(1,2,3)}^{(0,1,1)}yz\,dx+xz\,dy+xy\,dz$。}
+\SubQ{3}{$\displaystyle\int_{(x_1,y_1,z_1)}^{(x_2,y_2,z_2)}\frac{x\,dx+y\,dy+z\,dz}{\sqrt{x^2+y^2+z^2}}$，两个端点分别位于半径 $a,b>0$、球心在原点的球面上。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.32}
+设 $f,g,h$ 为单变量连续函数。计算\[\int_{(x_1,y_1,z_1)}^{(x_2,y_2,z_2)}f(x)\,dx+g(y)\,dy+h(z)\,dz.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.33}
+设 $f$ 为单变量连续函数。计算：
+\SubQ{1}{$\displaystyle\int_{(x_1,y_1,z_1)}^{(x_2,y_2,z_2)}f(x+y+z)(dx+dy+dz)$。}
+\SubQ{2}{$\displaystyle\int_{(x_1,y_1,z_1)}^{(x_2,y_2,z_2)}f\!\left(\sqrt{x^2+y^2+z^2}\right)(x\,dx+y\,dy+z\,dz)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.34}
+设弹性力指向原点，其大小为质点到原点距离的 $k$ 倍（$k>0$）。质点沿逆时针方向走过椭圆 $x^2/a^2+y^2/b^2=1$（$a,b>0$）位于第一象限的一段。求弹性力所做的功。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.35}
+求解下列微分方程；含分母的表达式在其定义域内考虑，必要时取局部一致的角度分支。
+\SubQ{1}{$x\,dx+y\,dy=0$。}
+\SubQ{2}{$x\,dy+y\,dx=0$。}
+\SubQ{3}{$(x+2y)\,dx+(2x+y)\,dy=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.36}
+求解下列微分方程；含分母的表达式在其定义域内考虑，必要时取局部一致的角度分支。
+\SubQ{1}{$(x^2-y)\,dx-(x+\sin^2y)\,dy=0$。}
+\SubQ{2}{$e^y\,dx+(xe^y-2y)\,dy=0$。}
+\SubQ{3}{$\displaystyle\frac{x\,dx+y\,dy}{\sqrt{x^2+y^2}}=\frac{y\,dx-x\,dy}{x^2}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.37}
+求解下列微分方程；含分母的表达式在其定义域内考虑，必要时取局部一致的角度分支。
+\SubQ{1}{$\displaystyle\frac{x\,dy-y\,dx}{x^2+y^2}=x\,dx+y\,dy$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.38（改写）}
+在 $D=\mathbb R^3\setminus\{0\}$ 上令 $\mathbf p=(x,y,z)$，$p=\|\mathbf p\|$，$F=\mathbf p/p^3$。证明 $\operatorname{div}F=0$，但不存在定义在整个 $D$ 上的 $C^1$ 向量场 $G$ 使 $F=\nabla\times G$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.39（改写）}
+若区域 $\Omega\subset\mathbb R^3$ 中存在一点 $P_0$，使每个 $P\in\Omega$ 与 $P_0$ 的连线段都包含于 $\Omega$，称 $\Omega$ 关于 $P_0$ 为星形。证明：任意凸域关于其中每一点都是星形；对任意 $R>0$，去心球域 $\{(x,y,z):0<x^2+y^2+z^2<R^2\}$ 关于其中任何一点都不是星形。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.40}
+证明 $F=(xy+1)\mathbf i+z\mathbf j-yz\mathbf k$ 是 $\mathbb R^3$ 中的旋度场，并求其向量势。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.41}
+证明下列向量场均为 $\mathbb R^3$ 中的旋度场，并求其向量势。
+\SubQ{1}{$F=z\mathbf i+x\mathbf j+y\mathbf k$。}
+\SubQ{2}{$F=xy\mathbf i-y^2\mathbf j+yz\mathbf k$。}
+\SubQ{3}{$F=(z-y)\mathbf i+(x-z)\mathbf j+(y-x)\mathbf k$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.42}
+设 $\Omega\subset\mathbb R^3$ 为关于 $A=(x_0,y_0,z_0)\ne0$ 的星形区域，$F\in C^1(\Omega)$ 满足 $\operatorname{div}F=0$。证明 $F$ 为 $\Omega$ 中的旋度场。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.43}
+求 Laplace 算子在平面极坐标 $x=r\cos\theta,\ y=r\sin\theta$ 中的表达式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.44}
+在柱坐标 $x=r\cos\theta,\ y=r\sin\theta,\ z=z$ 中，写出数量函数 $\Phi$ 的梯度 $\nabla\Phi$ 与 Laplace 算子 $\Delta\Phi$ 的表达式。说明所用正交单位基向量的含义。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{13.45}
+求 Laplace 算子在球坐标 $x=r\sin\theta\cos\varphi,\ y=r\sin\theta\sin\varphi,\ z=r\cos\theta$ 中的表达式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{13.46}
+设流体在柱坐标中的速度分量为 $v_r,v_\theta,v_z$，密度为 $\rho$。证明其连续性方程为\[\frac{\partial\rho}{\partial t}+\frac1r\frac{\partial(\rho r v_r)}{\partial r}+\frac1r\frac{\partial(\rho v_\theta)}{\partial\theta}+\frac{\partial(\rho v_z)}{\partial z}=0.\]
+\end{minipage}\par\vfill

@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
   "inventory_date": "2026-10-23",
+  "scope": "五份原始PDF整书章节和排除范围清点",
   "page_convention": "1-based physical PDF page",
   "verification": "章起始、卷末、答案/索引边界已视觉核验；节末习题锚点来自核验目录/书签，不声称逐题校对完成。",
-  "scope": [
-    "数学分析讲义"
-  ],
+  "total_source_pages": 1866,
+  "included_pages": 1733,
+  "excluded_pages": 133,
   "books": [
     {
       "project": "数学分析讲义",
@@ -1385,9 +1386,310 @@
         "final_numbers": "以上原书编号只用于抽取边界识别；成品只保留用户约定最终题号。",
         "cross_page": "题干可以跨页；不得在目录/节/章边界前一页强行截断。"
       }
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_id": "336e4ff033f3",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "pdf_pages": 516,
+      "printed_page_to_physical_offset": 16,
+      "page_number_convention": "physical_1_based",
+      "bibliographic_metadata": {
+        "title": "数学分析教程 上册",
+        "authors": [
+          "常庚哲",
+          "史济怀"
+        ],
+        "publisher": "中国科学技术大学出版社",
+        "edition": "2012年8月第3版",
+        "printing": "2012年8月第3次印刷",
+        "isbn": "978-7-312-03009-3",
+        "evidence_physical_pages": [
+          2,
+          3
+        ],
+        "status": "verified"
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "实数和数列极限",
+          "physical_start": 17,
+          "physical_end": 70,
+          "printed_start": 1,
+          "printed_end": 54,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 2,
+          "title": "函数的连续性",
+          "physical_start": 71,
+          "physical_end": 137,
+          "printed_start": 55,
+          "printed_end": 121,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 3,
+          "title": "函数的导数",
+          "physical_start": 138,
+          "physical_end": 199,
+          "printed_start": 122,
+          "printed_end": 183,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 4,
+          "title": "一元微分学的顶峰——Taylor定理",
+          "physical_start": 200,
+          "physical_end": 226,
+          "printed_start": 184,
+          "printed_end": 210,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 5,
+          "title": "求导的逆运算",
+          "physical_start": 227,
+          "physical_end": 251,
+          "printed_start": 211,
+          "printed_end": 235,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 6,
+          "title": "函数的积分",
+          "physical_start": 252,
+          "physical_end": 303,
+          "printed_start": 236,
+          "printed_end": 287,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 7,
+          "title": "积分学的应用",
+          "physical_start": 304,
+          "physical_end": 328,
+          "printed_start": 288,
+          "printed_end": 312,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 8,
+          "title": "多变量函数的连续性",
+          "physical_start": 329,
+          "physical_end": 366,
+          "printed_start": 313,
+          "printed_end": 350,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        },
+        {
+          "chapter": 9,
+          "title": "多变量函数的微分学",
+          "physical_start": 367,
+          "physical_end": 455,
+          "printed_start": 351,
+          "printed_end": 439,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像及目录图像"
+        }
+      ],
+      "excluded_ranges": [
+        {
+          "physical_start": 1,
+          "physical_end": 16,
+          "reason": "封面、版权、前言、目录"
+        },
+        {
+          "physical_start": 476,
+          "physical_end": 510,
+          "reason": "问题的解答或提示，不作为题目重复收录"
+        },
+        {
+          "physical_start": 511,
+          "physical_end": 515,
+          "reason": "索引"
+        },
+        {
+          "physical_start": 516,
+          "physical_end": 516,
+          "reason": "封底"
+        }
+      ],
+      "content_review_status": "inventory_only_not_problem_proofread",
+      "appendices": [
+        {
+          "chapter": "A",
+          "title": "多项式的插值与逼近初步——Bézier曲线和Coons曲面举例",
+          "physical_start": 456,
+          "physical_end": 475,
+          "printed_start": 440,
+          "printed_end": 459,
+          "status": "verified",
+          "include_reason": "附录确有标为例的题目，p463例1、p464例2；其他页继续按全书规则检查。",
+          "numbering_recommendation": "A.1、A.2…，避免与下册第10章冲突",
+          "explicit_example_start_pages": [
+            463,
+            464
+          ]
+        }
+      ],
+      "included_ranges": [
+        [
+          17,
+          475
+        ]
+      ],
+      "numbering_patterns": {
+        "example": "正文“例”后编号；讲义第三册常用章.节.序号，其他四卷需按局部上下文处理。",
+        "exercise": "讲义为“习题章.节”及部分“第x章综合习题”；教程为“练习题章.节”和“问题章.节”，两类均应保留。",
+        "final_numbers": "以上原书编号只用于抽取边界识别；成品只保留用户约定最终题号。",
+        "cross_page": "题干可以跨页；不得在目录/节/章边界前一页强行截断。"
+      }
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_id": "e3b1165409f0",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "pdf_pages": 440,
+      "printed_page_to_physical_offset": 0,
+      "page_number_convention": "physical_1_based",
+      "bibliographic_metadata": {
+        "title": "数学分析教程 下册",
+        "authors": null,
+        "publisher": null,
+        "edition": null,
+        "isbn": null,
+        "status": "uncertain",
+        "note": "用户提供的PDF缺封面、版权页和目录；书名据文件名，正文章号及印刷页已核验。不可仅因同目录上册是第3版而认定本文件版次。"
+      },
+      "chapters": [
+        {
+          "chapter": 10,
+          "title": "多重积分",
+          "physical_start": 1,
+          "physical_end": 65,
+          "printed_start": 1,
+          "printed_end": 65,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 11,
+          "title": "曲线积分",
+          "physical_start": 66,
+          "physical_end": 89,
+          "printed_start": 66,
+          "printed_end": 89,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 12,
+          "title": "曲面积分",
+          "physical_start": 90,
+          "physical_end": 122,
+          "printed_start": 90,
+          "printed_end": 122,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 13,
+          "title": "场的数学",
+          "physical_start": 123,
+          "physical_end": 154,
+          "printed_start": 123,
+          "printed_end": 154,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 14,
+          "title": "数项级数",
+          "physical_start": 155,
+          "physical_end": 209,
+          "printed_start": 155,
+          "printed_end": 209,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 15,
+          "title": "函数列与函数项级数",
+          "physical_start": 210,
+          "physical_end": 272,
+          "printed_start": 210,
+          "printed_end": 272,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 16,
+          "title": "反常积分",
+          "physical_start": 273,
+          "physical_end": 302,
+          "printed_start": 273,
+          "printed_end": 302,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 17,
+          "title": "Fourier分析",
+          "physical_start": 303,
+          "physical_end": 351,
+          "printed_start": 303,
+          "printed_end": 351,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        },
+        {
+          "chapter": 18,
+          "title": "含参变量积分",
+          "physical_start": 352,
+          "physical_end": 400,
+          "printed_start": 352,
+          "printed_end": 400,
+          "status": "verified",
+          "evidence": "章首页图像；相邻章首页/卷末边界图像"
+        }
+      ],
+      "excluded_ranges": [
+        {
+          "physical_start": 401,
+          "physical_end": 436,
+          "reason": "问题的解答或提示，不作为题目重复收录"
+        },
+        {
+          "physical_start": 437,
+          "physical_end": 440,
+          "reason": "索引"
+        }
+      ],
+      "content_review_status": "inventory_only_not_problem_proofread",
+      "included_ranges": [
+        [
+          1,
+          400
+        ]
+      ],
+      "numbering_patterns": {
+        "example": "正文“例”后编号；讲义第三册常用章.节.序号，其他四卷需按局部上下文处理。",
+        "exercise": "讲义为“习题章.节”及部分“第x章综合习题”；教程为“练习题章.节”和“问题章.节”，两类均应保留。",
+        "final_numbers": "以上原书编号只用于抽取边界识别；成品只保留用户约定最终题号。",
+        "cross_page": "题干可以跨页；不得在目录/节/章边界前一页强行截断。"
+      }
     }
-  ],
-  "total_source_pages": 910,
-  "included_pages": 874,
-  "excluded_pages": 36
+  ]
 }

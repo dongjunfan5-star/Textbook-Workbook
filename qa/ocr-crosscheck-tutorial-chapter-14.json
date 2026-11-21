@@ -1,0 +1,516 @@
+{
+  "project": "数学分析教程",
+  "chapter": 14,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "physical_start": 155,
+  "physical_end": 209,
+  "reason": "物理页155–209共55页，47页重对 PaddleOCR、教材原图与题库，8页恢复的两类识别输出与已逐页校对的原证据字节一致。",
+  "status": "verified",
+  "pages": [
+    {
+      "page_number": 155,
+      "status": "verified",
+      "ocr_markdown_sha256": "dc7cd6b1264f0636483b9e88955bf4fd8d178002b5c45532921c8c8bffb26e7b",
+      "structured_result_sha256": "3d61c2ebc3e3e3e0cbe3db65b51d7b334eadfd33b5becd2a2706ea8a9ce8f232",
+      "reviewed_at": "2026-11-21T22:59:24",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "逐段对读章首以 Taylor 余项推出指数级数及连续不可导函数预告。全实轴 Maclaurin 展开在第15章物理第247页编号例中收录，第199页另保留不同的乘积任务；此页不另编。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 156,
+      "status": "verified",
+      "ocr_markdown_sha256": "3d48c108d14001c5588344651843a21a13709a096a644fa818058ba6766d29bd",
+      "structured_result_sha256": "4c259fb5c7a3b1f3afad9db5d9249dc5d9fcf3a6c3fd22c7f3ccbfdc92e463a8",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "重读恢复后的 PaddleOCR 和教材图，确认例1从 m=0 开始，部分和 q≠1 时用 (1−qⁿ)/(1−q)，q=1 时为 n，q=−1 分类续次页。题库以本页作为跨页首见页。"
+    },
+    {
+      "page_number": 157,
+      "status": "verified",
+      "ocr_markdown_sha256": "4e30311bf379571efccea08c54abbd979c619565702000c468b98d7085e5b699",
+      "structured_result_sha256": "d28d8e7be5bbefbfbef77c9c2ea7d76ff1b6092d9eb24a271a57fd18f2999123",
+      "reviewed_at": "2026-11-21T22:59:24",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "核对等比级数续文、上册 p 级数回顾和独立裂项求和例。原图与OCR均确认 p≥0、q>0、s=p+q，分母两个因子分别为sn−p与sn+q。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 158,
+      "status": "verified",
+      "ocr_markdown_sha256": "7d484e73cdfd637c30dc0428d63b29c10e6f73e2a3fe38f84635f40d8ec8d181",
+      "structured_result_sha256": "016b101225d6c83c1fbe5ad2c7b1537c845b24dac9935c5697c0617503045b41",
+      "reviewed_at": "2026-11-21T23:00:37",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "逐条核对 n=0 的交错常项级数、n sin(1/n) 和以 3^(n+2) 为分母的求和例；OCR 把第一例解答中的不趋零识错，原题发散命题由原图确认。调和级数必要条件的说明与已收录题重合。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 159,
+      "status": "verified",
+      "ocr_markdown_sha256": "de18fdcf388cb106319b57c78c0e201bd548d6a91d8bd048fc909afd48bc2110",
+      "structured_result_sha256": "1751dcdf2152ebdb7b12b44795192d9a40add085a2209f40fe6584b78614db07",
+      "reviewed_at": "2026-11-21T23:00:37",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "核对上页求和例的解答续文及相邻两项配组的非编号反例；反例作为逆命题判断改写，题意不同于第158页仅证明原级数发散。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 160,
+      "status": "verified",
+      "ocr_markdown_sha256": "3ecd0949d1426e68dad4cf6571e628b9020dc3f6a6bf49996109cf93681d1e69",
+      "structured_result_sha256": "378c1f799755c2936a8e3f9d3681eb5d56d8a1f9c41f72db1cc65d66d7ca44ec",
+      "reviewed_at": "2026-11-21T23:00:37",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "核对增删有限项和部分和逆构造的正文，具体数列的逆构造见正式练习。本页末的练习首句与第161页五条级数为同一跨页题。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 161,
+      "status": "verified",
+      "ocr_markdown_sha256": "f9b8043ba1cab604c78749cc268387567646c2c184f79b6aea63794dd875095d",
+      "structured_result_sha256": "7ae8d504c6354ed656ea9aaf71c24b60ed033631923aa80baf2aed78f1b20175",
+      "reviewed_at": "2026-11-21T23:00:37",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "逐一核对第160页开始的五条级数和本页后续七个题干，确认全部起始指标、四条等式、五个求和式、分母非零条件及 n(a_n−a_{n+1})。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 162,
+      "status": "verified",
+      "ocr_markdown_sha256": "db05d6ee7a29713431a68b71dbc62a6f164811dae1a9d65ea9e4d0e67f8b8426",
+      "structured_result_sha256": "1306ad0def3b9b4f82b378c2ca00bc1a8f29f868f43d1263f6a106b06729df3c",
+      "reviewed_at": "2026-11-21T23:00:37",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "逐一核对五个节后问题。第一题1/(pr)要求校订p≠0；第二题OCR漏掉n≠m而原图清楚；第三题上界15及末项10^6，最后两题的差分与正数列条件均核准。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 163,
+      "status": "verified",
+      "ocr_markdown_sha256": "c6782d3632332f37d23346fcaefd31270912f626a98d47eb248196ca4747a33e",
+      "structured_result_sha256": "289ccdf222798f11cd5bf67bd0101f83e8019fd52b323533099bbdcb9e5d61c7",
+      "reviewed_at": "2026-11-21T23:00:37",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。恢复后 Markdown 和结构化识别结果均与原校对证据字节一致。",
+      "observation": "核对 S_n 定义及编号例 a_n/S_n²，首项从n=1。其后关于α>1的通式由第168页正式问题覆盖；没有另编同一一般化题。",
+      "evidence_restored_at": "2026-11-21T23:19:55+08:00"
+    },
+    {
+      "page_number": 164,
+      "status": "verified",
+      "ocr_markdown_sha256": "28100bfa3b698c658d2bf380cace4cb1d650ba8c401d59306ebd3c578a1f7e82",
+      "structured_result_sha256": "ec17115a565ffef530e2cf482e9adf54ec250ff48b65122b62b648ba0b0191b7",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核准两个编号例：从n=1起的根号n(n²+1)倒数、从n=2起的(ln n)^(−ln n)。方法章节为直接比较，后续正式题另要求利用已证对数条件。"
+    },
+    {
+      "page_number": 165,
+      "status": "verified",
+      "ocr_markdown_sha256": "3d43bb61e32a036db160dca9ad20c73330919edab72ecc76ea0b25354c979d87",
+      "structured_result_sha256": "4fa36e74915957edb67f7ad7a7be0c2c77ec73813d3aa0c70c2e530502110001",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "逐题核对带 n³+2n−1 根式的发散例，以及 1−cos(x/n) 的参数例；后一题题干本页完整，下一页仅续解。"
+    },
+    {
+      "page_number": 166,
+      "status": "verified",
+      "ocr_markdown_sha256": "27a43d132772d6fa77fe0a167029c3d392bc750979ad270b9368f945e557ab0b",
+      "structured_result_sha256": "34297880ff67b31cc3eaeb602acb334019f4bc56c557d477bb94e4cd01222000",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核验末段的积分判别法应用及含对数幂级数两个编号例。节末第一问a_n≤b_n；第二大题前八式和起始指标一一对应，余两式在167页。"
+    },
+    {
+      "page_number": 167,
+      "status": "verified",
+      "ocr_markdown_sha256": "007f4de3b3fcb19d24893b928c8bd6fb5e4b33b31fea78f6ef505a8fcca31d03",
+      "structured_result_sha256": "e991a486224f8efa861713d91d890ff679706f5da24d85fd1013adaca4fd5c82",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对跨页第9、10小问；后续比较法练习核对平方级数、相邻几何平均、ln(n!)、双重对数指数、δ边界、两条对数判据及α+β>1。OCR末式把α识为a，按原图保留α。"
+    },
+    {
+      "page_number": 168,
+      "status": "verified",
+      "ocr_markdown_sha256": "38479fec681da480b00e49a35ccffd8479db4f183459e7e3a834d67c9aab54a1",
+      "structured_result_sha256": "8f5db75279a6ce6f0342559af6c0a774c3897ebc761576bfb9f37aaf5e219f81",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对五道节后题及调和级数分母剔除数字9的上界80。第三题分母应为 S_n^α，OCR两处均漏指数，已按原图对照；凝聚判别起始指标0也与原图一致。"
+    },
+    {
+      "page_number": 169,
+      "status": "verified",
+      "ocr_markdown_sha256": "ccfe607e6d8b317f7f17fc84cf5b565a053ec87d54954f57866c6bfd8974d8fa",
+      "structured_result_sha256": "42833d0b589794bec79da3db74ce58897375987d8b016365533d1d75635fb125",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对 n 次根判据临界值两个具体级数及本页编号例 2^(−n)(1+1/n)^(n²)。两题按原图先后；编号例的求解续170。"
+    },
+    {
+      "page_number": 170,
+      "status": "verified",
+      "ocr_markdown_sha256": "17420e4120bb98f40f9324ef02f1d546b5d3c1e63fbdf063bafa40e15059c577",
+      "structured_result_sha256": "91b11c2389fc2dd06d75a2ac733ae97df754d017babd4b6f9cb6382f27a711d3",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对根值例续解及双几何交错数列 a_(2n−1)=2^(−n)、a_(2n)=3^(−n) 的首现；后续比值判据的同一例用物理172、173页，源记录保留170。"
+    },
+    {
+      "page_number": 171,
+      "status": "verified",
+      "ocr_markdown_sha256": "b8328ea367b32df818df894e65c783773b3d924388e1f383a8272b32e5e79a73",
+      "structured_result_sha256": "e34d8f0d14e423ec227c27c5be33f4c4e67d8591d30f1b9a57e1011032426ac6",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对两条 D’Alembert 判别编号例：n!x^n 和 n!x^n/n^n，x≥0。后者题干本页完整，结论求解在下一页。"
+    },
+    {
+      "page_number": 172,
+      "status": "verified",
+      "ocr_markdown_sha256": "77316971b0d5d992b8a49682790ecc074cb9ef1a495936630ea7b83fe1bfa795",
+      "structured_result_sha256": "770999cb087b9259d87056f0948cfed01a843fb1a4ed0b8cf960a02bc253fd8d",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对第171页第二例的比值极限为 x/e，以及第170页两几何序列交错例的比值下极限0、上极限正无穷。该后续讨论作为第170页例的第二问，未重复编号。后段判别法比较为定理及其证明。"
+    },
+    {
+      "page_number": 173,
+      "status": "verified",
+      "ocr_markdown_sha256": "98e90c9a05d20e8bed24dd89ef3f196137af513909601f8ecbf91dedc44fbe19",
+      "structured_result_sha256": "6ffa510c75c013b77e0f9a7027a56014b5da30ad63be0e00ae006fb6fd258ea7",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "原图与 OCR 确认第170页例2的续论：根值上极限为 1/√2，比值上下极限分别为 0、+∞。本页比较几何、幂次和带对数因子三类级数，已改写为独立题，统一从 n=2 起不改变所问。关于几何衰减率的问题保留第179–180页正式题。"
+    },
+    {
+      "page_number": 174,
+      "status": "verified",
+      "ocr_markdown_sha256": "58fa37c77369e2bc3064ae2220790fa90c430c7e9df5a8585feea4e18af3716c",
+      "structured_result_sha256": "9b82278898ac4dc47e8c26eda8328247a93365bfc1647da0199e9d89526d4e34",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对 Raabe 判别法和证明的开头。OCR 一处用 a 替代 α，原图仍为 α。正文是判别法的推导及一般定理，无另起练习。"
+    },
+    {
+      "page_number": 175,
+      "status": "verified",
+      "ocr_markdown_sha256": "655e874e53e4849121fce9e6c2112c9ce8a9025b54fbbf0a18e67b4c1a2cbc5e",
+      "structured_result_sha256": "a38904cd895fbba9e26e7d9e8402169382c41f50d49a31bd2f5c6e23fcf87d1e",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对 Raabe 判别法证明续文及极限形式，l>1、l<1、l=1 的区别与第179页正式题吻合。本页留作练习的定理证明不再单列，下面跨页临界例已在覆盖记录注明。"
+    },
+    {
+      "page_number": 176,
+      "status": "verified",
+      "ocr_markdown_sha256": "cb249bb81bb6f2f4f8e9b09790eef408209ae00b92941e2ff3775b17e21369d2",
+      "structured_result_sha256": "406dc8fa4e49f3b50680aeb2e4d85f03a95ba1ab4226e3149aa7e35e6d120981",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "原图和 OCR 确认编号例5广义二项式的系数定义、起项 n=0 和条件 α>0。前半页对数因子展开为 Raabe 临界例的续证，后半页题后比值公式的异常只属于解答，未带入题面。"
+    },
+    {
+      "page_number": 177,
+      "status": "verified",
+      "ocr_markdown_sha256": "cc0bf4d6bc4461c05cbe1c7a4f7472f9aa2606b5b5a8a10cbb17a21f85a2dbb2",
+      "structured_result_sha256": "2a059a92a647204e01ce2b5ca0fac4858dad76e5766004b9596350b65818e410",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对第176页例5结论和新起两例，正参数 p、q，连乘末项 p+n−1 及因子 n^q，超几何三参数和 x 均为正数。OCR 对解答中的比值括号有误，题面公式按源图核对。"
+    },
+    {
+      "page_number": 178,
+      "status": "verified",
+      "ocr_markdown_sha256": "ac3e7eb311143b4166456358348014907cdfcf816faa84a51ace2efa6949a16b",
+      "structured_result_sha256": "b29c11bd625a2891e593df545186ae51d941d1b5511fbada89ca95165f372d42",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对正项 Gauss 判别法的两种结论与例8。例8沿用上一题 x=1 的分支、固定 γ=α+β，题面已展开相应超几何级数并要求用 Gauss 判别法。"
+    },
+    {
+      "page_number": 179,
+      "status": "verified",
+      "ocr_markdown_sha256": "896bd4d388de75d9ae254c93a5407ba7cb6cae4e671494828687d6880d9a84e1",
+      "structured_result_sha256": "55b4758846098c3f3851e3f2d0eb48ac802d66f8ee9bda6564c70f3d6fe9108a",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "逐项对读练习14.3五题和问题14.3前两题，重点核对第一题八小问的指数，下限分别为 1 或 2，第二题第二小问 n!n^(-p) 的因子，及问题第一题余量指数 α（OCR 作 a）。第二个问题的结论续第180页。"
+    },
+    {
+      "page_number": 180,
+      "status": "verified",
+      "ocr_markdown_sha256": "2d2f35aba1f8dd1a12401eb3b1f805f97e0d73fd1bbb495b7c2cc7f5bf022b23",
+      "structured_result_sha256": "095b1d5a9fccd5698e04b16cb981f3cdb929257e1239ebaee5b889edf1b6c7e9",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "确认跨页问题结尾对任意 r∈(q,1) 有极限，并核对构造慢收敛正项级数的正式问题和单调正数列 na_n→0 的编号例。Cauchy 原理公式的绝对值和 ε 以源图为准，未将正文定理列为题。"
+    },
+    {
+      "page_number": 181,
+      "status": "verified",
+      "ocr_markdown_sha256": "2bba9f31791ed9dd04e29e0ebe6fd5239c55ecaf462be5fde8fa81dfba6b307d",
+      "structured_result_sha256": "b071ce9015ed14504a6ac802bc870f3dd90fcc37a3976735b68d37ce7bfc732f",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对 na_n→0 逆命题的 1/(n ln n) 反例与两条 Leibniz 例，起点分别为 n=1、n=2，交错符号分别为 (−1)^(n−1)、(−1)^n。两例在第182页续述，并由第189页的原文分类补全。"
+    },
+    {
+      "page_number": 182,
+      "status": "verified",
+      "ocr_markdown_sha256": "ced62bfc8da4778b21ed37948673a6e460173c48ac90da351be16fbaf9671932",
+      "structured_result_sha256": "c11664a97965aad2a126206b3130892019de04d4d857b5329807c27f58c80920",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对第181页两例的结尾和 Leibniz 余项估计、Abel 分部求和公式与引理，OCR 丢失正文估计式的个别绝对值线。此页只有上一页题的续文，未起新题。"
+    },
+    {
+      "page_number": 183,
+      "status": "verified",
+      "ocr_markdown_sha256": "cc31d0b29a472a538767bae0437833e3638f11b6722464a6d721ce1c1a7b35bc",
+      "structured_result_sha256": "5700632aedc514b57205a4be08ea57b1b81e08128798a1ae108ff3750bc2a882",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对 Abel 引理续证及 Dirichlet 定理、证明和 Leibniz 特例，无独立编号例题或正式练习。OCR 个别绝对值线识别有误，以原图为准。"
+    },
+    {
+      "page_number": 184,
+      "status": "verified",
+      "ocr_markdown_sha256": "6856b499b7d034b06302846b68a685bcf8f80c346be2943255b9371433c9cd64",
+      "structured_result_sha256": "c2a6dcf5a48021319abf2a11dbf1d5970e0b55c7e52f38b20cdaa5f69c2d917d",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "确认编号例的通项 cos(nx)/n 和 x∈R。正文另在页末开始正弦有限和公式的说明，独立任务的公式及界续到第185页。"
+    },
+    {
+      "page_number": 185,
+      "status": "verified",
+      "ocr_markdown_sha256": "40790c9960cff2071b66c97ebdabbf82363ac51a317ce7d58423bf0b877167f7",
+      "structured_result_sha256": "1fb86521b44d0d94db587813bda5509fca37ec933104afbad727d0535f8dd0f9",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "确认正弦有限和的绝对值界、例3的因子 (1+1/n)^n 与例4的交错号及 sin²n。练习14.4首题第三、四小问清晰显示 cos(n!)、sin(n!)；Cauchy 方法按原题保留，第三题最后问续第186页。"
+    },
+    {
+      "page_number": 186,
+      "status": "verified",
+      "ocr_markdown_sha256": "f0d97cc840bf9fe741e2e4d4249a0fcb19ddd6d68989c05eeb42a7c6f2c90f72",
+      "structured_result_sha256": "861cf1c91742e381c10e8bc4999e2fe8d3951883cd8a47a8a28ec5c45cfd5a4d",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "逐项核对练习14.4第3题续问及第4–12题。第4题 OCR 公式括号错乱，原图显示 −1 的奇偶因子位于整个分母根号外；核对根号覆盖整数部分和下限 n=3。Cauchy 与 Leibniz 的提示不并入正式题干。第12题假设续第187页。"
+    },
+    {
+      "page_number": 187,
+      "status": "verified",
+      "ocr_markdown_sha256": "64a3d7070c5115d144da659616f083da5d0352b05c8cc043e0fa7407a1e4c2eb",
+      "structured_result_sha256": "4d1e2bdd1b0d975095c449ec0d9e7bfa279493a54b1c4d7396b0593765331f06",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对第186页练习12的极限与交错结论，及问题14.4八题。第1题 n 的指数按源图为 α（OCR 成 a）；第2题 Raabe 判别、参数条件与和；第4题根号平方，非下一节立方根；第8题分母 n(n+1) 均确认。"
+    },
+    {
+      "page_number": 188,
+      "status": "verified",
+      "ocr_markdown_sha256": "102486ec78766cac07a76cbb313eb4fce3d66f797bf354223e6c5764b9c5adea",
+      "structured_result_sha256": "2facb6491ebc555f8907151b1fd2edb017077f8d62271c82331deb16ba707519",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对正文比较法三条具体级数，第一条的交错指数为立方根的整数部分、另外两条依次为 cos(nx)/n² 和 sin(nx)/2ⁿ。书中分类续第189页，与第181页已有交错级数例合并分类说明。"
+    },
+    {
+      "page_number": 189,
+      "status": "verified",
+      "ocr_markdown_sha256": "9402b1c4ebea84d834c65e17cc6ab73a3d8525c321917411b6c79378551f0ee5",
+      "structured_result_sha256": "68c1b7ea13d6f2f0fcb2e3f25109846debec116a8530dc89f7cb6895fcb306c6",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "确认编号例要求证明 (−1)^n sin²n/n 条件收敛，与第185页编号例的敛散性任务各自保留。本页前段 OCR 将第二条对数交错例的指数作 n−1，原图是 n，已按第181页符号入库。"
+    },
+    {
+      "page_number": 190,
+      "status": "verified",
+      "ocr_markdown_sha256": "adab66d87e1a8464d7a561df62270b56c0ae462272f102191f1141a8b9ea613b",
+      "structured_result_sha256": "8a6eacf7b7175062a08981af42bb264219dab9dc8bdac9c492005e5c8350f175",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对绝对收敛列的重排证明、正负部分分解以及分段公式。没有独立题目起始。"
+    },
+    {
+      "page_number": 191,
+      "status": "verified",
+      "ocr_markdown_sha256": "236458732c2cda3fd4ccf6a63ba5b1393d84f395747680ae0b82761867a04cfc",
+      "structured_result_sha256": "bc909e5b31b62c012b1507d1e30eab4fab9f03d4497f1845496e14429286c9eb",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对绝对收敛重排续证和 Riemann 定理与证明。正负部分均发散的结论在第195页正式练习收录，本页不重复编题。"
+    },
+    {
+      "page_number": 192,
+      "status": "verified",
+      "ocr_markdown_sha256": "b26c80f076460acda25cbb048c01979a1c4f4a555372123d23b083d47cafe22e",
+      "structured_result_sha256": "6afcc8e85b304082fa3444c81c7bca07c4102d5db3d68b081e00aae544a7a5c9",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "沿原图核对 Riemann 重排证明的分组、奇偶部分和及发散到正负无穷情形。OCR 将右侧负项的部分下标误读为 k_n，正文证明未作为题目收录。"
+    },
+    {
+      "page_number": 193,
+      "status": "verified",
+      "ocr_markdown_sha256": "dab8ea1735f41c99576424631f9f5f8debd92105c0acf1ba647e29b86551d57e",
+      "structured_result_sha256": "40f7fb2226c63e82d1ddf227db454bf622124e89c7f70c597f555d67564a20c6",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对交错调和级数的重排例，依次取 p 个正项、q 个负项，问收敛性和和。第194页的三个取值为本例解答的特例，未另编。"
+    },
+    {
+      "page_number": 194,
+      "status": "verified",
+      "ocr_markdown_sha256": "a7ecdb9d0b57d8792d1c92782316b3a46ff19c31ed7d0cba4a9b74433b63d1de",
+      "structured_result_sha256": "3de08218b5c1b946331df4928e944a0991e4e67f1f6a3464fcac91f09107b0ad",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "逐式核对练习14.5第1题的六式与第2题的五式，原图确认第一组含 n(n−1)/2 次方、立方根与 sin(nπ/4)/ln n，第二组含 n 的 p+1/n 次方。第3题只要求证明正、负部分均收敛是原级数绝对收敛的充分条件，已按原题恢复方向。"
+    },
+    {
+      "page_number": 195,
+      "status": "verified",
+      "ocr_markdown_sha256": "4959598aeb23b1b29529c3b3d06a73e1924bd59651084e25f1af3834c0f281a1",
+      "structured_result_sha256": "44ed510d4d561f2733d86782c1e83ad01123c4c3e78d1e1f1769115cb67ecb2f",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "逐项核对其余两道练习与四道节后题，确认正负部分与比值、0<α<1 时显式对 p 与 q 的区分、严格发散条件、p 取奇数 q 取偶数、趋零序列无需单调、调和级数符号块及卷积极限。"
+    },
+    {
+      "page_number": 196,
+      "status": "verified",
+      "ocr_markdown_sha256": "64b43bcb2510a501f2b074238203aed929713f76b35820415550d74f17de7c3c",
+      "structured_result_sha256": "c4fffa7c3f60364ef1a8eefe1b5d28e9cc5be827e81dd37f208d792c8301ec2f",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "沿原图核对 Cauchy 乘积定义和对角线、方阵两种求和公式。自动识别在解释 a_i b_j 项时有符号误读，卷积本身与原图一致。本页没有新的题目起始。"
+    },
+    {
+      "page_number": 197,
+      "status": "verified",
+      "ocr_markdown_sha256": "85dcd41b4b7a1fe335b3a1966d0b58468ff715056a701c96bb117af93d8d4e5e",
+      "structured_result_sha256": "2c813613707bb2117fe072de5e2a8843b906ae1f0cf98b0dfbe0b67d2acda083",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对两个收敛级数的 Cauchy 乘积可能发散的例与证明。本例的 α=β=1/2 情形在第200页正式练习收录；本页其余为 Cauchy 和 Mertens 定理及证明。"
+    },
+    {
+      "page_number": 198,
+      "status": "verified",
+      "ocr_markdown_sha256": "c738637657638d172f0bb3e50540bf6706861418f0d2b8f6f165bb38b19c5f98",
+      "structured_result_sha256": "be681c7b853e670c6bba580858e3bfdf564b6fde6da250562cf12f5e52dc8eba",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对 Mertens 与 Abel 定理的续证，特别是 β 的下标 n+1−l 和所需收敛假设。卷积极限已在第195页收录，本页没有独立题干起始。"
+    },
+    {
+      "page_number": 199,
+      "status": "verified",
+      "ocr_markdown_sha256": "e119db21dcdfc7a35cb883acc4e531cd73bf211b26813607ffa016a2e498904c",
+      "structured_result_sha256": "e64c97d26c0afcf8b4a2f0eb51fc48de21e71c0d3a059b794cffb912677a492b",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对 Abel 乘积续证和指数函数例。确认对所有实数证明指数级数绝对收敛并证明 E(x)E(y)=E(x+y)，识别结果末式的错排未带入题干。乘积极限的独立证明见第200页正式习题。"
+    },
+    {
+      "page_number": 200,
+      "status": "verified",
+      "ocr_markdown_sha256": "622a532e6d09156862dde6cbd62aef2ca1d2da30ed87243ec9dca2fd2fee614e",
+      "structured_result_sha256": "ca60585ab9eceb5101cb88dc6ed11ef43c7742dabc18b1ab13f5384e2c4260c5",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对三道练习、两道节后题。对照指数、正弦、余弦各展开，并确认 Cauchy 乘积的 α+β 条件及发散构造的系数。第1题和第2题原印部分求和指标与公式不合，按已记录校订使用从0开始及第2题的有限上界 n。"
+    },
+    {
+      "page_number": 201,
+      "status": "verified",
+      "ocr_markdown_sha256": "0f945e5b15b05c295ca44e85c8cf6bc72cf495a702db659649ccad7c28550868",
+      "structured_result_sha256": "e6a1db33dbd118126172e882ec263a3dabf163f3969e2aa4ddf677dc4224cb15",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对无穷乘积的有限非零极限定义和两道编号例。第一例起点 n=2，二分角余弦乘积例取 x≠0，要求证明的是有限乘积的极限 sin(x)/x，零极限不称为无穷乘积收敛。"
+    },
+    {
+      "page_number": 202,
+      "status": "verified",
+      "ocr_markdown_sha256": "2255f6f28c2e5bc25e031402701cd41d99d5ec09a39b3cf83c748c9b3196ab11",
+      "structured_result_sha256": "58ec9f908c12098adbe5d6a46fb3bde77d070fbc8590f31c16ffe6953fec1442",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对余弦例的续解、Wallis 乘积 π/2 与全部因子为 1/2 的部分乘积极限0，二者的有限乘积和无穷乘积记法已对照原图。"
+    },
+    {
+      "page_number": 203,
+      "status": "verified",
+      "ocr_markdown_sha256": "9a48fbd644dfa80de7b77e015ace1dc48e3c77f1cca00c5dfa121d0d7ea18523",
+      "structured_result_sha256": "e37df471e89b23da30f79f35585403d3c6da2a820ec2ee5f4ecdfa3a1b64a580",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对第202页编号例续文、无穷乘积收敛的必要条件 p_n→1 和对数级数判别法，本页无新题。"
+    },
+    {
+      "page_number": 204,
+      "status": "verified",
+      "ocr_markdown_sha256": "616922635d97750f12e06ba0c6bb310f9d80315d7eba358bb4cf70994df02bb5",
+      "structured_result_sha256": "a243c68d72c250d210d6416b66e0d67ff4ef9552711a1abca7b091ce4c3d3806",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对定理3–5的假设、收敛结论与例题引用。非整数参数与带大 O 条件的正式题收在第209页，本页无新题。"
+    },
+    {
+      "page_number": 205,
+      "status": "verified",
+      "ocr_markdown_sha256": "4edbb61be56fc7db2ae23151d58a236b1e95c663384bdd3da5f2b72ed85e2e93",
+      "structured_result_sha256": "37e17d01e3d37a47dc237dca5c8ce23098293b221a99f0e73091e81abeda289b",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对编号例5–7。两个二次型因子的乘积均从 n=2 开始，初等乘积对比题保留其各自 n=1 或 n=2 的起点；二项式参数条件 α>−1 和递推系数已与源图核准，证明续在第206页。"
+    },
+    {
+      "page_number": 206,
+      "status": "verified",
+      "ocr_markdown_sha256": "ab832b741bc3c6e6f7e593fbaba83d8856a6beff5b753eb450ba07a0f55525b3",
+      "structured_result_sha256": "873186501240761b7855600b3cb1cb896c50a970689565f7a62bef82bcac3d3f",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对编号例8的 α>0 及指数 α（识别正文一处成 a）。无穷乘积分类及 α=1 的条件收敛续至第207页。一般重排性质由第208页正式题收录。"
+    },
+    {
+      "page_number": 207,
+      "status": "verified",
+      "ocr_markdown_sha256": "661b45973b9229833c7ee5e86f4dd969d84bc956bcef0687564d4a3c7616f720",
+      "structured_result_sha256": "e2fcc0145310a58260bef3745876d64529b59929314f049a666c4ba8c0fd2198",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对第206页 α=1 的条件收敛续文。练习第1题的乘积商保留所有 q_n≠0 的条件，乘积版 Riemann 定理的证明收录在第208页正式练习。"
+    },
+    {
+      "page_number": 208,
+      "status": "verified",
+      "ocr_markdown_sha256": "d9b08f521bf31dfde443453518cd20b49cae388022ee2a22fd070a4a29d9d379",
+      "structured_result_sha256": "adbeaaf01e5adb4c91a96cfe44f18f3dc2b17dc1da2ce921f8f40f82e28ce1fb",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对练习第2–7题与节后问题第1、2题，确认求和/Wallis 乘积符号校订、n 次根与 x>0、递推两式，第二题后不改原书后续题号。分母平方的原印误式已在题库注明校订；第2题结尾续至第209页。"
+    },
+    {
+      "page_number": 209,
+      "status": "verified",
+      "ocr_markdown_sha256": "86f31c3a2c7634c620fa7742bd8fb92d897903841256958123b82552ef07cba8",
+      "structured_result_sha256": "74f007dd5e3509e2c77e37bda53aab130879dc551c95a9c4ae40ca90402fb492",
+      "reviewed_at": "2026-11-21T23:19:55+08:00",
+      "method": "逐页对照恢复后的 PaddleOCR 输出、教材原图和同章题库。",
+      "observation": "核对第208页递推与 e 的乘积续文及本页五道节后题。确认 x_0 取非整数、阶乘极限相关幂次、b_n 的绝对可和假设与裂项分母。最后一题因原给 a_1=−1 会有零因子，题库说明并提取从 n=3 开始的非零因子尾积。"
+    }
+  ]
+}

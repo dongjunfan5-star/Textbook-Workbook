@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析教程",
+  "chapter": 13,
+  "pdf": ".cache/chapter-proofs/tutorial-13/main.pdf",
+  "pdf_sha256": "abdc899856fa4936fea5f0ff3f0aae6298b21d02f1499b8d97e273dac1b16af5",
+  "source_units": 42,
+  "final_problems": 46,
+  "pdf_page_count": 17,
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "method": "两遍 XeLaTeX 编译通过并重新查看第4页。核对校订标记、曲面积分的被积项和下标、题干及留白。其余16页位图 SHA-256 与前次视觉验收完全一致。PDF 文本终号连续，目录可跳转，15个完整题页均为每页3题，最后1页1题。",
+  "issues": [],
+  "page_results": [
+    {
+      "pdf_page": 1,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0001.png",
+      "render_sha256": "dbcde87ac5a4240357b7d5d8a1669046a127aaed125ff50f70ed1bc34ad92320"
+    },
+    {
+      "pdf_page": 2,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0002.png",
+      "render_sha256": "64880864f97a2881fabbc0fa902956dc212c84985164812537e0fa1f925af5fe"
+    },
+    {
+      "pdf_page": 3,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0003.png",
+      "render_sha256": "4d93c050eb7709e341485aafbb227f694878e3e74d55b7f94aeb477e2385eb21"
+    },
+    {
+      "pdf_page": 4,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0004.png",
+      "render_sha256": "b0450bb136ed196138ee7696079a36bad5c95c0f41c0168a6b8d5f9ba9804a77"
+    },
+    {
+      "pdf_page": 5,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0005.png",
+      "render_sha256": "dab5c6fefe1e6d993770f65f8b42fbd3cc1340c926bbc8cc9f103d44264a58bf"
+    },
+    {
+      "pdf_page": 6,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0006.png",
+      "render_sha256": "d9f502136005866408debbe8cd49d9b3258ddbc42ba9cea7fcde591b90d12507"
+    },
+    {
+      "pdf_page": 7,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0007.png",
+      "render_sha256": "690f9904fde70bc814e3d85ac3424d2980c790f5fad12d52f82e64f3ac974660"
+    },
+    {
+      "pdf_page": 8,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0008.png",
+      "render_sha256": "6e4a124c3c5718e4480dbdf761c7c6abe8f60e2f5012e563077a40f1d0d36af3"
+    },
+    {
+      "pdf_page": 9,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0009.png",
+      "render_sha256": "f6063649c26e67f0834621f1e12e9205e33359071c7cb78758cdc21e4c476db2"
+    },
+    {
+      "pdf_page": 10,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0010.png",
+      "render_sha256": "61d2e49f78e06a4c6eb28be1244f3d80f7783c61cb566da3d4a8814ebae7c3da"
+    },
+    {
+      "pdf_page": 11,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0011.png",
+      "render_sha256": "5d2c43686ce9d88acef7dcade80990304b1a8c09dc7c0b430f8f658e8fc4818d"
+    },
+    {
+      "pdf_page": 12,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0012.png",
+      "render_sha256": "fdc22779654003d4d2841a0702533b2e047fbb3238c1249178ecb61f489423b6"
+    },
+    {
+      "pdf_page": 13,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0013.png",
+      "render_sha256": "1f31e8ff2192b51a1036225f75767eafca99236ecafffd444984c26b0fbd5e01"
+    },
+    {
+      "pdf_page": 14,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0014.png",
+      "render_sha256": "0fc3490744e1579ea75d9c41da769272beb39cffcb78ee3d61620af38378dad8"
+    },
+    {
+      "pdf_page": 15,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0015.png",
+      "render_sha256": "add97c8d6ad30fcc735cc9e7c794ddce7092e486be8c9ee195c79e2d783b8c24"
+    },
+    {
+      "pdf_page": 16,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0016.png",
+      "render_sha256": "7564df9e38d5b3a7c5ac7213f948751f0230734cfdab3010b4f5933d1ef562cb"
+    },
+    {
+      "pdf_page": 17,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-13/rendered/page-0017.png",
+      "render_sha256": "d4ca4a7cb20c1522f64f480cfb91dd41118c8dc7feffa570f0b92cca9f88c3e8"
+    }
+  ],
+  "chapter_dataset_sha256": "c5898e3e2f5b3cf641ea8fd4fe8e2cfdcdf496eda0f1e51ba62d5e5157e57310"
+}

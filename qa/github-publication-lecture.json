@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "project": "数学分析讲义",
+  "repository": "dongjunfan5-star/Textbook-Workbook",
+  "branch": "main",
+  "commit_sha": "10f6e97886e7217ed5d1d813b3adf5f2784155a4",
+  "parent_sha": "ea8346d5f1cfafa1914e6b202ce14e08575c0c9c",
+  "tree_sha": "263907c967f04fdeb39dafca401c4226e948182b",
+  "published_file_count": 127,
+  "remote_file_count": 134,
+  "verified_file_count": 127,
+  "pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234",
+  "pdf_git_blob_sha": "ec6b97ff332f8d3251ce3f877968cbc54eeda6c0",
+  "source_units": 1550,
+  "final_problems": 1762,
+  "pdf_pages": 468,
+  "remote_history_preserved": true,
+  "force": false,
+  "untouched_remote_files": [
+    {
+      "path": "数学分析教程（史济怀著）/chapters/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "数学分析教程（史济怀著）/figures/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "数学分析教程（史济怀著）/input/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "数学分析教程（史济怀著）/main.tex",
+      "sha": "cfb783cf3ddcc52720ab3d5fe84c7fb07f468e4b"
+    },
+    {
+      "path": "数学分析讲义/chapters/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "数学分析讲义/figures/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "数学分析讲义/input/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    }
+  ],
+  "verification": "Read back main, immutable commit and recursive tree; all 127 file blob hashes and byte counts match the locally audited manifest.",
+  "verified_at": "2026-10-28"
+}

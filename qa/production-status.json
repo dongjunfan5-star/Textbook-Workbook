@@ -1,6 +1,11 @@
 {
-  "updated_at": "2026-10-28T05:09:13.627481+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-21T15:21:47.402868+00:00",
   "page_reviews_file": "qa/production-page-reviews.json",
+  "planned_source_pages": 1866,
+  "ocr_required_pages": 1733,
+  "ocr_complete_pages": 1733,
+  "review_complete_pages": 1866,
   "projects": [
     {
       "project": "数学分析讲义",
@@ -16,126 +21,108 @@
           "chapter": 1,
           "units_count": 112,
           "file": "数学分析讲义/data/chapters/chapter_01.reviewed.json",
-          "sha256": "22bf40d2f49ab0007bf9e5ed9c6fc291cffa149a4404ce4400db0cc509652af4",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 2,
           "units_count": 53,
           "file": "数学分析讲义/data/chapters/chapter_02.reviewed.json",
-          "sha256": "207fb30444d782f7054b22299c27ee3a2ebf14ea90f95ff5f688fab0b1314035",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 3,
           "units_count": 165,
           "file": "数学分析讲义/data/chapters/chapter_03.reviewed.json",
-          "sha256": "8139dd3fc5c090648e6e0a92726e6f52bf8a8ec2389c797b9c22be55e40baaed",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 4,
           "units_count": 30,
           "file": "数学分析讲义/data/chapters/chapter_04.reviewed.json",
-          "sha256": "896949c0a6ff88090c1b36ae5e1c9a292a7e2a85a71b15d6184523158f348339",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 5,
           "units_count": 90,
           "file": "数学分析讲义/data/chapters/chapter_05.reviewed.json",
-          "sha256": "acf8f4b0b18b6d0cd18f87b6d52e33c78f8c1bd94dbe17fe31bb1019a9ba9ec4",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 6,
           "units_count": 34,
           "file": "数学分析讲义/data/chapters/chapter_06.reviewed.json",
-          "sha256": "40f3323c79316359f0a21a9f8b33af5c325947c089aad65cb25e7b112022de4b",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 7,
           "units_count": 96,
           "file": "数学分析讲义/data/chapters/chapter_07.reviewed.json",
-          "sha256": "9b9dda51e4a1bb4d1339656a7f138e2cbde4e885eca5c2785edbd5211d3cfd64",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 8,
           "units_count": 117,
           "file": "数学分析讲义/data/chapters/chapter_08.reviewed.json",
-          "sha256": "84cd0f0d7d406e0df373d4052b7a3412b83bd0ec4db208a44b2eab14d707846e",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 9,
           "units_count": 181,
           "file": "数学分析讲义/data/chapters/chapter_09.reviewed.json",
-          "sha256": "405e5cfa9634099cad9149328db5b488a494a49b1221dc0f4e1f9e1c6f4bb4b2",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 10,
           "units_count": 80,
           "file": "数学分析讲义/data/chapters/chapter_10.reviewed.json",
-          "sha256": "a32d3ca0deea7e29e7b922b54970b297510cd1e6702d5baf4fd67a5b4b6643f7",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 11,
           "units_count": 92,
           "file": "数学分析讲义/data/chapters/chapter_11.reviewed.json",
-          "sha256": "50dd1c582146c787a914b47584393dae69ca35e711d0e187852754191b276c4a",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 12,
           "units_count": 53,
           "file": "数学分析讲义/data/chapters/chapter_12.reviewed.json",
-          "sha256": "2ebc3f24182a715e1bc909202798a2921ae70f12b6257f03eca6341402584b6f",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 13,
           "units_count": 63,
           "file": "数学分析讲义/data/chapters/chapter_13.reviewed.json",
-          "sha256": "c6bba75d11349ba4e49d676adde062f217fe071a13f33307cc5de0629d16cc0a",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 14,
           "units_count": 110,
           "file": "数学分析讲义/data/chapters/chapter_14.reviewed.json",
-          "sha256": "a8e4468b0b9b65215162e0690a46d65c7d1350d30f26e6187f10d800e1844fef",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 15,
           "units_count": 99,
           "file": "数学分析讲义/data/chapters/chapter_15.reviewed.json",
-          "sha256": "fe963a5a0a07072bc65e045509c88b504d351bc9ace6f06238270ab0dcf5e066",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 16,
           "units_count": 69,
           "file": "数学分析讲义/data/chapters/chapter_16.reviewed.json",
-          "sha256": "f53580085fa7efeb05cca8b679b6c748a22850189b1cec94e72c2d791938f233",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 17,
           "units_count": 64,
           "file": "数学分析讲义/data/chapters/chapter_17.reviewed.json",
-          "sha256": "03d210ed378867eb7ab52d459cac5a637fee7387d4bf08519e828fb144f063d4",
           "ocr_crosscheck_status": "verified"
         },
         {
           "chapter": 18,
           "units_count": 42,
           "file": "数学分析讲义/data/chapters/chapter_18.reviewed.json",
-          "sha256": "5b20bd6307a7adaac6fb6ec0d849839a891b79e2a413b595cc619b6825722b27",
           "ocr_crosscheck_status": "verified"
         }
       ],
@@ -146,15 +133,140 @@
       "problems_sha256": "f36bb012634fd1653397bf4db53e5172485d52f3662a46acbf4e5047543d72aa",
       "acceptance_report": "数学分析讲义/qa/acceptance-report.json",
       "visual_review_file": "数学分析讲义/qa/visual-review.json"
+    },
+    {
+      "project": "数学分析教程",
+      "status": "complete",
+      "planned_source_pages": 956,
+      "ocr_required_pages": 859,
+      "ocr_complete_pages": 859,
+      "review_complete_pages": 956,
+      "content_reviewed_pages": 859,
+      "source_units_reviewed": 1614,
+      "chapters_reviewed": [
+        {
+          "chapter": 1,
+          "units_count": 143,
+          "file": "数学分析教程/data/chapters/chapter_01.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 2,
+          "units_count": 156,
+          "file": "数学分析教程/data/chapters/chapter_02.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 3,
+          "units_count": 145,
+          "file": "数学分析教程/data/chapters/chapter_03.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 4,
+          "units_count": 49,
+          "file": "数学分析教程/data/chapters/chapter_04.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 5,
+          "units_count": 40,
+          "file": "数学分析教程/data/chapters/chapter_05.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 6,
+          "units_count": 113,
+          "file": "数学分析教程/data/chapters/chapter_06.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 7,
+          "units_count": 51,
+          "file": "数学分析教程/data/chapters/chapter_07.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 8,
+          "units_count": 94,
+          "file": "数学分析教程/data/chapters/chapter_08.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 9,
+          "units_count": 150,
+          "file": "数学分析教程/data/chapters/chapter_09.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 10,
+          "units_count": 98,
+          "file": "数学分析教程/data/chapters/chapter_10.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 11,
+          "units_count": 31,
+          "file": "数学分析教程/data/chapters/chapter_11.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 12,
+          "units_count": 43,
+          "file": "数学分析教程/data/chapters/chapter_12.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 13,
+          "units_count": 42,
+          "file": "数学分析教程/data/chapters/chapter_13.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 14,
+          "units_count": 128,
+          "file": "数学分析教程/data/chapters/chapter_14.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 15,
+          "units_count": 136,
+          "file": "数学分析教程/data/chapters/chapter_15.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 16,
+          "units_count": 49,
+          "file": "数学分析教程/data/chapters/chapter_16.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 17,
+          "units_count": 61,
+          "file": "数学分析教程/data/chapters/chapter_17.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": 18,
+          "units_count": 77,
+          "file": "数学分析教程/data/chapters/chapter_18.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        },
+        {
+          "chapter": "A",
+          "units_count": 8,
+          "file": "数学分析教程/data/chapters/chapter_A.reviewed.json",
+          "ocr_crosscheck_status": "verified"
+        }
+      ],
+      "problem_count": 1811,
+      "pdf_pages": 615,
+      "pdf_sha256": "5ef35ec841c2a35edd89ddd2f07cda4cc257d38d12173dbc4c2b49c788e663a6",
+      "curated_sha256": "f2fee0376231fcb33f74ec410278cb5a8980f901352d46ff4d2d854da43ca991",
+      "problems_sha256": "3b6e0313e0d97acea848dce7c2367754149da5fc80184b35d2ab6fb72e00ec13",
+      "acceptance_report": "数学分析教程/qa/acceptance-report.json",
+      "visual_review_file": "数学分析教程/qa/visual-review.json"
     }
   ],
-  "publication_scope": [
-    "数学分析讲义"
-  ],
-  "status": "complete",
-  "notice": "This published audit covers only the listed projects; local records for other projects are retained separately.",
-  "planned_source_pages": 910,
-  "ocr_required_pages": 874,
-  "ocr_complete_pages": 874,
-  "review_complete_pages": 910
+  "notice": "各项目验收以当前正式 PDF、题库、章节快照、逐页视觉和来源核对记录为准。"
 }

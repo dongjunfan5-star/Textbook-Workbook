@@ -1,0 +1,346 @@
+{
+  "status": "passed",
+  "scope": "source_image_coverage_precheck_only",
+  "project": "数学分析教程",
+  "chapter": 13,
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "ocr_crosscheck_status": "verified",
+  "curated_sha256": "c5898e3e2f5b3cf641ea8fd4fe8e2cfdcdf496eda0f1e51ba62d5e5157e57310",
+  "source_pages_reviewed": [
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "source_units": 42,
+  "final_problems": 46,
+  "editorial_changes": [
+    {
+      "page_number": 132,
+      "action": "add",
+      "stem_latex": "半径为 $r>0$ 的圆片绕过圆心且垂直于圆片的轴以角速度 $\\omega>0$ 匀速旋转。记圆周为 $\\Gamma$，其正向取旋转方向，$\\mathbf t$ 为单位切向量，$\\mathbf v$ 为圆片上各点的速度向量。计算环量 $\\int_\\Gamma\\mathbf v\\cdot\\mathbf t\\,ds$ 及单位圆片面积上的平均环量，并说明后者与角速度的关系。"
+    },
+    {
+      "page_number": 137,
+      "action": "add",
+      "stem_latex": "采用下列约定：若区域 $\\Omega\\subset\\mathbb R^3$ 中任意封闭曲面所围成的有界内部都包含于 $\\Omega$，称 $\\Omega$ 空间单连通；若 $\\Omega$ 中每条逐段光滑闭曲线都是 $\\Omega$ 内某张逐片光滑曲面的边界，称 $\\Omega$ 曲面单连通。分别判断下列区域是否具有这两种性质，并说明理由。"
+    },
+    {
+      "page_number": 145,
+      "action": "add",
+      "stem_latex": "若区域 $\\Omega\\subset\\mathbb R^3$ 中存在一点 $P_0$，使每个 $P\\in\\Omega$ 与 $P_0$ 的连线段都包含于 $\\Omega$，称 $\\Omega$ 关于 $P_0$ 为星形。证明：任意凸域关于其中每一点都是星形；对任意 $R>0$，去心球域 $\\{(x,y,z):0<x^2+y^2+z^2<R^2\\}$ 关于其中任何一点都不是星形。"
+    },
+    {
+      "page_number": 132,
+      "action": "record_cross_page",
+      "reason": "第132页引入具体旋转圆片，半径和环量的计算内容在第133页。"
+    },
+    {
+      "page_number": 137,
+      "action": "record_cross_page",
+      "reason": "第137页开始给出具体区域，第138页列出其余区域和曲面单连通的约定。"
+    },
+    {
+      "page_number": 139,
+      "action": "record_cross_page",
+      "reason": "有心场例始于第139页，题干中保留的引力场特例出现在第140页。"
+    },
+    {
+      "page_number": 145,
+      "action": "restore_source_scope",
+      "reason": "源例比较任意凸域及任意正半径的去心开球，恢复源例的一般性。"
+    },
+    {
+      "action": "correct_printed_domain",
+      "page_number": 125,
+      "reason": "原书题干误写“Gauss 公式中的闭区间”。闭区间不具三维体积及所需的面边界；按随后的外法向量、体积与曲面积分，校订为 Gauss 公式适用的闭区域。原图所印被积函数为 u n，积分区域为 ∂Ω。"
+    }
+  ],
+  "page_results": [
+    {
+      "page_number": 123,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0123.png",
+      "image_sha256": "d5aeb69c052eb3f47db48c1a2ee93d98f6c6a7e6b925077242ee6b27506a7521",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 124,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0124.png",
+      "image_sha256": "055b102437ddc02e0838c1838c319bae18b2961cc88c0a73f0e39ed7ef6ba502",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 125,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0125.png",
+      "image_sha256": "0199a21caf2779bdf4857770a8ee0534b10a0df22f2ca6539b13fcdff846b8b7",
+      "units_count": 6,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 126,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0126.png",
+      "image_sha256": "902b57319abf6fe635bc7add1b2e6042c83791c35ea7d9381c4f2bcf947679ed",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 127,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0127.png",
+      "image_sha256": "1e3b0baca87284002b2eee1c4291c4e6156eb45899e525fc38e6609fe430e28d",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 128,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0128.png",
+      "image_sha256": "805230366579930518907885301bbe99cd833f3b01b79c76bd40e6148ac0d3cd",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 129,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0129.png",
+      "image_sha256": "4eea207f26e7ac6a3c8ed12600eac785d0cd952803aac9e7aa73cff76f9cb4e3",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 130,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0130.png",
+      "image_sha256": "cd854ab937805aaaf5f060db2e652e58100bc4d3f86cdd49bda9c2937d70ecfe",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 131,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0131.png",
+      "image_sha256": "c601ba9fc37ea9b8169af0f0d260493b840612147ca5363cdedf98907be41850",
+      "units_count": 5,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 132,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0132.png",
+      "image_sha256": "0860d07c76f1aa617a6ef7ba13bd7fe95bff6b86b8032e2492795e32446a76cf",
+      "units_count": 3,
+      "notes": "补匀速旋转圆片环量算例，完整续文位于133页；首现页132。"
+    },
+    {
+      "page_number": 133,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0133.png",
+      "image_sha256": "9e56b88a75f25e1d928fa2b8d475fa4f7a37fdd9377242b0e7388fc1efecf478",
+      "units_count": 0,
+      "notes": "圆片环量计算归132页。"
+    },
+    {
+      "page_number": 134,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0134.png",
+      "image_sha256": "e940d7e47208c14a982425874a97bab7b6d1855cfbbd1b415a011be6008bae21",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 135,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0135.png",
+      "image_sha256": "99996ddf85ca657b4e7f0b96cba9b2e7b44aa584dbbb7e409d740b376c9bdc08",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 136,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0136.png",
+      "image_sha256": "62fcec544d518fd0bfee57f92d9e99a8aec865e7ce25d20738da23e12743498b",
+      "units_count": 4,
+      "notes": "静电场旋度为零是本页有心场编号例的特例，不另重收。"
+    },
+    {
+      "page_number": 137,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0137.png",
+      "image_sha256": "3075c24d6c55ae68a6b0bf3f12994363882624a5b6622d52df180ed66a8ed92f",
+      "units_count": 1,
+      "notes": "新增明确给定方程的五个区域是否空间/曲面单连通的判断；后续四个区域位于138页，整体首现页137。"
+    },
+    {
+      "page_number": 138,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0138.png",
+      "image_sha256": "94f4948997ab214b5a787c1db038771d2cdb82bdf00f463d039824992fbdf581",
+      "units_count": 0,
+      "notes": "本页给Ω2–Ω5明确性质判断，归137页题；一般等价定理不扩编。"
+    },
+    {
+      "page_number": 139,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0139.png",
+      "image_sha256": "bbf8d1e8cd5aff5b8636550365f3b0c0b96a1f7dbe7a14cb161c58ad28d82841",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 140,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0140.png",
+      "image_sha256": "2c0b99983702c80d2ccaa693f2c5a469555cf9a331b92cd52f9cdac5d9bb778b",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 141,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0141.png",
+      "image_sha256": "0ea78edc099daba3d40e5c3080a55e51dcf02d93e5a7864d5383795c94267882",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 142,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0142.png",
+      "image_sha256": "335e7bd6600207d5caccf186aaf4b5026368726a07a20c16cb6f40aeef652098",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 143,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0143.png",
+      "image_sha256": "67cbd204ccd2b4c562b685d8635b5043ff640c90ab9b3438adb3cfd7864e4548",
+      "units_count": 6,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 144,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0144.png",
+      "image_sha256": "1cae7cf447f4a7bb0f69783db868483dbd7e1bca0982d16f747d689923e90019",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 145,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0145.png",
+      "image_sha256": "8db52a1c38edbdac3e06cfe46ce4b7589e85cd00a0cf90cc9fdc32af3b072f60",
+      "units_count": 1,
+      "notes": "新增球域与去心球域是否星形的完整具体判断反例；一般旋度场定理不扩编。"
+    },
+    {
+      "page_number": 146,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0146.png",
+      "image_sha256": "60ff0ce03eec46b8e888a7be20bdf2837793e273dc1902845dae711181d82d98",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 147,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0147.png",
+      "image_sha256": "870703d61fd68d2373a9a6c61de5eaf887ee13b85a9687710f05dec030fc5cd2",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 148,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0148.png",
+      "image_sha256": "0a0f4a1dafdee40c45c3fba16d4ddefe7fa2bd6fadc5da691c29894b0e575b60",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 149,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0149.png",
+      "image_sha256": "0f2fef22c4a07d472d98bca3804871694fbbd2df7600b868873f02d710998caf",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 150,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0150.png",
+      "image_sha256": "8601f6868d7e48d944df3f1117cd7084a8404cea91ecff0be788bbbcb494e9f5",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 151,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0151.png",
+      "image_sha256": "af3bf1a0b45a440e34d42dd21707b6c8f53e46972853c049ce908e53e37f8321",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 152,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0152.png",
+      "image_sha256": "b571d787421a82a711d1cec125cfa3cba6c3fbc0917857bad051001436a9d189",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 153,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0153.png",
+      "image_sha256": "d67011fa113ec143197d6717499e39bca5f50f18af2a7804b93329b77d5ce2e8",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 154,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial13/p0154.png",
+      "image_sha256": "11789d08f9c0f78c0f18c0d1d862999cb28b87fb51d98ec2285ddd814061c8c4",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    }
+  ]
+}

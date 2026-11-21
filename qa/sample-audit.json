@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "checks": [
+    "source_sha256",
+    "final_number_uniqueness",
+    "subquestion_limit",
+    "first_source_page_in_sample",
+    "review_status",
+    "pdf_page_count",
+    "pdf_problem_order",
+    "latex_warnings"
+  ],
+  "source_pdf_count": 5,
+  "sample_source_pages": 16,
+  "ocr_complete_pages": 16,
+  "ocr_pages": [
+    {
+      "project": "数学分析讲义",
+      "source_id": "8c6dc2ce907d",
+      "page_number": 24,
+      "complete": true,
+      "seconds": 76.19
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "8c6dc2ce907d",
+      "page_number": 25,
+      "complete": true,
+      "seconds": 50.52
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "8c6dc2ce907d",
+      "page_number": 26,
+      "complete": true,
+      "seconds": 82.23
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "8c6dc2ce907d",
+      "page_number": 27,
+      "complete": true,
+      "seconds": 80.89
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "0c78ae5d67cd",
+      "page_number": 22,
+      "complete": true,
+      "seconds": 52.0
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "0c78ae5d67cd",
+      "page_number": 23,
+      "complete": true,
+      "seconds": 53.53
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "bd727a57b926",
+      "page_number": 13,
+      "complete": true,
+      "seconds": 53.09
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "bd727a57b926",
+      "page_number": 14,
+      "complete": true,
+      "seconds": 52.76
+    },
+    {
+      "project": "数学分析讲义",
+      "source_id": "bd727a57b926",
+      "page_number": 15,
+      "complete": true,
+      "seconds": 32.95
+    },
+    {
+      "project": "数学分析教程",
+      "source_id": "336e4ff033f3",
+      "page_number": 26,
+      "complete": true,
+      "seconds": 53.52
+    },
+    {
+      "project": "数学分析教程",
+      "source_id": "336e4ff033f3",
+      "page_number": 27,
+      "complete": true,
+      "seconds": 40.55
+    },
+    {
+      "project": "数学分析教程",
+      "source_id": "336e4ff033f3",
+      "page_number": 28,
+      "complete": true,
+      "seconds": 67.84
+    },
+    {
+      "project": "数学分析教程",
+      "source_id": "336e4ff033f3",
+      "page_number": 29,
+      "complete": true,
+      "seconds": 66.64
+    },
+    {
+      "project": "数学分析教程",
+      "source_id": "e3b1165409f0",
+      "page_number": 19,
+      "complete": true,
+      "seconds": 38.31
+    },
+    {
+      "project": "数学分析教程",
+      "source_id": "e3b1165409f0",
+      "page_number": 20,
+      "complete": true,
+      "seconds": 39.59
+    },
+    {
+      "project": "数学分析教程",
+      "source_id": "e3b1165409f0",
+      "page_number": 21,
+      "complete": true,
+      "seconds": 39.58
+    }
+  ],
+  "projects": [
+    {
+      "project": "数学分析讲义",
+      "source_units": 20,
+      "final_problems": 22,
+      "pdf_pages": 8,
+      "rewritten_problems": [
+        "1.1",
+        "8.1",
+        "14.1",
+        "14.2"
+      ],
+      "editorially_corrected_problems": [
+        "8.3"
+      ],
+      "cross_page_problems": [
+        "14.3",
+        "14.4"
+      ],
+      "necessary_figures": 0
+    },
+    {
+      "project": "数学分析教程",
+      "source_units": 14,
+      "final_problems": 18,
+      "pdf_pages": 8,
+      "rewritten_problems": [],
+      "editorially_corrected_problems": [],
+      "cross_page_problems": [
+        "1.15",
+        "10.3"
+      ],
+      "necessary_figures": 0
+    }
+  ],
+  "limits": [
+    "本样本未包含必须保留的题图，配图裁剪尚未做真实题目验收。",
+    "本样本包含例题和节末练习；章末习题的完整收录仍需后续整书核查。",
+    "verified 表示本轮逐题核对完成，不表示整书或独立复核完成。"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "status": "verified",
+  "project": "数学分析教程",
+  "chapter": 11,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "physical_start": 66,
+  "physical_end": 89,
+  "pages": [
+    {
+      "page_number": 66,
+      "status": "verified",
+      "ocr_markdown_sha256": "b0fa316e30b0eec6de91ac5cc3fa5e24706cc41fc4421d9d255356f3d849e3a7",
+      "structured_result_sha256": "91f8568cb5e388e8005dff1e3675cfe105527f63713293a20b5e31a089c628e9",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对引入曲线积分的金属线质量模型与分割记号；该段用于建立定义，没有另起独立的例题或习题。"
+    },
+    {
+      "page_number": 67,
+      "status": "verified",
+      "ocr_markdown_sha256": "b1abc0a64f703a02d7eed4709388a5aa0905185265d99763265f7862792c37b1",
+      "structured_result_sha256": "c1ec094f42f71661687deb8fdaad0282930a739a78945136c1a46ce229e136f1",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对对弧长积分的定义、估计与计算公式，属一般理论推导，没有独立题目。"
+    },
+    {
+      "page_number": 68,
+      "status": "verified",
+      "ocr_markdown_sha256": "ea79c7f3e55b21533c8c008a330e530e1ae3e3a4e41411a0692855f5eac13e48",
+      "structured_result_sha256": "5c2152a9c1c043bc30da969f9849de952819bd88a451d352e182b433ff40561a",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "首例分式的分子为 z²，分母为 x²+y²；螺旋线参数为 x=a cos t、y=a sin t、z=bt，范围 0≤t≤2π。"
+    },
+    {
+      "page_number": 69,
+      "status": "verified",
+      "ocr_markdown_sha256": "f01f7eb74e35ef6d3e2cbcf3b86e1e60db8e34a0ea5be49f6d1bba9fb515e6bd",
+      "structured_result_sha256": "e99e530db7b3bb9c75582581121df7aef67f9e62f7fa66922e77278d2dc003b3",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对圆周例的被积函数 xy、球面 x²+y²+z²=a² 与截平面 x+y+z=0。OCR 解答中向量式的分量系数失真，题干以原图为准。"
+    },
+    {
+      "page_number": 70,
+      "status": "verified",
+      "ocr_markdown_sha256": "b739d04d3db3da5728f537968538cb049750ddbd4dd11541af81daab12330be8",
+      "structured_result_sha256": "92f30bdc7fd2da0963c3172aa703a2306034f2eef9e1bfebbd852532adbba44c",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对五个第一型曲线积分，第三小问为圆锥螺线、第四为斜截圆；原图与 OCR 都确认第五问旋轮线的被积函数为 y²，已修正题库。"
+    },
+    {
+      "page_number": 71,
+      "status": "verified",
+      "ocr_markdown_sha256": "436e53d5b3e2632e2b44b2fed4ac305a59909bfa15e0dbd78919e5119bacb836",
+      "structured_result_sha256": "160bc009ac25d13b05d0c8fbc264652989485059a68e2937fc76111cb4580c7c",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "一般变力做功的近似和积分定义。OCR 出现弧段记号混读，原图无另起题。"
+    },
+    {
+      "page_number": 72,
+      "status": "verified",
+      "ocr_markdown_sha256": "287a0ab176adc0ee7afad8ae23bab5d6cccc64fcadecbafc0963ba209e1cdb7a",
+      "structured_result_sha256": "a9bf6080eff5462a1a0abf19cbfc8cd56ade8bab0f7f5c7895cb47b07b87f1c8",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "一般有向积分的性质和参数化计算公式；无例题、习题起始。"
+    },
+    {
+      "page_number": 73,
+      "status": "verified",
+      "ocr_markdown_sha256": "3188c0d89a3657d93ce298c7c198cf7cf490b73c08c0abedbd173f2fca410ae5",
+      "structured_result_sha256": "a698f060aae36c7ce5954b2a584a4ad63e272795261166679b532264f812b139",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对折线 K→L→M 和斜截平面的定向圆周两例，保持线积分各项及上下方的观察方向。OCR 将部分 Γ 识别为其他符号。"
+    },
+    {
+      "page_number": 74,
+      "status": "verified",
+      "ocr_markdown_sha256": "e1e8e6796e8975385ca6422bc32676bde60c7846c1510afa4b87a4a9d13a4688",
+      "structured_result_sha256": "8070d3ebf297c69831c3d8a12512bb4434b22da10437f00051980a58d232234a",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对上页定向圆周例解答的续文及本页开始的四问；习题第五问接至下一页，起页仍为 74。"
+    },
+    {
+      "page_number": 75,
+      "status": "verified",
+      "ocr_markdown_sha256": "022971dc409b01f2405a03c27a91fa7ab666bdd7f724269b690d5680cf7c054d",
+      "structured_result_sha256": "ef027200954360fb15458fb9bea8e187f0117ff5d6a7d993bd134241fc4bd50e",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对二次曲线 ac−b²>0 和平面参数曲线中的 sin²t、2sin t cos t、cos²t，核对第五问积分与两道证明题。其后的格林公式段是章节引入。"
+    },
+    {
+      "page_number": 76,
+      "status": "verified",
+      "ocr_markdown_sha256": "fdf708cea57843ddd955d55c981faf299d4ab22e8278afd7eb925866873c8604",
+      "structured_result_sha256": "b14f9ab9b8c2fa4ba2cde826054591f26c85fa58e01f374ce92debc8bb602ba0",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "本页是格林公式的三类区域及证明起始，对照 OCR 公式与原图，无独立题目。"
+    },
+    {
+      "page_number": 77,
+      "status": "verified",
+      "ocr_markdown_sha256": "826921a1701f6ae1fcac5b190829824ba425c24f0a6419b2252fb3d5bc8232b4",
+      "structured_result_sha256": "1496f08a1e2f3cc59f81381053be95724c6fbba9daa741d84df72dd13f1aa871",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "本页继续推导格林公式并说明复连通区域定向，图仅用于一般证明，没有新题起始。"
+    },
+    {
+      "page_number": 78,
+      "status": "verified",
+      "ocr_markdown_sha256": "d459e764aaf56a13fba0476c2213827e3d275a05905d67f258eb7305698ce5d7",
+      "structured_result_sha256": "96eeed4e1d270e43c8d3c466b44a3476f159a6370b22333ae2ccc80e94d526ce",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对格林公式三道标号例题，包括曲线积分、任意简单闭曲线所围面积和圆盘积分。第三例的后半段跨到79页。"
+    },
+    {
+      "page_number": 79,
+      "status": "verified",
+      "ocr_markdown_sha256": "4daa0ec18de3ca750bdf75c298d39647bb1b0d10420cf628943ef4f7dcfea800",
+      "structured_result_sha256": "1c37d1b7b0c2194fdea45fc8c6eb48025e1c5f1858b9b5a7938aa17b4c6b4ac8",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对格林公式不能直接应用的含奇点例；复核分子 x dy−y dx 和分母 x²+y²。题库明确单圈逆时针的简单闭曲线条件。"
+    },
+    {
+      "page_number": 80,
+      "status": "verified",
+      "ocr_markdown_sha256": "a15516be5394b10fe1580aca8fb5df773812e103fcc52c4cb38db7eabb9a5582",
+      "structured_result_sha256": "7474fc5d45c0541ae7e0748de02cd7bd281c8a74b9539efba8ffd53e013a12a0",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对格林公式的法向形式；收录正文列举的四个具体区域的单连通判断，题目本页起、配图次页，标注改写。"
+    },
+    {
+      "page_number": 81,
+      "status": "verified",
+      "ocr_markdown_sha256": "d5c6767690745447f2aa4ab2971bf6a3322853406dfe18e2bbf8061f5e08fb7b",
+      "structured_result_sha256": "a798121d8d4df36eacb45ca00f8dfa5d5356a3828c18a66e82e8d67bf2d67d52",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对前页四区域对应的原图 (a)–(d) 和教材正文的判断依据；用必要的图形裁切，保留逐小图标记。其余为一般定理，无新题。"
+    },
+    {
+      "page_number": 82,
+      "status": "verified",
+      "ocr_markdown_sha256": "cbf6884d88bcf9ccaa8264850e1b4109284251dbbdc98a8444c33b21c69705e9",
+      "structured_result_sha256": "adbf386846ff5b4908c099dc8788642238d45ae8a10a2eccd876cc3d862bcf51",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对积分与路径无关的等价条件、证明、原函数构造与示意图，确认没有另起题目。"
+    },
+    {
+      "page_number": 83,
+      "status": "verified",
+      "ocr_markdown_sha256": "50287b5747de81e44d4861213c7b622b1acf976d573b23c253d7e7e645db036e",
+      "structured_result_sha256": "60e43f0a8d9f9eafdccd45a34ef0240f1956695520f19a0e22e867a3bca6790d",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "本页继续证明，并在注中回引 79 页的有奇点线积分；该处不产生重复题。"
+    },
+    {
+      "page_number": 84,
+      "status": "verified",
+      "ocr_markdown_sha256": "cac2e09372dc1b0822fcb883a639ad5340ca5416a3a7c70d3a747dbae2042f3e",
+      "structured_result_sha256": "b4d9c9b54c227216b3d1d83e166aa80414f200092da7352bc9b0fe81cfe1d0dd",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对从 (0,−1) 到 (1,0) 且避开 y=x 的积分例、两道曲线积分的符号及三个求面积小问；第三个面积题的参数区间跨页。"
+    },
+    {
+      "page_number": 85,
+      "status": "verified",
+      "ocr_markdown_sha256": "4486355ea55bcf32cecf63c7af833ea43c85a8b0e3077bde3598c0e8a2c3cae2",
+      "structured_result_sha256": "d7f423a70178caf8cf5a1dcf1be92cc9fb7c6fb9707b8b96c0c958a1cbc9f6ae",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对接续参数下限 α（OCR 为 a）、f(xⁿ+yⁿ) 积分、法向量两题、两道计算题和上半圆周题。原书在一题用“线段”而穿过奇点，已澄清半平面曲线；含 eˣ 的闭曲线题也明确了走向。"
+    },
+    {
+      "page_number": 86,
+      "status": "verified",
+      "ocr_markdown_sha256": "9b0d31f929f94ff67bdc836a1a29b5ba9f02d3a9081fac2285e81ce61c83b354",
+      "structured_result_sha256": "725b08817cb99cd4a4070e60f42aaf2c063b961b7b5b18dd253c52bb12814d88",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对格林第一、第二公式的边界积分域 Γ（OCR 有 G），以及调和函数圆周平均值、极值结论中要求闭圆盘包含于定义域。"
+    },
+    {
+      "page_number": 87,
+      "status": "verified",
+      "ocr_markdown_sha256": "1247ab4af50a5eab235e4261b533e17258c57305187fb815dafbd60a426b4b8c",
+      "structured_result_sha256": "205183763e73b2637200521c430027c1047618deb02358fcf8211d8ee310ab46",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对面积最大的图形必为圆的错误论证，并核对以正整数最大值为对照的具体反例；两处说明延至88页。"
+    },
+    {
+      "page_number": 88,
+      "status": "verified",
+      "ocr_markdown_sha256": "6013d851b76025e7ac1c23be855f3b768853caac85074263432f94912025d94a",
+      "structured_result_sha256": "9c3b1548d661618473bc8ad3a913e0ad9d06e543b7cb53158a30c596f8355d26",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "本页续给反例及等周不等式证明，有关 Steiner 作图为论证示意；没有新增独立题。"
+    },
+    {
+      "page_number": 89,
+      "status": "verified",
+      "ocr_markdown_sha256": "6b5d243d262bdb16d07e53277d702e4be614b0102e1dbe174d3db09d20e83ae8",
+      "structured_result_sha256": "eda7548e0ecaace52971cdb33daf45fa0afc540f94b6aba0a8c590b192513b6d",
+      "reviewed_at": "2026-11-21T21:34:35",
+      "method": "逐页阅读实际 PaddleOCR 输出并同教材原图和排版题库对照，核对题设、关键公式、起页和遗漏。",
+      "observation": "核对等周不等式及何时取等号，保留给定周长最大面积四边形的章末问题。"
+    }
+  ]
+}

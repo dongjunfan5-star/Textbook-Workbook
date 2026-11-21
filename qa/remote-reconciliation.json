@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "inspected_date": "2026-10-28",
+  "inspected_date": "2026-11-21",
   "timezone": "Asia/Shanghai",
   "repository": "dongjunfan5-star/Textbook-Workbook",
   "url": "https://github.com/dongjunfan5-star/Textbook-Workbook",
   "repository_id": 1424594066,
   "visibility": "private",
   "default_branch": "main",
-  "remote_head_sha": "ea8346d5f1cfafa1914e6b202ce14e08575c0c9c",
-  "remote_tree_sha": "e424e0c28afff6782377d12c10044fca017389c8",
-  "head_message": "Update math and physics textbook entries in README",
+  "remote_head_sha": "10f6e97886e7217ed5d1d813b3adf5f2784155a4",
+  "remote_tree_sha": "263907c967f04fdeb39dafca401c4226e948182b",
+  "head_message": "完成《数学分析讲义》三册做题本：18章、1762题、468页\n\n发布经逐页校对与排版验收的完整题集、LaTeX源码、结构化题库和必要检查记录；更新非商用许可与复现说明。教程仍在制作，保留远程占位文件及既有历史。",
   "head_parent_shas": [
-    "386d75f6d7e382d019c23db0746cbb99b902ff0b"
+    "ea8346d5f1cfafa1914e6b202ce14e08575c0c9c"
   ],
   "branch_protected": false,
   "permissions": {
@@ -22,25 +22,613 @@
     "triage": true
   },
   "inspection_method": "Authenticated GitHub connector; recursive tree and contents read at the recorded immutable head",
-  "remote_file_count": 11,
+  "remote_file_count": 134,
   "remote_files": [
     {
       "path": ".gitignore",
       "mode": "100644",
-      "sha": "3065a5c00bec42684891a3df43cf0759a45ce3c2",
-      "size": 1416
+      "sha": "0c35e21b0f2ea4e104b8762eae4b52a14f55dd03",
+      "size": 994
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "sha": "18651a994dc0d2b7b23cb2be25407d425d362b54",
+      "size": 1380
     },
     {
       "path": "README.md",
       "mode": "100644",
-      "sha": "b17bf3cda09a1819bb485456ecf8e75765b73c8e",
-      "size": 2871
+      "sha": "c1eb6194c653a9aa1e7d8bcac7759422fe3cb4d3",
+      "size": 6938
+    },
+    {
+      "path": "config/production-books.json",
+      "mode": "100644",
+      "sha": "c56325e76bc936b6d551857bb77e164504be89ca",
+      "size": 39933
+    },
+    {
+      "path": "config/production-pages-priority.json",
+      "mode": "100644",
+      "sha": "ab0c9dbe02484db9727da00c8b5811e5d2c77ce8",
+      "size": 280706
+    },
+    {
+      "path": "config/production-pages.json",
+      "mode": "100644",
+      "sha": "72795f8df3dee13fa477afebc4fbdc44de4e184d",
+      "size": 280706
+    },
+    {
+      "path": "config/projects.json",
+      "mode": "100644",
+      "sha": "ab8003a1a2ba74700694358b6e1057b5d125f7a0",
+      "size": 871
+    },
+    {
+      "path": "config/sample-inventory.json",
+      "mode": "100644",
+      "sha": "63d12957164cac3bd588bb9965997697761a437f",
+      "size": 3468
+    },
+    {
+      "path": "config/sample-pages.json",
+      "mode": "100644",
+      "sha": "ea02e4faaf3549aa9aabbcb958d42b2bf9e1a025",
+      "size": 804
+    },
+    {
+      "path": "qa/dedup-chapter-14.json",
+      "mode": "100644",
+      "sha": "b784f2e11a23200e830f8556b81651da4687212e",
+      "size": 3429
+    },
+    {
+      "path": "qa/dedup-chapter-15.json",
+      "mode": "100644",
+      "sha": "4fedb446e0686ea36d4772627ffba0ba1a4f1a92",
+      "size": 662
+    },
+    {
+      "path": "qa/dedup-chapter-17.json",
+      "mode": "100644",
+      "sha": "b3be43b8677ced85cfb136643a18a53f1cd3dc0b",
+      "size": 1117
+    },
+    {
+      "path": "qa/dedup-chapter-18.json",
+      "mode": "100644",
+      "sha": "34baa9bac751210ee87f7a065212bd23ae852897",
+      "size": 1186
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-01.json",
+      "mode": "100644",
+      "sha": "6a013f29f7d9d18149d8a6f038eac7cf37e3d86e",
+      "size": 28600
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-02.json",
+      "mode": "100644",
+      "sha": "6759db539441dd3b44b5cb8bc85075c8f6996ddc",
+      "size": 2647
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-03.json",
+      "mode": "100644",
+      "sha": "f3c96d6bd7cc691389e58d185c084f4864df9349",
+      "size": 10298
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-04.json",
+      "mode": "100644",
+      "sha": "51356ba6ed08a78f8c0bd83048f72bb16a404073",
+      "size": 3520
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-05.json",
+      "mode": "100644",
+      "sha": "ba31941da1931f42efe459d6951dac92b9f88bbb",
+      "size": 8857
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-06.json",
+      "mode": "100644",
+      "sha": "19d99054b0c450e58ea04ae04fb2dadd2d51b33b",
+      "size": 4139
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-07.json",
+      "mode": "100644",
+      "sha": "391025f4457cd3deecf7a229687f2121bd7a7929",
+      "size": 8437
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-08.json",
+      "mode": "100644",
+      "sha": "f856050e2343e3239484f6ee77c115b62e5dfe4e",
+      "size": 7142
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-09.json",
+      "mode": "100644",
+      "sha": "caae163cd936fadbbcd3ccbdddfcfa514946e826",
+      "size": 14979
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-10.json",
+      "mode": "100644",
+      "sha": "73235500a51bfc6a4463021a0d48a9c293372de5",
+      "size": 7689
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-11.json",
+      "mode": "100644",
+      "sha": "1d77e0e93c46d2915686340aa2090e594f73b5f9",
+      "size": 10138
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-12.json",
+      "mode": "100644",
+      "sha": "4fe6411abfabc6902e787be43196e75c79abf20d",
+      "size": 7116
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-13.json",
+      "mode": "100644",
+      "sha": "5594d6eefe4a6fbf999f040b940202bf2039e06f",
+      "size": 8712
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-14.json",
+      "mode": "100644",
+      "sha": "67a36ef491cfb10326f9f328d29261a862503f62",
+      "size": 31997
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-15.json",
+      "mode": "100644",
+      "sha": "756790cf4b058ac4534b2b8c1fc539a1659751c4",
+      "size": 25859
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-16.json",
+      "mode": "100644",
+      "sha": "33cb569aeeedd6d41f630f04ff14a7fa068e468f",
+      "size": 17053
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-17.json",
+      "mode": "100644",
+      "sha": "9505d7209720706d8c6b1a2a0df007670e5743d9",
+      "size": 23693
+    },
+    {
+      "path": "qa/ocr-crosscheck-chapter-18.json",
+      "mode": "100644",
+      "sha": "ba81c98e6bcff4e2205d04fccdea726a06c5e743",
+      "size": 21932
+    },
+    {
+      "path": "qa/production-page-reviews.json",
+      "mode": "100644",
+      "sha": "6ba79a9e67a82c988d6b3d349fb63d0207fec64e",
+      "size": 529875
+    },
+    {
+      "path": "qa/production-status.json",
+      "mode": "100644",
+      "sha": "0c2a07d8412a90beb7f46716f1d5967817cb87a1",
+      "size": 6440
+    },
+    {
+      "path": "qa/production-status.schema.json",
+      "mode": "100644",
+      "sha": "699d45e0c38f73f3ed8d601e5eb1afd05895fb12",
+      "size": 2848
+    },
+    {
+      "path": "qa/remote-reconciliation.json",
+      "mode": "100644",
+      "sha": "e642a16477fac92afa7501e0f417058d9b8e8eaf",
+      "size": 8291
+    },
+    {
+      "path": "qa/review-chapter-01.json",
+      "mode": "100644",
+      "sha": "ad2e5f451ddf8d087f998e36bebb50243bf45516",
+      "size": 27877
+    },
+    {
+      "path": "qa/review-chapter-02.json",
+      "mode": "100644",
+      "sha": "4a1b3c3669d571bc5c52c50a3520ace80c243591",
+      "size": 7988
+    },
+    {
+      "path": "qa/review-chapter-03.json",
+      "mode": "100644",
+      "sha": "5080aca5ed19c5edb8daa7ff05158edc9c76de71",
+      "size": 34389
+    },
+    {
+      "path": "qa/review-chapter-04.json",
+      "mode": "100644",
+      "sha": "80265842339d817c8840a1a9ba32e5f3f7a7f31a",
+      "size": 10088
+    },
+    {
+      "path": "qa/review-chapter-05.json",
+      "mode": "100644",
+      "sha": "075bb286b83ac070abc2f34e1818eb34cd94121d",
+      "size": 27189
+    },
+    {
+      "path": "qa/review-chapter-06.json",
+      "mode": "100644",
+      "sha": "0602cf623fc90bf7a53d1cfd7e80a0bb1051f6ee",
+      "size": 11660
+    },
+    {
+      "path": "qa/review-chapter-07.json",
+      "mode": "100644",
+      "sha": "3cc2d1038765b8be88cc9908d885fe98db886595",
+      "size": 25846
+    },
+    {
+      "path": "qa/review-chapter-08.json",
+      "mode": "100644",
+      "sha": "84b62e1b1a45598510a9b45b9be1dd34ca9c08f6",
+      "size": 14616
+    },
+    {
+      "path": "qa/review-chapter-09.json",
+      "mode": "100644",
+      "sha": "e5bf41aad500a2566178630facb9916173390138",
+      "size": 48234
+    },
+    {
+      "path": "qa/review-chapter-10.json",
+      "mode": "100644",
+      "sha": "211c4838ddbf750726e38e266526cdc212ea0196",
+      "size": 22513
+    },
+    {
+      "path": "qa/review-chapter-11.json",
+      "mode": "100644",
+      "sha": "7b2218ae89f2c15f5f5b2e8d869ad65766efcf2c",
+      "size": 20717
+    },
+    {
+      "path": "qa/review-chapter-12.json",
+      "mode": "100644",
+      "sha": "aa78b9b2a3913c9604eb1785dd4f6d5a4ad83eac",
+      "size": 18263
+    },
+    {
+      "path": "qa/review-chapter-13.json",
+      "mode": "100644",
+      "sha": "38b542482d62a479dee27e78cb6e5d4f5e5d9517",
+      "size": 23532
+    },
+    {
+      "path": "qa/review-chapter-14.json",
+      "mode": "100644",
+      "sha": "62d8f7be8ffe3cb94601b63cc265dce2761d02c8",
+      "size": 29669
+    },
+    {
+      "path": "qa/review-chapter-15.json",
+      "mode": "100644",
+      "sha": "84ed0439936ac7dfadcb0ad3ae5e186dea7ac624",
+      "size": 28457
+    },
+    {
+      "path": "qa/review-chapter-16.json",
+      "mode": "100644",
+      "sha": "202255fd83d7f415c9879e2f7ef1d9feb988adf5",
+      "size": 16723
+    },
+    {
+      "path": "qa/review-chapter-17.json",
+      "mode": "100644",
+      "sha": "7f52d6ff1a83745b18308862601517e76c3c2a89",
+      "size": 21615
+    },
+    {
+      "path": "qa/review-chapter-18.json",
+      "mode": "100644",
+      "sha": "4f444d17a5bc1f14459691185a5a917dcb80dfa6",
+      "size": 20512
+    },
+    {
+      "path": "qa/visual-chapter-01.json",
+      "mode": "100644",
+      "sha": "3d0bece61d77f15b7327053f8d086b2bdb84abc4",
+      "size": 768
+    },
+    {
+      "path": "qa/visual-chapter-02.json",
+      "mode": "100644",
+      "sha": "b3f9914e5baf6a0f73a8ba074eadaf5b91a8e0cb",
+      "size": 597
+    },
+    {
+      "path": "qa/visual-chapter-03.json",
+      "mode": "100644",
+      "sha": "40ed1c21ae85f8b011e7f492a9688a293cd44734",
+      "size": 1993
+    },
+    {
+      "path": "qa/visual-chapter-04.json",
+      "mode": "100644",
+      "sha": "c69bb544594ed7bcf8f8554aaa3993cc97d84205",
+      "size": 1076
+    },
+    {
+      "path": "qa/visual-chapter-05.json",
+      "mode": "100644",
+      "sha": "4d37ccb71c85099f94b4bf84d5240677659500ca",
+      "size": 1704
+    },
+    {
+      "path": "qa/visual-chapter-06.json",
+      "mode": "100644",
+      "sha": "6518edb537be9c4a62ae0a6890378a074169a68c",
+      "size": 1003
+    },
+    {
+      "path": "qa/visual-chapter-07.json",
+      "mode": "100644",
+      "sha": "0d8f620cfef82a459d89afbd650a10e0b6a9d8a0",
+      "size": 1711
+    },
+    {
+      "path": "qa/visual-chapter-08.json",
+      "mode": "100644",
+      "sha": "60d6625b984923414584d773932dada11ce850b7",
+      "size": 753
+    },
+    {
+      "path": "qa/visual-chapter-09.json",
+      "mode": "100644",
+      "sha": "02a58e199ed8d751b6bba45c1b9d3b772838fdb2",
+      "size": 1019
+    },
+    {
+      "path": "qa/visual-chapter-10.json",
+      "mode": "100644",
+      "sha": "f62cfa9f216dad9b2a9280f9ec12f9ebd802911a",
+      "size": 723
+    },
+    {
+      "path": "qa/visual-chapter-11.json",
+      "mode": "100644",
+      "sha": "ad769f84fbedbcd12619826b8df80be40cd0af47",
+      "size": 703
+    },
+    {
+      "path": "qa/visual-chapter-12.json",
+      "mode": "100644",
+      "sha": "297a873d99f03548bb541a542ff5ad111fe6bb86",
+      "size": 592
+    },
+    {
+      "path": "qa/visual-chapter-13.json",
+      "mode": "100644",
+      "sha": "9fe42fbddb59bffc2f6b8465ca5a8d630d4f36f1",
+      "size": 760
+    },
+    {
+      "path": "qa/visual-chapter-14.json",
+      "mode": "100644",
+      "sha": "dbc82224d3491bcd87fdf6977f3d590b53ee7241",
+      "size": 983
+    },
+    {
+      "path": "qa/visual-chapter-15.json",
+      "mode": "100644",
+      "sha": "630cdb184f79f72a307612749ec5764e4f819242",
+      "size": 811
+    },
+    {
+      "path": "qa/visual-chapter-16.json",
+      "mode": "100644",
+      "sha": "2124b82acbe4d8d02d08e2fbe3abc0021106d189",
+      "size": 674
+    },
+    {
+      "path": "qa/visual-chapter-17.json",
+      "mode": "100644",
+      "sha": "1b535d7301fb6ec80ffc3c9311d3d4ac84501d6e",
+      "size": 668
+    },
+    {
+      "path": "qa/visual-chapter-18.json",
+      "mode": "100644",
+      "sha": "49b2a2a81b726292a9ba478e3671bfeb5fadcd6a",
+      "size": 642
+    },
+    {
+      "path": "qa/visual-review.json",
+      "mode": "100644",
+      "sha": "7952c116b5447ec8fbb2c052bd24a11b6610cbc3",
+      "size": 6623
+    },
+    {
+      "path": "requirements-gpu-lock.txt",
+      "mode": "100644",
+      "sha": "76a38388e00514e06188be69db662bb95f171587",
+      "size": 1872
+    },
+    {
+      "path": "requirements-lock.txt",
+      "mode": "100644",
+      "sha": "adb875896671803ab3b3dae3711513ee8becae5d",
+      "size": 1679
+    },
+    {
+      "path": "requirements-vl.txt",
+      "mode": "100644",
+      "sha": "5cfb2f090e9bb1a202fc2b2965b89a21a8f13c3a",
+      "size": 173
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "sha": "530afe6d124dbde52f4906385d0333737d271b99",
+      "size": 141
+    },
+    {
+      "path": "scripts/audit_ocr_evidence.py",
+      "mode": "100644",
+      "sha": "b432cf06506a3ef409d31570d78016531ad5706f",
+      "size": 3641
+    },
+    {
+      "path": "scripts/audit_sample.py",
+      "mode": "100644",
+      "sha": "b3307f4af2844701db31cb0e832ebb5a7f0add8e",
+      "size": 4129
+    },
+    {
+      "path": "scripts/build_workbook.py",
+      "mode": "100644",
+      "sha": "cc421ec364379d90a2e1019468e34040736a328d",
+      "size": 12576
+    },
+    {
+      "path": "scripts/download_layout_model.py",
+      "mode": "100644",
+      "sha": "2dae9ade40a6c67c841728d25c072ffffacdfe9f",
+      "size": 1886
+    },
+    {
+      "path": "scripts/download_ocr_runtime.py",
+      "mode": "100644",
+      "sha": "29838711bcd0139fe47e9c02d4e115a8701a29d9",
+      "size": 6056
+    },
+    {
+      "path": "scripts/draft_tutorial_chapter.py",
+      "mode": "100644",
+      "sha": "d4d2b8c5c4077ace5cb608be07d0d0ecaef736b5",
+      "size": 4329
+    },
+    {
+      "path": "scripts/ocr_sample.py",
+      "mode": "100644",
+      "sha": "5b92241eabf9cf8c2ef25fbe8e837908542785bf",
+      "size": 3204
+    },
+    {
+      "path": "scripts/ocr_vl.py",
+      "mode": "100644",
+      "sha": "5a8add024b2bb8866451e18d5f70e5d4be7b937e",
+      "size": 6046
+    },
+    {
+      "path": "scripts/prepare_production_pages.py",
+      "mode": "100644",
+      "sha": "c982bbcdc69f4e2d78c50ffb802923bf7a6b211c",
+      "size": 1993
+    },
+    {
+      "path": "scripts/prepare_publication.py",
+      "mode": "100644",
+      "sha": "b9a3a4b6a9fee1112cc4d86468735d8d6430f20b",
+      "size": 29234
+    },
+    {
+      "path": "scripts/prepare_sample.py",
+      "mode": "100644",
+      "sha": "ad52af72046c5a380737c7bb22b07936a647dbc1",
+      "size": 1840
+    },
+    {
+      "path": "scripts/recover_cjk_text.py",
+      "mode": "100644",
+      "sha": "71882c7d69617b7421562dc46c9f8b2eeafce776",
+      "size": 5187
+    },
+    {
+      "path": "scripts/render_chapter_proof.py",
+      "mode": "100644",
+      "sha": "0d95a3709ea5f84c8212f215f830ce90ea484a9c",
+      "size": 1176
+    },
+    {
+      "path": "scripts/render_source_chapter.py",
+      "mode": "100644",
+      "sha": "2102fa7646031d3b31dac2fd3671f885b7155959",
+      "size": 1694
+    },
+    {
+      "path": "scripts/render_workbooks.py",
+      "mode": "100644",
+      "sha": "de3af2a37d4d88bb16ed879daeb7906df8de6548",
+      "size": 1326
+    },
+    {
+      "path": "scripts/start_ocr_job.ps1",
+      "mode": "100644",
+      "sha": "a180aff8a53438b56b5f5efac6e6664901b8f92a",
+      "size": 1970
+    },
+    {
+      "path": "scripts/start_ocr_server.ps1",
+      "mode": "100644",
+      "sha": "1e26657485bfd427cafbc873fc0db5e7f93c5cb2",
+      "size": 1942
+    },
+    {
+      "path": "scripts/update_production_status.py",
+      "mode": "100644",
+      "sha": "3bb3ff7348e7675d532954c45db4efcb83671e4a",
+      "size": 7710
+    },
+    {
+      "path": "templates/preamble.tex",
+      "mode": "100644",
+      "sha": "7dcd084f40a9a35f18bab9e881ceaad4fc9092b8",
+      "size": 889
+    },
+    {
+      "path": "tests/test_ocr_evidence.py",
+      "mode": "100644",
+      "sha": "dfc8b2659b6c7ed32687669443b729906f5b6c41",
+      "size": 4342
+    },
+    {
+      "path": "tests/test_pdf_navigation.py",
+      "mode": "100644",
+      "sha": "ddb034bac861bef32a0b3ee826ad07d7b43f0dd5",
+      "size": 3031
+    },
+    {
+      "path": "tests/test_production_status.py",
+      "mode": "100644",
+      "sha": "1fb6386e1d519752f6ec4838ff14e9352495af6d",
+      "size": 7024
+    },
+    {
+      "path": "tests/test_publication_scope.py",
+      "mode": "100644",
+      "sha": "0b4b54c5fc91615721bad0d93408eec77be2ead4",
+      "size": 13525
+    },
+    {
+      "path": "tests/test_workbook_rules.py",
+      "mode": "100644",
+      "sha": "a9600632134cb60aea3c88f759e6a85fa7e3ebaf",
+      "size": 3162
     },
     {
       "path": "制作要求.txt",
       "mode": "100644",
-      "sha": "c66f75ef22bf9b8f2f0745b61568d35900d379b1",
-      "size": 6860
+      "sha": "93f9f20f818e89c6538c756b1843aee579a6053a",
+      "size": 8734
     },
     {
       "path": "数学分析教程（史济怀著）/chapters/.gitkeep",
@@ -67,10 +655,136 @@
       "size": 584
     },
     {
+      "path": "数学分析讲义/README.md",
+      "mode": "100644",
+      "sha": "78b03055c1387abd97023a13dc4d6e53a72c0018",
+      "size": 1759
+    },
+    {
       "path": "数学分析讲义/chapters/.gitkeep",
       "mode": "100644",
       "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
       "size": 0
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_01.tex",
+      "mode": "100644",
+      "sha": "40128701348b87b4df48feeb0f7a8ba57432c6e3",
+      "size": 33614
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_02.tex",
+      "mode": "100644",
+      "sha": "e1941867df072bbf8a45dbc43fc59f241850422e",
+      "size": 14545
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_03.tex",
+      "mode": "100644",
+      "sha": "1d4181885e13e6e1c49d8aa7487aaba803a3314b",
+      "size": 48241
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_04.tex",
+      "mode": "100644",
+      "sha": "5ce57fdf163127514b2c42241647832f381bdc66",
+      "size": 13599
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_05.tex",
+      "mode": "100644",
+      "sha": "f63f7b60cec2f1662cb7eccf1f4d58881a692851",
+      "size": 28556
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_06.tex",
+      "mode": "100644",
+      "sha": "7f0ba5381ef095fb2aafb78a710c2e8f86b38fa3",
+      "size": 9672
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_07.tex",
+      "mode": "100644",
+      "sha": "11ba1ef80a839d46c74f6c277bb6ed405a0bfff9",
+      "size": 31809
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_08.tex",
+      "mode": "100644",
+      "sha": "9b6ffb18e079acdd969a33123a28ad3a05ac8d98",
+      "size": 36690
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_09.tex",
+      "mode": "100644",
+      "sha": "17576888f7f0999cc457336bc01a94f08496aada",
+      "size": 57759
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_10.tex",
+      "mode": "100644",
+      "sha": "0729f0db95188b88f81b16eb78ab78e896f49316",
+      "size": 26213
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_11.tex",
+      "mode": "100644",
+      "sha": "14d3fc790b49143b5893aab7c44ad3d40e371d58",
+      "size": 38316
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_12.tex",
+      "mode": "100644",
+      "sha": "a053b4eebf0598dcb7e324ad9afe7bb68a43429b",
+      "size": 18642
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_13.tex",
+      "mode": "100644",
+      "sha": "44bc9486b4b9608294140fd84c8400d72ce92c8e",
+      "size": 25810
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_14.tex",
+      "mode": "100644",
+      "sha": "eacc6b13f03111b86cebf60ea9f162599c5e9f20",
+      "size": 33028
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_15.tex",
+      "mode": "100644",
+      "sha": "7ab02ce379bc53052bf2331e1cd61cec35fea4a3",
+      "size": 30952
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_16.tex",
+      "mode": "100644",
+      "sha": "a75012c9a936fa5046110631cc71c4418f142c71",
+      "size": 21806
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_17.tex",
+      "mode": "100644",
+      "sha": "fda499e5e844c95a4f7ec74c77c7d4faa233f040",
+      "size": 22606
+    },
+    {
+      "path": "数学分析讲义/chapters/chapter_18.tex",
+      "mode": "100644",
+      "sha": "f19a10fcdddf1421527fa8676d3e26350f1aa58f",
+      "size": 15016
+    },
+    {
+      "path": "数学分析讲义/data/curated.json",
+      "mode": "100644",
+      "sha": "6f49d72494f29fb11d65c1f57416eb58b2f973b5",
+      "size": 1132503
+    },
+    {
+      "path": "数学分析讲义/data/problems.json",
+      "mode": "100644",
+      "sha": "e998c2dbeaa70872be21c1b6e6c8d1d6c26a3d2b",
+      "size": 1288533
     },
     {
       "path": "数学分析讲义/figures/.gitkeep",
@@ -85,13 +799,37 @@
       "size": 0
     },
     {
+      "path": "数学分析讲义/main.pdf",
+      "mode": "100644",
+      "sha": "ec6b97ff332f8d3251ce3f877968cbc54eeda6c0",
+      "size": 1017167
+    },
+    {
       "path": "数学分析讲义/main.tex",
       "mode": "100644",
-      "sha": "c4bdd14d84ce04ed36c2362baf18d50163044d59",
-      "size": 587
+      "sha": "1c8458e30be0db78998f4223da6b8460f1162190",
+      "size": 2301
+    },
+    {
+      "path": "数学分析讲义/qa/acceptance-report.json",
+      "mode": "100644",
+      "sha": "1a943a115f42ac7b56d2fbe35afbf9bc5aa6e1d5",
+      "size": 16422
+    },
+    {
+      "path": "数学分析讲义/qa/build-report.json",
+      "mode": "100644",
+      "sha": "7e002b0d3123fb2ff89d43214014d1c2df2c709d",
+      "size": 78223
+    },
+    {
+      "path": "数学分析讲义/qa/visual-review.json",
+      "mode": "100644",
+      "sha": "a0b72a9b68a900afbac3b1eeaba2d4427ee19e3f",
+      "size": 136188
     }
   ],
-  "remote_license_present": false,
+  "remote_license_present": true,
   "remote_changes_made": false,
   "local_git": {
     "root_repository_present": false,
@@ -104,10 +842,10 @@
   },
   "reconciliation": {
     "keep_existing_history": true,
-    "readonly_snapshot": ".cache/remote-snapshot.json",
+    "readonly_snapshot": ".cache/tutorial-resume/remote-preflight.json",
     "remote_tutorial_path": "数学分析教程（史济怀著）",
     "local_tutorial_path": "数学分析教程",
-    "tutorial_directory_action": "Preserve the four existing tutorial placeholders during the lecture-only release. Migrate only verified unchanged placeholders when the tutorial is completed and published.",
+    "tutorial_directory_action": "在教程正式发布时将四个原版本占位文件迁移至配置项目；只删除固定 SHA 仍匹配的占位文件。",
     "readme_retain_future_titles": [
       "线性代数及其应用",
       "力学（舒幼生）",
@@ -139,7 +877,7 @@
       "Credentials and machine-specific configuration"
     ],
     "publish_inclusions": [
-      "main.pdf in each selected completed project; this release selects 数学分析讲义 only",
+      "两本已完成项目的 main.pdf",
       "LaTeX sources, approved figures and curated data",
       "Build/configuration scripts and tests",
       "Review records and noncommercial license"
@@ -155,7 +893,7 @@
     "sequence": [
       "Create text blobs as UTF-8 and PDF/image blobs as base64 for explicit allowlisted publication files.",
       "Create a tree with base_tree_sha set to the freshly read remote tree, preserving all unrelated existing entries.",
-      "For this lecture-only release, preserve all four tutorial placeholders; no deletions are proposed.",
+      "教程正式发布时，仅移除通过固定 blob SHA 验证的四个旧占位文件；保留其余现有内容。",
       "Create a commit whose parent_sha is the freshly read main head; message includes workbook names and verified final problem counts.",
       "Update main using force=false and expected_sha equal to that same read head.",
       "If the head changes or update is rejected, inspect the newer head/tree, reconcile and recreate against it; do not force.",
@@ -180,6 +918,7 @@
     "selected_project_command": "python scripts/prepare_publication.py --project 数学分析讲义"
   },
   "publication_scope": [
-    "数学分析讲义"
+    "数学分析讲义",
+    "数学分析教程"
   ]
 }

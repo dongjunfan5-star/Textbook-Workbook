@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "reason": "裸prime和间距补偿写法改为标准上标；导数及带撇变量的含义保持不变。",
+  "changes": [
+    {
+      "project": "数学分析讲义",
+      "chapter": 10,
+      "units": [
+        {
+          "unit_index": 49,
+          "page_number": 194
+        },
+        {
+          "unit_index": 76,
+          "page_number": 199
+        }
+      ],
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234",
+      "historical_chapter_visual_review_file": "qa/visual-chapter-10.json",
+      "historical_chapter_pdf_sha256": "50ab64f42b6382adbd078dfe286423fbfd260e57c62e1e39c979626e08c942b3",
+      "review_scope": "formal_complete_book"
+    },
+    {
+      "project": "数学分析讲义",
+      "chapter": 15,
+      "units": [
+        {
+          "unit_index": 70,
+          "page_number": 93
+        },
+        {
+          "unit_index": 74,
+          "page_number": 102
+        },
+        {
+          "unit_index": 89,
+          "page_number": 115
+        }
+      ],
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234",
+      "historical_chapter_visual_review_file": "qa/visual-chapter-15.json",
+      "historical_chapter_pdf_sha256": "bf04ff5bc73fb3a4fb82555885d9aefe3edd4332a1f22dc1582f6354b19bc7e0",
+      "review_scope": "formal_complete_book"
+    },
+    {
+      "project": "数学分析讲义",
+      "chapter": 16,
+      "units": [
+        {
+          "unit_index": 9,
+          "page_number": 126
+        },
+        {
+          "unit_index": 29,
+          "page_number": 136
+        },
+        {
+          "unit_index": 53,
+          "page_number": 146
+        }
+      ],
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234",
+      "historical_chapter_visual_review_file": "qa/visual-chapter-16.json",
+      "historical_chapter_pdf_sha256": "4064be887a08154192a35622e539a2b13f4368d4a45f1336f08fe7f8d51ffeb5",
+      "review_scope": "formal_complete_book"
+    },
+    {
+      "project": "数学分析讲义",
+      "chapter": 17,
+      "units": [
+        {
+          "unit_index": 8,
+          "page_number": 154
+        },
+        {
+          "unit_index": 10,
+          "page_number": 157
+        },
+        {
+          "unit_index": 49,
+          "page_number": 189
+        },
+        {
+          "unit_index": 57,
+          "page_number": 190
+        }
+      ],
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234",
+      "historical_chapter_visual_review_file": "qa/visual-chapter-17.json",
+      "historical_chapter_pdf_sha256": "9a0c2f25ba8e163c1c69179bcf9a999e8c4515b08b1b314cfecb69b2f1a5a14b",
+      "review_scope": "formal_complete_book"
+    },
+    {
+      "project": "数学分析讲义",
+      "chapter": 18,
+      "units": [
+        {
+          "unit_index": 15,
+          "page_number": 208
+        },
+        {
+          "unit_index": 37,
+          "page_number": 220
+        },
+        {
+          "unit_index": 40,
+          "page_number": 231
+        }
+      ],
+      "visual_review_file": "数学分析讲义/qa/visual-review.json",
+      "reviewed_pdf_sha256": "2c49e6232442da58dda6b9b0c798dd5e790d5fbf24470e59aedb878a5addc234",
+      "historical_chapter_visual_review_file": "qa/visual-chapter-18.json",
+      "historical_chapter_pdf_sha256": "eddca51996732092cc0f04e047442f0ff41413f0b05adc97f99ecb637a8d8f48",
+      "review_scope": "formal_complete_book"
+    },
+    {
+      "project": "数学分析教程",
+      "chapter": 4,
+      "units": [
+        {
+          "unit_index": 1,
+          "page_number": 203
+        }
+      ],
+      "visual_review_file": "qa/visual-tutorial-chapter-04.json",
+      "reviewed_pdf_sha256": "c1f221b547ca5e2f8b213a999db5df9c6045e8dea79f315b05a72d4db85d4e13"
+    }
+  ],
+  "note": "原题索引记录为修正时位置；讲义最终版以正式题库及整书视觉检查PDF哈希为准。教程记录保留各自章节校对范围。"
+}

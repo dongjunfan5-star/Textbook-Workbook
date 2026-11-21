@@ -1,0 +1,307 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{17}\section{含参变量积分}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.1}
+计算积分 $\displaystyle I=\int_0^1\frac{x^b-x^a}{\ln x}\,dx$，其中 $0<a<b$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.2}
+计算积分 $\displaystyle I(r)=\int_0^\pi\ln(1-2r\cos x+r^2)\,dx$，其中 $r\in\mathbb R$。当 $r=\pm1$ 时按反常积分理解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.3}
+设 $\displaystyle\psi(x)=\int_{\sin x}^{\cos x}e^{t^2+xt}\,dt$，计算 $\psi'(0)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.4}
+设 $f$ 是 $\mathbb R^2$ 上的连续函数，$\displaystyle\varphi(x)=\int_0^x\left(\int_{t^2}^{x^2}f(t,s)\,ds\right)dt$。计算 $\varphi'(x)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.5}
+求下列极限：
+\SubQ{1}{$\displaystyle\lim_{a\to0}\int_{-1}^1\sqrt{x^2+a^2}\,dx$。}
+\SubQ{2}{$\displaystyle\lim_{t\to0}\int_0^2x^2\cos(tx)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.6}
+设 $f$ 为可微函数，令 $\displaystyle F(u)=\int_0^u(x+u)f(x)\,dx$。计算 $F''(u)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.7（校订）}
+计算下列函数的导数：
+\SubQ{1}{$\displaystyle f(x)=\int_{\sin x}^{\cos x}e^{(1+t)^2}\,dt$。}
+\SubQ{2}{$\displaystyle f(x)=\int_x^{x^2}e^{-x^2u^2}\,du$。}
+\SubQ{3}{$\displaystyle f(x)=\int_{a+x}^{b+x}\frac{\sin(xt)}t\,dt$，其中 $a,b$ 为常数，$t=0$ 处按连续延拓理解。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.8（校订）}
+计算下列函数的导数：
+\SubQ{1}{$\displaystyle f(u)=\int_0^ug(x+u,x-u)\,dx$，其中 $g\in C^1(\mathbb R^2)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.9}
+设 $a>0$，$\varphi,\psi$ 分别可微两次和一次。证明\[u(x,t)=\frac12\bigl(\varphi(x-at)+\varphi(x+at)\bigr)+\frac1{2a}\int_{x-at}^{x+at}\psi(s)\,ds\]满足弦振动方程 $u_{tt}=a^2u_{xx}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.10}
+设 $f$ 在 $[0,a]$ 上连续，$a>0$。在满足对每个 $t\in[0,a]$ 都有 $(x-t)^2+y^2+z^2\ne0$ 的点处，证明\[u(x,y,z)=\int_0^a\frac{f(t)}{\sqrt{(x-t)^2+y^2+z^2}}\,dt\]满足 Laplace 方程 $u_{xx}+u_{yy}+u_{zz}=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.11（校订）}
+设 $a<b$，$f$ 为可微函数，令 $\displaystyle\varphi(u)=\int_a^bf(x)|x-u|\,dx$。计算 $\varphi''(u)$，并讨论端点 $u=a,b$ 处二阶导数的存在性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.12}
+在 $[1,3]$ 上用线性函数 $a+bx$ 近似代替 $f(x)=x^2$。试选取 $a,b$，使 $\displaystyle\int_1^3(a+bx-x^2)^2\,dx$ 取最小值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.13}
+设 $n$ 为非负整数。证明 $n$ 阶 Bessel 函数\[J_n(x)=\frac1\pi\int_0^\pi\cos(n\varphi-x\sin\varphi)\,d\varphi\]满足 Bessel 方程 $x^2J_n''(x)+xJ_n'(x)+(x^2-n^2)J_n(x)=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.14（校订）}
+利用对参数的微分法，计算下列积分：
+\SubQ{1}{$\displaystyle\int_0^{\pi/2}\ln(a^2\sin^2x+b^2\cos^2x)\,dx$，其中 $a,b\in\mathbb R$ 且不同时为零。在端点遇到对数奇性时按反常积分理解。}
+\SubQ{2}{$\displaystyle\int_0^{\pi/2}\ln\frac{1+a\cos x}{1-a\cos x}\,\frac{dx}{\cos x}$，其中 $|a|<1$。}
+\SubQ{3}{$\displaystyle\int_0^{\pi/2}\frac{\arctan(a\tan x)}{\tan x}\,dx$，其中 $a\in\mathbb R$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.15}
+证明：对任意实数 $u$，有 $\displaystyle\frac1{2\pi}\int_0^{2\pi}e^{u\cos x}\cos(u\sin x)\,dx=1$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.16}
+设 $f$ 在 $[a,+\infty)\times[\alpha,\beta]$ 上连续，且 $\int_a^{+\infty}f(x,u)\,dx$ 对每个 $u$ 收敛。记\[\eta(A)=\sup_{u\in[\alpha,\beta]}\left|\int_A^{+\infty}f(x,u)\,dx\right|.\]证明该含参积分在 $[\alpha,\beta]$ 上一致收敛，当且仅当 $\lim_{A\to+\infty}\eta(A)=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.17}
+讨论 $\displaystyle\int_0^{+\infty}ue^{-ux}\,dx$ 关于 $u\ge0$ 的一致收敛性，并考察任意 $\delta>0$ 时它在 $[\delta,+\infty)$ 上的一致收敛性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.18}
+设 $f$ 在 $[a,+\infty)\times[\alpha,\beta]$ 上连续。证明：$\int_a^{+\infty}f(x,u)\,dx$ 在 $[\alpha,\beta]$ 上一致收敛，当且仅当对任意 $\varepsilon>0$，存在 $A_0>a$，使对任意 $A',A''>A_0$ 及所有 $u\in[\alpha,\beta]$，均有\[\left|\int_{A'}^{A''}f(x,u)\,dx\right|<\varepsilon.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.19}
+设 $a>0$。证明积分 $\displaystyle\int_0^{+\infty}e^{-(a+u^2)t}\sin t\,dt$ 关于 $u\in[0,+\infty)$ 一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.20}
+设 $a>0$。证明积分 $\displaystyle\int_0^{+\infty}e^{-(a+u^2)t}\sin t\,du$ 关于 $t\in[0,+\infty)$ 一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.21}
+证明含参积分的 Abel 判别法：设 $f,g$ 在 $[a,+\infty)\times[\alpha,\beta]$ 上连续，$\int_a^{+\infty}f(x,u)\,dx$ 关于 $u\in[\alpha,\beta]$ 一致收敛；对每个固定的 $u$，$g(x,u)$ 关于 $x$ 单调，且存在常数 $M$ 使所有 $x\ge a$、$u\in[\alpha,\beta]$ 都满足 $|g(x,u)|\le M$。证明 $\int_a^{+\infty}f(x,u)g(x,u)\,dx$ 关于 $u\in[\alpha,\beta]$ 一致收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.22}
+证明积分 $\displaystyle\int_0^{+\infty}e^{-ux}\frac{\sin x}{x}\,dx$ 关于 $u\in[0,+\infty)$ 一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.23}
+设 $a>0,\delta>0$。证明积分 $\displaystyle\int_0^{+\infty}\frac{x\sin(ux)}{a^2+x^2}\,dx$ 关于 $u\in[\delta,+\infty)$ 一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.24}
+讨论积分 $\displaystyle\int_0^1\frac{\sin(1/x)}{x^p}\,dx$ 关于 $p\in(0,2)$ 的一致收敛性，并考察它在 $(0,2-\delta]$（$0<\delta<2$）上的一致收敛性。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.25（改写）}
+设函数列 $(f_n)$ 满足\[f_n(x)=\begin{cases}1/n,&0\le x\le n^2,\\0,&x>n^2.\end{cases}\] 证明 $f_n$ 在 $[0,+\infty)$ 上一致收敛于 $0$，并计算 $\lim_{n\to\infty}\int_0^{+\infty}f_n(x)\,dx$。由此说明无穷区间上一致收敛不必允许交换极限和积分。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.26}
+计算积分 $\displaystyle\int_0^{+\infty}\frac{x^{p-1}}{1+x}\,dx$，其中 $0<p<1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.27}
+计算积分 $\displaystyle\int_0^{+\infty}\frac{dx}{1+x^a}$，其中 $a>1$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.28}
+研究下列反常积分在指定参数区间上的一致收敛性：
+\SubQ{1}{$\displaystyle\int_0^{+\infty}e^{-ux}\sin x\,dx$，$0<u_0\le u<+\infty$，其中 $u_0$ 为常数。}
+\SubQ{2}{$\displaystyle\int_{-\infty}^{+\infty}\frac{x^2\cos(ux)}{1+x^4}\,dx$，$u\in\mathbb R$。}
+\SubQ{3}{$\displaystyle\int_0^{+\infty}\frac{dx}{1+(x+u)^2}$，$0\le u<+\infty$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.29}
+研究下列反常积分在指定参数区间上的一致收敛性：
+\SubQ{1}{$\displaystyle\int_1^{+\infty}e^{-\alpha x}\frac{\cos x}{\sqrt x}\,dx$，$0\le\alpha<+\infty$。}
+\SubQ{2}{$\displaystyle\int_0^{+\infty}\sqrt u\,e^{-ux^2}\,dx$，$0\le u<+\infty$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.30（校订）}
+证明积分 $\displaystyle\int_0^{+\infty}\frac{\sin(ux)}x\,dx$ 在任何不包含 $0$ 的非退化闭区间 $[a,b]$ 上一致收敛，而在包含 $0$ 的非退化闭区间上不一致收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.31}
+证明积分 $\displaystyle\int_0^{+\infty}\frac{\sin3x}{x+u}e^{-ux}\,dx$ 关于 $u\in[0,+\infty)$ 一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.32}
+设 $f(x,u)$ 在 $[a,+\infty)\times[\alpha,\beta]$ 上连续。如果对每个 $u\in[\alpha,\beta)$，$\int_a^{+\infty}f(x,u)\,dx$ 都收敛，但 $\int_a^{+\infty}f(x,\beta)\,dx$ 发散，证明该含参积分在 $[\alpha,\beta)$ 上不一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.33}
+设 $a>0$。证明积分 $\displaystyle\int_0^{+\infty}\frac{x\cos(ux)}{a^2+x^2}\,dx$ 在 $[\delta,+\infty)$（任意 $\delta>0$）上一致收敛，但在 $(0,+\infty)$ 上不一致收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.34}
+设 $a>0$。证明积分 $\displaystyle\int_0^{+\infty}\frac{x\sin(ux)}{a^2+x^2}\,dx$ 在 $u\in(0,+\infty)$ 上不一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.35}
+证明积分 $\displaystyle\int_0^{+\infty}\frac{x\sin(\alpha x)}{\alpha(1+x^2)}\,dx$ 关于 $\alpha\in[\eta,+\infty)$ 一致收敛，而关于 $\alpha\in(0,\delta)$ 不一致收敛；这里 $\eta,\delta$ 为任意正常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.36}
+证明积分 $\displaystyle\int_1^{+\infty}e^{-(x-1/\alpha)^2/\alpha^2}\,dx$ 关于 $\alpha\in(0,1]$ 一致收敛，但不能用 Weierstrass 判别法来判断。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.37}
+设 $f$ 在 $[a,+\infty)\times[\alpha,\beta]$ 上连续。证明积分 $\int_a^{+\infty}f(x,u)\,dx$ 在 $[\alpha,\beta]$ 上一致收敛，当且仅当对任意严格递增趋于 $+\infty$ 的数列 $A_n$（$A_1=a$），函数项级数\[\sum_{n=1}^{\infty}\int_{A_n}^{A_{n+1}}f(x,u)\,dx\]在 $[\alpha,\beta]$ 上一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.38}
+讨论函数 $\displaystyle\varphi(u)=\int_0^{+\infty}\frac{\arctan x}{x^u(2+x^3)}\,dx$ 的定义域及连续性区间。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.39}
+设 $a>0,b>0$，$c\in\mathbb R$。计算积分 $\displaystyle\int_0^{+\infty}\frac{e^{-ax}-e^{-bx}}x\cos(cx)\,dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.40}
+计算积分 $\displaystyle\int_0^{+\infty}e^{-x^2}\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.41}
+计算 Fresnel 积分 $\displaystyle\int_0^{+\infty}\sin(x^2)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.42}
+利用对参数的微分法，计算积分 $\displaystyle\int_0^{+\infty}\frac{e^{-ax^2}-e^{-bx^2}}{x^2}\,dx$，其中 $a>0,b>0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.43}
+计算积分 $\displaystyle\int_0^{+\infty}e^{-ax^2}\cos(bx)\,dx$，其中 $a>0$，$b\in\mathbb R$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.44}
+研究下列函数在指定区间上的连续性：
+\SubQ{1}{$\displaystyle f(x)=\int_0^{+\infty}\frac{t}{2+t^x}\,dt$，$x\in(2,+\infty)$。}
+\SubQ{2}{$\displaystyle\varphi(\alpha)=\int_0^\pi\frac{\sin x}{x^\alpha(\pi-x)^\alpha}\,dx$，$\alpha\in(0,2)$。}
+\SubQ{3}{$\displaystyle f(\alpha)=\int_1^{+\infty}\frac{\sin x}{x^\alpha}\,dx$，$\alpha\in(0,+\infty)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.45}
+利用公式 $\displaystyle\int_0^1x^{\alpha-1}\,dx=1/\alpha$（$\alpha>0$），计算积分 $\displaystyle\int_0^1x^{\alpha-1}(\ln x)^m\,dx$，其中 $m$ 为正整数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.46}
+计算积分 $\displaystyle\int_0^{+\infty}\frac{e^{-ax}-e^{-bx}}x\sin(cx)\,dx$，其中 $a,b,c>0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.47}
+计算积分 $\displaystyle\int_0^{+\infty}\frac{\ln(\alpha^2+x^2)}{\beta^2+x^2}\,dx$，其中 $\alpha\in\mathbb R$，$\beta\ne0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.48}
+利用已知的积分值，计算下列积分：
+\SubQ{1}{$\displaystyle\int_{-\infty}^{+\infty}e^{-(2x^2+x+2)}\,dx$。}
+\SubQ{2}{$\displaystyle\int_0^{+\infty}\frac{\sin(x^2)}x\,dx$。}
+\SubQ{3}{$\displaystyle\int_0^{+\infty}\frac{\sin(\alpha x)\cos(\beta x)}x\,dx$，其中 $\alpha,\beta\in\mathbb R$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.49}
+利用已知的积分值，计算下列积分：
+\SubQ{1}{$\displaystyle\int_0^{+\infty}\frac{\sin^3x}x\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.50}
+如果 $\int_{-\infty}^{+\infty}|f(x)|\,dx$ 收敛，证明函数 $\displaystyle\varphi(u)=\int_{-\infty}^{+\infty}f(x)\cos(ux)\,dx$ 在 $\mathbb R$ 上一致连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.51}
+证明函数 $\displaystyle f(\alpha)=\int_0^{+\infty}\frac{e^{-t}}{|\sin t|^\alpha}\,dt$ 在 $[0,1)$ 上连续（各个 $k\pi$ 处的奇性均按反常积分理解）。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.52}
+通过积分\[\varphi(u)=\int_0^{+\infty}ue^{-ux}\,dx\quad(0<u\le1),\qquad\psi(u)=\int_0^{+\infty}ue^{u(u-x)}\,dx\quad(1\le u<+\infty),\]说明含参变量反常积分的 Dini 定理在非闭区间或无穷区间上不一定成立。这里该定理指：在有限闭参数区间上，连续非负的被积函数所确定的收敛积分若是参数的连续函数，则积分关于参数一致收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.53}
+计算积分 $\displaystyle\int_0^{+\infty}\frac{\arctan(\alpha x)\arctan(\beta x)}{x^2}\,dx$，其中 $\alpha,\beta\in\mathbb R$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.54}
+计算积分\[\frac1{2\pi}\int_0^{+\infty}\left(\iint_D\frac{\sin\bigl(t\sqrt{x^2+y^2}\bigr)}{\sqrt{x^2+y^2}}\,dx\,dy\right)dt,\qquad D=\{(x,y):1\le x^2+y^2\le4\}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.55}
+利用已知积分，计算下列积分：
+\SubQ{1}{$\displaystyle\int_0^{+\infty}e^{-(x^2+a^2/x^2)}\,dx$，其中 $a>0$。}
+\SubQ{2}{$\displaystyle\int_0^{+\infty}\frac{e^{-ax^2}-\cos(bx)}{x^2}\,dx$，其中 $a>0$，$b\in\mathbb R$。}
+\SubQ{3}{$\displaystyle\int_0^{+\infty}\frac{\sin^4x}{x^2}\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.56}
+利用已知积分，计算下列积分：
+\SubQ{1}{$\displaystyle\int_0^{+\infty}\frac{\sin^4(\alpha x)-\sin^4(\beta x)}x\,dx$，其中 $\alpha,\beta>0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.57}
+设 $f$ 和 $\partial f/\partial u$ 在 $[a,+\infty)\times[\alpha,\beta]$ 上连续，积分 $\int_a^{+\infty}(\partial f/\partial u)(x,u)\,dx$ 关于 $u\in[\alpha,\beta]$ 一致收敛，并且存在 $u_0\in[\alpha,\beta]$，使 $\int_a^{+\infty}f(x,u_0)\,dx$ 收敛。证明 $\int_a^{+\infty}f(x,u)\,dx$ 关于 $u\in[\alpha,\beta]$ 一致收敛，其积分函数 $\varphi$ 可微，并有\[\varphi'(u)=\int_a^{+\infty}\frac{\partial f(x,u)}{\partial u}\,dx.\]（参数区间端点取单侧导数。）
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.58（改写）}
+利用 Gamma 函数的性质 $\Gamma(1)=1$ 和 $\Gamma(s+1)=s\Gamma(s)$（$s>0$），证明 $\Gamma(n+1)=n!$ 对所有正整数 $n$ 成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.59}
+计算积分 $\displaystyle\int_0^{\pi/2}\cos^\alpha x\sin^\beta x\,dx$，其中 $\alpha>-1,\beta>-1$。可用 $\Gamma$ 函数表示结果。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.60（改写）}
+设 $\displaystyle\Gamma(s)=\int_0^{+\infty}t^{s-1}e^{-t}\,dt$（$s>0$）。计算 $\Gamma(1/2)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.61（改写）}
+计算积分 $\displaystyle\int_0^{\pi/2}\cos^6x\sin^4x\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.62}
+设 $B(p,q)=\int_0^1t^{p-1}(1-t)^{q-1}\,dt$，其中 $p,q>0$。
+\SubQ{1}{证明 $\displaystyle B(p,q)=\int_0^{+\infty}\frac{x^{q-1}}{(1+x)^{p+q}}\,dx$。}
+\SubQ{2}{利用上式计算 $\displaystyle I=\int_0^{+\infty}\frac{x^{3/2}}{(1+x^5)^3}\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.63}
+计算级数 $\displaystyle\sum_{n=1}^{\infty}\frac1{n\binom{2n}{n}}$ 的和。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.64}
+计算积分 $\displaystyle\int_0^{\pi/2}(\tan x)^\alpha\,dx$，其中 $|\alpha|<1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.65}
+计算极限 $\displaystyle\lim_{\alpha\to+\infty}\sqrt\alpha\int_0^1(1-x^2)^\alpha\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.66（改写）}
+设 $a>0$，$B_n(a)=\{x\in\mathbb R^n:\|x\|\le a\}$，$\|x\|=\sqrt{x_1^2+\cdots+x_n^2}$。已知 $B_n(a)$ 的体积在 $n=2k$ 时为 $\pi^ka^{2k}/k!$，在 $n=2k-1$ 时为 $2^k\pi^{k-1}a^{2k-1}/(2k-1)!!$。利用 Gamma 函数将两种体积写成一个适用于任意正整数 $n$ 的公式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{18.67（改写）}
+设 $n\ge2$ 为整数，$a>0$，$\displaystyle S_{n-1}(a)=\{x\in\mathbb R^n:x_1^2+\cdots+x_n^2=a^2\}$。计算球面 $S_{n-1}(a)$ 的 $(n-1)$ 维面积，用 $\Gamma$ 函数表示结果。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.68}
+设 $\Gamma(s)=\int_0^{+\infty}t^{s-1}e^{-t}\,dt$（$s>0$）。证明：
+\SubQ{1}{$\displaystyle\Gamma(s)=2\int_0^{+\infty}x^{2s-1}e^{-x^2}\,dx$。}
+\SubQ{2}{$\displaystyle\Gamma(s)=a^s\int_0^{+\infty}x^{s-1}e^{-ax}\,dx$，其中 $a>0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.69}
+设 $p,q>0$，$B(p,q)=\int_0^1t^{p-1}(1-t)^{q-1}\,dt$。证明 $\displaystyle B(p,q)=2\int_0^{\pi/2}\sin^{2p-1}\theta\cos^{2q-1}\theta\,d\theta$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.70}
+利用 $\Gamma$ 函数，计算下列积分：
+\SubQ{1}{$\displaystyle\int_0^1\sqrt{x-x^2}\,dx$。}
+\SubQ{2}{$\displaystyle\int_0^{+\infty}\frac{\sqrt[4]x}{(1+x)^2}\,dx$。}
+\SubQ{3}{$\displaystyle\int_0^{+\infty}\frac{dx}{1+x^3}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.71}
+利用 $\Gamma$ 函数，计算下列积分：
+\SubQ{1}{$\displaystyle\int_0^{\pi/2}\sin^5x\cos^6x\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.72}
+固定 $q>0$，证明 $\ln B(p,q)$ 关于变量 $p$ 是 $(0,+\infty)$ 上的凸函数。这里 $B(p,q)=\int_0^1t^{p-1}(1-t)^{q-1}\,dt$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.73}
+计算极限 $\displaystyle\lim_{\alpha\to+\infty}\sqrt\alpha\int_0^1x^{3/2}(1-x^5)^\alpha\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.74}
+证明：对任意实数 $a$，有 $\displaystyle\lim_{x\to+\infty}\frac{x^a\Gamma(x)}{\Gamma(x+a)}=1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.75}
+设 $a>0$、$ac-b^2>0$、$\alpha>1/2$。证明\[\int_{-\infty}^{+\infty}\frac{dx}{(ax^2+2bx+c)^\alpha}=\frac{(ac-b^2)^{1/2-\alpha}}{a^{1-\alpha}}\frac{\Gamma(\alpha-1/2)}{\Gamma(\alpha)}\sqrt\pi.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.76}
+设常数 $a,b>0$。讨论函数 $\displaystyle f(s,p,q)=\int_0^{+\infty}\frac{x^s}{(a+bx^p)^q}\,dx$ 在 $p>0$ 条件下的定义域，并用 $\Gamma$ 函数表示 $f(s,p,q)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.77}
+证明 $\displaystyle\int_0^1\ln\Gamma(x)\,dx=\ln\sqrt{2\pi}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.78}
+证明 $\displaystyle\int_0^1\sin(\pi x)\ln\Gamma(x)\,dx=\frac1\pi\left(\ln\frac\pi2+1\right)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.79}
+证明 $\displaystyle\int_0^\pi\frac{dx}{\sqrt{3-\cos x}}=\frac1{4\sqrt\pi}\Gamma^2\left(\frac14\right)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.80}
+设 $m,n$ 为非负整数。证明 $\displaystyle\sum_{k=0}^n\binom nk\frac{(-1)^k}{m+k+1}=\frac{n!m!}{(n+m+1)!}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.81}
+设 $\displaystyle f(x)=\left(\int_0^xe^{-t^2}\,dt\right)^2$，$\displaystyle g(x)=\int_0^1\frac{e^{-x^2(1+t^2)}}{1+t^2}\,dt$。证明 $f(x)+g(x)=\pi/4$，并由此证明 $\displaystyle\int_0^{+\infty}e^{-x^2}\,dx=\sqrt\pi/2$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{18.82}
+利用公式 $\displaystyle\Gamma(t)=\lim_{n\to\infty}\frac{n^t n!}{t(t+1)\cdots(t+n)}$（$t>0$），证明对任意实数 $x$，有\[\sin x=x\prod_{n=1}^{\infty}\left(1-\frac{x^2}{n^2\pi^2}\right).\]
+\end{minipage}\par\vfill

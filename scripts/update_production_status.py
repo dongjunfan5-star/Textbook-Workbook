@@ -4,6 +4,7 @@ import json
 from collections import Counter
 from datetime import datetime,timezone
 from pathlib import Path
+from audit_ocr_evidence import archived_ocr_pages
 
 ROOT=Path(__file__).resolve().parents[1]
 def read(path):return json.loads(path.read_text(encoding='utf-8-sig'))
@@ -76,11 +77,15 @@ def main():
             by_key[key]={**by_key[key],**row}
     reviews=list(by_key.values())
     write(ROOT/'qa/production-page-reviews.json',reviews)
+    archived=archived_ocr_pages(ROOT)
     completed=[]
     for row in pages:
         folder=ROOT/row['project']/'data/ocr_raw/vl1.6'/row['source_id']/f"p{row['page_number']:04d}"
         done=folder/'completed.json'
-        if done.is_file() and (folder/'result.json').is_file():
+        key=(row['project'],row['source_file'],row['page_number'])
+        if key in archived:
+            completed.append(row)
+        elif done.is_file() and (folder/'result.json').is_file():
             if read(done).get('source_sha256')==row['source_sha256']:completed.append(row)
     projects=[]
     for name in dict.fromkeys(r['project'] for r in reviews):

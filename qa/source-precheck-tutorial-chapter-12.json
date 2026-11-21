@@ -1,0 +1,350 @@
+{
+  "status": "passed",
+  "scope": "source_image_coverage_precheck_only",
+  "project": "数学分析教程",
+  "chapter": 12,
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "ocr_crosscheck_status": "verified",
+  "curated_sha256": "e95694a4c0633d9069f4523cd006037e95382293fb0dc0e1a6f75d524cdc6950",
+  "source_pages_reviewed": [
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122
+  ],
+  "source_units": 43,
+  "final_problems": 49,
+  "editorial_changes": [
+    {
+      "page_number": 90,
+      "action": "add",
+      "reason": "补Schwarz灯笼完整具体反例（续文91–92页），以3个小问覆盖面积、有限比值与无穷比值。"
+    },
+    {
+      "page_number": 90,
+      "action": "record_cross_page",
+      "reason": "Schwarz 灯笼例第一处从第90页开始，构造图和所用极限分别可在第91页、第92页核对。"
+    },
+    {
+      "page_number": 114,
+      "action": "clarify",
+      "reason": "非平面交线的原表述仅给观察点。第115页教材解法采用朝上法向量，将走向明确为沿 z 轴正向看向 xy 平面时投影圆周逆时针。"
+    },
+    {
+      "page_number": 117,
+      "action": "clarify",
+      "reason": "沿用同节前例已由教材解法确定的投影定向约定，明确非平面交线的走向。"
+    },
+    {
+      "page_number": 90,
+      "action": "clarify",
+      "reason": "源书物理90–92页Schwarz灯笼未编号完整具体反例，改写为3个明确计算/说明小问；记录首现页90，配图仅裁取网格构造图，不包含题解。 由第91页原书推导的相邻截面间距 1/m，明确包括底面所在平面。"
+    },
+    {
+      "page_number": 96,
+      "action": "clarify",
+      "reason": "原题“介于两个相交平面之间”用语未直接给出选择的扇形；按有限曲面面积要求，明确保留闭夹持区 −|x|≤z≤|x|。"
+    },
+    {
+      "page_number": 100,
+      "action": "clarify",
+      "reason": "原题仅要求 f 在开区间 |t|<√(a²+b²+c²) 上连续，这不能保证积分存在。要求 f 在相应闭区间连续，保留普通积分等式，并补充原点可赋任意有限值。"
+    }
+  ],
+  "page_results": [
+    {
+      "page_number": 90,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0090.png",
+      "image_sha256": "2cb61dd9e7ef1b11d1fe5cbd8012ce185fa4fa1d62a64366ec381f1987975f73",
+      "units_count": 1,
+      "notes": "Schwarz灯笼具体反例起始页，新增并标改写。"
+    },
+    {
+      "page_number": 91,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0091.png",
+      "image_sha256": "4ac33dfcdffb6538705d620beaf0d2559c4fe152c5b4bfb75051728988ebf96b",
+      "units_count": 0,
+      "notes": "灯笼网格构造、面积计算续文，归首现90页；必要图裁掉编号与题解。"
+    },
+    {
+      "page_number": 92,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0092.png",
+      "image_sha256": "4dc210a5c7184a9a66c28351ae543f6eed770680a127aaa178f766317210e6cc",
+      "units_count": 0,
+      "notes": "灯笼面积依赖m/n²的结论续文，归90页；一般面积定义不扩编。"
+    },
+    {
+      "page_number": 93,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0093.png",
+      "image_sha256": "18ec39f1a74541b0c8d2a6b87c233ca84cdedf78233717fa933538487682491f",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 94,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0094.png",
+      "image_sha256": "1a9a33dfbc0f5b4add1176cdf11f10c66cb19ac62a4d2cfbfb5805a4b3fbf508",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 95,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0095.png",
+      "image_sha256": "5e2c101e891c39deeacafc8fdf3483c138baad4b12bab8a113a27904ca9bbf59",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 96,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0096.png",
+      "image_sha256": "211c73743fee9c5ab5d542c53096e804479e83b25ac3c03e5be687d1d2dcd63f",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 97,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0097.png",
+      "image_sha256": "bd8340168ab2d0bbf403b93f737a8e09a8b412767a2e0b985269776b80ed5842",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 98,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0098.png",
+      "image_sha256": "36f243726b78313dc673a9b6f0d466868d54f33afab5c628558dc5214c59d081",
+      "units_count": 3,
+      "notes": "球面x²积分例中读者自行参数计算已包含在原例要求中。"
+    },
+    {
+      "page_number": 99,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0099.png",
+      "image_sha256": "d10b02d2ffe1105c1dfa47ef80f557c87a1da3e32748115fb760a95b84b51478",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 100,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0100.png",
+      "image_sha256": "9c2528ac67973f30b01afa900ce48c1eb8ffec9be3614a08e699ae75de260f23",
+      "units_count": 4,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 101,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0101.png",
+      "image_sha256": "f24eae4a5174a6a331dcd76fb57e36fde171265fc5842a3c7a6f32abdaa92934",
+      "units_count": 0,
+      "notes": "Möbius带示例在102页编号例2完整重述并已收录，不重收。"
+    },
+    {
+      "page_number": 102,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0102.png",
+      "image_sha256": "fb33209301f2dca95928434c78e0808d60cb32ad4e140e42ea2b7e8150e01dd4",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 103,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0103.png",
+      "image_sha256": "1f901a9d5c2103784e88e8b8f835aebabfed58e1b1081b4f32cd2c4f2cbc27c6",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 104,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0104.png",
+      "image_sha256": "9b44977cf67e2d78548d168a79ac7907212b5acbda17f9b8113b2b3b946bd53a",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 105,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0105.png",
+      "image_sha256": "bc495d9f6589a41a674a0c530348b05d1b408788deded73c91057a038488a98f",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 106,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0106.png",
+      "image_sha256": "bb28d26b1dd2a24ab01aa976f70d8d1aa89a62471fd5c593508fb08459ff422d",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 107,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0107.png",
+      "image_sha256": "1bdda2920ba983f773b366e375cb1ab9a78a264f4ae3c23be867150084200e15",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 108,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0108.png",
+      "image_sha256": "e1e7e08444a0925c81a448505dba486ff6274ca61318a98c50adb3fc7c3e10ba",
+      "units_count": 3,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 109,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0109.png",
+      "image_sha256": "40f2d7c39f8e1bbc0e67712350561dedd0b5a3112f88d80457de7852a1dcc060",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 110,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0110.png",
+      "image_sha256": "cc83e92f2ed7ffdfc62c7ec07dfe19536a23c5057154c839a043d79ac82d081a",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 111,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0111.png",
+      "image_sha256": "a4b07a7fa4e0b0173777e8879c7531846f6c387788448cad7f0815af4afa01d5",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 112,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0112.png",
+      "image_sha256": "7ede000d0e969e0836495e5d330da77917f00edadafc9e78a838f79120c6ab73",
+      "units_count": 0,
+      "notes": "曲面边界体积通式属于Gauss公式一般推导，未另作具体题目。"
+    },
+    {
+      "page_number": 113,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0113.png",
+      "image_sha256": "83aca676a50623c2e2a0504d5ba1db9eca60c040e8f8ff6b81e47e7f55862889",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 114,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0114.png",
+      "image_sha256": "438a16f1aa0adc3a1613ad74e79ddb84aeb882da6a9a04435ae73ba1aff4b94f",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 115,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0115.png",
+      "image_sha256": "0302ef649fa778d1e7dd7af001166103b14395049f961363f520779294a16cd3",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 116,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0116.png",
+      "image_sha256": "5dcf92de8c211757604fb17deb452721e8e072b730221ac81c6168f3d36631ad",
+      "units_count": 7,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 117,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0117.png",
+      "image_sha256": "15bf540cb6dbddc3e08186c936f66b88ea12fb32bfc0ec89b8d633f68937852d",
+      "units_count": 2,
+      "notes": "外积结合律的符号演示用于定义，不作为独立算例重复收录。"
+    },
+    {
+      "page_number": 118,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0118.png",
+      "image_sha256": "f6b950f6ab0768d4e39a83041342853f7b40cadbf8b2d6cfaa40bf6ffbcafa93",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 119,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0119.png",
+      "image_sha256": "356044e5f99b8690b0591e76b790682b9299092add568c5a54425e0836eee8b5",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 120,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0120.png",
+      "image_sha256": "ab4f0a2aff4437d28b17d55d78153d5968b68f70a47f21c17af57b22ac5ca2c6",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 121,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0121.png",
+      "image_sha256": "f6869f79220502976fd78a77d5e293f88a1cbc89e1be6669acc680d773d46fca",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 122,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial12/p0122.png",
+      "image_sha256": "dce2b9088d805a5cf7cc7eeef097cc4857f613ac7c25482e939612433bdf534d",
+      "units_count": 3,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    }
+  ]
+}

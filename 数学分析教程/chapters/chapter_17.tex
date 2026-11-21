@@ -1,0 +1,268 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{16}\section{Fourier 分析}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.1（改写）}
+证明 $f(t)=\sin t+\frac13\sin(3t)$ 是周期函数。并证明不存在实数 $A,\omega,\varphi$，使 $f(t)=A\sin(\omega t+\varphi)$ 对所有 $t\in\mathbb R$ 成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.2（改写）}
+设 $f$ 的周期为 $2\pi$，且 $f(x)=x$（$-\pi\le x<\pi$），$f(\pi)=-\pi$。写出它的 Fourier 级数，并说明该级数在各点的收敛值。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.3（改写）}
+设 $f$ 的周期为 $2\pi$，且 $f(x)=x$（$0<x\le2\pi$），$f(0)=2\pi$。写出它的 Fourier 级数，并说明该级数在各点的收敛值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.4（改写）}
+完成以下积分问题：
+\SubQ{1}{证明 $\displaystyle\int_0^{+\infty}\frac{\sin x}x\,dx=\frac\pi2$。}
+\SubQ{2}{对任意 $\lambda>0$，计算 $\displaystyle\int_0^{+\infty}\frac{\sin(\lambda t)}t\,dt$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.5}
+证明 $n$ 次三角多项式 $\displaystyle T_n(x)=\sum_{k=0}^n(\alpha_k\cos kx+\beta_k\sin kx)$ 的 Fourier 级数就是它自身。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.6}
+设 $f$ 是周期为 $2\pi$ 的可积且绝对可积函数，$a_n,b_n$ 为其 Fourier 系数。证明：
+\SubQ{1}{若 $f(x+\pi)=f(x)$，则 $a_{2n-1}=b_{2n-1}=0$（$n\ge1$）。}
+\SubQ{2}{若 $f(x+\pi)=-f(x)$，则 $a_{2n}=b_{2n}=0$（$n\ge1$）。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.7}
+设 $a_n,b_n$ 为周期为 $2\pi$ 的可积且绝对可积函数 $f$ 的 Fourier 系数，$h\in\mathbb R$。证明平移函数 $f(x+h)$ 的 Fourier 系数满足 $\widetilde a_0=a_0$，且对 $n\ge1$，\[\widetilde a_n=a_n\cos nh+b_n\sin nh,\qquad\widetilde b_n=b_n\cos nh-a_n\sin nh.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.8}
+设 $\displaystyle\frac{|a_0|}2+\sum_{k=1}^\infty(|a_k|+|b_k|)<+\infty$。证明级数 $\displaystyle\frac{a_0}2+\sum_{k=1}^\infty(a_k\cos kx+b_k\sin kx)$ 必为某个周期为 $2\pi$ 的函数的 Fourier 级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.9}
+计算极限 $\displaystyle\lim_{\lambda\to+\infty}\int_0^1\ln x\cos^2(\lambda x)\,dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.10}
+设 $f$ 在 $[-\pi,\pi]$ 上可导，$f'$ 可积且绝对可积，且 $f(-\pi)=f(\pi)$。证明其 Fourier 系数满足 $a_n=o(1/n)$，$b_n=o(1/n)$（$n\to\infty$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.11}
+设 $f$ 是周期为 $2\pi$ 的可积且绝对可积函数，$b_n$ 是其正弦 Fourier 系数（$n\ge1$）。证明：
+\SubQ{1}{若 $f$ 在 $(0,2\pi)$ 上递减，则 $b_n\ge0$。}
+\SubQ{2}{若 $f$ 在 $(0,2\pi)$ 上递增，则 $b_n\le0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.12}
+设 $f$ 是周期为 $2\pi$ 的 Riemann 可积函数，且在 $(-\pi,\pi)$ 上单调。证明其 Fourier 系数满足 $a_n=O(1/n)$，$b_n=O(1/n)$（$n\to\infty$）。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.13}
+设 $f$ 在 $[a,b]$ 上 Riemann 可积。证明：
+\SubQ{1}{$\displaystyle\lim_{n\to\infty}\int_a^bf(x)|\sin nx|\,dx=\frac2\pi\int_a^bf(x)\,dx$。}
+\SubQ{2}{$\displaystyle\lim_{n\to\infty}\int_a^bf(x)|\cos nx|\,dx=\frac2\pi\int_a^bf(x)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.14}
+设 $f$ 在 $\mathbb R$ 上绝对可积。证明：
+\SubQ{1}{$\displaystyle\lim_{n\to\infty}\int_{-\infty}^{+\infty}f(x)|\sin nx|\,dx=\frac2\pi\int_{-\infty}^{+\infty}f(x)\,dx$。}
+\SubQ{2}{$\displaystyle\lim_{n\to\infty}\int_{-\infty}^{+\infty}f(x)|\cos nx|\,dx=\frac2\pi\int_{-\infty}^{+\infty}f(x)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.15}
+设 $a>0$，$f$ 在 $[-a,a]$ 上连续且在 $x=0$ 处可导。证明\[\lim_{\lambda\to+\infty}\int_{-a}^a\frac{1-\cos(\lambda x)}x f(x)\,dx=\int_0^a\frac{f(x)-f(-x)}x\,dx.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.16（改写）}
+完成以下 Fourier 展开及求和问题：
+\SubQ{1}{将函数 $f(x)=x^2$（$-\pi\le x\le\pi$）展开为 Fourier 级数。}
+\SubQ{2}{求 $\displaystyle\sum_{n=1}^{\infty}\frac1{n^2}$ 的和。}
+\SubQ{3}{求 $\displaystyle\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^2}$ 的和。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.17}
+将函数 $f(x)=\cos ax$（$a\in\mathbb R\setminus\mathbb Z$）在 $[-\pi,\pi]$ 上展开为 Fourier 级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.18（改写）}
+设 $f(x)=x$（$0<x<\pi$）。
+\SubQ{1}{将 $f$ 展开为余弦级数。}
+\SubQ{2}{将 $f$ 展开为正弦级数。}
+\SubQ{3}{求 $\displaystyle\sum_{k=1}^{\infty}\frac1{(2k-1)^2}$ 的和。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.19}
+设 $l>0$，$\displaystyle f(x)=\begin{cases}x,&0\le x\le l/2,\\l-x,&l/2\le x\le l.\end{cases}$ 将 $f$ 在 $(0,l)$ 上展开为正弦级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.20}
+设 $f(x)=\operatorname{sgn}x$（$-\pi<x<\pi$）。
+\SubQ{1}{将 $f$ 展开为 Fourier 级数。}
+\SubQ{2}{证明 $\displaystyle\sum_{k=1}^\infty\frac{\sin(2k-1)x}{2k-1}=\frac\pi4$（$0<x<\pi$）。}
+\SubQ{3}{求 $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n-1}}{2n-1}$ 的和。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.21}
+在 $(-\pi,\pi)$ 上将下列函数展开为 Fourier 级数：
+\SubQ{1}{$|x|$。}
+\SubQ{2}{$\sin ax$，$a\in\mathbb R\setminus\mathbb Z$。}
+\SubQ{3}{$x\sin x$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.22}
+将函数 $f(x)=x-\lfloor x\rfloor$ 在 $[0,1]$ 上展开为 Fourier 级数，并说明端点处级数的和。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.23}
+设 $l>0$。在 $(-l,l)$ 上将下列函数展开为 Fourier 级数：
+\SubQ{1}{$x$。}
+\SubQ{2}{$x+|x|$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.24}
+利用 $\cos(at)$ 在 $[-\pi,\pi]$ 上的 Fourier 展开式，证明下列恒等式（$x\notin\pi\mathbb Z$）：
+\SubQ{1}{$\displaystyle\cot x=\frac1x+\sum_{n=1}^\infty\frac{2x}{x^2-n^2\pi^2}$。}
+\SubQ{2}{$\displaystyle\frac1{\sin x}=\frac1x+\sum_{n=1}^\infty(-1)^n\frac{2x}{x^2-n^2\pi^2}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.25}
+证明对任意 $x\in\mathbb R$ 都有：
+\SubQ{1}{$\displaystyle|\cos x|=\frac2\pi+\frac4\pi\sum_{n=1}^\infty\frac{(-1)^{n+1}}{4n^2-1}\cos2nx$。}
+\SubQ{2}{$\displaystyle|\sin x|=\frac2\pi-\frac4\pi\sum_{n=1}^\infty\frac{\cos2nx}{4n^2-1}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.26}
+对 $0<x<2\pi$ 及实数 $a\ne0$，证明\[e^{ax}=\frac{e^{2a\pi}-1}\pi\left(\frac1{2a}+\sum_{k=1}^\infty\frac{a\cos kx-k\sin kx}{k^2+a^2}\right).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.27}
+证明以下恒等式：
+\SubQ{1}{$\displaystyle\sum_{n=1}^\infty(-1)^{n-1}\frac{\cos nx}n=\ln\left(2\cos\frac x2\right)$，$-\pi<x<\pi$。}
+\SubQ{2}{$\displaystyle\sum_{n=1}^\infty\frac{\cos nx}n=-\ln\left(2\sin\frac x2\right)$，$0<x<2\pi$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.28}
+设 $f$ 在 $[a,b]$ 上 Riemann 可积。利用 $|\cos t|$ 与 $|\sin t|$ 的 Fourier 展开式，证明：
+\SubQ{1}{$\displaystyle\lim_{\lambda\to+\infty}\int_a^bf(x)|\cos\lambda x|\,dx=\frac2\pi\int_a^bf(x)\,dx$。}
+\SubQ{2}{$\displaystyle\lim_{\lambda\to+\infty}\int_a^bf(x)|\sin\lambda x|\,dx=\frac2\pi\int_a^bf(x)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.29}
+设 $g$ 为 $[0,h]$（$h>0$）上的增函数。证明 $\displaystyle\lim_{\lambda\to+\infty}\int_0^h g(t)\frac{\sin(\lambda t)}t\,dt=\frac\pi2g(0+)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.30（改写）}
+判断级数 $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}$ 在通常意义下是否收敛，并求其 Cesàro 和。这里 Cesàro 和指部分和 $S_n$ 的算术平均 $\displaystyle\frac1n\sum_{k=1}^n S_k$ 的极限。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.31}
+求下列级数的 Cesàro 和（即部分和算术平均的极限）：
+\SubQ{1}{$1+0-1+1+0-1+\cdots$，项按 $1,0,-1$ 循环。}
+\SubQ{2}{$\displaystyle\frac12+\cos x+\cos2x+\cdots$，$0<x<2\pi$。}
+\SubQ{3}{$\displaystyle\sin x+\sin2x+\sin3x+\cdots$，$0<x<2\pi$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.32}
+证明 $[0,\pi]$ 上的任意连续函数均可用余弦多项式 $\displaystyle\sum_{k=0}^n a_k\cos kx$ 一致逼近。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.33}
+证明级数 $\displaystyle\sum_{n=1}^\infty a_n$ 可以 Cesàro 求和的必要条件是 $a_n=o(n)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.34}
+已知周期为 $2\pi$ 的连续函数可以用三角多项式一致逼近。由此导出代数多项式的 Weierstrass 逼近定理：任意闭区间上的连续函数均可用代数多项式一致逼近。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.35（校订）}
+若 $\displaystyle\lim_{r\to1^-}\sum_{n=0}^\infty a_n r^n=s$，则称 $\sum a_n$ 的 Abel 和为 $s$，记作 $\sum a_n=s\ (A)$（幂级数须在 $0\le r<1$ 收敛）。证明：
+\SubQ{1}{如果 $\sum_{n=0}^\infty a_n$ 在通常意义下收敛于 $s$，则其 Abel 和也是 $s$。}
+\SubQ{2}{$\displaystyle\sum_{n=0}^\infty(-1)^n=\frac12\ (A)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.36}
+证明：若级数 $\displaystyle\sum_{n=0}^\infty a_n$ 的 Cesàro 和为 $s$，则其 Abel 和也为 $s$，即 $\displaystyle\lim_{r\to1^-}\sum_{n=0}^\infty a_n r^n=s$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.37}
+证明级数 $\displaystyle\sum_{n=0}^\infty(-1)^n(n+1)$ 的 Abel 和为 $1/4$，但它不能 Cesàro 求和。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.38}
+证明 $\displaystyle\sum_{n=2}^\infty(-1)^n\ln n$ 的 Cesàro 和为 $\displaystyle\frac12\ln\frac\pi2$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.39}
+设 $\displaystyle\sum_{n=0}^\infty a_n=A$，$\displaystyle\sum_{n=0}^\infty b_n=B$ 为两个收敛级数，$\displaystyle c_n=\sum_{k=0}^n a_kb_{n-k}$。证明它们的 Cauchy 乘积 $\sum_{n=0}^\infty c_n$ 可以 Abel 求和，且 Abel 和为 $AB$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.40（改写）}
+在 $[-\pi,\pi]$ 上，以 $\langle f,g\rangle=\int_{-\pi}^{\pi}f(x)g(x)\,dx$ 为内积。证明 $1/\sqrt{2\pi}$ 与 $\cos(kx)/\sqrt\pi,\ \sin(kx)/\sqrt\pi$（$k=1,2,\ldots$）构成规范正交系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.41（改写）}
+利用 Fourier 展开式和 Parseval 等式，求下列级数的和：
+\SubQ{1}{$\displaystyle\sum_{n=1}^\infty\frac1{n^4}$。}
+\SubQ{2}{$\displaystyle\sum_{n=1}^\infty\frac1{n^2}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.42}
+利用 $f(x)=|x|$ 在 $[-\pi,\pi]$ 上的 Fourier 展开式及 Parseval 等式，求 $\displaystyle\sum_{n=1}^\infty\frac1{(2n-1)^4}$ 的和。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.43}
+设 $0<\alpha<\pi$，将 $\displaystyle f(x)=\begin{cases}1,&|x|\le\alpha,\\0,&\alpha<|x|<\pi\end{cases}$ 以 $2\pi$ 为周期延拓。
+\SubQ{1}{写出 $f$ 的 Parseval 等式。}
+\SubQ{2}{求 $\displaystyle\sum_{n=1}^\infty\frac{\sin^2(n\alpha)}{n^2}$ 的和。}
+\SubQ{3}{求 $\displaystyle\sum_{n=1}^\infty\frac{\cos^2(n\alpha)}{n^2}$ 的和。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.44}
+由展开式 $\displaystyle x=2\sum_{n=1}^\infty(-1)^{n-1}\frac{\sin nx}n$（$-\pi<x<\pi$）逐项积分，完成以下各题：
+\SubQ{1}{求 $x^2$ 在 $(-\pi,\pi)$ 上的 Fourier 展开式。}
+\SubQ{2}{求 $x^3$ 在 $(-\pi,\pi)$ 上的 Fourier 展开式。}
+\SubQ{3}{求 $x^4$ 在 $(-\pi,\pi)$ 上的 Fourier 展开式。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.45}
+由展开式 $\displaystyle x=2\sum_{n=1}^\infty(-1)^{n-1}\frac{\sin nx}n$（$-\pi<x<\pi$）逐项积分，完成以下各题：
+\SubQ{1}{证明 $\displaystyle\sum_{n=1}^\infty\frac1{n^6}=\frac{\pi^6}{945}$。}
+\SubQ{2}{证明 $\displaystyle\sum_{n=1}^\infty\frac1{n^8}=\frac{\pi^8}{9450}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.46（校订）}
+设 $\displaystyle f(x)=\begin{cases}\frac{\pi-1}2x,&0\le x\le1,\\\frac{\pi-x}2,&1<x\le\pi,\end{cases}$ 并将其奇延拓至 $[-\pi,\pi]$。证明 \[f(x)=\sum_{n=1}^\infty\frac{\sin n}{n^2}\sin nx\qquad(|x|\le\pi).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.47}
+利用奇函数 $f$ 的正弦展开 $\displaystyle f(x)=\sum_{n=1}^\infty\frac{\sin n}{n^2}\sin nx$，其中 $f(x)=(\pi-1)x/2$（$0\le x\le1$），$f(x)=(\pi-x)/2$（$1<x\le\pi$）。证明：
+\SubQ{1}{$\displaystyle\sum_{n=1}^\infty\frac{\sin n}n=\sum_{n=1}^\infty\left(\frac{\sin n}n\right)^2=\frac{\pi-1}2$。}
+\SubQ{2}{$\displaystyle\sum_{n=1}^\infty\frac{\sin^2 n}{n^4}=\frac{(\pi-1)^2}6$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.48}
+设 $a_n,b_n$ 为可积且平方可积函数 $f$ 在 $[-\pi,\pi]$ 上的 Fourier 系数。证明 $\displaystyle\sum_{n=1}^\infty\frac{a_n}n$ 与 $\displaystyle\sum_{n=1}^\infty\frac{b_n}n$ 收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.49（校订）}
+证明级数 $\displaystyle\sum_{n=2}^\infty\frac{\sin nx}{\ln n}$ 在任意不含 $2\pi$ 整数倍的闭区间上一致收敛，但它不是 $[-\pi,\pi]$ 上任一可积且平方可积函数的 Fourier 级数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.50}
+设 $f$ 为周期为 $2\pi$ 的连续函数，$\displaystyle F(x)=\frac1\pi\int_{-\pi}^\pi f(t)f(x+t)\,dt$。用 $a_n,b_n$ 和 $A_n,B_n$ 分别表示 $f$ 和 $F$ 的 Fourier 系数。证明 $A_0=a_0^2$，$A_n=a_n^2+b_n^2$，$B_n=0$（$n\ge1$），并由此推出 $f$ 的 Parseval 等式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.51}
+设 $f$ 在 $[-\pi,\pi]$ 上连续，且有可积、平方可积的导数 $f'$。若 $f(-\pi)=f(\pi)$，$\displaystyle\int_{-\pi}^\pi f(x)\,dx=0$，证明\[\int_{-\pi}^\pi(f'(x))^2\,dx\ge\int_{-\pi}^\pi f^2(x)\,dx,\]且等号当且仅当 $f(x)=\alpha\cos x+\beta\sin x$ 时成立。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.52}
+设 $f\in C^1[0,1]$，$f(0)=f(1)=0$，且 $f(1/2-x)=-f(1/2+x)$ 对 $x\in[0,1/2]$ 成立。证明\[\int_0^1 f^2(x)\,dx\le\frac1{4\pi^2}\int_0^1(f'(x))^2\,dx,\]并讨论等号成立的条件。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.53}
+在 $[0,1]$ 上定义 Rademacher 函数系 $\varphi_n(t)=\operatorname{sgn}(\sin(2^n\pi t))$（$n=1,2,\ldots$）。证明该函数系是 $[0,1]$ 上的规范正交系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.54}
+设 $f(x)=1$（$|x|\le1$），$f(x)=0$（$|x|>1$）。由 $f$ 的 Fourier 积分公式证明\[\int_0^{+\infty}\frac{\sin u\cos(ux)}u\,du=\begin{cases}\pi/2,&|x|<1,\\\pi/4,&|x|=1,\\0,&|x|>1.\end{cases}\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.55（改写）}
+设 $f(t)=e^{-\beta t}$（$\beta>0$，$t>0$）。约定 Fourier 余弦变换 $C_f$ 与正弦变换 $S_f$ 为\[\begin{aligned}C_f(u)&=\sqrt{\frac2\pi}\int_0^{+\infty}f(t)\cos(ut)\,dt,\\S_f(u)&=\sqrt{\frac2\pi}\int_0^{+\infty}f(t)\sin(ut)\,dt.\end{aligned}\]
+\SubQ{1}{求 $f$ 的 Fourier 余弦变换。}
+\SubQ{2}{求 $f$ 的 Fourier 正弦变换。}
+\SubQ{3}{对 $x>0$，计算 $\displaystyle\int_0^{+\infty}\frac{\cos(xu)}{\beta^2+u^2}\,du$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.56（改写）}
+设 $f(t)=e^{-\beta t}$（$\beta>0$，$t>0$）。约定 Fourier 余弦变换 $C_f$ 与正弦变换 $S_f$ 为\[\begin{aligned}C_f(u)&=\sqrt{\frac2\pi}\int_0^{+\infty}f(t)\cos(ut)\,dt,\\S_f(u)&=\sqrt{\frac2\pi}\int_0^{+\infty}f(t)\sin(ut)\,dt.\end{aligned}\]
+\SubQ{1}{对 $x>0$，计算 $\displaystyle\int_0^{+\infty}\frac{u\sin(xu)}{\beta^2+u^2}\,du$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.57}
+解积分方程 $\displaystyle\int_0^{+\infty}g(u)\sin(xu)\,du=f(x)$（$x\ge0$），其中 $\displaystyle f(x)=\begin{cases}\frac\pi2\sin x,&0\le x\le\pi,\\0,&x>\pi.\end{cases}$
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.58（改写、校订）}
+设 $a_0,\ldots,a_n$ 为常数，$a_n\ne0$，$g$ 为已知函数。利用 Fourier 变换求常系数线性微分方程\[a_nf^{(n)}(t)+a_{n-1}f^{(n-1)}(t)+\cdots+a_1f'(t)+a_0f(t)=g(t)\]的解的表达式。约定 $\displaystyle\widehat v(\xi)=\frac1{2\pi}\int_{-\infty}^{+\infty}v(t)e^{-i\xi t}\,dt$；假定所用变换及反变换均成立，$f^{(k)}(t)\to0$（$t\to\pm\infty$，$0\le k<n$），且对所有实数 $\xi$ 都有 $\sum_{k=0}^n a_k(i\xi)^k\ne0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{17.59（校订）}
+设 $g,h$ 为已知函数。利用 Fourier 变换求下列积分方程的解的表达式：\[f(u)=g(u)+\frac1{2\pi}\int_{-\infty}^{+\infty}h(u-t)f(t)\,dt,\qquad u\in\mathbb R.\]约定 $\displaystyle\widehat v(\xi)=\frac1{2\pi}\int_{-\infty}^{+\infty}v(t)e^{-i\xi t}\,dt$。假定所涉及变换、反变换均成立，且 $1-\widehat h(\xi)\ne0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.60}
+用 Fourier 积分表示下列函数，并说明间断点处积分的值：
+\SubQ{1}{$\displaystyle f(x)=\begin{cases}\operatorname{sgn}x,&|x|\le1,\\0,&|x|>1.\end{cases}$}
+\SubQ{2}{$\displaystyle f(x)=\begin{cases}\sin x,&|x|\le\pi,\\0,&|x|>\pi.\end{cases}$}
+\SubQ{3}{$f(x)=e^{-a|x|}$，$a>0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.61}
+求下列积分方程的解：
+\SubQ{1}{$\displaystyle\int_0^{+\infty}f(t)\sin(xt)\,dt=e^{-x}$，$x>0$。}
+\SubQ{2}{$\displaystyle\int_0^{+\infty}f(t)\cos(xt)\,dt=\frac1{1+x^2}$，$x\ge0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.62}
+证明 $\displaystyle\frac2\pi\int_0^{+\infty}\frac{\sin^2t}{t^2}\cos(2xt)\,dt=\begin{cases}1-x,&0\le x\le1,\\0,&x>1.\end{cases}$
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{17.63}
+求 $F(u)=ue^{-\beta|u|}$（$\beta>0$）的 Fourier 反变换，采用约定 $\displaystyle f(x)=\int_{-\infty}^{+\infty}F(u)e^{iux}\,du$。
+\end{minipage}\par\vfill

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "high_risk_path_denylist",
+    "explicit_source_allowlist",
+    "approved_figure_references",
+    "path_traversal_rejection",
+    "actual_gitignore",
+    "all_payload_sha256_and_byte_roundtrip",
+    "complete_status_gate",
+    "root_git_untouched",
+    "all_git_blob_sha1_match"
+  ],
+  "blocked_path_cases": 14,
+  "packaged_files": 44,
+  "sample_preview_only": true,
+  "remote_writes_performed": false
+}

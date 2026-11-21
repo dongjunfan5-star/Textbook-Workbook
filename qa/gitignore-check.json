@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "method": "Git check-ignore --no-index with NUL-delimited paths in isolated scratch repository",
+  "checks": [
+    {
+      "path": "数学分析讲义/input/教材.pdf",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "数学分析讲义/input/.gitkeep",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "数学分析讲义/main.pdf",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "数学分析讲义/main.tex",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "数学分析教程/main.aux",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "数学分析讲义/data/curated.json",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "数学分析讲义/data/problems.json",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "数学分析讲义/data/ocr_raw/test.json",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "数学分析讲义/data/page_images/page.png",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "数学分析教程/figures/fig_1_1.png",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": "数学分析教程/qa/build-report.json",
+      "ignored": false,
+      "expected": false
+    },
+    {
+      "path": ".venv/Lib/package.py",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": ".tools/models.bin",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": ".env",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "id_ed25519",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "certificate.pfx",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "credentials.p12",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": ".ssh/id_custom",
+      "ignored": true,
+      "expected": true
+    },
+    {
+      "path": "secrets/token.txt",
+      "ignored": true,
+      "expected": true
+    }
+  ]
+}

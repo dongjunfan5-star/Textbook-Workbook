@@ -1,0 +1,511 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{5}\section{函数的积分}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.1（改写）}
+设 $f$ 在 $[a,b]$ 上连续且为正。对由 $y=f(x)$、$x$ 轴及直线 $x=a,x=b$ 围成的曲边梯形，从区间分割与矩形面积近似出发，写出其面积的极限表达式，并用定积分表示。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.2（改写）}
+物体沿数轴正向由 $a$ 移动到 $b$，所受力方向与运动方向相同，其大小为连续函数 $f(x)$。从分段近似与取极限出发，写出力所做的功的积分表达式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.3}
+一根杆位于区间 $[a,b]$，其连续线密度为 $\rho(x)$。从分割、近似和取极限出发，导出整根杆的质量的积分表达式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.4}
+设 $f,g$ 均在 $[a,b]$ 上可积，$a<b$。由积分定义证明：
+\SubQ{1}{若 $f\ge0$，则 $\int_a^b f(x)\,dx\ge0$。}
+\SubQ{2}{若 $f\le g$，则 $\int_a^b f(x)\,dx\le\int_a^b g(x)\,dx$。}
+\SubQ{3}{$f\pm g$ 可积，且 $\int_a^b(f\pm g)(x)\,dx=\int_a^b f(x)\,dx\pm\int_a^b g(x)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.5}
+设 $f,g$ 均在 $[a,b]$ 上可积，$a<b$。由积分定义证明：
+\SubQ{1}{对任意常数 $c$，$cf$ 可积，且 $\int_a^b cf(x)\,dx=c\int_a^b f(x)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.6}
+由积分定义证明 $\int_a^b1\,dx=b-a$，其中 $a<b$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.7}
+由积分定义计算 $\int_a^b x\,dx$，其中 $a<b$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.8（改写）}
+计算 $\int_0^1 x^2\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.9（改写）}
+计算下列定积分：
+\SubQ{1}{$\int_0^\pi\sin x\,dx$。}
+\SubQ{2}{$\int_a^b\sin x\,dx$。}
+\SubQ{3}{$\int_a^b\cos x\,dx$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.10}
+计算 $\displaystyle\lim_{n\to\infty}\left[\left(1+\frac1n\right)\left(1+\frac2n\right)\cdots\left(1+\frac nn\right)\right]^{1/n}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.11}
+利用几何意义计算（$a<b$）：
+\SubQ{1}{$\int_a^b\sqrt{(x-a)(b-x)}\,dx$。}
+\SubQ{2}{$\int_a^b|x-(a+b)/2|\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.12}
+利用积分定义计算 $\int_a^b x^2\,dx$（$a<b$）。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.13}
+利用积分定义计算 $\int_a^b dx/x^2$（$b>a>0$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.14}
+利用 Newton--Leibniz 公式计算：
+\SubQ{1}{$\int_{-1}^1\dfrac{x^2}{1+x^2}\,dx$。}
+\SubQ{2}{$\int_0^1\dfrac{x^n}{1+x}\,dx$，$n\in\mathbb N^*$。}
+\SubQ{3}{$\int_0^{\pi/2}\dfrac{dx}{1+\varepsilon\cos x}$，$0\le\varepsilon<1$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.15}
+求下列极限：
+\SubQ{1}{$\lim_{n\to\infty}\int_0^1 x^n/(1+x)\,dx$。}
+\SubQ{2}{$\lim_{n\to\infty}\int_a^b e^{-nx^2}\,dx$，$0<a<b$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.16}
+证明下列不等式：
+\SubQ{1}{$\int_0^{10}\dfrac{x}{x^3+16}\,dx\le\dfrac56$。}
+\SubQ{2}{$\dfrac2{\sqrt[4]e}\le\int_0^2 e^{x^2-x}\,dx\le2e^2$。}
+\SubQ{3}{$\int_0^{2\pi}|a\cos x+b\sin x|\,dx\le2\pi\sqrt{a^2+b^2}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.17}
+证明下列不等式：
+\SubQ{1}{$\int_0^1 x^m(1-x)^n\,dx\le\dfrac{m^m n^n}{(m+n)^{m+n}}$，$m,n\in\mathbb N^*$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.18}
+求下列极限：
+\SubQ{1}{$\lim_{n\to\infty}\dfrac1n\sum_{k=1}^n\sin\dfrac{k\pi}n$。}
+\SubQ{2}{$\lim_{n\to\infty}\sum_{k=1}^n\dfrac1{n+k}$。}
+\SubQ{3}{$\lim_{n\to\infty}\sum_{k=1}^n\dfrac n{n^2+k^2}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.19}
+求下列极限：
+\SubQ{1}{$\lim_{n\to\infty}\sum_{k=1}^n\dfrac{k^p}{n^{p+1}}$，$p>0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.20}
+设 $a,b>0$，$f\in C[-a,b]$ 且 $f>0$，$\int_{-a}^b xf(x)\,dx=0$。证明 $\int_{-a}^b x^2f(x)\,dx\le ab\int_{-a}^b f(x)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.21}
+证明：
+\SubQ{1}{$\int_0^1\dfrac{(1+x)^4}{1+x^2}\,dx=\dfrac{22}3-\pi$。}
+\SubQ{2}{$\int_0^1\dfrac{x^4(1-x)^4}{1+x^2}\,dx=\dfrac{22}7-\pi$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.22}
+设凸函数 $f$ 在 $[a,b]$ 上可积。证明 $(b-a)f((a+b)/2)\le\int_a^b f(x)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.23}
+设 $n\in\mathbb N^*$。证明 $\sum_{k=1}^n1/\sqrt{2k+5n}<\sqrt{7n}-\sqrt{5n}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.24（改写）}
+设 $f(x)=1/\sqrt{x}$（$0<x\le1$），在 $x=0$ 处任意赋一个有限值。判断 $f$ 在 $[0,1]$ 上是否 Riemann 可积，并说明理由。这里讨论通常的 Riemann 积分。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.25}
+设 $f,g\in C[a,b]$，$f\le g$ 且 $\int_a^b f=\int_a^b g$。证明 $f=g$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.26}
+设 $f\in C[a,b]$，对任意 $g\in C[a,b]$ 均有 $\int_a^b f(x)g(x)\,dx=0$。证明 $f=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.27}
+判断下列积分的符号：
+\SubQ{1}{$\int_0^\pi(\sin x)/x\,dx$，被积函数在零点连续延拓。}
+\SubQ{2}{$\int_{1/2}^1 e^x\ln^3x\,dx$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.28}
+比较每组中两个积分的大小：
+\SubQ{1}{$\int_0^1e^{-x}\,dx$ 与 $\int_0^1e^{-x^2}\,dx$。}
+\SubQ{2}{$\int_{-1}^0e^{-x^2}\,dx$ 与 $\int_0^1e^{-x^2}\,dx$。}
+\SubQ{3}{$\int_0^1\dfrac{\sin x}{1+x}\,dx$ 与 $\int_0^1\dfrac{\sin x}{1+x^2}\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.29}
+比较每组中两个积分的大小：
+\SubQ{1}{$\int_0^{\pi/2}\dfrac{\sin x}x\,dx$ 与 $\int_0^{\pi/2}\dfrac{\sin^2x}{x^2}\,dx$，零点连续延拓。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.30}
+设 $I=\int_0^{\pi/2}e^{-R\sin x}\,dx$，$R\in\mathbb R$。证明：$R>0$ 时 $I<\pi(1-e^{-R})/(2R)$；$R<0$ 时 $I>\pi(1-e^{-R})/(2R)$；$R=0$ 时 $I=\pi/2$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.31}
+设 $n$ 是非负整数。证明 $\int_0^\pi\dfrac{\sin((n+1/2)x)}{\sin(x/2)}\,dx=\pi$，其中零点按连续延拓理解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.32}
+利用恒等式 $\int_0^\pi\dfrac{\sin((m+1/2)x)}{\sin(x/2)}\,dx=\pi$（$m$ 为非负整数），证明 $\int_0^\pi\left(\dfrac{\sin(nx/2)}{\sin(x/2)}\right)^2dx=n\pi$，其中 $n$ 为非负整数，零点按连续延拓理解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.33}
+设 $f$ 在 $[0,1]$ 上连续且为正。证明 $(\int_0^1 f(x)\,dx)(\int_0^1 1/f(x)\,dx)\ge1$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.34}
+设 $f\in C[0,\pi]$，$\int_0^\pi f(x)\cos x\,dx=\int_0^\pi f(x)\sin x\,dx=0$。证明 $f$ 在 $(0,\pi)$ 内至少有两个零点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.35}
+设 $f,g\in C[a,b]$。证明积分的 Cauchy--Schwarz 不等式：\[(\int_a^b f(x)g(x)\,dx)^2\le(\int_a^b f^2(x)\,dx)(\int_a^b g^2(x)\,dx)\text{。}\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.36}
+设 $n\in\mathbb N^*$。证明 $\int_{-1}^1(1-x^2)^n\,dx\ge4/(3\sqrt n)$，并证明 $n\ge2$ 时严格不等式成立。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.37}
+设 $f\in C[a,b]$，且 $\int_a^b x^i f(x)\,dx=0$（$i=0,1,\ldots,n$）。证明 $f$ 在 $(a,b)$ 内至少有 $n+1$ 个零点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.38}
+设 $f$ 在 $[a,b]$ 上连续且非负，$M=\max_{[a,b]}f$。证明 $\lim_{n\to\infty}(\int_a^b f^n(x)\,dx)^{1/n}=M$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.39}
+设 $f$ 在 $[a,b]$ 上连续、非负且严格递增。对 $p>0$，以 $x_p$ 表示满足 $f(x_p)^p=(b-a)^{-1}\int_a^b f(x)^p\,dx$ 的唯一点。证明 $p\to+\infty$ 时 $x_p\to b$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.40}
+设 $f$ 是 $n$ 次多项式，且 $\int_0^1f(x)x^k\,dx=0$（$k=1,\ldots,n$）。证明 \[\int_0^1f^2(x)\,dx=(n+1)^2(\int_0^1 f(x)\,dx)^2\text{。}\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.41}
+设 $G(x)=\int_{x^2}^{x^3}\sqrt{1+t^2}\,dt$，求 $G^{\prime}(x)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.42}
+设 $f$ 在 $[a,b]$ 上连续可导，$f(a)=0$。证明 $\int_a^b f^2(x)\,dx\le\frac12(b-a)^2\int_a^b(f^{\prime}(x))^2\,dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.43}
+设 $f$ 在 $[0,1]$ 上二阶连续可导，$f(0)=f(1)=0$ 且 $0<x<1$ 时 $f(x)\ne0$。证明 $\int_0^1|f^{\prime\prime}(x)/f(x)|\,dx\ge4$；若积分发散，则按 $+\infty$ 理解。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.44}
+利用 Newton--Leibniz 公式计算：
+\SubQ{1}{$\int_0^{\pi/2}(a\cos x+b\sin x)\,dx$，$a,b$ 为常数。}
+\SubQ{2}{$\int_0^{\pi/2}\cos(mx)\sin(nx)\,dx$，$m,n$ 为整数。}
+\SubQ{3}{$\int_1^4(x+1)/\sqrt x\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.45}
+利用 Newton--Leibniz 公式计算：
+\SubQ{1}{$\int_0^1x(2-x^2)^{12}\,dx$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.46}
+设 $f$ 在 $[0,+\infty)$ 上连续且为正。证明 $\varphi(x)=\dfrac{\int_0^x tf(t)\,dt}{\int_0^x f(t)\,dt}$ 在 $(0,+\infty)$ 上严格递增。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.47}
+设连续函数 $f:(0,+\infty)\to\mathbb R$ 满足 $\int_0^x f(t)\,dt=\frac12xf(x)$（$x>0$）。证明 $f(x)=cx$，其中 $c$ 为常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.48}
+设 $f:(0,+\infty)\to\mathbb R$ 连续，且对每个固定的 $b>0$，积分 $\int_a^{ab}f(x)\,dx$ 与 $a>0$ 无关。证明 $f(x)=c/x$，其中 $c$ 为常数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.49}
+设 $f$ 在 $[a,b]$ 上连续可导。证明 $\max_{a\le x\le b}|f(x)|\le\dfrac1{b-a}|\int_a^b f(x)\,dx|+\int_a^b|f^{\prime}(x)|\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.50}
+求一切连续函数 $f:(0,+\infty)\to\mathbb R$，使对每个 $x>0$ 有 $\int_x^{x^2}f(t)\,dt=\int_1^x f(t)\,dt$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.51}
+设 $f\in C[0,+\infty)$ 且 $\lim_{x\to+\infty}f(x)=a$。证明 $\lim_{x\to+\infty}\frac1x\int_0^x f(t)\,dt=a$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.52}
+设 $f$ 在 $[a,b]$ 上连续且递增。证明 $\int_a^b xf(x)\,dx\ge\frac{a+b}2\int_a^b f(x)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.53}
+设 $b>a>0$。证明 $\ln(b/a)>2(b-a)/(a+b)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.54}
+设 $f$ 在 $[0,1]$ 上一阶可导，$f(0)=0$，$0\le f^{\prime}(x)\le1$。证明 $\int_0^1f^3(x)\,dx\le(\int_0^1 f(x)\,dx)^2$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.55}
+设 $f$ 连续可导，$f(0)=0$，$f(1)=1$。证明 $\int_0^1|f(x)-f^{\prime}(x)|\,dx\ge1/e$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.56}
+设 $f$ 连续可导，$f(1)=1$，且 $x\ge1$ 时 $f^{\prime}(x)=1/(x^2+f^2(x))$。证明 $\lim_{x\to+\infty}f(x)$ 存在且不大于 $1+\pi/4$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.57}
+计算 $\int_0^\pi x\cos x\,dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.58}
+设 $m$ 为非负整数，计算下列积分：
+\SubQ{1}{$\int_0^{\pi/2}\cos^m x\,dx$。}
+\SubQ{2}{$\int_0^{\pi/2}\sin^m x\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.59}
+设 $m\in\mathbb N^*$。证明 $\int_0^{\pi/2}\cos^m x\,dx=\int_0^{\pi/2}\sin^m x\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.60}
+设 $f$ 为以 $T>0$ 为周期的连续函数。证明对任意 $a\in\mathbb R$，$\int_a^{a+T}f(x)\,dx=\int_0^T f(x)\,dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.61}
+计算 $\int_0^1\sqrt{1-x^2}\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.62}
+计算 $\int_0^{\pi/4}dx/\cos x$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.63}
+设 $I$ 为开区间，$f\in C(I)$，$a,b\in I$ 且 $a<b$。证明 $\lim_{h\to0}\frac1h\int_a^b(f(x+h)-f(x))\,dx=f(b)-f(a)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.64}
+计算下列定积分：
+\SubQ{1}{$\int_0^\pi\sin^3x\,dx$。}
+\SubQ{2}{$\int_{-\pi}^\pi x^2\cos x\,dx$。}
+\SubQ{3}{$\int_0^3\dfrac{x}{1+\sqrt{1+x}}\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.65}
+计算下列定积分：
+\SubQ{1}{$\int_0^{\sqrt3}x\arctan x\,dx$。}
+\SubQ{2}{$\int_{-1}^0(2x+1)\sqrt{1-x-x^2}\,dx$。}
+\SubQ{3}{$\int_{1/e}^e|\ln x|\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.66}
+计算下列定积分：
+\SubQ{1}{$\int_0^5\lfloor x\rfloor\sin(\pi x/5)\,dx$。}
+\SubQ{2}{$\int_0^a x^2\sqrt{a^2-x^2}\,dx$。}
+\SubQ{3}{$\int_0^{\ln2}\sqrt{e^x-1}\,dx$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.67}
+计算下列定积分：
+\SubQ{1}{$\int_0^1x^n\ln x\,dx$，$n\in\mathbb N^*$。}
+\SubQ{2}{$\int_0^a\ln(x+\sqrt{a^2+x^2})\,dx$，$a>0$。}
+\SubQ{3}{$\int_0^{\pi/2}\dfrac{\cos x\sin x}{a^2\sin^2x+b^2\cos^2x}\,dx$，$ab\ne0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.68}
+设 $f$ 为 $\mathbb R$ 上的连续偶函数。证明对任意 $a>0$，$\int_{-a}^a f(x)\,dx=2\int_0^a f(x)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.69}
+设 $f$ 为 $\mathbb R$ 上的连续奇函数。证明对任意 $a>0$，$\int_{-a}^a f(x)\,dx=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.70}
+证明 $\lim_{n\to\infty}\int_0^{\pi/2}\sin^n x\,dx=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.71}
+证明：
+\SubQ{1}{$\lim_{n\to\infty}\dfrac{(2n)!!}{(2n+1)!!}=0$。}
+\SubQ{2}{$\lim_{n\to\infty}\dfrac{(2n-1)!!}{(2n)!!}=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.72}
+设 $f$ 连续。证明：
+\SubQ{1}{$\int_0^{\pi/2}f(\cos x)\,dx=\int_0^{\pi/2}f(\sin x)\,dx$。}
+\SubQ{2}{$\int_0^\pi xf(\sin x)\,dx=\frac\pi2\int_0^\pi f(\sin x)\,dx$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.73}
+设 $f$ 在 $[0,2]$ 上连续可导，$f(0)=f(2)=1$，$|f^{\prime}|\le1$。证明 $1\le\int_0^2f(x)\,dx\le3$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.74}
+设 $f$ 在 $[-1,1]$ 上可导，$M=\sup_{[-1,1]}|f^{\prime}|$。若存在 $a\in(0,1)$ 使 $\int_{-a}^a f(x)\,dx=0$，证明 $|\int_{-1}^1f(x)\,dx|\le M(1-a^2)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.75}
+证明 $\int_0^{2\pi}(\int_x^{2\pi}(\sin t)/t\,dt)\,dx=0$，其中零点按连续延拓理解。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.76（校订）}
+设 $f\in C[0,+\infty)$。证明对任意 $a>0$，$\int_0^a(\int_0^x f(t)\,dt)\,dx=\int_0^a f(x)(a-x)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.77}
+设 $f\in C[-1,1]$。证明 $\lim_{h\to0^+}\int_{-1}^1\dfrac h{h^2+x^2}f(x)\,dx=\pi f(0)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.78}
+设 $f$ 在 $[a,b]$ 上连续可导。证明：
+\SubQ{1}{$\lim_{\lambda\to+\infty}\int_a^b f(x)\cos(\lambda x)\,dx=0$。}
+\SubQ{2}{$\lim_{\lambda\to+\infty}\int_a^b f(x)\sin(\lambda x)\,dx=0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.79}
+在 $[-1,+\infty)$ 上定义 $f(x)=\int_{-1}^x\dfrac{e^{1/t}}{t^2(1+e^{1/t})^2}\,dt$，被积函数在 $t=0$ 处按连续延拓理解。求 $f$ 的简单表达式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.80}
+计算下列积分：
+\SubQ{1}{$\int_0^{\pi/2}\dfrac{\cos^2x}{\cos x+\sin x}\,dx$。}
+\SubQ{2}{$\int_0^{\pi/2}\dfrac{\sin^2x}{\cos x+\sin x}\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.81}
+设 $f$ 为周期为 $T>0$ 的连续函数。证明 $\lim_{x\to+\infty}\frac1x\int_0^x f(t)\,dt=\frac1T\int_0^T f(t)\,dt$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.82}
+设 $I_n=\int_0^{\pi/2}\dfrac{\sin^2(nt)}{\sin t}\,dt$（$n\in\mathbb N^*$，零点连续延拓）。求 $\lim_{n\to\infty}I_n/\ln n$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.83}
+令 $F(m,n)=\sum_{k=0}^n\binom nk\dfrac{(-1)^k}{m+k+1}$，$m,n\in\mathbb N^*$。
+\SubQ{1}{证明 $F(m,n)=F(n,m)$。}
+\SubQ{2}{计算 $F(m,n)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.84}
+设 $a,b,n$ 为正整数，$f(x)=x^n(a-bx)^n/n!$。
+\SubQ{1}{证明 $f(a/b-x)=f(x)$。}
+\SubQ{2}{证明在 $x=0$ 和 $x=a/b$ 处，$f^{(k)}(x)$（$0\le k\le2n$）均为整数。}
+\SubQ{3}{假设 $\pi=a/b$，其中 $a,b$ 为既约正整数。证明 $\int_0^\pi f(x)\sin x\,dx$ 为整数，并由此证明 $\pi$ 不可能为有理数。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.85}
+设 $f\in C[0,1]$，$\int_0^1f(x)x^k\,dx=0$（$k=0,1,\ldots,n-1$），$\int_0^1f(x)x^n\,dx=1$。证明存在 $\xi\in(0,1)$，使 $|f(\xi)|\ge2^n(n+1)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.86}
+设 $f$ 在 $[0,1]$ 上二阶连续可导，$f(0)=f(1)=f^{\prime}(0)=0$，$f^{\prime}(1)=1$。证明 $\int_0^1(f^{\prime\prime}(x))^2\,dx\ge4$，并找出取等号的条件。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.87（改写）}
+在 $[0,1]$ 上定义 Dirichlet 函数 $D(x)=1$（$x\in\mathbb Q$），$D(x)=0$（$x\notin\mathbb Q$）。求 $D$ 的 Darboux 下积分与上积分，并判断它是否 Riemann 可积。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.88}
+若存在分割 $a=x_0<x_1<\cdots<x_n=b$，使函数 $p$ 在每个 $(x_{i-1},x_i)$ 上为常数，则称 $p$ 为阶梯函数。设 $f$ 在 $[a,b]$ 上 Riemann 可积。证明对任意 $\varepsilon>0$，存在阶梯函数 $p,q$，使 $p\le f\le q$ 且 $\int_a^b(q-p)(x)\,dx<\varepsilon$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.89}
+设 $f$ 在 $[a,b]$ 上 Riemann 可积。证明对任意 $\varepsilon>0$，存在连续函数 $p,q$，使 $p\le f\le q$ 且 $\int_a^b(q-p)(x)\,dx<\varepsilon$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.90}
+设 $f$ 在每个有限区间上可积，且 $\lim_{x\to+\infty}f(x)=l$。证明 $\lim_{x\to+\infty}\frac1x\int_0^x f(t)\,dt=l$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.91}
+设 $f$ 在 $[a,b]$ 上可积，且每个非退化子区间 $\Delta\subset[a,b]$ 都满足 $\sup_\Delta f\ge\sigma$，其中 $\sigma$ 为常数。证明 $\int_a^b f(x)\,dx\ge\sigma(b-a)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.92}
+设 $f$ 在 $[0,1]$ 上可积，$0<m\le f(x)\le M$。证明 \[(\int_0^1f(x)\,dx)(\int_0^1dx/f(x))\le(m+M)^2/(4mM)\text{。}\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.93}
+设 $f\in C[-1,1]$，且对每个连续偶函数 $g$，$\int_{-1}^1 f(x)g(x)\,dx=0$。证明 $f$ 是奇函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.94}
+设 $x(t)$ 在 $[0,a]$ 上连续，$M,k>0$，且 $|x(t)|\le M+k\int_0^t|x(\tau)|\,d\tau$。证明 $|x(t)|\le Me^{kt}$（$0\le t\le a$）。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.95}
+证明：若 $A\subset\mathbb R$ 至多可数，则 $A$ 是零测集。这里零测集指对任意 $\varepsilon>0$，能被总长度不超过 $\varepsilon$ 的至多可数个开区间覆盖的集合。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.96}
+证明任何长度非零的区间都不是零测集。这里零测集指对任意 $\varepsilon>0$，能被总长度不超过 $\varepsilon$ 的至多可数个开区间覆盖的集合。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.97（改写）}
+在 $[0,1]$ 上定义 $f(x)=1$（$x\in\mathbb Q$），$f(x)=-1$（$x\notin\mathbb Q$）。分别判断 $f$ 与 $|f|$ 是否 Riemann 可积，并说明理由。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.98（改写）}
+定义 Riemann 函数：当 $x=p/q$ 为既约分数（$q>0$）时 $R(x)=1/q$，当 $x$ 无理时 $R(x)=0$。设 $a<b$，完成下列问题：
+\SubQ{1}{证明 $R$ 在 $[a,b]$ 上 Riemann 可积。}
+\SubQ{2}{计算 $\int_a^b R(x)\,dx$。}
+\SubQ{3}{判断 $R$ 在 $(a,b)$ 上是否存在原函数，并说明理由。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.99（改写）}
+设 $F(x)=x^2\sin(1/x^2)$（$x\ne0$），$F(0)=0$。
+\SubQ{1}{求 $F^{\prime}(x)$，包括 $x=0$ 的情形。}
+\SubQ{2}{令 $f=F^{\prime}$。判断 $f$ 在 $\mathbb R$ 上是否存在原函数，以及 $f$ 在 $[0,1]$ 上是否 Riemann 可积，并说明理由。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.100}
+设 $f,g$ 在 $[a,b]$ 上可积。证明 $\max\{f(x),g(x)\}$ 与 $\min\{f(x),g(x)\}$ 均在 $[a,b]$ 上可积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.101}
+设 $f\in C[a,b]$，$\varphi$ 在 $[c,d]$ 上可积，且 $\varphi([c,d])\subset[a,b]$。证明 $f\circ\varphi$ 在 $[c,d]$ 上可积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.102}
+举例说明：即使 $f$ 在 $[a,b]$ 上可积，$\varphi$ 在 $[c,d]$ 上可积，且 $\varphi([c,d])\subset[a,b]$，$f\circ\varphi$ 也未必可积。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.103}
+设 $f$ 在 $[a,b]$ 上可积。若对每个非退化区间 $(\alpha,\beta)\subset[a,b]$，都存在 $x_1,x_2\in(\alpha,\beta)$ 使 $f(x_1)f(x_2)\le0$，求 $\int_a^b f(x)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.104}
+设 $0<\alpha\le1$，$f_\alpha(x)=\lfloor\alpha/x\rfloor-\alpha\lfloor1/x\rfloor$（$0<x\le1$），并任意定义其在零点的值。证明 $\int_0^1 f_\alpha(x)\,dx=\alpha\ln\alpha$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.105}
+设 $f$ 在 $[a,b]$ 上非负且可积。证明 $\int_a^b f(x)\,dx=0$ 当且仅当 $f$ 在其每个连续点处均取零值。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.106}
+设 $a>0$，$p\in\mathbb R$。证明反常积分 $\int_a^{+\infty}dx/x^p$ 在 $p>1$ 时收敛，在 $p\le1$ 时发散。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.107}
+设 $a>0$，$b\in\mathbb R$。计算下列反常积分：
+\SubQ{1}{$\int_0^{+\infty}e^{-ax}\cos(bx)\,dx$。}
+\SubQ{2}{$\int_0^{+\infty}e^{-ax}\sin(bx)\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.108}
+计算 $\int_0^{+\infty}dx/(a^2+x^2)^{3/2}$，其中 $a\ne0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.109（改写）}
+计算瑕积分 $\displaystyle\int_0^1\frac{dx}{\sqrt{x}}$，并说明它与通常 Riemann 积分的区别。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.110}
+设 $a>0$，$p\in\mathbb R$。证明瑕积分 $\int_0^a dx/x^p$ 在 $p<1$ 时收敛，在 $p\ge1$ 时发散。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.111}
+计算瑕积分 $\int_0^1\ln x\,dx$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.112}
+设 $a<b$。计算瑕积分 $\int_a^b dx/\sqrt{(x-a)(b-x)}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{6.113}
+计算瑕积分 $\int_0^{\pi/2}\ln(\sin x)\,dx$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.114}
+计算下列反常积分：
+\SubQ{1}{$\int_2^{+\infty}\dfrac{dx}{x\ln^p x}$，$p>1$。}
+\SubQ{2}{$\int_0^{+\infty}e^{-\sqrt x}\,dx$。}
+\SubQ{3}{$\int_{-\infty}^0xe^x\,dx$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.115}
+计算下列反常积分：
+\SubQ{1}{$\int_0^{+\infty}x^5e^{-x^2}\,dx$。}
+\SubQ{2}{$\int_1^{+\infty}\dfrac{dx}{x(1+x)}$。}
+\SubQ{3}{$\int_0^{+\infty}\dfrac{dx}{1+x^3}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.116}
+计算下列反常积分：
+\SubQ{1}{$\int_{-\infty}^{+\infty}\dfrac{dx}{x^2+2x+2}$。}
+\SubQ{2}{$\int_{-\infty}^{+\infty}\dfrac{dx}{(x^2+x+1)^2}$。}
+\SubQ{3}{$\int_0^{+\infty}x^{n-1}e^{-x}\,dx$，$n\in\mathbb N^*$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.117}
+计算下列反常积分：
+\SubQ{1}{$\int_0^{+\infty}\dfrac{dx}{(a^2+x^2)^n}$，$n\in\mathbb N^*$、$a\ne0$。}
+\SubQ{2}{$\int_0^{+\infty}x^{2n+1}e^{-x^2}\,dx$，$n\in\mathbb N^*$。}
+\SubQ{3}{$\int_0^{+\infty}\dfrac{1+x^2}{1+x^4}\,dx$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.118}
+设 $f$ 在 $[0,+\infty)$ 上连续且非负，且 $\int_0^{+\infty}f(x)\,dx=0$。证明 $f=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.119}
+计算下列瑕积分：
+\SubQ{1}{$\int_{-1}^1\dfrac{dx}{\sqrt{1-x^2}}$。}
+\SubQ{2}{$\int_{-1}^1\dfrac{\arcsin x}{\sqrt{1-x^2}}\,dx$。}
+\SubQ{3}{$\int_0^1\dfrac{dx}{(2-x)\sqrt{1-x}}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.120}
+计算下列瑕积分：
+\SubQ{1}{$\int_{-1}^1\dfrac{dx}{(2-x^2)\sqrt{1-x^2}}$。}
+\SubQ{2}{$\int_0^1\dfrac{\arcsin\sqrt x}{\sqrt{x(1-x)}}\,dx$。}
+\SubQ{3}{$\int_0^1\ln^n x\,dx$，$n\in\mathbb N^*$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.121}
+计算下列瑕积分：
+\SubQ{1}{$\int_0^1\dfrac{(1-x)^n}{\sqrt x}\,dx$，$n\in\mathbb N^*$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.122}
+计算比值 $\dfrac{\int_0^1 dt/\sqrt{1-t^4}}{\int_0^1 dt/\sqrt{1+t^4}}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.123}
+证明 $\int_0^x e^{xt-t^2}\,dt=e^{x^2/4}\int_0^x e^{-t^2/4}\,dt$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.124}
+利用 $\int_0^{\pi/2}\ln(\sin x)\,dx=-\frac\pi2\ln2$ 计算：
+\SubQ{1}{$\int_0^{\pi/2}x\cot x\,dx$。}
+\SubQ{2}{$\int_0^1\dfrac{\ln x}{\sqrt{1-x^2}}\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.125}
+用梯形法计算下列积分的近似值（自行选择分割数并说明）：
+\SubQ{1}{$\int_0^\pi(\sin x)/x\,dx$，零点按连续延拓理解。}
+\SubQ{2}{$\int_0^{100}\dfrac{e^{-x}}{x+100}\,dx$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{6.126}
+用梯形法、取 $n=10$ 计算 $\int_0^1dx/(1+x^2)$ 并估计误差，再由 $\pi=4\int_0^1dx/(1+x^2)$ 求 $\pi$ 的近似值。
+\end{minipage}\par\vfill

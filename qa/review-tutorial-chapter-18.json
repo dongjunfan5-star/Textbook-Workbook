@@ -1,0 +1,512 @@
+[
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 352,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "章首 Gamma、B 积分用作反常积分概念的背景说明，敛散性已在第16章 p286–287 的例题收录；本页没有新增所求。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 353,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "常义含参积分连续性、交换极限与积分的通论，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 354,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "常义含参积分求导与交换积分次序通论，无独立题；OCR 混淆 a 和 α 的几处属于证明，不转录。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 355,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 356,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "续完355页原例中 |r|<1、=1、>1 三类求值，印证题库参数取全体实数。下半积分限随参数变动通论没有新增题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 357,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "讨论两端随参数变化的积分及一般求导公式，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 358,
+    "status": "reviewed",
+    "units_count": 3,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 359,
+    "status": "reviewed",
+    "units_count": 7,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 360,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 361,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "一般一致收敛下连续性和换极限积分的证明，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 362,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义参数积分限制及换序证明，尚无题目。尾积分上确界的读者练习始于363页。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 363,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 364,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 365,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 366,
+    "status": "reviewed",
+    "units_count": 3,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 367,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 368,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 369,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 370,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 371,
+    "status": "reviewed",
+    "units_count": 8,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 372,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 373,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "确认上一页例题公式为 arctan(x)/[x^u(2+x³)]；定义域检查是紧接原题开始的分析，已一并写入。其余 Dini 定理属通论。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 374,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Dini 定理证明与交换积分一般结论。正文指向382页两项正式反例，本页不另起题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 375,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 376,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "两个无穷积分换序定理和证明，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 377,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 378,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 379,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Fresnel 积分证明采用衰减因子，辅助积分属于原例解法，没有新增题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 380,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 381,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 382,
+    "status": "reviewed",
+    "units_count": 9,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 383,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 384,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "明确援引第16章已有Γ、B 定义域例题；本页其余连续、可微、对数凸与递推证明均属已证明的正文。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 385,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答、续题或已在正式练习收录的重复任务，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 386,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Bohr–Mollerup 刻画证明和 Γ 的 Euler 极限公式。极限公式在400页作为正式题已知条件使用，正文没有额外提问。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 387,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Γ 极限公式全域证明、B 递推和 Γ–B 关系证明，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 388,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 389,
+    "status": "reviewed",
+    "units_count": 3,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 390,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 391,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 392,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "完成上页 tan 积分，后半进入 Stirling 公式及一般引理证明，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 393,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Stirling 引理通用推导，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 394,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Stirling 公式用的一般引理及直接推导，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 395,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Stirling 公式续证，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 396,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 397,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 398,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "确认球面为原点、半径 a 且方程 x₁²+⋯+x_n²=a²，曲面积分需 n≥2；这是397页球面题的补全，未另起题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 399,
+    "status": "reviewed",
+    "units_count": 9,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "page_number": 400,
+    "status": "reviewed",
+    "units_count": 5,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  }
+]

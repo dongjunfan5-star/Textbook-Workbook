@@ -1,0 +1,676 @@
+{
+  "status": "passed",
+  "scope": "source_image_coverage_precheck_only",
+  "project": "数学分析教程",
+  "chapter": 10,
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "ocr_crosscheck_status": "verified",
+  "curated_before_sha256": "9437950faae91aa440fc196539a32ab1ec26605c18b60b44ee6af04d3cbd2064",
+  "curated_sha256": "7658abb800cca7a61adb5c613991b308a4a42e8d48157e08f6622473898dc0e0",
+  "source_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "source_units": 98,
+  "final_problems": 104,
+  "added_units": [
+    {
+      "page_number": 24,
+      "stem_latex": "设 $B=([0,1]\\cap\\mathbb Q)^2$，并令 $f:B\\to\\mathbb R$ 恒等于零。将 $f$ 在 $B$ 外延拓为零，按此延拓定义 $f$ 在 $B$ 上的 Riemann 积分。证明 $f$ 在 $B$ 上可积，并求 $\\partial B$，说明 $f$ 可积并不要求 $B$ 的边界为 Lebesgue 零测集。"
+    },
+    {
+      "page_number": 58,
+      "stem_latex": "设 $n\\ge2$。考虑 $n$ 维球坐标变换\\[x_j=r\\left(\\prod_{k=1}^{j-1}\\sin\\theta_k\\right)\\cos\\theta_j\\quad(1\\le j\\le n-1),\\qquad x_n=r\\prod_{k=1}^{n-1}\\sin\\theta_k,\\]其中空积为 $1$，$r>0$，$0<\\theta_1,\\ldots,\\theta_{n-2}<\\pi$，$0<\\theta_{n-1}<2\\pi$。计算 Jacobi 行列式 $\\dfrac{\\partial(x_1,\\ldots,x_n)}{\\partial(r,\\theta_1,\\ldots,\\theta_{n-1})}$。"
+    },
+    {
+      "page_number": 21,
+      "stem_latex": "设 $p\\ge1$。已知对 $[a,b]\\times[c,d]$ 上的非负连续函数 $F$，积分形式的 Minkowski 不等式为\\[\\left\\|\\int_c^d F(\\cdot,y)\\,dy\\right\\|_p\\le \\int_c^d \\big\\|F(\\cdot,y)\\big\\|_p\\,dy,\\qquad \\|u\\|_p=\\left(\\int_a^b |u(x)|^p\\,dx\\right)^{1/p}.\\]由此证明：若 $h,g$ 在 $[a,b]$ 上非负连续，则 $\\|h+g\\|_p\\le \\|h\\|_p+\\|g\\|_p$。",
+      "reason": "正文中的计算应用以独立问题收录；待22页OCR。"
+    }
+  ],
+  "page_results": [
+    {
+      "page_number": 1,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0001.png",
+      "image_sha256": "3a6b00d6efa8fc04428e0905a80178613063efc370fd749efe88a1eb4a4fea39",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 2,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0002.png",
+      "image_sha256": "ff854322cded25336d62094ee3c0b4f449bc0531f8818f40b8b4c34b44d8cb19",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 3,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0003.png",
+      "image_sha256": "3674505fe1d4f9514efbd7f1bc83fc2a05d994acd73b3b7935d4743a56e031e5",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 4,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0004.png",
+      "image_sha256": "fd3a54cd05b002498a20b1f150094d7578c8098268b422c62e4cbde5e7f9ef30",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 5,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0005.png",
+      "image_sha256": "533547f2cacc92ea603d45e304b70fb2939cbd757422634bda2cbab762228a7d",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 6,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0006.png",
+      "image_sha256": "13adbc3ed286fceeba5e2f4e6a18393b58a4edb8c5c15f47895c5f1c630973de",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 7,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0007.png",
+      "image_sha256": "4e82b83c0965a3600cc32ba72ee37fb8c0380a1587cbcc663104fd9e735521ad",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 8,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0008.png",
+      "image_sha256": "b8dda0d0aa09068762484fdf025db3899fca7d1550f53808f21f8e9af7ba25ea",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 9,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0009.png",
+      "image_sha256": "4ff65f2b6bc8416086e00dc61bcf31b878c5744b1dc513a7ef1a785f48bc970c",
+      "units_count": 5,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 10,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0010.png",
+      "image_sha256": "d84a58850b6b5b5676ec98d62aa2999b4598ad265d3497ed72df2162a0f30add",
+      "units_count": 1,
+      "notes": "有理点集闭包反例与物理15页正式练习3同一对象/结论，保留正式练习；本页参数曲线例已收。"
+    },
+    {
+      "page_number": 11,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0011.png",
+      "image_sha256": "3a53833d704cb6608b8498fe72f3ecb2c25fb3d2ae18ca7f97a82689fa9b39c3",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 12,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0012.png",
+      "image_sha256": "293a9e11b72fd1ed3269de808db4157acf00409241f811bcfb3e71d59a52dc91",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 13,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0013.png",
+      "image_sha256": "d6d0b977bd24eaa997faf97f9e4476c51eb6456fb7ebe886c112439486605cb8",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 14,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0014.png",
+      "image_sha256": "29a27b5dc94caa87ba4c13b77f22b002db8f1d4f297462178d032c21e6ea2f56",
+      "units_count": 0,
+      "notes": "Dirichlet函数说明重复物理8页例，不重收。"
+    },
+    {
+      "page_number": 15,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0015.png",
+      "image_sha256": "1ace99d1fe3d59dbec82093e36a48dd681570513ea0a7730f7f4ff508c89e625",
+      "units_count": 6,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 16,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0016.png",
+      "image_sha256": "2f160a15836e66d684590e1aa0253f28f5ec792a9c753d7cbbc3d88b481fcd36",
+      "units_count": 7,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 17,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0017.png",
+      "image_sha256": "02b6db8d3531d281cb5211ef39d6906484414106ab80f76ac751aefba3aed32f",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 18,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0018.png",
+      "image_sha256": "fce2e4c975004641db86750fd84981629a8d45348a0926eaa95c09dacd078e61",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 19,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0019.png",
+      "image_sha256": "23b2d2899d341ff060410e2535bfc399cff45b4050278ef59f33d5b070b3c012",
+      "units_count": 3,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 20,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0020.png",
+      "image_sha256": "b1269f39a7fbbb5e770a58e1eb7af54a2ab82131845186c5eba1f332d489aa27",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 21,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0021.png",
+      "image_sha256": "e89e18075fa2d8ceef68c7682dc47904214876641a0164e089d4c2a75933e332",
+      "units_count": 1,
+      "notes": "普通积分Minkowski不等式回顾与上册练习7.3已收录内容相同，不重收。"
+    },
+    {
+      "page_number": 22,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0022.png",
+      "image_sha256": "65788dfee97324000def32bb0c413775409b2d51c28febfde4defd9dce5cccbf",
+      "units_count": 4,
+      "notes": "前页Minkowski回顾的证明续文；本页正式有限数列Minkowski练习另有待证对象，保留。"
+    },
+    {
+      "page_number": 23,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0023.png",
+      "image_sha256": "46ca56a0133072f9cb772dca63f575d341e2ae2c959eefd87808e0e0c85ec2e7",
+      "units_count": 3,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 24,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0024.png",
+      "image_sha256": "984f37e353ffc855aa63a1e08e939d60076f1df10fbae539c1d41e6303bb01f5",
+      "units_count": 2,
+      "notes": "新增未编号的有理点区域上零函数反例；标注改写。原有常数倍积分正文练习保留。"
+    },
+    {
+      "page_number": 25,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0025.png",
+      "image_sha256": "508019bfed584eb9a64bf6434561d4f632910bdbff19ff31acdd59b8baedff00",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 26,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0026.png",
+      "image_sha256": "29a84f9a6b067784a34de2b282dc723680d6048420fd8df55e8903297361f68b",
+      "units_count": 0,
+      "notes": "有理点集无Jordan面积说明重复物理15页正式练习3，不重收。"
+    },
+    {
+      "page_number": 27,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0027.png",
+      "image_sha256": "8c5628e2d65dff06a6921a4c184ada41bfe22a257613d2cf577b6fc49f6ca728",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 28,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0028.png",
+      "image_sha256": "f62bed814cb303135baa1ed61100bc7e3b40d650021ac13bdb562c014f7d4f5b",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 29,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0029.png",
+      "image_sha256": "dbe3af588cfb261129385025870595f8c2e6334c2037bf6007c575442fe13fc4",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 30,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0030.png",
+      "image_sha256": "d38f81ad15e2b4c6eb83c5402e96ff3f4fa593771dd93744abdad90349805142",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 31,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0031.png",
+      "image_sha256": "4776db829a8ee51a9d691011575ccd0264a7b8cde994c6c20b594efa86a6fc78",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 32,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0032.png",
+      "image_sha256": "edd5b9622e0640b226b04cd3d6d226345146154c09b4eb7fdb19c2322145201f",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 33,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0033.png",
+      "image_sha256": "4b64a27ecf677e003cad81bb5601bda5eecb723685df177a16b609a8692269b9",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 34,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0034.png",
+      "image_sha256": "4891e999fbafed0a03414c03d880af7e3694ef93cbfec65c05060a60bfe682dd",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 35,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0035.png",
+      "image_sha256": "17979e2614c6743727634ef7fcaf3ba1c52e7026b1ac9996de75f255ec966c98",
+      "units_count": 7,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 36,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0036.png",
+      "image_sha256": "5e8877482b54a4591c04bfa68fa43e93e2511a87f79f587cb09d845e33fbf7b5",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 37,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0037.png",
+      "image_sha256": "55690e28b634bdb554e8872914936435b99c6c5be59bb2d5aa4c64af9b466248",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 38,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0038.png",
+      "image_sha256": "61616b30b5d40f816a1bff10527ed2eecfd8e178f741ea3a99cfac5ec4dfa4b6",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 39,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0039.png",
+      "image_sha256": "19aeb20a91722e1dd0335e9c6b2eb97372aad0d56a3b2350599f3fb9074a7a44",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 40,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0040.png",
+      "image_sha256": "fd374a68458df31e8f5719a9e35e265524716b7bee08fc4cc79af82dcc99c4c3",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 41,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0041.png",
+      "image_sha256": "db4fe060f79c057e5c55d9ff7ef7408780822913bac88d75c0392d63efd5e0be",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 42,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0042.png",
+      "image_sha256": "591514a2c13bfd1f7ccaa9b2ddf67cbcc3585b0b81d71f0017a5ad12c5331063",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 43,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0043.png",
+      "image_sha256": "0499c009d45e7fbbf36d3239411a754c5c1993560af13f86899a74b1f6ac7ea7",
+      "units_count": 4,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 44,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0044.png",
+      "image_sha256": "6b0e3655a1ae19a118f380dabed9d1fa7ed78a775782db7acabe76961361ad07",
+      "units_count": 7,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 45,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0045.png",
+      "image_sha256": "0158b413d83d219adb3b9c62772a59df4b2ce378a0d8194e733d0b76303e2006",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 46,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0046.png",
+      "image_sha256": "c8b08980812608fb51e22243186033f142c65e09cf7a9bb4510379387ca9cabf",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 47,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0047.png",
+      "image_sha256": "e404fcb28b4efc0f9ef7cd1aac738f2bc94cd1d84b2297a840ba4d89871b12e8",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 48,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0048.png",
+      "image_sha256": "e20ffbdd6c03c2f3c4905fd2eae6d01b02676ae2c85a20aa6596c7f79cedb141",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 49,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0049.png",
+      "image_sha256": "ef1af8184cf811e129140e6a97cda3351b8dfafed5d3fe9d3bde23775271f050",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 50,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0050.png",
+      "image_sha256": "d58937e203cee65fa5ef818c64a3b42f5ff40928e635470a599711f4e9f73e25",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 51,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0051.png",
+      "image_sha256": "304b9bf160933da17411d8f7cb4fc0a57fe2891be946b2d297ac2e51ebcccecd",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 52,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0052.png",
+      "image_sha256": "e0ecd99ad3010128c21efc4a7e9595ec07da6ede534ea39fc5f86ee1d0bd8a11",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 53,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0053.png",
+      "image_sha256": "9b00c1776b690e1bc44b907fa4babdb3f4cdb096034ddfe77183faaf86d57fac",
+      "units_count": 5,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 54,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0054.png",
+      "image_sha256": "f13899cdd09d0377dd18810f7ab674bc222d6d84fe3887a1c343de16e36d69ff",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 55,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0055.png",
+      "image_sha256": "91fda9aa6bae4ee8fcb9a713952d18f2c2efc07015af84498558f7e9f88cb0e1",
+      "units_count": 0,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 56,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0056.png",
+      "image_sha256": "0032095f5325ffbc5d73c5b31459c6735cd584b502d95aff439eef3bbc97f3a7",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 57,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0057.png",
+      "image_sha256": "130cd0a33050e2ee9fc2381a1b97cb620850d0f1d98fa653661c5431b78eb275",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 58,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0058.png",
+      "image_sha256": "db805c05989a4375464b72cd840e586090c2604fb870b83e3020c10311c0ce1a",
+      "units_count": 1,
+      "notes": "新增明确给定n维球坐标变换的Jacobi行列式计算；源题续文到物理60页，记录首现页58。"
+    },
+    {
+      "page_number": 59,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0059.png",
+      "image_sha256": "2c2830b5f11eba1d8f1d358d4f22c48f1a6aab12bdb61633a9a02a1dd3b0b331",
+      "units_count": 0,
+      "notes": "球坐标Jacobi行列式计算续文，归物理58页新增题。"
+    },
+    {
+      "page_number": 60,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0060.png",
+      "image_sha256": "6b415aa2f2b29ca70b30311085beefa71fcb14ee001f125b5c32a22a1a74dd9c",
+      "units_count": 1,
+      "notes": "球坐标Jacobi计算续文；径向函数积分的编号例3原已收录。"
+    },
+    {
+      "page_number": 61,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0061.png",
+      "image_sha256": "b957c2104d9f575d286a96b957338e16d07c2a3ea79f9e51635514fd4c6c4929",
+      "units_count": 8,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 62,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0062.png",
+      "image_sha256": "0dad07d4c4cf1aa6896e29f980ee9074b5e13e7a4193092f6df9b58a32b25df2",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 63,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0063.png",
+      "image_sha256": "ef39874ce1dcd339f4803be29250300435818821422860fa7b31d809f6996e28",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 64,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0064.png",
+      "image_sha256": "d2405175a57542c996e43117db527362e8f3718a5fe20690f7f9c6807c06a083",
+      "units_count": 1,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    },
+    {
+      "page_number": 65,
+      "status": "source_image_reviewed",
+      "image_path": ".cache/review-tutorial10/p0065.png",
+      "image_sha256": "1d2f730fd67c15a6166de9e73e368ad277255a92d783db9a8eb5337b03087823",
+      "units_count": 2,
+      "notes": "逐页对照已校题库，编号例题、练习、问题及明确正文任务无新增遗漏；定义、一般定理及证明不扩编。"
+    }
+  ],
+  "editorial_changes": [
+    {
+      "page_number": 10,
+      "action": "record_cross_page",
+      "reason": "一般参数曲线例始于第10页，参数区间出现在第11页。"
+    },
+    {
+      "page_number": 11,
+      "action": "record_cross_page",
+      "reason": "光滑曲线段例始于第11页，曲线的正则条件出现在第12页。"
+    },
+    {
+      "page_number": 22,
+      "action": "record_cross_page",
+      "reason": "题干从第22页开始，要求证明的不等式在第23页。"
+    },
+    {
+      "page_number": 29,
+      "action": "record_cross_page",
+      "reason": "题干从第29页开始，要求证明的不等式在第30页。"
+    },
+    {
+      "page_number": 43,
+      "action": "record_cross_page",
+      "reason": "双曲线和直线围成的区域定义在第43页，积分恒等式接在第44页。"
+    },
+    {
+      "page_number": 52,
+      "action": "record_cross_page",
+      "reason": "第52页开始给出求体积要求，两个小问的曲面在第53页。"
+    },
+    {
+      "page_number": 53,
+      "action": "record_cross_page",
+      "reason": "第53页定义 F，引出的导数公式及 g 的定义在第54页。"
+    },
+    {
+      "page_number": 57,
+      "action": "record_cross_page",
+      "reason": "体积例始于第57页，待求的奇、偶维情形在第58页列明。"
+    },
+    {
+      "page_number": 65,
+      "action": "correct_transcription",
+      "reason": "教材与 OCR 均为球锥，恢复源术语。"
+    },
+    {
+      "page_number": 8,
+      "practice_source_page": 9,
+      "action": "deduplicate",
+      "reason": "第8页正文明示留作练习，第9页节末正式练习要求证明同一定理，以正式练习起页9为来源。"
+    },
+    {
+      "page_number": 10,
+      "practice_source_page": 15,
+      "action": "deduplicate",
+      "reason": "第10页正文以同一有理点集及其闭包说明零测集与零面积集的区别，第15页节末正式出题，以该正式习题为来源。"
+    }
+  ]
+}

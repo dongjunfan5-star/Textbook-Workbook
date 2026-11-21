@@ -1,0 +1,155 @@
+{
+  "measured_on": "2026-10-23",
+  "scope": "16 existing sample source pages; all raw outputs remain unreviewed",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "vram_mib": 6144,
+    "driver": "581.29",
+    "observed_total_vram_mib": 4059
+  },
+  "baseline": {
+    "pipeline": "PP-StructureV3",
+    "formula_model": "PP-FormulaNet_plus-S",
+    "device": "cpu",
+    "mean_seconds_per_page": 55.012
+  },
+  "candidate": {
+    "pipeline": "PaddleOCR-VL-1.6",
+    "layout_model": "PP-DocLayoutV3 on CPU",
+    "recognition": "official GGUF / llama.cpp CUDA12.4",
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "paddlepaddle": "3.2.2 CPU",
+    "llama_cpp": "b11829 / 184f65360",
+    "recognition_concurrency": 1,
+    "context_tokens": 4096,
+    "image_width": 1800,
+    "mean_seconds_per_page": 11.899,
+    "min_seconds": 9.14,
+    "max_seconds": 13.48
+  },
+  "speedup_total": 4.62,
+  "pages": [
+    {
+      "source_id": "8c6dc2ce907d",
+      "page_number": 24,
+      "cpu_seconds": 76.19,
+      "vl_seconds": 12.97
+    },
+    {
+      "source_id": "8c6dc2ce907d",
+      "page_number": 25,
+      "cpu_seconds": 50.52,
+      "vl_seconds": 13.48
+    },
+    {
+      "source_id": "8c6dc2ce907d",
+      "page_number": 26,
+      "cpu_seconds": 82.23,
+      "vl_seconds": 13.25
+    },
+    {
+      "source_id": "8c6dc2ce907d",
+      "page_number": 27,
+      "cpu_seconds": 80.89,
+      "vl_seconds": 13.36
+    },
+    {
+      "source_id": "0c78ae5d67cd",
+      "page_number": 22,
+      "cpu_seconds": 52.0,
+      "vl_seconds": 12.45
+    },
+    {
+      "source_id": "0c78ae5d67cd",
+      "page_number": 23,
+      "cpu_seconds": 53.53,
+      "vl_seconds": 12.52
+    },
+    {
+      "source_id": "bd727a57b926",
+      "page_number": 13,
+      "cpu_seconds": 53.09,
+      "vl_seconds": 11.12
+    },
+    {
+      "source_id": "bd727a57b926",
+      "page_number": 14,
+      "cpu_seconds": 52.76,
+      "vl_seconds": 11.47
+    },
+    {
+      "source_id": "bd727a57b926",
+      "page_number": 15,
+      "cpu_seconds": 32.95,
+      "vl_seconds": 9.14
+    },
+    {
+      "source_id": "336e4ff033f3",
+      "page_number": 26,
+      "cpu_seconds": 53.52,
+      "vl_seconds": 11.56
+    },
+    {
+      "source_id": "336e4ff033f3",
+      "page_number": 27,
+      "cpu_seconds": 40.55,
+      "vl_seconds": 10.98
+    },
+    {
+      "source_id": "336e4ff033f3",
+      "page_number": 28,
+      "cpu_seconds": 67.84,
+      "vl_seconds": 12.22
+    },
+    {
+      "source_id": "336e4ff033f3",
+      "page_number": 29,
+      "cpu_seconds": 66.64,
+      "vl_seconds": 11.31
+    },
+    {
+      "source_id": "e3b1165409f0",
+      "page_number": 19,
+      "cpu_seconds": 38.31,
+      "vl_seconds": 11.09
+    },
+    {
+      "source_id": "e3b1165409f0",
+      "page_number": 20,
+      "cpu_seconds": 39.59,
+      "vl_seconds": 11.31
+    },
+    {
+      "source_id": "e3b1165409f0",
+      "page_number": 21,
+      "cpu_seconds": 39.58,
+      "vl_seconds": 12.16
+    }
+  ],
+  "estimated_1733_page_hours": 5.73,
+  "estimate_caveat": "Linear estimate from 16 pages only, excludes manual proofreading and final layout; actual pages may be slower.",
+  "quality_spot_checks": [
+    {
+      "source_id": "8c6dc2ce907d",
+      "page_number": 24,
+      "finding": "VL cleanly separates three example statements and eliminates the duplicated a_3 sequence and malformed absolute-value commands seen in the earlier output."
+    },
+    {
+      "source_id": "bd727a57b926",
+      "page_number": 15,
+      "finding": "Remaining error visually confirmed: the hint Q\\{0} is rendered as ℝ{0}. Must correct during proofreading; raw OCR not changed."
+    },
+    {
+      "source_id": "336e4ff033f3",
+      "page_number": 28,
+      "finding": "Remaining omission visually confirmed: the n个 underbrace below 0.99…9 is absent in OCR. Must restore during proofreading; raw OCR not changed."
+    }
+  ],
+  "model_assets_manifest": ".tools/ocr-runtime-manifest.json",
+  "references": [
+    "https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/version3.x/pipeline_usage/PaddleOCR-VL.en.md",
+    "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6-GGUF/tree/511b096",
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b11829"
+  ]
+}

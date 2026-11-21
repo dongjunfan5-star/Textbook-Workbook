@@ -1,0 +1,378 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{7}\section{多变量函数的连续性}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.1}
+设 $x=(1,\ldots,1)\in\mathbb R^n$。证明 $x$ 与各单位坐标向量 $e_1,\ldots,e_n$ 的夹角相等。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.2}
+设 $x,y$ 为欧氏空间中的非零向量，夹角为 $\theta$。证明余弦定理 $\|x-y\|^2=\|x\|^2+\|y\|^2-2\|x\|\|y\|\cos\theta$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.3}
+设欧氏空间中的向量 $x,y$ 相互正交。证明 $\|x+y\|^2=\|x\|^2+\|y\|^2$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.4}
+证明欧氏空间中的平行四边形定理：对任意向量 $x,y$，$\|x+y\|^2+\|x-y\|^2=2(\|x\|^2+\|y\|^2)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.5}
+设 $a,b$ 为欧氏空间中不同的两点，$2r=\|a-b\|$。证明开球 $B_r(a)$ 与 $B_r(b)$ 不相交。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.6}
+设 $x=(x_1,\ldots,x_n)\in\mathbb R^n$。证明 $\dfrac1{\sqrt n}\sum_{i=1}^n|x_i|\le\|x\|\le\sum_{i=1}^n|x_i|$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.7}
+设 $x=(x_1,\ldots,x_n)\in\mathbb R^n$。证明 $\max_i|x_i|\le\|x\|\le n\max_i|x_i|$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.8（改写）}
+求 $\mathbb R^3$ 中点列 $x_i=((1+1/i)^i,\ i/(i+1),\ (1-1/i)^i)$ 的极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.9}
+在 $\mathbb R^2$ 中定义点列 $x_n=(1/n,\sqrt[n]n)$。证明 $x_n\to(0,1)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.10}
+设 $x_i\to a$、$y_i\to b$ 为欧氏空间中的收敛点列，$\lambda\in\mathbb R$。证明 $x_i\pm y_i\to a\pm b$，且 $\lambda x_i\to\lambda a$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.11}
+证明欧氏空间中的收敛点列必为有界点列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.12}
+证明欧氏空间中的 Cauchy 点列必为有界点列。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.13}
+设 $x_k$ 为 $\mathbb R^n$ 中的点列，且 $\sum_{k=1}^{\infty}\|x_{k+1}-x_k\|$ 收敛。证明点列 $x_k$ 收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.14（改写）}
+证明上半平面 $\{(x,y)\in\mathbb R^2:y>0\}$ 是 $\mathbb R^2$ 中的开集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.15（改写）}
+证明从 $\mathbb R^n$ 中挖去任意一个点后所得的集合是开集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.16（改写）}
+设 $a\in\mathbb R^n$，$r>0$。证明球 $B_r(a)=\{x:\|x-a\|<r\}$ 是开集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.17（改写）}
+设 $a\in\mathbb R^n$，$B_{1/i}(a)=\{x:\|x-a\|<1/i\}$（$i\in\mathbb N^{*}$）。求 $\bigcap_{i=1}^{\infty}B_{1/i}(a)$，并判断此交集是否为开集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.18}
+在 $\mathbb R^n$ 中证明：
+\SubQ{1}{$\varnothing$ 和 $\mathbb R^n$ 均为闭集。}
+\SubQ{2}{有限个闭集的并仍为闭集。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.19（改写）}
+证明 $\{(x,y)\in\mathbb R^2:y\le0\}$ 是闭集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.20（改写）}
+证明 $\mathbb R^n$ 中有限点集是闭集，其补集是开集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.21（改写）}
+证明 $\mathbb R^n$ 中任意开球的补集是闭集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.22（改写）}
+将开区间 $E=(0,1)$ 看作 $\mathbb R$ 的子集。求它的凝聚点集，并判断其凝聚点是否都属于 $E$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.23（改写）}
+判断集合 $E=\{(x,y)\in\mathbb R^2:0<x^2+y^2\le1\}$ 是否为开集、是否为闭集，并说明理由。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.24（改写）}
+当 $E=\mathbb R^n$ 时，求 $E$ 的内部、外部和边界。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.25（改写）}
+设 $E=\{a\}\subset\mathbb R^n$ 为单点集。求 $E$ 的内部、外部和边界。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.26（改写）}
+设 $E$ 为 $\mathbb R^2$ 中一条直线上的全部点组成的集合。求 $E$ 的内部、外部和边界。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.27（改写）}
+设 $E=B_r(a)\subset\mathbb R^n$，$r>0$。求 $E$ 的内部、外部和边界。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.28}
+对下列集合 $A$，分别求内部 $A^\circ$、闭包 $\overline A$ 和边界 $\partial A$：
+\SubQ{1}{$A=\{1,1/2,1/3,\ldots\}\subset\mathbb R$。}
+\SubQ{2}{$A=\{(x,y)\in\mathbb R^2:0<y<x+1\}$。}
+\SubQ{3}{$A$ 为 $\mathbb R^n$ 中的有限点集。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.29}
+设 $A=\mathbb Q\times\mathbb Q\subset\mathbb R^2$。求 $A^\circ$、$(A^c)^\circ$ 和 $\partial A$，其中上标 $\circ$ 表示内部、$c$ 表示补集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.30}
+设 $A\subset\mathbb R^n$。证明 $p\in\overline A$ 当且仅当对任意 $r>0$ 都有 $B_r(p)\cap A\ne\varnothing$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.31}
+设 $\{A_\alpha\}_{\alpha\in I}$ 为集合族，补集相对于同一全集取。证明 De Morgan 对偶原理：$(\bigcap_{\alpha\in I}A_\alpha)^c=\bigcup_{\alpha\in I}A_\alpha^c$，$(\bigcup_{\alpha\in I}A_\alpha)^c=\bigcap_{\alpha\in I}A_\alpha^c$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.32}
+设 $A\subset\mathbb R^n$。证明 $\partial A=\overline A\cap(A^\circ)^c$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.33}
+设 $A\subset\mathbb R^n$。证明 $A^\circ=(\overline{A^c})^c$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.34}
+设 $A,B\subset\mathbb R^n$。证明：
+\SubQ{1}{$(A\cap B)^\circ=A^\circ\cap B^\circ$。}
+\SubQ{2}{$\overline{A\cup B}=\overline A\cup\overline B$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.35}
+在 $\mathbb R^n$ 中作出满足条件的集合列：
+\SubQ{1}{闭集列 $F_i$，使 $\bigcup_{i=1}^{\infty}F_i=B_1(0)$。}
+\SubQ{2}{开集列 $G_i$，使 $\bigcap_{i=1}^{\infty}G_i=\overline{B_1(0)}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.36}
+设 $\{A_\alpha\}_{\alpha\in I}$ 为 $\mathbb R^n$ 中的集合族。证明以下包含关系，并分别举例说明可以是真包含：
+\SubQ{1}{$\overline{\bigcap_{\alpha\in I}A_\alpha}\subseteq\bigcap_{\alpha\in I}\overline{A_\alpha}$。}
+\SubQ{2}{$(\bigcup_{\alpha\in I}A_\alpha)^\circ\supseteq\bigcup_{\alpha\in I}A_\alpha^\circ$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.37}
+设 $E\subset\mathbb R^n$。证明 $\partial E$ 是闭集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.38}
+设 $G_1,G_2\subset\mathbb R^n$ 为不相交的开集。证明 $G_1\cap\overline{G_2}=\overline{G_1}\cap G_2=\varnothing$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.39}
+定义投影 $P:\mathbb R^2\to\mathbb R$，$P(x,y)=x$。
+\SubQ{1}{若 $E\subset\mathbb R^2$ 为开集，证明 $P(E)$ 是 $\mathbb R$ 中的开集。}
+\SubQ{2}{举出闭集 $A\subset\mathbb R^2$，使 $P(A)$ 不是 $\mathbb R$ 中的闭集。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.40}
+设 $E\subset\mathbb R^n$。证明 $E$ 为闭集当且仅当 $E\supseteq\partial E$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.41}
+对任意 $E\subset\mathbb R^n$，证明 $\partial\overline E\subseteq\partial E$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.42}
+设 $G$ 是 $\mathbb R$ 中非空的有界开集。证明 $G$ 可表示为至多可数个互不相交的开区间的并。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.43}
+设 $F$ 是 $\mathbb R$ 中非空的有界闭集，且不是一个闭区间。证明 $F$ 可以由某个闭区间除去至多可数个互不相交的开区间得到。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.44}
+设 $P:\mathbb R^2\to\mathbb R$ 为投影 $P(x,y)=x$，$A\subset\mathbb R^2$ 为紧致集。证明 $P(A)$ 也是紧致集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.45（校订）}
+设非空集合 $A,B\subset\mathbb R$。证明 $A\times B$ 是紧致集当且仅当 $A$ 和 $B$ 都是紧致集。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.46}
+设 $A\subset\mathbb R^n$。证明 $A$ 为紧致集当且仅当：对任意闭集族 $\{A_\alpha\}_{\alpha\in I}$，若 $A\cap\bigcap_{\alpha\in I}A_\alpha=\varnothing$，则存在有限子族 $A_{\alpha_1},\ldots,A_{\alpha_k}$，使 $A\cap\bigcap_{j=1}^k A_{\alpha_j}=\varnothing$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.47}
+若 $A\subset\mathbb R^n$ 的每个无穷子集都在 $A$ 中有凝聚点，则称 $A$ 为 Fréchet 紧的。证明在 $\mathbb R^n$ 中，Fréchet 紧性与列紧性等价。这里列紧指任意点列都有子列收敛于集合内一点。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.48}
+设 $F_1\supseteq F_2\supseteq\cdots$ 是 $\mathbb R^n$ 中的非空闭集列。是否一定有 $\bigcap_{k=1}^{\infty}F_k\ne\varnothing$？若各 $F_k$ 都是非空紧致集，结论又如何？
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.49}
+设非空有界闭集 $E\subset\mathbb R^n$ 的一个开覆盖为 $\{G_\alpha\}$。证明存在 $\sigma>0$，使任意 $F\subset\mathbb R^n$ 只要满足 $F\cap E\ne\varnothing$、$\operatorname{diam}F<\sigma$，就被某个 $G_\alpha$ 包含。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.50}
+设 $\{G_\alpha\}$ 是有界闭集 $E\subset\mathbb R^n$ 的一个开覆盖。利用如下结论证明它有有限子覆盖：存在 $\sigma>0$，使每个与 $E$ 相交且直径小于 $\sigma$ 的集合都被某个 $G_\alpha$ 包含。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.51（改写）}
+证明 $\mathbb R^n$ 中的开球是区域，即非空、开且连通的集合。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.52}
+证明区域是道路连通的，即对开集而言，连通与道路连通等价。这里道路连通指任意两点可由集合内一条连续路径连接。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.53}
+设 $A\subset\mathbb R^n$ 既是开集又是闭集。证明 $A=\varnothing$ 或 $A=\mathbb R^n$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.54}
+设 $E\subset\mathbb R^n$ 连通。证明 $\overline E$ 也连通。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.55}
+设 $E=\{(x,y)\in\mathbb R^2:y=\sin(1/x),\ 0<x\le2/\pi\}$。证明 $\overline E$ 连通，但不道路连通。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.56（改写）}
+定义 $f(x,y)=x^2y^2/(x^2+y^2)$，$(x,y)\ne(0,0)$。求 $\lim_{(x,y)\to(0,0)}f(x,y)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.57}
+设 $D\subset\mathbb R^n$，$a$ 为 $D$ 的凝聚点，$\lim_{x\to a,\,x\in D}f(x)=l$。证明对任意满足 $x_i\in D\setminus\{a\}$ 且 $x_i\to a$ 的点列，都有 $f(x_i)\to l$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.58}
+讨论 $f(x,y)=xy/(x^2+y^2)$ 在 $(0,0)$ 处极限的存在性。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.59}
+讨论 $f(x,y)=x^2y/(x^4+y^2)$ 在 $(0,0)$ 处的极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.60}
+确定并画出下列二元函数的定义域：
+\SubQ{1}{$u=x+\sqrt y$。}
+\SubQ{2}{$u=\sqrt{1-x^2}+\sqrt{y^2-1}$。}
+\SubQ{3}{$u=\sqrt{x^2+y^2-1}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.61}
+确定并画出下列二元函数的定义域：
+\SubQ{1}{$u=\sqrt{1-(x^2+y^2)}$。}
+\SubQ{2}{$u=\arcsin(y/x)$。}
+\SubQ{3}{$u=\ln(x+y)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.62}
+确定并画出下列二元函数的定义域：
+\SubQ{1}{$u=\sqrt x$。}
+\SubQ{2}{$u=\arccos(x/(x+y))$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.63}
+确定下列三元函数的定义域，并作几何描述：
+\SubQ{1}{$u=\ln(xyz)$。}
+\SubQ{2}{$u=\ln\sqrt{2-(x^2+y^2+z^2)}$。}
+\SubQ{3}{$u=1/(x^2+y^2)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.64}
+确定下列三元函数的定义域，并作几何描述：
+\SubQ{1}{$u=\arccos(z/\sqrt{x^2+y^2})$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.65}
+计算下列极限；若不存在，说明理由：
+\SubQ{1}{$\lim_{(x,y)\to(0,0)}\dfrac{\sin(xy)}x$。}
+\SubQ{2}{$\lim_{(x,y)\to(0,0)}(x^2+y^2)^{x^2y^4}$。}
+\SubQ{3}{$\lim_{(x,y)\to(0,0)}\dfrac{\ln(x+e^y)}{\sqrt{x^2+y^2}}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.66}
+计算下列极限；若不存在，说明理由：
+\SubQ{1}{$\lim_{x\to+\infty,\,y\to+\infty}\left(\dfrac{xy}{x^2+y^2}\right)^{x^2}$。}
+\SubQ{2}{$\lim_{x\to+\infty,\,y\to+\infty}\dfrac{x+y}{x^2-xy+y^2}$。}
+\SubQ{3}{$\lim_{x\to+\infty,\,y\to+\infty}(x^2+y^2)e^{-(x+y)}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.67}
+设 $D\subset\mathbb R^n$，$f,g:D\to\mathbb R$。设 $a$ 为 $D$ 的凝聚点，$\lim_{x\to a}f(x)=l$、$\lim_{x\to a}g(x)=m$。证明：
+\SubQ{1}{$\lim_{x\to a}(f\pm g)(x)=l\pm m$。}
+\SubQ{2}{$\lim_{x\to a}(fg)(x)=lm$。}
+\SubQ{3}{若 $m\ne0$，则 $\lim_{x\to a}f(x)/g(x)=l/m$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.68}
+计算下列累次极限：
+\SubQ{1}{函数 $f(x,y)=x^2y/(x^4+y^2)$ 在原点处的两个累次极限。}
+\SubQ{2}{$\lim_{x\to+\infty}\lim_{y\to+\infty}\sin\dfrac{\pi x}{2x+y}$ 与 $\lim_{y\to+\infty}\lim_{x\to+\infty}\sin\dfrac{\pi x}{2x+y}$。}
+\SubQ{3}{$\lim_{x\to+\infty}\lim_{y\to0^+}\dfrac{x^y}{1+x^y}$ 与 $\lim_{y\to0^+}\lim_{x\to+\infty}\dfrac{x^y}{1+x^y}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.69}
+设 $f(x,y)=(x+y)\sin(1/x)\sin(1/y)$，$xy\ne0$。证明 $f$ 在原点处两个累次极限均不存在，但 $\lim_{(x,y)\to(0,0)}f(x,y)=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.70}
+设 $\lim_{(x,y)\to(x_0,y_0)}f(x,y)=a$ 存在，且对 $y_0$ 附近每个 $y$，$h(y)=\lim_{x\to x_0}f(x,y)$ 都存在。证明 $\lim_{y\to y_0}h(y)=a$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.71}
+证明：若二元函数在某点的两个累次极限及二元极限都存在，则这三个值相等。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.72（改写）}
+设 $D\subset\mathbb R^n$ 是有限点集。证明任意函数 $f:D\to\mathbb R$ 都在 $D$ 上连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.73（改写）}
+证明常值函数在任意定义域上连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.74（改写）}
+证明坐标投影 $f_i(x_1,\ldots,x_n)=x_i$（$1\le i\le n$）在 $\mathbb R^n$ 上连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.75（改写）}
+设 $P,Q$ 是 $n$ 元多项式，$a\in\mathbb R^n$。证明 $\lim_{x\to a}P(x)Q(x)=P(a)Q(a)$，并证明在 $Q(a)\ne0$ 时，$\lim_{x\to a}P(x)/Q(x)=P(a)/Q(a)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.76}
+讨论 $f(x,y)=x^2y^2/(x^2+y^2)$ 在其定义域上的连续性，并判断能否在原点补充定义，使其成为 $\mathbb R^2$ 上的连续函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.77（改写）}
+证明 $f(x,y,z)=\sin(xy+z)$ 在 $\mathbb R^3$ 上连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.78}
+定义 $f(x,y)=xy/(x^2+y^2)$（$(x,y)\ne(0,0)$），$f(0,0)=0$。讨论 $f$ 的连续性。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.79（改写）}
+证明 $f(x,y)=xy/(x^2+y^2)$ 在 $\mathbb R^2\setminus\{(0,0)\}$ 上不一致连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.80（改写）}
+设 $f$ 在 $\mathbb R^n$ 上连续，且 $\lim_{\|x\|\to+\infty}f(x)$ 存在且有限。证明 $f$ 在 $\mathbb R^n$ 上一致连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.81（改写）}
+求下列连续函数在指定定义域上的值域，并回答相应问题：
+\SubQ{1}{$f(x)=1/x$，$D=(0,1)$：值域是否有界？}
+\SubQ{2}{$f(x)=1/x$，$D=[1,+\infty)$：值域是否为闭集？}
+\SubQ{3}{$f(x)=x^2$，$D=(-1,1)$：值域是否为开集？}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.82（改写）}
+设 $a,b\in\mathbb R^n$，$a\ne b$，$D=\{a,b\}$，定义 $f(a)=1$、$f(b)=-1$。判断 $f:D\to\mathbb R$ 是否连续，以及是否存在 $c\in D$ 使 $f(c)=0$，并说明理由。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.83}
+设 $D\subset\mathbb R^n$ 为凸区域，$f:D\to\mathbb R$ 为凸函数，即 $f(\lambda x+(1-\lambda)y)\le\lambda f(x)+(1-\lambda)f(y)$（$x,y\in D$、$0\le\lambda\le1$）。证明 $f$ 在 $D$ 上连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.84}
+求下列函数的间断点集：
+\SubQ{1}{$f(x,y)=\begin{cases}1/\sqrt{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}$}
+\SubQ{2}{$f(x,y)=\begin{cases}(x+y)/(x^2+y^2),&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}$}
+\SubQ{3}{$f(x,y)=\begin{cases}x\sin(1/y),&y\ne0,\\0,&y=0.\end{cases}$}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.85}
+设 $f(x,y)=1/(1-xy)$，定义域为 $[0,1]^2\setminus\{(1,1)\}$。证明 $f$ 连续，但不一致连续。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.86（校订）}
+设非空集合 $A\subset\mathbb R^n$，定义点到集合的距离 $\rho(p,A)=\inf_{a\in A}\|p-a\|$。证明：
+\SubQ{1}{$\overline A=\{p:\rho(p,A)=0\}$。}
+\SubQ{2}{对任意 $p,q\in\mathbb R^n$，$|\rho(p,A)-\rho(q,A)|\le\|p-q\|$，从而 $p\mapsto\rho(p,A)$ 连续。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.87（校订）}
+设非空集合 $A,B\subset\mathbb R^n$，定义 $\rho(A,B)=\inf\{\|p-q\|:p\in A,q\in B\}$。证明：
+\SubQ{1}{若 $A$ 紧致，则存在 $a\in A$，使 $\rho(a,B)=\rho(A,B)$。}
+\SubQ{2}{若 $A,B$ 均紧致，则存在 $a\in A,b\in B$，使 $\|a-b\|=\rho(A,B)$。}
+\SubQ{3}{若 $A$ 紧致且 $B$ 闭，则 $\rho(A,B)=0$ 当且仅当 $A\cap B\ne\varnothing$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.88}
+构造两个不相交的非空闭集 $A,B\subset\mathbb R^n$（可自行选择 $n$），使 $\rho(A,B)=\inf\{\|a-b\|:a\in A,b\in B\}=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.89}
+设非空有界集 $A\subset\mathbb R^n$，$\rho(p,A)=\inf_{a\in A}\|p-a\|$。证明对任意 $c>0$，集合 $\{p:\rho(p,A)\le c\}$ 是紧致集。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.90}
+设连续函数 $f:\mathbb R^n\to\mathbb R$ 既取正值又取负值。证明 $E=\{p\in\mathbb R^n:f(p)\ne0\}$ 不连通。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.91（校订）}
+设 $A,B$ 是 $\mathbb R^n$ 中不相交的非空闭集。证明存在连续函数 $h:\mathbb R^n\to\mathbb R$，使 $h(A)=\{1\}$、$h(B)=\{0\}$，且 $h(\mathbb R^n)=[0,1]$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.92}
+设 $A,B$ 是 $\mathbb R^n$ 中不相交的闭集。证明存在不相交的开集 $G,H$，使 $A\subseteq G$、$B\subseteq H$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{8.93（改写）}
+给定实矩阵 $A\in\mathbb R^{m\times n}$，定义 $f:\mathbb R^n\to\mathbb R^m$ 为 $f(x)=Ax$。证明 $f$ 是线性映射，并且连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.94}
+设 $f:\mathbb R^n\to\mathbb R^m$ 连续，$E\subset\mathbb R^n$。证明 $f(\overline E)\subseteq\overline{f(E)}$。在什么附加条件下可以得到等号？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.95}
+设 $E\subset\mathbb R$，$f:E\to\mathbb R^m$，图像定义为 $G(f)=\{(x,f(x)):x\in E\}\subset\mathbb R^{m+1}$。证明：
+\SubQ{1}{若 $E$ 闭且 $f$ 连续，则 $G(f)$ 闭。}
+\SubQ{2}{若 $E$ 紧致且 $f$ 连续，则 $G(f)$ 紧致。}
+\SubQ{3}{若 $G(f)$ 紧致，则 $f$ 连续。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.96}
+设 $E\subset\mathbb R^n$ 为紧致集，$f:E\to\mathbb R^m$ 为连续单射，$D=f(E)$。证明逆映射 $f^{-1}:D\to E$ 连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.97}
+证明不存在从 $[0,1]$ 到单位圆周 $S^1=\{(x,y):x^2+y^2=1\}$ 的连续双射。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{8.98}
+证明不存在从 $[0,1]$ 到正方形 $[0,1]\times[0,1]$ 的连续双射。
+\end{minipage}\par\vfill

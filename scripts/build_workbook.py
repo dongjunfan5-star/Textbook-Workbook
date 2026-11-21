@@ -122,12 +122,19 @@ def paginate(problems,heights,per_page,textheight):
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('project',choices=['数学分析讲义','数学分析教程'])
+    parser.add_argument('project')
+    parser.add_argument('--config',default='config/projects.json',help='Project settings file relative to workspace')
     parser.add_argument('--xelatex')
     parser.add_argument('--curated',help='Reviewed JSON path relative to workspace; defaults to project/data/curated.json')
     parser.add_argument('--output-dir',help='Separate workspace directory for a chapter proof')
     args=parser.parse_args()
-    source_project=ROOT/args.project
+    config=json.loads((ROOT/args.config).read_text(encoding='utf-8'))
+    settings=next((item for item in config['projects'] if item['name']==args.project),None)
+    if settings is None:
+        parser.error(f'Unknown project: {args.project}')
+    source_project=(ROOT/args.project).resolve()
+    if source_project.parent!=ROOT:
+        parser.error('Project must be a directory directly under the workspace')
     project=(ROOT/args.output_dir).resolve() if args.output_dir else source_project
     if not project.is_relative_to(ROOT):
         raise ValueError('Output must stay inside the workspace')
@@ -144,13 +151,15 @@ def main():
     problems=split_units(units)
     if not problems:
         raise ValueError('No reviewed problems')
-    config=json.loads((ROOT/'config/projects.json').read_text(encoding='utf-8'))
-    per_page=next(p['problems_per_page'] for p in config['projects'] if p['name']==args.project)
+    per_page=settings['problems_per_page']
+    configured_sources={(source_project/path).resolve() for path in settings.get('sources',[])}
+    input_dir=(source_project/'input').resolve()
     source_hashes={}
     for p in problems:
         source=(source_project/p['source_file']).resolve()
-        if not source.is_relative_to((source_project/'input').resolve()) or not source.is_file():
-            raise ValueError('Source must be an existing project input PDF')
+        if (not source.is_relative_to(source_project) or not source.is_file()
+                or (source not in configured_sources and not source.is_relative_to(input_dir))):
+            raise ValueError('Source must be an existing PDF in the project input directory or listed in project settings')
         if source not in source_hashes:
             with source.open('rb') as stream:
                 source_hashes[source]=hashlib.file_digest(stream,'sha256').hexdigest()

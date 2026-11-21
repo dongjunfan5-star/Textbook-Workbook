@@ -1,0 +1,5499 @@
+{
+  "source_unit_count": 1614,
+  "problem_count": 1811,
+  "problems_per_page": 3,
+  "page_plan": [
+    {
+      "chapter": 1,
+      "problems": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "content_height_pt": 132.77
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "content_height_pt": 131.87
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.7",
+        "1.8",
+        "1.9"
+      ],
+      "content_height_pt": 218.75
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.10",
+        "1.11",
+        "1.12"
+      ],
+      "content_height_pt": 205.95
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.13",
+        "1.14",
+        "1.15"
+      ],
+      "content_height_pt": 319.77
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.16",
+        "1.17",
+        "1.18"
+      ],
+      "content_height_pt": 149.9
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.19",
+        "1.20",
+        "1.21"
+      ],
+      "content_height_pt": 181.0
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.22",
+        "1.23",
+        "1.24"
+      ],
+      "content_height_pt": 167.69
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.25",
+        "1.26",
+        "1.27"
+      ],
+      "content_height_pt": 207.13
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.28",
+        "1.29",
+        "1.30"
+      ],
+      "content_height_pt": 135.55
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.31",
+        "1.32",
+        "1.33"
+      ],
+      "content_height_pt": 405.3
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.34",
+        "1.35",
+        "1.36"
+      ],
+      "content_height_pt": 172.16
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.37",
+        "1.38",
+        "1.39"
+      ],
+      "content_height_pt": 286.38
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.40"
+      ],
+      "content_height_pt": 47.82
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.41"
+      ],
+      "content_height_pt": 169.81
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.42",
+        "1.43",
+        "1.44"
+      ],
+      "content_height_pt": 217.88
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.45",
+        "1.46",
+        "1.47"
+      ],
+      "content_height_pt": 215.01
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.48",
+        "1.49",
+        "1.50"
+      ],
+      "content_height_pt": 171.81
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.51",
+        "1.52",
+        "1.53"
+      ],
+      "content_height_pt": 253.94
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.54",
+        "1.55",
+        "1.56"
+      ],
+      "content_height_pt": 265.18
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.57",
+        "1.58",
+        "1.59"
+      ],
+      "content_height_pt": 307.92
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.60",
+        "1.61",
+        "1.62"
+      ],
+      "content_height_pt": 232.84
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.63",
+        "1.64",
+        "1.65"
+      ],
+      "content_height_pt": 258.25
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.66",
+        "1.67",
+        "1.68"
+      ],
+      "content_height_pt": 334.25
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.69",
+        "1.70",
+        "1.71"
+      ],
+      "content_height_pt": 244.99
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.72",
+        "1.73",
+        "1.74"
+      ],
+      "content_height_pt": 225.42
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.75",
+        "1.76",
+        "1.77"
+      ],
+      "content_height_pt": 281.36
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.78",
+        "1.79",
+        "1.80"
+      ],
+      "content_height_pt": 119.57
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.81",
+        "1.82",
+        "1.83"
+      ],
+      "content_height_pt": 122.09
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.84",
+        "1.85",
+        "1.86"
+      ],
+      "content_height_pt": 181.87
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.87",
+        "1.88",
+        "1.89"
+      ],
+      "content_height_pt": 164.81
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.90",
+        "1.91",
+        "1.92"
+      ],
+      "content_height_pt": 182.47
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.93",
+        "1.94",
+        "1.95"
+      ],
+      "content_height_pt": 293.04
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.96",
+        "1.97",
+        "1.98"
+      ],
+      "content_height_pt": 298.64
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.99",
+        "1.100",
+        "1.101"
+      ],
+      "content_height_pt": 170.98
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.102",
+        "1.103",
+        "1.104"
+      ],
+      "content_height_pt": 295.03
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.105",
+        "1.106",
+        "1.107"
+      ],
+      "content_height_pt": 232.52
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.108",
+        "1.109",
+        "1.110"
+      ],
+      "content_height_pt": 289.46
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.111",
+        "1.112",
+        "1.113"
+      ],
+      "content_height_pt": 120.46
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.114",
+        "1.115",
+        "1.116"
+      ],
+      "content_height_pt": 279.95
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.117",
+        "1.118",
+        "1.119"
+      ],
+      "content_height_pt": 187.81
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.120",
+        "1.121",
+        "1.122"
+      ],
+      "content_height_pt": 119.57
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.123",
+        "1.124",
+        "1.125"
+      ],
+      "content_height_pt": 250.81
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.126",
+        "1.127",
+        "1.128"
+      ],
+      "content_height_pt": 144.04
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.129",
+        "1.130",
+        "1.131"
+      ],
+      "content_height_pt": 255.96
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.132",
+        "1.133",
+        "1.134"
+      ],
+      "content_height_pt": 117.29
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.135",
+        "1.136",
+        "1.137"
+      ],
+      "content_height_pt": 166.42
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.138",
+        "1.139",
+        "1.140"
+      ],
+      "content_height_pt": 283.93
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.141",
+        "1.142",
+        "1.143"
+      ],
+      "content_height_pt": 309.15
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.144",
+        "1.145",
+        "1.146"
+      ],
+      "content_height_pt": 360.69
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.147",
+        "1.148",
+        "1.149"
+      ],
+      "content_height_pt": 188.95
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.150",
+        "1.151",
+        "1.152"
+      ],
+      "content_height_pt": 369.14
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.153",
+        "1.154",
+        "1.155"
+      ],
+      "content_height_pt": 167.55
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.156",
+        "1.157",
+        "1.158"
+      ],
+      "content_height_pt": 269.77
+    },
+    {
+      "chapter": 1,
+      "problems": [
+        "1.159",
+        "1.160",
+        "1.161"
+      ],
+      "content_height_pt": 230.14
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.1",
+        "2.2",
+        "2.3"
+      ],
+      "content_height_pt": 198.52
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.4",
+        "2.5",
+        "2.6"
+      ],
+      "content_height_pt": 209.71
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.7",
+        "2.8",
+        "2.9"
+      ],
+      "content_height_pt": 203.52
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.10",
+        "2.11",
+        "2.12"
+      ],
+      "content_height_pt": 185.19
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.13",
+        "2.14",
+        "2.15"
+      ],
+      "content_height_pt": 150.02
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.16",
+        "2.17",
+        "2.18"
+      ],
+      "content_height_pt": 215.03
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.19",
+        "2.20",
+        "2.21"
+      ],
+      "content_height_pt": 139.78
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.22",
+        "2.23",
+        "2.24"
+      ],
+      "content_height_pt": 370.16
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.25",
+        "2.26",
+        "2.27"
+      ],
+      "content_height_pt": 240.04
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.28",
+        "2.29",
+        "2.30"
+      ],
+      "content_height_pt": 196.25
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.31",
+        "2.32",
+        "2.33"
+      ],
+      "content_height_pt": 181.93
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.34",
+        "2.35",
+        "2.36"
+      ],
+      "content_height_pt": 162.91
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.37",
+        "2.38",
+        "2.39"
+      ],
+      "content_height_pt": 237.8
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.40",
+        "2.41",
+        "2.42"
+      ],
+      "content_height_pt": 119.26
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.43",
+        "2.44",
+        "2.45"
+      ],
+      "content_height_pt": 177.92
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.46",
+        "2.47",
+        "2.48"
+      ],
+      "content_height_pt": 159.58
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.49",
+        "2.50",
+        "2.51"
+      ],
+      "content_height_pt": 187.28
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.52",
+        "2.53",
+        "2.54"
+      ],
+      "content_height_pt": 261.66
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.55",
+        "2.56",
+        "2.57"
+      ],
+      "content_height_pt": 203.52
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.58",
+        "2.59",
+        "2.60"
+      ],
+      "content_height_pt": 216.2
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.61",
+        "2.62",
+        "2.63"
+      ],
+      "content_height_pt": 307.25
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.64",
+        "2.65",
+        "2.66"
+      ],
+      "content_height_pt": 305.89
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.67",
+        "2.68",
+        "2.69"
+      ],
+      "content_height_pt": 214.95
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.70",
+        "2.71",
+        "2.72"
+      ],
+      "content_height_pt": 167.8
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.73",
+        "2.74",
+        "2.75"
+      ],
+      "content_height_pt": 133.94
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.76",
+        "2.77",
+        "2.78"
+      ],
+      "content_height_pt": 281.58
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.79",
+        "2.80",
+        "2.81"
+      ],
+      "content_height_pt": 117.79
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.82",
+        "2.83",
+        "2.84"
+      ],
+      "content_height_pt": 228.81
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.85",
+        "2.86",
+        "2.87"
+      ],
+      "content_height_pt": 152.01
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.88",
+        "2.89",
+        "2.90"
+      ],
+      "content_height_pt": 134.4
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.91",
+        "2.92",
+        "2.93"
+      ],
+      "content_height_pt": 366.49
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.94",
+        "2.95",
+        "2.96"
+      ],
+      "content_height_pt": 357.49
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.97",
+        "2.98",
+        "2.99"
+      ],
+      "content_height_pt": 359.77
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.100",
+        "2.101",
+        "2.102"
+      ],
+      "content_height_pt": 217.76
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.103",
+        "2.104",
+        "2.105"
+      ],
+      "content_height_pt": 118.11
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.106",
+        "2.107",
+        "2.108"
+      ],
+      "content_height_pt": 273.37
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.109",
+        "2.110",
+        "2.111"
+      ],
+      "content_height_pt": 377.44
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.112",
+        "2.113",
+        "2.114"
+      ],
+      "content_height_pt": 281.89
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.115",
+        "2.116",
+        "2.117"
+      ],
+      "content_height_pt": 134.4
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.118",
+        "2.119",
+        "2.120"
+      ],
+      "content_height_pt": 133.57
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.121",
+        "2.122",
+        "2.123"
+      ],
+      "content_height_pt": 247.61
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.124",
+        "2.125",
+        "2.126"
+      ],
+      "content_height_pt": 151.36
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.127",
+        "2.128",
+        "2.129"
+      ],
+      "content_height_pt": 239.27
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.130",
+        "2.131",
+        "2.132"
+      ],
+      "content_height_pt": 287.63
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.133",
+        "2.134",
+        "2.135"
+      ],
+      "content_height_pt": 354.46
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.136",
+        "2.137",
+        "2.138"
+      ],
+      "content_height_pt": 285.03
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.139",
+        "2.140",
+        "2.141"
+      ],
+      "content_height_pt": 163.2
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.142",
+        "2.143",
+        "2.144"
+      ],
+      "content_height_pt": 187.14
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.145",
+        "2.146",
+        "2.147"
+      ],
+      "content_height_pt": 169.27
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.148",
+        "2.149",
+        "2.150"
+      ],
+      "content_height_pt": 151.51
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.151",
+        "2.152",
+        "2.153"
+      ],
+      "content_height_pt": 132.99
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.154",
+        "2.155",
+        "2.156"
+      ],
+      "content_height_pt": 149.66
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.157",
+        "2.158",
+        "2.159"
+      ],
+      "content_height_pt": 134.4
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.160",
+        "2.161",
+        "2.162"
+      ],
+      "content_height_pt": 197.58
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.163",
+        "2.164",
+        "2.165"
+      ],
+      "content_height_pt": 180.62
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.166",
+        "2.167",
+        "2.168"
+      ],
+      "content_height_pt": 166.54
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.169",
+        "2.170",
+        "2.171"
+      ],
+      "content_height_pt": 229.6
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.172",
+        "2.173",
+        "2.174"
+      ],
+      "content_height_pt": 315.53
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.175"
+      ],
+      "content_height_pt": 190.22
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.176"
+      ],
+      "content_height_pt": 327.01
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.177",
+        "2.178",
+        "2.179"
+      ],
+      "content_height_pt": 201.14
+    },
+    {
+      "chapter": 2,
+      "problems": [
+        "2.180"
+      ],
+      "content_height_pt": 56.21
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "content_height_pt": 184.96
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "content_height_pt": 127.65
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.7",
+        "3.8",
+        "3.9"
+      ],
+      "content_height_pt": 207.25
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.10",
+        "3.11",
+        "3.12"
+      ],
+      "content_height_pt": 146.69
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.13",
+        "3.14",
+        "3.15"
+      ],
+      "content_height_pt": 151.36
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.16",
+        "3.17",
+        "3.18"
+      ],
+      "content_height_pt": 133.67
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.19",
+        "3.20",
+        "3.21"
+      ],
+      "content_height_pt": 117.29
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.22",
+        "3.23",
+        "3.24"
+      ],
+      "content_height_pt": 116.5
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.25",
+        "3.26",
+        "3.27"
+      ],
+      "content_height_pt": 125.12
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.28",
+        "3.29",
+        "3.30"
+      ],
+      "content_height_pt": 181.66
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.31"
+      ],
+      "content_height_pt": 244.82
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.32",
+        "3.33",
+        "3.34"
+      ],
+      "content_height_pt": 326.07
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.35",
+        "3.36",
+        "3.37"
+      ],
+      "content_height_pt": 325.64
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.38",
+        "3.39",
+        "3.40"
+      ],
+      "content_height_pt": 329.02
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.41",
+        "3.42",
+        "3.43"
+      ],
+      "content_height_pt": 302.69
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.44",
+        "3.45",
+        "3.46"
+      ],
+      "content_height_pt": 179.35
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.47",
+        "3.48",
+        "3.49"
+      ],
+      "content_height_pt": 149.29
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.50",
+        "3.51",
+        "3.52"
+      ],
+      "content_height_pt": 197.55
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.53",
+        "3.54",
+        "3.55"
+      ],
+      "content_height_pt": 125.85
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.56",
+        "3.57",
+        "3.58"
+      ],
+      "content_height_pt": 117.21
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.59",
+        "3.60",
+        "3.61"
+      ],
+      "content_height_pt": 254.68
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.62",
+        "3.63",
+        "3.64"
+      ],
+      "content_height_pt": 277.86
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.65",
+        "3.66",
+        "3.67"
+      ],
+      "content_height_pt": 245.03
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.68",
+        "3.69",
+        "3.70"
+      ],
+      "content_height_pt": 185.34
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.71",
+        "3.72",
+        "3.73"
+      ],
+      "content_height_pt": 135.6
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.74",
+        "3.75",
+        "3.76"
+      ],
+      "content_height_pt": 133.44
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.77",
+        "3.78",
+        "3.79"
+      ],
+      "content_height_pt": 144.09
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.80",
+        "3.81",
+        "3.82"
+      ],
+      "content_height_pt": 142.69
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.83",
+        "3.84",
+        "3.85"
+      ],
+      "content_height_pt": 246.02
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.86",
+        "3.87",
+        "3.88"
+      ],
+      "content_height_pt": 136.81
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.89",
+        "3.90",
+        "3.91"
+      ],
+      "content_height_pt": 156.65
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.92",
+        "3.93",
+        "3.94"
+      ],
+      "content_height_pt": 186.28
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.95",
+        "3.96",
+        "3.97"
+      ],
+      "content_height_pt": 166.41
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.98",
+        "3.99",
+        "3.100"
+      ],
+      "content_height_pt": 163.08
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.101",
+        "3.102",
+        "3.103"
+      ],
+      "content_height_pt": 117.29
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.104",
+        "3.105",
+        "3.106"
+      ],
+      "content_height_pt": 420.65
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.107",
+        "3.108",
+        "3.109"
+      ],
+      "content_height_pt": 322.04
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.110",
+        "3.111",
+        "3.112"
+      ],
+      "content_height_pt": 256.37
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.113",
+        "3.114",
+        "3.115"
+      ],
+      "content_height_pt": 149.92
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.116",
+        "3.117",
+        "3.118"
+      ],
+      "content_height_pt": 203.73
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.119",
+        "3.120",
+        "3.121"
+      ],
+      "content_height_pt": 211.94
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.122",
+        "3.123",
+        "3.124"
+      ],
+      "content_height_pt": 166.16
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.125",
+        "3.126",
+        "3.127"
+      ],
+      "content_height_pt": 149.99
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.128",
+        "3.129",
+        "3.130"
+      ],
+      "content_height_pt": 307.52
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.131",
+        "3.132",
+        "3.133"
+      ],
+      "content_height_pt": 116.48
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.134",
+        "3.135",
+        "3.136"
+      ],
+      "content_height_pt": 237.28
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.137",
+        "3.138",
+        "3.139"
+      ],
+      "content_height_pt": 202.17
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.140",
+        "3.141",
+        "3.142"
+      ],
+      "content_height_pt": 211.93
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.143",
+        "3.144",
+        "3.145"
+      ],
+      "content_height_pt": 150.75
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.146",
+        "3.147",
+        "3.148"
+      ],
+      "content_height_pt": 157.05
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.149",
+        "3.150",
+        "3.151"
+      ],
+      "content_height_pt": 117.49
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.152",
+        "3.153",
+        "3.154"
+      ],
+      "content_height_pt": 301.5
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.155",
+        "3.156",
+        "3.157"
+      ],
+      "content_height_pt": 331.53
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.158",
+        "3.159",
+        "3.160"
+      ],
+      "content_height_pt": 156.29
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.161",
+        "3.162",
+        "3.163"
+      ],
+      "content_height_pt": 146.47
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.164",
+        "3.165",
+        "3.166"
+      ],
+      "content_height_pt": 198.69
+    },
+    {
+      "chapter": 3,
+      "problems": [
+        "3.167",
+        "3.168"
+      ],
+      "content_height_pt": 193.14
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "content_height_pt": 134.24
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "content_height_pt": 210.33
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.7",
+        "4.8",
+        "4.9"
+      ],
+      "content_height_pt": 325.28
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.10",
+        "4.11",
+        "4.12"
+      ],
+      "content_height_pt": 301.57
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.13",
+        "4.14",
+        "4.15"
+      ],
+      "content_height_pt": 302.09
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.16",
+        "4.17",
+        "4.18"
+      ],
+      "content_height_pt": 139.86
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.19",
+        "4.20",
+        "4.21"
+      ],
+      "content_height_pt": 134.74
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.22",
+        "4.23",
+        "4.24"
+      ],
+      "content_height_pt": 125.56
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.25",
+        "4.26",
+        "4.27"
+      ],
+      "content_height_pt": 136.51
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.28",
+        "4.29",
+        "4.30"
+      ],
+      "content_height_pt": 259.67
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.31",
+        "4.32",
+        "4.33"
+      ],
+      "content_height_pt": 146.47
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.34",
+        "4.35",
+        "4.36"
+      ],
+      "content_height_pt": 127.94
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.37",
+        "4.38",
+        "4.39"
+      ],
+      "content_height_pt": 168.29
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.40",
+        "4.41",
+        "4.42"
+      ],
+      "content_height_pt": 151.4
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.43",
+        "4.44",
+        "4.45"
+      ],
+      "content_height_pt": 167.76
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.46",
+        "4.47",
+        "4.48"
+      ],
+      "content_height_pt": 231.87
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.49",
+        "4.50",
+        "4.51"
+      ],
+      "content_height_pt": 249.95
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.52",
+        "4.53",
+        "4.54"
+      ],
+      "content_height_pt": 226.36
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.55",
+        "4.56",
+        "4.57"
+      ],
+      "content_height_pt": 237.58
+    },
+    {
+      "chapter": 4,
+      "problems": [
+        "4.58",
+        "4.59"
+      ],
+      "content_height_pt": 95.64
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.1",
+        "5.2",
+        "5.3"
+      ],
+      "content_height_pt": 425.85
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.4",
+        "5.5",
+        "5.6"
+      ],
+      "content_height_pt": 287.51
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.7",
+        "5.8",
+        "5.9"
+      ],
+      "content_height_pt": 165.51
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.10",
+        "5.11",
+        "5.12"
+      ],
+      "content_height_pt": 165.51
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.13",
+        "5.14",
+        "5.15"
+      ],
+      "content_height_pt": 119.29
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.16",
+        "5.17",
+        "5.18"
+      ],
+      "content_height_pt": 127.7
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.19",
+        "5.20",
+        "5.21"
+      ],
+      "content_height_pt": 130.71
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.22",
+        "5.23",
+        "5.24"
+      ],
+      "content_height_pt": 418.24
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.25",
+        "5.26",
+        "5.27"
+      ],
+      "content_height_pt": 234.56
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.28",
+        "5.29",
+        "5.30"
+      ],
+      "content_height_pt": 332.41
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.31",
+        "5.32",
+        "5.33"
+      ],
+      "content_height_pt": 328.83
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.34",
+        "5.35",
+        "5.36"
+      ],
+      "content_height_pt": 336.75
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.37",
+        "5.38",
+        "5.39"
+      ],
+      "content_height_pt": 260.88
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.40",
+        "5.41",
+        "5.42"
+      ],
+      "content_height_pt": 312.12
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.43",
+        "5.44",
+        "5.45"
+      ],
+      "content_height_pt": 141.8
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.46",
+        "5.47",
+        "5.48"
+      ],
+      "content_height_pt": 145.86
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.49",
+        "5.50",
+        "5.51"
+      ],
+      "content_height_pt": 427.91
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.52",
+        "5.53",
+        "5.54"
+      ],
+      "content_height_pt": 299.13
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.55",
+        "5.56",
+        "5.57"
+      ],
+      "content_height_pt": 150.22
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.58",
+        "5.59",
+        "5.60"
+      ],
+      "content_height_pt": 213.48
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.61",
+        "5.62",
+        "5.63"
+      ],
+      "content_height_pt": 308.57
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.64",
+        "5.65",
+        "5.66"
+      ],
+      "content_height_pt": 347.0
+    },
+    {
+      "chapter": 5,
+      "problems": [
+        "5.67"
+      ],
+      "content_height_pt": 135.58
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.1",
+        "6.2",
+        "6.3"
+      ],
+      "content_height_pt": 167.38
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.4",
+        "6.5",
+        "6.6"
+      ],
+      "content_height_pt": 213.23
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.7",
+        "6.8",
+        "6.9"
+      ],
+      "content_height_pt": 191.16
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.10",
+        "6.11",
+        "6.12"
+      ],
+      "content_height_pt": 180.69
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.13",
+        "6.14",
+        "6.15"
+      ],
+      "content_height_pt": 263.57
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.16",
+        "6.17",
+        "6.18"
+      ],
+      "content_height_pt": 330.57
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.19",
+        "6.20",
+        "6.21"
+      ],
+      "content_height_pt": 233.72
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.22",
+        "6.23",
+        "6.24"
+      ],
+      "content_height_pt": 135.9
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.25",
+        "6.26",
+        "6.27"
+      ],
+      "content_height_pt": 169.01
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.28",
+        "6.29",
+        "6.30"
+      ],
+      "content_height_pt": 247.11
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.31",
+        "6.32",
+        "6.33"
+      ],
+      "content_height_pt": 156.7
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.34",
+        "6.35",
+        "6.36"
+      ],
+      "content_height_pt": 190.0
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.37",
+        "6.38",
+        "6.39"
+      ],
+      "content_height_pt": 152.88
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.40",
+        "6.41",
+        "6.42"
+      ],
+      "content_height_pt": 174.95
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.43",
+        "6.44",
+        "6.45"
+      ],
+      "content_height_pt": 230.34
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.46",
+        "6.47",
+        "6.48"
+      ],
+      "content_height_pt": 165.49
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.49",
+        "6.50",
+        "6.51"
+      ],
+      "content_height_pt": 127.92
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.52",
+        "6.53",
+        "6.54"
+      ],
+      "content_height_pt": 119.62
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.55",
+        "6.56",
+        "6.57"
+      ],
+      "content_height_pt": 136.73
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.58",
+        "6.59",
+        "6.60"
+      ],
+      "content_height_pt": 167.01
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.61",
+        "6.62",
+        "6.63"
+      ],
+      "content_height_pt": 136.73
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.64",
+        "6.65",
+        "6.66"
+      ],
+      "content_height_pt": 339.95
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.67",
+        "6.68",
+        "6.69"
+      ],
+      "content_height_pt": 201.05
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.70",
+        "6.71",
+        "6.72"
+      ],
+      "content_height_pt": 235.64
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.73",
+        "6.74",
+        "6.75"
+      ],
+      "content_height_pt": 138.73
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.76",
+        "6.77",
+        "6.78"
+      ],
+      "content_height_pt": 175.17
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.79",
+        "6.80",
+        "6.81"
+      ],
+      "content_height_pt": 211.31
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.82",
+        "6.83",
+        "6.84"
+      ],
+      "content_height_pt": 265.51
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.85",
+        "6.86",
+        "6.87"
+      ],
+      "content_height_pt": 167.77
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.88",
+        "6.89",
+        "6.90"
+      ],
+      "content_height_pt": 172.12
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.91",
+        "6.92",
+        "6.93"
+      ],
+      "content_height_pt": 191.72
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.94",
+        "6.95",
+        "6.96"
+      ],
+      "content_height_pt": 166.36
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.97",
+        "6.98",
+        "6.99"
+      ],
+      "content_height_pt": 284.36
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.100",
+        "6.101",
+        "6.102"
+      ],
+      "content_height_pt": 133.27
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.103",
+        "6.104",
+        "6.105"
+      ],
+      "content_height_pt": 170.22
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.106",
+        "6.107",
+        "6.108"
+      ],
+      "content_height_pt": 167.01
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.109",
+        "6.110",
+        "6.111"
+      ],
+      "content_height_pt": 133.4
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.112",
+        "6.113",
+        "6.114"
+      ],
+      "content_height_pt": 197.03
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.115",
+        "6.116",
+        "6.117"
+      ],
+      "content_height_pt": 388.15
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.118",
+        "6.119",
+        "6.120"
+      ],
+      "content_height_pt": 318.33
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.121",
+        "6.122",
+        "6.123"
+      ],
+      "content_height_pt": 171.23
+    },
+    {
+      "chapter": 6,
+      "problems": [
+        "6.124",
+        "6.125",
+        "6.126"
+      ],
+      "content_height_pt": 250.28
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.1",
+        "7.2",
+        "7.3"
+      ],
+      "content_height_pt": 116.02
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.4",
+        "7.5",
+        "7.6"
+      ],
+      "content_height_pt": 116.69
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.7",
+        "7.8",
+        "7.9"
+      ],
+      "content_height_pt": 115.76
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.10",
+        "7.11",
+        "7.12"
+      ],
+      "content_height_pt": 301.57
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.13",
+        "7.14",
+        "7.15"
+      ],
+      "content_height_pt": 301.57
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.16",
+        "7.17",
+        "7.18"
+      ],
+      "content_height_pt": 202.53
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.19",
+        "7.20",
+        "7.21"
+      ],
+      "content_height_pt": 183.33
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.22",
+        "7.23",
+        "7.24"
+      ],
+      "content_height_pt": 166.6
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.25",
+        "7.26",
+        "7.27"
+      ],
+      "content_height_pt": 230.97
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.28",
+        "7.29",
+        "7.30"
+      ],
+      "content_height_pt": 120.49
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.31",
+        "7.32",
+        "7.33"
+      ],
+      "content_height_pt": 248.74
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.34",
+        "7.35",
+        "7.36"
+      ],
+      "content_height_pt": 265.24
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.37",
+        "7.38",
+        "7.39"
+      ],
+      "content_height_pt": 247.69
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.40",
+        "7.41",
+        "7.42"
+      ],
+      "content_height_pt": 193.93
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.43",
+        "7.44",
+        "7.45"
+      ],
+      "content_height_pt": 200.54
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.46",
+        "7.47",
+        "7.48"
+      ],
+      "content_height_pt": 147.59
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.49",
+        "7.50",
+        "7.51"
+      ],
+      "content_height_pt": 177.55
+    },
+    {
+      "chapter": 7,
+      "problems": [
+        "7.52",
+        "7.53",
+        "7.54"
+      ],
+      "content_height_pt": 143.21
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.1",
+        "8.2",
+        "8.3"
+      ],
+      "content_height_pt": 134.4
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.4",
+        "8.5",
+        "8.6"
+      ],
+      "content_height_pt": 144.62
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.7",
+        "8.8",
+        "8.9"
+      ],
+      "content_height_pt": 117.81
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.10",
+        "8.11",
+        "8.12"
+      ],
+      "content_height_pt": 115.26
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.13",
+        "8.14",
+        "8.15"
+      ],
+      "content_height_pt": 117.96
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.16",
+        "8.17",
+        "8.18"
+      ],
+      "content_height_pt": 180.24
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.19",
+        "8.20",
+        "8.21"
+      ],
+      "content_height_pt": 117.3
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.22",
+        "8.23",
+        "8.24"
+      ],
+      "content_height_pt": 118.16
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.25",
+        "8.26",
+        "8.27"
+      ],
+      "content_height_pt": 118.03
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.28",
+        "8.29",
+        "8.30"
+      ],
+      "content_height_pt": 186.02
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.31",
+        "8.32",
+        "8.33"
+      ],
+      "content_height_pt": 135.41
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.34",
+        "8.35",
+        "8.36"
+      ],
+      "content_height_pt": 256.86
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.37",
+        "8.38",
+        "8.39"
+      ],
+      "content_height_pt": 161.98
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.40",
+        "8.41",
+        "8.42"
+      ],
+      "content_height_pt": 114.98
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.43",
+        "8.44",
+        "8.45"
+      ],
+      "content_height_pt": 133.42
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.46",
+        "8.47",
+        "8.48"
+      ],
+      "content_height_pt": 169.31
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.49",
+        "8.50",
+        "8.51"
+      ],
+      "content_height_pt": 149.99
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.52",
+        "8.53",
+        "8.54"
+      ],
+      "content_height_pt": 131.79
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.55",
+        "8.56",
+        "8.57"
+      ],
+      "content_height_pt": 135.79
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.58",
+        "8.59",
+        "8.60"
+      ],
+      "content_height_pt": 187.14
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.61",
+        "8.62",
+        "8.63"
+      ],
+      "content_height_pt": 302.17
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.64",
+        "8.65",
+        "8.66"
+      ],
+      "content_height_pt": 324.12
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.67",
+        "8.68",
+        "8.69"
+      ],
+      "content_height_pt": 307.56
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.70",
+        "8.71",
+        "8.72"
+      ],
+      "content_height_pt": 133.92
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.73",
+        "8.74",
+        "8.75"
+      ],
+      "content_height_pt": 135.22
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.76",
+        "8.77",
+        "8.78"
+      ],
+      "content_height_pt": 134.1
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.79",
+        "8.80",
+        "8.81"
+      ],
+      "content_height_pt": 189.04
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.82",
+        "8.83",
+        "8.84"
+      ],
+      "content_height_pt": 301.24
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.85",
+        "8.86",
+        "8.87"
+      ],
+      "content_height_pt": 233.88
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.88",
+        "8.89",
+        "8.90"
+      ],
+      "content_height_pt": 151.51
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.91",
+        "8.92",
+        "8.93"
+      ],
+      "content_height_pt": 150.68
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.94",
+        "8.95",
+        "8.96"
+      ],
+      "content_height_pt": 202.53
+    },
+    {
+      "chapter": 8,
+      "problems": [
+        "8.97",
+        "8.98"
+      ],
+      "content_height_pt": 78.19
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.1",
+        "9.2",
+        "9.3"
+      ],
+      "content_height_pt": 177.96
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.4",
+        "9.5",
+        "9.6"
+      ],
+      "content_height_pt": 225.87
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.7",
+        "9.8",
+        "9.9"
+      ],
+      "content_height_pt": 271.99
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.10",
+        "9.11",
+        "9.12"
+      ],
+      "content_height_pt": 324.68
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.13",
+        "9.14",
+        "9.15"
+      ],
+      "content_height_pt": 174.35
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.16",
+        "9.17",
+        "9.18"
+      ],
+      "content_height_pt": 164.0
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.19",
+        "9.20",
+        "9.21"
+      ],
+      "content_height_pt": 279.56
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.22",
+        "9.23",
+        "9.24"
+      ],
+      "content_height_pt": 200.31
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.25",
+        "9.26",
+        "9.27"
+      ],
+      "content_height_pt": 273.06
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.28",
+        "9.29",
+        "9.30"
+      ],
+      "content_height_pt": 227.36
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.31",
+        "9.32",
+        "9.33"
+      ],
+      "content_height_pt": 203.06
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.34",
+        "9.35",
+        "9.36"
+      ],
+      "content_height_pt": 150.19
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.37",
+        "9.38",
+        "9.39"
+      ],
+      "content_height_pt": 136.28
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.40",
+        "9.41",
+        "9.42"
+      ],
+      "content_height_pt": 118.36
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.43",
+        "9.44",
+        "9.45"
+      ],
+      "content_height_pt": 187.04
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.46",
+        "9.47",
+        "9.48"
+      ],
+      "content_height_pt": 223.24
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.49",
+        "9.50",
+        "9.51"
+      ],
+      "content_height_pt": 169.33
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.52",
+        "9.53",
+        "9.54"
+      ],
+      "content_height_pt": 134.75
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.55",
+        "9.56",
+        "9.57"
+      ],
+      "content_height_pt": 197.07
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.58",
+        "9.59",
+        "9.60"
+      ],
+      "content_height_pt": 197.48
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.61",
+        "9.62",
+        "9.63"
+      ],
+      "content_height_pt": 133.44
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.64",
+        "9.65",
+        "9.66"
+      ],
+      "content_height_pt": 202.94
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.67",
+        "9.68",
+        "9.69"
+      ],
+      "content_height_pt": 209.13
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.70",
+        "9.71",
+        "9.72"
+      ],
+      "content_height_pt": 209.06
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.73",
+        "9.74",
+        "9.75"
+      ],
+      "content_height_pt": 149.26
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.76",
+        "9.77",
+        "9.78"
+      ],
+      "content_height_pt": 150.33
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.79",
+        "9.80",
+        "9.81"
+      ],
+      "content_height_pt": 167.29
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.82",
+        "9.83",
+        "9.84"
+      ],
+      "content_height_pt": 220.81
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.85",
+        "9.86",
+        "9.87"
+      ],
+      "content_height_pt": 168.11
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.88",
+        "9.89",
+        "9.90"
+      ],
+      "content_height_pt": 135.11
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.91",
+        "9.92",
+        "9.93"
+      ],
+      "content_height_pt": 277.26
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.94",
+        "9.95",
+        "9.96"
+      ],
+      "content_height_pt": 184.68
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.97",
+        "9.98",
+        "9.99"
+      ],
+      "content_height_pt": 169.49
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.100",
+        "9.101",
+        "9.102"
+      ],
+      "content_height_pt": 151.87
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.103",
+        "9.104",
+        "9.105"
+      ],
+      "content_height_pt": 163.51
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.106",
+        "9.107",
+        "9.108"
+      ],
+      "content_height_pt": 183.77
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.109",
+        "9.110",
+        "9.111"
+      ],
+      "content_height_pt": 273.58
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.112",
+        "9.113",
+        "9.114"
+      ],
+      "content_height_pt": 150.23
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.115",
+        "9.116",
+        "9.117"
+      ],
+      "content_height_pt": 187.76
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.118",
+        "9.119",
+        "9.120"
+      ],
+      "content_height_pt": 278.46
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.121",
+        "9.122",
+        "9.123"
+      ],
+      "content_height_pt": 163.87
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.124",
+        "9.125",
+        "9.126"
+      ],
+      "content_height_pt": 205.96
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.127",
+        "9.128",
+        "9.129"
+      ],
+      "content_height_pt": 169.02
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.130",
+        "9.131",
+        "9.132"
+      ],
+      "content_height_pt": 197.71
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.133",
+        "9.134",
+        "9.135"
+      ],
+      "content_height_pt": 134.72
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.136",
+        "9.137",
+        "9.138"
+      ],
+      "content_height_pt": 152.39
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.139",
+        "9.140",
+        "9.141"
+      ],
+      "content_height_pt": 203.52
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.142",
+        "9.143",
+        "9.144"
+      ],
+      "content_height_pt": 273.58
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.145",
+        "9.146",
+        "9.147"
+      ],
+      "content_height_pt": 134.39
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.148",
+        "9.149",
+        "9.150"
+      ],
+      "content_height_pt": 196.8
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.151",
+        "9.152",
+        "9.153"
+      ],
+      "content_height_pt": 219.87
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.154",
+        "9.155",
+        "9.156"
+      ],
+      "content_height_pt": 207.98
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.157",
+        "9.158",
+        "9.159"
+      ],
+      "content_height_pt": 254.15
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.160",
+        "9.161",
+        "9.162"
+      ],
+      "content_height_pt": 133.56
+    },
+    {
+      "chapter": 9,
+      "problems": [
+        "9.163",
+        "9.164"
+      ],
+      "content_height_pt": 123.0
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.1",
+        "10.2",
+        "10.3"
+      ],
+      "content_height_pt": 206.68
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.4",
+        "10.5",
+        "10.6"
+      ],
+      "content_height_pt": 213.19
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.7",
+        "10.8",
+        "10.9"
+      ],
+      "content_height_pt": 133.26
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.10",
+        "10.11",
+        "10.12"
+      ],
+      "content_height_pt": 210.6
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.13",
+        "10.14",
+        "10.15"
+      ],
+      "content_height_pt": 133.05
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.16",
+        "10.17",
+        "10.18"
+      ],
+      "content_height_pt": 134.04
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.19",
+        "10.20",
+        "10.21"
+      ],
+      "content_height_pt": 223.46
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.22",
+        "10.23",
+        "10.24"
+      ],
+      "content_height_pt": 168.54
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.25",
+        "10.26",
+        "10.27"
+      ],
+      "content_height_pt": 149.11
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.28",
+        "10.29",
+        "10.30"
+      ],
+      "content_height_pt": 297.29
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.31",
+        "10.32",
+        "10.33"
+      ],
+      "content_height_pt": 427.73
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.34",
+        "10.35",
+        "10.36"
+      ],
+      "content_height_pt": 271.0
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.37",
+        "10.38",
+        "10.39"
+      ],
+      "content_height_pt": 170.59
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.40",
+        "10.41",
+        "10.42"
+      ],
+      "content_height_pt": 366.53
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.43",
+        "10.44",
+        "10.45"
+      ],
+      "content_height_pt": 132.27
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.46",
+        "10.47",
+        "10.48"
+      ],
+      "content_height_pt": 402.89
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.49",
+        "10.50",
+        "10.51"
+      ],
+      "content_height_pt": 372.06
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.52",
+        "10.53",
+        "10.54"
+      ],
+      "content_height_pt": 229.03
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.55",
+        "10.56",
+        "10.57"
+      ],
+      "content_height_pt": 236.12
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.58",
+        "10.59",
+        "10.60"
+      ],
+      "content_height_pt": 177.98
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.61",
+        "10.62",
+        "10.63"
+      ],
+      "content_height_pt": 221.58
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.64",
+        "10.65",
+        "10.66"
+      ],
+      "content_height_pt": 256.03
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.67",
+        "10.68",
+        "10.69"
+      ],
+      "content_height_pt": 262.65
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.70",
+        "10.71",
+        "10.72"
+      ],
+      "content_height_pt": 242.79
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.73",
+        "10.74",
+        "10.75"
+      ],
+      "content_height_pt": 272.19
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.76",
+        "10.77",
+        "10.78"
+      ],
+      "content_height_pt": 235.17
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.79",
+        "10.80",
+        "10.81"
+      ],
+      "content_height_pt": 318.35
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.82",
+        "10.83",
+        "10.84"
+      ],
+      "content_height_pt": 371.09
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.85",
+        "10.86",
+        "10.87"
+      ],
+      "content_height_pt": 251.14
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.88",
+        "10.89",
+        "10.90"
+      ],
+      "content_height_pt": 306.89
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.91",
+        "10.92",
+        "10.93"
+      ],
+      "content_height_pt": 248.11
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.94",
+        "10.95",
+        "10.96"
+      ],
+      "content_height_pt": 307.42
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.97",
+        "10.98",
+        "10.99"
+      ],
+      "content_height_pt": 249.2
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.100",
+        "10.101",
+        "10.102"
+      ],
+      "content_height_pt": 182.99
+    },
+    {
+      "chapter": 10,
+      "problems": [
+        "10.103",
+        "10.104"
+      ],
+      "content_height_pt": 128.71
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.1",
+        "11.2",
+        "11.3"
+      ],
+      "content_height_pt": 244.95
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.4",
+        "11.5",
+        "11.6"
+      ],
+      "content_height_pt": 236.45
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.7",
+        "11.8",
+        "11.9"
+      ],
+      "content_height_pt": 297.4
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.10",
+        "11.11",
+        "11.12"
+      ],
+      "content_height_pt": 233.58
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.13",
+        "11.14",
+        "11.15"
+      ],
+      "content_height_pt": 192.92
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.16",
+        "11.17",
+        "11.18"
+      ],
+      "content_height_pt": 316.8
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.19",
+        "11.20",
+        "11.21"
+      ],
+      "content_height_pt": 365.15
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.22",
+        "11.23",
+        "11.24"
+      ],
+      "content_height_pt": 288.27
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.25",
+        "11.26",
+        "11.27"
+      ],
+      "content_height_pt": 280.98
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.28",
+        "11.29",
+        "11.30"
+      ],
+      "content_height_pt": 320.11
+    },
+    {
+      "chapter": 11,
+      "problems": [
+        "11.31",
+        "11.32",
+        "11.33"
+      ],
+      "content_height_pt": 166.67
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.1"
+      ],
+      "content_height_pt": 373.75
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.2",
+        "12.3",
+        "12.4"
+      ],
+      "content_height_pt": 131.98
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.5",
+        "12.6",
+        "12.7"
+      ],
+      "content_height_pt": 314.24
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.8",
+        "12.9",
+        "12.10"
+      ],
+      "content_height_pt": 150.94
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.11",
+        "12.12",
+        "12.13"
+      ],
+      "content_height_pt": 326.75
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.14",
+        "12.15",
+        "12.16"
+      ],
+      "content_height_pt": 384.77
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.17",
+        "12.18",
+        "12.19"
+      ],
+      "content_height_pt": 151.66
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.20",
+        "12.21",
+        "12.22"
+      ],
+      "content_height_pt": 252.01
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.23",
+        "12.24",
+        "12.25"
+      ],
+      "content_height_pt": 269.97
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.26",
+        "12.27",
+        "12.28"
+      ],
+      "content_height_pt": 167.27
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.29",
+        "12.30",
+        "12.31"
+      ],
+      "content_height_pt": 317.97
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.32",
+        "12.33",
+        "12.34"
+      ],
+      "content_height_pt": 251.79
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.35",
+        "12.36",
+        "12.37"
+      ],
+      "content_height_pt": 323.6
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.38",
+        "12.39",
+        "12.40"
+      ],
+      "content_height_pt": 219.88
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.41",
+        "12.42",
+        "12.43"
+      ],
+      "content_height_pt": 162.18
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.44",
+        "12.45",
+        "12.46"
+      ],
+      "content_height_pt": 277.86
+    },
+    {
+      "chapter": 12,
+      "problems": [
+        "12.47",
+        "12.48",
+        "12.49"
+      ],
+      "content_height_pt": 211.16
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.1",
+        "13.2",
+        "13.3"
+      ],
+      "content_height_pt": 185.67
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.4",
+        "13.5",
+        "13.6"
+      ],
+      "content_height_pt": 227.3
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.7",
+        "13.8",
+        "13.9"
+      ],
+      "content_height_pt": 187.48
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.10",
+        "13.11",
+        "13.12"
+      ],
+      "content_height_pt": 168.31
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.13",
+        "13.14",
+        "13.15"
+      ],
+      "content_height_pt": 314.38
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.16",
+        "13.17",
+        "13.18"
+      ],
+      "content_height_pt": 256.14
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.19",
+        "13.20",
+        "13.21"
+      ],
+      "content_height_pt": 208.83
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.22",
+        "13.23",
+        "13.24"
+      ],
+      "content_height_pt": 308.63
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.25",
+        "13.26",
+        "13.27"
+      ],
+      "content_height_pt": 215.36
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.28",
+        "13.29",
+        "13.30"
+      ],
+      "content_height_pt": 263.46
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.31",
+        "13.32",
+        "13.33"
+      ],
+      "content_height_pt": 379.9
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.34",
+        "13.35",
+        "13.36"
+      ],
+      "content_height_pt": 321.18
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.37",
+        "13.38",
+        "13.39"
+      ],
+      "content_height_pt": 218.77
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.40",
+        "13.41",
+        "13.42"
+      ],
+      "content_height_pt": 202.91
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.43",
+        "13.44",
+        "13.45"
+      ],
+      "content_height_pt": 132.17
+    },
+    {
+      "chapter": 13,
+      "problems": [
+        "13.46"
+      ],
+      "content_height_pt": 88.78
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.1",
+        "14.2",
+        "14.3"
+      ],
+      "content_height_pt": 137.18
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.4",
+        "14.5",
+        "14.6"
+      ],
+      "content_height_pt": 153.11
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.7",
+        "14.8",
+        "14.9"
+      ],
+      "content_height_pt": 448.04
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.10",
+        "14.11",
+        "14.12"
+      ],
+      "content_height_pt": 364.53
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.13",
+        "14.14",
+        "14.15"
+      ],
+      "content_height_pt": 284.87
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.16",
+        "14.17",
+        "14.18"
+      ],
+      "content_height_pt": 298.52
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.19",
+        "14.20",
+        "14.21"
+      ],
+      "content_height_pt": 244.78
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.22",
+        "14.23",
+        "14.24"
+      ],
+      "content_height_pt": 238.53
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.25",
+        "14.26",
+        "14.27"
+      ],
+      "content_height_pt": 137.74
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.28",
+        "14.29",
+        "14.30"
+      ],
+      "content_height_pt": 137.74
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.31",
+        "14.32",
+        "14.33"
+      ],
+      "content_height_pt": 259.76
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.34",
+        "14.35",
+        "14.36"
+      ],
+      "content_height_pt": 407.71
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.37",
+        "14.38",
+        "14.39"
+      ],
+      "content_height_pt": 135.4
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.40",
+        "14.41",
+        "14.42"
+      ],
+      "content_height_pt": 153.5
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.43",
+        "14.44",
+        "14.45"
+      ],
+      "content_height_pt": 219.6
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.46",
+        "14.47",
+        "14.48"
+      ],
+      "content_height_pt": 118.79
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.49",
+        "14.50",
+        "14.51"
+      ],
+      "content_height_pt": 250.27
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.52",
+        "14.53",
+        "14.54"
+      ],
+      "content_height_pt": 253.53
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.55",
+        "14.56",
+        "14.57"
+      ],
+      "content_height_pt": 218.38
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.58",
+        "14.59",
+        "14.60"
+      ],
+      "content_height_pt": 261.27
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.61",
+        "14.62",
+        "14.63"
+      ],
+      "content_height_pt": 437.53
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.64",
+        "14.65",
+        "14.66"
+      ],
+      "content_height_pt": 330.38
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.67",
+        "14.68",
+        "14.69"
+      ],
+      "content_height_pt": 265.51
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.70",
+        "14.71",
+        "14.72"
+      ],
+      "content_height_pt": 135.4
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.73",
+        "14.74",
+        "14.75"
+      ],
+      "content_height_pt": 249.44
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.76",
+        "14.77",
+        "14.78"
+      ],
+      "content_height_pt": 156.6
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.79",
+        "14.80",
+        "14.81"
+      ],
+      "content_height_pt": 283.27
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.82",
+        "14.83",
+        "14.84"
+      ],
+      "content_height_pt": 328.76
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.85",
+        "14.86",
+        "14.87"
+      ],
+      "content_height_pt": 176.23
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.88",
+        "14.89",
+        "14.90"
+      ],
+      "content_height_pt": 175.6
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.91",
+        "14.92",
+        "14.93"
+      ],
+      "content_height_pt": 217.87
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.94",
+        "14.95",
+        "14.96"
+      ],
+      "content_height_pt": 190.63
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.97",
+        "14.98",
+        "14.99"
+      ],
+      "content_height_pt": 170.27
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.100",
+        "14.101",
+        "14.102"
+      ],
+      "content_height_pt": 260.85
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.103",
+        "14.104",
+        "14.105"
+      ],
+      "content_height_pt": 382.3
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.106",
+        "14.107",
+        "14.108"
+      ],
+      "content_height_pt": 340.38
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.109",
+        "14.110",
+        "14.111"
+      ],
+      "content_height_pt": 311.11
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.112",
+        "14.113",
+        "14.114"
+      ],
+      "content_height_pt": 150.66
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.115",
+        "14.116",
+        "14.117"
+      ],
+      "content_height_pt": 243.3
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.118",
+        "14.119",
+        "14.120"
+      ],
+      "content_height_pt": 247.31
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.121",
+        "14.122",
+        "14.123"
+      ],
+      "content_height_pt": 208.72
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.124",
+        "14.125",
+        "14.126"
+      ],
+      "content_height_pt": 241.32
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.127",
+        "14.128",
+        "14.129"
+      ],
+      "content_height_pt": 356.35
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.130",
+        "14.131",
+        "14.132"
+      ],
+      "content_height_pt": 450.61
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.133",
+        "14.134",
+        "14.135"
+      ],
+      "content_height_pt": 258.55
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.136",
+        "14.137",
+        "14.138"
+      ],
+      "content_height_pt": 179.13
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.139",
+        "14.140",
+        "14.141"
+      ],
+      "content_height_pt": 237.58
+    },
+    {
+      "chapter": 14,
+      "problems": [
+        "14.142"
+      ],
+      "content_height_pt": 99.24
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.1",
+        "15.2",
+        "15.3"
+      ],
+      "content_height_pt": 152.68
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.4",
+        "15.5",
+        "15.6"
+      ],
+      "content_height_pt": 250.49
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.7",
+        "15.8",
+        "15.9"
+      ],
+      "content_height_pt": 288.92
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.10",
+        "15.11",
+        "15.12"
+      ],
+      "content_height_pt": 196.79
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.13",
+        "15.14",
+        "15.15"
+      ],
+      "content_height_pt": 134.19
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.16",
+        "15.17",
+        "15.18"
+      ],
+      "content_height_pt": 119.83
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.19",
+        "15.20",
+        "15.21"
+      ],
+      "content_height_pt": 119.35
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.22",
+        "15.23",
+        "15.24"
+      ],
+      "content_height_pt": 169.29
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.25",
+        "15.26",
+        "15.27"
+      ],
+      "content_height_pt": 258.01
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.28",
+        "15.29",
+        "15.30"
+      ],
+      "content_height_pt": 390.17
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.31",
+        "15.32",
+        "15.33"
+      ],
+      "content_height_pt": 175.32
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.34",
+        "15.35",
+        "15.36"
+      ],
+      "content_height_pt": 152.01
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.37",
+        "15.38",
+        "15.39"
+      ],
+      "content_height_pt": 135.4
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.40",
+        "15.41",
+        "15.42"
+      ],
+      "content_height_pt": 134.86
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.43",
+        "15.44",
+        "15.45"
+      ],
+      "content_height_pt": 157.93
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.46",
+        "15.47",
+        "15.48"
+      ],
+      "content_height_pt": 161.99
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.49",
+        "15.50",
+        "15.51"
+      ],
+      "content_height_pt": 119.31
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.52",
+        "15.53",
+        "15.54"
+      ],
+      "content_height_pt": 205.75
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.55",
+        "15.56",
+        "15.57"
+      ],
+      "content_height_pt": 135.9
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.58",
+        "15.59",
+        "15.60"
+      ],
+      "content_height_pt": 200.9
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.61",
+        "15.62",
+        "15.63"
+      ],
+      "content_height_pt": 136.42
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.64",
+        "15.65",
+        "15.66"
+      ],
+      "content_height_pt": 204.36
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.67",
+        "15.68",
+        "15.69"
+      ],
+      "content_height_pt": 248.4
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.70",
+        "15.71",
+        "15.72"
+      ],
+      "content_height_pt": 231.53
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.73",
+        "15.74",
+        "15.75"
+      ],
+      "content_height_pt": 329.89
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.76",
+        "15.77",
+        "15.78"
+      ],
+      "content_height_pt": 200.88
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.79",
+        "15.80",
+        "15.81"
+      ],
+      "content_height_pt": 198.34
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.82",
+        "15.83",
+        "15.84"
+      ],
+      "content_height_pt": 271.93
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.85",
+        "15.86",
+        "15.87"
+      ],
+      "content_height_pt": 334.26
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.88",
+        "15.89",
+        "15.90"
+      ],
+      "content_height_pt": 287.52
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.91",
+        "15.92",
+        "15.93"
+      ],
+      "content_height_pt": 152.01
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.94",
+        "15.95",
+        "15.96"
+      ],
+      "content_height_pt": 149.6
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.97",
+        "15.98",
+        "15.99"
+      ],
+      "content_height_pt": 152.36
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.100",
+        "15.101",
+        "15.102"
+      ],
+      "content_height_pt": 116.61
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.103",
+        "15.104",
+        "15.105"
+      ],
+      "content_height_pt": 186.62
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.106",
+        "15.107",
+        "15.108"
+      ],
+      "content_height_pt": 255.95
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.109",
+        "15.110",
+        "15.111"
+      ],
+      "content_height_pt": 187.79
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.112",
+        "15.113",
+        "15.114"
+      ],
+      "content_height_pt": 160.46
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.115",
+        "15.116",
+        "15.117"
+      ],
+      "content_height_pt": 251.49
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.118",
+        "15.119",
+        "15.120"
+      ],
+      "content_height_pt": 227.36
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.121",
+        "15.122",
+        "15.123"
+      ],
+      "content_height_pt": 229.34
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.124",
+        "15.125",
+        "15.126"
+      ],
+      "content_height_pt": 239.29
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.127",
+        "15.128",
+        "15.129"
+      ],
+      "content_height_pt": 251.42
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.130",
+        "15.131",
+        "15.132"
+      ],
+      "content_height_pt": 234.32
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.133",
+        "15.134",
+        "15.135"
+      ],
+      "content_height_pt": 122.43
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.136",
+        "15.137",
+        "15.138"
+      ],
+      "content_height_pt": 190.2
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.139",
+        "15.140",
+        "15.141"
+      ],
+      "content_height_pt": 128.5
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.142",
+        "15.143",
+        "15.144"
+      ],
+      "content_height_pt": 249.47
+    },
+    {
+      "chapter": 15,
+      "problems": [
+        "15.145",
+        "15.146"
+      ],
+      "content_height_pt": 297.6
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.1",
+        "16.2",
+        "16.3"
+      ],
+      "content_height_pt": 156.3
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.4",
+        "16.5",
+        "16.6"
+      ],
+      "content_height_pt": 328.12
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.7",
+        "16.8",
+        "16.9"
+      ],
+      "content_height_pt": 237.8
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.10",
+        "16.11",
+        "16.12"
+      ],
+      "content_height_pt": 190.72
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.13",
+        "16.14",
+        "16.15"
+      ],
+      "content_height_pt": 308.5
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.16",
+        "16.17",
+        "16.18"
+      ],
+      "content_height_pt": 261.13
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.19",
+        "16.20",
+        "16.21"
+      ],
+      "content_height_pt": 216.15
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.22",
+        "16.23",
+        "16.24"
+      ],
+      "content_height_pt": 184.85
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.25",
+        "16.26",
+        "16.27"
+      ],
+      "content_height_pt": 300.8
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.28",
+        "16.29",
+        "16.30"
+      ],
+      "content_height_pt": 154.71
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.31",
+        "16.32",
+        "16.33"
+      ],
+      "content_height_pt": 160.91
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.34",
+        "16.35",
+        "16.36"
+      ],
+      "content_height_pt": 160.75
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.37",
+        "16.38",
+        "16.39"
+      ],
+      "content_height_pt": 370.1
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.40",
+        "16.41",
+        "16.42"
+      ],
+      "content_height_pt": 263.09
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.43",
+        "16.44",
+        "16.45"
+      ],
+      "content_height_pt": 267.72
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.46",
+        "16.47",
+        "16.48"
+      ],
+      "content_height_pt": 451.04
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.49",
+        "16.50",
+        "16.51"
+      ],
+      "content_height_pt": 248.69
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.52",
+        "16.53",
+        "16.54"
+      ],
+      "content_height_pt": 350.06
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.55",
+        "16.56",
+        "16.57"
+      ],
+      "content_height_pt": 359.3
+    },
+    {
+      "chapter": 16,
+      "problems": [
+        "16.58",
+        "16.59",
+        "16.60"
+      ],
+      "content_height_pt": 396.33
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.1",
+        "17.2",
+        "17.3"
+      ],
+      "content_height_pt": 168.71
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.4",
+        "17.5",
+        "17.6"
+      ],
+      "content_height_pt": 253.05
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.7",
+        "17.8",
+        "17.9"
+      ],
+      "content_height_pt": 217.96
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.10",
+        "17.11",
+        "17.12"
+      ],
+      "content_height_pt": 197.73
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.13",
+        "17.14",
+        "17.15"
+      ],
+      "content_height_pt": 316.86
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.16",
+        "17.17",
+        "17.18"
+      ],
+      "content_height_pt": 312.35
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.19",
+        "17.20",
+        "17.21"
+      ],
+      "content_height_pt": 318.58
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.22",
+        "17.23",
+        "17.24"
+      ],
+      "content_height_pt": 246.8
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.25",
+        "17.26",
+        "17.27"
+      ],
+      "content_height_pt": 342.99
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.28",
+        "17.29",
+        "17.30"
+      ],
+      "content_height_pt": 258.1
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.31",
+        "17.32",
+        "17.33"
+      ],
+      "content_height_pt": 225.95
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.34",
+        "17.35",
+        "17.36"
+      ],
+      "content_height_pt": 249.21
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.37",
+        "17.38",
+        "17.39"
+      ],
+      "content_height_pt": 185.16
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.40",
+        "17.41",
+        "17.42"
+      ],
+      "content_height_pt": 247.34
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.43",
+        "17.44",
+        "17.45"
+      ],
+      "content_height_pt": 430.8
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.46",
+        "17.47",
+        "17.48"
+      ],
+      "content_height_pt": 349.34
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.49",
+        "17.50",
+        "17.51"
+      ],
+      "content_height_pt": 263.44
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.52",
+        "17.53",
+        "17.54"
+      ],
+      "content_height_pt": 286.29
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.55",
+        "17.56",
+        "17.57"
+      ],
+      "content_height_pt": 439.82
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.58",
+        "17.59",
+        "17.60"
+      ],
+      "content_height_pt": 409.25
+    },
+    {
+      "chapter": 17,
+      "problems": [
+        "17.61",
+        "17.62",
+        "17.63"
+      ],
+      "content_height_pt": 227.36
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.1",
+        "18.2",
+        "18.3"
+      ],
+      "content_height_pt": 163.52
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.4",
+        "18.5",
+        "18.6"
+      ],
+      "content_height_pt": 219.28
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.7",
+        "18.8",
+        "18.9"
+      ],
+      "content_height_pt": 327.93
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.10",
+        "18.11",
+        "18.12"
+      ],
+      "content_height_pt": 236.96
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.13",
+        "18.14",
+        "18.15"
+      ],
+      "content_height_pt": 318.03
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.16",
+        "18.17",
+        "18.18"
+      ],
+      "content_height_pt": 290.84
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.19",
+        "18.20",
+        "18.21"
+      ],
+      "content_height_pt": 176.76
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.22",
+        "18.23",
+        "18.24"
+      ],
+      "content_height_pt": 166.1
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.25",
+        "18.26",
+        "18.27"
+      ],
+      "content_height_pt": 224.13
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.28",
+        "18.29",
+        "18.30"
+      ],
+      "content_height_pt": 321.86
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.31",
+        "18.32",
+        "18.33"
+      ],
+      "content_height_pt": 172.9
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.34",
+        "18.35",
+        "18.36"
+      ],
+      "content_height_pt": 179.11
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.37",
+        "18.38",
+        "18.39"
+      ],
+      "content_height_pt": 231.24
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.40",
+        "18.41",
+        "18.42"
+      ],
+      "content_height_pt": 154.58
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.43",
+        "18.44",
+        "18.45"
+      ],
+      "content_height_pt": 247.38
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.46",
+        "18.47",
+        "18.48"
+      ],
+      "content_height_pt": 249.05
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.49",
+        "18.50",
+        "18.51"
+      ],
+      "content_height_pt": 190.76
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.52",
+        "18.53",
+        "18.54"
+      ],
+      "content_height_pt": 289.26
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.55",
+        "18.56",
+        "18.57"
+      ],
+      "content_height_pt": 360.81
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.58",
+        "18.59",
+        "18.60"
+      ],
+      "content_height_pt": 160.42
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.61",
+        "18.62",
+        "18.63"
+      ],
+      "content_height_pt": 223.54
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.64",
+        "18.65",
+        "18.66"
+      ],
+      "content_height_pt": 176.77
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.67",
+        "18.68",
+        "18.69"
+      ],
+      "content_height_pt": 220.96
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.70",
+        "18.71",
+        "18.72"
+      ],
+      "content_height_pt": 279.42
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.73",
+        "18.74",
+        "18.75"
+      ],
+      "content_height_pt": 196.35
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.76",
+        "18.77",
+        "18.78"
+      ],
+      "content_height_pt": 167.82
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.79",
+        "18.80",
+        "18.81"
+      ],
+      "content_height_pt": 191.34
+    },
+    {
+      "chapter": 18,
+      "problems": [
+        "18.82"
+      ],
+      "content_height_pt": 110.58
+    },
+    {
+      "chapter": "A",
+      "problems": [
+        "A.1",
+        "A.2",
+        "A.3"
+      ],
+      "content_height_pt": 227.71
+    },
+    {
+      "chapter": "A",
+      "problems": [
+        "A.4",
+        "A.5",
+        "A.6"
+      ],
+      "content_height_pt": 255.5
+    },
+    {
+      "chapter": "A",
+      "problems": [
+        "A.7",
+        "A.8",
+        "A.9"
+      ],
+      "content_height_pt": 371.09
+    }
+  ],
+  "latex_issues": [],
+  "tex_passes": 3,
+  "references_stable": true
+}

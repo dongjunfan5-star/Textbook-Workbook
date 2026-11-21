@@ -1,0 +1,597 @@
+{
+  "project": "数学分析教程",
+  "chapter": 10,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "physical_start": 1,
+  "physical_end": 65,
+  "status": "verified",
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "verified",
+      "ocr_markdown_sha256": "f71caa9668efdba39ff9dbc819b467dc5c2668c0ae6f2ddd2d92be8f28660b15",
+      "structured_result_sha256": "2f81d72ecf893c204451dcaf230e776bfc45c52ad08875823e7fb15f056cd9c3",
+      "reviewed_at": "2026-11-21T21:46:27",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对照曲顶柱体的一般近似与定义，图仅用于讲解积分；源页没有例题或习题起始。"
+    },
+    {
+      "page_number": 2,
+      "status": "verified",
+      "ocr_markdown_sha256": "1b7cc01ab19a4028fb5200f9dc9e57596ee9c7d0d98728f14fa3d3bea54d7edb",
+      "structured_result_sha256": "6546948f27cc35a18913b8d34e3485d4e6a5a1edbbe832e3a63480bef7be39a7",
+      "reviewed_at": "2026-11-21T21:46:27",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对曲顶柱体续文、闭矩形面积以及按两个坐标分割的定义。本页没有独立任务。"
+    },
+    {
+      "page_number": 3,
+      "status": "verified",
+      "ocr_markdown_sha256": "02d4dabbecd6176478bbe9a8df360e312c602ee7a0b82d3d0cef52af7e269d3a",
+      "structured_result_sha256": "43f0393210ba8e49464ad21626bfde9f481e4d85d7dca41491379841dd498f66",
+      "reviewed_at": "2026-11-21T21:46:27",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对矩形常值函数 c 的标号例题，题库用 k 避免与矩形坐标下限重名，改写为由定义证明并求积分。"
+    },
+    {
+      "page_number": 4,
+      "status": "verified",
+      "ocr_markdown_sha256": "10b8db234c3b4d178cfd980afcad5768de1bf21c677931d696c536baef540711",
+      "structured_result_sha256": "a95790763735a94ca207695fc7510252598900fbafed46e25f771c4b44dc4218",
+      "reviewed_at": "2026-11-21T21:46:27",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对积分的线性、单调性、Darboux 上下和定义与细分性质；均为一般定理。"
+    },
+    {
+      "page_number": 5,
+      "status": "verified",
+      "ocr_markdown_sha256": "5bbcc030d767cc3e2c5380efe053c8fe00795d14ceda52aa92bee478ea4026da",
+      "structured_result_sha256": "f861fdb120dbb058f8e342314c1cbcb6eb7ad62c15d50016eedc9df7a7ea1ef9",
+      "reviewed_at": "2026-11-21T21:46:27",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对共同加细分割、上下积分及判据证明。OCR 将下积分下划线错置、部分上下积分混同；本页无题目。"
+    },
+    {
+      "page_number": 6,
+      "status": "verified",
+      "ocr_markdown_sha256": "67876ee6cc23e1da652dfe346f967277769fb256ddf8a99abd80c2904dfb30ad",
+      "structured_result_sha256": "9524c40218d610cacef4113c096a4d323766a2a65181bb6328742e972ae2bd22",
+      "reviewed_at": "2026-11-21T21:46:27",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对判据充分性及可积性定理证明的开头。OCR 部分漏掉上下积分标识，没有独立任务。"
+    },
+    {
+      "page_number": 7,
+      "status": "verified",
+      "ocr_markdown_sha256": "17844b7ce2af1f4a2de1f310a806f1be0b44e83abc5e0b7a89562bc4b52c09cf",
+      "structured_result_sha256": "ca0f4c2dc28147a39d8515dd514cb16411896f5ab1a46e9d328dfb547c56c3bc",
+      "reviewed_at": "2026-11-21T21:46:27",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对可积性定理的充分性证明、子矩形收缩和证明示意图；本页没有新题。"
+    },
+    {
+      "page_number": 8,
+      "status": "verified",
+      "ocr_markdown_sha256": "161301e6cd622a9ec5e1d1ed5a0b90e4d228cfc0d5c01824f43db444b6551a48",
+      "structured_result_sha256": "413e5cdcd9a4a99fae392b064ec3323de906dc83c727d7cd98f8c2674c4bf936",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对明示留作练习的四条件等价定理，练习以第9页正式条目收录。OCR 把有限求和上限 k 读成无穷大并漏上下积分标记，按原图。另核对 Dirichlet 函数取 1 的充要条件为两个坐标均有理，且矩形面积须为正。"
+    },
+    {
+      "page_number": 9,
+      "status": "verified",
+      "ocr_markdown_sha256": "662939a9eeadcc01907c8665f74a3f226ced76080333e3e78a881c60ad25db96",
+      "structured_result_sha256": "312c96bb98f0c849553f6927eb268fbe4e99a6ed5f2488c63184e610759228ed",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 Fubini 型乘积分离、指数积分、对称区域正弦积分、四个等价条件和闭矩形连续可积证明。第4条引用第8页定理，以正式习题源页9为来源，OCR 把部分积分区域字母 I 读作 D。"
+    },
+    {
+      "page_number": 10,
+      "status": "verified",
+      "ocr_markdown_sha256": "60fa06f3ba5fc85f82ec9cb9a0e3d5504d6ba1ac6a9f15633c21836953cb6bf5",
+      "structured_result_sha256": "ce3ef78249fc838b971704aa030c397f286619ac36344363d973bc4549c6afae",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "原图和 OCR 确认单位方形有理点集及其闭包的例子，与第15页正式练习内容重合，保留正式练习。标号参数曲线例至少一坐标连续可导，明确参数范围见第11页。"
+    },
+    {
+      "page_number": 11,
+      "status": "verified",
+      "ocr_markdown_sha256": "00dc331b2f76f17067232b8ce25ad01700bb4a29eafc924fa578814a0525676f",
+      "structured_result_sha256": "cc61fe1fdd2bd27f2babded3da6bd33704198bc6193299b89cb52df88a8f1005",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对第10页曲线证明续文的参数区间，核对连续函数图像例和光滑曲线例。OCR 重复了曲线坐标 y(t)，原图只有两个分量。充满正方形的参数曲线仅回引后续构造。"
+    },
+    {
+      "page_number": 12,
+      "status": "verified",
+      "ocr_markdown_sha256": "64fa62f257ac65bd8c3ba1e459f0e45b0caa4716a2c2a76f00c236e333f70341",
+      "structured_result_sha256": "62bb5bc1a43b38424b99f498295c9196d7cffbea1dba5b9b6a6e28e2f4fe2a70",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对光滑曲线例正则条件 x'²+y'²>0 和正文请读者证明的振幅等式；其余是定义、引理与 Lebesgue 定理证明。"
+    },
+    {
+      "page_number": 13,
+      "status": "verified",
+      "ocr_markdown_sha256": "0fbabdcd4e1d8af071d6890494afdfcea406d3f9caffe625602df6b4ae826684",
+      "structured_result_sha256": "42a5521c5fdde6ae3c79a4c470278db9cd6695f6feb05ea3ae2e91d94ce6fbbd",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 Lebesgue 定理后续的必要性和充分性估计；OCR 把部分加撇求和指标转错，本页无题目。"
+    },
+    {
+      "page_number": 14,
+      "status": "verified",
+      "ocr_markdown_sha256": "1cc159e2baf73fb6ed6a013b9bb29436734af1fbecf1c75579013f5c9dc45ad1",
+      "structured_result_sha256": "75d6a175041fea626130edebf89a3e6bcfc1d2dd2759beb3f93a35ebd91d9bd8",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对非零值支集为 Jordan 零面积集时积分为零的定理及其证明。页末以已经收入第8页的 Dirichlet 函数作为反例，不重复编题。"
+    },
+    {
+      "page_number": 15,
+      "status": "verified",
+      "ocr_markdown_sha256": "bdf9672bafe76584dddf1e5dd9e9a089e9752cd8e1811f60415908ba13970c94",
+      "structured_result_sha256": "4144e6859b2a4492c147a56a9209bd153e3ee903d30efe80a04aea41a96ca423",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对四奇点正弦例、抛物线奇点反正切例、收敛点列、导集及子矩形各题。方形有理点集的零测与非零面积以本页正式练习为来源，正文第10页有先行讨论。"
+    },
+    {
+      "page_number": 16,
+      "status": "verified",
+      "ocr_markdown_sha256": "ea0c8950bdb84100d5536f320246c86c8668008e36f1e0fbecae387e9543db36",
+      "structured_result_sha256": "7e4f41af0c1b6f4375c588aa60b05ea19fe3ea87ba90d24f59d9ef0e720d2fc4",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对严格正可积函数、sin(1/xy) 的分段、离散取 1/n、乘积与商及绝对值积分。两道问题核对正积分子矩形及正有理数既约分母的取值条件。"
+    },
+    {
+      "page_number": 17,
+      "status": "verified",
+      "ocr_markdown_sha256": "ae5262b157edf42e920e366519864796c95278820cee597f8788444b7c881bdd",
+      "structured_result_sha256": "55ff6a495e9931c97dc6d13e6bb4b4f0a3c0c3a1ace9b56eeeaca192be0d0da8",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对照累次积分的一般定义及在闭矩形上的一般定理，OCR 将下积分符号转为负端点；无独立题目。"
+    },
+    {
+      "page_number": 18,
+      "status": "verified",
+      "ocr_markdown_sha256": "5ccf2d82f5d82cf05af6ba4f5fc77a4c01ef76cf305081b92575c8d847ac4ea5",
+      "structured_result_sha256": "b7875498c34bc115bb5075a46c08b863750f71d13396240f2d93eeb2dae80a23",
+      "reviewed_at": "2026-11-21T21:46:28",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对累次积分理论的估计及可积截面条件，OCR 部分漏上下积分标记；本页没有另起题目。"
+    },
+    {
+      "page_number": 19,
+      "status": "verified",
+      "ocr_markdown_sha256": "d14d7c419232d71e8cda17523666158c0f9fa8ef42e3021f2b9484fbc29dac90",
+      "structured_result_sha256": "33bed0e6847b876d8999591650804325162c64e37245a6277d7ada9098356e16",
+      "reviewed_at": "2026-11-21T21:20:02",
+      "method": "读取实际 PaddleOCR 文件，并逐项对照完整源页图像和校对题库。",
+      "observation": "前段为定理的证明续文。核对两条完整新例的矩形、被积函数和积分次序；最后一个例的题头始于此页，分段函数和积分都在第20页。OCR解答处有重复边界乱码，不影响可核对题干。"
+    },
+    {
+      "page_number": 20,
+      "status": "verified",
+      "ocr_markdown_sha256": "7bc47958ca49fb45690fab920c74cf6ecb1465f7d61523b4486eee1e0edbf9d0",
+      "structured_result_sha256": "c4d8a8194c6fd71033a8b28745dbca1fbb0617da147d5a9de1fc43bcebf033b2",
+      "reviewed_at": "2026-11-21T21:20:02",
+      "method": "读取实际 PaddleOCR 文件，并逐项对照完整源页图像和校对题库。",
+      "observation": "核对第19页第三例的续页：x+y=1 为分段边界，x+y≤1 取1−x−y，另一侧取零，I=[0,1]^2。解答示意图不含独有题设。关于累次积分的两个提问由第23页正式问题覆盖；其余为一般定理。"
+    },
+    {
+      "page_number": 21,
+      "status": "verified",
+      "ocr_markdown_sha256": "b35bc1a1edca0167fc8ec3eb111fdbbaeb7f4ae88659cdbcf1c38e05cb6ddbf8",
+      "structured_result_sha256": "189d08744cb1047022e9874426f0d3ed893ce4f0f03e1477d82cbe986adce398",
+      "reviewed_at": "2026-11-21T21:20:02",
+      "method": "读取实际 PaddleOCR 文件，并逐项对照完整源页图像和校对题库。",
+      "observation": "正文首先续证积分不等式，然后从一元 Minkowski 不等式引出与二重积分形式的关系。在此页记录该计算应用的起始页，第22页的实例数据已查看源图，仍待该页 OCR。"
+    },
+    {
+      "page_number": 22,
+      "status": "verified",
+      "ocr_markdown_sha256": "19c3c689a088328870052d8062843e7ed3d8becbeda0ca74e5c47035bff0409e",
+      "structured_result_sha256": "5f41d2fb6a3a782a4dac0dbbfe592872ecdd525caf9a7e65a48bf0df5ccd4642",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对21页开始的 Minkowski 应用构造及连续性问题。核对指数和积分顺序、三道计算积分、混合偏导与分段函数的抛物线界。离散 Minkowski 习题在此页始、公式在23页。"
+    },
+    {
+      "page_number": 23,
+      "status": "verified",
+      "ocr_markdown_sha256": "f6d769076c5bfc2851872b896389bfa682d17e3000704b7cbcafbcdd367269fe",
+      "structured_result_sha256": "8619b956597259dee7de79538d8f056e15e5223ed78bac316ee44248fb2e8ee7",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对离散 Minkowski 右端、Cauchy–Schwarz 二重积分，以及用既约分母定义的两个反例。若共同分母题允许任意通分，则累次积分结论失败，须按同一最简分母理解。"
+    },
+    {
+      "page_number": 24,
+      "status": "verified",
+      "ocr_markdown_sha256": "eaefc942882d7fd020eaa00c10551ff45012f0d13571454d25caac3161f5b65e",
+      "structured_result_sha256": "8298c27c99be2f7aa678e66603d53d1a7e02a31dac708dc7402cc894cbcf47af",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对有理点集上零函数可积、边界测度非零的反例，以及原文明示留读者证明有限常数因子的习题。"
+    },
+    {
+      "page_number": 25,
+      "status": "verified",
+      "ocr_markdown_sha256": "d9aeb9b491f4ea4d21e0eb3e11388f211d22b5318ddf6b0cb42eee7943e4b3c6",
+      "structured_result_sha256": "08bb1ef428c12b320544c69c5e6b36c679b5cda82c54063bb9df79eaeb0c07b2",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对积分集合可加性、特征函数与面积定义及零面积判据。OCR 将部分一般子集记号转为严格包含，本页无独立题。"
+    },
+    {
+      "page_number": 26,
+      "status": "verified",
+      "ocr_markdown_sha256": "ef82b38b5ecb671b521023df06ca33c195e61312aa7e9d943337f36384a24955",
+      "structured_result_sha256": "bcc68d9a224c6230144b740fbb9a477d12c2967337d1c1a4fbe634e9e092152d",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对特征函数间断集、Jordan 可测判据及再次使用方形内有理点集。边界证明已由第24页的零函数反例覆盖，证明判据的要求由29页习题收录。"
+    },
+    {
+      "page_number": 27,
+      "status": "verified",
+      "ocr_markdown_sha256": "85c96fc372b91f76e331266b06927dd4be88d72b3f5185bbec04c5043f7c0aff",
+      "structured_result_sha256": "a2b13268c0ef337709bf68c7165b43c579f00eb500328ce7a93666fb88599aa1",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对任意小块分割时的 Riemann 和定理及证明起始；没有另起独立题。"
+    },
+    {
+      "page_number": 28,
+      "status": "verified",
+      "ocr_markdown_sha256": "4fc804f959b39e3e878ee22f77e8cb972eb28e91be5592e4bf8d55d66e8b300a",
+      "structured_result_sha256": "9f3df0df2b4cb8259c44fe55b8da4c49ff5055b80383d511d439a7b205d82691",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 Riemann 和误差估计的证明续文、两项和式与分割条件；无新题。"
+    },
+    {
+      "page_number": 29,
+      "status": "verified",
+      "ocr_markdown_sha256": "a0da22220d234a044de0df782f160ccbf4380a4e87d2006e9c5355951ca6512f",
+      "structured_result_sha256": "53ae6c840715d95bc48774ca6937e9f65975a3f436830536814c42e84e7fb525",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对积分平均值定理及其推论。节末第一题引用 Jordan 可测判据，第二题在此页写出证明要求，不等式整体在30页。"
+    },
+    {
+      "page_number": 30,
+      "status": "verified",
+      "ocr_markdown_sha256": "9ffbb488ad515e4e20a5d4a9cdbfb118094738d4411a70fd0d2360d1209da4d9",
+      "structured_result_sha256": "098cafcadc56a24d69e0e9aa2790da9fed5517f2e099a7736bf2bd27d7025dd4",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对29页第二题的菱形边界与分式 100+cos²x+cos²y，核对第三题内、外矩形面积和的两个极限。OCR 把求和指标混读为 i 与 j，已用统一索引。"
+    },
+    {
+      "page_number": 31,
+      "status": "verified",
+      "ocr_markdown_sha256": "9f39732528c822cac16cf7cb5e629709362ac7b6ca071d7a3e6e09c9ad79280e",
+      "structured_result_sha256": "110eb1be9e24ea12d48b92b86e40573c210ae38601b4a292ff93056f4eba68ca",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对三角形上的 x²y² 积分例，原书通过图给出区域，题图标记 (a,b) 与 (a,0) 与源页一致。"
+    },
+    {
+      "page_number": 32,
+      "status": "verified",
+      "ocr_markdown_sha256": "871c1fb8126b06b103060177215f8096bcb53fcd94a1514d277ee019635c4d31",
+      "structured_result_sha256": "f04809b85c371df8672db7484dbdc532ee45345e5b482165f69ffa41dcd514ac",
+      "reviewed_at": "2026-11-21T21:48:03",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对平行四边形两组边线及菱形参数 |x|+|y|≤1 与被积函数 xy²，题库保留文字和公式。"
+    },
+    {
+      "page_number": 33,
+      "status": "verified",
+      "ocr_markdown_sha256": "e48de645f533005513fc2f4a655cdb2d591db943842ff5b6055c36649702461a",
+      "structured_result_sha256": "7b64ecadd23882a780417a6f203a89e62fc76f422aa15a86409f9050a225cdf2",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对前页菱形积分的不同分块与对称性计算，均属同一例。新例上下限为 y 与根号 y、被积函数为 sin x/x，源图是解题示意。"
+    },
+    {
+      "page_number": 34,
+      "status": "verified",
+      "ocr_markdown_sha256": "a4d68ec5168ee68ea1ac348b92818ec125c395d7d620d7d9fa65ba27d9a971cf",
+      "structured_result_sha256": "d33458c731d29140132aa3d79dc4a6324b1e3c370e2d64c65ea5e9f7a6f49e46",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对垂直相交圆柱体及两道多小问题组之一的全部八个积分，尤其第二问 xy²、第六问绝对值、第七问 y² 和第八问取整号。"
+    },
+    {
+      "page_number": 35,
+      "status": "verified",
+      "ocr_markdown_sha256": "02403a38a343d8289a45e0e3c1ef1492339286dfc1763fc62dc7cbf769bc0983",
+      "structured_result_sha256": "3e8c876fc4378d7fb49783c54f63f88a528b0e5e0393268bf3a26db426701903",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对七组换序上下界及其余六条。第三重积分换序右边对 y 的下限原图为 z，OCR 误成 a，题库保留 z；另核对圆盘的面积因子 πr²。"
+    },
+    {
+      "page_number": 36,
+      "status": "verified",
+      "ocr_markdown_sha256": "0dfb5be30ba80f8414ae514a2641229c2c786c5c0a656136b1dbbb5f4ad135ff",
+      "structured_result_sha256": "073af0a20f15c6db21f6fe241e6f5b4740a7e26c7b3acb899df3126c6a6c9af3",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对换元动机及一元积分换元公式的绝对值与定向讨论，均为一般推导，没有新题。"
+    },
+    {
+      "page_number": 37,
+      "status": "verified",
+      "ocr_markdown_sha256": "cf2fb91a33e762457dccec3d2948fb41ef5a02f17d9d9a2f498f2bf81c883186",
+      "structured_result_sha256": "912a499dca51f669c2fab99073ebda6ce7e8bbd4968c046af80cae761ae54c65",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对二重积分换元公式及 Jacobi 行列式非零条件；结尾开始引理，无独立题。"
+    },
+    {
+      "page_number": 38,
+      "status": "verified",
+      "ocr_markdown_sha256": "7ab677a25dc9aa7111437100dfe77cbf4508b599d65e5887ebbe303e12e67a8b",
+      "structured_result_sha256": "4fc83a4cf57147a39d774715e276da1ce06fca60d089758fb4741ac8d14126a6",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对局部面积伸缩比引理、证明图和两条边方向偏导公式，无独立题。"
+    },
+    {
+      "page_number": 39,
+      "status": "verified",
+      "ocr_markdown_sha256": "7197a55c4c58c67c811faddfbd98efb4e87e9c987804be35ab4e113a39ac3cf5",
+      "structured_result_sha256": "22b61bcf30c86084d7132c97bdb4d49a4e1db0f9cc62688b3a2b32ec90e322e9",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对四条抛物线的四个参数与先后关系、要求面积和 1/(xy) 积分；第一象限信息来自原图的阴影区域，题库以文字明确。"
+    },
+    {
+      "page_number": 40,
+      "status": "verified",
+      "ocr_markdown_sha256": "1cdb83f2e8d22afb4bf3549abf3c624947898fddb65f5e3611a43e2fd29fc110",
+      "structured_result_sha256": "4881304577ada86337ef43877434122686800c4aa7d4dc06ff0bdc9554c1327c",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对上一例面积变换续文和本页三角形指数积分。原点为有界可补点，题目已说明。"
+    },
+    {
+      "page_number": 41,
+      "status": "verified",
+      "ocr_markdown_sha256": "68602849d6690d1b8825ddf3f8c6e21e740fa9229074b6b4c208a3eb815d9045",
+      "structured_result_sha256": "4136ea9d6106b6eb4f0e1959ba9bfb1d746ec63f01976c8295956fd7c644dd88",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对本页球体被 x²+y²=ax 所截的柱面内部体积例，极坐标解中角范围为 −π/2 到 π/2。极坐标公式和前例变换图属于一般理论或解答。"
+    },
+    {
+      "page_number": 42,
+      "status": "verified",
+      "ocr_markdown_sha256": "bc6002d9c1353cd811d389661fde89140d702026c9d287b734992e755d1ba2c4",
+      "structured_result_sha256": "bac7272705d8b367ee0fc2824d8a19dd74c32b49aac743e9d89247020ce02058",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对椭圆双分母 a²、b² 及高斯反常积分的范围 [0,+∞) 与指数 −x²。OCR 在解中把 ar cosθ 误成 arccosθ。"
+    },
+    {
+      "page_number": 43,
+      "status": "verified",
+      "ocr_markdown_sha256": "7f110d05b8f2907931a8b9526a1cdc615d313bb750d70c0c7772082bc9d0164c",
+      "structured_result_sha256": "6a0c0eaf01a7e44c16ea703b0aaec748f92506116e972079aee3ceb78fe612b4",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对正方形四顶点、第一象限曲边区域、平移椭圆、根号边界以及 |x|+|y|≤1 的积分；第4题两条曲线和两条斜线的条件在本页，等式在44页。"
+    },
+    {
+      "page_number": 44,
+      "status": "verified",
+      "ocr_markdown_sha256": "0a064ca61ae5b9e5087618583159660eb8e3dfc8383c963cb8df544a71aeca98",
+      "structured_result_sha256": "a5b2db8c250809d64571e11d9a5799fc9ca27281dcebf76e907eb66d4c113261",
+      "reviewed_at": "2026-11-21T21:51:23",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对第43页续行的 ln2、环域正弦、圆盘根式、第三象限反正切和斜切圆盘，以及球、椭圆扇域及章末四个问题。导数等式的积分域以原图 [0,t]² 为准，OCR 误为 D−T²。"
+    },
+    {
+      "page_number": 45,
+      "status": "verified",
+      "ocr_markdown_sha256": "9701daed78f56717409d8bb84c45e64f78c10989b11551662a64a232a3ca11df",
+      "structured_result_sha256": "54e7946de9ec5f1230724bdef1767269bc6c3a5c70cee1e147f8e0b0f8286411",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对以给定一般密度函数建立三重积分的质量模型，本页没有独立例题或习题。"
+    },
+    {
+      "page_number": 46,
+      "status": "verified",
+      "ocr_markdown_sha256": "c372719e995966509f8c621f9d1fd88471fd7c97f11394e052a0b936bf95c19c",
+      "structured_result_sha256": "5bb7f918ae7417366059a6099e4104c52bd173602458a74d58e0c1d70d2e3204",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对长方体体积、可积性及零体积等一般概念，没有新题。"
+    },
+    {
+      "page_number": 47,
+      "status": "verified",
+      "ocr_markdown_sha256": "1db98c6681aa5db8ed7496090ebafa2941d2a2773ca0efe017e8871cced41994",
+      "structured_result_sha256": "3c21de7215e352c14efc589860be431a096f1f9bac2b71f3a0d1fd7f6c5e4d85",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对三重积分化累次积分的两式及证明图，无独立题。"
+    },
+    {
+      "page_number": 48,
+      "status": "verified",
+      "ocr_markdown_sha256": "fcf205cd4edc010b20926183fd4fd724ddab774ce34e431396844c620428283a",
+      "structured_result_sha256": "386f2c7f109b5a72db2fa90063252e311dec4563de8bc49f8c9f925178052fd4",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对四面体区域 x,y,z≥0、x+y+z≤1 及被积函数中分母的三次幂，源图仅示范投影。"
+    },
+    {
+      "page_number": 49,
+      "status": "verified",
+      "ocr_markdown_sha256": "2f5eacb41ba279b33f05512d699f57d6289fcb743464009baa48a400c8a9789c",
+      "structured_result_sha256": "4e5cf7c0163b77651eeda3916125a04deacbc20331420a840a1c027d6ed33020",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "续核四面体例的两种积分顺序和按 x+y+z=t 截面的解法，均解同一题。"
+    },
+    {
+      "page_number": 50,
+      "status": "verified",
+      "ocr_markdown_sha256": "2c379a25cd2c63efc329b9d2a7ee6d631ae2723788f3fa5f21f5522c2d2567f4",
+      "structured_result_sha256": "7614e5870527369c8351eb5ce88a3d054bc084c693c77ab7f07a568d6e4280d3",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对教材明确请读者证明的三重积分换元公式，绝对 Jacobi 行列式为局部体积伸缩比，及其后一般球坐标公式。"
+    },
+    {
+      "page_number": 51,
+      "status": "verified",
+      "ocr_markdown_sha256": "4342ba4935a4c8c6eeb86ac557284b7a790dd04f64007f38310dc0e3ecdffb6d",
+      "structured_result_sha256": "eb5ac66e54fd41fb29c76f340f0d6d66bb292cd021e466272f182e1feb4a4833",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对球与锥围成上部立体的积分、两相切球面之间的 z 积分，图示方向和大小已用不等式明确。"
+    },
+    {
+      "page_number": 52,
+      "status": "verified",
+      "ocr_markdown_sha256": "65bcb0d0b8cf532c3775d07f70e9e7c8300b27921f2b945a60233a3065afb801",
+      "structured_result_sha256": "f78659ac0d7d75e4b1d8d74b1bf3ce0ef12cde995019cb88eee5721b71808047",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对两相切球例解答和本页三道三重积分。下一组求立体体积的题头在此页，两道小问在53页。"
+    },
+    {
+      "page_number": 53,
+      "status": "verified",
+      "ocr_markdown_sha256": "52937929adcf3544e66df22c4525bef2b6efa83bbd59040a147448bdc6addeac",
+      "structured_result_sha256": "b7ea8f9abd51870c148d5b4652fee78c56e93445ad7c0ed2a748e4d0ac737fa1",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对52页两对曲面与本页球形平均极限、三道三重积分、五个体积公式及两条参数积分求导题。第二条参数积分题的待证式跨页。"
+    },
+    {
+      "page_number": 54,
+      "status": "verified",
+      "ocr_markdown_sha256": "5d84d93dae69c291a130fa8d21dec34a1c86c4b038d8c6cf7e2f177597aad077",
+      "structured_result_sha256": "c8cc6055513b5067c58a2b80687f7a983661006229200dca4a1e9ed311e372dd",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对53页题的待证式，积分上限 t³，g(u) 由 f 积分定义；其余内容为 n 重积分基本定义。"
+    },
+    {
+      "page_number": 55,
+      "status": "verified",
+      "ocr_markdown_sha256": "ad1e72f397683a8d8b352e1f4acfb75179c588b47caae691cfd01f713862f100",
+      "structured_result_sha256": "c4e2f07fe9f92e75447eca4505994947b5a36cc179fc8946e69356ccab32ae24",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对一般 n 重积分的可积性与换元定理推导，无题目起始。"
+    },
+    {
+      "page_number": 56,
+      "status": "verified",
+      "ocr_markdown_sha256": "30af02778121e94c475da3acbec745f3458d95d6fcc42c2cc66efc423a7e56f3",
+      "structured_result_sha256": "188612a3b236fe8530f462c5caee8af8455bbae7ba0f712b0444e20dfdee5696",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对单形的正坐标范围与坐标和上界 a，例题要求 n 维体积。"
+    },
+    {
+      "page_number": 57,
+      "status": "verified",
+      "ocr_markdown_sha256": "0dbc96ae9afff98ad3b5037e230dd91bf841edee388350eac0d9f5f44d787b4d",
+      "structured_result_sha256": "169761ab4d7e39e8ec081769f44dcaed45e8b7a697dfe9233607744dcc237bf1",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对球体体积例的闭球范数条件；奇偶维结果延至58页。源书解答中有混杂下标，以题干的平方和为准。"
+    },
+    {
+      "page_number": 58,
+      "status": "verified",
+      "ocr_markdown_sha256": "04452ee9ebcc3b7f95803b659089a6163c07f31c3ad27aef54b26d9b2db98c2e",
+      "structured_result_sha256": "2daa8b508be068ed7cc90341465dc95e580675595dbff01f7001578dc65d4b44",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对偶奇维球体积表达式与 n 维球坐标 Jacobi 行列式问题。解答续页的积分算式出现指数及指标错误，不抄入题目。"
+    },
+    {
+      "page_number": 59,
+      "status": "verified",
+      "ocr_markdown_sha256": "82df8f4061e1a1b8f6a8ac6318c375ce040bd47caa494c5a1348a248b72de4ce",
+      "structured_result_sha256": "96ad74c8538d3bba34d866e4efddb9fcc772440a0693edad31dbf4e4db80eae3",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对从隐函数的矩阵公式推导 Jacobi 行列式，为第58页问题的解答续文。OCR 重复矩阵段落，没有新题。"
+    },
+    {
+      "page_number": 60,
+      "status": "verified",
+      "ocr_markdown_sha256": "ece3aed585d75da11754b1545e424d28e58470390e78f98976e0ff672f7c7c5c",
+      "structured_result_sha256": "2d5bdfd897b84dff60a419ca1c855abf956ea2da0c5cf5e157f1933157e5207a",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 n 维球径向函数积分例的平方和开根、球域半径与化为一重积分的要求。"
+    },
+    {
+      "page_number": 61,
+      "status": "verified",
+      "ocr_markdown_sha256": "c905ea4799370bdb32a4d137d70360eb26c681218ad1729f80017e38730cd94b",
+      "structured_result_sha256": "5595793a22069c0380f64e461a43ec10a8f9ca708d352afca325327915bb8ba7",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对定域两种 n 重积分、递阶积、两类体积、核迭代指标、n−1 条绝对值约束与三道分层积分证明。OCR 丢了第一题两道积分的积分域，以图中 [0,1]ⁿ 为准。"
+    },
+    {
+      "page_number": 62,
+      "status": "verified",
+      "ocr_markdown_sha256": "752b7875d6e8a05c73babad8a2686108b31a10a16ed396d2bfe563013a9290c4",
+      "structured_result_sha256": "9602a0523288446990b10f267b5259c3360967f8dc933f4d081f37a2155b7f53",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对半圆盘水闸使用直径在水面，球体密度为 a‖p‖，一般质心定义段无新增例题。"
+    },
+    {
+      "page_number": 63,
+      "status": "verified",
+      "ocr_markdown_sha256": "04e5aa6fef454c611e53ae72765823e5e3514a2affb51e5df08a0b8eb37c7fdd",
+      "structured_result_sha256": "77f01a726ca1398c3ea35748c05794f0ecd4a3efbd8c6e7a04b29f4e48703bbc",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对球心 (0,0,a)、半径 a、密度 k/‖p‖² 与质心要求；奇点以反常积分理解。"
+    },
+    {
+      "page_number": 64,
+      "status": "verified",
+      "ocr_markdown_sha256": "48b6a34132f87933fdc962a473b497b637d445d2cf0f6a754374ba36e550b9cd",
+      "structured_result_sha256": "212c7adfe41c83b21f617b442102690a75dbd90a04f44b3eb24147df9d207fbe",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对单位密度均匀球体的引力场例。球心在原点，教材以下页区分球内、球面与球外，示意图只帮助推导。"
+    },
+    {
+      "page_number": 65,
+      "status": "verified",
+      "ocr_markdown_sha256": "9fc6f045de47f2be847a392904fa7a0fb5846aad194ab4bf266b14d09c8988ed",
+      "structured_result_sha256": "7ee517f5a4825e7b5ace05cd509a9c5602b57328981c582e8316c9973374bbf1",
+      "reviewed_at": "2026-11-21T21:54:43",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对均匀圆盘和棒的半径、长度与间距，以及球锥由圆锥和半球相接、顶角为 2α；恢复原书的“球锥”术语。"
+    }
+  ]
+}

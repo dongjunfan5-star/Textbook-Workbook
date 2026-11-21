@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "command": "python -X utf8 -m unittest discover -s tests -v",
+  "tests_run": 29,
+  "tests_failed": 0,
+  "checks": [
+    "每个小问恰好出现一次，跨页来源保持首次页码",
+    "全局编号、长题分页、改写标识与附录编号",
+    "拒绝未校对页、缺页、重复页、错误来源和校对后变更的OCR证据",
+    "实际编译多页目录，核对印刷页码、目录链接和附录书签目标；辅助文件稳定后结束编译",
+    "单项目发布范围严格隔离，未完成项目不得发布，远程未知文件不得删除",
+    "继续其他项目时保留仍有效的已验收项目；正式PDF、题库、章节或验收证据变化时取消complete状态",
+    "列入收录范围的附录须与章正文同样审查；缺失或未验收的附录 OCR 记录不能通过。",
+    "已核验的OCR缓存丢失时只接受来源PDF和校对账本哈希仍匹配的归档证据，现存原文变动仍须拒绝。"
+  ],
+  "test_files": [
+    {
+      "path": "tests/test_ocr_evidence.py",
+      "sha256": "e39e4099d6f7d35e4d7e6ad7a7aec2113ec38bf23d9fab0f984505a0fe28692e"
+    },
+    {
+      "path": "tests/test_pdf_navigation.py",
+      "sha256": "e34e91677230ae7717ee5d1d4427cd35219446cff1b1f43db15c0cf77f077af4"
+    },
+    {
+      "path": "tests/test_production_status.py",
+      "sha256": "3fcf2adab34832802f91f6c8c2a82a6a85d7da4b45b25ad8dd7f3a90ffe63597"
+    },
+    {
+      "path": "tests/test_publication_scope.py",
+      "sha256": "cf4a86e92df981453151bd9cff65058ab4429caec4b6a2394ba76cb0f6405a2e"
+    },
+    {
+      "path": "tests/test_workbook_rules.py",
+      "sha256": "e76963e403cc4246832c1fe673ba7c634295c8194ff4425448cae842e047a098"
+    }
+  ]
+}

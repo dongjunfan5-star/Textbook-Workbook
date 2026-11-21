@@ -1,0 +1,579 @@
+[
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 138,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 139,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 140,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 141,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 142,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 143,
+    "status": "reviewed",
+    "units_count": 10,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 144,
+    "status": "reviewed",
+    "units_count": 4,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 145,
+    "status": "reviewed",
+    "units_count": 4,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 146,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 147,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 148,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 149,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 150,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 151,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 152,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 153,
+    "status": "reviewed",
+    "units_count": 6,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 154,
+    "status": "reviewed",
+    "units_count": 8,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 155,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 156,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 157,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 158,
+    "status": "reviewed",
+    "units_count": 6,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 159,
+    "status": "reviewed",
+    "units_count": 8,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 160,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 161,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 162,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 163,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 164,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 165,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 166,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 167,
+    "status": "reviewed",
+    "units_count": 6,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 168,
+    "status": "reviewed",
+    "units_count": 11,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 169,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 170,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 171,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 172,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 173,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 174,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 175,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 176,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 177,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 178,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 179,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 180,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 181,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 182,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 183,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 184,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 185,
+    "status": "reviewed",
+    "units_count": 9,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 186,
+    "status": "reviewed",
+    "units_count": 13,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 187,
+    "status": "reviewed",
+    "units_count": 8,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 188,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 189,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 190,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 191,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "定义、定理及其证明、解答或前页续文，本页没有另起正式例题、习题或明确留作练习的内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 192,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 193,
+    "status": "reviewed",
+    "units_count": 4,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 194,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 195,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 196,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 197,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 198,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 199,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  }
+]

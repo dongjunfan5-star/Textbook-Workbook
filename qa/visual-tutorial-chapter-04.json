@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析教程",
+  "chapter": 4,
+  "pdf": ".cache/chapter-proofs/tutorial-04/main.pdf",
+  "pdf_sha256": "c1f221b547ca5e2f8b213a999db5df9c6045e8dea79f315b05a72d4db85d4e13",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "method": "修正角分撇号上标并重编后，全部21页经6张带页码联系图实际逐页视觉检查，无溢出、缺字或重叠。",
+  "issues": []
+}

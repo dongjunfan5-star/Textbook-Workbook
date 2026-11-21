@@ -1,0 +1,730 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{0}\section{实数和数列极限}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.1}
+证明：若  $ n \in \mathbb{N}^* $ 且  $ n $ 不是完全平方数，那么  $ \sqrt{n} $ 是无理数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.2}
+设 $a$ 为有理数，$b$ 为无理数。证明 $a+b$ 与 $a-b$ 都是无理数；当 $a\ne0$ 时，$ab$ 与 $b/a$ 也是无理数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.3}
+证明: 两个不同的有理数之间有无限多个有理数, 也有无限多个无理数.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.4}
+证明： $ \sqrt[3]{2} $ 是无理数.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.5}
+证明： $ \sqrt{2} + \sqrt{3} $ 是无理数.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.6}
+在平面直角坐标系中，若 $x,y$ 都是有理数，称 $(x,y)$ 为有理点。证明圆周 $(x-\sqrt2)^2+y^2=2$ 上只有唯一的有理点。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.7}
+证明：任何有理数都可以表示为有尽小数或无尽循环小数；无尽循环小数一定是有理数.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.8}
+判断小数 $0.1010010001000010\cdots$ 是有理数还是无理数，其中相邻两个 $1$ 之间依次有 $1,2,3,\ldots$ 个 $0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.9}
+把下列循环小数化为分数：
+\SubQ{1}{$0.24999\cdots$。}
+\SubQ{2}{$0.\overline{375}$。}
+\SubQ{3}{$4.\overline{518}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.10}
+依次写下所有正整数，得到无限小数 $0.1234567891011121314\cdots$。问它是有理数吗？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.11}
+证明：
+\SubQ{1}{若 $r+s\sqrt2=0$，其中 $r,s\in\mathbb Q$，则 $r=s=0$。}
+\SubQ{2}{若 $r+s\sqrt2+t\sqrt3=0$，其中 $r,s,t\in\mathbb Q$，则 $r=s=t=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.12}
+设  $ n \geqslant 2 $，实数  $ a_{1}, a_{2}, \cdots, a_{n} $ 都大于 -1，并且它们有着相同的符号。证明：
+
+\[(1+a_{1})(1+a_{2})\cdots(1+a_{n})>1+a_{1}+a_{2}+\cdots+a_{n}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.13}
+设  $ a_{1}, a_{2}, \cdots, a_{n} (n \geqslant 2) $ 都是正数，且  $ a_{1} + a_{2} + \cdots + a_{n} < 1 $. 证明：
+\SubQ{1}{\[\frac{1}{1-\sum_{k=1}^{n}a_{k}}>\prod_{k=1}^{n}(1+a_{k})>1+\sum_{k=1}^{n}a_{k};\]}
+\SubQ{2}{\[\frac{1}{1+\sum_{k=1}^{n}a_{k}}>\prod_{k=1}^{n}(1-a_{k})>1-\sum_{k=1}^{n}a_{k}.\]}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.14}
+设  $ a_{1}, a_{2}, \cdots, a_{n} $ 为实数. 证明不等式：
+
+\[\big|\sum_{i=1}^{n}a_{i}\big|\leqslant\sum_{i=1}^{n}\mid a_{i}\mid,\]
+
+并指明式中等号成立的条件.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.15}
+设 $a,b\in\mathbb R$，证明 $\max(a,b)=\frac{a+b+|a-b|}{2}$、$\min(a,b)=\frac{a+b-|a-b|}{2}$，并解释其几何意义。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.16}
+设 $n$ 个分数 $a_1/b_1,\ldots,a_n/b_n$ 的分母均为正数。证明 $\frac{a_1+\cdots+a_n}{b_1+\cdots+b_n}$ 介于这些分数的最小值和最大值之间。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.17}
+设  $ n=2,3,\cdots,x>-1 $ 且  $ x\neq0 $. 求证:  $ (1+x)^{n}>1+nx $.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.18}
+设 $x,y\ge0$，$m,n$ 为正整数。证明 $x^my^n+x^ny^m\le x^{m+n}+y^{m+n}$，且等号当且仅当 $x=y$ 时成立。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.19}
+设非负整数 $a,b$ 使得 $\frac{a^2+b^2}{1+ab}$ 为整数。证明该整数必是某个整数的平方。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.20}
+设正整数 $n>1$ 且 $x,y\ge0$。证明 $\frac{x^n+y^n}{2}\ge\left(\frac{x+y}{2}\right)^n$，且等号当且仅当 $x=y$ 时成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.21}
+设 $a_1\le\cdots\le a_n$、$b_1\le\cdots\le b_n$。证明 Chebyshev 不等式：\[\left(\sum_{i=1}^na_i\right)\left(\sum_{i=1}^nb_i\right)\le n\sum_{i=1}^na_ib_i.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.22}
+设  $ a_{1} \leqslant a_{2} \leqslant \cdots \leqslant a_{n} $,  $ b_{1} \leqslant b_{2} \leqslant \cdots \leqslant b_{n} $，并且  $ b_{1} + b_{2} + \cdots + b_{n} = 0 $. 求证： $ \sum_{i=1}^{n} a_{i} b_{i} \geqslant 0 $.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.23}
+已知素数有无限多个。令 $x=0.a_1a_2a_3\cdots$，其中当 $n$ 为素数时 $a_n=1$，其余情形 $a_n=0$。问 $x$ 是有理数吗？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.24}
+已知 $\pi=3.1415926535897\cdots$。证明：若正有理数 $p/q$ 比 $355/113$ 更接近 $\pi$，则 $q>16586$（$p,q$ 为正整数）。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.25}
+设 $x_0=0$，$x_1,\ldots,x_n>0$ 且 $x_1+\cdots+x_n=1$。证明\[\sum_{i=1}^n\frac{x_i}{\sqrt{1+x_0+\cdots+x_{i-1}}\sqrt{x_i+\cdots+x_n}}<\frac\pi2.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.26（校订）}
+对任意实数 $x$，证明存在无穷多对整数 $(p,q)$，其中 $q>0$，使 $\left|x-\frac pq\right|<\frac1{q^2}$。当 $x$ 为无理数时，证明可得到无穷多个互异的有理数 $p/q$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.27}
+证明 $\displaystyle\lim_{n\to\infty}\frac{3\sqrt n+1}{2\sqrt n-1}=\frac32$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.28}
+证明：对任意的正数 $a>0$，有 $\displaystyle\lim_{n\to\infty}\frac1{n^a}=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.29}
+当 $|q|<1$ 时，求证 $\displaystyle\lim_{n\to\infty}q^n=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.30}
+求证 $\displaystyle\lim_{n\to\infty}n^{1/n}=1$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.31}
+利用极限定义，证明：
+\SubQ{1}{$\displaystyle\lim_{n\to\infty}\frac1{1+\sqrt n}=0$；}
+\SubQ{2}{$\displaystyle\lim_{n\to\infty}\frac{\sin n}{n}=0$；}
+\SubQ{3}{$\displaystyle\lim_{n\to\infty}\frac{n!}{n^n}=0$；}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.32}
+利用极限定义，证明：
+\SubQ{1}{$\displaystyle\lim_{n\to\infty}\frac{(-1)^{n-1}}{n}=0$；}
+\SubQ{2}{$\displaystyle\lim_{n\to\infty}\frac{2n+3}{5n-10}=\frac25$；}
+\SubQ{3}{$\displaystyle\lim_{n\to\infty}0.\underbrace{99\cdots9}_{n\text{ 个 }9}=1$；}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.33}
+利用极限定义，证明：
+\SubQ{1}{$\displaystyle\lim_{n\to\infty}\frac{1+2+\cdots+n}{n^2}=\frac12$；}
+\SubQ{2}{$\displaystyle\lim_{n\to\infty}\frac{1^2+2^2+\cdots+n^2}{n^3}=\frac13$；}
+\SubQ{3}{$\displaystyle\lim_{n\to\infty}\arctan n=\frac\pi2$；}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.34}
+利用极限定义，证明：
+\SubQ{1}{$\displaystyle\lim_{n\to\infty}\frac{n^2\arctan n}{1+n^2}=\frac\pi2$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.35}
+设 $\displaystyle\lim_{n\to\infty}a_n=a$。求证 $\displaystyle\lim_{n\to\infty}|a_n|=|a|$。举例说明，这个命题的逆命题不真。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.36}
+设 $\{a_n\}$ 是由整数组成的数列。求证：数列 $\{a_n\}$ 收敛，当且仅当从某一项起数列的项都等于一个常数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.37}
+下列陈述是否可以作为 $\displaystyle\lim_{n\to\infty}a_n=a$ 的定义？若回答是肯定的，请证明之；若回答是否定的，请举出反例。
+\SubQ{1}{对无限多个正数 $\varepsilon>0$，存在 $N\in\mathbb N^*$，当 $n>N$ 时，有 $|a_n-a|<\varepsilon$；}
+\SubQ{2}{对任意给定的 $\varepsilon>1$，存在 $N\in\mathbb N^*$，当 $n>N$ 时，有 $|a_n-a|<\varepsilon$；}
+\SubQ{3}{对任意给定的正数 $\varepsilon<1$，存在 $N\in\mathbb N^*$，当 $n>N$ 时，有 $|a_n-a|<\varepsilon$；}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.38}
+下列陈述是否可以作为 $\displaystyle\lim_{n\to\infty}a_n=a$ 的定义？若回答是肯定的，请证明之；若回答是否定的，请举出反例。
+\SubQ{1}{对每一个正整数 $k$，存在 $N_k\in\mathbb N^*$，当 $n>N_k$ 时，有 $|a_n-a|<1/k$；}
+\SubQ{2}{对任意给定的两个正数 $\varepsilon$ 与 $\delta$，在区间 $(a-\varepsilon,a+\delta)$ 之外至多只有数列 $\{a_n\}$ 中的有限多项。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.39}
+用精确语言表达“数列 $\{a_n\}$ 不以 $a$ 为极限”这一陈述。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.40}
+设数列 $\{a_n\}$ 满足 $\displaystyle\lim_{n\to\infty}\frac{a_n}{n}=0$，证明 $\displaystyle\lim_{n\to\infty}\frac{\max(a_1,\ldots,a_n)}{n}=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.41}
+设 $a,b,c$ 是三个给定的实数，令 $a_0=a,\ b_0=b,\ c_0=c$，并归纳地定义\[\begin{cases}a_n=(b_{n-1}+c_{n-1})/2,\\b_n=(c_{n-1}+a_{n-1})/2,\\c_n=(a_{n-1}+b_{n-1})/2,\end{cases}\qquad(n=1,2,3,\ldots).\]求证\[\lim_{n\to\infty}a_n=\lim_{n\to\infty}b_n=\lim_{n\to\infty}c_n=\frac{a+b+c}{3}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.42}
+计算极限
+
+\[\lim_{n\to\infty}\frac{2n^{2}-3n+4}{5n^{2}+4n-1}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.43}
+设 $ \left|q\right|<1 $，计算极限
+
+\[\lim_{n\to\infty}(1+q+q^{2}+\cdots+q^{n-1}).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.44}
+证明： $ \{\sin n\} $ 是一个发散的数列.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.45}
+称极限为 $0$ 的数列为无穷小。证明下列性质：
+\SubQ{1}{$\{a_n\}$ 为无穷小，当且仅当 $\{|a_n|\}$ 为无穷小。}
+\SubQ{2}{若 $\{a_n\}$ 为无穷小，$\{c_n\}$ 有界，则 $\{c_na_n\}$ 为无穷小。}
+\SubQ{3}{若 $0\le a_n\le b_n$ 且 $b_n\to0$，则 $a_n\to0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.46}
+称极限为 $0$ 的数列为无穷小。证明下列性质：
+\SubQ{1}{$a_n\to a$ 当且仅当 $a_n-a\to0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.47}
+已知 $a_n\to a\in\mathbb R$。证明 $\displaystyle\frac{a_1+\cdots+a_n}{n}\to a$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.48}
+设  $ \lim_{n\to\infty}a_n=a $， $ \lim_{n\to\infty}b_n=b $。证明：
+
+\[\lim_{n\to\infty}\frac{a_1b_n+a_2b_{n-1}+\cdots+a_nb_1}{n}=ab.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.49}
+设 $a>0$。证明 $\displaystyle\lim_{n\to\infty}a^{1/n}=1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.50}
+设  $ a > 1, k \in \mathbb{N}^* $. 求证:  $ \{n^k / a^n\} $ 是无穷小.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.51}
+求极限  $ \lim_{n \to \infty} (\sqrt{n + 3} - \sqrt{n - 1}) $.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.52}
+设
+
+\[a_{n}=\frac{1}{\sqrt{n^{2}+1}}+\frac{1}{\sqrt{n^{2}+2}}+\cdots+\frac{1}{\sqrt{n^{2}+n}}.\]
+
+求极限 $ \lim_{n\to\infty}a_n $.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.53}
+回答下列问题：
+\SubQ{1}{若 $ \{a_{n}\},\{b_{n}\} $都发散，对 $ \{a_{n}+b_{n}\} $与 $ \{a_{n}b_{n}\} $是否收敛能不能作出肯定的结论？}
+\SubQ{2}{若  $ \{a_{n}\} $ 收敛而  $ \{b_{n}\} $ 发散，这时  $ \{a_{n}+b_{n}\} $ 的敛散性如何？}
+\SubQ{3}{若  $ \lim_{n\to\infty}a_n=a\neq0 $ 而  $ \{b_n\} $ 发散，这时  $ \{a_n b_n\} $ 的敛散性如何？}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.54}
+回答下列问题：
+\SubQ{1}{若 $ \lim_{n\to\infty}a_n=0 $而 $ \{b_n\} $发散，这时 $ \{a_nb_n\} $的敛散性如何？}
+\SubQ{2}{设  $ a_{n} \leqslant b_{n} \leqslant c_{n} $ 且  $ \lim_{n \to \infty} (c_{n} - a_{n}) = 0 $，问  $ \{b_{n}\} $ 是否必收敛？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.55}
+若 $a_n\to a\ne0$，证明 $a_{n+1}/a_n\to1$。举例说明，当 $a=0$ 时不能得出上述结论。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.56}
+求下列极限：
+\SubQ{1}{\[\lim_{n\to\infty}\frac{3^{n}+(-2)^{n}}{3^{n+1}+(-2)^{n+1}};\]}
+\SubQ{2}{$ \lim_{n \to \infty} \left( \frac{1 + 2 + \cdots + n}{n + 2} - \frac{n}{2} \right) $;}
+\SubQ{3}{$ \lim_{n \to \infty} \sqrt{n} (\sqrt{n+1} - \sqrt{n}) $;}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.57}
+求下列极限：
+\SubQ{1}{$ \lim_{n \to \infty} (\sqrt{n^2 + n} - n)^{1/n} $;}
+\SubQ{2}{$ \lim_{n \to \infty} \left(1 - \frac{1}{n}\right)^{1/n} $;}
+\SubQ{3}{$ \lim_{n \to \infty} (n^2 - n + 2)^{1/n} $;}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.58}
+求下列极限：
+\SubQ{1}{$ \lim_{n \to \infty} (\arctan n)^{1/n} $;}
+\SubQ{2}{$ \lim_{n \to \infty} (2\sin^2 n + \cos^2 n)^{1/n} $.}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.59}
+求下列极限：
+\SubQ{1}{$ \lim_{n \to \infty} \frac{1 + a + a^2 + \cdots + a^{n-1}}{1 + b + b^2 + \cdots + b^{n-1}} (|a| < 1, |b| < 1) $;}
+\SubQ{2}{$ \lim_{n \to \infty} \left( \frac{1}{1 \cdot 2} + \frac{1}{2 \cdot 3} + \cdots + \frac{1}{n(n+1)} \right) $;}
+\SubQ{3}{$ \lim_{n \to \infty} \left(1 - \frac{1}{2^2}\right)\left(1 - \frac{1}{3^2}\right) \cdots \left(1 - \frac{1}{n^2}\right) $;}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.60}
+求下列极限：
+\SubQ{1}{$ \lim_{n \to \infty} \left(1 - \frac{1}{1+2}\right)\left(1 - \frac{1}{1+2+3}\right)\cdots\left(1 - \frac{1}{1+2+\cdots+n}\right) $;}
+\SubQ{2}{$ \lim_{n \to \infty} \frac{1}{n} |1 - 2 + 3 - 4 + \cdots + (-1)^{n-1} n| $;}
+\SubQ{3}{$ \lim_{n \to \infty} (1 + x)(1 + x^2)(1 + x^4) \cdots (1 + x^{2^{n-1}}) (|x| < 1) $.}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.61}
+求极限：
+\SubQ{1}{$ \lim_{n \to \infty} (a^n + b^n)^{1/n} (0 \leq a \leq b) $;}
+\SubQ{2}{$ \lim_{n \to \infty} (a_1^n + a_2^n + \cdots + a_m^n)^{1/n} (a_i \geq 0, i = 1, 2, \cdots, m) $.}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.62}
+设 $a_n\to a$，证明 $\lfloor na_n\rfloor/n\to a$，其中 $\lfloor x\rfloor$ 为不超过 $x$ 的最大整数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.63}
+设  $ a_{n}>0(n=1,2,3,\cdots) $，且  $ \lim_{n\to\infty}a_n=a $。求证：
+
+\[\lim_{n\to\infty}(a_{1}a_{2}\cdots a_{n})^{1/n}=a.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.64}
+可利用如下结论：若 $b_n>0$ 且 $b_n\to b$，则 $(b_1\cdots b_n)^{1/n}\to b$。证明：
+\SubQ{1}{若  $ a_{n}>0(n=1,2,3,\cdots) $，且  $ \lim_{n\to\infty}\frac{a_{n+1}}{a_n}=a $，则  $ \lim_{n\to\infty}\sqrt[n]{a_n}=a $；}
+\SubQ{2}{当 $a>0$ 时，$\lim_{n\to\infty}a^{1/n}=1$。}
+\SubQ{3}{$ \lim_{n \to \infty} n^{1/n} = 1 $;}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.65}
+可利用如下结论：若 $b_n>0$ 且 $b_n\to b$，则 $(b_1\cdots b_n)^{1/n}\to b$。证明：
+\SubQ{1}{$ \lim_{n \to \infty} (n!)^{-1/n} = 0 $.}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.66}
+证明：
+
+\[\lim_{n\to\infty}\frac{1}{n}\left(1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\right)=0.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.67}
+如果  $ a_{0} + a_{1} + \cdots + a_{p} = 0 $，求证：
+
+\[\lim_{n\to\infty}(a_{0}\sqrt{n}+a_{1}\sqrt{n+1}+\cdots+a_{p}\sqrt{n+p})=0.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.68}
+设数列 $ \{a_{n}\} $满足
+
+\[\lim_{n\to\infty}a_{2n-1}=a,\quad\lim_{n\to\infty}a_{2n}=b.\]
+
+证明：
+
+\[\lim_{n\to\infty}\frac{a_{1}+a_{2}+\cdots+a_{n}}{n}=\frac{a+b}{2}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.69}
+证明：
+
+\[\lim_{n\to\infty}\sum_{k=1}^{n}\left(\sqrt{1+\frac{k}{n^{2}}}-1\right)=\frac{1}{4}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.70}
+设数列 $ \{x_{n}\} $满足 $ \lim_{n\to\infty}(x_{n}-x_{n-2})=0 $。求证：
+
+\[\lim_{n\to\infty}\frac{x_n-x_{n-1}}{n}=0.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.71}
+（Toeplitz 定理）设 $t_{nk}\ge0$（$1\le k\le n$），$\sum_{k=1}^nt_{nk}=1$，且对每个固定的 $k$ 有 $t_{nk}\to0$（$n\to\infty$）。若 $a_n\to a$，令 $x_n=\sum_{k=1}^nt_{nk}a_k$，证明 $x_n\to a$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.72}
+设  $ \lim_{n\to\infty}a_n=a $ . 证明：
+
+\[\lim_{n\to\infty}\frac{a_{1}+2a_{2}+\cdots+na_{n}}{n^{2}}=\frac{a}{2}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.73}
+设  $ \lim_{n\to\infty}a_n=a $ . 证明：
+
+\[\lim_{n\to\infty}\frac{1}{2^n}\sum_{k=1}^{n}\binom{n}{k}a_k=a.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.74}
+设 $a_n=n^2-3n-5$（$n=1,2,\ldots$）。证明 $\lim_{n\to\infty}a_n=+\infty$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.75}
+称 $|a_n|\to+\infty$ 为数列趋于无穷大。证明：
+\SubQ{1}{趋于无穷大的数列必为无界数列。}
+\SubQ{2}{从无界数列中可选出趋于无穷大的子列。}
+\SubQ{3}{若 $a_n\to+\infty$、$-\infty$ 或无穷大，则任意子列也分别趋于同一种无穷大。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.76}
+称 $|a_n|\to+\infty$ 为数列趋于无穷大。证明：
+\SubQ{1}{若 $a_n\to+\infty$ 且 $b_n\to+\infty$，则 $a_n+b_n\to+\infty$ 且 $a_nb_n\to+\infty$。}
+\SubQ{2}{对于各项非零的数列，$|a_n|\to+\infty$ 当且仅当 $1/a_n\to0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.77}
+设三次多项式  $ p(x)=x^{3}-4x^{2}+5x-6 $. 求证：
+
+\[\lim_{n\to\infty}p(n)=+\infty,\quad\lim_{n\to\infty}p(-n)=-\infty.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.78}
+求证： $ \lim_{n\to\infty}\frac{1}{n}(1+2+3+\cdots+n)=+\infty $
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.79}
+求证： $ \lim_{n\to\infty}\frac{1}{n^2}(1^2+2^2+3^2+\cdots+n^2)=+\infty $
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.80}
+求证： $ \lim_{n\to\infty}n(\sqrt{n}-\sqrt{n+1})=-\infty $
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.81}
+求证： $ \lim_{n \to \infty} \left( \frac{1}{\sqrt{n+1}} + \frac{1}{\sqrt{n+2}} + \cdots + \frac{1}{\sqrt{n+n}} \right) = +\infty $.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.82}
+设 $a_1=1$，$a_{n+1}=a_n+1/a_n$（$n=1,2,\ldots$）。证明 $a_n\to+\infty$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.83}
+设 $\{a_n\}$ 是正数列，且 $\lim_{n\to\infty}(a_{n+1}+a_{n+2})/a_n=+\infty$。证明 $\{a_n\}$ 必为无界数列。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.84}
+设 $a\in\mathbb R$，求极限 $\lim_{n\to\infty}a^n/n!$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.85}
+对  $ n \in \mathbb{N}^* $，设
+
+\[a_{n}=1+\frac{1}{2}+\cdots+\frac{1}{n}.\]
+
+求证： $ \{a_{n}\} $发散.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.86}
+设 $\alpha>1$。证明数列 $a_n=1+2^{-\alpha}+\cdots+n^{-\alpha}$ 收敛。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.87}
+利用单调有界数列必收敛的结论，证明下列数列极限存在：
+\SubQ{1}{$ x_{n} = \frac{10}{1} \cdot \frac{11}{3} \cdots \frac{n + 9}{2n - 1} $;}
+\SubQ{2}{$ x_{n} = \left(1 - \frac{1}{2}\right)\left(1 - \frac{1}{3}\right)\cdots\left(1 - \frac{1}{n+1}\right) $.}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.88}
+设  $ x_{1}=\sqrt{2} $，并定义  $ x_{n+1}=\sqrt{2+x_{n}} $ (n=1,2,3, $ \cdots $). 求证： $ \lim_{n\to\infty}x_{n} $ 存在.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.89}
+求证：如果单调数列有一子列收敛，那么原数列也必收敛.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.90}
+设 $0<a_n<1$，且 $(1-a_n)a_{n+1}>1/4$（$n=1,2,\ldots$）。证明 $\lim_{n\to\infty}a_n=1/2$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.91}
+求证： $ a_{n}=(n!)^{1/n} $ 是递增数列.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.92}
+设 $ \{x_{n}\} $是一个非负的数列，满足
+
+\[x_{n+1}\leqslant x_{n}+\frac{1}{n^{2}}\quad(n=1,2,\cdots).\]
+
+证明： $ \{x_{n}\} $收敛.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.93}
+设 $c>0$，$a_1=c/2$，$a_{n+1}=c/2+a_n^2/2$。证明\[\lim_{n\to\infty}a_n=\begin{cases}1-\sqrt{1-c},&0<c\le1,\\+\infty,&c>1.\end{cases}\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.94}
+设数列 $ \{u_{n}\} $定义如下：
+
+\[u_{1}=b,\]
+
+\[u_{n+1}=u_{n}^{2}+(1-2a)u_{n}+a^{2}\quad(n=1,2,\cdots).\]
+
+问 a, b 为何值时  $ \{u_{n}\} $ 收敛？极限值是什么？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.95}
+设 $A>0$，$0<y_0<A^{-1}$，$y_{n+1}=y_n(2-Ay_n)$（$n=0,1,\ldots$）。证明 $\lim_{n\to\infty}y_n=A^{-1}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.96}
+设数列 $ \{a_{n}\} $由下式定义：
+
+\[a_{n}=2^{n-1}-3a_{n-1}\quad(n=1,2,\cdots).\]
+
+求  $ a_{0} $ 所有可能的值，使得  $ \{a_{n}\} $ 是严格递增的.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.97}
+求下列极限：
+\SubQ{1}{$\lim_{n\to\infty}(1+1/(n-2))^n$。}
+\SubQ{2}{$\lim_{n\to\infty}(1-1/(n+3))^n$。}
+\SubQ{3}{$\lim_{n\to\infty}\left(\frac{n+1}{n+2}\right)^n$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.98}
+求下列极限：
+\SubQ{1}{$\lim_{n\to\infty}(1+3/n)^n$。}
+\SubQ{2}{$\lim_{n\to\infty}(1+1/(2n^2))^{4n^2}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.99}
+设  $ k \in \mathbb{N}^* $. 求证：
+
+\[\lim_{n\to\infty}\left(1+\frac{k}{n}\right)^{n}=\mathrm{e}^{k}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.100}
+证明数列 $\{(1+1/n)^n\}$ 严格递增。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.101}
+证明数列 $\{(1+1/n)^{n+1}\}$ 严格递减。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.102}
+证明不等式：
+
+\[\left(1+\frac{1}{n}\right)^{n}<\mathrm{e}<\left(1+\frac{1}{n}\right)^{n+1}\quad(n\in\mathbb{N}^{*}).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.103}
+利用对数函数  $ \ln x $ 的严格递增性质，证明：
+
+\[\frac{1}{n+1}<\ln\left(1+\frac{1}{n}\right)<\frac{1}{n}\]
+
+对一切  $ n \in \mathbb{N}^* $ 成立.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.104}
+设  $ n \in \mathbb{N}^* $ 且  $ k = 1, 2, \cdots $. 证明不等式：
+
+\[\frac{k}{n+k}<\ln\left(1+\frac{k}{n}\right)<\frac{k}{n}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.105}
+对  $ n \in \mathbb{N}^* $，求证：
+
+\[\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n+1}<\ln(n+1)<1+\frac{1}{2}+\cdots+\frac{1}{n}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.106}
+令 $x_n=1+1/2+\cdots+1/n-\ln(n+1)$。证明 $\lim_{n\to\infty}x_n$ 存在，此极限记作 $\gamma$，称为 Euler 常数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.107}
+已知 $\gamma=\lim_{n\to\infty}(1+1/2+\cdots+1/n-\ln(n+1))$ 存在。证明\[1+\frac12+\cdots+\frac1n=\ln n+\gamma+\varepsilon_n,\qquad\varepsilon_n\to0.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.108}
+证明不等式：
+
+\[\left(\frac{n+1}{\mathrm{e}}\right)^{n}<n!<\mathrm{e}\left(\frac{n+1}{\mathrm{e}}\right)^{n+1}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.109}
+证明：
+
+\[\lim_{n\to\infty}\frac{(n!)^{1/n}}{n}=\frac{1}{\mathrm{e}}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.110}
+求证：
+
+\[\mathrm{e}=1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{n!}+\frac{\theta_{n}}{n!n},\]
+
+其中  $ \theta_{n}\in(n/(n+1),1) $.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.111}
+求极限 $\lim_{n\to\infty}(n!\,\mathrm e-\lfloor n!\,\mathrm e\rfloor)$，其中 $\lfloor x\rfloor$ 为不超过 $x$ 的最大整数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.112}
+求极限  $ \lim_{n \to \infty} \left( \frac{1}{n+1} + \frac{1}{n+2} + \cdots + \frac{1}{n+n} \right) $.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.113}
+设  $ x_{n}=\left(1+\frac{1}{2}\right)\left(1+\frac{1}{2^{2}}\right)\cdots\left(1+\frac{1}{2^{n}}\right) $. 证明： $ \lim_{n\to\infty}x_{n} $ 存在.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.114（校订）}
+证明：当 $n\ge3$ 时，\[\sum_{k=0}^n\frac1{k!}-\frac3{2n}<\left(1+\frac1n\right)^n<\sum_{k=0}^n\frac1{k!}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.115}
+设 $\gamma$ 为 Euler 常数。证明存在 $\varepsilon_n\to0$，使\[1+\frac13+\cdots+\frac1{2n-1}=\ln(2\sqrt n)+\frac\gamma2+\varepsilon_n.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.116}
+求极限
+
+\[\lim_{n\to\infty}\left(1+\frac{1}{n^{2}}\right)\left(1+\frac{2}{n^{2}}\right)\cdots\left(1+\frac{n}{n^{2}}\right).\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.117}
+记 $H_k=1+1/2+\cdots+1/k$，令 $k_n$ 为满足 $H_k\ge n$ 的最小正整数 $k$。证明 $\lim_{n\to\infty}k_{n+1}/k_n=\mathrm e$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.118}
+设  $ s_{n}=1+2^{2}+3^{3}+\cdots+n^{n} $. 求证：当  $ n\geqslant3 $ 时，有
+
+\[n^{n}\left(1+\frac{1}{4(n-1)}\right)<s_{n}<n^{n}\left(1+\frac{2}{\mathrm{e}(n-1)}\right).\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.119}
+设 $ |q|<1 $. 求证: $ \{q^n\} $是基本列（Cauchy 列）.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.120}
+求证： $ \left\{(-1)^{n}\right\} $不是基本列（Cauchy 列）.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.121}
+设  $ a_{n}=1+\frac{1}{2^{2}}+\cdots+\frac{1}{n^{2}} $. 求证： $ \{a_{n}\} $ 是基本列（Cauchy 列）.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.122}
+当  $ \alpha\leqslant1 $ 时，设  $ a_{n}=1+\frac{1}{2^{\alpha}}+\cdots+\frac{1}{n^{\alpha}} $. 求证： $ \{a_{n}\} $ 不是基本列（Cauchy 列）.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.123}
+设数列 $\{a_n\}$ 满足：对每个 $\varepsilon>0$，存在正整数 $N$，当 $n>N$ 时有 $|a_n-a_N|<\varepsilon$。问 $\{a_n\}$ 是否为基本列（Cauchy 列）？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.124}
+回答下列问题：
+\SubQ{1}{若对一切正整数 $n,p$，有 $|a_{n+p}-a_n|\le p/n$，数列 $\{a_n\}$ 是否为 Cauchy 列？}
+\SubQ{2}{若对一切正整数 $n,p$，有 $|a_{n+p}-a_n|\le p/n^2$，数列 $\{a_n\}$ 是否为 Cauchy 列？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.125}
+证明下列数列收敛：
+\SubQ{1}{$s_n=\sum_{k=1}^n(-1)^{k-1}/k^2$。}
+\SubQ{2}{$s_n=\sum_{k=0}^na_kq^k$，其中 $\{a_k\}_{k\ge0}$ 有界且 $|q|<1$。}
+\SubQ{3}{$s_n=\sum_{k=1}^n\sin(kx)/k^2$，其中 $x\in\mathbb R$ 固定。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.126}
+证明下列数列收敛：
+\SubQ{1}{$s_n=\sum_{k=2}^n\frac{\sin(kx)}{k(k+\sin(kx))}$，其中 $x\in\mathbb R$ 固定。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.127}
+设数列 $\{\sum_{k=1}^{n-1}|a_{k+1}-a_k|\}_{n\ge2}$ 有界。证明 $\{a_n\}$ 收敛。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.128}
+用精确语言表述“数列 $ \{a_n\} $不是基本列”.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.129}
+设  $ a_n \in [a, b] $ ( $ n \in \mathbb{N}^* $). 证明: 如果  $ \{a_n\} $ 发散, 则  $ \{a_n\} $ 必有两个子列收敛于不同的数.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.130}
+指出下列数集的下确界和上确界（允许无穷大）：
+\SubQ{1}{$\{-1,0,3,8,9,12\}$。}
+\SubQ{2}{$\{1/n:n\in\mathbb N^*\}$。}
+\SubQ{3}{$\{\sqrt n:n\in\mathbb N^*\}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.131}
+指出下列数集的下确界和上确界（允许无穷大）：
+\SubQ{1}{$\{\sin(\pi/n):n\in\mathbb N^*\}$。}
+\SubQ{2}{$\{x\in\mathbb R:x^2-2x-3<0\}$。}
+\SubQ{3}{$\{x>0:|\ln x|<1\}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.132}
+求数列  $ \{(1+1/n)^n: n\in\mathbb{N}^*\} $ 和  $ \{(1+1/n)^{n+1}: n\in\mathbb{N}^*\} $ 的下确界和上确界.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.133}
+求数列 $ \{n^{1/n}\colon n\in\mathbb{N}^*\} $的下确界和上确界.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.134}
+设在数列$\{a_n: n \in \mathbb{N}^*\}$中，既没有最小值，也没有最大值。求证：数列$\{a_n\}$发散。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.135}
+使用二分法证明 Bolzano--Weierstrass 定理：每个有界实数列都有收敛子列。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.136}
+证明下述 Lebesgue 数结论：设开区间族覆盖有限闭区间 $[a,b]$。存在 $\sigma>0$，使得 $[a,b]$ 中长度小于 $\sigma$ 的每个子区间都包含在该族某一开区间中。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.137}
+利用下述 Lebesgue 数结论证明有限覆盖定理，即有限闭区间的每个开区间覆盖都有有限子覆盖。Lebesgue 数结论为：设开区间族覆盖有限闭区间 $[a,b]$。存在 $\sigma>0$，使得 $[a,b]$ 中长度小于 $\sigma$ 的每个子区间都包含在该族某一开区间中。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.138（改写）}
+设 $a_n=(-1)^n/(1+1/n)$（$n=1,2,\ldots$）。求其所有子列极限、下极限与上极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.139}
+设数列 $ \{a_n\} $对一切 $ m,n\in\mathbb{N}^* $，满足
+
+\[0\leqslant a_{m+n}\leqslant a_{m}+a_{n}.\]
+
+求证：数列 $ \{a_{n}/n\} $存在极限.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.140（校订）}
+设 $a_n,b_n$ 为实数列，并约定下列各和式在扩充实数系中有意义。证明\[\begin{aligned}\liminf a_n+\liminf b_n&\le\liminf(a_n+b_n)\\&\le\liminf a_n+\limsup b_n\\&\le\limsup(a_n+b_n)\\&\le\limsup a_n+\limsup b_n.\end{aligned}\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.141}
+对下列数列求 $\liminf_{n\to\infty}a_n$ 和 $\limsup_{n\to\infty}a_n$：
+\SubQ{1}{$a_n=(-1)^n/n+(1+(-1)^n)/2$。}
+\SubQ{2}{$a_n=n^{(-1)^n}$。}
+\SubQ{3}{$a_n=\arctan\bigl(n^{(-1)^n}\bigr)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.142}
+对下列数列求 $\liminf_{n\to\infty}a_n$ 和 $\limsup_{n\to\infty}a_n$：
+\SubQ{1}{$a_n=(1+2^{(-1)^nn})^{1/n}$。}
+\SubQ{2}{$a_n=1+n\sin(n\pi/2)$。}
+\SubQ{3}{$a_n=\frac{n^2}{1+n^2}\cos(2n\pi/3)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.143}
+对下列数列求 $\liminf_{n\to\infty}a_n$ 和 $\limsup_{n\to\infty}a_n$：
+\SubQ{1}{$a_n=\begin{cases}0,&n\text{ 为偶数},\\1/(n!)^{1/n},&n\text{ 为奇数}.\end{cases}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.144}
+证明下列式子在两边有意义时成立（极限均取 $n\to\infty$）：
+\SubQ{1}{若 $b_n\to b$，则 $\liminf(a_n+b_n)=\liminf a_n+b$，$\limsup(a_n+b_n)=\limsup a_n+b$。}
+\SubQ{2}{$\liminf(-a_n)=-\limsup a_n$，$\limsup(-a_n)=-\liminf a_n$。}
+\SubQ{3}{若 $a_n,b_n\ge0$，则\[\begin{aligned}\liminf a_n\liminf b_n&\le\liminf(a_nb_n)\\&\le\liminf a_n\limsup b_n\\&\le\limsup(a_nb_n)\\&\le\limsup a_n\limsup b_n.\end{aligned}\]}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.145}
+证明下列式子在两边有意义时成立（极限均取 $n\to\infty$）：
+\SubQ{1}{若 $b_n\ge0$ 且 $b_n\to b$，则 $\liminf(a_nb_n)=b\liminf a_n$，$\limsup(a_nb_n)=b\limsup a_n$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.146}
+设  $ a_{n} \geqslant 0 (n \in \mathbb{N}^{*}) $. 求证:  $ \limsup\sqrt[n]{a_{n}} \leqslant 1 $ 的充分必要条件是，对任意的  $ l > 1 $，有
+
+\[\lim_{n\to\infty}\frac{a_{n}}{l^{n}}=0.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.147}
+设 $\{x_n\}$ 有界，$x_{n+1}-x_n\to0$，记 $l=\liminf x_n$、$L=\limsup x_n$。证明其子列极限组成的集合恰为 $[l,L]$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.148}
+设  $ a_{n} > 0 $ 。求证：
+
+\[\limsup_{n\to\infty}n\left(\frac{1+a_{n+1}}{a_{n}}-1\right)\geqslant1.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.149}
+设 $x_n\to a$，其中 $a$ 可为有限实数或正、负无穷大。用 Stolz 定理证明 $\frac{x_1+\cdots+x_n}{n}\to a$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{1.150}
+设 k 为正整数，计算极限
+
+\[\lim_{n\to\infty}\frac{1^k+2^k+\cdots+n^k}{n^{k+1}}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.151}
+计算下列极限：
+\SubQ{1}{\[\lim_{n\to\infty}\frac{1+\frac{1}{2}+\cdots+\frac{1}{n}}{\ln n};\]}
+\SubQ{2}{$\lim_{n\to\infty}\frac{1+1/3+\cdots+1/(2n-1)}{\ln(2\sqrt n)}$。}
+\SubQ{3}{\[\lim_{n\to\infty}\frac{1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n}}}{\sqrt{n}};\]}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.152}
+计算下列极限：
+\SubQ{1}{\[\lim_{n\to\infty}\frac{1+\sqrt{2}+\cdots+\sqrt{n}}{n\sqrt{n}}\]}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.153}
+计算极限 $\lim_{n\to\infty}(n!)^{1/n^2}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.154}
+计算极限 $\lim_{n\to\infty}\frac{1^2+3^2+\cdots+(2n-1)^2}{n^3}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.155}
+设  $ \lim_{n\to\infty}a_n=a $ . 证明：
+
+\[\lim_{n\to\infty}\frac{a_{1}+2a_{2}+\cdots+na_{n}}{n^{2}}=\frac{a}{2}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.156}
+举例说明 Stolz 定理的逆命题不成立：即使 $b_n$ 严格递增且趋于 $+\infty$，$a_n/b_n$ 的极限存在，也不能保证 $(a_n-a_{n-1})/(b_n-b_{n-1})$ 收敛到同一极限。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.157}
+证明 $ \frac{0}{0} $型的 Stolz 定理：设  $ a_{n} \to 0 $,  $ b_{n} \to 0 $，且  $ b_{1} > b_{2} > b_{3} > \cdots $。如果
+
+\[\lim_{n\to\infty}\frac{a_n-a_{n-1}}{b_n-b_{n-1}}=A,\]
+
+那么
+
+\[\lim_{n\to\infty}\frac{a_n}{b_n}=A.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.158}
+设  $ 0 < x_1 < 1/q $ ( $ 0 < q \leq 1 $)，并且  $ x_{n+1} = x_n (1 - qx_n) $ ( $ n \in \mathbb{N}^* $). 求证： $ \lim_{n \to \infty} nx_n = 1/q $.
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.159}
+设实数列 $\{a_n\}$ 满足 $\lim_{n\to\infty}a_n\sum_{i=1}^na_i^2=1$。证明 $\lim_{n\to\infty}\sqrt[3]{3n}\,a_n=1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.160}
+令
+
+\[x_{n}=\frac{1}{n^{2}}\sum_{k=1}^{n}\ln\binom{n}{k}\quad(n=1,2,3,\cdots).\]
+
+求极限  $ \lim_{n\to\infty}x_n $.
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{1.161}
+利用 Toeplitz 定理证明 Stolz 定理。Toeplitz 定理：若 $t_{nk}\ge0$，$\sum_{k=1}^nt_{nk}=1$，对每个固定 $k$ 有 $t_{nk}\to0$，且 $x_k\to x$，则 $\sum_{k=1}^nt_{nk}x_k\to x$。Stolz 定理：若 $b_n$ 严格递增且 $b_n\to+\infty$，$\frac{a_n-a_{n-1}}{b_n-b_{n-1}}\to A$，则 $a_n/b_n\to A$。
+\end{minipage}\par\vfill

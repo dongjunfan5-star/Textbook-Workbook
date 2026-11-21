@@ -1,0 +1,16 @@
+{
+  "ocr_source_pages": 16,
+  "ocr_total_seconds": 880.19,
+  "ocr_mean_seconds_per_page": 55.01,
+  "ocr_min_seconds": 32.95,
+  "ocr_max_seconds": 82.23,
+  "source_pdf_pages": {
+    "数学分析教程/input/数学分析教程 上册（数分A教材）.pdf": 516,
+    "数学分析教程/input/数学分析教程 下册（数分A教材）.pdf": 440,
+    "数学分析讲义/input/数学分析讲义（第一册）.pdf": 321,
+    "数学分析讲义/input/数学分析讲义（第三册）.pdf": 231,
+    "数学分析讲义/input/数学分析讲义（第二册）.pdf": 358
+  },
+  "total_source_pdf_pages": 1866,
+  "notes": "仅包含缓存模型加载后的逐页推理与结果保存，不包含首次下载、环境安装、校对和排版。不能直接据此承诺整书完成时间。"
+}

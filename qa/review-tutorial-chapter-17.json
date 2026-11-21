@@ -1,0 +1,470 @@
+[
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 303,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 304,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "页首承接303页例子“是一个较为复杂的周期波”。其余用于导入和推导，不另拆题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 305,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "三角系正交关系及 Fourier 通用系数推导。后续330页独立给出规范化正交系的具体验证，本页无另题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 306,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 307,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 308,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Riemann–Lebesgue 引理和证明，页内没有独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 309,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 310,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 311,
+    "status": "reviewed",
+    "units_count": 8,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 312,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 313,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Dirichlet 核与局部化定理推导，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 314,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "局部化及 Dini 判别法一般理论，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 315,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Lipschitz 条件、单侧导数和分段可微定义，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 316,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "两条曲线级数收敛值已分别并入306、307页同例；奇数倒数交错和与后续正弦恒等式由322页正式三小问覆盖。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 317,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 318,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 319,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 320,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "确认奇平方倒数分母为 (2k−1)²，已并入319原例。其余为一般周期变换推导，图可由题内函数重现。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 321,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 322,
+    "status": "reviewed",
+    "units_count": 9,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 323,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 324,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "上页交错级数通常发散、Cesàro 求和值为 1/2 的示例续行，其余为一般理论。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 325,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Fejér 平均和定理推导，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 326,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "续证及点态、一致 Cesàro 收敛理论，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 327,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Fejér 证明与三角 Weierstrass 逼近定理，无新增题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 328,
+    "status": "reviewed",
+    "units_count": 6,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 329,
+    "status": "reviewed",
+    "units_count": 3,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 330,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "本页为定义、定理、证明、解答或前页题目续文，无首次出现的独立题目。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 331,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "页首先完成330页示例。其余为一般规范正交系的系数和最佳逼近通论，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 332,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Bessel、Parseval 与完备性通论，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 333,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "三角系完备性、一般系数和均方逼近通论，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 334,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "平方平均逼近定理证明第一段，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 335,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "平方平均逼近定理证明第二段，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 336,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 337,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Parseval 推广和逐项积分定理证明，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 338,
+    "status": "reviewed",
+    "units_count": 5,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 339,
+    "status": "reviewed",
+    "units_count": 6,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 340,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "Fourier 积分、截断和一致连续性一般理论，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 341,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "证明一致连续性和截断积分的变形，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 342,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "截断积分的换序和局部化证明，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 343,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "续证局部化和 Dini 定理。证明复用此前309–310页 sinc 积分，无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 344,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 345,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "延续上一页证明，x=0 的 sinc 结果已由309页保留；其余正弦、余弦公式为通论。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 346,
+    "status": "reviewed",
+    "units_count": 2,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 347,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "确认前页积分方程右端为 (π/2)sin x，0≤x≤π，其他正半轴为零。复数 Fourier 正变换使用 1/(2π) 和负号，不另成题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 348,
+    "status": "reviewed",
+    "units_count": 0,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified",
+    "reason": "核实教材反变换无 1/(2π) 且指数为正。其余离散类比与推导无独立题。"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 349,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 350,
+    "status": "reviewed",
+    "units_count": 1,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "project": "数学分析教程",
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "page_number": 351,
+    "status": "reviewed",
+    "units_count": 4,
+    "visual_review": "complete",
+    "ocr_crosscheck_status": "verified"
+  }
+]

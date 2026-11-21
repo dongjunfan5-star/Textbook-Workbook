@@ -1,0 +1,300 @@
+{
+  "project": "数学分析教程",
+  "chapter": 13,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "physical_start": 123,
+  "physical_end": 154,
+  "status": "verified",
+  "pages": [
+    {
+      "page_number": 123,
+      "status": "verified",
+      "ocr_markdown_sha256": "3fa1becc259b3f7fb68f4c5cbcd1b946a4ed59da44c1f0566e475cd013866df8",
+      "structured_result_sha256": "c094cc6f0d5e70a446803c18e6338340e3a16dc2e7cdaf8355fd021f198fbbd2",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "章首说明和13.1起始。原图同OCR显示数量场、向量场及一般方向导数公式，本页没有另起例题或习题。"
+    },
+    {
+      "page_number": 124,
+      "status": "verified",
+      "ocr_markdown_sha256": "1880d31f873e8f5f8ebc23456146f0305e71b8e6736a993a639dffe7ad84b4c8",
+      "structured_result_sha256": "45b8e14dfa7121b8c0efb5a5cc461cf437422d58089e074fcd087f3508af6c75",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "原图与OCR对读Cauchy–Schwarz 推导、梯度与等值面法向量。开头问答用于推导一般梯度定义，当页没有另起给定具体函数的例题或留证练习。"
+    },
+    {
+      "page_number": 125,
+      "status": "verified",
+      "ocr_markdown_sha256": "663dafdf20e25eca5766e99e67a0c816ff94157129fdcef68af030837b2f9ba9",
+      "structured_result_sha256": "d0ebe59d254950228a619621829f32390060c285bd316d3398cc525e511520f9",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核验径向梯度编号例和节末5道练习：商法则、数量场乘向量场、4个径向表达式、沿另一梯度的变化率、边界积分极限。OCR误把标量乘积点识为复合符号，并在末式漏识n及边界∂；放大原图确认；题干原称闭区间，按Gauss语境校订为闭区域并标记。"
+    },
+    {
+      "page_number": 126,
+      "status": "verified",
+      "ocr_markdown_sha256": "33e374451e80abc96c1f94dd1f458866fc8010490cf407acc3e13579804aea28",
+      "structured_result_sha256": "91de3e010973466ed6b6510c2e486e924c543950eaba17b55fd73026b3c90f68",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "原图同OCR核验通量定义及图13.1的流入、流出符号解释。定性物理示意用于引出散度定义，没有独立量化题设。"
+    },
+    {
+      "page_number": 127,
+      "status": "verified",
+      "ocr_markdown_sha256": "cd1271cbe476635893a6a83b19c1371aecd946d14b30240fb455bf8168f4e59a",
+      "structured_result_sha256": "2e94432c3d172215c5bb9f525ccd813c4b06c300eef15232f5644ec49781df95",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "原图同OCR核验体积归一化外通量极限和直角坐标散度公式的定理证明，没有另起例题。"
+    },
+    {
+      "page_number": 128,
+      "status": "verified",
+      "ocr_markdown_sha256": "5ee9cf5e1f46395b9b99468afa3d6ee381202a86bf5a12e9e0a14bc8b3aae3fa",
+      "structured_result_sha256": "72571db541bd85c5d9077c8d31eb018b335dfaf9980805d1e9a6fc679bd589ca",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "确认两条编号例：径向场 p^α p 的散度及三维1/p调和性。前题p>0和实α保证式有意义；后题题干本页完整而证明续129。"
+    },
+    {
+      "page_number": 129,
+      "status": "verified",
+      "ocr_markdown_sha256": "b17ee78af9bad50f24fdf15cf193eb00b2b035cb9c33b307a973343c7983d87e",
+      "structured_result_sha256": "859c2d113d6f8f447e02f00e271480777fdc737d9c336c50ec85bbee393c4bff",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对读前例证明与本页静电场例题起始。单个点电荷场分母p³，原图标量q、朝外闭曲面及内部通量4πq；题目保留本页为首次，有限叠加和连续分布续130。"
+    },
+    {
+      "page_number": 130,
+      "status": "verified",
+      "ocr_markdown_sha256": "644e3758d9a6e9b18362af58b6f0d1b3e6d544c1ca397bb5a7127a8e7a1e0d20",
+      "structured_result_sha256": "736acf256f02c94ad2fafd44a425b086fe15417e35ae4a7330b1b296b92382e0",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对读静电场例的有限叠加、连续密度及微分式，后起流体例由固定区域的向内净质量通量推导。积分右侧按体积元解释，任务写质量守恒，下一页继续。"
+    },
+    {
+      "page_number": 131,
+      "status": "verified",
+      "ocr_markdown_sha256": "09a957c9d2cac72e8579c69a04984bf20ddb185904271fa28b1b5cf0c0232324",
+      "structured_result_sha256": "efa2e74913cb8affd2a19f4cbad68452148c8442f0a42342d4e5dd2f65d0548e",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对连续性方程续文、4道节末练习和边界表示问题，核对Green行列式列次与边界表示的加号。源图显示 Green 题 C¹，经典二阶公式处用已标记的 C² 校订。"
+    },
+    {
+      "page_number": 132,
+      "status": "verified",
+      "ocr_markdown_sha256": "367b91900782559b914d0ce7f2205d6f0334bc2e3cd97fd95379d6e5ca805bcd",
+      "structured_result_sha256": "a85136b39d7b37155011c75594f292560dbbaa8ed774d683d3ac68c35e952ca3",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对读两个节末问题及具体点涡例的起点。平均值公式沿用已标记的闭球包含校订；最大最小值题保留非常数与边界。圆片例的给定模型始于本页，公式续133。"
+    },
+    {
+      "page_number": 133,
+      "status": "verified",
+      "ocr_markdown_sha256": "140e4e866b60aeb5d9f56059a5f49167de629ec8ea0651ff16f06f8def905bf1",
+      "structured_result_sha256": "5aa28628ecb955286d97d13444a5c2171154cff36a664dbab9eba99ac4abec45",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "原图和OCR核验圆片例半径r、角速度ω、同向单位切向量及环量和平均环量。轮廓与旋向由题干明确，原图为教学演示不依赖。后半一般定义没有另题。"
+    },
+    {
+      "page_number": 134,
+      "status": "verified",
+      "ocr_markdown_sha256": "cadd32b0f2b898fa0e41b4d642889ab800c71614a4abc5da7c2b2c92459aacda",
+      "structured_result_sha256": "1a9b5fa6b03a281b6b67cebaced835feeb70cf6100755771c2a47e300998b286",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "逐行核验 Stokes 应用和旋度一般定义，此页推导中区域G为面，OCR误用三重积分符号。一般极限说明无独立给定对象。"
+    },
+    {
+      "page_number": 135,
+      "status": "verified",
+      "ocr_markdown_sha256": "373e04e1a25642dd7e22eb8613118cabd38cb31902537349dcf700783ff03456",
+      "structured_result_sha256": "72f686a4d1c9f2875b3e895b41b41bd4548cc9af7fb4cf29b0fb541790d65266",
+      "reviewed_at": "2026-11-21T22:42:55",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "读旋度的坐标式、行列式和四条运算法则；属于一般公式及证明，无另起编号例或留作练习。"
+    },
+    {
+      "page_number": 136,
+      "status": "verified",
+      "ocr_markdown_sha256": "d59441ef08b59e7ec9bc266f38ecefd429c1f6487d802b746081b2ce4a599347",
+      "structured_result_sha256": "32aa32b5f0c40198284d4abb5161a115fc49802fc02f52e75ebf8866022ca3a8",
+      "reviewed_at": "2026-11-21T22:43:49",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对有心场编号例及3道练习。原图有心场的f自变量是标量p；旋度积分叉乘为n×F，末题两条件是div(f grad f)=af和∥∇f∥²=bf。OCR为末题多识一个梯度符号，原图无此符号。"
+    },
+    {
+      "page_number": 137,
+      "status": "verified",
+      "ocr_markdown_sha256": "0693629e33231139c8d7ed30d36c4378bc019606822e4d19a329aba264526afb",
+      "structured_result_sha256": "2e342b054440674fcb01c8497f4c17eeae322522cec6139ccf50a2f7c7aa475d",
+      "reviewed_at": "2026-11-21T22:43:49",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "读有势、保守、无旋等一般定义。源图与OCR确认空间单连通的第一个具体区域是单位球，五区域判断任务从本页起、续第138页。"
+    },
+    {
+      "page_number": 138,
+      "status": "verified",
+      "ocr_markdown_sha256": "ca2fb76b8ac2229ba5b2c02f22817218b4d02f768ac52169ae5a6ca2d4c45f33",
+      "structured_result_sha256": "ffc57c95d21a8a4b4003de07756203e0763134c39c8218296c8c1f354728d94b",
+      "reviewed_at": "2026-11-21T22:43:49",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "读并逐项复核其余四区域，包括圆柱上下界、去心球、平方半径1与4的球壳和球内柱洞阈值1/2。原定义“曲线是曲面边界”在改写中把闭曲线条件写明。"
+    },
+    {
+      "page_number": 139,
+      "status": "verified",
+      "ocr_markdown_sha256": "73a7ef67718151bcccdf72b7b100ee641c190616b503e7955298d5de406ba1ef",
+      "structured_result_sha256": "f6e8de2e117fe66a3361a368dd31558d2d3755c568d3b3040bcefda777090ff9",
+      "reviewed_at": "2026-11-21T22:43:49",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "原图与OCR核验三场等价的续证以及有心场求势的编号例起点。后一页补出地球引力实例，按本页首次出现记录。"
+    },
+    {
+      "page_number": 140,
+      "status": "verified",
+      "ocr_markdown_sha256": "31c433f64b1021fec6bb5dfa1f98d54b9dc77a08cfb69688205e6d85c49fdd11",
+      "structured_result_sha256": "6c676a26e54141d9c1adc748b27e98c316306011c6e09ba9081c6360d0b66666",
+      "reviewed_at": "2026-11-21T22:43:49",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核验引力场负号和p³分母，原图径向积分是p f(p)，OCR把第一个p误为φ。另起多项式向量场的三个混合项皆为−2倍，求势任务完整。本页之后只有证明续文。"
+    },
+    {
+      "page_number": 141,
+      "status": "verified",
+      "ocr_markdown_sha256": "ead658c3735eb31f5715661fc2536098394ee0f06f924251760e4a64405af31a",
+      "structured_result_sha256": "aa190787e5e4ee0ed6950d738cc680a0c8263ac060f6c95f1e7ab595c83d522a",
+      "reviewed_at": "2026-11-21T22:43:49",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核验第140页势函数的两种解法续文，以及Newton运动、动能和负势函数之和为常数的独立编号例。交付题保留所需质量、力场和运动方程，未带入证明。"
+    },
+    {
+      "page_number": 142,
+      "status": "verified",
+      "ocr_markdown_sha256": "322b0e89e2c1db01e6472cfdb8af63123e64125a76e557f4fe7add54c9081b83",
+      "structured_result_sha256": "9cde09322de1fa28aba00b487f363891ea090df1c1c7189d67f57f4403871d37",
+      "reviewed_at": "2026-11-21T22:45:00",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对读势函数唯一性、恰当微分定义及编号方程例。核准两个系数为x+y+1、x−y²+3，题干本页完整，解法续143。"
+    },
+    {
+      "page_number": 143,
+      "status": "verified",
+      "ocr_markdown_sha256": "20c8a13baa9a52c68cbfd641570a9160350217c55f36451a44edb71d961757bc",
+      "structured_result_sha256": "fde9d7e65e3c2d0ec1bd936054fcb201833ce1ccde16b26fd17676421ba305c4",
+      "reviewed_at": "2026-11-21T22:45:00",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对本页6道节末练习的端点、有理向量场三分量、径向分母和椭圆逆时针第一象限方向。末组两条方程从本页起，余五条在第144页，源页已关联。"
+    },
+    {
+      "page_number": 144,
+      "status": "verified",
+      "ocr_markdown_sha256": "271fcd1b1b6eca83380ba73e9f61d862d60ec790f767076a118ccd755fbcc424",
+      "structured_result_sha256": "d9ad330b779f9ce115a5f0ef62236a0860bf2f7b95b09f148b708ac9d4534845",
+      "reviewed_at": "2026-11-21T22:45:00",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对上一页方程组第3–7小问；OCR漏两个小问序号，原图确认x²−y、sin²y、e^y及角度式方向和两个不同的分母。页下部无源场反例使用p/p³且原点排除，从本页收录，续第145页。"
+    },
+    {
+      "page_number": 145,
+      "status": "verified",
+      "ocr_markdown_sha256": "3cbe8827f8bb59bdcdd90fc33b1d73c61b4f88887de982cab55c2aee95fd1f52",
+      "structured_result_sha256": "6bf5ef2162c7b6654fa15130c662ee571490eb5dae8b8c492d12aa761fe58e44",
+      "reviewed_at": "2026-11-21T22:45:00",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对反例两半球取向相反及整球通量4π；OCR把某曲面积分误加一重。依据本页星形例改写任意凸域和任意去心开球，任意正阈值r用等价半径R写成R²。后半是一般向量势公式证明。"
+    },
+    {
+      "page_number": 146,
+      "status": "verified",
+      "ocr_markdown_sha256": "46825599ef3205670645356f209847bba214c41f2dac53f703c87216e2923239",
+      "structured_result_sha256": "20a60d398e8e9f9f40176572b70996736c86340c7c88515a959ec880797c8be7",
+      "reviewed_at": "2026-11-21T22:45:00",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "通页核验星形域向量势存在性的推导，涉及t²P的全导数和散度零。本页是上一页定理证明续文，无独立题干。"
+    },
+    {
+      "page_number": 147,
+      "status": "verified",
+      "ocr_markdown_sha256": "979e49668081466ca636e949c7b60a4b0cec10a5ed74d97b463e6b809c75b315",
+      "structured_result_sha256": "bdb30a3844d998f10b179449b40715b0878a80e8f7c7a18f829b7c9af584e080",
+      "reviewed_at": "2026-11-21T22:45:00",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "原图与OCR核对向量势一般公式后另起编号例，向量场三个分量依次为xy+1、z、−yz；解答续第148页。"
+    },
+    {
+      "page_number": 148,
+      "status": "verified",
+      "ocr_markdown_sha256": "d4a97701e7da9a504978aaf0121870326ae54ee8410f75f0c45397006e80bcb0",
+      "structured_result_sha256": "964555c5b1ced1e50470f0b04b26332d94ded6b8699b93e74fd58ebc998abdf9",
+      "reviewed_at": "2026-11-21T22:46:09",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对读编号例向量势的解答续文。节末第一题三个场由原图与OCR交叉确认，第二题保留任意非原点星形中心及无源条件；随后进入曲线坐标定义。"
+    },
+    {
+      "page_number": 149,
+      "status": "verified",
+      "ocr_markdown_sha256": "abf20290cbe96ef7822555030d87d4f8466fd4ebc402b405d1a60b87bbf4ab34",
+      "structured_result_sha256": "bd7c4e78d2ff3f8bcb00188ea65f5bd7d137e9443f38fe81e3a5fb5f26230866",
+      "reviewed_at": "2026-11-21T22:46:09",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对正交参数、正Jacobi行列式、三条坐标曲线与尺度因子，页末开始一般梯度公式推导；页面没有独立例题。"
+    },
+    {
+      "page_number": 150,
+      "status": "verified",
+      "ocr_markdown_sha256": "4063e3ef250fca567dabe62cf95b20444f8724261d565f05958c9830d86cd7c4",
+      "structured_result_sha256": "c65d134935742dd49c90c210e04bf0365645d6e3855f678c3d2ec22d2ed0aade",
+      "reviewed_at": "2026-11-21T22:46:09",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对梯度三分量、各尺度h_i及后续引理，资料均属一般公式和证明。"
+    },
+    {
+      "page_number": 151,
+      "status": "verified",
+      "ocr_markdown_sha256": "aaf6dc8e964df20c299a46d7f2c9b83866809453bf56a75515b7f8f6c9d4c2e2",
+      "structured_result_sha256": "7bb81aeadc45e2b60f75b0b45e8194dbfa150226e066b2008cbbdeacce72aa22",
+      "reviewed_at": "2026-11-21T22:46:09",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对散度三项的循环尺度因子和旋度一般表示的开头，属于公式推导，没有另起具体练习。"
+    },
+    {
+      "page_number": 152,
+      "status": "verified",
+      "ocr_markdown_sha256": "e94b4fb757efa84b1bbe61f488e17403f33132e36c9ff6933dafa15a146999e1",
+      "structured_result_sha256": "b351e8093a2280f084b260ebb44cb3b68f4336a08a3d4133cf5e67ca6e9aa78f",
+      "reviewed_at": "2026-11-21T22:46:09",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "逐行核验一般正交曲线坐标的旋度行列式及 Laplace 算子式，具体坐标例题自第153页开始。"
+    },
+    {
+      "page_number": 153,
+      "status": "verified",
+      "ocr_markdown_sha256": "9b7f9acdd058fa7bf1563f4e6aa056e8e55635d562e2fa0402b53cd31be173f4",
+      "structured_result_sha256": "511f6230babc103a63bc4e914916dba1d45b5b8d9446f7a78eabc28a09f3750c",
+      "reviewed_at": "2026-11-21T22:46:09",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核验极坐标Laplace例和柱坐标的梯度及Laplace例。原图和OCR的坐标映射与现题一致，柱坐标梯度用同一局部正交基。"
+    },
+    {
+      "page_number": 154,
+      "status": "verified",
+      "ocr_markdown_sha256": "f53fe240f03429278d95ad6dc69215c189d974fee446a281a1e92c5b94a8aba2",
+      "structured_result_sha256": "1080fe5996b5e14a0c56d628dfb900438294b5c22dbc811744e0812a933dd7fb",
+      "reviewed_at": "2026-11-21T22:46:09",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对球坐标中θ为极角、φ为方位角，以及节末柱坐标连续性方程。出现在例题解答的OCR带点r取原图普通r；交付只保留例题题干和连续性方程的正确三个空间导数项。"
+    }
+  ]
+}

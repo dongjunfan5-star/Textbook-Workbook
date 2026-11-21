@@ -1,0 +1,25 @@
+{
+  "status": "benchmark_only",
+  "server_parallel": 2,
+  "server_context": 8192,
+  "pipeline_concurrency": 2,
+  "model_process_count": 1,
+  "items": [
+    {
+      "page": 24,
+      "parallel1_seconds": 12.97,
+      "parallel2_seconds": 12.06,
+      "markdown_identical": true
+    },
+    {
+      "page": 25,
+      "parallel1_seconds": 13.48,
+      "parallel2_seconds": 10.73,
+      "markdown_identical": true
+    }
+  ],
+  "elapsed_reduction_percent": 13.84,
+  "decision": "Retain parallel2 for production; only two pages tested, no claim of general accuracy or stable whole-book speedup.",
+  "sample_output_status": "unreviewed",
+  "gpu_memory_after_test_mib": 3547
+}

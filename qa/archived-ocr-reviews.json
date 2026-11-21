@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "project": "数学分析教程",
+  "reason": "本地 OCR 原始输出丢失后，以 SHA-256 校验值相同的两册 PDF 恢复输入，并保留事发前已经核验的逐页 OCR 校对账本。",
+  "pre_loss_audit": {
+    "verified_pages": 804,
+    "verified_status_as_of": "2026-11-21T15:01:24.357338+00:00",
+    "description": "误删前，已用实际 OCR 原文、完成记录和源页身份运行严格验证，验证器返回804。存留的逐章OCR校对记录和逐页来源表已再次与卷册校验值、页范围及既有验收状态比对。第14章不在归档范围。"
+  },
+  "chapters": [
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 1,
+      "report_sha256": "455a24ef9a0894a1b8ef76c4eb6e84aee3e32c7a0435230037b713c7bdc693a8",
+      "page_count": 54
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 2,
+      "report_sha256": "f198b8953eeb7722bf0925b7128afd76654463ad1b463cf2bc65704148fc8904",
+      "page_count": 67
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 3,
+      "report_sha256": "ab6bedac1b6fb29a0bb8def399408e651268a5a66ce99293b2e86dc297326a25",
+      "page_count": 62
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 4,
+      "report_sha256": "399c4df07b78576e13d457b7a162428aa3b88bab7281c233c04774aa5b6a6432",
+      "page_count": 27
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 5,
+      "report_sha256": "3f7bba4767bcdac7be0a7de24fabb2c5a6b43eb83283458d232747dba6bd6713",
+      "page_count": 25
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 6,
+      "report_sha256": "00efcbd3a0e46d9600d105a4dfd2cda0b6f0f1b94008c4edf958b81388d30309",
+      "page_count": 52
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 7,
+      "report_sha256": "5ecaa858449a755a84dd6c7c87c5a5fd426334887cb4faae2fad1c5e9615770a",
+      "page_count": 25
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 8,
+      "report_sha256": "63e500556f644edaa5bf65d5b75845c381e2fa6058f119fd930c99c115ec6d5f",
+      "page_count": 38
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": 9,
+      "report_sha256": "a1edfbc847cadf2a080fa29c5063641c6d25589716500b607810e2bb7e7e3bce",
+      "page_count": 89
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+      "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+      "chapter": "A",
+      "report_sha256": "f1fc60df8e3f70e99476c51c375f7d1fd5dad2f9925cf497837f459aefdf6962",
+      "page_count": 20
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 10,
+      "report_sha256": "81e17e09dfd7d3a3fe3baaf983d6013daf7c52b98df56edd6153d237546581ae",
+      "page_count": 65
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 11,
+      "report_sha256": "52a39655602fee645309540e83168d38a69895445ad2a2646161d49abf7cbe3b",
+      "page_count": 24
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 12,
+      "report_sha256": "e8d9dc54928b92bef09e8f27d30e1ab4cda0b9ccd48a0639be4427f44f6e3eb9",
+      "page_count": 33
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 13,
+      "report_sha256": "9be7a11e0a51f9655442f094a4c7be7284592417709c49b471ff407ea4097abd",
+      "page_count": 32
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 15,
+      "report_sha256": "98cd189b3113ef023e2ba2360e4c8a07e898e4b5c9cfe6b7afa4ad1c256044ad",
+      "page_count": 63
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 16,
+      "report_sha256": "3920edee9396025e9f115858b1fa50794401cb7062a4e565b63fc30a332f4690",
+      "page_count": 30
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 17,
+      "report_sha256": "55856a1dff947ba7db70e54cf45238a39f6a302a33deea84686d9debc109b260",
+      "page_count": 49
+    },
+    {
+      "project": "数学分析教程",
+      "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+      "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+      "chapter": 18,
+      "report_sha256": "4885b8dcedefa986535d51af21cd2aa03ee1d0075f8c32e4915d043f31d88973",
+      "page_count": 49
+    }
+  ]
+}

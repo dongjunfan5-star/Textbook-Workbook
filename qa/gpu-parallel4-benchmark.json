@@ -1,0 +1,97 @@
+{
+  "status": "benchmark_completed_production_restored",
+  "experiment_date": "2026-10-28",
+  "source_pages": [
+    90,
+    91,
+    92,
+    93
+  ],
+  "source_scope": "Lecture volume3, including dense exercises on92–93; source PDFs read-only",
+  "baseline": {
+    "parallel": 2,
+    "context": 8192,
+    "pipeline_concurrency": 2,
+    "output_subdir": "benchmark-p2-20261028"
+  },
+  "candidate": {
+    "parallel": 4,
+    "context": 16384,
+    "pipeline_concurrency": 4,
+    "output_subdir": "benchmark-p4-20261028"
+  },
+  "common": {
+    "model": "PaddleOCR-VL-1.6-0.9B official GGUF",
+    "backend": "llama.cpp b11829",
+    "page_width_pixels": 1800,
+    "layout_device": "cpu",
+    "layout_threads": 4,
+    "gpu_model_processes": 1
+  },
+  "items": [
+    {
+      "source_id": "bd727a57b926",
+      "page": 90,
+      "parallel2_seconds": 9.78,
+      "parallel4_seconds": 12.12,
+      "markdown_identical": true,
+      "parallel2_markdown_sha256": "580a8b9ce3f6323bdbf7cc7ea3e0677f223b61defd569023bb19f8e2e60ace1c",
+      "parallel4_markdown_sha256": "580a8b9ce3f6323bdbf7cc7ea3e0677f223b61defd569023bb19f8e2e60ace1c"
+    },
+    {
+      "source_id": "bd727a57b926",
+      "page": 91,
+      "parallel2_seconds": 9.06,
+      "parallel4_seconds": 10.08,
+      "markdown_identical": true,
+      "parallel2_markdown_sha256": "21fe08d611f2d0c51636f8fc6fbc3e6ed175dc3de1104ed7647a15d828ebfbc9",
+      "parallel4_markdown_sha256": "21fe08d611f2d0c51636f8fc6fbc3e6ed175dc3de1104ed7647a15d828ebfbc9"
+    },
+    {
+      "source_id": "bd727a57b926",
+      "page": 92,
+      "parallel2_seconds": 9.38,
+      "parallel4_seconds": 11.05,
+      "markdown_identical": true,
+      "parallel2_markdown_sha256": "9a4602b04253a29e61a4b6bc5ee9de68f38b56af7acd6158dc0baa7ed5988026",
+      "parallel4_markdown_sha256": "9a4602b04253a29e61a4b6bc5ee9de68f38b56af7acd6158dc0baa7ed5988026"
+    },
+    {
+      "source_id": "bd727a57b926",
+      "page": 93,
+      "parallel2_seconds": 8.3,
+      "parallel4_seconds": 9.45,
+      "markdown_identical": true,
+      "parallel2_markdown_sha256": "0faa6207c6a40030d8d5d0cec4150fa76ba40679d0e05d08b09d8742cd124a9d",
+      "parallel4_markdown_sha256": "0faa6207c6a40030d8d5d0cec4150fa76ba40679d0e05d08b09d8742cd124a9d"
+    }
+  ],
+  "total_parallel2_seconds": 36.52,
+  "total_parallel4_seconds": 42.7,
+  "elapsed_increase_percent": 16.92,
+  "excluding_first_page_elapsed_increase_percent": 14.36,
+  "gpu_observations": {
+    "2": {
+      "sample_count": 12,
+      "memory_min_mib": 2898,
+      "memory_max_mib": 2930,
+      "gpu_utilization_max_percent": 77,
+      "sampling_note": "one-second snapshots; observed range only, not guaranteed absolute peak"
+    },
+    "4": {
+      "sample_count": 25,
+      "memory_min_mib": 2970,
+      "memory_max_mib": 3053,
+      "gpu_utilization_max_percent": 100,
+      "sampling_note": "one-second snapshots; observed range only, not guaranteed absolute peak"
+    }
+  },
+  "quality_note": "All four fresh parallel2 and parallel4 Markdown outputs are byte-identical. Relative to older production2 output, page92 differs only in dollar-mode/spacing around f; no benchmark result replaced production evidence. This small sample does not establish general OCR accuracy.",
+  "pause_note": "Production worker4160 stopped immediately after third-volume page133 completed; uncommitted next page is safely rerun by resume manifest.",
+  "decision": "Retain original parallel2/concurrency2/context8192; candidate was slower on all four pages, including after excluding first-page warmup. No resolution or model change.",
+  "production_restored_at": "2026-10-27T16:08:41.0115811Z",
+  "production_worker_pid": 26852,
+  "production_server_pid": 29268,
+  "sample_output_status": "unreviewed",
+  "reviewed_evidence_modified": false
+}

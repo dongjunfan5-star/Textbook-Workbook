@@ -1,0 +1,42 @@
+\renewcommand{\thesection}{\Alph{section}}\renewcommand{\theHsection}{appendix.\Alph{section}}\setcounter{section}{0}\section{多项式的插值与逼近初步}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.1（改写）}
+设整数 $N$ 除以 $3,5,7$ 的余数分别为 $a,b,c$，其中 $0\le a<3$、$0\le b<5$、$0\le c<7$。分别找出被另外两个除数整除、被指定除数除余 $1$ 的正整数，并由此求 $N$ 除以 $105$ 的余数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.2（改写、校订）}
+求满足下列条件的不超过三次的多项式，并证明各自唯一：
+\SubQ{1}{$F_0(0)=1$，$F_0(1)=F_0^{\prime}(0)=F_0^{\prime}(1)=0$。}
+\SubQ{2}{$F_1(1)=1$，$F_1(0)=F_1^{\prime}(0)=F_1^{\prime}(1)=0$。}
+\SubQ{3}{$G_0^{\prime}(0)=1$，$G_0(0)=G_0(1)=G_0^{\prime}(1)=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.3（改写、校订）}
+求满足下列条件的不超过三次的多项式，并证明各自唯一：
+\SubQ{1}{$G_1^{\prime}(1)=1$，$G_1(0)=G_1(1)=G_1^{\prime}(0)=0$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.4（改写）}
+给定实数 $y_0,y_1,m_0,m_1$，求不超过三次的多项式 $p$，使 $p(0)=y_0$、$p(1)=y_1$、$p^{\prime}(0)=m_0$、$p^{\prime}(1)=m_1$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.5（改写）}
+用三次参数曲线 $r(t)=(x(t),y(t))$（$0\le t\le1$）逼近第一象限的单位圆弧。要求 $r(0)=(1,0)$、$r(1)=(0,1)$、$r^{\prime}(0)=(0,\sigma)$、$r^{\prime}(1)=(-\tau,0)$，其中 $\sigma,\tau>0$，且 $r(1/2)=(\sqrt2/2,\sqrt2/2)$。
+\SubQ{1}{求 $\sigma,\tau$ 及参数方程。}
+\SubQ{2}{验证该曲线在 $t=0,1/2,1$ 三点处与单位圆相切。}
+\SubQ{3}{写出半径为 $R>0$ 的相应拟圆弧参数方程。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.6}
+节点为 $(x_0,\ldots,x_4)=(0,1,2,3,4)$，对应的数据值为 $(y_0,\ldots,y_4)=(1,2,0.5,0,1)$。求自然三次插值样条函数 $S$，写出在各区间 $[x_{i-1},x_i]$ 上的多项式。验证 $S(x_i)=y_i$，$S^{\prime\prime}(0)=S^{\prime\prime}(4)=0$，且在三个内节点处一、二阶导数均连续。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.7}
+设实数列 $\{a_i\}_{i\ge0}$ 满足 $a_{i-1}+a_{i+1}=2a_i$（$i=1,2,\ldots$）。证明对任意非负整数 $n$，多项式 $\sum_{i=0}^{n}a_i\binom ni x^i(1-x)^{n-i}$ 或为零多项式，或次数不超过一次。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.8（改写）}
+设 $B_i^3(t)=\binom3i t^i(1-t)^{3-i}$，$p(t)=\sum_{i=0}^3B_i^3(t)a_i=(x(t),y(t))$（$0\le t\le1$），控制点为 $a_0=(1,0),a_1=(1,\lambda),a_2=(\lambda,1),a_3=(0,1)$，其中 $\lambda>0$。
+\SubQ{1}{写出 $x(t),y(t)$，并确定使 $p(1/2)=(\sqrt2/2,\sqrt2/2)$ 的 $\lambda=\lambda_0$。}
+\SubQ{2}{取 $\lambda=\lambda_0$，求误差函数 $\varepsilon(t)=x(t)^2+y(t)^2-1$，并求其在 $[0,1]$ 上的最大值。}
+\SubQ{3}{在 $\lambda>\lambda_0$ 时讨论曲线的内点拐点与尖点，并判断曲线是否出现自交。特别分析 $\lambda=4/3$ 和 $\lambda=2$ 时的情形。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{A.9（改写、校订）}
+设 $\sigma=4(\sqrt2-1)$，$\varphi(t)=1-3t^2+2t^3-\sigma(t^3-t^2)$，$\psi(t)=3t^2-2t^3+\sigma(t-2t^2+t^3)$（$0\le t\le1$）。以此拟圆弧构造单位球面第一卦限部分的 Coons 拟球面。两条边界为 $\alpha(u)=(\varphi(u),0,\psi(u))$、$\beta(u)=(0,\varphi(u),\psi(u))$。固定 $u$ 时，连接两边界点的水平截线采用同样的拟圆弧，半径为 $\varphi(u)$、高度为 $\psi(u)$。
+\SubQ{1}{写出该拟球面的参数方程 $r(u,v)$（$0\le u,v\le1$），并验证三条边界在各坐标平面上均为同样的拟圆弧。}
+\SubQ{2}{对所得点 $(x,y,z)$，令 $E=x^2+y^2+z^2-1$。估计 $E$ 的取值范围，给出数值误差上界。}
+\end{minipage}\par\vfill

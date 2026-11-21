@@ -1,0 +1,145 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析教程",
+  "chapter": 12,
+  "pdf": ".cache/chapter-proofs/tutorial-12/main.pdf",
+  "pdf_sha256": "d754f1dfdbba9db09796ec0fce1d1401046fb7f6fdabf6e6bc72c1b1323c1a1c",
+  "source_units": 43,
+  "final_problems": 49,
+  "pdf_page_count": 18,
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "method": "XeLaTeX 两遍编译稳定。重看第2、4、7页完整版面，核对改写或校订标记、题干、公式、两幅图和书写留白。其余15页与前次视觉验收的位图 SHA-256 完全一致。PDF文本终号连续，长题单页，其余题页每页3题，目录可跳转。",
+  "issues": [],
+  "page_results": [
+    {
+      "pdf_page": 1,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0001.png",
+      "render_sha256": "6a9a18ffabf18288f9bdb080fda88c537af326ac031aadb190b303b3feb75df2"
+    },
+    {
+      "pdf_page": 2,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0002.png",
+      "render_sha256": "9b0b99cc3cd2bc56576b01d7e1364cfa27c64a86092137aa07a04bbca71256d1"
+    },
+    {
+      "pdf_page": 3,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0003.png",
+      "render_sha256": "6b059067a4d3d5b8df7c87de9d1a7d5542614e175e7056d80575d760c3f567eb"
+    },
+    {
+      "pdf_page": 4,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0004.png",
+      "render_sha256": "a8644d4930b2c5a4b3f59401e539098040de0bcea70f2ebf7eff3bdac960bc02"
+    },
+    {
+      "pdf_page": 5,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0005.png",
+      "render_sha256": "04d0160c7fb320f8515ade8c431093183af9486d3e7883181eed865088d00276"
+    },
+    {
+      "pdf_page": 6,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0006.png",
+      "render_sha256": "681c6e31eca8f40233e039baf1e0ea0fff2ff95d57f1053d50e4d5d8165961d3"
+    },
+    {
+      "pdf_page": 7,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0007.png",
+      "render_sha256": "1e1392a6ca7726099c21751f7180e902a88f3ca173d23cff78aecb654ab1cfa2"
+    },
+    {
+      "pdf_page": 8,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0008.png",
+      "render_sha256": "fc414cc514eeff5c1c7824385b20f1df32e2bdc0de54fa7707d62dbb79e37d3a"
+    },
+    {
+      "pdf_page": 9,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0009.png",
+      "render_sha256": "7026d24fcfd9fa286a549be27d4275c5dcbdab3e3bfa3403388dbeb9a1fbe49f"
+    },
+    {
+      "pdf_page": 10,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0010.png",
+      "render_sha256": "97667c93726b5e4996db45cbee4a118d05e2ec0aeea01548baafeddb914fa653"
+    },
+    {
+      "pdf_page": 11,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0011.png",
+      "render_sha256": "53de991b3f4a842bd62f013d042cfc31ab7517b0a6a4e88f16c773c1d0151bf2"
+    },
+    {
+      "pdf_page": 12,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0012.png",
+      "render_sha256": "ad13c1264cdb92e12e35f53969d226ec8c250ad63666c08da60dbbbd255696e5"
+    },
+    {
+      "pdf_page": 13,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0013.png",
+      "render_sha256": "224f9a5877284d36121886d0198e2c447bf8f2fea1bb50f1c9eeb79938e8c94b"
+    },
+    {
+      "pdf_page": 14,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0014.png",
+      "render_sha256": "02389d41ebcb2756a66040b90f60e54382dbac66ec0aed5623c0b8a86c935e7a"
+    },
+    {
+      "pdf_page": 15,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0015.png",
+      "render_sha256": "ca69d550e1a9a23806c6431d8293975dc6b1c7cc3de730c92e6e8fc340748f8c"
+    },
+    {
+      "pdf_page": 16,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0016.png",
+      "render_sha256": "7ad96f7e0e9e27d5249ca9a25bd3275b8dc099155583e3b2791777470d4d4ece"
+    },
+    {
+      "pdf_page": 17,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0017.png",
+      "render_sha256": "e3e754bbaea09ab3b5e59dec212237fc62c97303f6ae1b2e9a58ed4fbe98a9ed"
+    },
+    {
+      "pdf_page": 18,
+      "status": "visually_reviewed",
+      "render_path": ".cache/chapter-proofs/tutorial-12/rendered/page-0018.png",
+      "render_sha256": "b2d572e53f75050d02c6d4c0b9c794a2612a433cfd40fcec971398296810159f"
+    }
+  ],
+  "pending_reason": "明确 Schwarz 灯笼截面和两相交平面夹持的有界区域",
+  "chapter_dataset_sha256": "e95694a4c0633d9069f4523cd006037e95382293fb0dc0e1a6f75d524cdc6950"
+}

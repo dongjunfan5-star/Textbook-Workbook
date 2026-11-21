@@ -1,0 +1,456 @@
+{
+  "status": "verified",
+  "project": "数学分析教程",
+  "chapter": 18,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "verified_pages": 49,
+  "source_unit_count": 77,
+  "final_problem_count": 82,
+  "checked_at": "2026-11-21T14:54:35.465218+00:00",
+  "method": "物理第352至400页逐页对照PaddleOCR Markdown、教材原图和LaTeX题库，按原图校正识别结果、题面、续页和改写标记。",
+  "pages": [
+    {
+      "page_number": 352,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0352/result.md",
+      "ocr_markdown_sha256": "2dd81d35e0c592a77cc3d7bdb0c96a12f00059b1d60a7e651f70670991b1bebe",
+      "structured_result_sha256": "5664a9836414f1d8886dacb444c1e4c2614dd776a9e9cc05ac3c64a3b01437e3",
+      "units_count": 0,
+      "findings": "章首 Gamma、B 积分用作反常积分概念的背景说明，敛散性已在第16章 p286–287 的例题收录；本页没有新增所求。"
+    },
+    {
+      "page_number": 353,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0353/result.md",
+      "ocr_markdown_sha256": "f7c1bdd2c309936210631fbe1613aa9fbc8b822c2e87450276649eec5d63523f",
+      "structured_result_sha256": "b35fa30c0de0cfdd6fb3a3bba5443cee9627b95ad202e91406733371e7c9cff2",
+      "units_count": 0,
+      "findings": "常义含参积分连续性、交换极限与积分的通论，无独立题。"
+    },
+    {
+      "page_number": 354,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0354/result.md",
+      "ocr_markdown_sha256": "fe87eac14b1d13c11337935731a604116250984497d5811f2b2d648f3c85c350",
+      "structured_result_sha256": "ba2b6e03a9b6d2561ae10c9055da3c4cdc48666a312e0aba062f6a7da0aa563d",
+      "units_count": 0,
+      "findings": "常义含参积分求导与交换积分次序通论，无独立题；OCR 混淆 a 和 α 的几处属于证明，不转录。"
+    },
+    {
+      "page_number": 355,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0355/result.md",
+      "ocr_markdown_sha256": "a3cc5ae2fd76e0f63a42b06e2839d5f73c1c14e2dad8ea9a9245737449635030",
+      "structured_result_sha256": "2e7c6b19e72651a1312e38f6071acd193613ab2c09d1c60d3097a1d5d4b94311",
+      "units_count": 2,
+      "findings": "确认两个计算例，首题分子为 x^b−x^a 且 0<a<b；次题对数二次式含 −2r cos x，r=±1 按反常积分理解。"
+    },
+    {
+      "page_number": 356,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0356/result.md",
+      "ocr_markdown_sha256": "092704581aa9ce6ae54a93f3c95043b9aa8f6fcb0cd2d866a37ccaeb3ec0af82",
+      "structured_result_sha256": "a969c25a432c248f910b4402b4caae887faf78c07b13ee21b788b3a5f41028f4",
+      "units_count": 0,
+      "findings": "续完355页原例中 |r|<1、=1、>1 三类求值，印证题库参数取全体实数。下半积分限随参数变动通论没有新增题。"
+    },
+    {
+      "page_number": 357,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0357/result.md",
+      "ocr_markdown_sha256": "a27b2769ecbfd5ea1c383d85844062cef22da1f1edb105fcc6e0997892704869",
+      "structured_result_sha256": "481612bf15c0af693ded6e9cbc564c9eb8b1049a6999feb83cc27b5e4b33af65",
+      "units_count": 0,
+      "findings": "讨论两端随参数变化的积分及一般求导公式，无独立题。"
+    },
+    {
+      "page_number": 358,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0358/result.md",
+      "ocr_markdown_sha256": "433e15e0202e4bad115643716dd5e0414885641e58704f24bde4416b1ef85cb2",
+      "structured_result_sha256": "87a38c8254b45b2b426801364731b26e86965598f2131ab78d3995739c7468f1",
+      "units_count": 3,
+      "findings": "核实 e^(t²+xt) 的两个变限、嵌套积分先 ds 后 dt 和 t²、x² 的位置，以及首组两道参数极限。"
+    },
+    {
+      "page_number": 359,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0359/result.md",
+      "ocr_markdown_sha256": "b62709d7579113885296dad461c8020a37772906f5a3d496b39128830eb89ad8",
+      "structured_result_sha256": "b39c4f6a1e5c151397608e52e282290c231c095e2012b13e684e2b438a9b22dd",
+      "units_count": 7,
+      "findings": "逐项核实二阶导、四个变限求导、弦振动、线段外 Laplace、高阶端点讨论、线性最小二乘、Bessel 方程。明确第四小问的 g 光滑性、第三小问连续延拓，绝对值积分覆盖未限定的 u=a、b。"
+    },
+    {
+      "page_number": 360,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0360/result.md",
+      "ocr_markdown_sha256": "75cab1a08d6d36eb611bb443e1a3d1e5e7394d6c12dd07d4fcfb65fd717e3467",
+      "structured_result_sha256": "b0e4c29a5827105169b1c465f16319c72bee506dc1448d71bc747def23ed95f9",
+      "units_count": 2,
+      "findings": "核对利用参数微分的三个积分和指数三角恒等式。第一小问排除 a=b=0，并写明端点对数奇性的含义。正文下半为通论。"
+    },
+    {
+      "page_number": 361,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0361/result.md",
+      "ocr_markdown_sha256": "853b2d6b5b83ce4363f465db07b7dcc38cfa1c4e65a267ef076fdbeff1ee7ff2",
+      "structured_result_sha256": "204079ae2969544bf2450e6abc7b7bb1d1dc862bfa9231cabd81ab0b15cdfe5f",
+      "units_count": 0,
+      "findings": "一般一致收敛下连续性和换极限积分的证明，无独立题。"
+    },
+    {
+      "page_number": 362,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0362/result.md",
+      "ocr_markdown_sha256": "4a3e976b70502be37fd4effdc788e9fe0747f81dd74679571654145a85de5ce5",
+      "structured_result_sha256": "376b76151f59ae82ce28c11501c5620b8fd652ba2d19126e5f010ee076159681",
+      "units_count": 0,
+      "findings": "定义参数积分限制及换序证明，尚无题目。尾积分上确界的读者练习始于363页。"
+    },
+    {
+      "page_number": 363,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0363/result.md",
+      "ocr_markdown_sha256": "07c342ed356dbd59e93fe437fa119a0ec820e2324a5bced0e62f765c6ab7b490",
+      "structured_result_sha256": "067cfeb3216a730e81acb96de46a3154bb838eda91700b1a8e3d77424b153276",
+      "units_count": 2,
+      "findings": "尾积分上确界结论标“留作练习”，对照原图保留绝对值。指数例子关于 u≥0，补问的 δ>0 情形承接至364页。"
+    },
+    {
+      "page_number": 364,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0364/result.md",
+      "ocr_markdown_sha256": "d52cae5b6d46b07a5d2a8aea7e35900848ec0ef0ef351200da4be27b8bc9464b",
+      "structured_result_sha256": "445eac85cd023633978261c31aff270f8a4f7ce123f365dded7b99be4537f601",
+      "units_count": 2,
+      "findings": "确认363页在 δ 至无穷的续例。Cauchy 原理明确留作练习且差额取绝对值；新例以 dt 积分、u 为参数。统一常数记为 a。"
+    },
+    {
+      "page_number": 365,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0365/result.md",
+      "ocr_markdown_sha256": "d1f764476dfba29097505214ec4899bc0067fe8a28973171936e7c285a45eb4a",
+      "structured_result_sha256": "8ae5a647fab5c77882316f22d164de017fdaec41797f424ebdd58f921c13ebd6",
+      "units_count": 1,
+      "findings": "新例以 du 积分、t 为参数，和364页的 dt 不同，均要求在各自非负参数轴上一致收敛。"
+    },
+    {
+      "page_number": 366,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0366/result.md",
+      "ocr_markdown_sha256": "95b2874bfb24429e6645fc7dbea7178b70af5adcce88ec810ba779f54af56c72",
+      "structured_result_sha256": "e5a9d2d22b833ff6e59d72ba3eb2debd3d2cc83f545fc521cf29d6432accc9ed",
+      "units_count": 3,
+      "findings": "Abel 判别法证明明确留作练习。后两例依次核对 e^(−ux)sin(x)/x 与 x sin(ux)/(a²+x²)；后者原图分母和无穷积分上限修正了 OCR 坐标粘连。"
+    },
+    {
+      "page_number": 367,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0367/result.md",
+      "ocr_markdown_sha256": "31109198f25d242ec130ef07c964c1a8e480424fc417e876c8c9e23f283115b9",
+      "structured_result_sha256": "8c0e36526a2c8b4b6346bf06141636b1b1b541286635966affc3d7498082cd3d",
+      "units_count": 1,
+      "findings": "确认 x^p 位于分母且 sin(1/x)，题中的两个参数区间来自原例正文与后续分析。本例所求为一致收敛性，与第16章仅判敛散不同。"
+    },
+    {
+      "page_number": 368,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0368/result.md",
+      "ocr_markdown_sha256": "7c729ef4a9af181e7b78dbd2c4f6836bc2e7c051d0d84257c1e7576a1ff80b4f",
+      "structured_result_sha256": "f2ddfe7ecde58deb7a49e748e6f356325da91c28e1e678f4599867f69d6c74dd",
+      "units_count": 1,
+      "findings": "确认正文具体反例 f_n 在 [0,n²] 取 1/n、其余取0，按书意改写并在题号标注。其余是通用换序定理。"
+    },
+    {
+      "page_number": 369,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0369/result.md",
+      "ocr_markdown_sha256": "e61e58df3dac82bfae6cda577d484ac331f86aedeca39bb048b6fde4eade2fb0",
+      "structured_result_sha256": "f85b3e44008cbd5ae8ab5d3878649d36ebbc51cf10d2b25bc09eec2600ed802f",
+      "units_count": 1,
+      "findings": "确认 x^(p−1)/(1+x) 及 0<p<1。页首为换序定理证明，例题首现本页。"
+    },
+    {
+      "page_number": 370,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0370/result.md",
+      "ocr_markdown_sha256": "ba1a8c70370748367eabd28b25faf98ede0b5a4121881afa0cf81e08db6d9ea6",
+      "structured_result_sha256": "b3d6b1e87881944ec55a68ff874f9343b38211a191fc50ef04ecae873647bda0",
+      "units_count": 1,
+      "findings": "续完369页例题并给出 1/(1+x^a) 的计算新例，a>1。原积分求值不受 OCR 在代换后微分指数处的错读影响。"
+    },
+    {
+      "page_number": 371,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0371/result.md",
+      "ocr_markdown_sha256": "1b2bd16fadc115aff68498d4b0572ecc0be5885ef75b0ae55675c5c42cf7d925",
+      "structured_result_sha256": "56a3f6aca1e9c04ad1d24c87d93a0d6bf8b1af3a779ef8a2155a2c6b708ae224",
+      "units_count": 8,
+      "findings": "核对五小问收敛性条件、含零闭区间的 sinc、sin(3x) 和指数积、端点发散矛盾、两道分母 a²+x² 的对照及参数 α 带额外因子。Gaussian 移动尖峰题末句续至372页；非退化条件排除仅有0的参数区间。"
+    },
+    {
+      "page_number": 372,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0372/result.md",
+      "ocr_markdown_sha256": "dad65e6d70771f0a2674b391dcd1d89d5a84dad7a283830b0f5acf913e305633",
+      "structured_result_sha256": "8cb3004b9716d796ac0d2be087f37c1bd0d3437dbac6c61c27beeed883725607",
+      "units_count": 2,
+      "findings": "页首完成371页 Gaussian 跨页题。核实任意增序列 A₁=a 的分段积分级数，并将页末开始的连续性例锚定本页。"
+    },
+    {
+      "page_number": 373,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0373/result.md",
+      "ocr_markdown_sha256": "f7e0bbec0e679c9d6f7d81e2f058347c8d3ebf33082e8eee071a87670a806964",
+      "structured_result_sha256": "446a2f05b30eea2f1145c3492eb8e568255e3a6805f7bf7ad593e7ecb9d800b3",
+      "units_count": 0,
+      "findings": "确认上一页例题公式为 arctan(x)/[x^u(2+x³)]；定义域检查是紧接原题开始的分析，已一并写入。其余 Dini 定理属通论。"
+    },
+    {
+      "page_number": 374,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0374/result.md",
+      "ocr_markdown_sha256": "d9bfcb7ca276b48ee7845618866f10c02cfb4aa36a7810892ec5045614115217",
+      "structured_result_sha256": "288eb06b39d6216938f7fc7420a81214d4afb5598bb545e014eb550d7ac1b5ca",
+      "units_count": 0,
+      "findings": "Dini 定理证明与交换积分一般结论。正文指向382页两项正式反例，本页不另起题。"
+    },
+    {
+      "page_number": 375,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0375/result.md",
+      "ocr_markdown_sha256": "4fe99464c429641803caddf985613e61dc9a94afc5542050120cbacc787aa6b7",
+      "structured_result_sha256": "98f50065f535b8e8d057fa36137084410f8f05ba45638b8f5b931eef1e856219",
+      "units_count": 1,
+      "findings": "确认 (e^(−ax)−e^(−bx))cos(cx)/x，a、b>0，c 为任意实数。与382页 sin 版本各自独立。"
+    },
+    {
+      "page_number": 376,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0376/result.md",
+      "ocr_markdown_sha256": "b867bac4be7d956e17520ca474def6d2b03d49f3fb5e0c9f6cec62201daa06d4",
+      "structured_result_sha256": "4670bc8c6d01ac14cfa480add6ac383ad345a51a6d2378bd363d2fe4c0fa7368",
+      "units_count": 0,
+      "findings": "两个无穷积分换序定理和证明，无独立题。"
+    },
+    {
+      "page_number": 377,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0377/result.md",
+      "ocr_markdown_sha256": "bc55924d365fcab4f0c6cd8ce2bd23b35be08924bbd9c963619e499f14fcefaa",
+      "structured_result_sha256": "fcfc13b66be40e49fea1a3b97da3273b0d4a2647aee94d037039c3ed95ef31a1",
+      "units_count": 1,
+      "findings": "高斯积分原例自此页开始，积分从0至正无穷，指数为 −x²。后一页证明仅用于原例。"
+    },
+    {
+      "page_number": 378,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0378/result.md",
+      "ocr_markdown_sha256": "0c6d72fc9b579316bdb2bc2316dbebb22799c6837d3eaa039e9a206784154077",
+      "structured_result_sha256": "b9b8fbd4cac9be94bb392fd03c2ca7d0f7c9e5a2d8cef09a2eca5bb3b4c0673c",
+      "units_count": 1,
+      "findings": "前半续高斯积分证明；Fresnel 新例为 sin(x²)，之后两页继续证明，题目首现本页。"
+    },
+    {
+      "page_number": 379,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0379/result.md",
+      "ocr_markdown_sha256": "c8539f63afd1374c86e296bc60e09318450f568462f55857f34146d8cdec983a",
+      "structured_result_sha256": "e53aec7ac30cae085200a1f6b100cc453dbff1639231a482b2c74b1f9ac3673d",
+      "units_count": 0,
+      "findings": "Fresnel 积分证明采用衰减因子，辅助积分属于原例解法，没有新增题。"
+    },
+    {
+      "page_number": 380,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0380/result.md",
+      "ocr_markdown_sha256": "3241264afe8061ad6b403ee32362fd064be9925d1b2b06bd81f94d7561f5fe1c",
+      "structured_result_sha256": "443bd61b54b64dae23a6559fba770202e8035574242000afc4cb946147ec0b39",
+      "units_count": 1,
+      "findings": "Fresnel 例在页首完成。核对新例必须用参数微分，分母 x²、两指数为 −ax² 和 −bx²，a、b>0。"
+    },
+    {
+      "page_number": 381,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0381/result.md",
+      "ocr_markdown_sha256": "2a9a3030ad3aa4df1d02af82b753bf2e4f1b5f6eb696c8322a9a9fffb7a0b896",
+      "structured_result_sha256": "9c54e4edf1b4ae933fe13aa7349b2b52b3c177a5625c26e5854dde94f8f3a745",
+      "units_count": 2,
+      "findings": "页首承接380页首例。新例为高斯余弦，a>0、b 取全实数；三问连续性练习从页底开始。"
+    },
+    {
+      "page_number": 382,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0382/result.md",
+      "ocr_markdown_sha256": "72653a90b0cf0f62ebe84b61cd263efe5380aad10976a2512dda33ebd9f4f03d",
+      "structured_result_sha256": "85bd2a063872dd0edc198f617ab5145c16a230943f736f571950db2f8439e5b6",
+      "units_count": 9,
+      "findings": "核对三问连续性续行、全部新练习、Dini 两个反例和 arctan 乘积。Dini 第二个被积函数为 u exp[u(u−x)]。圈环积分只在本页出现引导语，公式见383页。"
+    },
+    {
+      "page_number": 383,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0383/result.md",
+      "ocr_markdown_sha256": "7c8ccef4c6c8daa3f28d5fc1006277976d2d28f59683aba8d38da0846ffe946d",
+      "structured_result_sha256": "c8517c7e2068f2af6d746cbf699ea75c706a575ca51df4ff2d84759f86436aac",
+      "units_count": 2,
+      "findings": "圈环积分核对系数 1/(2π)、根号与 1≤x²+y²≤4。四道应用积分分组，最后一道证明仅需一个参数处原积分收敛；Γ、B 定义为新节背景。"
+    },
+    {
+      "page_number": 384,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0384/result.md",
+      "ocr_markdown_sha256": "93f5ae50f507345bd28bf3c1eab1eb63f9e900d10af31a36fbf2a24c1078f41c",
+      "structured_result_sha256": "b317a8cef36f19d812200859d2ce0c7372ce8ee3c5ce8c5c2d6ae93933cea7eb",
+      "units_count": 0,
+      "findings": "明确援引第16章已有Γ、B 定义域例题；本页其余连续、可微、对数凸与递推证明均属已证明的正文。"
+    },
+    {
+      "page_number": 385,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0385/result.md",
+      "ocr_markdown_sha256": "98bc632424ef6239236980cd1042612ea4dc897eaf509105b79d2002d4d6f4da",
+      "structured_result_sha256": "23c10cd1237b8335d0b03d579aa4ac1aa54d553c6431ffceb2f946893a4334df",
+      "units_count": 1,
+      "findings": "正文明确以正整数 n 迭代 Γ(s+1)=sΓ(s)，得到 Γ(n+1)=n!，是可独立完成的具体推导，标注改写。"
+    },
+    {
+      "page_number": 386,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0386/result.md",
+      "ocr_markdown_sha256": "09646549ece0b270327019aec3ebeb80cd1372e319204a8decd104440c0677c4",
+      "structured_result_sha256": "ee3f2e1a91c556484dcea2400fed13090a0a587249b0273fbb9475f0133c1016",
+      "units_count": 0,
+      "findings": "Bohr–Mollerup 刻画证明和 Γ 的 Euler 极限公式。极限公式在400页作为正式题已知条件使用，正文没有额外提问。"
+    },
+    {
+      "page_number": 387,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0387/result.md",
+      "ocr_markdown_sha256": "0d759af80fac51d139e49a259e1b5b559fea46dd1e91219916852efb46ef1083",
+      "structured_result_sha256": "81c8311a2569c6ea9e4604dbbd4826b995716e4a560edd42564eb07148ba6e38",
+      "units_count": 0,
+      "findings": "Γ 极限公式全域证明、B 递推和 Γ–B 关系证明，无独立题。"
+    },
+    {
+      "page_number": 388,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0388/result.md",
+      "ocr_markdown_sha256": "792b01d5d2ff7932a8d5e299465d06900f5ae53afdad1f6d1d2d3b9044b2cabb",
+      "structured_result_sha256": "85705a926eb877a35ba9e25a721f5fe69ae18fe79895c24ced60108cb65a8ae3",
+      "units_count": 1,
+      "findings": "对数凸证明任务在399页正式练习。页末新的计算例为 cos^α(x)sin^β(x)，两指数均须大于−1。"
+    },
+    {
+      "page_number": 389,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0389/result.md",
+      "ocr_markdown_sha256": "3a8889c82cb26afdfd32f5a439d6674ace05c7f24498cc3f9c37a48618620199",
+      "structured_result_sha256": "22d396751b466699539bdea2bd94f661a65d3efe6b8b90ca156ef25eb3adf849",
+      "units_count": 3,
+      "findings": "辨认 Γ(1/2)、cos^6x sin^4x 两个具体推算，均标改写。Gaussian 重算结果已见377页及400页指定方法题；B 积分的分子为 x^(q−1)，其应用计算分子为 x^(3/2)、分母为 (1+x^5)^3。"
+    },
+    {
+      "page_number": 390,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0390/result.md",
+      "ocr_markdown_sha256": "72e325288dbdfe5efb61eb0249a374e368c09b7518ea65617b671011c95df0a0",
+      "structured_result_sha256": "86056b7ab3fa7d7cd1090102745e8814135369deadf6db50606fd57cf2f614cd",
+      "units_count": 1,
+      "findings": "续389页 B 积分应用解法。确认新例级数分母为 n 乘二项式系数 C(2n,n)，从 n=1 起。"
+    },
+    {
+      "page_number": 391,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0391/result.md",
+      "ocr_markdown_sha256": "f3fec17ed61ba459f15ea2fadfaa5be2df467c575156df988f90d8d06db26bca",
+      "structured_result_sha256": "0b94b2b8a6e14a93b64a7ca019886608941980ae5c5cf517b695d21ce6b5a899",
+      "units_count": 1,
+      "findings": "加倍和余元公式为一般理论。正式例题明确计算 tan^α(x) 在 [0,π/2] 的积分并要求 |α|<1。"
+    },
+    {
+      "page_number": 392,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0392/result.md",
+      "ocr_markdown_sha256": "af9468918c0d80b13c670765f6272452f222a36b8168e758bbe3ed6a2c203e29",
+      "structured_result_sha256": "6d8cc205ca10894c46c5e465ece8093db9fde2a5650f4251fc6a3b50d5f43880",
+      "units_count": 0,
+      "findings": "完成上页 tan 积分，后半进入 Stirling 公式及一般引理证明，无独立题。"
+    },
+    {
+      "page_number": 393,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0393/result.md",
+      "ocr_markdown_sha256": "bfe65ca4a0c42a3ceae4a53461621dce2a322ecc541e7ee4c976ee53d05f2924",
+      "structured_result_sha256": "dfde2444809f63bf91a7be6e7890dfe06caef19b7c45a28c317cf0f75dfaeb2d",
+      "units_count": 0,
+      "findings": "Stirling 引理通用推导，无独立题。"
+    },
+    {
+      "page_number": 394,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0394/result.md",
+      "ocr_markdown_sha256": "45b8febb96e34a168dcc0bcf632effe6e82908742922de59673a6f67c01c62bd",
+      "structured_result_sha256": "3d2721d8e47dc436e101f2f2a1c2cb8064a0b091d11066b5a0b683a5ad962132",
+      "units_count": 0,
+      "findings": "Stirling 公式用的一般引理及直接推导，无独立题。"
+    },
+    {
+      "page_number": 395,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0395/result.md",
+      "ocr_markdown_sha256": "1f7208a8bf14b855c94a9dfbcfb8be1fe5e51e9dfbec592971fe29e12d90d81c",
+      "structured_result_sha256": "5b1eb723f63b52b6bacf48326265a746da16fcabe88858d2d46863412066ba57",
+      "units_count": 0,
+      "findings": "Stirling 公式续证，无独立题。"
+    },
+    {
+      "page_number": 396,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0396/result.md",
+      "ocr_markdown_sha256": "7226d5d9045c866b8ee65849ea2caee333cb00e8bcaff93dca46ea3055d5cab3",
+      "structured_result_sha256": "eca38c26201f2752ab771317fda0da589672948a7fbef2ac1ecc30230ee07def",
+      "units_count": 2,
+      "findings": "Γ 比值推论明确留作练习且在399页正式重列，保留正式题。独立极限为 sqrt(α)乘 (1−x²)^α 的积分；本页明确从第10章奇、偶两个公式出发用 Gamma 统一体积，奇数维推导在397页。"
+    },
+    {
+      "page_number": 397,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0397/result.md",
+      "ocr_markdown_sha256": "5f74541973acf217811b27a4cecef57a60e1baa8c0bb68a79cc1b18503567c28",
+      "structured_result_sha256": "21348d1de8a55fda95b4fdd06802eb10118eb057507622de5d36350d0a50dc50",
+      "units_count": 1,
+      "findings": "续396页体积统一公式；径向积分只把第10章课题中的系数换用 Gamma，仍由第10章原径向积分题覆盖。正文另启球面面积计算，其几何对象在398页写明、结果在399页。"
+    },
+    {
+      "page_number": 398,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0398/result.md",
+      "ocr_markdown_sha256": "7bebaa0951e5865a526d2ffef764d3828c3ab2113bbc7e83e264791a04f6c0b4",
+      "structured_result_sha256": "a230458ede0f5101e0a97201c81ff87282c54668c0fcb61f9124d72f6c46f9e2",
+      "units_count": 0,
+      "findings": "确认球面为原点、半径 a 且方程 x₁²+⋯+x_n²=a²，曲面积分需 n≥2；这是397页球面题的补全，未另起题。"
+    },
+    {
+      "page_number": 399,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0399/result.md",
+      "ocr_markdown_sha256": "22e139becc4c5f2cd0f3ed99304930d1c3c2387c6c1c91a6052a7e5765db75fc",
+      "structured_result_sha256": "f5ecf569d7e3054dc7801ede86b3f8e94bb4de3fc9da19e0e3e5ee89855b9430",
+      "units_count": 9,
+      "findings": "页首为397页球面示例的结果。核实 Gamma 的两个幂次变换、B 三角式、四项使用 Gamma 的计算、凸性、渐近极限、Γ 比值和一般二次分母式。原图幂次为 α；OCR 把它混为 a。末题 lnΓ 公式续400页。"
+    },
+    {
+      "page_number": 400,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0400/result.md",
+      "ocr_markdown_sha256": "44f2d6777e9adc24d42daff046e8a977e05eee8ade923d1d2fb608b029e25a8c",
+      "structured_result_sha256": "84b079b9e7326b5115f1073098eb049a8e913536b59d43932a77e3b19776af6a",
+      "units_count": 5,
+      "findings": "核实399页持续的 lnΓ 积分。五个新正式问题依次核对 sin(πx) 加权、根号 3−cos x、二项系数 m+k+1、Gaussian 的 f+g 途径、正弦乘积和 Euler 极限公式。"
+    }
+  ]
+}

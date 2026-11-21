@@ -1,0 +1,309 @@
+{
+  "project": "数学分析教程",
+  "chapter": 12,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "physical_start": 90,
+  "physical_end": 122,
+  "status": "verified",
+  "pages": [
+    {
+      "page_number": 90,
+      "status": "verified",
+      "ocr_markdown_sha256": "d876aae13deff5dfe32c106e123f9d7de13ba26775563b98ce064439f284c8f0",
+      "structured_result_sha256": "37df3fa382954a9e66425da4463b664ac585a05b770ddd85f33dcf1b52ffaccc",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 Schwarz 灯笼示例的开头，直圆柱侧面底半径与高都是1；例题的构造和极限分别在91、92页，记录首现物理第90页。"
+    },
+    {
+      "page_number": 91,
+      "status": "verified",
+      "ocr_markdown_sha256": "afd5b16b40e97252a611ea21a7906b91f8d59ebf0901e68fbcddad845b0ddcca",
+      "structured_result_sha256": "d04c114ff3e5d607be96ef811a2021ee3392f1f3573520c6eb624b057adf0790",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对相邻截面分点错开 π/n、轴向间距 1/m 和 2mn 个三角形；构造用柱体全高，已明确含两底面。保留仅显示多面侧面的必要裁图。"
+    },
+    {
+      "page_number": 92,
+      "status": "verified",
+      "ocr_markdown_sha256": "2f186a79e072803c38782f91118cdadbf8074787a3f54f8eabf361f01fb5b441",
+      "structured_result_sha256": "ecbde84e32ec64b58b8e54a7fb0daf45619307b33dbb97718b891870aba4fc68",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 m/n² 趋于有限值及无穷时的效果、最大网格直径趋零不能保证面积收敛；没有另起题目。"
+    },
+    {
+      "page_number": 93,
+      "status": "verified",
+      "ocr_markdown_sha256": "99d2d1474ac9c9a62dd5da847df7ed7bd96280cc40753c48d8a333078076ecf7",
+      "structured_result_sha256": "f6cffc7f6ca9e07e28c5c8e13ea60fb2fb0bc0ff67ce1984170dcaf6e3445415",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对面积元定义、正则换参数和退化到平面面积的说明；OCR 将部分叉乘项 r_t 误为 r_i，本页无独立题。"
+    },
+    {
+      "page_number": 94,
+      "status": "verified",
+      "ocr_markdown_sha256": "39fcc30cc4939920ee7047d9ee349026e9142c2be7ba22c8b68f18d47665f3b3",
+      "structured_result_sha256": "7f571bfb01724a0364999f7814bbf57dc80eb0017b5d974128ab749ed05d8b81",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对正半径 a 的球面积例，前段为第一基本量和一般面积公式。"
+    },
+    {
+      "page_number": 95,
+      "status": "verified",
+      "ocr_markdown_sha256": "86090fd0fa256947a3136ac76217ce265f6669e3595a56d594ec06e8d11235b9",
+      "structured_result_sha256": "1625b716bc80a8cb01ed5aba97c68cb29fd49579c70d8dd137b3454f218db40f",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对截球面的球半径和柱面方程 x²+y²=ax，以及非负 C¹ 曲线绕 x 轴旋转的面积。例题涉及的教材配图是解说示意。"
+    },
+    {
+      "page_number": 96,
+      "status": "verified",
+      "ocr_markdown_sha256": "f906054f77ae6c987d8fec51ef6af06213eac1bb0d28438201ecc65ab9ea188e",
+      "structured_result_sha256": "d92c22f0af133d7ea2bd381711a4216569db380d8dfdbc0ca58b9b68bb6a82f5",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对七条曲面。第三问相交平面间取夹持的有界部分，明确 −|x|≤z≤|x|；第六问柱面方程的四次幂、末问螺旋面参数均以原图为准。"
+    },
+    {
+      "page_number": 97,
+      "status": "verified",
+      "ocr_markdown_sha256": "774bd2a368e284ecee195c695dc70a2cf52876319ef849143dc92fa62eccb500",
+      "structured_result_sha256": "bf507bc09e09f934f750c3319b763fbdde98f4414458e2a25830dc12e8d52823",
+      "reviewed_at": "2026-11-21T22:13:26",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对一般曲面质量模型、第一型曲面积分定义和通用计算式，教材没有另起例题或习题。"
+    },
+    {
+      "page_number": 98,
+      "status": "verified",
+      "ocr_markdown_sha256": "c953a171530ac9fad3d89e8011d28704ab1b8ad034929803ed1aa9b15992eb19",
+      "structured_result_sha256": "5c2e3461231db0518198a30da1001cfb129db8f7b833382181a7084c8ec521bb",
+      "reviewed_at": "2026-11-21T22:15:08",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对上半球上的 x+y+z、全球上的 x² 两例，并核对球壳引力例从此页开始。x² 例追加原文提到的球坐标直接计算与对称性两法。"
+    },
+    {
+      "page_number": 99,
+      "status": "verified",
+      "ocr_markdown_sha256": "b23cff5fa9a019ecc620de535598b8603a47a00aeeb246050905827e01fbed74",
+      "structured_result_sha256": "1f48734ed796845b817dcbe3e9d9d665cf66cfb2bf8952a325d6edfdd8bd2a6d",
+      "reviewed_at": "2026-11-21T22:15:08",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "对照球壳引力例的解答，球内 l<R、球外 l>R，原图不包括球面等号，OCR 误把 l>R 识为 l≥R。没有新题。"
+    },
+    {
+      "page_number": 100,
+      "status": "verified",
+      "ocr_markdown_sha256": "c0cd43f5b998147d374dc71ddecfda45cffdb44dd1efafaeab255befa5b3b465",
+      "structured_result_sha256": "9ba984da980e5a383a54633e7fea77fa6f5f5735e9d3939a38301e97b7d4d3d7",
+      "reviewed_at": "2026-11-21T22:15:08",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对三个第一型积分及三道问题的球域、Poisson 公式系数、斜截圆盘的 π/18、径向三重积分的 2π/3。第三问题原只设开区间连续，补为闭区间连续并标校订。"
+    },
+    {
+      "page_number": 101,
+      "status": "verified",
+      "ocr_markdown_sha256": "8a28f7d0667d30d65e1d9973b997318d97136cc5129fce66c272635aa4f3a6e6",
+      "structured_result_sha256": "cfe879a40b3e8f03cc95ce9a72f1b8107fe665b1931ebc69815774b7b4e16a1a",
+      "reviewed_at": "2026-11-21T22:15:08",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对教材较早的 Möbius 带粘合示意和沿中心圈法向翻转。相同定向情形由第102页标号例的柱面/Möbius 对照覆盖。"
+    },
+    {
+      "page_number": 102,
+      "status": "verified",
+      "ocr_markdown_sha256": "42ce7a27e64f522e51210eb4de9878338c47ee84b2e101dd5cdac4523c6d65b5",
+      "structured_result_sha256": "fa92a2a0bf4a80b599ce7908f9b6ce48ba375bad18e19bfee4eb18e7075f5b68",
+      "reviewed_at": "2026-11-21T22:15:08",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对两道正式例，立方体相邻面沿公共棱方向相反；矩形两种粘合的点名及箭头与必要图一致。后段是第二型曲面积分定义引入。"
+    },
+    {
+      "page_number": 103,
+      "status": "verified",
+      "ocr_markdown_sha256": "913eef74dc4be3fddc887ac8470822a3d41fdd04cc62c719269351626c734a4d",
+      "structured_result_sha256": "f5a10a2e8189cb41a893d9db36b77fcb4ca63b7be134b79e093d50174ade186c",
+      "reviewed_at": "2026-11-21T22:15:08",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对第二型曲面积分的有向投影分量及一般定义；斜筒是定义示意，不单独排题。"
+    },
+    {
+      "page_number": 104,
+      "status": "verified",
+      "ocr_markdown_sha256": "99a44ac07375a2608c522fa97918b3d32e54124a7c425deb63aa52b36ed0d001",
+      "structured_result_sha256": "a1313baae1fe45ba2ea636e4b54cfcc7fc1b71e72bcd499381707b3265b9d005",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对显式曲面第二型积分的一般换算。三角形例的积分从此页起，定义域和方向在105页。"
+    },
+    {
+      "page_number": 105,
+      "status": "verified",
+      "ocr_markdown_sha256": "11a27811cf824d464e38405eb6649a99db2ab85e594a1f26c74631163d9636ec",
+      "structured_result_sha256": "fe436f67d9feb0a185852da5b1d1edfe44f317b97a08ad42ef14f30a60b65bbf",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对跨页三角形例的 x+y+z=1、坐标非负、法向量方向与三种直接处理形式。核对球面面的外法线和被积量，正文先解三角形例后列球面例。"
+    },
+    {
+      "page_number": 106,
+      "status": "verified",
+      "ocr_markdown_sha256": "11ab7e8d50a394c60b2e59866c2f6c59a78014461f32da6d24e7d900c899d455",
+      "structured_result_sha256": "3f274adb52ed318360490e5c89fbeba4ccf265de5a917039a0b0d658b12f4b6e",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对圆柱总流量的流速场 (yz,zx,xy)、轴高 h 和全闭合边界。另一例为外向椭球上的三次幂积分。OCR 在例间混入字母 M，不构成题目。"
+    },
+    {
+      "page_number": 107,
+      "status": "verified",
+      "ocr_markdown_sha256": "82ef1ff8a3ceec9c74778dec0313a677fe6231a5dd6115a491d062c327bbdbda",
+      "structured_result_sha256": "79c823833cde90ce0eee5033ace0da63ae9e4c8613d4a61e775d59c2d85cfeed",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对椭球解答续文及球心 (a,b,c)、半径 R、二次幂外向通量例；无额外习题。"
+    },
+    {
+      "page_number": 108,
+      "status": "verified",
+      "ocr_markdown_sha256": "3848b7235f912fef11e21a9c4981391d913a2d8a6c2bc81a06a99576908b2401",
+      "structured_result_sha256": "19f14c99b06205a79021fda07ee8afec9e13a66a5d7578ac4c72a5e39f59488a",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对五小问第一子题取内侧（OCR 漏掉该尾语）、第二子题 xz 与 yz、其余外侧条件和圆柱总流量、向上图面 P/Q 的双负号。"
+    },
+    {
+      "page_number": 109,
+      "status": "verified",
+      "ocr_markdown_sha256": "48e06ca96d6299cd0ed7ce51d1eedb49c496abad59284157b42522401ae5308c",
+      "structured_result_sha256": "4c22848f623f58008caececd952b54684f7e87e0fa8714f9110c2777727a605a",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对以竖直投影区域推导三维 Gauss 一分量的通用步骤及公式；未另起独立题。"
+    },
+    {
+      "page_number": 110,
+      "status": "verified",
+      "ocr_markdown_sha256": "218be1a57b9f2943e1d56170d77f8ac6ee31da7092326100001b5b486208cc7b",
+      "structured_result_sha256": "62ea4c00f18214affd2e41a221eed9584cbe3bce77636cbb54e5bd49100a2028",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对符号与教材以 Gauss 方法重新计算球面的正式例。下一 Gauss 例本页给出题头，接到111页；两例与12.3节的直接解法独立列为编号例。"
+    },
+    {
+      "page_number": 111,
+      "status": "verified",
+      "ocr_markdown_sha256": "f9738b7fc5e10e3f662f2dcd68e0c524f2a6cfe9e37fd39071aa073a4216fca4",
+      "structured_result_sha256": "a24dba7ba24565b50efe156f1ee67c687e2ab6be1a4696fdf4789a14c3bc6e61",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对跨页 Gauss 例的区域与方向，以及阿基米德浮力例恒密度和恒重力设定。证明示意图无需重复作为题图。"
+    },
+    {
+      "page_number": 112,
+      "status": "verified",
+      "ocr_markdown_sha256": "0e98da76f49e3ae73457da6a2fa6e169f112a26edd0d826389cfc81714584d49",
+      "structured_result_sha256": "af5ffe767dd32f3e0d0a9b5562fef874e5c41ae693935bbbd913b5de7d09cda1",
+      "reviewed_at": "2026-11-21T22:15:46",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对浮力例的末尾和 Gauss 体积表示、Stokes 公式的一般推导；均无独立题起始。"
+    },
+    {
+      "page_number": 113,
+      "status": "verified",
+      "ocr_markdown_sha256": "27872f8a307617f1ed7b6dcf991f0110c32188058d9b1affbc372fde88ad06ae",
+      "structured_result_sha256": "35c4f58ea882c122ec8baa2f71a35c1794740aa745e249d7bd4f396a2050cc9a",
+      "reviewed_at": "2026-11-21T22:16:36",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 Stokes 推导的参数式、Green 转换与各分量偏导符号。OCR 把一处平面二重积分识成三重积分，本页无题目起始。"
+    },
+    {
+      "page_number": 114,
+      "status": "verified",
+      "ocr_markdown_sha256": "aaba328dd9b0d3bff43c16525cc57e5c6c42dfbf0efe3d92a50264e34007eeff",
+      "structured_result_sha256": "71c868e447800c7f710d644ff45fffd08bccf1d4ba160824bfd4dfdb18b93aeb",
+      "reviewed_at": "2026-11-21T22:16:36",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对第一卦限三角形与 (1,1,1) 法向及 F=(y²,z²,x²) 的 Stokes 例。下一例从页末起，其完整交线和积分在115页。"
+    },
+    {
+      "page_number": 115,
+      "status": "verified",
+      "ocr_markdown_sha256": "ec902d5397bff701654e1c5bf9be3deffa4c2adfef26f29ba2fe23d13f7685fd",
+      "structured_result_sha256": "fe037a9b307fda11ab80c830597bdb18bdca2f43998a231e133050493b863844",
+      "reviewed_at": "2026-11-21T22:16:36",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对球面和柱面的参数关系及三个线积分被积项。教材解的法向为 (x−a,y,z)/a，在上半球朝上，对应从 z 正向观察投影逆时针。"
+    },
+    {
+      "page_number": 116,
+      "status": "verified",
+      "ocr_markdown_sha256": "42e52794b075548f5985422a2174e9a3eef27fd5ba9e3f7683a250dabfc0de7e",
+      "structured_result_sha256": "9e4bd9535d3ca579f0e712b4b632b6ddde8180e314465d55a0b0b9f86a415a10",
+      "reviewed_at": "2026-11-21T22:16:36",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对四个 Gauss 积分、法向夹角题、1/p 反常积分、三个 Stokes 小问和四个曲线题的曲线走向。OCR 对 Γ 存在错识，平面和球面方程以原图为准。"
+    },
+    {
+      "page_number": 117,
+      "status": "verified",
+      "ocr_markdown_sha256": "35199a5f5bf376b450307de9ea16af79b8c69f062b3e1cac53145de0624527e4",
+      "structured_result_sha256": "02534f24e4ccc791bf6d8e0bf55a05f90b425da9e6d2d032eb8ae4b9d9d05697",
+      "reviewed_at": "2026-11-21T22:17:19",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对非平面球柱交线的两式、上半空间及力场分量，投影定向沿用115页同类例的明确约定。动能题核对起终点与速度模平方之差。"
+    },
+    {
+      "page_number": 118,
+      "status": "verified",
+      "ocr_markdown_sha256": "2372efd99d187c4b1c7e59624dd072c6c0be79910d07b98553bf0c0d66364d21",
+      "structured_result_sha256": "900fc55d0bcbc53e5a8ff723b0b8dfeb10be550786415a7edc99ae24856580f5",
+      "reviewed_at": "2026-11-21T22:17:19",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对所有两个外积例，系数和基底顺序为 dy∧dz、dz∧dx、dx∧dy。原书外微分定义在两例后开始。"
+    },
+    {
+      "page_number": 119,
+      "status": "verified",
+      "ocr_markdown_sha256": "241bc044009065a44c690532045221d1585affdb19e72f4ba15d89bcbcd49cf7",
+      "structured_result_sha256": "25b5c1ab71117e5183958a95b4eb34bd6e45b165e2a80974e55a798c0ebdb2aa",
+      "reviewed_at": "2026-11-21T22:17:19",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对一次与二次形式外微分的公式及 Green、Gauss 的一般改写，无独立题目。"
+    },
+    {
+      "page_number": 120,
+      "status": "verified",
+      "ocr_markdown_sha256": "742698f1ed38ea6185ccc852632b95fb4c445e834cfa85c7306561aa8b243976",
+      "structured_result_sha256": "274189aa8a31cc6a32bc506db78e7301f7bb2e15c8505db56522dc4409a9e9d7",
+      "reviewed_at": "2026-11-21T22:17:19",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 n 维 p 形式的一般定义、反对称记号和严格递增的独立下标，无题目起始。"
+    },
+    {
+      "page_number": 121,
+      "status": "verified",
+      "ocr_markdown_sha256": "88badd96cd097de797171229a53ea79cc29d4e1b39fbaf5bad3bba77b47d56f0",
+      "structured_result_sha256": "7c83f34d0ef626c2f710748160ab8f6d39f1462f8577cdd250472c0da0bc1a1d",
+      "reviewed_at": "2026-11-21T22:17:19",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对一般 Stokes 公式和两组习题；保留外积的负号、七道外微分小问的系数和因子次序。"
+    },
+    {
+      "page_number": 122,
+      "status": "verified",
+      "ocr_markdown_sha256": "39785f39040d783c0072817f1ff3f519239cf000cb23d98abff6244026e3c907",
+      "structured_result_sha256": "af349cb30205a21074b6e5ea166a72cefb72d9fe0a1d29232724ed3a1d183266",
+      "reviewed_at": "2026-11-21T22:17:19",
+      "method": "逐页读实际 PaddleOCR 输出，与源页图像及题库对照核查。",
+      "observation": "核对 d(dω)=0 及两个行列式公式。OCR 将第一题系数行列式的列指标 j 识成 i，题库按图复原为 a_i^j。"
+    }
+  ]
+}

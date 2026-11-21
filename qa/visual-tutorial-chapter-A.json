@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "chapter_proof_only",
+  "project": "数学分析教程",
+  "chapter": "A",
+  "pdf": ".cache/chapter-proofs/tutorial-A-delivery/main.pdf",
+  "pdf_sha256": "7d40e8ad8d311e8a2802cef7354c78b2df83134bc734594f498a86f9818c2950",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "method": "最新章节PDF每页均实际查看渲染图；密集或疑难页另看整页放大，核查公式、编号、改写标记、边界、页眉与留白。",
+  "issues": [],
+  "reason": "逐页对照原图及 PaddleOCR 后重编，实际查看全部4页，核对目录、题号、校订标注、样条节点、误差公式及书写留白；样条题换行微调后复查第3页，其余3页渲染SHA-256与已查校样一致。",
+  "curated_sha256": "6247f14e17e3522b9c37038ca742ff9f4bf592514c8f76a7e39646606da265c5",
+  "page_render_sha256": {
+    "1": "cab7de153b55f4c5f03c9dab9eaf14a426aaa2b2513dcab9d0b3595d4cf720b4",
+    "2": "07300f65e4d14fea964b2bda86e128f26b2a178e04b1426b89ab1fc34ee96580",
+    "3": "56d06334ff761b27f56d80aa367f8fd297afb02a906a61cfbb3235994c6965bb",
+    "4": "87297e60ee990eb236b148defe6003245d78f4ac1984d25a44447851a5c3f9a5"
+  },
+  "ocr_crosscheck_status": "verified",
+  "pdf_path": ".cache/chapter-proofs/tutorial-A-delivery/main.pdf",
+  "source_units": 8,
+  "final_problems": 9
+}

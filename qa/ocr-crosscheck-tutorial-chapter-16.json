@@ -1,0 +1,285 @@
+{
+  "status": "verified",
+  "project": "数学分析教程",
+  "chapter": 16,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "verified_pages": 30,
+  "source_unit_count": 49,
+  "final_problem_count": 60,
+  "checked_at": "2026-11-21T13:42:29.229138+00:00",
+  "method": "物理第273至302页逐页并排核对PaddleOCR Markdown、教材原图及LaTeX题库。原图用于判别识别错误、解答、续页与题干；逐页记录Markdown与结构化结果SHA-256。",
+  "pages": [
+    {
+      "page_number": 273,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0273/result.md",
+      "ocr_markdown_sha256": "f0156853a820bf8eef1629bf8723ff9aed49f40725b16b8728c0cd72945a6c75",
+      "structured_result_sha256": "941612c5463890ac4d52d0a00f9324f2b4ab0f6edb7e507fa2cb0dd8adb66150",
+      "units_count": 0,
+      "findings": "对照全页章首、反常积分收敛的定义与非负积分的比较说明，无另起题目。OCR末行把上限A误作x，未转入题库。\n"
+    },
+    {
+      "page_number": 274,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0274/result.md",
+      "ocr_markdown_sha256": "b7f8d92a5195a22b1d7474eafd0d657f00e12d3d428845fc36c5e53e71b6f4ed",
+      "structured_result_sha256": "c461185ce9b24580b0553abad08e89be6ea1e1170107979d8cbbf027201e0679",
+      "units_count": 1,
+      "findings": "核实唯一应收录的说明性例子：a为正、积分下限为a、分母为x平方与四次方之和的三次根。原文陈述收敛，题库改写为求证。p积分为比较判别法一般说明。\n"
+    },
+    {
+      "page_number": 275,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0275/result.md",
+      "ocr_markdown_sha256": "e9e6ac27ed8c690677f1b7e224a855c04904440a1451b6c75b33b93737843f2f",
+      "structured_result_sha256": "efc4b21b0c22c2a792ec523dd9dc01aab68f863c7a284bb3bacfa8a3eb1d06be",
+      "units_count": 3,
+      "findings": "两则有编号例题的分母同源图，另有分段余弦积分的具体反例，保留分段点nπ与求和从n=0起。其余是一般判别和证明。\n"
+    },
+    {
+      "page_number": 276,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0276/result.md",
+      "ocr_markdown_sha256": "f2ec94a690ec3c1ce954e93c3350705d683c5785d72debf9cb400f132d7bbeae",
+      "structured_result_sha256": "8d7bb8792aaa08e16087a89a4304bc463625861ab09c341144c6f24e84a62ac1",
+      "units_count": 1,
+      "findings": "对照例4的分子x和分母1+x^6 sin²x，下一页的无界性应用并入同一道题。保留实际收敛命题，舍去证明推导。\n"
+    },
+    {
+      "page_number": 277,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0277/result.md",
+      "ocr_markdown_sha256": "45c2d18323ad8d522f11800ac2f9035f532e5f59437b2468ea9bf7d2355dd0cd",
+      "structured_result_sha256": "90b711def6c5a52bcd58806b52a830fb50042173587306d0e7050fb5be93bb22",
+      "units_count": 4,
+      "findings": "页首续前页例子的无界性，确认f(nπ)=nπ。同页正式四题及第一题六个小问均与OCR和原图核对，确认第3题为cos²x、第1题近零项分母x⁵−x³+1。节首Cauchy回顾无独立题，OCR漏绝对值号未转入题库。\n"
+    },
+    {
+      "page_number": 278,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0278/result.md",
+      "ocr_markdown_sha256": "da96d1116bdf95643a5aa96cb7b6fec6be3d6ea4dc7ac4adcd8fcc06efe6eb77",
+      "structured_result_sha256": "484c2bda401b0d4423c217a371fc3b911523e80e5740e48c5098e5d8ecb309be",
+      "units_count": 0,
+      "findings": "Cauchy原理、绝对收敛概念与第二积分平均值定理，无独立例题。OCR在Cauchy原理公式漏掉两侧绝对值竖线，原图清楚，未转入题库。\n"
+    },
+    {
+      "page_number": 279,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0279/result.md",
+      "ocr_markdown_sha256": "9c5a39cc606edd7130502dedc66e08ef6a3f162af60cb7f16e342d863ef1c373",
+      "structured_result_sha256": "389d3556255d94ea4cc12369f30841891fa78be698a9f3f2ee240d95f476875d",
+      "units_count": 0,
+      "findings": "逐页核读第二积分平均值定理证明、Riemann分割与Abel分部求和，无独立题。\n"
+    },
+    {
+      "page_number": 280,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0280/result.md",
+      "ocr_markdown_sha256": "d3db790e2e5d79d43f5ca4a005f93865c6728a78ae8aa7e8e454f6b7d9519d59",
+      "structured_result_sha256": "1bcc2d5cc3847f20f2f532a93c2b23a40247c1754101c98e643fbbca04479b01",
+      "units_count": 0,
+      "findings": "核读第二积分平均值定理证明续与推广形式，正式要求从分部积分证明该结论的题在284页。此页不另设重复题。\n"
+    },
+    {
+      "page_number": 281,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0281/result.md",
+      "ocr_markdown_sha256": "fe41b4b788930ddfd098ac512908cdec078ff23d02bd336472d607ee7dfc18f0",
+      "structured_result_sha256": "a72fe2152c0a3f2aa32563fc1dd342a2f57a420611e9953a14840e15741e5835",
+      "units_count": 1,
+      "findings": "确定正弦反常积分有绝对值和无绝对值的两条结论。原题明确要求证明，题库保持下限1，解答续到后页。\n"
+    },
+    {
+      "page_number": 282,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0282/result.md",
+      "ocr_markdown_sha256": "5eda5ee121a314d1e0607f94aca3397004b430508899babaa89d50596fd81e93",
+      "structured_result_sha256": "0f88b53886e8a60b02822f207d91f603a1de9790b910238fb421ccc8e95dd05b",
+      "units_count": 1,
+      "findings": "页首续前例。核对本页两项积分的指数是[x]和[x²]，原图底数为−1，排除OCR在解答中将1误读成dx。\n"
+    },
+    {
+      "page_number": 283,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0283/result.md",
+      "ocr_markdown_sha256": "0c269a417ae5dbc4d2382c9072913d33c6aa8a9831e81ae4cef485b869836399",
+      "structured_result_sha256": "233a9f4c09a59168c7da322199884133fb97b0decc808f18480aa21c3f96df04",
+      "units_count": 3,
+      "findings": "核实一则例题、两个练习及其全部小问。第一组第2小问原图频率含拉丁字母a，分母指数及参数条件用希腊字母α，OCR也混读成a。分开恢复两个参数，明确正弦自变量为(a+2)x。\n"
+    },
+    {
+      "page_number": 284,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0284/result.md",
+      "ocr_markdown_sha256": "0010cfcb899241dc8b7174fe15c543df47ae207bbf7d87931e90ab663d21d014",
+      "structured_result_sha256": "ca5cc2ad25582f470ad72d77f1d4a47c79a361e53e9228c15d84c956ca7009ef",
+      "units_count": 7,
+      "findings": "核对续练习五题及问题两题。作积分分部的要求明保留。多项式分母仅保证x≥a正，故起点已校至a。拉普拉斯型极限原图为x趋于正无穷，OCR误成趋于0，原书微分dt按变量校为dx。\n"
+    },
+    {
+      "page_number": 285,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0285/result.md",
+      "ocr_markdown_sha256": "1aeff8f8dd2ac8818a8e830bd45c88cd3075e3438b08198b359e85a89c27b2d5",
+      "structured_result_sha256": "4444aea631e9871648c9ac53722ceed1f3ff7dc5679bd6832fb3d2e46cb59e43",
+      "units_count": 2,
+      "findings": "核对说明性平方根积分及读者证明练习。后者从本页比较判据起，跨至286页的四个分项。OCR“外出”是原文“补出”误识，题库从读者任务转写。\n"
+    },
+    {
+      "page_number": 286,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0286/result.md",
+      "ocr_markdown_sha256": "7aaa2a999981a05c61e8fb9754f7244fb02ee6c7a0f817b14cfa1a81853bbcab",
+      "structured_result_sha256": "a3487ffdceef9269f52dbb4f89b75482df365afe13e2012d306558249579bf5a",
+      "units_count": 2,
+      "findings": "确认极限比较条件原书已印严格0<l<+∞。同日OCR与放大原图一致，更新校订说明为明晰g在瑕点右邻域正的定义域条件。另核对本页两例的对数绝对值只在解答、第四次根和四次幂均属题干。\n"
+    },
+    {
+      "page_number": 287,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0287/result.md",
+      "ocr_markdown_sha256": "b1b0ef49d5b97d8031d165ac8802cb30a070cfe498826c85579943ef4d670136",
+      "structured_result_sha256": "437e4bc77de7f5471ec375b51e4867409955adbb1b5897ae0569c458ebad5a70",
+      "units_count": 3,
+      "findings": "核对Beta积分两端幂p−1与q−1，以及Gamma积分x^{s−1}e^{−x}。页底第三例先写条件p>0，积分式续在288页，来源保留287。\n"
+    },
+    {
+      "page_number": 288,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0288/result.md",
+      "ocr_markdown_sha256": "2c9cc84ef75a7034af2ba2a910cf6ec76da17f748327ea9f62bef3d416fd2dc8",
+      "structured_result_sha256": "6e39290a2057ed89c3c742bebab23b60f69f5095f8c333a1130f8c4547228ce0",
+      "units_count": 1,
+      "findings": "确认续题为sin(1/x)/x^p。正文涉及绝对及条件收敛，这是敛散性讨论内容。另起一例的指数为−α，外面有减1。OCR导出的Cauchy式误把A'、A''都读成A^p，属于解答。\n"
+    },
+    {
+      "page_number": 289,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0289/result.md",
+      "ocr_markdown_sha256": "d28281724c5d64a60d2e36279bea4f3b85acb2ab5ca6156abcd86636b2c2c40f",
+      "structured_result_sha256": "ee9e879d0c2b3a0a5be6efad0ab6b1e4ea1549173db638ba4d3d7447823736d9",
+      "units_count": 1,
+      "findings": "页首续−α例的分析，后半页另举全实轴对x积分的例子，题库从本页起收录，区分独立截断和对称截断。\n"
+    },
+    {
+      "page_number": 290,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0290/result.md",
+      "ocr_markdown_sha256": "d47f9cb86933b8ad132bbb0dc1aae1b9695a4f96336e6714d39058c01a30dc52",
+      "structured_result_sha256": "e00a3714d003c9480a6a0ac992999431d15843393d2f6bb5e687e205ec903ad6",
+      "units_count": 4,
+      "findings": "页首接前例，另两类Cauchy主值转成求证或计算题。同页两组练习分别七与两小问，核对x^p|ln x|^q中绝对值为保留实数参数q而作的校订。\n"
+    },
+    {
+      "page_number": 291,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0291/result.md",
+      "ocr_markdown_sha256": "02decd460597f7eae3e54635fff67bda86c83945e849b4921071dec81c61470b",
+      "structured_result_sha256": "e4103f6e558cd074b1e0c08c7e99d1cfd755b67967722d342f76935539d5c18b",
+      "units_count": 6,
+      "findings": "六道问题全部核对。等距Riemann和求逆问题的原书明确说“试研究”给定函数，该函数作为题面任务恢复。幂和题保留要求使用等距和收敛结果。末题Frullani三个小问的最后结论跨到292。\n"
+    },
+    {
+      "page_number": 292,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0292/result.md",
+      "ocr_markdown_sha256": "a241d9b87c4747dfe6324554b62d29516e70e5b29418b8cccd373f51c1329a59",
+      "structured_result_sha256": "d418ebecc76b60480866d2bdf624c3339f7e4d5f52c5f57a0369eb31afb43b25",
+      "units_count": 1,
+      "findings": "核对前题第三小问原书确印ln(b/a)，与变量代换得出的方向相反，校为ln(a/b)。本页唯一另起问题有指数差、余弦差两个分式，并要求利用Frullani公式。图16.1仅用于重积分定义。\n"
+    },
+    {
+      "page_number": 293,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0293/result.md",
+      "ocr_markdown_sha256": "698f3f0e81f3bdf6d1cc55bf01bc0bcd6509c504efb37691725b7a3766bb9f8f",
+      "structured_result_sha256": "c4cff2edc53760d7b7c99de90bc2e9b8f82e7cb24679371521157ef4441bcb54",
+      "units_count": 1,
+      "findings": "核对外圆域x²+y²≥a²与分母指数p/2的例题。补明半径a>0。其余为反常重积分理论推导。\n"
+    },
+    {
+      "page_number": 294,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0294/result.md",
+      "ocr_markdown_sha256": "1c42f42ffe33ec223c828f47281720e1ed42a123cf47a5fed96011dc41b57296",
+      "structured_result_sha256": "f4cd9ef0951075ea4bd44f03a7613a77c41ed31a07b7aa4fa3cdc6b02e254138",
+      "units_count": 0,
+      "findings": "完整对照比较判别法及绝对收敛等价定理，无新例题或明确读者练习。\n"
+    },
+    {
+      "page_number": 295,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0295/result.md",
+      "ocr_markdown_sha256": "fc854175a79c3fcd03de1ae4b752a25acfe4f383e41d94093e75e4e2a5a3dba6",
+      "structured_result_sha256": "43739339d322d0465793ce100b7890c648e31ea31f571528abac212b36d13810",
+      "units_count": 0,
+      "findings": "核对反常重积分绝对可积必要性的通用证明，无独立题。OCR漏掉|f|两侧竖线，原图此处确为|f|=f⁺+f⁻。\n"
+    },
+    {
+      "page_number": 296,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0296/result.md",
+      "ocr_markdown_sha256": "76565a9d1357d13b5cb24b0848d4b37fc04b022078ebcdea04493577494c0499",
+      "structured_result_sha256": "524d77e89e7451d0bc466df954afa9df597002247d5ab5c2d81a3e28e07f7219",
+      "units_count": 0,
+      "findings": "核对正部积分的矩形分割和近似步骤，图16.2只服务定理证明。OCR将式(10)左积分区域P_n误作D_n，未转入题库。无独立题。\n"
+    },
+    {
+      "page_number": 297,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0297/result.md",
+      "ocr_markdown_sha256": "c56f43824d9c76572a08c12889fe4e5eab809dcf131cdce93c16830247a94105",
+      "structured_result_sha256": "5040f734e67fccf6c2bcbec19d1cd742aa771b4f1a98d4d965c765af53652b56",
+      "units_count": 1,
+      "findings": "接理论证明后另起截断积分例。核实(2−xy)xye^(−xy)与矩形D_R；原书误把矩形截断极限写成任意截断意义下收敛，当前题库要求辨析。图16.3条件已由集合式完整交代。\n"
+    },
+    {
+      "page_number": 298,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0298/result.md",
+      "ocr_markdown_sha256": "05d38bdef8d051c4f433d3390e55973b4e0c1f969ab00a6013cfe9a28dcab00e",
+      "structured_result_sha256": "7ecc86bab94504f6d364107c10b2980eecb7229f185bf9ccf63aabcc1a798a9f",
+      "units_count": 1,
+      "findings": "核对上页续例的两个累次积分不同顺序，保留297页来源；本页新例为圆盘内反常积分，分母的平方和取p/2次幂，原文条件p>0。\n"
+    },
+    {
+      "page_number": 299,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0299/result.md",
+      "ocr_markdown_sha256": "32d250eb46df5787b729d894432b523b96bf2ba0db518f738fcfceb8d8691382",
+      "structured_result_sha256": "6157db5b78c4e34688124a03611af63bb4bc2939e5e50b18e7155f8b619a46d8",
+      "units_count": 1,
+      "findings": "页首续圆盘例。唯一新例为三角区域积分ln sin(x−y)，两张图分别画题面域和解答变换域，三条边已在题干文字交代。\n"
+    },
+    {
+      "page_number": 300,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0300/result.md",
+      "ocr_markdown_sha256": "bfe8536e583e27146d807e902e79906523f40151e875bbcb240ad81b2dca3257",
+      "structured_result_sha256": "79968bc4d04e42bbfbc3a36d9a983f1fff03ca8cf17e3b2ba309ef952f02a443",
+      "units_count": 2,
+      "findings": "三角域积分的继续推导不扩题；另起三重积分例，核对正象限单纯形和分母(x+y+z)^p。页末开启八小问练习，源页固定300，积分式在301。\n"
+    },
+    {
+      "page_number": 301,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0301/result.md",
+      "ocr_markdown_sha256": "b8031a2e7b4917495f4d5aeae65bcf2bdb68a0bae389711867b6924e87a23c46",
+      "structured_result_sha256": "a16a5803874ee3ad8ceaa2a5bd2730b8fd02c2f9b1c5240f2252795f91c84c99",
+      "units_count": 2,
+      "findings": "核对前页续题八个积分，OCR漏掉第8号但未漏公式。另核对双重与累次积分题、以及另一起始于301页的计算题前五小问，舍去明确标“提示”的截断说明。\n"
+    },
+    {
+      "page_number": 302,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0302/result.md",
+      "ocr_markdown_sha256": "94d20996d29aaf2df2f5dce99b93b8e07dac2aa63c264e7b086ddb2944cd435d",
+      "structured_result_sha256": "9bfbfeaf3e900374d3ff0f12cc7d8734d611bd526c2f9efb7f84f8c45ed8bc58",
+      "units_count": 0,
+      "findings": "全页都是301页计算题续文，含指数负号、余弦和正弦两个独立积分及末尾三重积分。末小问保留p>1并要求先辨别收敛范围。本页无另起题。\n"
+    }
+  ]
+}

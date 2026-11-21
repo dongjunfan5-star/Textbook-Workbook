@@ -1,0 +1,456 @@
+{
+  "status": "verified",
+  "project": "数学分析教程",
+  "chapter": 17,
+  "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+  "source_id": "e3b1165409f0",
+  "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+  "verified_pages": 49,
+  "source_unit_count": 61,
+  "final_problem_count": 63,
+  "checked_at": "2026-11-21T14:26:30.989318+00:00",
+  "method": "物理第303至351页逐页对照PaddleOCR Markdown、教材原图和LaTeX题库，按原图校正识别结果、题面、续页和改写标记。",
+  "pages": [
+    {
+      "page_number": 303,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0303/result.md",
+      "ocr_markdown_sha256": "eb56ea8114b9d0edbdab9b94b09d327eb140c43e9b252e0da44504e9a73bfaa1",
+      "structured_result_sha256": "dec5f3f78398ae7af1f5cb754a73e19e668c1391f1a8946147b6490cf17a442f",
+      "units_count": 1,
+      "findings": "章首给出两个简谐波及其叠加，源图公式为 sin t+(1/3)sin(3t)，改写核实周期性及非单一简谐波。"
+    },
+    {
+      "page_number": 304,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0304/result.md",
+      "ocr_markdown_sha256": "1cb3fb88db75bffa1eba3d1a83e0f2c08455e592df2020f23a18ee5baac426cb",
+      "structured_result_sha256": "fd68fd7b3e2f0e766d18c3230827d408d39e1a1c6708e02b871a75b3f48d4ae1",
+      "units_count": 0,
+      "findings": "页首承接303页例子“是一个较为复杂的周期波”。其余用于导入和推导，不另拆题。"
+    },
+    {
+      "page_number": 305,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0305/result.md",
+      "ocr_markdown_sha256": "376762c49e2fa5d476babe689c9084653e8e8c97c83f1ab29d6da62e7fce6b7d",
+      "structured_result_sha256": "cc6f9e2328e9a39dda620db4da24b473dca7d45adee54d67d568ba67a4e32d45",
+      "units_count": 0,
+      "findings": "三角系正交关系及 Fourier 通用系数推导。后续330页独立给出规范化正交系的具体验证，本页无另题。"
+    },
+    {
+      "page_number": 306,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0306/result.md",
+      "ocr_markdown_sha256": "e0786016f363f8f7945f039bdb860e111036644b1f83a1e0050efbb2d3f5cc26",
+      "structured_result_sha256": "0e974639ecf4628716d598b6ae244e0b94e86b5684bacbb030338f7e1469d88d",
+      "units_count": 1,
+      "findings": "第一道写 Fourier 级数的原问，左闭右开区间和 f(π)=−π 均确认。补入316页同例的收敛值讨论。"
+    },
+    {
+      "page_number": 307,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0307/result.md",
+      "ocr_markdown_sha256": "69932810506b1f93347ca8f407dede07e26e35195a0a3a76fde720273b6b51c8",
+      "structured_result_sha256": "c72f89a36b80a9b0e5d9e5e63569781d3ccbb288b5637a3720eb29f8508e0aca",
+      "units_count": 1,
+      "findings": "第二道写 Fourier 级数的原问，0<x≤2π、f(0)=2π；对应收敛值来自316页。图为题干函数的重复表达。"
+    },
+    {
+      "page_number": 308,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0308/result.md",
+      "ocr_markdown_sha256": "c0e58fcc3cb69ba2168e89495cbe6ecfda80760c261cb0e1d17de849481b92b0",
+      "structured_result_sha256": "baa1bee07c9e47a45b1ad159c95b34ec4c21b0fb65695c1c86c945a9225d9bb2",
+      "units_count": 0,
+      "findings": "Riemann–Lebesgue 引理和证明，页内没有独立题。"
+    },
+    {
+      "page_number": 309,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0309/result.md",
+      "ocr_markdown_sha256": "5ccbc2af7d586038f5c5c8d2a8cf8665792968eb83f300dfbda54c085e5e3cf7",
+      "structured_result_sha256": "5d9c230f6c0c67f0a4f4b0099d22a4ceedb10298442404857a6900dbef8e9ea9",
+      "units_count": 1,
+      "findings": "原例明确要求证明正半轴 sin x/x 的定积分等式，首现本页。"
+    },
+    {
+      "page_number": 310,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0310/result.md",
+      "ocr_markdown_sha256": "1366311e1a6188ddc3972a93729137f53448d803cbb7cfbec58ca9e1b94d18d0",
+      "structured_result_sha256": "3100430c296c84bc8cb2596ae8390bcca7b131ee051b36d0536e26f28a8a7a56",
+      "units_count": 1,
+      "findings": "上一页原例证明续行并给出 λ>0 的带参数积分；转录时积分微元与绑定变量统一。练习1从页底开始，三角多项式公式见311页。"
+    },
+    {
+      "page_number": 311,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0311/result.md",
+      "ocr_markdown_sha256": "5ad9b9400fa06d67014b3278e82cbc159db73291339127401cb9ef310570c735",
+      "structured_result_sha256": "a30a5c6ab6285053e8b46165a1e6834ae020323c77e18e8f50539251dade4638",
+      "units_count": 8,
+      "findings": "校核半周期奇偶系数、平移混合项符号、绝对可和、ln x 权余弦平方、两种衰减阶以及有界区间绝对值积分；首题续自310页。"
+    },
+    {
+      "page_number": 312,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0312/result.md",
+      "ocr_markdown_sha256": "712070e72d2cb1a3f4716b426811e64f79701c4c291e115e5527cff85ea11dc3",
+      "structured_result_sha256": "9df29860cc7e89da6421d07b62a1a2f746d3f2a2393b592f3441aebbd6ea03c5",
+      "units_count": 2,
+      "findings": "确认全轴两小问绝对可积的前提、连续函数在零点可导的对称区间极限。后半为一般理论。"
+    },
+    {
+      "page_number": 313,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0313/result.md",
+      "ocr_markdown_sha256": "de6dfe902a3692d88e31e02b753c647bf6a20e2b4480b68878f0fafc637fa3f1",
+      "structured_result_sha256": "60b051bbdbe8c64bd1c42ccf3e17e31e871afdb3847c41a91e0ad22877a6e42a",
+      "units_count": 0,
+      "findings": "Dirichlet 核与局部化定理推导，无独立题。"
+    },
+    {
+      "page_number": 314,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0314/result.md",
+      "ocr_markdown_sha256": "19dfaa98b4f78b1c85420be433aa4596b86a2801f95dcae8d30a428c32c9c9ca",
+      "structured_result_sha256": "68a2588411652dee0c00d37260a592d4d8514f157111c00520f11c0907b500f9",
+      "units_count": 0,
+      "findings": "局部化及 Dini 判别法一般理论，无独立题。"
+    },
+    {
+      "page_number": 315,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0315/result.md",
+      "ocr_markdown_sha256": "45a4069da9f4d43a4141a30c1983687735e090757482de5e8c93dcea909ffdb2",
+      "structured_result_sha256": "2655e5afb11a712e874e80146d75787a87560f41ce1158c291946c023be4ff61",
+      "units_count": 0,
+      "findings": "Lipschitz 条件、单侧导数和分段可微定义，无独立题。"
+    },
+    {
+      "page_number": 316,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0316/result.md",
+      "ocr_markdown_sha256": "d05f44ecf88d2ae52395bbcccf0e7c71f8231a9016f2aea2bb6712c6c154a792",
+      "structured_result_sha256": "58a64e6958ec516f2b14818a94ab18244c13c65fbbef2a9ee722314a0748a5f3",
+      "units_count": 0,
+      "findings": "两条曲线级数收敛值已分别并入306、307页同例；奇数倒数交错和与后续正弦恒等式由322页正式三小问覆盖。"
+    },
+    {
+      "page_number": 317,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0317/result.md",
+      "ocr_markdown_sha256": "76c4ee2a59c9d78e18afebbab4783e782fdad5c96798dd982b4d84eca1213f37",
+      "structured_result_sha256": "b398ac1c4933d5dc4fedd7c0167642a496bd41d6ca0577f108ac175f1cc60970",
+      "units_count": 1,
+      "findings": "页首先延续上一页奇频正弦及交错和；新例 x² Fourier 展开与本页第一次求和、318页第二次求和合并。图仅重复函数延拓。"
+    },
+    {
+      "page_number": 318,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0318/result.md",
+      "ocr_markdown_sha256": "98f0ffdc16afbd8db5e60e702ae3d3c59bf9a2df976bd6e3c35dc82b150084dc",
+      "structured_result_sha256": "92f8ec3620f441430fc1fc0ce8b5175f62919fb8a268b15990ac3fbd04fd35ce",
+      "units_count": 1,
+      "findings": "页首完成 x² 原例另一个符号交错的求和。新例参数 a 非整数；由展开得到 1/sin 的式子保留在322页正式双小问。"
+    },
+    {
+      "page_number": 319,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0319/result.md",
+      "ocr_markdown_sha256": "95c1b988ef4878717ece8b9d2c3ec328166b1a30a1c298b9ff393a6d1d16b491",
+      "structured_result_sha256": "10a9c26d3725811b8cd6d038d68408817bbbc7826729b43008d649a8fdc30a0b",
+      "units_count": 1,
+      "findings": "原例在 0<x<π 定义 x 并明确要求分别求余弦、正弦级数；后续320页奇平方倒数求和并入。"
+    },
+    {
+      "page_number": 320,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0320/result.md",
+      "ocr_markdown_sha256": "a90aea341c7bddb15d143bf4febcbed1ac5009a29493dfec52df404a366166fb",
+      "structured_result_sha256": "4352242885794b20204fb0f59f8ce55ac4807d22f99052772f9edb8396ebb291",
+      "units_count": 0,
+      "findings": "确认奇平方倒数分母为 (2k−1)²，已并入319原例。其余为一般周期变换推导，图可由题内函数重现。"
+    },
+    {
+      "page_number": 321,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0321/result.md",
+      "ocr_markdown_sha256": "f51a591c0b990127c98330b6a02cd5fb796c2e2096d9cdafdc64507ead5c4e64",
+      "structured_result_sha256": "f68a5fbf185e33322ef3dc8cd6cee6f9483fb9073a11dc375cbf7483a5672403",
+      "units_count": 1,
+      "findings": "帐篷形函数式与 x=l/2 分段点均确认，要求在 (0,l) 展开为正弦级数；图无额外题设信息。"
+    },
+    {
+      "page_number": 322,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0322/result.md",
+      "ocr_markdown_sha256": "05e11de78e0652024b16f6a268bdd3599db8f8e53d80057ce16c09231b49aa38",
+      "structured_result_sha256": "2178e4689244a7a6c0e5cf7a40d97bb1bd7b73f5baa83e2c995081bb998c446e",
+      "units_count": 9,
+      "findings": "逐项确认正式练习 sgn、非整数 a 的正弦、floor、(-l,l) 两题、cot/csc、绝对值正余弦及指数级数 a cos−k sin。问题区末题跨页且指定 Fourier 方法。"
+    },
+    {
+      "page_number": 323,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0323/result.md",
+      "ocr_markdown_sha256": "a4ec36096b71587f53566a0b294216984e4ec36488aa08a36617a5e176a1c55c",
+      "structured_result_sha256": "af39eeadf71d744ac0ba0f967ff78e2ff90949ca9201163c6555573bd35ac62e",
+      "units_count": 2,
+      "findings": "确认前页跨页题为连续参数 λ；本页新增增函数卷积极限，h>0。Cesàro 例的交错常数级数从此页起，计算见324页。"
+    },
+    {
+      "page_number": 324,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0324/result.md",
+      "ocr_markdown_sha256": "4d186d853c5fb055b887d2bf5c54add0c7eb30e12e8c12793eb10ce85b087c2c",
+      "structured_result_sha256": "7208bb1549c1d716b341d7f2ad330419f6d7b07d834738a87193e0bce044cc58",
+      "units_count": 0,
+      "findings": "上页交错级数通常发散、Cesàro 求和值为 1/2 的示例续行，其余为一般理论。"
+    },
+    {
+      "page_number": 325,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0325/result.md",
+      "ocr_markdown_sha256": "fe07c0c2c5541b7caded5d0bb6b9c9b1318073b05140692dfaa3e309a1ea1b4e",
+      "structured_result_sha256": "86cd7b9c384c215e4dd277351a4c2da353a4cb60a088f2f3ab842445b4504771",
+      "units_count": 0,
+      "findings": "Fejér 平均和定理推导，无独立题。"
+    },
+    {
+      "page_number": 326,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0326/result.md",
+      "ocr_markdown_sha256": "1eb063d8bb714b5f960fcd56a25193cfcc34d5cacc3b8d8a67b7bda7e717dfe5",
+      "structured_result_sha256": "f40fe209cf24f3e992bc67a167d0991d7cb995eb951e89330079c9b0a94e9c8a",
+      "units_count": 0,
+      "findings": "续证及点态、一致 Cesàro 收敛理论，无独立题。"
+    },
+    {
+      "page_number": 327,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0327/result.md",
+      "ocr_markdown_sha256": "52214133c71c3b2e29ffdde0f33031debf212902e22214511aca294513f98a3d",
+      "structured_result_sha256": "e17ac52dfbae6ea94a564efd68f588d69e9bbaa0f0c79f2f9efafca368573a2d",
+      "units_count": 0,
+      "findings": "Fejér 证明与三角 Weierstrass 逼近定理，无新增题。"
+    },
+    {
+      "page_number": 328,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0328/result.md",
+      "ocr_markdown_sha256": "c3c87483f072cbadd046a694773cfe8a70c424bf94084612520fabf4f56e5726",
+      "structured_result_sha256": "ad5a59e8710b6c7baa983735d0a2218d87b54cced019dd7100c889261db445b8",
+      "units_count": 6,
+      "findings": "核对 Cesàro 三小问、余弦多项式逼近、a_n=o(n)、代数逼近推导、两道 Abel 关联题。Abel 的幂级数条件按 0≤r<1 内收敛表述。"
+    },
+    {
+      "page_number": 329,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0329/result.md",
+      "ocr_markdown_sha256": "e0be9003a583ee45152f003174a9408fc78de71c3e394373fc8a77f725c77f08",
+      "structured_result_sha256": "7d3a93d85013f71a4940e24aa95d277930a7a6aa5207abdfa04cfa65be88ad9d",
+      "units_count": 3,
+      "findings": "确认交错 (n+1) 的 Abel/Cesàro 区别、从 n=2 起的交错对数、Cauchy 乘积定义和两和相乘。后半平方逼近背景无独立题。"
+    },
+    {
+      "page_number": 330,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0330/result.md",
+      "ocr_markdown_sha256": "bbd20a2e0afc2135e976e9fae33921aa8d2b3a9708d710547b623fc70668e9a1",
+      "structured_result_sha256": "e7c188d33b611ebb632a3528128b0624b10f49dcfab95c52efb70357dccb63da",
+      "units_count": 1,
+      "findings": "规范正交系示例核对常数项因子 1/√(2π)、两族系数 1/√π，句尾在331页。与304–305页仅证明正交的三角系相比，规范化是本题任务。"
+    },
+    {
+      "page_number": 331,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0331/result.md",
+      "ocr_markdown_sha256": "6ee688544f28df77810855db437bb34d819619fc89fbc3cf0109b22a8dad22dd",
+      "structured_result_sha256": "cb4efb6e78a0d6745e6741a778728773f780f9d2f279d137056118976a5049c7",
+      "units_count": 0,
+      "findings": "页首先完成330页示例。其余为一般规范正交系的系数和最佳逼近通论，无独立题。"
+    },
+    {
+      "page_number": 332,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0332/result.md",
+      "ocr_markdown_sha256": "0ac12fe26588873504191156b1f8c8928b6a1dd30c930a2c9231ca4ef5d918f6",
+      "structured_result_sha256": "06266fc9dbf4f40b3de0b0733cf5bbed654e43535d74c3e3cb728fe100b77473",
+      "units_count": 0,
+      "findings": "Bessel、Parseval 与完备性通论，无独立题。"
+    },
+    {
+      "page_number": 333,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0333/result.md",
+      "ocr_markdown_sha256": "0b56f168c8fb0f2946f7af8d2bbd1cd1c9adf0b2337b13bfb4501a32c01b27e0",
+      "structured_result_sha256": "79f036e26675215b0bfd8a650364c351dc82bc35be4d1d2049b027695ac8d03b",
+      "units_count": 0,
+      "findings": "三角系完备性、一般系数和均方逼近通论，无独立题。"
+    },
+    {
+      "page_number": 334,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0334/result.md",
+      "ocr_markdown_sha256": "bb9f7f340e841dfd09a5046ccbcd16e066b90dd5b268540ae2d02f9b3df371ca",
+      "structured_result_sha256": "21a71718c8d148256c0ad95e8dea29b9b4ac94520d2444a0455c2feb3c500fee",
+      "units_count": 0,
+      "findings": "平方平均逼近定理证明第一段，无独立题。"
+    },
+    {
+      "page_number": 335,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0335/result.md",
+      "ocr_markdown_sha256": "fdc423df2cf04d3ce7a66a32f5c012f5aa8d8d9e4f34206705bfbe4410ea63fd",
+      "structured_result_sha256": "cd91fd05b54821e5282d85d3b5b986b9fc74a6b2041330958d607e2eaf91bd27",
+      "units_count": 0,
+      "findings": "平方平均逼近定理证明第二段，无独立题。"
+    },
+    {
+      "page_number": 336,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0336/result.md",
+      "ocr_markdown_sha256": "7e33b25cfbb021822fa197dbec4465b5c8538ca03148726cb9a982e28395564b",
+      "structured_result_sha256": "4855b970a65e0a02c4f901ab5e0e02ec83e24f1f6593f5fd407ec05c7e6a309c",
+      "units_count": 1,
+      "findings": "Parseval 例核实两项分别对应 x² 与 x/2 的展开。平方倒数在317页用代入法，这里按原书指定 Parseval 法保留。"
+    },
+    {
+      "page_number": 337,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0337/result.md",
+      "ocr_markdown_sha256": "e612ff905e6e4292ea66c99a6c1a0fd32ada22de7bca7d985524f294593866ec",
+      "structured_result_sha256": "e9d42156b192f0f6bc5716f110e5bda2773104ac0fb2c0080ed0825a1d8d721f",
+      "units_count": 0,
+      "findings": "Parseval 推广和逐项积分定理证明，无独立题。"
+    },
+    {
+      "page_number": 338,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0338/result.md",
+      "ocr_markdown_sha256": "25d8e0202d6b1f2b1cbd07854fa480474089f014fb92b9cbd65bb1471485b105",
+      "structured_result_sha256": "56f16e33de75862e0e29173e978448f262479f5ccc8eb6727b26a42e772c7950",
+      "units_count": 5,
+      "findings": "核实奇四次倒数、指示函数平方求和、逐项积分五问及折线的正弦级数。折线原定义只给正半轴，补明奇延拓。末题两个级数等式在339页。"
+    },
+    {
+      "page_number": 339,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0339/result.md",
+      "ocr_markdown_sha256": "79c19b219e3a3907b5b4b30fc7d69885bac988b2541debbd7514212713dabe03",
+      "structured_result_sha256": "357ee6e75cb9b9fed81f07ba2e76f462d7fbb811a13e9c37a28ca4e0478d69a2",
+      "units_count": 6,
+      "findings": "核实前页两等式的 sin n/n、分母 n⁴ 和常数 (π−1)²/6。新题包括系数加权两级数、对数权正弦级数的一致性、卷积形式的 Parseval、周期导数平方不等式、中心反对称的尖锐常数及 Rademacher 函数系。"
+    },
+    {
+      "page_number": 340,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0340/result.md",
+      "ocr_markdown_sha256": "c5403664c69844db9b37f3299d3ecb9c8ea6634c0fbb9d7e0516fac3dcc82180",
+      "structured_result_sha256": "1b18e9745c6900bb7d7f741140f9faabf7b215725055f97fe2159be533b5e1a7",
+      "units_count": 0,
+      "findings": "Fourier 积分、截断和一致连续性一般理论，无独立题。"
+    },
+    {
+      "page_number": 341,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0341/result.md",
+      "ocr_markdown_sha256": "3ffaea8a58872a45f3504f5b99b54bc66573bc1c33a32b68f44d191dd496b80d",
+      "structured_result_sha256": "7c1a14f34131210a7176caaf434103321259fec5d911a37af5ecbd329f9ddaa8",
+      "units_count": 0,
+      "findings": "证明一致连续性和截断积分的变形，无独立题。"
+    },
+    {
+      "page_number": 342,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0342/result.md",
+      "ocr_markdown_sha256": "42b33bc47aefa7e6b8af509118b3bb6f916581bad4295e8a37a86c6663617849",
+      "structured_result_sha256": "ad0a730cf9e9d37039bbee3e6dd64d857cdf2284590ed2f53cee311844513c5a",
+      "units_count": 0,
+      "findings": "截断积分的换序和局部化证明，无独立题。"
+    },
+    {
+      "page_number": 343,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0343/result.md",
+      "ocr_markdown_sha256": "0090412908f40df6976ba5dd569d9c5d5781c6a81b45b68f293ef22a84e97029",
+      "structured_result_sha256": "935ad38561e48bd1ae32c61233a08b70f03298bd1bfb6b77342a63cc54f61708",
+      "units_count": 0,
+      "findings": "续证局部化和 Dini 定理。证明复用此前309–310页 sinc 积分，无独立题。"
+    },
+    {
+      "page_number": 344,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0344/result.md",
+      "ocr_markdown_sha256": "5cbb2b4f025bf9e790ad0a5b98d57f2012b8354a00a804d05eafecd652692870",
+      "structured_result_sha256": "da9c0d7d7a1604879dd9fa1e0d3afb9fabb754113d794d87bf0e4ca3c2630e1d",
+      "units_count": 1,
+      "findings": "确认原例单位截断函数，从 Fourier 积分导出三种情形，边界 |x|=1 为 π/4。"
+    },
+    {
+      "page_number": 345,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0345/result.md",
+      "ocr_markdown_sha256": "9f9fd902fa692f20af2ea76f4aef34a70281dce61906bbfce3144f0a2dcaef6e",
+      "structured_result_sha256": "f232994ed9261563287c69fd7a27e56869d8f5b5e7af76f1fc1744e75b9a1f87",
+      "units_count": 0,
+      "findings": "延续上一页证明，x=0 的 sinc 结果已由309页保留；其余正弦、余弦公式为通论。"
+    },
+    {
+      "page_number": 346,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0346/result.md",
+      "ocr_markdown_sha256": "1ebe4c7f5f2685b3a281d28ea1eff656e0af94957e178d5eeca9de60fd5ea2f8",
+      "structured_result_sha256": "1ed0245a4d7c5a252b238b777f3ec476ac57c9aa13edcd96f50de9a564c62a1b",
+      "units_count": 2,
+      "findings": "确认指数函数正弦和余弦变换的归一化 √(2/π)。逆变换两个实际积分并入同例，四小问拆为两题。积分方程新例从页底开始。"
+    },
+    {
+      "page_number": 347,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0347/result.md",
+      "ocr_markdown_sha256": "ca9e4b3f023069d4c687d5af0e2c3351c2e1279b32efa3fbc691737e66b35050",
+      "structured_result_sha256": "1b9126ccd21c59163f722a7742754da3eea7e63b9498e330d57f074be0a2479d",
+      "units_count": 0,
+      "findings": "确认前页积分方程右端为 (π/2)sin x，0≤x≤π，其他正半轴为零。复数 Fourier 正变换使用 1/(2π) 和负号，不另成题。"
+    },
+    {
+      "page_number": 348,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0348/result.md",
+      "ocr_markdown_sha256": "13639bb7c0af12feb02eaa02c4187bb9b0d745a5f0c4ac8819438db5df4811a7",
+      "structured_result_sha256": "7a4f64a11388eef09acc8023c77cbb36f9168f12e5b5550543a81a6f6c8ebf9f",
+      "units_count": 0,
+      "findings": "核实教材反变换无 1/(2π) 且指数为正。其余离散类比与推导无独立题。"
+    },
+    {
+      "page_number": 349,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0349/result.md",
+      "ocr_markdown_sha256": "3af6fc097988a506cd9041d2b3cc417ea74b9130920b5d0c0dcdd6c6c6626d68",
+      "structured_result_sha256": "968750ae7b56e463d75a16df448c44c9560ef311330e65192d6a7440cee26e86",
+      "units_count": 1,
+      "findings": "对照源图确认常系数方程及 (iξ)^k 导数变换，OCR 的帽号不作为导数位置依据。题库补明可变换、反演、两端衰减和分母非零条件。"
+    },
+    {
+      "page_number": 350,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0350/result.md",
+      "ocr_markdown_sha256": "a7da71ff4e2bc1e9790380c6102a3e5b82ac02207e4aaf346ef385ab3238c320",
+      "structured_result_sha256": "edc3f138232c7d16670667b0daf024fdb2138ee4d490cbf565c3c8f1cdab4fb8",
+      "units_count": 1,
+      "findings": "分辨已知 g,h、未知 f 及核 h(u−t)，卷积前系数 1/(2π)；教材紧接下一页的直接除法须 1−h 的变换非零，题面已补明。"
+    },
+    {
+      "page_number": 351,
+      "status": "verified",
+      "result_path": "数学分析教程/data/ocr_raw/vl1.6/e3b1165409f0/p0351/result.md",
+      "ocr_markdown_sha256": "33f470150e27645a7e6f32fb6e489b432adf3d995070b564bfba1333a3408fa2",
+      "structured_result_sha256": "f4014dacd6fc8758dc74d209b366c4539a99d96d6f97ddd31978de984b63381e",
+      "units_count": 4,
+      "findings": "核对三种 Fourier 积分、两种积分方程及正负指数约定。三角积分为 sin²t/t² 乘 cos(2xt)，分段点 x=1；末题为 u exp(−β|u|)。"
+    }
+  ]
+}

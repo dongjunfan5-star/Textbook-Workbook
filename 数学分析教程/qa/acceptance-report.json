@@ -1,0 +1,377 @@
+{
+  "status": "passed",
+  "scope": "formal_complete_book_structure_and_visual",
+  "project": "数学分析教程",
+  "pdf": "数学分析教程/main.pdf",
+  "pdf_sha256": "5ef35ec841c2a35edd89ddd2f07cda4cc257d38d12173dbc4c2b49c788e663a6",
+  "page_count": 615,
+  "source_units": 1614,
+  "final_problems": 1811,
+  "tex_passes": 3,
+  "references_stable": true,
+  "latex_issues": [],
+  "number_sequence_verified": true,
+  "toc_and_bookmarks_verified": true,
+  "chapters": [
+    {
+      "chapter": "1",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 3,
+      "printed_toc_page_number": 3,
+      "toc_link_destination": 3,
+      "bookmark_destination": 3,
+      "named_destination": "section.chapter.1",
+      "problem_page_count": 55
+    },
+    {
+      "chapter": "2",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 58,
+      "printed_toc_page_number": 58,
+      "toc_link_destination": 58,
+      "bookmark_destination": 58,
+      "named_destination": "section.chapter.2",
+      "problem_page_count": 62
+    },
+    {
+      "chapter": "3",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 120,
+      "printed_toc_page_number": 120,
+      "toc_link_destination": 120,
+      "bookmark_destination": 120,
+      "named_destination": "section.chapter.3",
+      "problem_page_count": 57
+    },
+    {
+      "chapter": "4",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 177,
+      "printed_toc_page_number": 177,
+      "toc_link_destination": 177,
+      "bookmark_destination": 177,
+      "named_destination": "section.chapter.4",
+      "problem_page_count": 20
+    },
+    {
+      "chapter": "5",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 197,
+      "printed_toc_page_number": 197,
+      "toc_link_destination": 197,
+      "bookmark_destination": 197,
+      "named_destination": "section.chapter.5",
+      "problem_page_count": 23
+    },
+    {
+      "chapter": "6",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 220,
+      "printed_toc_page_number": 220,
+      "toc_link_destination": 220,
+      "bookmark_destination": 220,
+      "named_destination": "section.chapter.6",
+      "problem_page_count": 42
+    },
+    {
+      "chapter": "7",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 262,
+      "printed_toc_page_number": 262,
+      "toc_link_destination": 262,
+      "bookmark_destination": 262,
+      "named_destination": "section.chapter.7",
+      "problem_page_count": 18
+    },
+    {
+      "chapter": "8",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 280,
+      "printed_toc_page_number": 280,
+      "toc_link_destination": 280,
+      "bookmark_destination": 280,
+      "named_destination": "section.chapter.8",
+      "problem_page_count": 33
+    },
+    {
+      "chapter": "9",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 313,
+      "printed_toc_page_number": 313,
+      "toc_link_destination": 313,
+      "bookmark_destination": 313,
+      "named_destination": "section.chapter.9",
+      "problem_page_count": 55
+    },
+    {
+      "chapter": "10",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 368,
+      "printed_toc_page_number": 368,
+      "toc_link_destination": 368,
+      "bookmark_destination": 368,
+      "named_destination": "section.chapter.10",
+      "problem_page_count": 35
+    },
+    {
+      "chapter": "11",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 403,
+      "printed_toc_page_number": 403,
+      "toc_link_destination": 403,
+      "bookmark_destination": 403,
+      "named_destination": "section.chapter.11",
+      "problem_page_count": 11
+    },
+    {
+      "chapter": "12",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 414,
+      "printed_toc_page_number": 414,
+      "toc_link_destination": 414,
+      "bookmark_destination": 414,
+      "named_destination": "section.chapter.12",
+      "problem_page_count": 17
+    },
+    {
+      "chapter": "13",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 431,
+      "printed_toc_page_number": 431,
+      "toc_link_destination": 431,
+      "bookmark_destination": 431,
+      "named_destination": "section.chapter.13",
+      "problem_page_count": 16
+    },
+    {
+      "chapter": "14",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 447,
+      "printed_toc_page_number": 447,
+      "toc_link_destination": 447,
+      "bookmark_destination": 447,
+      "named_destination": "section.chapter.14",
+      "problem_page_count": 48
+    },
+    {
+      "chapter": "15",
+      "toc_pdf_page": 1,
+      "actual_pdf_first_page": 495,
+      "printed_toc_page_number": 495,
+      "toc_link_destination": 495,
+      "bookmark_destination": 495,
+      "named_destination": "section.chapter.15",
+      "problem_page_count": 49
+    },
+    {
+      "chapter": "16",
+      "toc_pdf_page": 2,
+      "actual_pdf_first_page": 544,
+      "printed_toc_page_number": 544,
+      "toc_link_destination": 544,
+      "bookmark_destination": 544,
+      "named_destination": "section.chapter.16",
+      "problem_page_count": 20
+    },
+    {
+      "chapter": "17",
+      "toc_pdf_page": 2,
+      "actual_pdf_first_page": 564,
+      "printed_toc_page_number": 564,
+      "toc_link_destination": 564,
+      "bookmark_destination": 564,
+      "named_destination": "section.chapter.17",
+      "problem_page_count": 21
+    },
+    {
+      "chapter": "18",
+      "toc_pdf_page": 2,
+      "actual_pdf_first_page": 585,
+      "printed_toc_page_number": 585,
+      "toc_link_destination": 585,
+      "bookmark_destination": 585,
+      "named_destination": "section.chapter.18",
+      "problem_page_count": 28
+    },
+    {
+      "chapter": "A",
+      "toc_pdf_page": 2,
+      "actual_pdf_first_page": 613,
+      "printed_toc_page_number": 613,
+      "toc_link_destination": 613,
+      "bookmark_destination": 613,
+      "named_destination": "section.appendix.A",
+      "problem_page_count": 3
+    }
+  ],
+  "max_subquestions": 3,
+  "full_book_all_pages_visual_review": "passed",
+  "ocr_crosscheck_status": "verified",
+  "visual_report": "数学分析教程/qa/visual-review.json",
+  "visual_report_sha256": "b19c1ba358a6ebdd93d4a2320db8bbac659d94ebf50c525c1e56834421b50ab8",
+  "curated_sha256": "f2fee0376231fcb33f74ec410278cb5a8980f901352d46ff4d2d854da43ca991",
+  "problems_sha256": "3b6e0313e0d97acea848dce7c2367754149da5fc80184b35d2ab6fb72e00ec13",
+  "chapter_snapshots": [
+    {
+      "chapter": 1,
+      "source_path": "数学分析教程/data/chapters/chapter_01.reviewed.json",
+      "sha256": "faf0a271efd767172c999df253162beada9bf7829adf47c684438c6e100ac6ca",
+      "source_units": 143,
+      "final_problems": 161,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 2,
+      "source_path": "数学分析教程/data/chapters/chapter_02.reviewed.json",
+      "sha256": "a6e3ebee094f5073782f83dd5576f621fa462b979d95fc291e0f13a863e53276",
+      "source_units": 156,
+      "final_problems": 180,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 3,
+      "source_path": "数学分析教程/data/chapters/chapter_03.reviewed.json",
+      "sha256": "1d67664b15bf1c751ad2f76f0c1d33a1d61d1154e6062d77b34d8a534e5fdda3",
+      "source_units": 145,
+      "final_problems": 168,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 4,
+      "source_path": "数学分析教程/data/chapters/chapter_04.reviewed.json",
+      "sha256": "f062ccfe50167b57ea3db9537cb002ac48eda9bac1938ff3b3d8a59a31781219",
+      "source_units": 49,
+      "final_problems": 59,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 5,
+      "source_path": "数学分析教程/data/chapters/chapter_05.reviewed.json",
+      "sha256": "9c1dc90ddf32f4b5302d851ecc73791dcad6df0e2692183d9cc703bcdf2243a7",
+      "source_units": 40,
+      "final_problems": 67,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 6,
+      "source_path": "数学分析教程/data/chapters/chapter_06.reviewed.json",
+      "sha256": "d3473bb9a640a8c8c67603b760de772cecea723a8b8e90ff09519954e8a2af99",
+      "source_units": 113,
+      "final_problems": 126,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 7,
+      "source_path": "数学分析教程/data/chapters/chapter_07.reviewed.json",
+      "sha256": "f3921f00f03b9caaa5ef1d3a36872c32afdf80bf817029a1042bb8bc812b2342",
+      "source_units": 51,
+      "final_problems": 54,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 8,
+      "source_path": "数学分析教程/data/chapters/chapter_08.reviewed.json",
+      "sha256": "9eb57e59c03a7f039cfe1c207f414b410d20b8c23236a2cafe99101a98b0f22b",
+      "source_units": 94,
+      "final_problems": 98,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 9,
+      "source_path": "数学分析教程/data/chapters/chapter_09.reviewed.json",
+      "sha256": "69cc7e0f4ceedebd0b4285ee1fa00cc3e0765ceb5dc9742e4c6dfea823e0dc55",
+      "source_units": 150,
+      "final_problems": 164,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 10,
+      "source_path": "数学分析教程/data/chapters/chapter_10.reviewed.json",
+      "sha256": "8cc1ca9724e59c351d3818f8d157357dcdd4a0e160236861b0079f1d144f8711",
+      "source_units": 98,
+      "final_problems": 104,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 11,
+      "source_path": "数学分析教程/data/chapters/chapter_11.reviewed.json",
+      "sha256": "f41d7eefb83010217595cfeed89a7b085cf4e0561b948b6dc7ceef4ba0549853",
+      "source_units": 31,
+      "final_problems": 33,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 12,
+      "source_path": "数学分析教程/data/chapters/chapter_12.reviewed.json",
+      "sha256": "27705563c0e43f3cd68a1edb93c0d19b620a1a0fc10d9fa60f7842b10e3d4a18",
+      "source_units": 43,
+      "final_problems": 49,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 13,
+      "source_path": "数学分析教程/data/chapters/chapter_13.reviewed.json",
+      "sha256": "32f4ea4f5d72f26e911a705b55407d7e27b34203d017a7c3e5d41b190d7c9d34",
+      "source_units": 42,
+      "final_problems": 46,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 14,
+      "source_path": "数学分析教程/data/chapters/chapter_14.reviewed.json",
+      "sha256": "ab88b97ecce7f8c188dd9147b6bf48469567376342f3d1c8308aa49abef203f3",
+      "source_units": 128,
+      "final_problems": 142,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 15,
+      "source_path": "数学分析教程/data/chapters/chapter_15.reviewed.json",
+      "sha256": "e867be50a432c76df6828a2778bed9aa5a7a7f4b1c37626c2438f9c6715395c3",
+      "source_units": 136,
+      "final_problems": 146,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 16,
+      "source_path": "数学分析教程/data/chapters/chapter_16.reviewed.json",
+      "sha256": "f48d0147e7f7af7e684aef20c049a2f8cfd9d02d31ae6d2f6eb9fd5dee4a1041",
+      "source_units": 49,
+      "final_problems": 60,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 17,
+      "source_path": "数学分析教程/data/chapters/chapter_17.reviewed.json",
+      "sha256": "7519edeb08b33d73b7ac5cec1b77bee557b3231ff2139bc526417a862d80baec",
+      "source_units": 61,
+      "final_problems": 63,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": 18,
+      "source_path": "数学分析教程/data/chapters/chapter_18.reviewed.json",
+      "sha256": "61ee4f35ec0688b12262c4f9c9c7403f17d532ea5d341c1bbaf7c405ff8fb4f9",
+      "source_units": 77,
+      "final_problems": 82,
+      "ocr_crosscheck_status": "verified"
+    },
+    {
+      "chapter": "A",
+      "source_path": "数学分析教程/data/chapters/chapter_A.reviewed.json",
+      "sha256": "a93de1a93918d172c5d778fb151dbbffc466d9012168c7218d6eda636b844144",
+      "source_units": 8,
+      "final_problems": 9,
+      "ocr_crosscheck_status": "verified"
+    }
+  ],
+  "source_pages_total": 956,
+  "ocr_reviewed_source_pages": 859,
+  "archived_ocr_reviewed_source_pages": 804,
+  "live_ocr_reviewed_source_pages": 55,
+  "excluded_source_pages": 97,
+  "source_review_coverage_verified": true,
+  "curated_status": "complete",
+  "problems_status": "complete",
+  "updated_at": "2026-11-21T15:21:47.402868+00:00"
+}

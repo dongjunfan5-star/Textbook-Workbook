@@ -1,0 +1,588 @@
+[
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 210,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 211,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "章首理论动机按连续性、可积性和可导性讨论，紧接本页给出函数列等价表述，由下一页四则具体反例落实。此页无独立例题或习题，未把末行极限下标的OCR歧义带入题库。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 212,
+    "status": "reviewed",
+    "units_count": 4,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 213,
+    "status": "reviewed",
+    "units_count": 4,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 214,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 215,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "承接上一页两个例子。源图两幅曲线图是定义与上一页例子的说明，函数列题意已用文字和公式完整表达，不增加图片或新题。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 216,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 217,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "Cauchy判别推导和推论续页，未另起例题或习题。OCR漏掉公式的绝对值和小于ε的右端，原图用于判断这部分为定理内容。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 218,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 219,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 220,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 221,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 222,
+    "status": "reviewed",
+    "units_count": 4,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 223,
+    "status": "reviewed",
+    "units_count": 9,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 224,
+    "status": "reviewed",
+    "units_count": 9,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 225,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 226,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 227,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 228,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "只含可积性证明、相关推论与上一页反例转引，无独立题。OCR在末行误认一个无穷上限为3，未进入题库。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 229,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 230,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 231,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 232,
+    "status": "reviewed",
+    "units_count": 8,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 233,
+    "status": "reviewed",
+    "units_count": 4,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 234,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 235,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "Abel定理证明续页与Cauchy–Hadamard定理及证明，无另起题目。公式的根指数和上极限按原图确认，为下一页改写题的计算方法。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 236,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 237,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "仅有内闭一致收敛、逐项微分与积分定理及证明，无新题。OCR的根号范围有歧义，未用于题干。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 238,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 239,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 240,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 241,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "Tauber证明与幂级数乘积引入。页末非负系数时的读者证明，与244页正式练习完全相同，题库保留正式题并注明页序，无重复题。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 242,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 243,
+    "status": "reviewed",
+    "units_count": 6,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 244,
+    "status": "reviewed",
+    "units_count": 7,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 245,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "Taylor级数的定义及一个具体正弦级数反例；核实正弦自变量为2^n x且分母n!，与251页正式证明题完全相同，保留正式题。末行仅起转述，下一页首处给出另一例的完整函数定义。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 246,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 247,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 248,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "上页实指数二项式展开解答，含系数、余项与端点分情形，无新题。原图的绝对值优先，未照录OCR错漏。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 249,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 250,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 251,
+    "status": "reviewed",
+    "units_count": 6,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 252,
+    "status": "reviewed",
+    "units_count": 3,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 253,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "首句接Weierstrass定理。Bernstein基底、三条一般性质及证明均是后续构造的理论，源图无题目。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 254,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 255,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "Bernstein均方偏差上界与逼近定理一般性证明。核对原图，无例题或习题起始。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 256,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 257,
+    "status": "reviewed",
+    "units_count": 5,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 258,
+    "status": "reviewed",
+    "units_count": 5,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 259,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 260,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 261,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "Fibonacci母函数和通项推导的续页，无新题。对照原式指数为n+1，代入初始值关系正确。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 262,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 263,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "凸多边形题的非线性递推、母函数及展开式续解，无新题。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 264,
+    "status": "reviewed",
+    "units_count": 6,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 265,
+    "status": "reviewed",
+    "units_count": 6,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 266,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "按原图确认后续三角波的零点每隔4^{-n}，题面已采用u_n=4^{-n}d(4^n x)。原书折线图用于说明第265页的同一构造，文字和等价公式已足，OCR图块无需进入题目。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 267,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "处处连续的收敛论证及处处不可微的差商论证，是265页题的解答续文，无另起题。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 268,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 269,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "原图为周期函数图与正方形曲线满射的证明，属于268页同一题的解答。OCR把一个无穷求和上限省去，未影响题干。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 270,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "reason": "正文任务或具体说明例与本章后文正式习题重复，仅保留后文一次。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 271,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "首行完成270页立方体题的目标陈述，之后是分形背景与讨论，无新题。"
+  },
+  {
+    "source_file": "input/数学分析教程 下册（数分A教材）.pdf",
+    "source_sha256": "e3b1165409f0f9c9b60e0757fcbbfd9c15f9d848f74b3f2082aeb7dd9375a958",
+    "project": "数学分析教程",
+    "page_number": 272,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "比较原图和OCR，末尾正式练习完整重印270–271页的立方体题，第三坐标分母明确为2^n。题库仅收一次，采用正文已明确要求证明时的首见页270；其余为背景续文。"
+  }
+]

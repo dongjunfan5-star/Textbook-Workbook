@@ -1,0 +1,222 @@
+[
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 456,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "附录导言及温度作为插值概念的泛例，没有给出独立求解任务。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 457,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对模3、5、7的基数构造及模105的代表，保留原算法任务。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 458,
+    "status": "reviewed",
+    "units_count": 2,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对 Hermite 四个基多项式的构造和指定端点插值题；G_0 的两处导数撇号为原书漏印，依原书公式校订。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 459,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对指定端点导数的 Hermite 插值跨页条件，以及三次拟圆弧的端点、切向量、中点和半径改变。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 460,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "一般三次样条的定义、Hermite 表达与求导，未另起特定问题。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 461,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "连续性方程组和端点条件的一般推导，无独立题。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 462,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "端点条件的两种设定和三对角矩阵，均为一般推导或示意。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 463,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_cross_check": "verified",
+    "reason": "核对数值样条的5个节点、5个对应值和两端二阶导数条件，确认节点3对应值为0。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 464,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "ocr_cross_check": "verified",
+    "reason": "核对样条例续页明确交给读者的验证事项，以及 Bernstein 和式例题开头。"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 465,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对与前页相连的 Bernstein 例题、二项式系数、指数和结论。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 466,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对三次 Bézier 四个控制点和正参数 λ，图A.2至A.4为一般概念示意。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 467,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对拟圆中点条件与偏差 ε 的定义；图A.5是解后的几何示意。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 468,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对拟圆误差计算和 Bézier 拐点范围，保留 λ 大于 λ_0 的考察范围及拐点在内点的要求。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 469,
+    "status": "reviewed",
+    "units_count": 1,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对 Bézier 曲线形状与两种特例，并核对 Coons 拟球面的开头和 σ。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 470,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对拟球面的两条端面边界、中间拟圆弧和径向平方差；原书及 OCR 所示负号已依据原释义和展开式校订。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 471,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对拟球面偏差范围的续文和图A.9，图的用途已由三条坐标平面边界表明。双三次曲面一般说明不另起题。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 472,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "Coons 双三次曲面通式和三角曲面定义；n=5 为网格图示，无独立题。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 473,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "三角基函数定义、角点插值和性质说明，无独立题。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 474,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "移位算子、控制网凸性和偏导数推导，没有独立题。",
+    "ocr_cross_check": "verified"
+  },
+  {
+    "source_file": "input/数学分析教程 上册（数分A教材）.pdf",
+    "source_sha256": "336e4ff033f30d314190988ff5a93bad4d14aa1fc1a73a05a33442f86ee087cd",
+    "project": "数学分析教程",
+    "page_number": 475,
+    "status": "reviewed",
+    "units_count": 0,
+    "ocr_crosscheck_status": "verified",
+    "reason": "核对最终 Hessian 不等式和凸性定理，为正文证明结尾，没有独立题。",
+    "ocr_cross_check": "verified"
+  }
+]
