@@ -1,0 +1,33 @@
+\documentclass[UTF8,a4paper,12pt,fontset=fandol]{ctexart}
+\usepackage[left=22mm,right=22mm,top=23mm,bottom=23mm,headheight=16pt,headsep=9mm]{geometry}
+\usepackage{amsmath,amssymb,graphicx,fancyhdr,hyperref}
+\hypersetup{hidelinks,pdfcreator={XeLaTeX / Textbook-Workbook}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\nouppercase{\leftmark}}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\sectionmark}[1]{\markboth{\thesection\quad #1}{}}
+\ctexset{section={format=\centering\Large\bfseries,name={},aftername=\quad,beforeskip=5pt,afterskip=16pt}}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{3pt}
+\linespread{1.18}
+\setlength{\emergencystretch}{2em}
+\newcommand{\ProblemHeading}[2]{\par\noindent{\large\bfseries #1 #2}\par\nobreak\vspace{5pt}}
+\newcommand{\SubQ}[2]{\par\noindent\hspace*{2em}（#1）#2\par\vspace{3pt}}
+\newcommand{\SourceNote}[1]{}
+
+\begin{document}\thispagestyle{empty}
+\begin{center}{\LARGE\bfseries 近世代数引论做题本}\par\vspace{6mm}{\large 完整题集}\end{center}
+本题集收录 453 道原题，按最多三个小问一组拆分为 461 道题。
+
+常规页面每页 3 题，长题单独成页。正文只显示本做题本题号；题目来源另附校对记录。
+
+标注“改写”的例题由说明性内容改为提问；标注“校订”的题目补足了数学条件，详情见校对记录。
+
+仅限非商业性使用。教材原文与配图的权利归原权利人。
+\tableofcontents\clearpage
+\input{chapters/chapter_01.tex}\clearpage
+\input{chapters/chapter_02.tex}\clearpage
+\input{chapters/chapter_03.tex}\clearpage
+\end{document}

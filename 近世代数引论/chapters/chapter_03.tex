@@ -1,0 +1,373 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{2}\section{域的伽罗瓦理论}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.1（改写）}
+求下列各域的自同构群，并证明所得结果。
+\SubQ{1}{有理数域 $\mathbb{Q}$。}
+\SubQ{2}{实数域 $\mathbb{R}$。}
+\SubQ{3}{域 $\mathbb{Q}(i)$，其中 $i^2=-1$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.2（改写）}
+求 $\operatorname{Gal}(\mathbb{C}/\mathbb{R})$，并写出每个 $\mathbb R$-自同构在 $a+bi$（$a,b\in\mathbb R$）上的作用。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.3（改写）}
+分别判断下列域扩张是否为有限生成扩张、是否为有限次扩张，并说明理由。其中 $x$ 是不定元。
+\SubQ{1}{$\mathbb C(x)/\mathbb C$。}
+\SubQ{2}{$\mathbb C/\mathbb Q$ 与 $\mathbb R/\mathbb Q$。}
+\SubQ{3}{$\mathbb C/\mathbb R$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.4（改写）}
+设 $K$ 为域，$x$ 为不定元，$n\ge 1$，$\zeta=e^{2\pi i/n}$。判断下列域扩张是代数扩张还是超越扩张，并说明理由。
+\SubQ{1}{$\mathbb C/\mathbb R$。}
+\SubQ{2}{$\mathbb Q(\sqrt 2)/\mathbb Q$ 与 $\mathbb Q(\zeta)/\mathbb Q$。}
+\SubQ{3}{$\mathbb R/\mathbb Q$ 与 $K(x)/K$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.5}
+设 $K$ 为域，$f(x)\in K[x]$ 且 $\deg f\ge 1$。是否总有 $K$ 的扩域 $F$，使 $f(x)$ 在 $F$ 中至少有一个根？证明你的结论。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.6（改写）}
+设 $\Omega_p$ 是素域 $\mathbb F_p$ 的一个代数闭包，在其中以 $\mathbb F_{p^n}$ 表示唯一的 $p^n$ 元子域。证明 $\Omega_p=\bigcup_{n\ge 1}\mathbb F_{p^n}$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.7（改写）}
+设 $F$ 为域，$f(x)=x^2+ax+b\in F[x]$。分别在 $f$ 可约与不可约时，确定其在 $F$ 上的分裂域 $E$，并求 $[E:F]$。不可约情形可用 $f$ 的一个根表示 $E$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.8（改写）}
+在 $\mathbb F_2[x]$ 中考虑 $f(x)=x^3+x+1$。
+\SubQ{1}{证明 $f(x)$ 不可约。}
+\SubQ{2}{设 $r$ 是 $f(x)$ 的一个根，求全部的根，并给出分裂域及其元素个数。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.9（改写）}
+设 $p$ 为素数，$\zeta=e^{2\pi i/p}$。写出 $x^p-1$ 在 $\mathbb Q$ 上的分裂域，求 $\zeta$ 在 $\mathbb Q$ 上的极小多项式及分裂域的扩张次数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.10（改写）}
+求 $x^3-2$ 在 $\mathbb Q$ 上的全部根，写出分裂域并计算它在 $\mathbb Q$ 上的次数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.11（改写）}
+求 $(x^2-2)(x^2-3)$ 在 $\mathbb Q$ 上的分裂域及其扩张次数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.12（改写）}
+设 $p$ 为素数，$\zeta=e^{2\pi i/p}$。设 $E=\mathbb Q(\zeta)$，求 $\operatorname{Gal}(E/\mathbb Q)$ 的全部元素及其群结构，并用模 $p$ 的一个原根说明怎样选取生成元。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.13（改写）}
+设 $p$ 为素数、$y$ 为不定元，$F=\mathbb F_p(y)$。
+\SubQ{1}{证明 $x^p-y$ 在 $F[x]$ 中不可约，求其分裂域 $E$ 及 $[E:F]$。}
+\SubQ{2}{求 $\operatorname{Gal}(E/F)$，比较其阶与 $[E:F]$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.14}
+证明代数闭域必为无限域。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.15}
+设 $F=\mathbb F_q$ 为 $q$ 元有限域，$n$ 为正整数且 $\gcd(n,q)=1$，$E$ 为 $x^n-1$ 在 $F$ 上的分裂域。证明 $[E:F]$ 等于使 $n\mid q^k-1$ 成立的最小正整数 $k$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.16（校订）}
+设 $F$ 为域，$f(x)$ 是 $F[x]$ 中次数为 $n\ge 1$ 的多项式，$E$ 为 $f(x)$ 在 $F$ 上的分裂域。证明 $[E:F]\mid n!$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.17}
+设 $E$ 为 $x^8-1$ 在 $\mathbb Q$ 上的分裂域。求 $[E:\mathbb Q]$，并确定 $\operatorname{Gal}(E/\mathbb Q)$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.18}
+设 $E/F$ 是域扩张。如果 $E\setminus F$ 中的每个元素都在 $F$ 上超越，则称 $E/F$ 为纯超越扩张。证明下列结论。
+\SubQ{1}{设 $x$ 为不定元，则 $F(x)/F$ 为纯超越扩张。}
+\SubQ{2}{对于任意域扩张 $E/F$，存在唯一的中间域 $M$，使 $E/M$ 为纯超越扩张而 $M/F$ 为代数扩张。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.19}
+设 $F$ 为域。若 $f(x)=\sum_{j=0}^n a_jx^j\in F[x]$，定义其形式导数为 $f'(x)=\sum_{j=1}^n ja_jx^{j-1}$。对 $a\in F$ 及 $f,g\in F[x]$，验证 $(f+g)'=f'+g'$、$(af)'=af'$、$(fg)'=f'g+fg'$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.20（改写）}
+在 $\mathbb Q[x]$ 中考虑 $f(x)=x^2-2x+1$。判定 $f$ 是否有重根，并判定 $f$ 是否可分。按课本定义，一个多项式可分是指其每个不可约因子都无重根。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.21（改写）}
+设 $p$ 为素数，$t$ 为不定元，$F=\mathbb F_p(t)$。证明 $t\notin F^p$，并判定 $x^p-t$ 在 $F[x]$ 中是否可约、是否可分。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.22（改写）}
+设 $p$ 为素数，$t$ 为不定元，$F=\mathbb F_p(t)$，$E=\mathbb F_p(t^{1/p})$。判断 $F$ 是否为完全域，并判断 $E/F$ 是否为可分扩张，说明理由。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.23}
+设 $E=F(\alpha_1,\ldots,\alpha_n)$ 是 $F$ 的有限扩张，$f_i(x)$ 是 $\alpha_i$ 在 $F$ 上的极小多项式。证明 $\prod_{i=1}^n f_i(x)$ 在 $F$ 上的分裂域就是 $E$ 在 $F$ 上的正规闭包。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.24（改写）}
+求 $\mathbb Q(\sqrt[3]{2})$ 在 $\mathbb Q$ 上的正规闭包，并说明理由。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.25}
+设 $F$ 是特征为 $0$ 的域，$f(x)\in F[x]$ 是次数为正的首一多项式，$d(x)=\gcd(f,f')$，其中 $f'$ 为形式导数。证明 $g(x)=f(x)/d(x)$ 与 $f(x)$ 有同样的根，且 $g(x)$ 无重根。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.26}
+设 $F$ 是特征为素数 $p$ 的域，$f(x)\in F[x]$ 不可约。证明 $f(x)$ 的所有根具有相同的重数，且这一公共重数具有形式 $p^n$，其中 $n\ge 0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.27}
+设 $E/F$ 为可分扩张，$M$ 为中间域。证明 $E/M$ 和 $M/F$ 均为可分扩张。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.28}
+设 $F$ 是特征为素数 $p$ 的域，$E/F$ 为代数扩张。证明对于每个 $\alpha\in E$，存在整数 $n\ge 0$，使 $\alpha^{p^n}$ 在 $F$ 上可分。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.29}
+设 $p$ 为素数，$x,y$ 为代数独立的不定元，$E=\mathbb F_p(x,y)$，$F=\mathbb F_p(x^p,y^p)$。证明下列结论。
+\SubQ{1}{$[E:F]=p^2$。}
+\SubQ{2}{$E/F$ 不是单扩张。}
+\SubQ{3}{$E/F$ 有无限多个中间域。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.30}
+考虑域扩张 $E/F$ 和完全性。
+\SubQ{1}{在 $E/F$ 为代数扩张的条件下，证明若 $F$ 是完全域，则 $E$ 也是完全域。}
+\SubQ{2}{在 $E/F$ 为有限扩张的条件下，证明若 $E$ 是完全域，则 $F$ 也是完全域。}
+\SubQ{3}{若将上一问中的有限扩张条件分别改为有限生成扩张、代数扩张，上一问的结论是否成立？}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.31}
+设 $E=\mathbb Q(\alpha)$，其中 $\alpha^3+\alpha^2-2\alpha-1=0$。证明下列结论。
+\SubQ{1}{$\alpha^2-2$ 也是 $x^3+x^2-2x-1=0$ 的根。}
+\SubQ{2}{$E/\mathbb Q$ 是正规扩张。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.32}
+设 $E/F$ 和 $K/F$ 均是正规扩张，$EK$ 为合成域。证明 $EK/F$ 也是正规扩张。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.33}
+证明每个二次扩张 $E/F$（即 $[E:F]=2$）都是正规扩张，并确定其伽罗瓦群。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.34}
+设 $F\subseteq M\subseteq E$ 为域塔。
+\SubQ{1}{若 $E/M$ 和 $M/F$ 均为正规扩张，$E/F$ 是否一定为正规扩张？}
+\SubQ{2}{若 $E/F$ 为正规扩张，$E/M$ 和 $M/F$ 是否一定为正规扩张？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.35}
+设 $E/F$ 为代数扩张。证明 $E/F$ 为正规扩张当且仅当 $F[x]$ 中任意不可约多项式 $f(x)$ 的所有 $E[x]$-不可约因子均有相同的次数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.36}
+设 $E/F$ 为有限扩张，以 $\operatorname{Inv}(G)$ 表示自同构子群 $G$ 的不动域。结合有限伽罗瓦扩张的判据与基本定理，回答下列问题。
+\SubQ{1}{在什么条件下有 $|\operatorname{Gal}(E/F)|=[E:F]$？}
+\SubQ{2}{若 $G$ 是 $\operatorname{Aut}(E)$ 的有限子群且 $F=\operatorname{Inv}(G)$，是否总有 $|G|=[E:F]$？}
+\SubQ{3}{$\operatorname{Inv}$ 与 $M\mapsto\operatorname{Gal}(E/M)$ 在什么条件下互为逆映射？}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.37（改写）}
+设 $\omega=e^{2\pi i/3}$、$p$ 为素数、$t$ 为不定元。对下列扩张分别判定其是否可分、是否正规、是否为伽罗瓦扩张，并说明理由。
+\SubQ{1}{$\mathbb Q(\sqrt[3]{2},\omega)/\mathbb Q$。}
+\SubQ{2}{$\mathbb Q(\sqrt[3]{2})/\mathbb Q$。}
+\SubQ{3}{$\mathbb F_p(t^{1/p})/\mathbb F_p(t)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.38（改写、校订）}
+设 $E=\mathbb Q(\sqrt2,\sqrt3)$，$G=\operatorname{Gal}(E/\mathbb Q)$。
+\SubQ{1}{证明 $E/\mathbb Q$ 为有限伽罗瓦扩张并求其次数。列出 $G$ 的各元素在 $\sqrt2,\sqrt3$ 上的作用，确定 $G$ 的群结构。}
+\SubQ{2}{列出 $G$ 的全部子群及其对应的中间域，并画出对应关系图。}
+\SubQ{3}{求 $\sqrt2+\sqrt3$ 在 $\mathbb Q$ 上的极小多项式，证明 $E=\mathbb Q(\sqrt2+\sqrt3)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.39（改写）}
+设 $E=\mathbb Q(\sqrt[3]{2},\omega)$，其中 $\omega=e^{2\pi i/3}$。
+\SubQ{1}{证明 $E/\mathbb Q$ 为有限伽罗瓦扩张，并求 $[E:\mathbb Q]$。列出各自同构在 $\sqrt[3]{2}$ 与 $\omega$ 上的作用，再用根的置换确定其伽罗瓦群。}
+\SubQ{2}{列出各子群及其不动域并画出对应关系图，辨明哪些中间域互为共轭、哪些在 $\mathbb Q$ 上为伽罗瓦扩张。}
+\SubQ{3}{证明 $E=\mathbb Q(\omega+\sqrt[3]{2})$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.40（改写、校订）}
+设 $p$ 是奇素数，$n\ge 1$，$\zeta=e^{2\pi i/p^n}$，$E=\mathbb Q(\zeta)$。
+\SubQ{1}{求 $\zeta$ 在 $\mathbb Q$ 上的极小多项式，证明 $E/\mathbb Q$ 为有限伽罗瓦扩张并确定其伽罗瓦群。}
+\SubQ{2}{当 $p^n=9$ 时，用模 $9$ 的原根 $2$ 描述伽罗瓦群的一个生成元，列出全部中间域并画出子群与中间域的对应关系。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.41（改写）}
+设 $q$ 为素数幂，$n\ge 1$。证明 $\mathbb F_{q^n}$ 是 $x^{q^n}-x$ 在 $\mathbb F_q$ 上的分裂域，并据此说明有限域的每个有限扩张都是伽罗瓦扩张。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.42（改写）}
+设 $K$ 为域，$x_1,\ldots,x_n$ 为代数独立的不定元，$p_j$ 为它们的第 $j$ 个初等对称函数。令 $E=K(x_1,\ldots,x_n)$，$F=K(p_1,\ldots,p_n)$。
+\SubQ{1}{证明 $E/F$ 是有限伽罗瓦扩张，求其伽罗瓦群。}
+\SubQ{2}{证明 $E$ 中每个关于 $x_1,\ldots,x_n$ 对称的有理函数都可写成 $p_1,\ldots,p_n$ 的有理函数。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.43}
+设 $E=\mathbb Q(\sqrt2,\sqrt3,u)$，其中 $u^2=(9-5\sqrt3)(2-\sqrt2)$。证明 $E/\mathbb Q$ 为伽罗瓦扩张，并确定其伽罗瓦群。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.44（校订）}
+设 $E=\mathbb C(t)$，其中 $t$ 为不定元，$\omega=e^{2\pi i/3}$。取 $\sigma,\tau\in\operatorname{Gal}(E/\mathbb C)$，其中 $\sigma(t)=\omega t$，$\tau(t)=t^{-1}$。令 $H=\langle\tau,\sigma\rangle$，证明下列结论。
+\SubQ{1}{$H$ 是 $\operatorname{Gal}(E/\mathbb C)$ 的六阶子群。}
+\SubQ{2}{$\operatorname{Inv}(H)=\mathbb C(t^3+t^{-3})$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.45}
+设域 $F$ 的特征为素数 $p$，$x$ 为不定元，$\sigma\in\operatorname{Gal}(F(x)/F)$ 满足 $\sigma(x)=x+1$。令 $H=\langle\sigma\rangle$。证明 $|H|=p$，并求不动域 $\operatorname{Inv}(H)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.46}
+设域 $F$ 的特征为素数 $p$，$a\in F$。
+\SubQ{1}{证明 $x^p-x-a$ 在 $F[x]$ 中不可约，当且仅当不存在 $c\in F$ 使 $a=c^p-c$。}
+\SubQ{2}{若 $x^p-x-a$ 在 $F[x]$ 中不可约，取它的一个根 $\alpha$，证明 $F(\alpha)/F$ 为伽罗瓦扩张，并求其伽罗瓦群。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.47}
+设 $L$ 和 $M$ 为同一域的子域，$LM$ 是合成域。证明若 $L/(L\cap M)$ 为有限伽罗瓦扩张，则 $LM/M$ 也是有限伽罗瓦扩张，且 $\operatorname{Gal}(LM/M)\cong\operatorname{Gal}(L/(L\cap M))$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.48}
+设 $E/F$ 为有限伽罗瓦扩张，$E\supseteq N\supseteq M\supseteq F$，且 $N$ 是 $M$ 在 $F$ 上的正规闭包。证明等式 \[\operatorname{Gal}(E/N)=\bigcap_{\sigma\in\operatorname{Gal}(E/F)}\sigma\operatorname{Gal}(E/M)\sigma^{-1}.\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.49}
+设 $E$ 为 $x^4-2$ 在 $\mathbb Q$ 上的分裂域。
+\SubQ{1}{求 $E/\mathbb Q$ 的全部中间域。}
+\SubQ{2}{哪些中间域在 $\mathbb Q$ 上为伽罗瓦扩张？哪些中间域彼此共轭？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.50}
+令 $\zeta=e^{2\pi i/12}$。证明 $\mathbb Q(\zeta)/\mathbb Q$ 是伽罗瓦扩张，求 $G=\operatorname{Gal}(\mathbb Q(\zeta)/\mathbb Q)$，并列出 $G$ 的全部子群及各自对应的中间域。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.51}
+令 $\zeta=e^{2\pi i/9}$。证明 $\mathbb Q(\zeta)/\mathbb Q$ 是伽罗瓦扩张，求 $G=\operatorname{Gal}(\mathbb Q(\zeta)/\mathbb Q)$，并列出 $G$ 的全部子群及各自对应的中间域。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.52}
+设 $n>2$ 为整数，$\zeta_n=e^{2\pi i/n}$。证明 $\mathbb Q(\zeta_n)\cap\mathbb R=\mathbb Q(\zeta_n+\zeta_n^{-1})$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.53}
+设 $p$ 为奇素数，$\zeta_p=e^{2\pi i/p}$。证明 $\mathbb Q(\zeta_p)$ 有唯一的二次子域 $K$（即 $[K:\mathbb Q]=2$）。进一步证明 $K\subseteq\mathbb R$ 当且仅当 $p\equiv1\pmod4$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.54（校订）}
+设 $E/F$ 为非平凡有限伽罗瓦扩张。若对所有满足 $F\subsetneq K\subseteq E$ 的中间域，次数 $[K:F]$ 都相同，证明 $[E:F]$ 是素数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.55}
+令 $\alpha=\sqrt6+\sqrt{10}+\sqrt{15}$。
+\SubQ{1}{证明 $\mathbb Q(\sqrt2,\sqrt3,\sqrt5)/\mathbb Q$ 是伽罗瓦扩张，并求其伽罗瓦群。}
+\SubQ{2}{求 $\alpha$ 在 $\mathbb Q$ 上的极小多项式。}
+\SubQ{3}{证明 $\sqrt6\in\mathbb Q(\alpha)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.56}
+令 $\alpha=\sqrt6+\sqrt{10}+\sqrt{15}$。
+\SubQ{1}{求 $\sqrt2+\sqrt3$ 在 $\mathbb Q(\alpha)$ 上的极小多项式。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.57（改写）}
+设 $F$ 为域，$n>2$ 为整数，$\operatorname{char}F=0$ 或 $\operatorname{char}F=p$ 且 $p\nmid n$。令 $E$ 为 $x^n-1$ 在 $F$ 上的分裂域。
+\SubQ{1}{证明 $E$ 含乘法阶为 $n$ 的元素 $\zeta$，且 $E=F(\zeta)$。}
+\SubQ{2}{证明 $E/F$ 为伽罗瓦扩张，并由各自同构在 $\zeta$ 上的作用构造群嵌入 $\operatorname{Gal}(E/F)\hookrightarrow(\mathbb Z/n\mathbb Z)^\times$。说明当 $\zeta\in F$ 时伽罗瓦群是什么。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.58（改写、校订）}
+设 $n>2$，域 $F$ 中含 $n$ 个互异的 $n$ 次单位根 $1,\zeta,\ldots,\zeta^{n-1}$，$a\in F^\times$。令 $E$ 为 $x^n-a$ 在 $F$ 上的分裂域，$b\in E$ 为它的一个根。
+\SubQ{1}{写出 $x^n-a$ 的全部根，证明 $E=F(b)$ 且 $E/F$ 为伽罗瓦扩张。}
+\SubQ{2}{用自同构在 $b$ 上的作用构造嵌入 $\operatorname{Gal}(E/F)\hookrightarrow(\mathbb Z/n\mathbb Z,+)$，从而证明 $\operatorname{Gal}(E/F)$ 是阶数整除 $n$ 的循环群。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.59（改写）}
+设域 $F$ 的特征不为 $2$。令 $f(x)=x^2-p_1x+p_2\in F[x]$。用根计算判别式 $d(f)$，写出分裂域，并分别在 $d(f)$ 为或不为 $F$ 中的平方时确定伽罗瓦群。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.60（改写、校订）}
+令 $f(x)=x^3-p_1x^2+p_2x-p_3$，其根为 $r_1,r_2,r_3$。设 $s_k=\sum_{i=1}^3r_i^k$。
+\SubQ{1}{用 $p_1,p_2,p_3$ 计算判别式 $\det(s_{i+j})_{0\le i,j\le2}$。}
+\SubQ{2}{在 $f(x)=x^3+px+q$ 时，将判别式化为 $p,q$ 的表达式。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.61}
+设 $F$ 为特征 $0$ 的域，$f(x)=x^4-p_1x^3+p_2x^2-p_3x+p_4\in F[x]$ 为不可约多项式，根为 $r_1,r_2,r_3,r_4$，$E=F(r_1,r_2,r_3,r_4)$。令 $\alpha=r_1r_2+r_3r_4$、$\beta=r_1r_3+r_2r_4$、$\gamma=r_1r_4+r_2r_3$，并令 $W=\{1,(12)(34),(13)(24),(14)(23)\}$。
+\SubQ{1}{证明 $\operatorname{Gal}(E/F(\alpha,\beta,\gamma))=\operatorname{Gal}(E/F)\cap W$，并判断 $F(\alpha,\beta,\gamma)/F$ 是否为伽罗瓦扩张。}
+\SubQ{2}{用 $p_1,p_2,p_3,p_4$ 表示 $(x-\alpha)(x-\beta)(x-\gamma)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.62（改写）}
+设 $f(x)=x^4+4x^2+2\in\mathbb Q[x]$。证明 $f$ 不可约，求其三次预解式与预解式的分裂域，并据此确定 $f$ 在 $\mathbb Q$ 上的伽罗瓦群。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.63（改写、校订）}
+设 $f(x)=x^5-4x+2\in\mathbb Q[x]$。
+\SubQ{1}{用爱森斯坦判别法证明 $f(x)$ 不可约。}
+\SubQ{2}{用微积分方法证明 $f(x)$ 恰有三个实根。}
+\SubQ{3}{确定 $f(x)$ 在 $\mathbb Q$ 上的伽罗瓦群。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.64}
+设 $G$ 为任意有限群。证明存在依赖于 $G$ 的域 $F$ 与有限伽罗瓦扩张 $E/F$，使 $\operatorname{Gal}(E/F)\cong G$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.65}
+设 $F\subseteq\mathbb R$ 为子域，$f(x)\in F[x]$ 是三次不可约多项式，$d(f)$ 为其判别式。证明 $d(f)>0$ 时 $f$ 有三个实根，而 $d(f)<0$ 时 $f$ 恰有一个实根。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.66}
+确定各个多项式在所列基域上的伽罗瓦群。
+\SubQ{1}{$f(x)=x^4-5$，分别取 $F=\mathbb Q$、$\mathbb Q(\sqrt5)$、$\mathbb Q(\sqrt{-5})$。}
+\SubQ{2}{$f(x)=x^4-10x^2+4$，$F=\mathbb Q$。}
+\SubQ{3}{$f(x)=x^5-6x+3$，$F=\mathbb Q$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.67}
+设 $p$ 为素数，$a\in\mathbb Q$，且 $x^p-a$ 在 $\mathbb Q[x]$ 中不可约。证明 $x^p-a$ 在 $\mathbb Q$ 上的伽罗瓦群同构于 $\operatorname{GL}(2,\mathbb F_p)$ 的子群 \[\left\{\begin{pmatrix}k&l\\0&1\end{pmatrix}\,\middle|\,k\in\mathbb F_p^\times,\ l\in\mathbb F_p\right\}.\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.68}
+设 $i^2=-1$，取 $\sqrt[4]2$ 为实正四次根。证明 $\mathbb Q(\sqrt[4]2(1+i))/\mathbb Q$ 是四次扩张，并求它的伽罗瓦群。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.69（改写）}
+设 $F$ 是特征为 $0$ 的域，$a,b\in F$。用根式表示 $x^2+ax+b=0$ 的两根，给出从 $F$ 到该方程分裂域的一条根式扩张序列。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.70（改写）}
+由 $x^5-4x+2$ 在 $\mathbb Q$ 上的伽罗瓦群，判断方程 $x^5-4x+2=0$ 在 $\mathbb Q$ 上是否根式可解，并说明理由。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.71}
+在复数域 $\mathbb C$ 中解方程 $x^3+3x+2=0$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.72（校订）}
+在复数域 $\mathbb C$ 中解方程 $x^3-7x+6=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.73}
+设 $F$ 为特征 $0$ 的域，$x^4+px^2+qx+r$ 的分裂域为 $E$，伽罗瓦群在四个根 $x_1,x_2,x_3,x_4$ 上为 $S_4$。令 $d$ 为判别式，$\theta_1=(x_1+x_2)(x_3+x_4)$、$\theta_2=(x_1+x_3)(x_2+x_4)$、$\theta_3=(x_1+x_4)(x_2+x_3)$。
+\SubQ{1}{验证 $\operatorname{Gal}(E/F(\theta_1,\theta_2,\theta_3,\sqrt d))=\{1,(12)(34),(13)(24),(14)(23)\}$。}
+\SubQ{2}{用 $p,q,r$ 表示 $(T-\theta_1)(T-\theta_2)(T-\theta_3)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.74}
+求 $z^4+z^3+z^2+z+1=0$ 的四个复根。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.75}
+将下列三角函数值表示成根式形式。
+\SubQ{1}{$\cos 40^\circ$。}
+\SubQ{2}{$\cos\bigl(360^\circ/7\bigr)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.76}
+求下列方程在复数域 $\mathbb C$ 中的根。
+\SubQ{1}{$x^3-2x+4=0$。}
+\SubQ{2}{$x^3-15x+4=0$。}
+\SubQ{3}{$x^4-2x^3-8x-3=0$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.77}
+设 $p$ 为素数，$t$ 为不定元。证明方程 $x^p-x-t=0$ 在 $\mathbb F_p(t)$ 上根式不可解，但多项式 $x^p-x-t$ 在 $\mathbb F_p(t)$ 上的伽罗瓦群是循环群。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.78}
+对哪些整数 $n\ge 3$，正 $n$ 边形可以用圆规和无刻度直尺作出？给出关于 $n$ 的判据并证明。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.79（改写、校订）}
+令 $\zeta=e^{2\pi i/17}$，$E=\mathbb Q(\zeta)$，$\sigma(\zeta)=\zeta^3$。令 $F_2,F_3,F_4$ 分别为 $\langle\sigma^2\rangle,\langle\sigma^4\rangle,\langle\sigma^8\rangle$ 的不动域。用高斯周期重做正十七边形的尺规作图推导。
+\SubQ{1}{验证 $3$ 是模 $17$ 的原根。设 $\eta_2=\sum_{j=0}^7\sigma^{2j}(\zeta)$，求其在 $\mathbb Q$ 上的极小多项式，用平方根表示 $\eta_2$，并证明 $F_2=\mathbb Q(\eta_2)$。}
+\SubQ{2}{设 $\eta_3=\sum_{j=0}^3\sigma^{4j}(\zeta)$，求 $\eta_3$ 与 $\sigma(\eta_3)$ 各自在 $F_2$ 上的极小多项式及其根式表达，并证明 $F_3=F_2(\eta_3)$。}
+\SubQ{3}{令 $u=\zeta+\zeta^{-1}$。求 $u$ 在 $F_3$ 上的极小多项式，并据此用平方根表示 $\cos(2\pi/17)$，说明如何得到正十七边形。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.80}
+说明如何用圆规和无刻度直尺作正五边形。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.81}
+证明可以用尺规作出 $3^\circ$ 角。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.82}
+设 $E=F(\alpha)$，且 $\alpha$ 在 $F$ 上可分。$E$ 中的每个元素是否都在 $F$ 上可分？证明你的结论。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{3.83（改写、校订）}
+设 $t$ 为不定元，$F=\mathbb F_2(t)$，$E=F(u)$，其中 $u^4+u^2+t=0$。记 $P$ 为 $E$ 中所有在 $F$ 上纯不可分的元素构成的子域。求 $P$，并分别判断 $E/F$ 和 $E/P$ 是否可分。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.84}
+设 $E/F$ 为代数扩张，$\operatorname{char}F=p$ 为素数。记 $E^{p^n}=\{a^{p^n}\mid a\in E\}$，$FE^{p^n}$ 为合成域。证明下列结论。
+\SubQ{1}{若 $E/F$ 可分，则对每个 $n\ge 1$，有 $E=FE^{p^n}$。}
+\SubQ{2}{若 $E/F$ 为有限扩张且 $E=FE^p$，则 $E/F$ 可分。}
+\SubQ{3}{对于 $\alpha\in E$，$\alpha$ 在 $F$ 上可分当且仅当 $F(\alpha^p)=F(\alpha)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.85}
+设 $f(x)\in F[x]$ 为域 $F$ 上的首一不可约多项式，$E$ 是其分裂域，$\alpha$ 是它的一个根。以下标 $\mathrm{s}$ 和 $\mathrm{i}$ 分别表示可分次数和纯不可分次数。证明下列结论。
+\SubQ{1}{$f(x)$ 在 $E$ 中每个根的重数都是 $[F(\alpha):F]_{\mathrm{i}}$。}
+\SubQ{2}{若 $\alpha_1,\ldots,\alpha_n$ 是 $f$ 的全部互异根，则 $f(x)=\bigl[(x-\alpha_1)\cdots(x-\alpha_n)\bigr]^m$，其中 $m=[F(\alpha):F]_{\mathrm{i}}$，$n=[F(\alpha):F]_{\mathrm{s}}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.86（校订）}
+设 $E/F$ 为代数扩张，$S$ 是 $E$ 中所有在 $F$ 上可分的元素构成的子域，$P$ 是 $E$ 中所有在 $F$ 上纯不可分的元素构成的子域，$M$ 是中间域。证明下列结论。
+\SubQ{1}{$E/M$ 纯不可分，当且仅当 $S\subseteq M$。}
+\SubQ{2}{$E/M$ 可分，当且仅当 $E=MS$。若 $E/M$ 可分，则 $P\subseteq M$。}
+\SubQ{3}{$M\cap S=F$，当且仅当 $M\subseteq P$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{3.87}
+设 $E/F$ 是有限纯不可分扩张，$F$ 的特征是素数 $p$。证明存在非负整数 $n$，使得 $E^{p^n}\subseteq F$。
+\end{minipage}\par\vfill

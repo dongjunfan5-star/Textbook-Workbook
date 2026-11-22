@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "project": "近世代数引论",
+  "pdf_sha256": "b9b8cbb8b92ac0e856f336cee0e9bf6965eefca8c00c76981743eb8a82eba678",
+  "pdf_pages": 156,
+  "final_problems": 461,
+  "source_units": 453,
+  "included_source_pages": 180,
+  "total_source_pages": 202,
+  "source_sha256": "0ca91047333e250c52f33b7982cbfb6ab63f4e28084847b358dbd54c7e97842c",
+  "chapter_problem_counts": {
+    "1": 189,
+    "2": 185,
+    "3": 87
+  },
+  "density": {
+    "1": 1,
+    "2": 2,
+    "3": 152
+  },
+  "cover_and_toc_pages": 1,
+  "figure_files": [
+    "figures/fig_1_118_1.png"
+  ]
+}

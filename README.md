@@ -6,6 +6,8 @@
 
 **《数学分析教程》**上下册合订，18 章和附录 A、1811 题、615 页。[PDF](数学分析教程/main.pdf) · [源码与使用说明](数学分析教程/README.md)
 
+**《近世代数引论》第四版**全书 3 章、461 题、156 页。[PDF](近世代数引论/main.pdf) · [源码与使用说明](近世代数引论/README.md)
+
 页数包含说明与目录，题量按拆分后的最终题号统计。
 
 ## 教材与进度
@@ -14,6 +16,7 @@
 | --- | --- | --- |
 | 数学分析讲义（第一册）、数学分析讲义（第二册）、数学分析讲义（第三册） | 通常 4 题/页，三册合一本 | 已完成：1762 题、468 页 |
 | 数学分析教程 上册（数分A教材）、数学分析教程 下册（数分A教材） | 通常 3 题/页，上下册合一本 | 已完成，1811 题、615 页 |
+| 近世代数引论_第四版(1) | 通常 3 题/页 | 已完成，461 题、156 页 |
 
 ## 制作规则
 
@@ -50,7 +53,8 @@ Textbook-Workbook/
 │   │   └── problems.json   # 拆分、编号后的题目与来源
 │   ├── qa/                # 本书构建及验收记录
 │   └── input/             # 本地原始教材，不上传
-└── 数学分析教程/           # 文件结构同上
+├── 数学分析教程/           # 文件结构同上
+└── 近世代数引论/           # 文件结构同上，项目配置存于本目录
 ```
 
 原始教材、OCR 原文、整页渲染、模型、虚拟环境、构建中间文件和凭据不提交。制作期间的分章数据保留在本地，发布版本以合并后的 `data/curated.json` 为准。
@@ -60,7 +64,7 @@ Textbook-Workbook/
 安装含 XeLaTeX、ctex、Fandol、amsmath、geometry、fancyhdr、hyperref、graphicx 的 TeX Live。在项目目录执行：
 
 ```powershell
-cd 数学分析讲义  # 或 cd 数学分析教程
+cd 数学分析讲义  # 或进入数学分析教程、近世代数引论目录
 xelatex -interaction=nonstopmode -halt-on-error main.tex
 xelatex -interaction=nonstopmode -halt-on-error main.tex
 ```
@@ -69,13 +73,14 @@ xelatex -interaction=nonstopmode -halt-on-error main.tex
 
 ## 从校对数据重新生成
 
-此步骤会重新生成章节、题目数据和成品，需自行在 `input/` 放入与 `config/production-books.json` 校验值一致的原始教材；脚本会核对来源文件。Python 使用独立虚拟环境：
+此步骤会重新生成章节、题目数据和成品，需自行在 `input/` 放入与 `config/production-books.json` 或项目教材清单校验值一致的原始教材；脚本会核对来源文件。Python 使用独立虚拟环境：
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -X utf8 scripts/build_workbook.py 数学分析讲义
 .\.venv\Scripts\python.exe -X utf8 scripts/build_workbook.py 数学分析教程
+.\.venv\Scripts\python.exe -X utf8 scripts/build_workbook.py 近世代数引论 --config 近世代数引论/project.json
 ```
 
 程序按题目实际高度和每页题数分页，在每题后加入 `\vfill`；至少编译两次，并继续至目录、引用及书签文件稳定（最多五次）。可用 `--xelatex` 指定编译器。重新生成后必须重新验收，旧 PDF 的视觉验收记录不能直接沿用到改变了页面的版本。

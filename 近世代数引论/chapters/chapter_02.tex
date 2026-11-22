@@ -1,0 +1,872 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{1}\section{环和域}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.1（改写）}
+在单元素集合 $R=\{0\}$ 上定义加法和乘法。证明它是环，指出它的加法零元素与乘法幺元素，并判断它是否为整环、体或域。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.2（改写）}
+设 $n\ge 1$，对环 $R$，以 $M_n(R)$ 表示由 $R$ 中元素组成的 $n$ 阶方阵全体。
+\SubQ{1}{证明 $M_n(R)$ 对矩阵加法和乘法形成环。若 $R$ 含幺，确定 $M_n(R)$ 的幺元素。}
+\SubQ{2}{当 $n\ge 2$ 时，举例说明 $M_n(\mathbb{R})$、$M_n(\mathbb{Q})$、$M_n(\mathbb{C})$ 的乘法均不交换。}
+\SubQ{3}{当 $R$ 为含幺交换环时，先解释为什么 $A\in U(M_n(R))$ 蕴含 $\det A\in U(R)$，再用行列式刻画一般线性群 $\operatorname{GL}(n,R)$，并写出 $R=\mathbb{Z}$ 和 $R=F$（$F$ 为域）时的刻画。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.3（改写）}
+设 $n$ 是正整数，$\mathbb{Z}_n=\mathbb{Z}/n\mathbb{Z}$，并记 $\overline{a}=a+n\mathbb{Z}$。说明由整数的加法和乘法诱导的运算良定义，并验证 $\mathbb{Z}_n$ 是含幺交换环。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.4（改写）}
+设 $R$ 是任意环。用 $R[x]$ 表示系数在 $R$ 中的一元形式多项式全体。加法逐项相加，乘法中 $x^k$ 的系数定义为 $\sum_{i+j=k}a_i b_j$。证明 $R[x]$ 对此形成环，并说明当 $R$ 交换或含幺时，这些性质如何传给 $R[x]$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.5（改写）}
+考察有理数、实数、复数及实四元数的代数结构。实四元数全体记为 $\mathbb{H}=\{a_0+a_1\mathrm{i}+a_2\mathrm{j}+a_3\mathrm{k}\mid a_0,a_1,a_2,a_3\in\mathbb{R}\}$。加法按分量定义，乘法按实系数双线性延拓，并满足 $\mathrm{i}^2=\mathrm{j}^2=\mathrm{k}^2=-1$、$\mathrm{ij}=-\mathrm{ji}=\mathrm{k}$、$\mathrm{jk}=-\mathrm{kj}=\mathrm{i}$、$\mathrm{ki}=-\mathrm{ik}=\mathrm{j}$。
+\SubQ{1}{说明 $\mathbb{Q}$、$\mathbb{R}$、$\mathbb{C}$ 对通常运算都是域。}
+\SubQ{2}{验证 $\mathbb{H}$ 对上述加法和乘法形成含幺非交换环。}
+\SubQ{3}{对 $\alpha=a_0+a_1\mathrm{i}+a_2\mathrm{j}+a_3\mathrm{k}$，定义 $\overline{\alpha}=a_0-a_1\mathrm{i}-a_2\mathrm{j}-a_3\mathrm{k}$。计算 $\alpha\overline{\alpha}$ 与 $\overline{\alpha}\alpha$，由此确定非零四元数的逆，并判断 $\mathbb{H}$ 是否为体、是否为域。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.6（改写）}
+设 $\mathbb{Q}[\sqrt{-1}]=\{a+b\sqrt{-1}\mid a,b\in\mathbb{Q}\}$。证明它在通常复数运算下形成域，并写出非零元素 $a+b\sqrt{-1}$ 的逆元。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.7（改写）}
+验证下列子环和子域关系。
+\SubQ{1}{$2\mathbb{Z}$ 是 $\mathbb{Z}$ 的子环，$\mathbb{Z}$ 是 $\mathbb{Q}$ 的子环。}
+\SubQ{2}{$M_n(\mathbb{Q})$ 是 $M_n(\mathbb{R})$ 的子环，$\mathbb{Q}$ 作为常数多项式形成 $\mathbb{Q}[x]$ 的子域。}
+\SubQ{3}{$\mathbb{Z}[\sqrt{-1}]$ 是 $\mathbb{Q}[\sqrt{-1}]$ 的子环。对于任意环 $R$，证明它作为常数多项式构成 $R[x]$ 的子环。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.8（改写）}
+设 $S_i$（$i\in I$）均为环 $R$ 的子环。证明 $\bigcap_{i\in I}S_i$ 仍为 $R$ 的子环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.9（改写）}
+确定整数环 $\mathbb{Z}$ 的全部子环。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.10（改写）}
+设 $R$ 是环。验证 $\{0_R\}$ 和 $R$ 自身是 $R$ 的子环。它们何时相同？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.11（改写）}
+设 $n\ge 0$ 是整数。证明自然映射 $\mathbb{Z}\to\mathbb{Z}/n\mathbb{Z}$，$k\mapsto k+n\mathbb{Z}$，是环的满同态。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.12（改写）}
+设 $R$ 是任意环，$1\le n\le m$。
+\SubQ{1}{给出 $R$ 到 $M_1(R)$ 的环同构。}
+\SubQ{2}{构造从 $M_n(R)$ 到 $M_m(R)$ 的环嵌入。}
+\SubQ{3}{验证把 $a\in R$ 映为所有主对角位置均为 $a$、其它位置均为零的 $n$ 阶矩阵，得到 $R$ 到 $M_n(R)$ 的环嵌入。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.13（改写）}
+设 $\mathbb{H}$ 是实四元数体。证明映射 $\mathbb{C}\to\mathbb{H}$，$a+b\sqrt{-1}\mapsto a+b\mathrm{i}$（$a,b\in\mathbb{R}$），是环的嵌入。再证明 $x^2+1=0$ 在 $\mathbb{H}$ 中有无穷多解，并据此构造无穷多个 $\mathbb{C}$ 到 $\mathbb{H}$ 的环嵌入。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.14（改写）}
+设 $\varphi\colon\mathbb{Z}[x]\to\mathbb{Z}[\sqrt{-1}]$，$f(x)\mapsto f(\sqrt{-1})$。
+\SubQ{1}{证明 $\varphi$ 是满同态，判断它是否为单同态。}
+\SubQ{2}{证明 $\mathbb{Z}[\sqrt{-1}]$ 不能嵌入 $\mathbb{Z}[x]$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.15（改写）}
+设 $R$ 是不含幺的环。在集合 $S=R\times\mathbb{Z}$ 上定义
+\[
+\begin{aligned}
+(r_1,k_1)+(r_2,k_2)&=(r_1+r_2,k_1+k_2),\\
+(r_1,k_1)(r_2,k_2)&=(r_1r_2+k_2r_1+k_1r_2,k_1k_2).
+\end{aligned}
+\]
+验证 $S$ 是含幺环，确定其幺元素，并证明 $r\mapsto(r,0)$ 是 $R$ 到 $S$ 的环嵌入。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.16（改写）}
+考察以下环或域的自同构。
+\SubQ{1}{确定 $\operatorname{Aut}(\mathbb{Z})$。}
+\SubQ{2}{确定 $\operatorname{Aut}(\mathbb{Q})$。}
+\SubQ{3}{证明复共轭 $a+b\sqrt{-1}\mapsto a-b\sqrt{-1}$（$a,b\in\mathbb{R}$）是 $\mathbb{C}$ 的非恒等自同构。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.17}
+设 $R$ 是含幺环。
+\SubQ{1}{举例说明 $R$ 中一个左可逆元素可以具有多于一个左逆。}
+\SubQ{2}{若 $a$ 是 $R$ 中左可逆元素，且 $a$ 不是右零因子，证明 $a$ 的左逆唯一。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.18}
+设 $a$ 是环 $R$ 中的非零元素。证明下列结论。
+\SubQ{1}{$a$ 不是左零因子，当且仅当对所有 $b,c\in R$，$ab=ac$ 蕴含 $b=c$。}
+\SubQ{2}{$a$ 不是右零因子，当且仅当对所有 $b,c\in R$，$ba=ca$ 蕴含 $b=c$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.19}
+设 $n\ge 2$ 为正整数。证明下列结论。
+\SubQ{1}{$\mathbb{Z}_n$ 中元素 $\overline{a}$ 可逆，当且仅当 $\gcd(a,n)=1$。}
+\SubQ{2}{若 $p$ 是素数，则 $\mathbb{Z}_p$ 为域；若 $n$ 不是素数，则 $\mathbb{Z}_n$ 不是整环。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.20}
+分别确定下列各环的单位群，并证明这些环是整环且不是域。
+\SubQ{1}{$\mathbb{Z}[\sqrt{-1}]$。}
+\SubQ{2}{$\mathbb{Z}[\sqrt{-3}]=\{a+b\sqrt{-3}\mid a,b\in\mathbb{Z}\}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.21}
+设 $R$ 和 $S$ 均为含幺环，$0_S\ne 1_S$，$f\colon R\to S$ 为环的满同态。证明下列结论。
+\SubQ{1}{$f(1_R)=1_S$。}
+\SubQ{2}{若 $a\in U(R)$，则 $f(a)\in U(S)$，且 $f(a^{-1})=f(a)^{-1}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.22}
+设 $A$ 是阿贝尔群，$\operatorname{End}(A)$ 是 $A$ 的全体群自同态。对任意 $f,g\in\operatorname{End}(A)$ 和 $a\in A$，定义 $(f+g)(a)=f(a)+g(a)$、$(f\cdot g)(a)=f(g(a))$。证明 $\operatorname{End}(A)$ 对这些运算构成含幺环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.23（校订）}
+设 $G$ 是乘法群，$R$ 是环。记
+\[
+R[G]=\left\{\sum_{g\in G}r_g g \,\middle|\, r_g\in R,\ \text{只有有限多个 }r_g\ne 0\right\}.
+\]
+加法按系数相加，乘积中 $g$ 的系数定义为 $\sum_{g'g''=g}r_{g'}t_{g''}$。证明下列结论。
+\SubQ{1}{这些运算是 $R[G]$ 上的二元运算，并使之成为环（称为 $G$ 在 $R$ 上的群环）。}
+\SubQ{2}{若 $R$ 中存在乘积非零的两个元素，则 $R[G]$ 为交换环，当且仅当 $R$ 为交换环且 $G$ 为阿贝尔群。}
+\SubQ{3}{若 $R$ 有幺元素 $1_R$，且 $G$ 的单位元为 $e$，则 $1_Re$ 为 $R[G]$ 的幺元素。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.24（校订）}
+设 $G$ 是乘法群，$R$ 是环。记
+\[
+R[G]=\left\{\sum_{g\in G}r_g g \,\middle|\, r_g\in R,\ \text{只有有限多个 }r_g\ne 0\right\}.
+\]
+加法按系数相加，乘积中 $g$ 的系数定义为 $\sum_{g'g''=g}r_{g'}t_{g''}$。证明下列结论。
+\SubQ{1}{$R$ 可自然地嵌入为 $R[G]$ 的子环。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.25}
+证明 $\mathbb{Q}[\sqrt{2}]=\{a+b\sqrt{2}\mid a,b\in\mathbb{Q}\}$ 是实数域 $\mathbb{R}$ 的子域。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.26}
+设 $m$ 是正整数。完成下列判定。
+\SubQ{1}{确定 $\mathbb{Z}_m$ 的全部子环。}
+\SubQ{2}{确定 $\mathbb{Q}$ 和 $\mathbb{Q}[\sqrt{2}]$ 的全部子域。}
+\SubQ{3}{确定 $\operatorname{Aut}(\mathbb{Q}[\sqrt{2}])$ 和 $\operatorname{Aut}(\mathbb{Z}_m)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.27}
+设 $f\in\operatorname{Aut}(\mathbb{R})$，$\alpha,\beta\in\mathbb{R}$。证明下列结论。
+\SubQ{1}{若 $\alpha>0$，则 $f(\alpha)>0$。}
+\SubQ{2}{若 $\alpha>\beta$，则 $f(\alpha)>f(\beta)$。}
+\SubQ{3}{$\operatorname{Aut}(\mathbb{R})=\{\mathrm{id}_{\mathbb{R}}\}$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.28}
+能否将复数域 $\mathbb{C}$ 嵌入环 $M_2(\mathbb{R})$？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.29}
+设 $R$ 是环，$a\in R$。证明 $\{r\in R\mid ra=ar\}$ 为 $R$ 的子环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.30}
+若 $f\colon R\to S$ 是环同态，证明 $f(R)=\{f(r)\mid r\in R\}$ 是 $S$ 的子环。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.31}
+设 $U$ 是集合，$S=\{V\mid V\subseteq U\}$。对 $A,B\in S$，定义 $A-B=\{c\in U\mid c\in A,\ c\notin B\}$、$A+B=(A-B)\cup(B-A)$、$A\cdot B=A\cap B$。证明 $(S,+,\cdot)$ 是交换环，并判断它是否有幺元素。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.32}
+设 $R$ 为环。若每个 $a\in R$ 均满足 $a^2=a$，称 $R$ 为布尔环。证明下列结论。
+\SubQ{1}{布尔环 $R$ 必为交换环，并且对每个 $a\in R$ 都有 $a+a=0_R$。}
+\SubQ{2}{任一集合 $U$ 的幂集在对称差作为加法、交集作为乘法时构成布尔环。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.33}
+设 $R$ 是有限整环，且 $|R|\ge 2$。证明 $R$ 是域。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.34}
+设
+\[
+L=\left\{\begin{pmatrix}z&w\\-\overline{w}&\overline{z}\end{pmatrix}\ \middle|\ z,w\in\mathbb{C}\right\},
+\]
+其中上横线表示复共轭。证明 $L$ 对通常的矩阵运算构成体，并同构于实四元数体 $\mathbb{H}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.35}
+整数环 $\mathbb{Z}$ 的加法群自同构是否一定是环自同构？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.36}
+设 $R$ 是环。若存在正整数 $m$ 使 $a^m=0$，称 $a\in R$ 为幂零元素。
+\SubQ{1}{若 $R$ 是交换环，证明两个幂零元素之和仍是幂零元素。}
+\SubQ{2}{若 $R$ 不是交换环，第（1）问中的结论还成立吗？}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.37}
+设 $a,b$ 是含幺环 $R$ 中的元素。证明 $1-ab$ 可逆当且仅当 $1-ba$ 可逆。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.38}
+证明含幺环中若某元素有多于一个右逆，则该元素有无穷多个右逆。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.39}
+设 $C(\mathbb{R})$ 是全体连续函数 $f\colon\mathbb{R}\to\mathbb{R}$ 的集合，定义 $(f+g)(a)=f(a)+g(a)$、$(f\cdot g)(a)=f(a)g(a)$，其中 $a\in\mathbb{R}$。
+\SubQ{1}{证明 $C(\mathbb{R})$ 由此成为含幺交换环。}
+\SubQ{2}{判断 $C(\mathbb{R})$ 是否为整环。}
+\SubQ{3}{判断 $C(\mathbb{R})$ 中是否有非零幂零元素。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.40}
+设 $C(\mathbb{R})$ 是全体连续函数 $f\colon\mathbb{R}\to\mathbb{R}$ 的集合，定义 $(f+g)(a)=f(a)+g(a)$、$(f\cdot g)(a)=f(a)g(a)$，其中 $a\in\mathbb{R}$。
+\SubQ{1}{确定 $C(\mathbb{R})$ 的单位群。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.41}
+设 $D$ 为有限体。证明对于每个 $a\in D$，都有 $a^{|D|}=a$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.42}
+设 $G$ 是二元群。确定群环 $\mathbb{Z}[G]$ 的单位群。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.43（改写）}
+设 $R$ 是非零环。
+\SubQ{1}{验证 $\{0_R\}$ 和 $R$ 都是 $R$ 的理想。}
+\SubQ{2}{若 $R$ 含幺，证明任一含有 $R$ 中某个单位的理想必等于 $R$。}
+\SubQ{3}{由此证明体和域都是单环。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.44（改写）}
+确定整数环 $\mathbb{Z}$ 的全部理想，并说明 $\mathbb{Z}$ 是主理想整环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.45（改写）}
+设 $A_i$（$i\in I$）均为环 $R$ 的理想。证明 $\bigcap_{i\in I}A_i$ 也是 $R$ 的理想。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.46（改写）}
+给定 $a\in\mathbb{R}$，考虑代入映射 $\varphi\colon\mathbb{R}[x]\to\mathbb{R}$，$f(x)\mapsto f(a)$。证明 $\varphi$ 是满同态，求其核，并给出 $\mathbb{R}[x]/(x-a)$ 与 $\mathbb{R}$ 的环同构。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.47（改写）}
+设 $m,n$ 为正整数，$d=\gcd(m,n)$，$l=\operatorname{lcm}(m,n)$。利用 $m\mathbb{Z}\cap n\mathbb{Z}=l\mathbb{Z}$、$m\mathbb{Z}+n\mathbb{Z}=d\mathbb{Z}$ 证明
+\[
+m\mathbb{Z}/l\mathbb{Z}\cong d\mathbb{Z}/n\mathbb{Z}.
+\]
+比较两个商环的元素个数，由此推出 $ld=mn$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.48（改写）}
+设 $m,n$ 为正整数，且 $m\mid n$。利用第三同构定理构造环同构
+\[
+(\mathbb{Z}/n\mathbb{Z})/(m\mathbb{Z}/n\mathbb{Z})\cong\mathbb{Z}/m\mathbb{Z}.
+\]
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.49}
+设 $R$ 是交换环，$N$ 是 $R$ 中全部幂零元素构成的集合。证明 $N$ 是 $R$ 的理想，且 $R/N$ 中只有零元素是幂零元素。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.50}
+设 $I$ 是交换环 $R$ 的理想。证明
+\[
+\sqrt{I}=\{r\in R\mid\text{存在整数 }n\ge 1\text{ 使 }r^n\in I\}
+\]
+也是 $R$ 的理想。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.51}
+对任意环 $R$，记其中心为 $C(R)=\{c\in R\mid rc=cr\text{ 对每个 }r\in R\text{ 成立}\}$。
+\SubQ{1}{证明 $C(R)$ 是 $R$ 的子环，并举例说明它未必是理想。}
+\SubQ{2}{若 $F$ 是域，证明矩阵环 $M_n(F)$ 的中心为 $\{aI_n\mid a\in F\}$，其中 $I_n$ 为 $n$ 阶单位矩阵。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.52}
+研究矩阵环的理想及商环。
+\SubQ{1}{设 $R$ 为含幺交换环。证明 $M_n(R)$ 的每个理想都具有 $M_n(I)$ 的形式，其中 $I$ 是 $R$ 的某个理想。}
+\SubQ{2}{若 $F$ 是域，证明 $M_n(F)$ 是单环。}
+\SubQ{3}{若 $I$ 是含幺交换环 $R$ 的理想，证明 $M_n(R)/M_n(I)\cong M_n(R/I)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.53}
+设 $I_1,I_2$ 均为环 $R$ 的理想，$I_1I_2$ 表示所有有限和 $\sum_k x_k y_k$（$x_k\in I_1,\ y_k\in I_2$）构成的集合。
+\SubQ{1}{证明 $I_1I_2$ 是 $R$ 的理想且 $I_1I_2\subseteq I_1\cap I_2$。等号一定成立吗？}
+\SubQ{2}{证明 $I_1+I_2$ 是 $R$ 中包含 $I_1$ 和 $I_2$ 的最小理想。}
+\SubQ{3}{在 $R=\mathbb{Z}$ 中，设 $I_1=n\mathbb{Z}$、$I_2=m\mathbb{Z}$（$n,m\ge1$）。证明 $I_1I_2=nm\mathbb{Z}$、$I_1+I_2=\gcd(n,m)\mathbb{Z}$、$I_1\cap I_2=\operatorname{lcm}(n,m)\mathbb{Z}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.54}
+设 $f\colon R\to S$ 是环同态，$I,J$ 分别是 $R,S$ 的理想，且 $f(I)\subseteq J$。考虑 $\overline f\colon R/I\to S/J$，$a+I\mapsto f(a)+J$。
+\SubQ{1}{证明 $\overline f$ 良定义且是环同态。}
+\SubQ{2}{证明 $\overline f$ 是环同构，当且仅当 $f(R)+J=S$ 且 $I=f^{-1}(J)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.55}
+设 $f\colon R\to S$ 为环同态，且 $R$ 是体。证明 $f$ 或为零同态，或为嵌入。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.56}
+设 $(R,+,\cdot)$ 为含幺环。对 $a,b\in R$ 定义 $a\oplus b=a+b+1$、$a\odot b=ab+a+b$。证明 $(R,\oplus,\odot)$ 也是含幺环，并与 $(R,+,\cdot)$ 同构。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.57}
+这里称每个理想均为主理想的环为主理想环。
+\SubQ{1}{证明主理想环的任一同态像仍为主理想环。}
+\SubQ{2}{证明 $\mathbb{Z}_m=\mathbb{Z}/m\mathbb{Z}$（$m\ge1$）为主理想环。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.58}
+环 $\mathbb{Z}/3\mathbb{Z}$ 与 $\mathbb{Z}/6\mathbb{Z}$ 的子环 $2\mathbb{Z}/6\mathbb{Z}$ 是否同构？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.59}
+设 $I_1\subseteq I_2\subseteq\cdots\subseteq I_n\subseteq\cdots$，且每个 $I_n$ 都是环 $R$ 的理想。证明 $\bigcup_{n=1}^{\infty} I_n$ 也是 $R$ 的理想。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.60}
+设
+\[
+T=\left\{\begin{pmatrix}a&0\\b&c\end{pmatrix}\ \middle|\ a,b,c\in\mathbb{Z}\right\}.
+\]
+证明 $T$ 是 $M_2(\mathbb{Z})$ 的子环，并确定 $T$ 的全部理想。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.61（改写）}
+确定整数环 $\mathbb{Z}$ 及 $\mathbb{Z}_m=\mathbb{Z}/m\mathbb{Z}$（$m\ge 1$）的特征。证明环 $R$ 的特征为 $1$ 当且仅当 $R$ 是零环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.62}
+设 $D$ 为整环，$D^*=D\setminus\{0\}$。在 $D\times D^*$ 上规定 $(r,s)\sim(r',s')$ 当且仅当 $sr'=s'r$，记等价类为 $r/s$，记全体等价类为 $K$。规定
+\[
+\frac{r}{s}+\frac{r'}{s'}=\frac{rs'+r's}{ss'},\qquad
+\frac{r}{s}\cdot\frac{r'}{s'}=\frac{rr'}{ss'}.
+\]
+\SubQ{1}{证明这两个运算与代表元的选择无关。}
+\SubQ{2}{验证 $K$ 对这两个运算构成含幺交换环，指出零元素与幺元素。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.63}
+设 $D$ 为整环，$K$ 为它的商域，$M$ 为域，$g\colon D\to M$ 为环的嵌入。已知 $g'\colon K\to M$、$g'(r/s)=g(r)g(s)^{-1}$（$s\ne0$）良定义，验证 $g'$ 是域同态。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.64（改写）}
+用中国剩余定理解下列同余方程组（《孙子算经》的“物不知数”），给出全部整数解与最小正整数解。
+\[
+\begin{cases}
+x\equiv 2\pmod{3},\\
+x\equiv 3\pmod{5},\\
+x\equiv 2\pmod{7}.
+\end{cases}
+\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.65（改写）}
+确定整数环 $\mathbb{Z}$ 的全部素理想。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.66（改写）}
+确定整数环 $\mathbb{Z}$ 的全部极大理想，并指出零理想是否为极大理想。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.67（改写、校订）}
+在整数多项式环 $R=\mathbb{Z}[x]$ 中，考察理想 $(x)$ 和 $(x,2)$。
+\SubQ{1}{用取常数项的同态构造 $R/(x)\cong\mathbb{Z}$。}
+\SubQ{2}{构造 $R/(x,2)\cong\mathbb{Z}/2\mathbb{Z}$。}
+\SubQ{3}{分别判断 $(x)$ 和 $(x,2)$ 是否为素理想，是否为极大理想。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.68}
+设 $R$ 是正特征的环。能否把 $R$ 嵌入一个同特征的含幺环 $S$？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.69}
+证明有限环的特征必为正数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.70}
+设 $D$ 是整环，$m,n$ 是互素正整数。若 $a,b\in D$ 满足 $a^m=b^m$ 且 $a^n=b^n$，证明 $a=b$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.71（校订）}
+设 $\{R_i\}_{i\in I}$ 是非空环族，$R=\prod_{i\in I}R_i$。证明下列结论。
+\SubQ{1}{$R$ 含幺当且仅当每个 $R_i$ 含幺。}
+\SubQ{2}{$R$ 交换当且仅当每个 $R_i$ 交换。}
+\SubQ{3}{元素 $x=(x_i)_{i\in I}$ 是 $R$ 中的单位当且仅当每个 $x_i$ 都是 $R_i$ 中的单位。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.72（校订）}
+设 $\{R_i\}_{i\in I}$ 是非空环族，$R=\prod_{i\in I}R_i$。证明下列结论。
+\SubQ{1}{若 $I$ 有限且各 $R_i$ 都含幺，则 $R$ 的任一理想 $A$ 都可写作 $A=\prod_{i\in I}A_i$，其中 $A_i$ 是 $R_i$ 的理想。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.73}
+设 $S,R_i$（$i\in I$）为环，$\pi_i\colon\prod_{j\in I}R_j\to R_i$ 为正则投射，$\varphi_i\colon S\to R_i$ 均为环同态。证明存在唯一的环同态 $\varphi\colon S\to\prod_{j\in I}R_j$，使 $\pi_i\circ\varphi=\varphi_i$ 对每个 $i\in I$ 成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.74}
+设 $R_i$（$i\in I$）均为环。证明
+\[
+\bigoplus_{i\in I}R_i
+=\left\{(x_i)_{i\in I}\in\prod_{i\in I}R_i\ \middle|\ \text{只有有限多个 }x_i\ne0\right\}
+\]
+是 $\prod_{i\in I}R_i$ 的子环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.75}
+设 $I_1,\dots,I_n$ 为环 $R$ 的理想，满足 $I_1+\cdots+I_n=R$，且对每个 $i$ 都有 $I_i\cap \bigl(\sum_{j\ne i} I_j\bigr)=\{0\}$。证明 $R\cong\prod_{i=1}^{n}I_i$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.76}
+设 $R$ 为含幺环，$e$ 为中心幂等元素，即 $e^2=e$ 且 $ea=ae$ 对每个 $a\in R$ 成立。
+\SubQ{1}{证明 $1-e$ 也是中心幂等元素。}
+\SubQ{2}{证明 $eR$ 和 $(1-e)R$ 均为 $R$ 的理想，且 $R\cong eR\times (1-e)R$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.77}
+设 $R,R_1,\dots,R_n$ 都是含幺环。证明 $R\cong R_1\times\cdots\times R_n$ 当且仅当存在 $R$ 的中心幂等元素 $e_1,\dots,e_n$，满足任意 $i\ne j$ 时 $e_ie_j=0$，且 $e_1+\cdots+e_n=1_R$，并且 $e_iR\cong R_i$ 对所有 $i$ 成立。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.78}
+设 $R$ 为含幺交换环，$P_1,\dots,P_m$ 为 $R$ 的素理想，$A$ 为 $R$ 的理想。证明若 $A\subseteq P_1\cup\cdots\cup P_m$，则存在 $i$ 使 $A\subseteq P_i$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.79}
+证明含幺交换有限环的素理想必为极大理想。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.80}
+设 $P$ 是含幺交换环 $R$ 的素理想，$A_1,\dots,A_n$ 是 $R$ 的理想。若 $P=\bigcap_{i=1}^n A_i$，证明 $P$ 等于其中某个 $A_i$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.81}
+设 $f\colon R\to S$ 是环的满同态，$K=\ker f$。
+\SubQ{1}{若 $P$ 是 $R$ 的素理想且 $P\supseteq K$，证明 $f(P)$ 是 $S$ 的素理想。}
+\SubQ{2}{若 $Q$ 是 $S$ 的素理想，证明 $f^{-1}(Q)=\{a\in R\mid f(a)\in Q\}$ 是 $R$ 的素理想。}
+\SubQ{3}{证明 $S$ 中的素理想与 $R$ 中包含 $K$ 的素理想一一对应，并验证把两处“素理想”改成“极大理想”结论也成立。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.82}
+设 $I$ 为环 $R$ 的理想。证明 $R/I$ 的任一素理想都可写为 $P/I$，其中 $P$ 为 $R$ 中包含 $I$ 的素理想。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.83}
+设 $m\ge 2$ 为整数。确定 $\mathbb{Z}_m=\mathbb{Z}/m\mathbb{Z}$ 的全部素理想与极大理想。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.84}
+设 $R$ 是含幺交换环，$u\in R\setminus\{0\}$。证明以下条件等价：$u$ 为单位，$u$ 与 $1$ 相伴，$(u)=R$，以及 $u$ 整除 $R$ 中每个元素。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.85（改写）}
+在 $\mathbb{Z}/6\mathbb{Z}$ 中，证明 $\overline{2}$ 是素元，并说明它是否不可约。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.86（改写）}
+设 $R=\mathbb{Z}[\sqrt{-5}]=\{a+b\sqrt{-5}\mid a,b\in\mathbb{Z}\}$。在 $R$ 中判定 $3$ 是否为素元。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.87（改写）}
+设 $R$ 是所有系数在 $\mathbb{Z}$、指数为非负有理数的有限形式和构成的“分指数”多项式环。运算按系数相加与 $x^r x^s=x^{r+s}$ 延拓。
+\SubQ{1}{证明 $R$ 是整环，并求其单位群。}
+\SubQ{2}{证明 $x$ 的每个真因子均为 $\pm x^t$（$t>0$，$t\in\mathbb{Q}$）。}
+\SubQ{3}{说明 $x$ 能否分解成有限个不可约元的乘积。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.88（改写）}
+在 $R=\mathbb{Z}[\sqrt{-5}]$ 中定义范数 $N(a+b\sqrt{-5})=a^2+5b^2$（$a,b\in\mathbb{Z}$）。
+\SubQ{1}{证明 $N(\alpha\beta)=N(\alpha)N(\beta)$，并计算 $U(R)$。}
+\SubQ{2}{证明每个非零非单位元素都可写成有限个不可约元的乘积。}
+\SubQ{3}{验证 $2,3,1+\sqrt{-5},1-\sqrt{-5}$ 均不可约，并用 $6$ 的两种分解判断 $R$ 是否为唯一因子分解整环。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.89}
+设 $R$ 是整环，$a,b$ 是非零元素。仿照最大公因子的定义，用整除关系写出 $a,b$ 的最小公倍元 $[a,b]$ 的定义。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.90（改写）}
+在 $\mathbb{Z}[\sqrt{-5}]$ 中，证明 $6$ 和 $2(1+\sqrt{-5})$ 没有最大公因子。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.91（改写）}
+对整数环 $\mathbb{Z}$ 取 $\varphi(n)=|n|$，验证 $\varphi$ 满足欧氏整环定义中的两个条件。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.92（改写）}
+设 $F$ 是域。令 $\varphi(0)=0$，且对每个非零 $x\in F$ 令 $\varphi(x)=1$。用 $\varphi$ 证明 $F$ 是欧氏整环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.93（改写）}
+设 $G=\mathbb{Z}[\sqrt{-1}]$，其商域为 $\mathbb{Q}[\sqrt{-1}]$。定义 $\varphi(a+b\sqrt{-1})=a^2+b^2$（$a,b\in\mathbb{Q}$）。
+\SubQ{1}{证明 $\varphi(x)=0$ 当且仅当 $x=0$，且 $\varphi(\alpha\beta)=\varphi(\alpha)\varphi(\beta)$。}
+\SubQ{2}{给定 $\alpha,\beta\in G$ 且 $\beta\ne 0$，构造 $q,r\in G$，使 $\alpha=\beta q+r$ 且 $\varphi(r)<\varphi(\beta)$。由此证明 $G$ 是欧氏整环。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.94}
+设 $R$ 是整环，$a,b\in R\setminus\{0\}$，且 $a\sim b$（相伴）。证明下列结论。
+\SubQ{1}{若 $a$ 为不可约元，则 $b$ 也是不可约元。}
+\SubQ{2}{若 $a$ 为素元，则 $b$ 也是素元。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.95}
+设 $R$ 是唯一因子分解整环，$a,b,c\in R$ 均非零。证明下列结论。
+\SubQ{1}{$ab\sim (a,b)[a,b]$，其中 $(a,b)$ 和 $[a,b]$ 分别为最大公因子和最小公倍元。}
+\SubQ{2}{若 $a\mid bc$ 且 $a,b$ 互素，则 $a\mid c$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.96}
+设 $R$ 是主理想整环，$a,b\in R$ 均非零，$c\in R$。以 $d$、$l$ 分别表示 $a,b$ 的一个最大公因子及一个最小公倍元。
+\SubQ{1}{证明 $(a)\cap(b)=(l)$，且 $(a)\cap(b)=(a)(b)$ 当且仅当 $a,b$ 互素。}
+\SubQ{2}{证明方程 $ax+by=c$ 在 $R$ 中有解 $(x,y)$ 当且仅当 $d\mid c$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.97}
+证明 $\mathbb{Z}[x]$ 不是主理想整环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.98}
+设 $a$ 是主理想整环 $D$ 中的非零元素。证明：若 $a$ 是素元，则 $D/(a)$ 是域；若 $a$ 不是素元，则 $D/(a)$ 不是整环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.99}
+证明 $\mathbb{Z}[\sqrt{-2}]$ 是欧氏整环。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.100}
+设 $D$ 是主理想整环，$E$ 是整环，且 $D$ 是 $E$ 的子环。若 $d$ 是 $a,b\in D\setminus\{0\}$ 在 $D$ 中的最大公因子，证明 $d$ 也是 $a,b$ 在 $E$ 中的最大公因子。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.101}
+在高斯整数环 $G=\mathbb{Z}[\sqrt{-1}]$ 中，将 $29-2\sqrt{-1}$ 分解为不可约元的乘积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.102}
+设 $p$ 是满足 $p\equiv1\pmod 4$ 的奇素数，$(a,b)$ 是 $x^2+y^2=p$ 的一组整数解。证明全部整数解都是 $(\pm a,\pm b)$ 或 $(\pm b,\pm a)$，各正负号可独立选取。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.103}
+分别将 $60$ 和 $81+8\sqrt{-1}$ 在高斯整数环 $\mathbb{Z}[\sqrt{-1}]$ 中分解为不可约元的乘积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.104}
+仿照高斯整数环中素元分解的方法，判定哪些正整数 $n$ 能表为 $n=x^2+2y^2$，其中 $x,y\in\mathbb{Z}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.105（改写）}
+在 $R=M_2(\mathbb{Z})$ 中，令
+\[
+A=\begin{pmatrix}0&0\\1&0\end{pmatrix},\qquad
+B=\begin{pmatrix}0&1\\0&0\end{pmatrix}.
+\]
+设 $f(x)=x+A$、$g(x)=x-A$，在形式多项式环 $R[x]$ 中置 $h(x)=f(x)g(x)$。计算 $h(B)$ 和 $f(B)g(B)$，据此判断代入 $x=B$ 是否保持乘法。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.106（校订）}
+设 $R$ 为环，$f,g\in R[x]$，并规定 $\deg 0=-\infty$。证明下列结论。
+\SubQ{1}{$\deg(f+g)\le \max\{\deg f,\deg g\}$。}
+\SubQ{2}{$\deg(fg)\le \deg f+\deg g$。}
+\SubQ{3}{若 $f,g$ 均非零，且 $f$ 的首项系数不是左零因子，或 $g$ 的首项系数不是右零因子，则 $\deg(fg)=\deg f+\deg g$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.107（改写）}
+在实四元数体 $\mathbb{H}$ 中验证 $\pm\mathrm{i},\pm\mathrm{j},\pm\mathrm{k}$ 都是 $x^2+1$ 的根。这个取根例子说明次数与不同根数的关系在非交换情形中有何不同？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.108（改写）}
+求多项式 $3x^4+6x^3-21x^2-203x-4$ 的全部有理根，并说明可以怎样缩小候选根范围。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.109}
+设 $D$ 是唯一因子分解整环。为什么 $D$ 中的每个不可约元视为常数多项式后仍为 $D[x]$ 中的不可约元？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.110（改写）}
+用艾森斯坦判别法证明 $2x^5-6x^3+9x^2-15$ 在 $\mathbb{Z}[x]$ 中不可约。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.111（改写）}
+设 $R$ 是任意唯一因子分解整环。证明 $y^3+x^2y^2+x^3y+x$ 在 $R[x,y]$ 中不可约。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.112（改写）}
+设 $p$ 为素数，$f(x)=\sum_{j=0}^{p-1}x^j\in\mathbb{Z}[x]$。
+\SubQ{1}{解释为什么要证明 $f(x)$ 不可约，只需证明 $f(x+1)$ 不可约。}
+\SubQ{2}{证明 $f(x)$ 在 $\mathbb{Z}[x]$ 中不可约。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.113}
+若 $D$ 为整环但不是域，证明 $D[x]$ 不是主理想整环。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.114}
+确定环 $\mathbb{Z}[x]$ 和 $\mathbb{Q}[x]$ 的自同构群。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.115}
+设 $c_0,\dots,c_n$ 是整环 $D$ 中两两相异的 $n+1$ 个元素，$d_0,\dots,d_n$ 是 $D$ 中任意 $n+1$ 个元素。
+\SubQ{1}{证明 $D[x]$ 中至多有一个次数不超过 $n$ 的多项式 $f(x)$ 满足 $f(c_i)=d_i$（$0\le i\le n$）。}
+\SubQ{2}{证明如果 $D$ 为域，第一问所述多项式一定存在。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.116}
+分别判断下列多项式在指定的两个多项式环中是否不可约。
+\SubQ{1}{$2x+2$ 在 $\mathbb{Z}[x]$ 和 $\mathbb{Q}[x]$ 中。}
+\SubQ{2}{$x^2+1$ 在 $\mathbb{R}[x]$ 和 $\mathbb{C}[x]$ 中。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.117}
+设 $D\subseteq E$ 均为整环，且 $c$ 是非零多项式 $f(x)\in D[x]$ 在 $E$ 中的一个根。能否利用形式微商确定 $c$ 的重数？请讨论正特征时普通形式微商的适用性。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.118}
+设 $F$ 为域，$f(x)\in F[x]$ 为非零多项式，$c_1,\dots,c_m$ 是 $f$ 在 $F$ 中两两相异的根，其重数分别为 $\lambda_1,\dots,\lambda_m$。证明 $\lambda_1+\cdots+\lambda_m\le\deg f$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.119}
+设 $p$ 为素数，$f(x)=\sum_i a_i x^i\in\mathbb{Z}[x]$，$\overline f(x)=\sum_i\overline{a_i}x^i\in\mathbb{Z}_p[x]$，其中 $\overline{a_i}$ 是 $a_i$ 模 $p$ 的剩余类。
+\SubQ{1}{若 $f$ 为首一多项式，且对某个素数 $p$，$\overline f$ 在 $\mathbb{Z}_p[x]$ 中不可约，证明 $f$ 在 $\mathbb{Z}[x]$ 中不可约。}
+\SubQ{2}{若去掉首一条件，第一问的结论还成立吗？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.120}
+设 $D$ 是唯一因子分解整环，$F$ 是 $D$ 的商域。若 $f(x)$ 是 $D[x]$ 中的首一多项式，证明 $f(x)$ 在 $F[x]$ 中的每个首一多项式因子必属于 $D[x]$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.121}
+设 $R$ 是含幺交换环，$f(x)=\sum_{i=0}^n a_i x^i\in R[x]$。证明 $f$ 是 $R[x]$ 的单位，当且仅当 $a_0$ 是 $R$ 的单位，且 $a_1,\dots,a_n$ 都是幂零元素。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.122}
+设 $f(x)=\sum_{i=0}^n a_i x^i\in\mathbb{Z}[x]$，$\deg f=n$。若存在素数 $p$ 和整数 $k$（$0<k<n$），使得 $p\nmid a_n$、$p\nmid a_k$、对 $0\le i<k$ 有 $p\mid a_i$，且 $p^2\nmid a_0$，证明 $f$ 在 $\mathbb{Z}[x]$ 中必有一个次数至少为 $k$ 的不可约因子。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.123}
+将下列多项式在 $\mathbb{Z}[x]$ 中分别分解成素元的乘积。
+\SubQ{1}{$x^{3}-1$。}
+\SubQ{2}{$x^{4}-1$。}
+\SubQ{3}{$x^{5}-1$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.124}
+将下列多项式在 $\mathbb{Z}[x]$ 中分别分解成素元的乘积。
+\SubQ{1}{$x^{6}-1$。}
+\SubQ{2}{$x^{7}-1$。}
+\SubQ{3}{$x^{8}-1$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.125}
+将下列多项式在 $\mathbb{Z}[x]$ 中分别分解成素元的乘积。
+\SubQ{1}{$x^{9}-1$。}
+\SubQ{2}{$x^{10}-1$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.126}
+设 $D$ 是整环，$f(x)$ 为 $D[x]$ 中的非零多项式，$c\in D$，$g(x)=f(x+c)$。证明下列结论。 此处称非零多项式为本原，是指其系数没有非单位公共因子。
+\SubQ{1}{$f(x)$ 在 $D[x]$ 中本原，当且仅当 $g(x)$ 在 $D[x]$ 中本原。}
+\SubQ{2}{$f(x)$ 在 $D[x]$ 中不可约，当且仅当 $g(x)$ 在 $D[x]$ 中不可约。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.127}
+设 $F$ 为域。确定 $F[x]$ 中的全部素理想和极大理想。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.128}
+设 $f(x)\in\mathbb{Q}[x]$ 为奇数次不可约多项式，$\alpha,\beta$ 是 $f$ 在 $\mathbb{Q}$ 的某个扩域中的两个不同根。证明 $\alpha+\beta\notin\mathbb{Q}$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.129}
+设 $K$ 为域，$f(x_1,x_2)$ 和 $g(x_1,x_2)$ 是 $K[x_1,x_2]$ 中互素的两个多项式。证明对 $K$ 的任意扩域，方程 $f(x_1,x_2)=g(x_1,x_2)=0$ 都只有有限多个公共解。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.130}
+对任意环 $R$，令 $R[[x]]$ 为形式幂级数 $\sum_{n=0}^{\infty}a_nx^n$（$a_n\in R$）的全体。加法逐系数相加，乘法中 $x^n$ 的系数定义为 $\sum_{i+j=n}a_i b_j$。证明下列结论。
+\SubQ{1}{$R[[x]]$ 对这些运算形成环。}
+\SubQ{2}{若 $R$ 有幺元素 $1$，则 $1$ 是 $R[[x]]$ 的幺元素。若 $R$ 为交换环，则 $R[[x]]$ 也是交换环。}
+\SubQ{3}{$R[x]$ 可以自然地视为 $R[[x]]$ 的子环。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.131}
+对任意环 $R$，令 $R[[x]]$ 为形式幂级数 $\sum_{n=0}^{\infty}a_nx^n$（$a_n\in R$）的全体。加法逐系数相加，乘法中 $x^n$ 的系数定义为 $\sum_{i+j=n}a_i b_j$。证明下列结论。
+\SubQ{1}{设 $R$ 为含幺交换环。$f(x)=\sum_{n=0}^{\infty}a_nx^n$ 是 $R[[x]]$ 的单位当且仅当 $a_0$ 是 $R$ 的单位。}
+\SubQ{2}{设 $R$ 为含幺交换环。若 $a_0$ 在 $R$ 中不可约，则 $f(x)=\sum_{n=0}^{\infty}a_nx^n$ 在 $R[[x]]$ 中不可约。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.132（校订）}
+设 $F$ 为域。
+\SubQ{1}{证明 $F[[x]]$ 只有一个极大理想 $M$，每个非零理想都可写作 $M^n$（$n=0,1,2,\dots$），其中 $M^0=F[[x]]$，且 $M^n\ne M^m$（$n\ne m$）。}
+\SubQ{2}{证明 $F[[x]]$ 为主理想整环，从而为唯一因子分解整环。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.133}
+比较多项式环 $\mathbb{Z}[x]$ 与形式幂级数环 $\mathbb{Z}[[x]]$ 中的下列性质。
+\SubQ{1}{$x+1$ 是否为单位？}
+\SubQ{2}{$x^2+3x+2$ 是否为不可约元？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.134（改写）}
+设 $K$ 是域。证明每个 $u\in K$ 都在 $K$ 上代数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.135（改写）}
+设 $K'\subseteq K\subseteq F$ 均为域，且 $u\in F$ 在 $K'$ 上代数。证明 $u$ 在 $K$ 上代数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.136（改写）}
+设 $n$ 为正整数。对以下每个复数，给出一个以它为根的非零有理系数多项式。
+\SubQ{1}{$\sqrt{-1}$。}
+\SubQ{2}{$\sqrt[3]{2}$。}
+\SubQ{3}{$\exp(2\pi i/n)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.137（改写）}
+设 $K$ 为域，$x_1,\ldots,x_n$ 是独立的形式变元。
+\SubQ{1}{用分式写出整环 $K[x_1,\ldots,x_n]$ 的分式域 $K(x_1,\ldots,x_n)$。}
+\SubQ{2}{证明每个 $x_i$ 在 $K$ 上超越。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.138}
+设 $K$ 为域。证明多项式环 $K[x_1,\ldots,x_n]$ 中每个非常数多项式在 $K$ 上超越。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.139（改写）}
+设 $u$ 是有理系数不可约多项式 $f(x)=x^3-3x-1$ 的一个实根。
+\SubQ{1}{说明为什么 $f$ 是 $u$ 在 $\mathbb{Q}$ 上的极小多项式，并证明 $1,u,u^2$ 是 $\mathbb{Q}(u)$ 的一组 $\mathbb{Q}$-基。}
+\SubQ{2}{把 $u^4+2u^3+3$ 写成 $1,u,u^2$ 的 $\mathbb{Q}$-线性组合。}
+\SubQ{3}{把 $(3u^2+7u+5)^{-1}$ 写成 $1,u,u^2$ 的 $\mathbb{Q}$-线性组合。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.140（改写）}
+已知复数域 $\mathbb{C}$ 是代数闭域，且含有在 $\mathbb{Q}$ 上超越的元素。令 $A$ 为 $\mathbb{C}$ 中所有在 $\mathbb{Q}$ 上代数的元素组成的集合。
+\SubQ{1}{说明为什么 $\mathbb{C}$ 不是 $\mathbb{Q}$ 的代数闭包。}
+\SubQ{2}{证明 $A$ 是 $\mathbb{C}$ 的子域，并且是 $\mathbb{Q}$ 的一个代数闭包。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.141}
+设 $F/K$ 为域扩张，$u\in F$ 是 $K$ 上次数为奇数的代数元素。证明 $K(u)=K(u^2)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.142}
+举出一个域扩张 $F/K$，使 $F=K(u,v)$，且 $u,v$ 均在 $K$ 上超越，但 $F$ 与二元有理函数域 $K(x_1,x_2)$ 不在 $K$ 上同构。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.143}
+设 $p$ 为素数。分别求域扩张 $\mathbb{Q}(\exp(2\pi i/p))/\mathbb{Q}$ 与 $\mathbb{Q}(\exp(2\pi i/8))/\mathbb{Q}$ 的次数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.144}
+在以下各情形中，求元素 $a$ 在域 $K$ 上的极小多项式。
+\SubQ{1}{$a=\sqrt2+\sqrt3$，$K=\mathbb{Q}$。}
+\SubQ{2}{$a=\sqrt2+\sqrt3$，$K=\mathbb{Q}(\sqrt2)$。}
+\SubQ{3}{$a=\sqrt2+\sqrt3$，$K=\mathbb{Q}(\sqrt6)$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.145}
+设 $u$ 属于域 $K$ 的某个扩域，并在 $K$ 上代数。
+\SubQ{1}{证明 $u$ 在 $K$ 上的极小多项式在 $K[x]$ 中不可约。}
+\SubQ{2}{若 $f(x)\in K[x]$ 首一且不可约，并且 $f(u)=0$，证明 $f$ 是 $u$ 在 $K$ 上的极小多项式。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.146}
+设 $u$ 属于域 $K$ 的某个扩域，且 $x^n-a$ 是 $u$ 在 $K$ 上的极小多项式。对正因数 $m\mid n$，求 $u^m$ 在 $K$ 上的极小多项式。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.147}
+设 $F/K$ 为代数扩张，$D$ 为整环且 $K\subseteq D\subseteq F$。证明 $D$ 是域。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.148}
+设 $K$ 为域。若 $u\in K(x_1,\ldots,x_n)\setminus K$ 是有理函数，证明 $u$ 在 $K$ 上超越。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.149}
+设 $K$ 为域，$u\in K(x)\setminus K$。证明 $x$ 在 $K(u)$ 上代数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.150}
+设 $u$ 是多项式 $x^3-6x^2+9x+3$ 的一个实根。
+\SubQ{1}{证明 $[\mathbb{Q}(u):\mathbb{Q}]=3$。}
+\SubQ{2}{将 $u^4$、$(u+1)^{-1}$ 和 $(u^2-6u+8)^{-1}$ 分别写成 $1,u,u^2$ 的 $\mathbb{Q}$-线性组合。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.151}
+在有理函数域 $\mathbb{Q}(x)$ 中令 $u=x^3/(x+1)$。求 $[\mathbb{Q}(x):\mathbb{Q}(u)]$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.152}
+设 $F/K$ 为域扩张，$M=\{a\in F\mid a\text{ 在 }K\text{ 上代数}\}$。
+\SubQ{1}{证明 $M$ 是包含 $K$ 的 $F$ 的子域（称为 $K$ 在 $F$ 中的代数闭包）。}
+\SubQ{2}{若 $F$ 为代数闭域，证明 $M$ 是 $K$ 的一个代数闭包。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.153}
+在二元域 $\mathbb{F}_2=\mathbb{Z}/2\mathbb{Z}$ 上写出一个二次不可约多项式 $f(x)$。将 $f$ 的一个根 $u$ 添入 $\mathbb{F}_2$，列出 $\mathbb{F}_2(u)$ 的全部元素，并写出其加法表和乘法表。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.154}
+设 $M/K$ 为域扩张，$u,v\in M$ 在 $K$ 上的次数分别为 $m,n$。令 $F=K(u)$，$E=K(v)$，$FE$ 为它们的合成域。
+\SubQ{1}{证明 $[FE:K]\le mn$。}
+\SubQ{2}{若 $\gcd(m,n)=1$，证明 $[FE:K]=mn$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.155}
+设 $K$ 为域，并记下列四个命题为 A、B、C、D。
+\begin{itemize}
+\item[A.] $K$ 是代数闭域。
+\item[B.] $K[x]$ 中每个正次数多项式都是一次多项式的乘积。
+\item[C.] $K[x]$ 中每个正次数多项式在 $K$ 中都有根。
+\item[D.] $K[x]$ 中的不可约元恰为一次多项式。
+\end{itemize}
+\SubQ{1}{证明 A 蕴含 B。}
+\SubQ{2}{证明 B 蕴含 C。}
+\SubQ{3}{证明 C 蕴含 D。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.156}
+设 $K$ 为域，并记下列四个命题为 A、B、C、D。
+\begin{itemize}
+\item[A.] $K$ 是代数闭域。
+\item[B.] $K[x]$ 中每个正次数多项式都是一次多项式的乘积。
+\item[C.] $K[x]$ 中每个正次数多项式在 $K$ 中都有根。
+\item[D.] $K[x]$ 中的不可约元恰为一次多项式。
+\end{itemize}
+\SubQ{1}{证明 D 蕴含 A。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.157（校订）}
+设 $K$ 为域，$f(x)\in K[x]$ 且 $\deg f=n\ge1$。证明 $K$ 有一扩域 $E$，使 $[E:K]\le n!$，且 $f(x)$ 在 $E[x]$ 中分解成 $n$ 个一次多项式的乘积。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.158}
+设 $F$ 为域，$c\in F$，$p$ 为素数。证明 $x^p-c$ 在 $F[x]$ 中不可约，当且仅当它在 $F$ 中无根。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.159}
+设 $F$ 为域，$p$ 为素数，$c\in F$。
+\SubQ{1}{当 $\operatorname{char}F=p$ 时，证明 $x^p-x-c$ 在 $F[x]$ 中不可约，当且仅当它在 $F$ 中无根。}
+\SubQ{2}{当 $\operatorname{char}F=0$ 时，第一问中的等价结论是否仍成立？}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.160}
+设 $F$ 为域。
+\SubQ{1}{若 $\operatorname{char}F\ne2$，证明 $F$ 的每个二次扩张都可写成 $F(\sqrt a)$，其中 $a\in F$。}
+\SubQ{2}{若 $\operatorname{char}F=2$，结论是否仍成立？}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.161}
+设 $\alpha$ 在 $\mathbb{Q}$ 上代数，$K=\mathbb{Q}(\alpha)$。证明 $\lvert\operatorname{Aut}(K)\rvert\le[K:\mathbb{Q}]$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.162（改写）}
+设 $\sigma_1,\sigma_2,\sigma_3,\sigma_4$ 是 $x_1,x_2,x_3,x_4$ 的基本对称多项式。用待定系数法将 $x_1^4+x_2^4+x_3^4+x_4^4$ 写成 $\sigma_1,\ldots,\sigma_4$ 的整系数多项式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.163（校订）}
+设 $n\ge5$，$\sigma_1,\ldots,\sigma_n$ 是 $x_1,\ldots,x_n$ 的基本对称多项式。
+令 $P=\sum_{1\le i<j<k\le n}x_i^2x_j^2x_k$。
+\SubQ{1}{判断 $P$ 能否表示成 $\sigma_1,\ldots,\sigma_n$ 的多项式。}
+\SubQ{2}{将 $\displaystyle\sum_{1\le i<j<k\le n}(x_i^2x_j^2x_k+x_i^2x_jx_k^2+x_ix_j^2x_k^2)$ 写成 $\sigma_1,\ldots,\sigma_n$ 的多项式。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.164}
+记 $\Delta=\displaystyle\prod_{1\le i<j\le n}(x_i-x_j)$，并记 $\sigma_i$ 为第 $i$ 个基本对称多项式。
+\SubQ{1}{证明 $\Delta^2$ 是 $x_1,\ldots,x_n$ 的对称多项式。}
+\SubQ{2}{当 $n=3$ 时，将 $\Delta^2$ 写成 $\sigma_1,\sigma_2,\sigma_3$ 的多项式。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.165}
+设 $K$ 为域，$x_1,\ldots,x_n$ 为形式变元，$\sigma_1,\ldots,\sigma_n$ 为其基本对称多项式。称扩域中一组元素在 $K$ 上代数无关，是指它们代入任意非零的 $K$ 系数多元多项式所得值均不为零。
+\SubQ{1}{证明 $\sigma_1,\ldots,\sigma_n$ 在 $K$ 上代数无关。}
+\SubQ{2}{设 $R$ 是整环。证明任意对称多项式 $f\in R[x_1,\ldots,x_n]$ 写成 $\sigma_1,\ldots,\sigma_n$ 的 $R$ 系数多项式的方式唯一。}
+\SubQ{3}{证明 $K(x_1,\ldots,x_n)/K(\sigma_1,\ldots,\sigma_n)$ 是代数扩张，且扩张次数为 $n!$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.166}
+设 $S_k=\sum_{i=1}^n x_i^k$，$\sigma_j$ 为第 $j$ 个基本对称多项式，并约定 $j>n$ 时 $\sigma_j=0$。证明对于每个整数 $k\ge1$，以下牛顿恒等式成立。
+\[
+S_k+\sum_{j=1}^{k-1}(-1)^j\sigma_j S_{k-j}+(-1)^k k\sigma_k=0.
+\]
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.167}
+证明仅用圆规和无刻度直尺，可以分别三等分 $45^\circ$ 和 $54^\circ$ 的角。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.168}
+给定一个正方体，能否仅用圆规和无刻度直尺作出一条线段，使以该线段为边长的正方体的体积恰为原正方体体积的两倍？证明你的结论。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.169}
+对于给定的圆，仅允许使用圆规和无刻度直尺。
+\SubQ{1}{证明可以作出该圆的内接正 $3$、$4$、$5$、$6$、$8$、$10$ 边形。}
+\SubQ{2}{证明不能作出该圆的内接正 $7$、$9$ 边形。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{2.170（改写）}
+在 $\mathbb{F}_3[x]$ 中令 $f(x)=x^2+2x+2$，取其一根 $u$。对 $a,b\in\mathbb{F}_3$，用 $(a,b)$ 表示 $au+b$。
+\SubQ{1}{证明 $f$ 不可约，且 $F=\mathbb{F}_3(u)$ 恰有九个元素。}
+\SubQ{2}{计算 $u^0,u^1,\ldots,u^8$ 各自的坐标，判断 $u$ 是否生成 $F^\times$。}
+\SubQ{3}{求坐标形式的加法规则，并计算 $(2,1)\cdot(2,2)$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.171}
+构造一个八元域，并写出其加法表与乘法表。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.172}
+记 $\mathbb{F}_q$ 为 $q$ 元域。
+\SubQ{1}{列出 $\mathbb{F}_2[x]$ 中所有次数不超过 $4$ 的不可约多项式。}
+\SubQ{2}{列出 $\mathbb{F}_3[x]$ 中所有二次不可约多项式。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.173}
+设 $F$ 为 $p^n$ 元域（$p$ 为素数），$F=\mathbb{F}_p(u)$。问 $u$ 是否一定是乘法循环群 $F^\times$ 的生成元？
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.174}
+设 $p$ 为素数，$f\in\mathbb{F}_p[x]$ 是次数为 $n$ 的首一不可约多项式，$u$ 是它的一个根。若根 $u$ 生成 $\mathbb{F}_p(u)^\times$，则称 $f$ 为 $n$ 次本原多项式。
+\SubQ{1}{证明 $f$ 有 $n$ 个不同的根，恰为 $u,u^p,u^{p^2},\ldots,u^{p^{n-1}}$。}
+\SubQ{2}{若 $u$ 是 $\mathbb{F}_p(u)^\times$ 的生成元，证明 $f$ 的每个根都是该群的生成元。}
+\SubQ{3}{证明 $\mathbb{F}_p[x]$ 中恰有 $\varphi(p^n-1)/n$ 个 $n$ 次本原多项式，其中 $\varphi$ 为欧拉函数。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.175}
+设 $\mathbb{F}_q$ 为 $q$ 元域，$f\in\mathbb{F}_q[x]$ 是不可约多项式。证明对任意正整数 $n$，$f(x)\mid (x^{q^n}-x)$ 当且仅当 $\deg f\mid n$。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.176}
+证明当 $n\ge3$ 时，$x^{2^n}+x+1$ 在 $\mathbb{F}_2[x]$ 中可约。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.177}
+设 $K$ 为有限域。证明对每个整数 $n\ge1$，$K[x]$ 中都存在 $n$ 次不可约多项式。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.178}
+令 $f(x)=x^4+x+1\in\mathbb{F}_2[x]$，取其一根 $u$。称不可约多项式为本原的，若其根生成由该根生成的有限扩域的乘法群。
+\SubQ{1}{证明 $f$ 是 $\mathbb{F}_2[x]$ 中的本原多项式。}
+\SubQ{2}{列出 $\mathbb{F}_{16}=\mathbb{F}_2[u]$ 中唯一的四元子域 $\mathbb{F}_4$ 的所有元素。}
+\SubQ{3}{求 $u$ 在 $\mathbb{F}_4$ 上的极小多项式。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.179}
+令 $f(x)=x^4+x^3+x^2+x+1\in\mathbb{F}_2[x]$，取其一根 $u$。称不可约多项式为本原的，若其根生成由该根生成的有限扩域的乘法群。
+\SubQ{1}{证明 $f$ 不可约，但不是本原多项式。}
+\SubQ{2}{在 $\mathbb{F}_{16}=\mathbb{F}_2(u)$ 中求所有乘法群 $\mathbb{F}_{16}^\times$ 的生成元。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.180}
+设 $F$ 为有限域，$a,b\in F^\times$。证明对于每个 $c\in F$，方程 $ax^2+by^2=c$ 在 $F$ 中都有解 $(x,y)$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.181（校订）}
+设 $F$ 为 $p^n$ 元域（$p$ 为素数），$G=\operatorname{Aut}(F)$。对 $a\in F$ 定义
+\[
+T(a)=\sum_{\sigma\in G}\sigma(a),\qquad N(a)=\prod_{\sigma\in G}\sigma(a).
+\]
+\SubQ{1}{证明 $T:F\to\mathbb{F}_p$ 是加法群的满同态。}
+\SubQ{2}{证明 $N:F^\times\to\mathbb{F}_p^\times$ 是乘法群的满同态。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.182}
+设 $F$ 为 $p^n$ 元域（$p$ 为素数），$H$ 是 $\operatorname{Aut}(F)$ 的 $m$ 阶子群。令 $K=\{a\in F\mid \sigma(a)=a\text{ 对所有 }\sigma\in H\text{ 成立}\}$。
+\SubQ{1}{证明 $m\mid n$。}
+\SubQ{2}{证明 $K$ 是 $F$ 中唯一的 $p^{n/m}$ 元子域。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.183}
+设 $F$ 为 $p^n$ 元域（$p$ 为素数），$f\in F[x]$ 为不可约多项式，$m=\deg f$。
+\SubQ{1}{证明 $f$ 有重根当且仅当存在 $g\in F[x]$ 使 $f(x)=g(x^p)$。}
+\SubQ{2}{若对非负整数 $r$ 有 $f(x)=g(x^{p^r})$ 对某 $g\in F[x]$ 成立，但不存在 $h\in F[x]$ 使 $f(x)=h(x^{p^{r+1}})$，证明 $p^r\mid m$，且 $f$ 有 $m/p^r$ 个不同的根，每根重数均为 $p^r$。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.184}
+设 $\Omega_p$ 是 $\mathbb{F}_p$ 的代数闭包。对正整数 $k$，记 $\mathbb{F}_{p^k}$ 为 $\Omega_p$ 中唯一的 $p^k$ 元子域。
+\SubQ{1}{证明 $\mathbb{F}_{p^n}\supseteq\mathbb{F}_{p^m}$ 当且仅当 $m\mid n$。}
+\SubQ{2}{若 $\mathbb{F}_{p^n}\supseteq\mathbb{F}_{p^m}$，证明 $\mathbb{F}_{p^n}$ 中逐点固定 $\mathbb{F}_{p^m}$ 的域自同构组成 $n/m$ 阶循环群。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{2.185}
+设 $p$ 是素数。证明矩阵集合
+\[
+\left\{\begin{pmatrix}1&a&b\\0&1&c\\0&0&1\end{pmatrix}\ \middle|\ a,b,c\in\mathbb{F}_p\right\}
+\]
+在矩阵乘法下构成 $p^3$ 阶非阿贝尔群。
+\end{minipage}\par\vfill

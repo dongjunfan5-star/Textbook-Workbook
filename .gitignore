@@ -34,12 +34,14 @@ rendered_pages/
 **/input/**
 !**/input/.gitkeep
 /朗道《力学》/力学(第五版)-朗道 十分清晰.pdf
+/近世代数引论_第四版(1).pdf
 
 # Unreviewed OCR and page renders are not publication material
 **/data/ocr_raw/
 **/data/page_images/
 **/build/
 **/qa/rendered/
+/近世代数引论/小样/
 
 # LaTeX intermediate products (keep main.pdf)
 *.aux
