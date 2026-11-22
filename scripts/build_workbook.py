@@ -59,9 +59,14 @@ def problem_tex(problem):
         text=text.replace(r'\ProblemHeading{'+kind+'}{'+problem['id']+'}',r'\ProblemHeading{'+kind+'}{'+problem['id']+'（'+label+'）}',1)
     for i,part in enumerate(problem.get('subquestions',[]),1):
         text+=rf'\SubQ{{{i}}}{{{part}}}'+'\n'
-    for figure in problem.get('figures',[]):
-        # Figure names are assigned from the final problem number.
-        text+=r'\begin{center}\includegraphics[width='+str(figure.get('width_fraction',0.5))+r'\linewidth]{'+figure['path']+r'}\end{center}'+'\n'
+    figures=[
+        rf'\includegraphics[width={figure.get("width_fraction", 0.5)}\linewidth]{{{figure["path"]}}}'
+        for figure in problem.get('figures',[])
+    ]
+    if len(figures)>1 and problem.get('figures_side_by_side'):
+        figures=[r'\qquad '.join(figures)]
+    for figure in figures:
+        text+=r'\begin{center}'+figure+r'\end{center}'+'\n'
     return text
 
 def find_xelatex(explicit=None):

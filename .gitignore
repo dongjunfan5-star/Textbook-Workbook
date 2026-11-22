@@ -42,6 +42,7 @@ rendered_pages/
 **/build/
 **/qa/rendered/
 /近世代数引论/小样/
+/朗道《力学》/首批校样/
 
 # LaTeX intermediate products (keep main.pdf)
 *.aux

@@ -1,0 +1,3214 @@
+{
+  "status": "complete",
+  "units": [
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 1,
+      "page_number": 8,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "分别考虑行星绕太阳公转和行星绕自身轴线自转。判断在描述哪一种运动时可以把行星视为质点，并说明理由。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由广义坐标一节开头关于行星公转和自转的例子改成独立问题。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 1,
+      "source_evidence_pages": [
+        8
+      ]
+    },
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 3,
+      "page_number": 11,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "一个不受外力的物体在某时刻相对于所选参考系速度为零。分别在所选参考系为惯性系和为非惯性系的情况下，判断物体此后是否必定相对于该参考系保持静止，并说明理由。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由伽利略相对性原理一节的自由物体瞬时静止例子改写。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 4,
+      "source_evidence_pages": [
+        11
+      ]
+    },
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 4,
+      "page_number": 12,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "在惯性参考系中，考虑一个自由质点。由空间和时间的均匀性及空间的各向同性，可取其拉格朗日函数为 $L=f(v^2)$。设伽利略变换令速度由 $\\mathbf v$ 变为 $\\mathbf v+\\mathbf V$。",
+      "subquestions": [
+        "利用无穷小的恒定速度 $\\mathbf V$，以及变换前的 $L$ 与变换后的 $L$ 至多相差一个关于坐标和时间的函数对时间的全导数，确定 $f(v^2)$ 的形式。",
+        "对任意恒定的 $\\mathbf V$，把变换前后拉格朗日函数的差显式写成对时间的全导数。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "例子始于物理第 12 页末；物理第 13 页给出无穷小变换和有限变换。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 5,
+      "source_evidence_pages": [
+        12,
+        13
+      ]
+    },
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 4,
+      "page_number": 14,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "在惯性参考系中，质量为 $m$ 的自由质点的拉格朗日函数为 $L=mv^2/2$。求下列坐标系中的弧长微元平方 $\\mathrm dl^2$，并分别写出 $L$。",
+      "subquestions": [
+        "笛卡儿坐标 $(x,y,z)$。",
+        "柱坐标 $(r,\\varphi,z)$，其中 $r$ 为到 $z$ 轴的距离，$\\varphi$ 为方位角。",
+        "球坐标 $(r,\\theta,\\varphi)$，其中 $r$ 为到原点的距离，$\\theta$ 为与 $z$ 轴正向的夹角，$\\varphi$ 为方位角。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "取§4列举的三种坐标，补出角度约定；同一页下半页才进入§5。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 7,
+      "source_evidence_pages": [
+        14
+      ]
+    },
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 5,
+      "page_number": 16,
+      "kind": "exercise",
+      "stem_latex": "如图，平面双摆由质量分别为 $m_1$、$m_2$ 的两个质点和长度分别为 $l_1$、$l_2$ 的两根轻绳组成。两绳与竖直向下方向的夹角分别为 $\\varphi_1$、$\\varphi_2$。在重力加速度为 $g$ 的均匀重力场中，求该系统的拉格朗日函数。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 17,
+          "crop": [
+            225,
+            98,
+            383,
+            260
+          ],
+          "width_fraction": 0.28
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "第 16 页给出该节共用的重力场条件与题头；双摆图在第 17 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 9,
+      "source_evidence_pages": [
+        16,
+        17
+      ]
+    },
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 5,
+      "page_number": 17,
+      "kind": "exercise",
+      "stem_latex": "一平面摆的摆球质量为 $m_2$，悬挂点质量为 $m_1$，可沿水平直线运动。摆长为 $l$，坐标如图。在重力加速度为 $g$ 的均匀重力场中，求该系统的拉格朗日函数。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 17,
+          "crop": [
+            217,
+            577,
+            395,
+            717
+          ],
+          "width_fraction": 0.28
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "沿用第 16 页的共用题干。第 18 页开头已进入解答。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 10,
+      "source_evidence_pages": [
+        17
+      ]
+    },
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 5,
+      "page_number": 18,
+      "kind": "exercise",
+      "stem_latex": "一平面摆的摆球质量为 $m$，摆长为 $l$。设均匀重力场的重力加速度为 $g$。求下列各情形中平面摆的拉格朗日函数。",
+      "subquestions": [
+        "悬挂点沿半径为 $a$ 的竖直圆以恒定角频率 $\\gamma$ 运动，如图所示。",
+        "悬挂点沿水平方向振动，位移为 $a\\cos\\gamma t$。",
+        "悬挂点沿竖直方向振动，位移为 $a\\cos\\gamma t$。"
+      ],
+      "figures": [
+        {
+          "page_number": 18,
+          "crop": [
+            354,
+            191,
+            517,
+            350
+          ],
+          "width_fraction": 0.28
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "保留原题三种给定的悬挂点运动；配图只用于第一问。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 11,
+      "source_evidence_pages": [
+        18
+      ]
+    },
+    {
+      "chapter": 1,
+      "chapter_title": "运动方程",
+      "source_section": 5,
+      "page_number": 18,
+      "kind": "exercise",
+      "stem_latex": "如图，四根长度均为 $a$ 的轻杆铰接成菱形，顶端 $A$ 固定，左右两端各有一个质量为 $m_1$ 的质点，底端质量为 $m_2$ 的质点沿竖直轴运动。整个系统以恒定角速度 $\\Omega$ 绕该轴转动。设均匀重力场的重力加速度为 $g$，求该系统的拉格朗日函数。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 18,
+          "crop": [
+            365,
+            520,
+            514,
+            729
+          ],
+          "width_fraction": 0.24
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "据第 18 页示意图补足各质点的位置与杆长，沿用本节共用的重力场条件。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 11,
+      "source_evidence_pages": [
+        18
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "source_section": 7,
+      "page_number": 21,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "一组相互作用的质点处于沿 $z$ 轴方向的匀强外场中，质点间的作用力来自只依赖相对距离的势能。外场作用在各质点上的力均平行于 $z$ 轴，且各自恒定。",
+      "subquestions": [
+        "根据平移对称性，判断总动量的哪些分量守恒。",
+        "证明对于任意选取的坐标原点，总动量矩在 $z$ 方向的分量均守恒。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "合并 §7 和 §9 的两个均匀外场例。原点可任取是本题与无限均匀平面场习题的区别。",
+      "source_evidence_pages": [
+        21,
+        26
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 14
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "page_number": 22,
+      "source_section": 7,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点以速度 $\\mathbf{v}_1$ 从势能为常数 $U_1$ 的半空间运动到另一个势能为常数 $U_2$ 的半空间。求质点运动方向的改变。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 15,
+      "source_evidence_pages": [
+        22
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "page_number": 23,
+      "source_section": 8,
+      "kind": "exercise",
+      "stem_latex": "两个惯性参考系 $K$ 和 $K\\prime$ 的坐标轴彼此平行，$K\\prime$ 相对 $K$ 以恒定速度 $\\mathbf V$ 运动。求同一个封闭力学系统沿同一段运动在这两个参考系中的作用量之间的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书本节讨论封闭系统；补明参考系相对运动约定。解答从本页续至物理第 24 页，排除。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 16,
+      "source_evidence_pages": [
+        23
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "source_section": 9,
+      "page_number": 25,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "一组质点在以固定点 $O$ 为中心的外场中运动。各质点的外场势能只依赖其到 $O$ 的距离，质点间的相互作用势能只依赖彼此的距离。利用旋转对称性，证明系统相对于 $O$ 的总动量矩守恒。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "§9 中的中心对称外场例始于第 25 页末，结论在第 26 页开头。",
+      "source_evidence_pages": [
+        25,
+        26
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 18
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "page_number": 26,
+      "source_section": 9,
+      "kind": "exercise",
+      "stem_latex": "在柱坐标 $(r,\\varphi,z)$ 中，用质点的坐标及其时间导数表示质点相对于原点的动量矩的各笛卡儿分量及其大小，其中 $r$ 为到 $z$ 轴的距离，$\\varphi$ 为方位角。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 19,
+      "source_evidence_pages": [
+        26
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "page_number": 26,
+      "source_section": 9,
+      "kind": "exercise",
+      "stem_latex": "在球坐标 $(r,\\theta,\\varphi)$ 中，用质点的坐标及其时间导数表示质点相对于原点的动量矩的各笛卡儿分量及其大小，其中 $r$ 为到原点的距离，$\\theta$ 为极角，$\\varphi$ 为方位角。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 19,
+      "source_evidence_pages": [
+        26
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "page_number": 27,
+      "source_section": 9,
+      "kind": "exercise",
+      "stem_latex": "取适合各场对称性的直角坐标系，说明坐标轴的选取，并判断力学系统在下列场中运动时，动量 $\\mathbf P$ 和动量矩 $\\mathbf M$ 的哪些分量守恒。",
+      "subquestions": [
+        "无限大均匀平面场。",
+        "无限长均匀圆柱场。",
+        "无限长均匀棱柱场。",
+        "两个点场。",
+        "无限大均匀半平面场。",
+        "均匀圆锥场。",
+        "均匀圆环场。",
+        "无限长均匀圆柱形螺旋线场。取螺旋轴为 $z$ 轴，沿螺旋线绕该轴正向前进一周时，$z$ 坐标的增量为 $h$。求 $P_z$ 和 $M_z$ 的一个守恒的线性组合。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题八种外场依次保留。螺旋线情形按原书解答所考查的内容明确要求求守恒组合，未给出组合公式。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 20,
+      "source_evidence_pages": [
+        27
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "source_section": 10,
+      "page_number": 28,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "一个质点在稳定平衡位置附近做一维微小振动，势能相对于平衡值的增量是位移的二次齐次函数。用力学相似性判断振动周期是否随振幅改变。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由§10中以微振动说明二次齐次势能的例子改写。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 21,
+      "source_evidence_pages": [
+        28
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "source_section": 10,
+      "page_number": 28,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "在同一匀强重力场中，两个质点分别从不同高度由静止开始自由下落。用力学相似性求下落时间之比与下落高度之比的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由§10中匀强重力场的自由落体例子改写，补明下落初速度为零。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 21,
+      "source_evidence_pages": [
+        28
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "source_section": 10,
+      "page_number": 28,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "考虑同一对只受相互牛顿引力作用的质点。若其相对运动可以沿两条几何相似的闭合轨道进行，用力学相似性求两轨道周期之比与轨道线性尺寸之比的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由§10中反比势能的例子改写，取书中给出的牛顿引力情形。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 21,
+      "source_evidence_pages": [
+        28
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "page_number": 29,
+      "source_section": 10,
+      "kind": "exercise",
+      "stem_latex": "质量不同、所处势能函数相同的两个质点沿相同轨迹运动，它们通过对应轨迹段所用的时间满足什么关系？",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "题干由物理第 29 页页底接至第 30 页页首。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 22,
+      "source_evidence_pages": [
+        29,
+        30
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "守恒定律",
+      "page_number": 30,
+      "source_section": 10,
+      "kind": "exercise",
+      "stem_latex": "将势能乘以一个正的常数后，质点沿相同轨迹运动所用的时间有什么变化？",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原文只写“一个常数”；依相同轨迹的实时间缩放语境明确为正的常数。",
+      "editorially_corrected": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 23,
+      "source_evidence_pages": [
+        30
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 11,
+      "page_number": 32,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m$ 的质点沿 $x$ 轴运动。图中实线为势能 $U(x)$，水平虚线为给定的总能量 $E$，$x$ 向右增大。指出质点可达的区间及各区间的有限边界，并判断各允许区间中的运动是有界还是无界。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 32,
+          "crop": [
+            177,
+            158,
+            403,
+            265
+          ],
+          "width_fraction": 0.43
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "原书图 6 的具体例子。裁掉标有答案的阴影带及其下方的图注。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 25,
+      "source_evidence_pages": [
+        32
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 11,
+      "page_number": 32,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$、摆长为 $l$ 的平面单摆在重力加速度为 $g$ 的均匀重力场中振动。求振动周期随最大摆角 $\\varphi_0$ 的变化关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "题干始于物理第 32 页，解答续至第 33 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 25,
+      "source_evidence_pages": [
+        32
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 11,
+      "page_number": 33,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点沿 $x$ 轴运动。对于下列势能 $U(x)$，求有界振动的周期 $T$ 随总能量 $E$ 的变化关系。",
+      "subquestions": [
+        "$U(x)=A|x|^n$。",
+        "$U(x)=-U_0/\\cosh^2(\\alpha x)$，其中 $-U_0<E<0$。",
+        "$U(x)=U_0\\tan^2(\\alpha x)$，取含 $x=0$ 的势阱。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原页每个小问后穿插解答或答案，编排时合并三小问。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 26,
+      "source_evidence_pages": [
+        33
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 13,
+      "page_number": 36,
+      "kind": "exercise",
+      "stem_latex": "一个封闭质点系由一个质量为 $M$ 的质点和 $n$ 个质量均为 $m$ 的质点组成，各质点间的势能只依赖于它们之间的距离。消去质心运动，把原系统的运动化为 $n$ 体问题。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书本节使用只依赖于质点间距离的相互作用，题干补明这一上下文。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 29,
+      "source_evidence_pages": [
+        36
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 14,
+      "page_number": 39,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "一质点以非零动量矩在有心力场中作有界运动，径向运动有两个简单转折点 $r_{\\min}$ 与 $r_{\\max}$。设质点从一个最远点出发，经过最近点，到达下一个最远点，径矢转过 $\\Delta\\varphi$。",
+      "subquestions": [
+        "说明最近点两侧相邻的两段轨道为何关于经过该点的径向直线对称。",
+        "用 $\\Delta\\varphi$ 表示轨道闭合的条件。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书图 9 前后关于有界轨道以及从远心点经近心点再到远心点的例子。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 32,
+      "source_evidence_pages": [
+        39
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 14,
+      "page_number": 40,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在均匀重力场中受约束沿半径为 $l$ 的球面运动，构成球面摆。试积分球面摆的运动方程。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 33,
+      "source_evidence_pages": [
+        40
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 14,
+      "page_number": 40,
+      "kind": "exercise",
+      "stem_latex": "一质点在均匀重力场中沿一竖直圆锥的锥面运动。圆锥的顶角为 $2\\alpha$，顶点朝下。试积分该质点的运动方程。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "题干在物理第 40 页页末，第 41 页页首已进入解答。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 33,
+      "source_evidence_pages": [
+        40
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 14,
+      "page_number": 41,
+      "kind": "exercise",
+      "stem_latex": "如图，一平面摆的摆球质量为 $m_2$，摆长为 $l$，质量为 $m_1$ 的悬挂点可沿水平直线运动。设重力加速度为 $g$，试积分该摆的运动方程。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 17,
+          "crop": [
+            217,
+            577,
+            395,
+            717
+          ],
+          "width_fraction": 0.28
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "原题引用原书图 2，图在物理第 17 页。本题要求积分，与第 1 章建立拉格朗日函数的问题不同。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 34,
+      "source_evidence_pages": [
+        17,
+        41
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 15,
+      "page_number": 42,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m$ 的质点在势能 $U(r)=-\\alpha/r$（$\\alpha>0$）的有心力场中运动，动量矩大小为 $M>0$，总能量为 $E$。",
+      "subquestions": [
+        "求有效势能的极小值及取到它的半径。",
+        "求轨道的极坐标方程，并分别判断 $E<0$ 与 $E>0$ 时轨道的形状。",
+        "当 $E<0$ 时，求椭圆轨道的半长轴、半短轴和运动周期。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "物理第 42–43 页以吸引型反平方力场为例。抛物线分支的坐标随时间关系见本节正式习题。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 35,
+      "source_evidence_pages": [
+        42
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 15,
+      "page_number": 44,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m$ 的质点在吸引场 $U(r)=-\\alpha/r$（$\\alpha>0$）中运动，动量矩大小为 $M>0$。在轨道平面内取力心为坐标原点，$x$ 轴正向指向近心点，质点通过该点时取 $t=0$。分别把位置 $(x,y)$ 和时间 $t$ 写成同一轨道参数的函数。",
+      "subquestions": [
+        "质点沿非圆的椭圆轨道运动。",
+        "质点沿双曲线轨道运动。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "物理第 44 页求出椭圆和吸引型双曲线的时间参数方程；零能量的抛物线分支由本节正式习题覆盖。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 37,
+      "source_evidence_pages": [
+        44
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 15,
+      "page_number": 44,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m$ 的质点在势能 $U(r)=\\alpha/r$（$\\alpha>0$）的斥力场中运动，动量矩大小为 $M>0$，总能量为 $E$。说明为什么这种运动一定无界，求轨道的极坐标方程和近心距离。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "物理第 44 页末至第 45 页上部给出排斥库仑场的轨道案例，图 13 是所得轨道。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 37,
+      "source_evidence_pages": [
+        44
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 15,
+      "page_number": 45,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m$ 的质点在有心力场 $U(r)=\\alpha/r$ 中运动，$\\alpha$ 的符号任意。记质点的径矢、速度和动量矩为 $\\mathbf r$、$\\mathbf v$ 和 $\\mathbf M$。",
+      "subquestions": [
+        "证明 $\\mathbf A=\\mathbf v\\times\\mathbf M+\\alpha\\mathbf r/r$ 沿轨道保持不变。",
+        "对有近心点且偏心率 $e>0$ 的非径向轨道，在近心点计算 $\\mathbf A$，确定其大小和方向。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书证明该矢量守恒，随后明确提出可通过计算近心点的值验证其大小和方向。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 38,
+      "source_evidence_pages": [
+        45
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 15,
+      "page_number": 45,
+      "kind": "exercise",
+      "stem_latex": "质点在势能 $U(r)=-\\alpha/r$（$\\alpha>0$）的有心力场中沿抛物线运动，其总能量 $E=0$。求质点坐标与时间的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "物理第 44 页提及抛物线分支，此处保留原书正式习题；解答续至第 46 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 38,
+      "source_evidence_pages": [
+        45
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 15,
+      "page_number": 46,
+      "kind": "exercise",
+      "stem_latex": "质点在势能 $U(r)=-\\alpha/r^2$（$\\alpha>0$）的有心力场中运动。试积分运动方程。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题未分小问；答案按能量和动量矩分类，不将答案的分支变成题干。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 39,
+      "source_evidence_pages": [
+        46
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "运动方程的积分",
+      "source_section": 15,
+      "page_number": 46,
+      "kind": "exercise",
+      "editorially_corrected": true,
+      "stem_latex": "在吸引势能 $U(r)=-\\alpha/r$（$\\alpha>0$）上加一小量 $\\delta U(r)$。考虑原本沿椭圆轨道运动的质点，求下列扰动导致的每一径向周期内近心点方位角的一阶改变量 $\\delta\\varphi$。",
+      "subquestions": [
+        "$\\delta U(r)=\\beta/r^2$。",
+        "$\\delta U(r)=\\gamma/r^3$。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题把扰动后轨道写作“变为封闭的”，与所问近心点进动及紧邻正文关于闭合轨道的论述矛盾，改为直接询问近心点方位角的一阶改变量。解答续至物理第 47 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 39,
+      "source_evidence_pages": [
+        46
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 16,
+      "page_number": 50,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "一批速率均为 $V>0$ 的母粒子各自分裂成两个粒子。选定其中一种质量为 $m$ 的产物，它在母粒子的质心参考系中的速率恒为 $v_0>0$，飞出方向各向同性。求这一种产物在实验室参考系中的动能概率密度及动能范围。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "本节明确用实验室系的动能分布举例，与下一页正式习题所问的飞出方向分布不同。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 43,
+      "source_evidence_pages": [
+        50
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 16,
+      "page_number": 50,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $M$ 的母粒子分裂成多于两个的粒子。在其质心参考系中，分裂放出的能量 $\\varepsilon$ 全部成为各产物的动能。已知其中一个产物的质量为 $m_1$，求它的动能上限，并判断其余产物在什么情况下让它达到上限。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由本节多体分裂的动能上限算例改写。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 43,
+      "source_evidence_pages": [
+        50
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 16,
+      "page_number": 51,
+      "kind": "exercise",
+      "stem_latex": "一个粒子以速率 $V>0$ 在实验室参考系中运动，并在无外力作用下分裂成质量分别为 $m_1$ 和 $m_2$ 的两个质点，分裂释放的能量为 $\\varepsilon$。记两质点的速度方向与原运动方向所成的角分别为 $\\theta_1$ 和 $\\theta_2$。求 $\\theta_1$ 和 $\\theta_2$ 之间的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 44,
+      "source_evidence_pages": [
+        51
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 16,
+      "page_number": 51,
+      "kind": "exercise",
+      "stem_latex": "一个以速率 $V>0$ 在实验室参考系中运动的粒子分裂成两个质点。其中一种产物相对于质心的速率为 $v_0$，且飞出方向在质心参考系中各向同性。求该产物在实验室参考系中相对于原粒子运动方向的飞出角分布。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "从本节正文补出质心系中各向同性的共同假设。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 44,
+      "source_evidence_pages": [
+        51
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 16,
+      "page_number": 51,
+      "kind": "exercise",
+      "stem_latex": "一个粒子以速率 $V$ 在实验室参考系中运动，随后分裂成两个质点。设两质点在质心参考系中的速率分别为 $v_{10}$ 和 $v_{20}$。求两质点在实验室参考系中飞出方向之间夹角的取值范围。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 44,
+      "source_evidence_pages": [
+        51
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 17,
+      "page_number": 53,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m_1$ 的质点以速率 $v$ 与初始静止、质量为 $m_2$ 的质点发生弹性碰撞。",
+      "subquestions": [
+        "若两质点发生正碰，求它们碰后的速度。",
+        "在所有碰撞中，原来静止的质点至多能获得多少动能？",
+        "若两质点质量相等，且碰后速度均非零，证明两飞出方向垂直。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书物理第 53 页正碰与最大能量转移的算例续至第 54 页。最后一问取第 54 页的等质量特例，与正式习题所求的速度和实验室偏角的函数关系不同。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 46,
+      "source_evidence_pages": [
+        53
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 17,
+      "page_number": 54,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m_1$ 的质点以速率 $v$ 与一个原来静止、质量为 $m_2$ 的质点发生弹性碰撞。用实验室参考系中各质点碰后速度方向与入射方向的夹角，分别表示两个质点碰后的速率。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 47,
+      "source_evidence_pages": [
+        54
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 18,
+      "page_number": 56,
+      "kind": "exercise",
+      "stem_latex": "求质点在半径为 $a$ 的刚性球上发生弹性散射的等效截面。质点与球的相互作用势能在 $r<a$ 时为 $U=\\infty$，在 $r>a$ 时为 $U=0$，其中 $r$ 为质点到球心的距离。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "图 19 在物理第 57 页的解答中，用于示范轨迹构造，题干已完整描述相互作用。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 49,
+      "source_evidence_pages": [
+        56
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 18,
+      "page_number": 57,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m_1$ 的质点以无穷远处的速率 $v_\\infty$ 入射，在初始静止、质量为 $m_2$、半径为 $a$ 的刚性球上发生弹性散射。把等效截面表示为入射质点损失的动能 $\\varepsilon$ 的函数。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "“在同样情况下”指上一题的刚性球散射。由于计算能量转移，保留球可反冲与两物体的质量。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 50,
+      "source_evidence_pages": [
+        57
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 18,
+      "page_number": 58,
+      "kind": "exercise",
+      "stem_latex": "质点在势能 $U(r)\\propto r^{-n}$（$n>0$）的有心力场中散射。在散射角固定时，等效截面怎样依赖于质点在无穷远处的速率 $v_\\infty$？",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题讨论远处的入射速率；明确固定散射角以表述截面的速度标度。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 51,
+      "source_evidence_pages": [
+        58
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 18,
+      "page_number": 58,
+      "kind": "exercise",
+      "stem_latex": "质点从无穷远处以速率 $v_\\infty$ 入射，在有心力场 $U(r)=-\\alpha/r^2$（$\\alpha>0$）中运动。求质点落向场中心的等效截面。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 51,
+      "source_evidence_pages": [
+        58
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 18,
+      "page_number": 58,
+      "kind": "exercise",
+      "stem_latex": "质点从无穷远处以速率 $v_\\infty$ 入射，在有心力场 $U(r)=-\\alpha/r^n$（$n>2$，$\\alpha>0$）中运动。求质点落向场中心的等效截面。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题“同上题”指由无穷远入射并落向场中心，题干已补全。原书图 20 是解答中的有效势能图形。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 51,
+      "source_evidence_pages": [
+        58
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 18,
+      "page_number": 58,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m_1$ 的质点从无穷远处入射，和质量为 $m_2$、半径为 $R$ 的球体之间仅有牛顿引力。两者在无穷远处的相对速率为 $v_\\infty$。求质点落到球体表面的等效截面。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题未限制质量比；以相对入射速率表述。书后答案计算将球体近似固定，属于 $m_2gg m_1$ 的特例。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 51,
+      "source_evidence_pages": [
+        58
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 18,
+      "page_number": 59,
+      "kind": "exercise",
+      "editorially_corrected": true,
+      "stem_latex": "在给定的入射能量 $E>0$ 下，已知质点在有心力场中的微分散射截面 $\\mathrm d\\sigma/\\mathrm d\\chi$ 关于散射角 $\\chi$ 的关系。设势能 $U(r)$ 随到中心的距离 $r$ 单调减小，并满足 $U(0)>E$、$U(\\infty)=0$。求在该入射能量下可由散射实验探测的区域内的势能 $U(r)$。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题题干括注“吸引场”与给定单调性和边界条件矛盾，因为径向力 $-U'(r)$ 指向外。按题干边界条件及原书推导，以固定能量下的角分布作为反演数据。解答续至第 60 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 52,
+      "source_evidence_pages": [
+        59
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 19,
+      "page_number": 60,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m$ 的质点在势能 $U(r)=\\alpha/r$（$\\alpha\\ne0$）的固定有心力场中散射，无穷远处的入射速率为 $v_\\infty$。",
+      "subquestions": [
+        "求瞄准距离 $\\rho$ 与散射角 $\\chi$ 的关系。",
+        "求按出射方向的单位立体角计的微分散射截面，并判断其是否依赖于 $\\alpha$ 的符号。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由本节开头作为有心力散射公式重要应用的库仑场算例改写。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 53,
+      "source_evidence_pages": [
+        60
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 19,
+      "page_number": 61,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "质量为 $m_1$ 的质点从无穷远处以速率 $v_\\infty$ 入射，目标质点 $m_2$ 最初静止。两质点的相互作用势能为 $U(r)=\\alpha/r$，其中 $r$ 为粒子间距且 $\\alpha\\ne0$。求下列情形在实验室参考系中相对于出射立体角的微分散射截面。",
+      "subquestions": [
+        "当 $m_2\\gg m_1$ 时，求入射质点的散射截面。",
+        "当 $m_1=m_2$ 且能区分两质点时，求入射质点的散射截面。",
+        "当两质点完全相同、实验只能记录出射粒子时，求按检测到的任一出射粒子计的截面。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由物理第 61 页列出的实验室散射截面特例改写，依次保留重靶、等质量以及完全相同质点三种条件。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 54,
+      "source_evidence_pages": [
+        61
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 19,
+      "page_number": 61,
+      "kind": "example",
+      "rewritten": true,
+      "stem_latex": "一个质量为 $m_1$ 的入射质点以远处速率 $v_\\infty$ 飞向最初静止的质点 $m_2$。两质点的相互作用势能为 $U(r)=\\alpha/r$（$\\alpha\\ne0$），其中 $r$ 为粒子间距。求在实验室参考系中以入射质点的动能损失 $\\varepsilon$ 为变量的微分散射截面，以及 $\\varepsilon$ 的取值范围。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文用卢瑟福公式计算库仑散射损失能量的分布；与刚性球习题询问同一物理量，但相互作用模型不同。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 54,
+      "source_evidence_pages": [
+        61
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 19,
+      "page_number": 61,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点从无穷远处以速率 $v_\\infty$ 入射，在固定有心力场 $U(r)=\\alpha/r^2$（$\\alpha>0$）中散射。求等效散射截面。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "题干和偏转角的解答始于第 61 页，截面的解答续至第 62 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 54,
+      "source_evidence_pages": [
+        61
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 19,
+      "page_number": 62,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点以无穷远处的速率 $v_\\infty$ 入射，受到半径为 $a$、深度为 $U_0>0$ 的固定球形势阱散射。势能在 $r>a$ 时为 $U(r)=0$，在 $r<a$ 时为 $U(r)=-U_0$。求等效散射截面。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "图 21 仅出现在原解答中，题干已完整给出势阱。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 55,
+      "source_evidence_pages": [
+        62
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 20,
+      "page_number": 64,
+      "kind": "exercise",
+      "editorially_corrected": true,
+      "stem_latex": "质量为 $m_1$ 的质点以相对速率 $v_\\infty$ 从无穷远处入射，目标质点 $m_2$ 最初静止，两者的相互作用势能为 $U(r)$，且 $U(\\infty)=0$。设 $m$ 为折合质量，$\\rho$ 为瞄准距离，$r_{\\min}$ 为最近距离，质心参考系中的散射角为 $\\chi=|\\pi-2\\varphi_0|$，其中\n\\[\n\\varphi_0=\\int_{r_{\\min}}^\\infty\n\\frac{\\rho\\,\\mathrm dr}{r^2\\sqrt{1-\\rho^2/r^2-2U(r)/(m v_\\infty^2)}}.\n\\]\n从这一积分表达式推导实验室参考系中的小偏转角公式\n\\[\n\\theta_1\\simeq-\\frac{2\\rho}{m_1v_\\infty^2}\n\\int_\\rho^\\infty\\frac{U'(r)}{\\sqrt{r^2-\\rho^2}}\\,\\mathrm dr,\n\\]\n其中 $\\theta_1$ 取带符号的偏转角，朝远离散射中心的一侧偏转为正。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题要求从（18.4）推导（20.3），直接补列两式以便独立作答。（20.3）印刷下限为 0，依同页正式解答和前页推导校为瞄准距离 ρ。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 57,
+      "source_evidence_pages": [
+        64
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "质点碰撞",
+      "source_section": 20,
+      "page_number": 64,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m_1$ 的质点以速率 $v_\\infty$ 入射，和初始静止的另一个质点发生小角度散射。已知两质点之间的势能为 $U(r)=\\alpha/r^n$（$n>0$）。求实验室参考系中的等效散射截面。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 57,
+      "source_evidence_pages": [
+        64
+      ]
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 21,
+      "page_number": 67,
+      "printed_page_number": 60,
+      "kind": "exercise",
+      "stem_latex": "一维自由振动写成 $x(t)=a\\cos(\\omega t+\\alpha)$，其中 $\\omega$ 为固有角频率，$a\\ge0$。已知 $x(0)=x_0$、$\\dot{x}(0)=v_0$，求振幅 $a$ 和初相位 $\\alpha$。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        67
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 21,
+      "page_number": 67,
+      "printed_page_number": 60,
+      "kind": "exercise",
+      "stem_latex": "两个双原子分子只在同位素组成上不同，两组原子的质量分别为 $m_1,m_2$ 和 $m'_1,m'_2$。在两分子中原子间势能函数相同的近似下，求其振动角频率 $\\omega$ 和 $\\omega'$ 之间的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        67
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 21,
+      "page_number": 67,
+      "printed_page_number": 60,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点沿直线运动。弹簧一端与质点相连，另一端固定在点 $A$。点 $A$ 与直线的距离为 $l$，弹簧长度为 $l$ 时的拉力为 $F$。求质点在平衡位置附近微振动的角频率。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 67,
+          "crop": [
+            370,
+            575,
+            526,
+            716
+          ],
+          "width_fraction": 0.31
+        }
+      ],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        67
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 21,
+      "page_number": 67,
+      "printed_page_number": 60,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点沿半径为 $r$ 的圆运动。弹簧一端与质点相连，另一端固定在圆外的点 $A$。点 $A$ 到圆心的距离为 $r+l$，弹簧最短时长度为 $l$，此时拉力为 $F$。求质点在该平衡位置附近微振动的角频率。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 68,
+          "crop": [
+            408,
+            94,
+            514,
+            271
+          ],
+          "width_fraction": 0.18
+        }
+      ],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        67,
+        68
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "题干起于物理第 67 页，补足“同上题”的弹簧条件，并从第 68 页图 23 取得几何配图。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 21,
+      "page_number": 68,
+      "printed_page_number": 61,
+      "kind": "exercise",
+      "stem_latex": "在重力加速度为 $g$ 的匀强重力场中，摆球质量为 $m_2$、摆长为 $l$ 的平面单摆，其悬挂点装在质量为 $m_1$、可沿水平直线无摩擦滑动的物体上。求摆角微振动的角频率。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 17,
+          "crop": [
+            217,
+            577,
+            395,
+            717
+          ],
+          "width_fraction": 0.24
+        }
+      ],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        17,
+        68
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "原题引用物理第 17 页图 2；补明摆长、质量及可自由水平滑动的理想条件。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 21,
+      "page_number": 68,
+      "printed_page_number": 61,
+      "kind": "exercise",
+      "stem_latex": "质点在匀强重力场中沿一条固定的光滑平面曲线运动。曲线关于经过最低点的竖直直线对称，质点绕最低点往复运动的周期与振幅无关。求曲线在该振动范围内的形状。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        68
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "editorially_corrected": true,
+      "review_note": "原题未指明曲线的对称性。只凭等时性不能唯一确定非对称曲线；按原书采用的同一弧长二次势能模型，补入左右对称与无摩擦条件。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 22,
+      "page_number": 69,
+      "printed_page_number": 62,
+      "kind": "example",
+      "stem_latex": "质量为 $m$、固有角频率为 $\\omega$ 的无阻尼振子受到外力 $F(t)=f\\cos(\\gamma t+\\beta)$。讨论下列情形。",
+      "subquestions": [
+        "求 $\\gamma\\ne\\omega$ 时的运动通解。",
+        "求 $\\gamma=\\omega$ 时的运动通解，并说明共振项的振幅随时间如何变化。",
+        "当 $0<|\\gamma-\\omega|\\ll\\omega$ 时，求两频率分量叠加后的振幅包络、振幅变化范围和拍频。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        69,
+        70
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "由物理第 69–70 页特定正弦外力模型的非共振、恰共振和近共振三种情形改写。拍频可用角频率表示。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 22,
+      "page_number": 71,
+      "printed_page_number": 64,
+      "kind": "example",
+      "stem_latex": "质量为 $m$、固有角频率为 $\\omega$ 的无阻尼振子初始处在平衡位置并静止。在极短的一段时间内施加外力 $F(t)$，其作用时间远小于 $1/\\omega$，总冲量为 $J=\\int F(t)\\,\\mathrm{d}t$。求外力停止后振子的机械能在此近似下的表达式。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        71
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "由原书极短作用时间的冲量近似改写。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 22,
+      "page_number": 71,
+      "printed_page_number": 64,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$、固有角频率为 $\\omega$ 的无阻尼振子在 $t=0$ 时静止于平衡位置。对下列各外力 $F(t)$，求 $t\\ge0$ 时的位移 $x(t)$。",
+      "subquestions": [
+        "$F(t)=F_0$。",
+        "$F(t)=at$。",
+        "$F(t)=F_0\\mathrm{e}^{-\\alpha t}$。",
+        "$F(t)=F_0\\mathrm{e}^{-\\alpha t}\\cos(\\beta t)$。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        71
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "editorially_corrected": true,
+      "review_note": "原题第三小问题干误印为 $F=F_0^{-\\alpha t}$；依同页解答的指数项及第四小问的写法，补入漏印的指数底数 e。第四小问的题干仍在第 71 页，解答跨到第 72 页。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 22,
+      "page_number": 72,
+      "printed_page_number": 65,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$、固有角频率为 $\\omega$ 的无阻尼振子在 $t=0$ 时静止于未受外力时的平衡位置。外力在 $t<0$ 时为零，在 $0\\le t\\le T$ 时为 $F(t)=F_0t/T$，在 $t>T$ 时为 $F_0$。求 $t>T$ 时绕新的平衡位置的振幅。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        72
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "完整保留原图 24 中的分段外力关系，题干已给出全部信息。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 22,
+      "page_number": 72,
+      "printed_page_number": 65,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$、固有角频率为 $\\omega$ 的无阻尼振子在 $t=0$ 时静止于未受外力时的平衡位置。恒力 $F_0$ 只在 $0<t<T$ 内作用，其余时刻外力为零。求 $t>T$ 时的自由振动振幅。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        72
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "补足“同上题”的初始条件，方波的完整分段关系替代原图 25。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 22,
+      "page_number": 72,
+      "printed_page_number": 65,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$、固有角频率为 $\\omega$ 的无阻尼振子在 $t=0$ 时静止于未受外力时的平衡位置。外力只在 $0<t<T$ 内作用，在此区间内 $F(t)=F_0t/T$，其余时刻为零。求 $t>T$ 时的自由振动振幅。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        72
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "补足“同上题”的初始条件，分段关系替代原图 26。原书解答起于第 73 页。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 22,
+      "page_number": 73,
+      "printed_page_number": 66,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$、固有角频率为 $\\omega$ 的无阻尼振子在 $t=0$ 时静止于未受外力时的平衡位置。外力仅在 $0<t<T$ 内作用，在此区间内 $F(t)=F_0\\sin(\\omega t)$，其中 $T=2\\pi/\\omega$。求 $t>T$ 时的自由振动振幅。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        73
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "完整分段关系替代原图 27。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 23,
+      "page_number": 76,
+      "printed_page_number": 69,
+      "kind": "example",
+      "stem_latex": "质量为 $m$ 的质点在三维定常势场 $U(\\mathbf r)$ 的一个稳定平衡点附近运动。势能在该点的二阶导数矩阵为正定矩阵 $K$。说明如何选取简正振动的方向，并用 $K$ 的特征值表示各固有角频率。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        76
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "由正文中定常外场下单质点的三维振动实例改写；有心对称的特例另有正式习题。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 23,
+      "page_number": 77,
+      "printed_page_number": 70,
+      "kind": "exercise",
+      "stem_latex": "一个有两个自由度的振动系统的拉格朗日函数为\n\\[\nL=\\frac12(\\dot{x}^{2}+\\dot{y}^{2})-\\frac{\\omega_0^2}{2}(x^2+y^2)+\\alpha xy.\n\\]\n在原点为稳定平衡位置的参数范围内，求系统的简正振动和一般振动。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        77
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 23,
+      "page_number": 77,
+      "printed_page_number": 70,
+      "kind": "exercise",
+      "stem_latex": "在重力加速度为 $g$ 的匀强重力场中，两根质量可忽略的摆杆串联在同一竖直平面内，长度分别为 $l_1,l_2$。上杆固定悬挂，上、下杆末端的质点质量分别为 $m_1,m_2$。求平面双摆在竖直向下平衡位置附近的微振动。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 17,
+          "crop": [
+            225,
+            98,
+            383,
+            260
+          ],
+          "width_fraction": 0.24
+        }
+      ],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        17,
+        77
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "原题引用物理第 17 页图 1；第 78 页上部为该题解答。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 23,
+      "page_number": 78,
+      "printed_page_number": 71,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在有心力场 $U(r)=kr^2/2$（$k>0$）中运动，其中 $r$ 为质点到力场中心的距离。求其运动轨迹（这个系统称为空间振子）。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        78
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 24,
+      "page_number": 79,
+      "printed_page_number": 72,
+      "kind": "example",
+      "stem_latex": "一个孤立分子由 $n$ 个原子组成。除去整体平动和整体转动后，求下列两种分子的各类简正振动自由度数。",
+      "subquestions": [
+        "平衡构型为非共线平面构型时，分别求面内和面外的振动自由度数。",
+        "平衡构型为线性时，分别求纵向、横向的振动自由度数，并说明横向模式为何成对等频。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        78,
+        79
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "由本页明确列举的平面和线性分子振动分类例子改写。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 24,
+      "page_number": 80,
+      "printed_page_number": 73,
+      "kind": "exercise",
+      "stem_latex": "一个线性对称三原子分子 $A$--$B$--$A$ 的端原子质量为 $m_A$，中间原子质量为 $m_B$。两条键的平衡长度均为 $l$。设两键伸长量为 $\\delta l_1,\\delta l_2$，键角偏离平衡值的量为 $\\delta$，并采用二次势能模型\n\\[\nU=\\frac{k_1}{2}\\bigl[(\\delta l_1)^2+(\\delta l_2)^2\\bigr]\n  +\\frac{k_2l^2}{2}\\delta^2.\n\\]\n求该分子的微振动角频率。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 80,
+          "crop": [
+            342,
+            524,
+            482,
+            564
+          ],
+          "width_fraction": 0.25
+        }
+      ],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        80
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "editorially_corrected": true,
+      "review_note": "图 28 仅裁取静态构型，排除显示振型的解答部分。原题只给出势能所依赖的内坐标；此处明确采用原解答的伸缩与弯曲二次势能模型。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 24,
+      "page_number": 81,
+      "printed_page_number": 74,
+      "kind": "exercise",
+      "stem_latex": "一个弯曲的对称三原子分子 $A$--$B$--$A$ 的端原子质量为 $m_A$，中间原子质量为 $m_B$，平衡键角为 $2\\alpha$。两条键的平衡长度均为 $l$。设两键伸长量为 $\\delta l_1,\\delta l_2$，键角偏离平衡值的量为 $\\delta$，并采用二次势能模型\n\\[\nU=\\frac{k_1}{2}\\bigl[(\\delta l_1)^2+(\\delta l_2)^2\\bigr]\n  +\\frac{k_2l^2}{2}\\delta^2.\n\\]\n求该分子的微振动角频率。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 81,
+          "crop": [
+            214,
+            230,
+            396,
+            307
+          ],
+          "width_fraction": 0.3
+        }
+      ],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        81
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "editorially_corrected": true,
+      "review_note": "承接原书“同上题”的势能假设；按解答采用的模型补齐条件。图 29 仅裁取静态构型，排除显示振型的解答部分。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 24,
+      "page_number": 82,
+      "printed_page_number": 75,
+      "kind": "exercise",
+      "stem_latex": "一个线性非对称三原子分子 $A$--$B$--$C$ 的原子质量依次为 $m_A,m_B,m_C$。$AB$、$BC$ 两键的平衡长度分别为 $l_1,l_2$，伸长量分别为 $\\delta l_1,\\delta l_2$。设 $\\delta$ 是键角的改变量，$2l=l_1+l_2$，二次势能为\n\\[\nU=\\frac{k_1}{2}(\\delta l_1)^2+\\frac{k'_1}{2}(\\delta l_2)^2\n  +\\frac{k_2l^2}{2}\\delta^2.\n\\]\n求该分子的微振动角频率。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 82,
+          "crop": [
+            334,
+            552,
+            511,
+            592
+          ],
+          "width_fraction": 0.31
+        }
+      ],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        82
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "editorially_corrected": true,
+      "review_note": "原书第三题配图确认线性构型。按原解答补明两键可有不同伸缩常数及弯曲势能。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 26,
+      "page_number": 85,
+      "printed_page_number": 78,
+      "kind": "example",
+      "stem_latex": "质量为 $m$ 的一维振子满足 $\\ddot{x}+2\\lambda\\dot{x}+\\omega_0^2x=F(t)/m$，其中 $\\lambda>0$ 为阻尼系数。设 $F(t)=f\\cos(\\gamma t)$。",
+      "subquestions": [
+        "求稳态振幅及相位差，并在弱阻尼条件下求振幅达最大时的外力频率。",
+        "求弱阻尼共振附近的平均吸收功率随失谐量 $\\gamma-\\omega_0$ 的关系。",
+        "求吸收曲线的半高半宽，并说明弱阻尼近似下曲线下的面积怎样依赖阻尼系数。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        85,
+        86,
+        87
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "涵盖物理第 85–87 页以正弦外力为特例的稳态响应和吸收共振曲线；原图 31 展示所求结果，排除。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 26,
+      "page_number": 87,
+      "printed_page_number": 80,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的一维振子满足 $\\ddot{x}+2\\lambda\\dot{x}+\\omega_0^2x=F(t)/m$，其中 $\\lambda>0$ 为阻尼系数。取 $F(t)=f_0\\mathrm{e}^{\\alpha t}\\cos(\\gamma t)$。求由该外力产生的强迫振动分量。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        86,
+        87,
+        88
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "原题外力的指数为正号 $\\alpha t$；这里只求特解，原书解答起于物理第 88 页。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 27,
+      "page_number": 91,
+      "printed_page_number": 84,
+      "kind": "exercise",
+      "stem_latex": "无阻尼振子满足 $\\ddot{x}+\\omega_0^2(1+h\\cos\\gamma t)x=0$，其中 $0<h\\ll1$。求 $\\gamma=2\\omega_0$ 附近参数共振的不稳定区间边界，保留至 $h^2$ 阶。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        89,
+        90,
+        91,
+        92
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "方程取自本节正文，原书解答从物理第 91 页延续到第 92 页。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 27,
+      "page_number": 92,
+      "printed_page_number": 85,
+      "kind": "exercise",
+      "stem_latex": "无阻尼振子满足 $\\ddot{x}+\\omega_0^2(1+h\\cos\\gamma t)x=0$，其中 $0<h\\ll1$。求 $\\gamma=\\omega_0$ 附近参数共振的不稳定区间边界的最低非零阶近似。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        89,
+        92
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 27,
+      "page_number": 92,
+      "printed_page_number": 85,
+      "kind": "exercise",
+      "stem_latex": "摆长为 $l$ 的平面单摆的悬挂点，在摆动平面内沿竖直方向按 $a\\cos(\\gamma t)$ 振动。设 $a\\ll l$，$\\gamma$ 接近 $2\\sqrt{g/l}$，$g$ 为重力加速度。求摆角微振动发生参数共振的条件。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        18,
+        89,
+        90,
+        92
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "按原解答引用的 §5 振动悬挂点情形补明竖直方向，并给出原题求解所讨论的主参数共振频段。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 28,
+      "page_number": 93,
+      "printed_page_number": 86,
+      "kind": "example",
+      "stem_latex": "弱非线性振动系统的两个一阶简正振动为 $Q_\\alpha^{(1)}=a_\\alpha\\cos(\\omega_\\alpha t+\\phi_\\alpha)$ 和 $Q_\\beta^{(1)}=a_\\beta\\cos(\\omega_\\beta t+\\phi_\\beta)$。某个二阶修正方程的驱动项含有乘积 $Q_\\alpha^{(1)}Q_\\beta^{(1)}$。求该乘积产生的频率分量和各分量的系数，并讨论两因子为同一简正振动的情形。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        93,
+        94
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "物理第 93–94 页的明确乘积示例；包括正文紧接给出的倍频和零频情形。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 28,
+      "page_number": 94,
+      "printed_page_number": 87,
+      "kind": "example",
+      "stem_latex": "一个单自由度振子的运动方程为 $\\ddot{x}+\\omega_0^2x=-\\alpha x^2-\\beta x^3$。振动很弱，设基频分量为 $a\\cos(\\omega t)$，其中 $a$ 为小量。在逐阶近似中令较高阶修正不含基频分量。",
+      "subquestions": [
+        "求 $a^2$ 阶的位移修正。",
+        "求基频 $\\omega$ 到 $a^2$ 阶的频移，并求 $a^3$ 阶的三次谐波。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        94,
+        95
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "物理第 94–95 页的单自由度非简谐振动算例。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 29,
+      "page_number": 95,
+      "printed_page_number": 88,
+      "kind": "example",
+      "stem_latex": "弱阻尼、弱非线性振子的运动方程为\n\\[\n\\ddot{x}+2\\lambda\\dot{x}+\\omega_0^2x=\\frac{f}{m}\\cos(\\gamma t)-\\alpha x^2-\\beta x^3.\n\\]\n其中 $\\lambda>0$、$\\lambda\\ll\\omega_0$。记小振幅 $b$ 下非线性频移的最低阶项为 $\\chi b^2$，其中 $\\chi$ 为常数。设 $\\gamma=\\omega_0+\\varepsilon$，$\\lvert\\varepsilon\\rvert\\ll\\omega_0$。",
+      "subquestions": [
+        "在近共振近似下，求稳态振幅 $b$ 与失谐量 $\\varepsilon$ 的关系。",
+        "求振幅峰值，以及共振曲线首次出现多值区时的外力振幅阈值。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        95,
+        96,
+        97
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "物理第 95–97 页主共振具体情形。图 32 属于论证所得结果，排除。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 29,
+      "page_number": 97,
+      "printed_page_number": 90,
+      "kind": "example",
+      "stem_latex": "弱阻尼、弱非线性振子的运动方程为\n\\[\n\\ddot{x}+2\\lambda\\dot{x}+\\omega_0^2x=\\frac{f}{m}\\cos(\\gamma t)-\\alpha x^2-\\beta x^3.\n\\]\n其中 $\\lambda>0$、$\\lambda\\ll\\omega_0$。记小振幅 $b$ 下非线性频移的最低阶项为 $\\chi b^2$，其中 $\\chi$ 为常数。设 $\\gamma=\\omega_0/2+\\varepsilon$，$\\lvert\\varepsilon\\rvert\\ll\\omega_0$。求在最低非零阶近似下产生的近共振驱动项，并求频率为 $2\\gamma$ 的振动分量的稳态振幅与失谐量 $\\varepsilon$ 的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        95,
+        96,
+        97,
+        98
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "物理第 97–98 页的半频外力激发共振算例。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 29,
+      "page_number": 98,
+      "printed_page_number": 91,
+      "kind": "example",
+      "stem_latex": "弱阻尼、弱非线性振子的运动方程为\n\\[\n\\ddot{x}+2\\lambda\\dot{x}+\\omega_0^2x=\\frac{f}{m}\\cos(\\gamma t)-\\alpha x^2-\\beta x^3.\n\\]\n其中 $\\lambda>0$、$\\lambda\\ll\\omega_0$。记小振幅 $b$ 下非线性频移的最低阶项为 $\\chi b^2$，其中 $\\chi$ 为常数。设 $\\gamma=2\\omega_0+\\varepsilon$，$\\lvert\\varepsilon\\rvert\\ll\\omega_0$。",
+      "subquestions": [
+        "求频率为 $\\gamma/2$ 的小扰动所满足的线性化方程，并确定它发生参数型共振的条件。",
+        "计入最低阶非线性频移，求频率为 $\\gamma/2$ 的稳态共振分量的可能振幅。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        95,
+        96,
+        98,
+        99
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "rewritten": true,
+      "review_note": "物理第 98–99 页的倍频外力激发参数型共振算例。图 33 属于振幅求解结果，排除。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 29,
+      "page_number": 100,
+      "printed_page_number": 93,
+      "kind": "exercise",
+      "stem_latex": "弱阻尼、弱非线性振子的运动方程为\n\\[\n\\ddot{x}+2\\lambda\\dot{x}+\\omega_0^2x=\\frac{f}{m}\\cos(\\gamma t)-\\alpha x^2-\\beta x^3.\n\\]\n其中 $\\lambda>0$、$\\lambda\\ll\\omega_0$。记小振幅 $b$ 下非线性频移的最低阶项为 $\\chi b^2$，其中 $\\chi$ 为常数。设 $\\gamma=3\\omega_0+\\varepsilon$，$\\lvert\\varepsilon\\rvert\\ll\\omega_0$。求在最低非零阶近似下，频率为 $\\gamma/3$ 的共振分量的稳态振幅 $b$ 与失谐量 $\\varepsilon$ 的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        95,
+        96,
+        100
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "原题的运动方程和记号取自本节正文，图 34 为解答所得共振曲线。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 30,
+      "page_number": 102,
+      "printed_page_number": 95,
+      "kind": "exercise",
+      "stem_latex": "在重力加速度为 $g$ 的匀强重力场中，摆长为 $l$ 的平面单摆的悬挂点在摆动平面内沿竖直方向按 $a\\cos(\\gamma t)$ 作高频振动，其中 $\\gamma\\gg\\sqrt{g/l}$，且 $a\\ll l$。求快振动平均后的摆角的稳定平衡位置及其存在条件。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        18,
+        101,
+        102
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "按题目引用的 §5 振动悬挂点情形补明简谐振动；快速小位移条件由本节正文给出。"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "微振动",
+      "source_section": 30,
+      "page_number": 102,
+      "printed_page_number": 95,
+      "kind": "exercise",
+      "stem_latex": "在重力加速度为 $g$ 的匀强重力场中，摆长为 $l$ 的平面单摆的悬挂点在摆动平面内沿水平方向按 $a\\cos(\\gamma t)$ 作高频振动，其中 $\\gamma\\gg\\sqrt{g/l}$，且 $a\\ll l$。求快振动平均后的摆角的稳定平衡位置及其存在条件。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_evidence_pages": [
+        18,
+        101,
+        102,
+        103
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "source_id": "36c53f159e0b",
+      "review_note": "补足“同上题”的条件；原书解答在物理第 103 页。"
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 107,
+      "kind": "example",
+      "stem_latex": "设 $I_1,I_2,I_3$ 为刚体相对于质心的三个主转动惯量。证明任意一个主转动惯量不大于另外两个主转动惯量之和。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文用式（32.9）具体示范其中一个不等式，改写为求证。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 100,
+      "rewritten": true,
+      "source_evidence_pages": [
+        107
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 108,
+      "kind": "example",
+      "stem_latex": "设刚体的质量分布关于通过质心的平面 $\\Pi$ 镜面对称。",
+      "subquestions": [
+        "证明可以选取两条惯性主轴位于 $\\Pi$ 内，第三条垂直于 $\\Pi$。",
+        "若刚体由全部位于 $\\Pi$ 内的质点组成，设两条面内主轴的主转动惯量为 $I_1,I_2$，求垂直于 $\\Pi$ 的主轴的转动惯量 $I_3$。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文以镜面对称和平面质点系为例，保留这两个相继讨论的情形。下文直线质点系与本节正式习题第 1 题 a 重合。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 101,
+      "rewritten": true,
+      "source_evidence_pages": [
+        108
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 108,
+      "kind": "exercise",
+      "stem_latex": "把分子看作由彼此距离保持不变的质点组成的系统。对下列各情形，求分子相对于质心的三个主转动惯量。",
+      "subquestions": [
+        "分子由位于一条直线上的原子组成。以原子质量 $m_a$ 和它们的两两距离 $l_{ab}$ 表示结果。",
+        "三个原子位于等腰三角形的三个顶点。底边长为 $a$，高为 $h$，两个底角处的原子质量均为 $m_1$，顶角处的原子质量为 $m_2$，见第一幅图。",
+        "四个原子位于正三棱锥的四个顶点。等边三角形底面边长为 $a$，高为 $h$，底面的三个原子质量均为 $m_1$，顶点原子的质量为 $m_2$，见第二幅图。"
+      ],
+      "figures": [
+        {
+          "page_number": 109,
+          "crop": [
+            377,
+            137,
+            522,
+            242
+          ],
+          "width_fraction": 0.25
+        },
+        {
+          "page_number": 109,
+          "crop": [
+            407,
+            333,
+            516,
+            490
+          ],
+          "width_fraction": 0.18
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "本题在物理第 108 页起，后两小问和必要配图图 36、图 37 位于物理第 109 页。符号取自原图及原书解答中对几何量的定义。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 101,
+      "cross_page": true,
+      "last_source_page": 109,
+      "figures_side_by_side": true,
+      "source_evidence_pages": [
+        108,
+        109
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 109,
+      "kind": "exercise",
+      "stem_latex": "求下列质量均为 $\\mu$ 的均匀连续体相对于质心的三个主转动惯量。",
+      "subquestions": [
+        "长为 $l$ 的细直杆，横截面尺寸可忽略。",
+        "半径为 $R$ 的实心球。",
+        "底面半径为 $R$、高为 $h$ 的实心直圆柱。",
+        "棱长分别为 $a,b,c$ 的长方体。",
+        "底面半径为 $R$、高为 $h$ 的实心直圆锥。",
+        "半轴长分别为 $a,b,c$ 的实心三轴椭球。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题含 a–f 六个小问，在物理第 109 页开始，e、f 在第 110 页。椭球参数按原书解答中的方程明确为半轴。图 38 是圆锥惯量计算时辅助选轴的示意。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 102,
+      "cross_page": true,
+      "last_source_page": 110,
+      "source_evidence_pages": [
+        109
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 110,
+      "kind": "exercise",
+      "stem_latex": "一个质量为 $\\mu$ 的刚体在重力加速度为 $g$ 的均匀重力场中绕固定水平轴摆动。质心到该轴的距离为 $l$，相对于质心的主转动惯量为 $I_1,I_2,I_3$，这三条惯性主轴与水平转轴的夹角分别为 $\\alpha,\\beta,\\gamma$。求这个物理摆在稳定平衡位置附近的微小振动频率。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "定义及符号见物理第 110 页题解首段，题解续至第 111 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 103,
+      "source_evidence_pages": [
+        110
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 111,
+      "kind": "exercise",
+      "stem_latex": "两根质量均为 $\\mu$、长度均为 $l$ 的均质细杆 $OA$ 和 $AB$ 在 $A$ 点铰接。$OA$ 可绕固定点 $O$ 在图示平面内转动，$AB$ 的端点 $B$ 沿 $Ox$ 轴运动。设 $\\varphi=\\angle AOB$，求系统的动能。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 111,
+          "crop": [
+            362,
+            238,
+            528,
+            356
+          ],
+          "width_fraction": 0.31
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用图 39，补明图示广义坐标及每根杆的质量。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 104,
+      "source_evidence_pages": [
+        111
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 111,
+      "kind": "exercise",
+      "stem_latex": "一个质量为 $\\mu$、半径为 $R$ 的圆柱在固定水平面上作无滑动滚动。圆柱有一条穿过质心的惯性主轴与几何轴平行，两轴相距 $a$，绕该惯性主轴的转动惯量为 $I$。设在截面内从几何轴指向质心的线段与竖直向下方向的夹角为 $\\varphi$（见图），求圆柱的动能。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 111,
+          "crop": [
+            403,
+            600,
+            528,
+            725
+          ],
+          "width_fraction": 0.28
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用图 40，按原书题解与图补明角度、纯滚动及轴的位置；答案公式跨到物理第 112 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 104,
+      "source_evidence_pages": [
+        111
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 112,
+      "kind": "exercise",
+      "stem_latex": "一个质量为 $\\mu$、半径为 $a$ 的均质圆柱，在固定的半径为 $R>a$ 的圆柱形曲面内侧作无滑动滚动，两圆柱轴线平行。横截面内从外圆柱中心到内圆柱中心的连线与竖直向下方向成角 $\\varphi$（见图）。求滚动圆柱的动能。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 112,
+          "crop": [
+            202,
+            168,
+            381,
+            261
+          ],
+          "width_fraction": 0.33
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用图 41，补足两轴平行和纯滚动条件。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 105,
+      "source_evidence_pages": [
+        112
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 112,
+      "kind": "exercise",
+      "stem_latex": "一个高为 $h$、顶角为 $2\\alpha$、质量为 $\\mu$ 的均质直圆锥，以侧面在固定平面上作无滑动滚动。设圆锥的接触母线 $OA$ 和平面内某一固定方向的夹角为 $\\theta$（见图）。求圆锥的动能。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 112,
+          "crop": [
+            167,
+            606,
+            416,
+            726
+          ],
+          "width_fraction": 0.37
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用图 42，题解中的均质模型及高度记号见物理第 113 页；题头和图均在第 112 页。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 105,
+      "source_evidence_pages": [
+        112
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 113,
+      "kind": "exercise",
+      "stem_latex": "一个质量为 $\\mu$、高为 $h$、顶角为 $2\\alpha$ 的均质直圆锥，以底面圆周在固定平面上作无滑动滚动。其圆锥轴始终平行于此平面，且顶点 $O$ 固定在离平面等于底圆半径的高度。设 $\\theta$ 为圆锥轴的平面投影与平面内固定方向的夹角（见图）。求圆锥的动能。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 113,
+          "crop": [
+            184,
+            309,
+            431,
+            426
+          ],
+          "width_fraction": 0.37
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用图 43。原题只写了顶点到平面的距离和圆锥轴平行于平面，但解答以 OA 为瞬时轴，实际采用顶点固定的运动。固定高度本身不足以排除顶点在水平面内平移。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 106,
+      "editorially_corrected": true,
+      "source_evidence_pages": [
+        113
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 113,
+      "kind": "exercise",
+      "stem_latex": "均匀二轴椭球绕一条自身的惯性主轴 $AB$ 旋转，$AB$ 又绕过椭球中心并与它垂直的直线 $CD$ 转动（见图）。取 $x_3$ 沿 $AB$，$I_1,I_2,I_3$ 为相对于质心的主转动惯量，$\\varphi$ 为 $CD$ 与惯性主轴 $x_1$ 的夹角，$\\theta$ 为绕 $CD$ 的转角。求椭球的动能。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 114,
+          "crop": [
+            199,
+            93,
+            376,
+            218
+          ],
+          "width_fraction": 0.31
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "物理第 113 页有题头及坐标说明；必要配图图 44 在第 114 页。原书称“均匀二轴椭球”，未要求 AB 为其几何对称轴。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 106,
+      "cross_page": true,
+      "last_source_page": 114,
+      "source_evidence_pages": [
+        113,
+        114
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 32,
+      "page_number": 114,
+      "kind": "exercise",
+      "stem_latex": "均匀旋转椭球绕自身的对称轴 $AB$ 旋转，角速度为 $\\dot\\varphi$；$AB$ 同时绕过椭球中心的竖直轴 $CD$ 转动，角速度为 $\\dot\\theta$。$AB$ 与水平面的夹角恒为 $\\alpha$（见图）。设相对于质心的轴向与横向主转动惯量分别为 $I_3$ 与 $I_1$，求椭球的动能。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 114,
+          "crop": [
+            199,
+            323,
+            372,
+            480
+          ],
+          "width_fraction": 0.31
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "原题通过“同上题”指代转动配置，已还原，共用变量由图 45 和题解明确。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 107,
+      "source_evidence_pages": [
+        114
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 33,
+      "page_number": 115,
+      "kind": "example",
+      "stem_latex": "在质心参考系中考虑两种不受外力矩的刚体。用动量矩守恒说明各自的转动方式。",
+      "subquestions": [
+        "相对于质心的三个主转动惯量相同的球形陀螺。",
+        "全部质点都位于同一条直线上的非静止转子。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文分别求出球形陀螺和转子的自由转动方式，改写为比较两种特殊刚体的题目。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 108,
+      "rewritten": true,
+      "source_evidence_pages": [
+        115
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 34,
+      "page_number": 118,
+      "kind": "example",
+      "stem_latex": "一个刚体由若干质点组成，位置矢量为 $\\mathbf r_a$ 的质点在均匀力场中受到外力 $\\mathbf f_a=e_a\\mathbf E$，其中 $\\mathbf E$ 是常矢量，$\\sum_a e_a\\ne0$。求一个作用点，使作用于此点的合力与原力系具有相同的力矩；分别说明在均匀电场和均匀重力场中的物理含义。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "从式（34.8）–（34.9）的均匀力场应用及本页脚注中的电场、重力场示例改写。原来用于定义模型的受力关系保留。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 111,
+      "rewritten": true,
+      "source_evidence_pages": [
+        118
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 35,
+      "page_number": 120,
+      "kind": "example",
+      "stem_latex": "相对于质心的主转动惯量为 $I_1=I_2$ 和 $I_3$ 的对称陀螺作自由转动，动量矩 $\\mathbf M$ 不为零。取固定轴 $Z$ 沿 $\\mathbf M$，动轴 $x_3$ 沿陀螺的对称轴。设 $\\theta$ 为 $Z$ 与 $x_3$ 的夹角，$\\varphi$ 为进动角，$\\psi$ 为绕 $x_3$ 的欧拉角。",
+      "subquestions": [
+        "用动量矩的各分量说明 $\\theta$ 为常数。",
+        "当 $0<\\theta<\\pi$ 时，求 $\\dot\\varphi$ 及角速度在 $x_3$ 轴上的分量 $\\Omega_3$。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文明确列为欧拉角应用的例子。§33 在物理第 115–116 页以矢量方法讨论了同一自由运动，本题保留具体的欧拉角方法。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 113,
+      "rewritten": true,
+      "source_evidence_pages": [
+        120
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 35,
+      "page_number": 120,
+      "kind": "exercise",
+      "stem_latex": "一个质量为 $\\mu$ 的对称重陀螺以对称轴上的下端点 $O$ 为固定点，在重力加速度为 $g$ 的均匀重力场中运动。质心到 $O$ 的距离为 $l$，关于质心的轴向和横向主转动惯量分别为 $I_3$ 和 $I_1$。取固定轴 $Z$ 竖直向上，欧拉角如图。求解陀螺的运动，可以用积分给出结果。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 120,
+          "crop": [
+            214,
+            439,
+            389,
+            600
+          ],
+          "width_fraction": 0.33
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用题干所指图 48。物理第 121–122 页的图 49 与运动解答同属结果，未放入题面。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 113,
+      "source_evidence_pages": [
+        120
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 35,
+      "page_number": 122,
+      "kind": "exercise",
+      "stem_latex": "一个对称重陀螺的下端点 $O$ 固定，质量为 $\\mu$，质心在对称轴上且距 $O$ 为 $l$，关于质心的轴向和横向主转动惯量分别为 $I_3$ 和 $I_1$。当它的对称轴竖直向上，陀螺以角速度 $\\Omega_3$ 绕此轴转动时，求这种直立转动对小倾斜扰动保持稳定的条件。设重力加速度为 $g$。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题角度分支由解答处的 θ=0 确认，补足与本节前题共用的条件。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 115,
+      "source_evidence_pages": [
+        122
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 35,
+      "page_number": 122,
+      "kind": "exercise",
+      "stem_latex": "一个对称重陀螺的下端点 $O$ 固定，质量为 $\\mu$，质心在对称轴上且距 $O$ 为 $l$，关于质心的轴向和横向主转动惯量分别为 $I_3$ 和 $I_1$。在重力加速度为 $g$ 的均匀重力场中，其自转动能远大于重力势能的变化尺度。求快陀螺的近似运动，包括章动和重力造成的缓慢进动。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书解答续至物理第 123 页，图 50 是所得运动的示意，未放入题面。重力势能表述以变化尺度为准，避免依赖势能零点。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 115,
+      "source_evidence_pages": [
+        122
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 36,
+      "page_number": 124,
+      "kind": "example",
+      "stem_latex": "相对于质心的主转动惯量为 $I_1=I_2\\ne I_3$ 的对称陀螺作自由转动，动坐标轴选为它的惯性主轴。利用自由刚体的欧拉方程求角速度各分量 $\\Omega_1(t),\\Omega_2(t),\\Omega_3(t)$，并说明角速度矢量在动坐标系中的运动。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文明确列出的欧拉方程例子起于物理第 124 页，物理第 125 页给出旋转分量。本题求动坐标系中的角速度，区别于 §35 按固定轴描述的进动。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 117,
+      "rewritten": true,
+      "cross_page": true,
+      "last_source_page": 125,
+      "source_evidence_pages": [
+        124
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 37,
+      "page_number": 129,
+      "kind": "exercise",
+      "stem_latex": "一个主转动惯量满足 $I_1<I_2<I_3$ 的非对称陀螺不受外力矩。求它接近绕惯性主轴 $x_3$ 或 $x_1$ 转动时的一阶近似运动，包括角速度分量的时间变化和小振动的频率，并描述惯性主轴在固定参考系中的运动。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "题头在物理第 129 页，解答延至第 131 页。原题的“附近轴”按解答所取小横向分量解释。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 122,
+      "source_evidence_pages": [
+        129
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 37,
+      "page_number": 131,
+      "kind": "exercise",
+      "stem_latex": "一个主转动惯量满足 $I_1<I_2<I_3$ 的非对称陀螺作自由转动。若其转动动能 $E$ 和动量矩大小 $M$ 满足 $M^2=2EI_2$，求它的自由转动。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "题头在物理第 131 页，解答续至第 132 页；原书详解该能量面上的非定常分支。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 124,
+      "source_evidence_pages": [
+        131
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 38,
+      "page_number": 133,
+      "kind": "example",
+      "stem_latex": "一球体半径为 $a$，在固定平面上作无滑动滚动。设 $\\mathbf n$ 为平面指向球心一侧的单位法向矢量，$\\mathbf V$ 为球心速度，$\\boldsymbol\\Omega$ 为球的角速度。",
+      "subquestions": [
+        "写出接触点不滑动时 $\\mathbf V$ 和 $\\boldsymbol\\Omega$ 满足的关系，并说明这一约束是否为完整约束。",
+        "若改为轴向保持固定的圆柱在平面上直线滚动，判断相应的无滑动约束是否为完整约束。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "从正文式（38.3）前的球体滚动例子及本页脚注的圆柱对照改写，讨论运动学约束，与下页正式圆球受力动力学习题不同。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 126,
+      "rewritten": true,
+      "source_evidence_pages": [
+        133
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 38,
+      "page_number": 134,
+      "kind": "exercise",
+      "stem_latex": "一个质量为 $\\mu$、半径为 $a$ 的均质球在固定平面上作无滑动滚动。除平面的接触反力外，球受到给定的合外力 $\\mathbf F$ 和关于球心的合外力矩 $\\mathbf K$。利用达朗贝尔原理求球的运动方程。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原题所要求的达朗贝尔方法保留。物理第 135 页页首为第 134 页解答的最后一行。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 127,
+      "source_evidence_pages": [
+        134
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 38,
+      "page_number": 135,
+      "kind": "exercise",
+      "stem_latex": "重为 $P$、长为 $l$ 的均质杆 $BD$ 斜靠在竖直墙的上棱 $C$，下端 $B$ 支在水平面上，并用水平绳 $AB$ 系在墙脚 $A$（见图）。两处接触均光滑。设墙高为 $h$，杆与竖直方向的夹角为 $\\alpha$，求各支撑处的反力和绳的张力。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 135,
+          "crop": [
+            396,
+            99,
+            519,
+            292
+          ],
+          "width_fraction": 0.25
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用图 52。原书题干将绳系住的杆下端印为 A。图中杆下端是 B，A 是墙脚与绳的固定点，原书解答也按 B 取矩。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 128,
+      "editorially_corrected": true,
+      "source_evidence_pages": [
+        135
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 38,
+      "page_number": 135,
+      "kind": "exercise",
+      "stem_latex": "重为 $P$ 的杆 $AB$ 的端点 $A$、$B$ 分别靠在光滑的竖直面和水平面上，并由两根水平绳 $AD$ 和 $BC$ 拉住。绳 $BC$ 与杆 $AB$ 位于同一竖直平面内，杆的重力作用于其中点。令 $\\alpha$ 为 $AB$ 与 $BC$ 的夹角，$\\beta$ 为 $BC$ 与两支撑平面的交线所成的锐角（见图）。求两处支撑反力及两根绳的张力。",
+      "subquestions": [],
+      "figures": [
+        {
+          "page_number": 135,
+          "crop": [
+            182,
+            346,
+            430,
+            503
+          ],
+          "width_fraction": 0.38
+        }
+      ],
+      "review_status": "verified",
+      "review_note": "使用图 53。重力作用于中点由图示和原书平衡方程确定，角度定义按原图。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 128,
+      "source_evidence_pages": [
+        135
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 38,
+      "page_number": 135,
+      "kind": "exercise",
+      "stem_latex": "长度均为 $l$ 的两根轻杆 $AC$、$BC$ 在上端 $C$ 铰接，下端 $A$、$B$ 支在光滑水平面上，并由绳 $AB$ 相连。在杆 $AC$ 的中点施加竖直向下的力 $F$。设两根杆与水平面所成的角均为 $\\alpha$，求支撑反力、铰链反力和绳的张力。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "图 54 的几何与载荷条件已完整转写。图中铰链反力的方向是物理第 136 页解答导出的结果，题面不附图。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 128,
+      "source_evidence_pages": [
+        135
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 39,
+      "page_number": 138,
+      "kind": "exercise",
+      "stem_latex": "在北纬 $\\lambda$ 处，一物体从距地面高度 $h$ 处相对于地面由静止释放。设当地重力加速度的大小为 $g$、地球自转角速度的大小为 $\\Omega$，忽略空气阻力，只保留关于 $\\Omega$ 的一阶项。求落地点相对于释放点竖直投影的水平偏移。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书题头起在物理第 138 页，静止释放、高度和纬度定义在跨页解答中明确；未提前给出偏移方向。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 131,
+      "cross_page": true,
+      "last_source_page": 139,
+      "source_evidence_pages": [
+        138
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 39,
+      "page_number": 139,
+      "kind": "exercise",
+      "stem_latex": "在北纬 $\\lambda$ 处，一物体从地面以初速度 $\\mathbf v_0$ 向上抛出。取 $x$ 轴沿当地子午线指北，$z$ 轴竖直向上；初速度位于 $xz$ 平面内，竖直分量为正。设当地重力加速度大小为 $g$、地球自转角速度大小为 $\\Omega$，忽略空气阻力。求只保留 $\\Omega$ 的一阶项时，物体落回地面处相对于忽略地球自转时的水平偏移。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "初速度在子午面内是本页题解采用的设置；以此补明原题的偏移方向和初速度分量约定。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 132,
+      "source_evidence_pages": [
+        139
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "刚体的运动",
+      "source_section": 39,
+      "page_number": 139,
+      "kind": "exercise",
+      "stem_latex": "在纬度为 $\\lambda$ 的地点研究一个可沿任意水平方向微振动的单摆（傅科摆）。设不考虑地球自转时的振动角频率为 $\\omega_0$，地球自转角速度大小为 $\\Omega$，且 $\\Omega\\ll\\omega_0$。求地球自转对单摆微振动的影响，确定摆动轨迹在水平面内的转动速率及方向。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "原书按 Ω 的一阶近似讨论傅科摆。保留微振动和一阶近似的适用条件。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 132,
+      "source_evidence_pages": [
+        139
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 142,
+      "source_section": 40,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在势能为 $U$ 的场中运动。分别用下列坐标及与之共轭的广义动量写出哈密顿函数。",
+      "subquestions": [
+        "笛卡儿坐标 $(x,y,z)$。",
+        "柱坐标 $(r,\\varphi,z)$，其中 $r$ 为到 $z$ 轴的距离，$\\varphi$ 为方位角。",
+        "球坐标 $(r,\\theta,\\varphi)$，其中 $r$ 为到原点的距离，$\\theta$ 为极角，$\\varphi$ 为方位角。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 135,
+      "source_evidence_pages": [
+        142
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 142,
+      "source_section": 40,
+      "kind": "exercise",
+      "stem_latex": "一质量为 $m$ 的质点在势能为 $U$ 的场中运动。参考系的原点固定，坐标轴相对惯性系以恒定角速度 $\\boldsymbol{\\Omega}$ 转动。用转动参考系中的坐标 $\\mathbf r$ 和共轭动量 $\\mathbf p$ 写出质点的哈密顿函数。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "参考系条件见 §39。",
+      "source_evidence_pages": [
+        137,
+        138,
+        142
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 135
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 142,
+      "source_section": 40,
+      "kind": "exercise",
+      "stem_latex": "一个封闭系统由质量为 $M$ 的质点和 $n$ 个质量均为 $m$ 的质点组成。略去质心运动，以各质量为 $m$ 的质点相对于质量为 $M$ 的质点的位置 $\\mathbf r_a$ 为广义坐标。设相互作用势能为 $U(\\mathbf r_1,\\dots,\\mathbf r_n)$，求内部运动的哈密顿函数。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "补入原题所引 §13 习题采用的相对位置。",
+      "source_evidence_pages": [
+        36,
+        142
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 135
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 144,
+      "source_section": 41,
+      "kind": "exercise",
+      "stem_latex": "一对称陀螺绕对称轴上的固定点转动，关于固定点的横向主惯量为 $I_1^\\prime$，对称轴的主惯量为 $I_3$。用欧拉角 $\\varphi$、$\\theta$、$\\psi$ 描述进动、章动和自转，外场势能为 $U(\\varphi,\\theta)$。采用 $R=p_\\psi\\dot\\psi-L$ 的约定，消去循环坐标 $\\psi$，求罗斯函数。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 137,
+      "source_evidence_pages": [
+        144
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 145,
+      "source_section": 42,
+      "kind": "example",
+      "stem_latex": "设 $(q_k,p_k)$ 是正则坐标与动量，$f$ 为相空间上的可微函数。采用原书的泊松括号约定\n\\[\n\\{f,g\\}=\\sum_k\\left(\\frac{\\partial f}{\\partial p_k}\\frac{\\partial g}{\\partial q_k}\n-\\frac{\\partial f}{\\partial q_k}\\frac{\\partial g}{\\partial p_k}\\right).\n\\]",
+      "subquestions": [
+        "用 $f$ 的偏导数表示 $\\{f,q_k\\}$ 和 $\\{f,p_k\\}$。",
+        "求 $\\{q_i,q_k\\}$、$\\{p_i,p_k\\}$ 和 $\\{p_i,q_k\\}$。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "把正文中代入基本正则变量的计算改写成两问。",
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 138,
+      "source_evidence_pages": [
+        145
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 147,
+      "source_section": 42,
+      "kind": "exercise",
+      "stem_latex": "设质点的动量为 $\\mathbf p$，动量矩为 $\\mathbf M=\\mathbf r\\times\\mathbf p$。求笛卡儿分量 $M_i$ 和 $p_j$ 的泊松括号 $\\{M_i,p_j\\}$。采用满足 $\\{p_i,x_j\\}=\\delta_{ij}$ 的泊松括号约定。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 140,
+      "source_evidence_pages": [
+        147
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 147,
+      "source_section": 42,
+      "kind": "exercise",
+      "stem_latex": "设质点的动量矩为 $\\mathbf M=\\mathbf r\\times\\mathbf p$。求其各笛卡儿分量组成的泊松括号 $\\{M_i,M_j\\}$。采用满足 $\\{p_i,x_j\\}=\\delta_{ij}$ 的泊松括号约定。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 140,
+      "source_evidence_pages": [
+        147
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 147,
+      "source_section": 42,
+      "kind": "exercise",
+      "stem_latex": "设 $\\varphi(\\mathbf r,\\mathbf p)$ 是质点坐标和动量的任意旋转标量，$M_z$ 是 $\\mathbf r\\times\\mathbf p$ 的 $z$ 分量。试证 $\\{\\varphi,M_z\\}=0$。采用满足 $\\{p_i,x_j\\}=\\delta_{ij}$ 的泊松括号约定。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "“旋转标量”指同时旋转坐标和动量时保持不变的函数。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 140,
+      "source_evidence_pages": [
+        147
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 147,
+      "source_section": 42,
+      "kind": "exercise",
+      "stem_latex": "设 $\\mathbf f(\\mathbf r,\\mathbf p)$ 是质点坐标和动量的任意旋转矢量，即同时旋转坐标和动量时随之作同一转动。令 $\\mathbf n$ 为 $z$ 轴正向的单位矢量，$M_z$ 为动量矩的 $z$ 分量。试证 $\\{\\mathbf f,M_z\\}=\\mathbf f\\times\\mathbf n$，其中括号对矢量逐分量计算。采用满足 $\\{p_i,x_j\\}=\\delta_{ij}$ 的泊松括号约定。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 140,
+      "source_evidence_pages": [
+        147
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 151,
+      "source_section": 44,
+      "kind": "example",
+      "stem_latex": "对于在欧氏空间中运动的自由质点，利用固定能量下的轨迹变分原理 $\\delta\\int_A^B\\sqrt{2m(E-U)}\\,\\mathrm dl=0$，证明它在给定的两点 $A$、$B$ 之间的运动轨迹是直线。这里 $l$ 为弧长，$m$ 为质点质量，$E>0$，$U=0$。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文把雅可比形式用于自由质点的具体例子。",
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 144,
+      "source_evidence_pages": [
+        151
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 152,
+      "source_section": 44,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在势能 $U(\\mathbf r)$ 中运动，能量 $E$ 给定。在 $E>U$ 的轨迹区段，固定两端点，对路径应用莫培督原理\n\\[\n\\delta\\int_A^B\\sqrt{2m\\bigl(E-U(\\mathbf r)\\bigr)}\\,\\mathrm dl=0.\n\\]\n以弧长 $l$ 为参数，推导轨迹 $\\mathbf r(l)$ 的微分方程。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "把原题所引的 (44.10) 写入题面。印刷解答中弧长与时间符号有混用，题面明确以弧长为参数。",
+      "source_evidence_pages": [
+        151,
+        152
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 145
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 153,
+      "source_section": 45,
+      "kind": "example",
+      "stem_latex": "对哈密顿系统取常数 $a\\ne0$，令 $Q_i=q_i$、$P_i=ap_i$，并定义 $H^\\prime(Q,P,t)=aH(Q,P/a,t)$。",
+      "subquestions": [
+        "验证新变量满足以 $H^\\prime$ 为哈密顿函数的正则形式运动方程。",
+        "用基本泊松括号判断该变换在何种 $a$ 下为正则变换。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由页脚给出的常数倍缩放例改写。",
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 146,
+      "source_evidence_pages": [
+        153
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 154,
+      "source_section": 45,
+      "kind": "example",
+      "stem_latex": "考虑不显含时间的变量变换 $Q_i=p_i$、$P_i=-q_i$。证明这是正则变换，并求一个以 $(q,Q)$ 为自变量的母函数。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "由正文中互换坐标与动量的例子改写。",
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 147,
+      "source_evidence_pages": [
+        154
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 160,
+      "source_section": 48,
+      "kind": "example",
+      "stem_latex": "质量为 $m$ 的质点在势能 $U(r,\\theta)=a(r)+b(\\theta)/r^2$ 中运动，其中 $a,b$ 是给定函数，$(r,\\theta,\\varphi)$ 为球坐标。写出哈密顿－雅可比方程，并用分离变量法把它的全积分表示为求积。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文列举的球坐标分离变量例。",
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 153,
+      "source_evidence_pages": [
+        160
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 160,
+      "source_section": 48,
+      "kind": "example",
+      "stem_latex": "质量为 $m$ 的质点用抛物线坐标 $(\\xi,\\eta,\\varphi)$ 描述。设 $\\xi,\\eta>0$，并令柱坐标 $z=(\\xi-\\eta)/2$、$\\rho=\\sqrt{\\xi\\eta}$。势能为 $U=\\bigl[a(\\xi)+b(\\eta)\\bigr]/(\\xi+\\eta)$，其中 $a,b$ 是给定函数。",
+      "subquestions": [
+        "求哈密顿函数。",
+        "用分离变量法把哈密顿－雅可比方程的全积分表示为求积。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "例子从第 160 页下半页开始，题设的势能与求积形式分别见第 161、162 页。",
+      "source_evidence_pages": [
+        160,
+        161,
+        162
+      ],
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 153
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 162,
+      "source_section": 48,
+      "kind": "example",
+      "stem_latex": "质量为 $m$ 的质点用椭圆坐标 $(\\xi,\\eta,\\varphi)$ 描述。设 $\\sigma>0$，并令柱坐标 $\\rho=\\sigma\\sqrt{(\\xi^2-1)(1-\\eta^2)}$、$z=\\sigma\\xi\\eta$，其中 $\\xi>1$、$-1<\\eta<1$。势能为 $U=\\bigl[a(\\xi)+b(\\eta)\\bigr]/(\\xi^2-\\eta^2)$，其中 $a,b$ 是给定函数。",
+      "subquestions": [
+        "求哈密顿函数。",
+        "用分离变量法把哈密顿－雅可比方程的全积分表示为求积。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "正文列举的椭圆坐标分离变量例。",
+      "source_evidence_pages": [
+        162,
+        163
+      ],
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 155
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 163,
+      "source_section": 48,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在库仑场和均匀场叠加的势能 $U=\\alpha/r-Fz$ 中运动，其中 $r=|\\mathbf r|$，$z$ 为沿均匀场所在轴的坐标，$\\alpha,F$ 为常数。求哈密顿－雅可比方程的全积分，并把分离常数对应的额外守恒量写成坐标和动量的函数。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 156,
+      "source_evidence_pages": [
+        163
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 163,
+      "source_section": 48,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在两个不动库仑中心产生的势能 $U=\\alpha_1/r_1+\\alpha_2/r_2$ 中运动。两中心相距 $2\\sigma$，$r_1,r_2$ 分别为质点到两中心的距离，$\\alpha_1,\\alpha_2$ 为常数。求哈密顿－雅可比方程的全积分，并把分离常数对应的额外守恒量写成坐标和动量的函数。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "补齐“同上题”的要求；第 164 页图 55 只用于解释解答中的角。",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 156,
+      "source_evidence_pages": [
+        163
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 166,
+      "source_section": 49,
+      "kind": "example",
+      "stem_latex": "一维简谐振子的哈密顿函数为 $H=p^2/(2m)+m\\omega^2q^2/2$。设其能量为 $E$，作用变量定义为 $I=(2\\pi)^{-1}\\oint p\\,\\mathrm dq$。求 $I$，并确定振子参数缓慢改变时能量 $E$ 与角频率 $\\omega$ 的关系。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "“作为例子”之后的一维简谐振子计算。",
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 159,
+      "source_evidence_pages": [
+        166
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 168,
+      "source_section": 50,
+      "kind": "exercise",
+      "stem_latex": "设简谐振子的角频率 $\\omega(t)>0$ 随时间改变，其哈密顿函数为 $H=p^2/(2m)+m\\omega(t)^2q^2/2$。对每个固定的瞬时频率采用作用变量 $I=(2\\pi)^{-1}\\oint p\\,\\mathrm dq$，并取 $q=0$ 且 $p>0$ 对应的角变量 $w=0$。写出用正则变量 $(I,w)$ 表示的运动方程。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "补入原题所引哈密顿函数 (49.11)，按原解所用相位明确角变量的原点。",
+      "source_evidence_pages": [
+        166,
+        168
+      ],
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 161
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 170,
+      "source_section": 51,
+      "kind": "exercise",
+      "stem_latex": "简谐振子的角频率随时间按下式变化\n\\[\n\\omega^2(t)=\\omega_0^2\\frac{1+a\\mathrm e^{\\alpha t}}{1+\\mathrm e^{\\alpha t}},\n\\qquad a>0,\\quad 0<\\alpha\\ll\\omega_0 .\n\\]\n当 $t$ 从 $-\\infty$ 变到 $+\\infty$ 时，角频率从 $\\omega_0$ 变到 $\\sqrt a\\,\\omega_0$。设 $a\\ne1$ 固定，初始作用变量为 $I_-=I(-\\infty)>0$。当 $\\alpha/\\omega_0\\to0$ 时，估计 $|I(+\\infty)-I_-|/I_-$ 对初相位取最大时的主导指数阶。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "源式区分无量纲参数 a 和变化率 α；解答续于第 171 页。增量依初相位而异，题面明确求其相对幅度的指数阶，并排除频率恒定的 a=1。",
+      "editorially_corrected": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 163,
+      "source_evidence_pages": [
+        170
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 171,
+      "source_section": 51,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在一维势阱内振动。取 $x$ 为笛卡儿坐标，并施加阻力 $f=-\\alpha\\dot x$。阻尼很弱，即 $\\alpha T/m\\ll1$，其中 $T$ 为无阻尼时在相应能量下的周期。求振动能量按周期平均后随时间缓慢变化的规律。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 164,
+      "source_evidence_pages": [
+        171
+      ]
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 173,
+      "source_section": 52,
+      "kind": "example",
+      "stem_latex": "在作用－角变量 $(I_i,w_i)$ 中，系统的基频为 $\\omega_i=\\partial E/\\partial I_i$。假定对任意作用变量 $I_i$，两个基频满足 $n_1\\omega_1=n_2\\omega_2$，其中 $n_1,n_2$ 为给定正整数。各角变量 $w_i$ 按模 $2\\pi$ 取值。",
+      "subquestions": [
+        "求 $I_1,I_2$ 在能量 $E$ 中出现的线性组合。",
+        "用角变量 $w_1,w_2$ 构造一个单值的运动积分。"
+      ],
+      "figures": [],
+      "review_status": "verified",
+      "review_note": "采用原书的频率关系 (52.12)；原书随后关于作用变量线性组合的文字与该式的下标对应不一致，题干将这一组合留给读者推导。",
+      "source_evidence_pages": [
+        173,
+        174
+      ],
+      "rewritten": true,
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 166
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "正则方程",
+      "page_number": 175,
+      "source_section": 52,
+      "kind": "exercise",
+      "stem_latex": "质量为 $m$ 的质点在中心势 $U=-\\alpha/r$（$\\alpha>0$）中作平面椭圆运动。以极坐标 $r,\\varphi$ 描述运动，取极角正向与绕行方向一致。求径向和角向的作用变量 $I_r,I_\\varphi$，其中 $I_i=(2\\pi)^{-1}\\oint p_i\\,\\mathrm dq_i$。",
+      "subquestions": [],
+      "figures": [],
+      "review_status": "verified",
+      "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+      "source_id": "36c53f159e0b",
+      "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+      "printed_page_number": 168,
+      "source_evidence_pages": [
+        175
+      ]
+    }
+  ]
+}

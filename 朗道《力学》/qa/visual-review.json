@@ -1,0 +1,912 @@
+{
+  "scope": "整书 PDF 结构检查及逐页版面核验",
+  "pdf_sha256": "da627cb569cd7325fbf92b78887af0766d72baf8e08ddbcee1fa1eacec696132",
+  "page_count": 76,
+  "source_unit_count": 143,
+  "problem_count": 147,
+  "chapters": [
+    [
+      1,
+      "运动方程",
+      2
+    ],
+    [
+      1,
+      "守恒定律",
+      6
+    ],
+    [
+      1,
+      "运动方程的积分",
+      13
+    ],
+    [
+      1,
+      "质点碰撞",
+      21
+    ],
+    [
+      1,
+      "微振动",
+      32
+    ],
+    [
+      1,
+      "刚体的运动",
+      50
+    ],
+    [
+      1,
+      "正则方程",
+      65
+    ]
+  ],
+  "toc_destinations": [
+    2,
+    6,
+    13,
+    21,
+    32,
+    50,
+    65
+  ],
+  "problems_per_body_page_counts": {
+    "1": 3,
+    "2": 72
+  },
+  "figure_pages": [
+    4,
+    5,
+    13,
+    16,
+    33,
+    34,
+    40,
+    41,
+    42,
+    51,
+    53,
+    54,
+    55,
+    56,
+    58,
+    62
+  ],
+  "page_results": [
+    {
+      "pdf_page": 1,
+      "problem_ids": [],
+      "figure_count": 0,
+      "render_sha256": "2376071ba43e5edf0285425c213c2c3a55025fad3f28a6229f5eb21b8fde5353",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 2,
+      "problem_ids": [
+        "1.1",
+        "1.2"
+      ],
+      "figure_count": 0,
+      "render_sha256": "a04ecb7c0b9bf1b8370f9233f637271e58ac0f1524b240cbc6f3faacf662fa62",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 3,
+      "problem_ids": [
+        "1.3",
+        "1.4"
+      ],
+      "figure_count": 0,
+      "render_sha256": "45de2c426b452d47d9ec8f2bb2a8e71f52f7a248826cc1785145ddcf48bcad59",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 4,
+      "problem_ids": [
+        "1.5",
+        "1.6"
+      ],
+      "figure_count": 2,
+      "render_sha256": "a896b41cd8aa502fd809226e76130c7bf7f47b2b3f28ead31427dafacbdf8ae4",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 5,
+      "problem_ids": [
+        "1.7",
+        "1.8"
+      ],
+      "figure_count": 2,
+      "render_sha256": "4e8d276d673f62a555e110079e9bedbc47b8ae2049769c7674a0b45f3a84f811",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 6,
+      "problem_ids": [
+        "2.1",
+        "2.2"
+      ],
+      "figure_count": 0,
+      "render_sha256": "6460ea64432b70789ac1d79615f9c6f7e73dd9461c17bb03cde6080535f2bc11",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 7,
+      "problem_ids": [
+        "2.3",
+        "2.4"
+      ],
+      "figure_count": 0,
+      "render_sha256": "5aeddb58e8b68f5d21f346273c28b6bee64bb876bda05bfff2375df8a6ac5b3b",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 8,
+      "problem_ids": [
+        "2.5",
+        "2.6"
+      ],
+      "figure_count": 0,
+      "render_sha256": "9a89a4b4b9928b6dd8d9012860a61baa60a31eca6cf7de8fa844ead2c47ab940",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 9,
+      "problem_ids": [
+        "2.7",
+        "2.8"
+      ],
+      "figure_count": 0,
+      "render_sha256": "2d1e867b43f08e582c32dcb084ae646a92f44feb0df71e3178d35ec28e45f856",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 10,
+      "problem_ids": [
+        "2.9",
+        "2.10"
+      ],
+      "figure_count": 0,
+      "render_sha256": "990108ef4b1243fa0c60838f510c047ca43e9ae61aac4233a87af26fe596c33d",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 11,
+      "problem_ids": [
+        "2.11",
+        "2.12"
+      ],
+      "figure_count": 0,
+      "render_sha256": "d69937077faaac652421e76afa6528822a8682f6257c5eb124c151ad754cc026",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 12,
+      "problem_ids": [
+        "2.13",
+        "2.14"
+      ],
+      "figure_count": 0,
+      "render_sha256": "084c7cfbeedfab782c5b8bcdf22fdd593055d7154fb046a5bcc7d99f41d5b958",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 13,
+      "problem_ids": [
+        "3.1",
+        "3.2"
+      ],
+      "figure_count": 1,
+      "render_sha256": "7f3a1922d6f1306051b4c599b4a11cf1dc211a6479c2013ea2afc37f2370c5f6",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 14,
+      "problem_ids": [
+        "3.3",
+        "3.4"
+      ],
+      "figure_count": 0,
+      "render_sha256": "36fe8e24c88a458da4dc87b615128981c636dd60e7422d6f65e8c3230d7aaf10",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 15,
+      "problem_ids": [
+        "3.5",
+        "3.6"
+      ],
+      "figure_count": 0,
+      "render_sha256": "a8dd658b73e0da12ae088872a4d7960f31214fbcfb261c206917f3603f3fb905",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 16,
+      "problem_ids": [
+        "3.7",
+        "3.8"
+      ],
+      "figure_count": 1,
+      "render_sha256": "3d0f5c7c83aa325fabd985e7d05139d0e3c2a63dafde0fb300df98b4e98aacc9",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 17,
+      "problem_ids": [
+        "3.9",
+        "3.10"
+      ],
+      "figure_count": 0,
+      "render_sha256": "88f013f9ed16b9344dee056c50eed57f16f290fc06285e47dcfd278a82b9aa20",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 18,
+      "problem_ids": [
+        "3.11",
+        "3.12"
+      ],
+      "figure_count": 0,
+      "render_sha256": "0b6a2ee5fcec494fe975fac6bcb86aad86c2150c9d64a3e040e0f10e7c459a10",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 19,
+      "problem_ids": [
+        "3.13",
+        "3.14"
+      ],
+      "figure_count": 0,
+      "render_sha256": "e2869087eb820da348c3e2a696b4beba71be419cfab0c8cfd645ce39d43fee1b",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 20,
+      "problem_ids": [
+        "3.15"
+      ],
+      "figure_count": 0,
+      "render_sha256": "77696ba6d0219da981f74f54756ca557fd837e370761e620155f25028157f662",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 21,
+      "problem_ids": [
+        "4.1",
+        "4.2"
+      ],
+      "figure_count": 0,
+      "render_sha256": "06c78b0763077afd358ff39598a45da56d37c6be9b75b30ae40b0b564394c1f4",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 22,
+      "problem_ids": [
+        "4.3",
+        "4.4"
+      ],
+      "figure_count": 0,
+      "render_sha256": "ff217dd49735a63c94d225ed920a9265ae440e3bcf3ab2dbedc8763ed688b07b",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 23,
+      "problem_ids": [
+        "4.5",
+        "4.6"
+      ],
+      "figure_count": 0,
+      "render_sha256": "89ca5b9df55e217e54223a4a92090c3f726a47588071e78d9f194b1917da3d3b",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 24,
+      "problem_ids": [
+        "4.7",
+        "4.8"
+      ],
+      "figure_count": 0,
+      "render_sha256": "d7841f08de24105f6daecd74e063813f436b16f845b64dd934dbacf82543e99f",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 25,
+      "problem_ids": [
+        "4.9",
+        "4.10"
+      ],
+      "figure_count": 0,
+      "render_sha256": "eb65bfb4c2264c783bd0f57034f3cf58815d93ba02ef80ff6369f914f983c2b2",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 26,
+      "problem_ids": [
+        "4.11",
+        "4.12"
+      ],
+      "figure_count": 0,
+      "render_sha256": "c1604801dec6e416cae85450806ac518ddb70aa288e191ba1155b2c6d9ade674",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 27,
+      "problem_ids": [
+        "4.13",
+        "4.14"
+      ],
+      "figure_count": 0,
+      "render_sha256": "147b59c3eb27c69bcc234d83897e2c80a384cf5504a2da8dbcd47b41ff0e1984",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 28,
+      "problem_ids": [
+        "4.15",
+        "4.16"
+      ],
+      "figure_count": 0,
+      "render_sha256": "26445fb2a0b77fe74c7915fba304219edd63bbd732f6e5fe067ec657af6fdd71",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 29,
+      "problem_ids": [
+        "4.17",
+        "4.18"
+      ],
+      "figure_count": 0,
+      "render_sha256": "061fad5eb54c90b478ffbbe29d46add02eb56f5558b03f67daa62840cb087589",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 30,
+      "problem_ids": [
+        "4.19",
+        "4.20"
+      ],
+      "figure_count": 0,
+      "render_sha256": "d36b7d7eb13ee52ccd3419f6cc20a1e00c54d9d033e7cecfb321f5a727f614e1",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 31,
+      "problem_ids": [
+        "4.21"
+      ],
+      "figure_count": 0,
+      "render_sha256": "fae9fc9e5226b8b9c151e7b258f7bdeabf1bdd8431423e5e3d8b73b4add7c5b4",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 32,
+      "problem_ids": [
+        "5.1",
+        "5.2"
+      ],
+      "figure_count": 0,
+      "render_sha256": "4fd07d59c1d15ec8de907f900dc63e04cb4cbc24a4affec8439d1fd5c9535667",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 33,
+      "problem_ids": [
+        "5.3",
+        "5.4"
+      ],
+      "figure_count": 2,
+      "render_sha256": "07afbe0c850ee7495e0e88fe31f1e0c59876238b068c703751a02bcca78621ba",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 34,
+      "problem_ids": [
+        "5.5",
+        "5.6"
+      ],
+      "figure_count": 1,
+      "render_sha256": "1307facd03aceda8b75616c0b7b56f7e013823b40585e085207929df67adb5f2",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 35,
+      "problem_ids": [
+        "5.7",
+        "5.8"
+      ],
+      "figure_count": 0,
+      "render_sha256": "8ea4e72ccf2831b1f3df51c715595401790cb1025a122a0b7c663df39a8ab15f",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 36,
+      "problem_ids": [
+        "5.9",
+        "5.10"
+      ],
+      "figure_count": 0,
+      "render_sha256": "28a95aefd60851bb395ebaeb23a95c69f7b3cdeb6db6c26db3d641b62f2c120b",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 37,
+      "problem_ids": [
+        "5.11",
+        "5.12"
+      ],
+      "figure_count": 0,
+      "render_sha256": "e66bee515a903622051d1f17c288699bbef8904029593e5e91ffb00d4897b51b",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 38,
+      "problem_ids": [
+        "5.13",
+        "5.14"
+      ],
+      "figure_count": 0,
+      "render_sha256": "ed139d0a8d0585aa4bbfe8e4b2d409c5e3c41ce9824b2e1aa059caf29c32cc4b",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 39,
+      "problem_ids": [
+        "5.15",
+        "5.16"
+      ],
+      "figure_count": 0,
+      "render_sha256": "57966a29f2daba9fd7cb8751c9d9b1d6c29cbb4fe6438271a1955acaa46ae9cb",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 40,
+      "problem_ids": [
+        "5.17",
+        "5.18"
+      ],
+      "figure_count": 1,
+      "render_sha256": "ec854e2e59a85ce2f7c07a5e79ea11f409253961a7cbf59007aba4c320e9d47e",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 41,
+      "problem_ids": [
+        "5.19",
+        "5.20"
+      ],
+      "figure_count": 1,
+      "render_sha256": "cb555dea01626a0d00929ef96b45477d52a2476fff0f8a9b3a78a9b46a0e8446",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 42,
+      "problem_ids": [
+        "5.21",
+        "5.22"
+      ],
+      "figure_count": 2,
+      "render_sha256": "9fe452e241436b6d54fc4eb215ba5737588b0910443fa98ebe6e82402dfaeca3",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 43,
+      "problem_ids": [
+        "5.23",
+        "5.24"
+      ],
+      "figure_count": 0,
+      "render_sha256": "f3905138bced16d8c83208c57f7968a86015f66419bfd486e4ece726efba8f14",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 44,
+      "problem_ids": [
+        "5.25",
+        "5.26"
+      ],
+      "figure_count": 0,
+      "render_sha256": "6ef83ba32a1fd177f711a92e9321e714777db0e10fc188788dd7b56487952641",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 45,
+      "problem_ids": [
+        "5.27",
+        "5.28"
+      ],
+      "figure_count": 0,
+      "render_sha256": "924cf1300929df42096ae8ce6174d8cdbee220cc5827916d0dd5199eee2c1c58",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 46,
+      "problem_ids": [
+        "5.29",
+        "5.30"
+      ],
+      "figure_count": 0,
+      "render_sha256": "ff36294e335497792a2caaa580fdb05b38c36d0374ce11ef96d9a2a61348e104",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 47,
+      "problem_ids": [
+        "5.31",
+        "5.32"
+      ],
+      "figure_count": 0,
+      "render_sha256": "860e32f2c170d4af9dfbbf7cae2f96bb1027fe1d13a8dddba06cd768c72df86b",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 48,
+      "problem_ids": [
+        "5.33",
+        "5.34"
+      ],
+      "figure_count": 0,
+      "render_sha256": "a5653e285182e7294d03e9571a15f014b1541cac22b9feefe84b257850dae18b",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 49,
+      "problem_ids": [
+        "5.35"
+      ],
+      "figure_count": 0,
+      "render_sha256": "15b3796c8b56b1b049550f4bcdb181d24acbca8fe7f82a303d1cc93fea0ec64a",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 50,
+      "problem_ids": [
+        "6.1",
+        "6.2"
+      ],
+      "figure_count": 0,
+      "render_sha256": "6ea6973bb4500e31189071f20e3a622a5ae1345af17a28661dc1cbbb292e4d6c",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 51,
+      "problem_ids": [
+        "6.3",
+        "6.4"
+      ],
+      "figure_count": 2,
+      "render_sha256": "8cd23b12d0f044716f20b5482d8bde1919e9fee39e15bae3ea8f1491fec4e713",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 52,
+      "problem_ids": [
+        "6.5",
+        "6.6"
+      ],
+      "figure_count": 0,
+      "render_sha256": "79e282a0f938292106d3ed3fdb326d410d968d43b9cb671f97a77fc0ff00b60c",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 53,
+      "problem_ids": [
+        "6.7",
+        "6.8"
+      ],
+      "figure_count": 2,
+      "render_sha256": "73d5a04d1d2c44540d6c6ee0aea49cd322e62f3336652f065b8d1ae10198756e",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 54,
+      "problem_ids": [
+        "6.9",
+        "6.10"
+      ],
+      "figure_count": 2,
+      "render_sha256": "962f147b305784cd05a6774056cb3fcb7ca478f6da59f889f2a2626f13d97c83",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 55,
+      "problem_ids": [
+        "6.11",
+        "6.12"
+      ],
+      "figure_count": 2,
+      "render_sha256": "8b794f2179cab1bc285e53e50e484802dd920df56f8b6ed7ed4eeaf8ebd40f6e",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 56,
+      "problem_ids": [
+        "6.13",
+        "6.14"
+      ],
+      "figure_count": 1,
+      "render_sha256": "a2d7722a2d2fdab2da687ca1361e423b310fb6d302f12642634e53c5ecea6898",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 57,
+      "problem_ids": [
+        "6.15",
+        "6.16"
+      ],
+      "figure_count": 0,
+      "render_sha256": "11b85d10094cc8c2f92a94639ed5cb4bf999020e89b8a268c1897318236c41a7",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 58,
+      "problem_ids": [
+        "6.17",
+        "6.18"
+      ],
+      "figure_count": 1,
+      "render_sha256": "99c7108c65354f6c45d084ebf9a83b11eb4e68b502899da5c823a744ce5bdf77",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 59,
+      "problem_ids": [
+        "6.19",
+        "6.20"
+      ],
+      "figure_count": 0,
+      "render_sha256": "4cfcf87ba01a7ec7ebe812354d7302100b31d84477a0a799eb0729686709ff4b",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 60,
+      "problem_ids": [
+        "6.21",
+        "6.22"
+      ],
+      "figure_count": 0,
+      "render_sha256": "0439985cfbf60e5e129432f96cf88cb56392aff958ad107408d5fadf66687af1",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 61,
+      "problem_ids": [
+        "6.23",
+        "6.24"
+      ],
+      "figure_count": 0,
+      "render_sha256": "2d7d68ed4808db0e435312564069f2907747e015c52e6f0c2ee6a60ff3023a4a",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 62,
+      "problem_ids": [
+        "6.25",
+        "6.26"
+      ],
+      "figure_count": 2,
+      "render_sha256": "f5be1a98593e5379114b7bca3d517779f0fb72039f783d6fe4185fa341bf1317",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 63,
+      "problem_ids": [
+        "6.27",
+        "6.28"
+      ],
+      "figure_count": 0,
+      "render_sha256": "a2d12b198cedcf1e1fa47a5f790ad2849ecadc7a78506aaee15ce2548ebde7e5",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 64,
+      "problem_ids": [
+        "6.29",
+        "6.30"
+      ],
+      "figure_count": 0,
+      "render_sha256": "7ce1d928fdd38f51cba64e912f2b5ef6feeb3283f1579f27b731294d7d5604d1",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 65,
+      "problem_ids": [
+        "7.1",
+        "7.2"
+      ],
+      "figure_count": 0,
+      "render_sha256": "f3ce5018d86f1bcddc4c9ac847a1a3c5bbe2b9839058c12aecfa46d9d8431541",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 66,
+      "problem_ids": [
+        "7.3",
+        "7.4"
+      ],
+      "figure_count": 0,
+      "render_sha256": "980039ba52221ce5f0485c0a306bca28d25cd7e96f0dd0b0c8849da9628222f8",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 67,
+      "problem_ids": [
+        "7.5",
+        "7.6"
+      ],
+      "figure_count": 0,
+      "render_sha256": "40d10c614cdab1c656ec91f3fdc67130c29333ecf182c623488d3bfa2c54f134",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 68,
+      "problem_ids": [
+        "7.7",
+        "7.8"
+      ],
+      "figure_count": 0,
+      "render_sha256": "39f547e8d02ed39154aa2cd6e895964d5e1e237c6edebf854515cd96cc566e84",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 69,
+      "problem_ids": [
+        "7.9",
+        "7.10"
+      ],
+      "figure_count": 0,
+      "render_sha256": "60735c0bc704480909b1170789d3f768bea4fbd3addc571b3c1289d66c7a5cf0",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 70,
+      "problem_ids": [
+        "7.11",
+        "7.12"
+      ],
+      "figure_count": 0,
+      "render_sha256": "5fb98e3c99c7b1e13ff7bea1c6b0d153b772050d3b0c65ce955b76e30ee17b4e",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 71,
+      "problem_ids": [
+        "7.13",
+        "7.14"
+      ],
+      "figure_count": 0,
+      "render_sha256": "8197ef6473bf8a1d6bf362cbd773c644e3e9dc7118ddb788f8fadce195113d22",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 72,
+      "problem_ids": [
+        "7.15",
+        "7.16"
+      ],
+      "figure_count": 0,
+      "render_sha256": "dc28103cc6eb2d310fa12ff11c6017ae20a29ff5612e2ec2cd613ba279577d97",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 73,
+      "problem_ids": [
+        "7.17",
+        "7.18"
+      ],
+      "figure_count": 0,
+      "render_sha256": "3006c909729579c96b1ef9acd39f438be0f188b7ae3771127d62202e88e569dc",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 74,
+      "problem_ids": [
+        "7.19",
+        "7.20"
+      ],
+      "figure_count": 0,
+      "render_sha256": "992d65916512193a84c2e5f9a5164f7c5850d3c12ddcdd48d8783231b72dce75",
+      "status": "passed",
+      "review_method": "与逐页目视通过的校样图像逐字节相同"
+    },
+    {
+      "pdf_page": 75,
+      "problem_ids": [
+        "7.21",
+        "7.22"
+      ],
+      "figure_count": 0,
+      "render_sha256": "efbdb0cfe070595d7c6dd25b18d7b2db6e441ea2ebd878a136cacd066001a37e",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    },
+    {
+      "pdf_page": 76,
+      "problem_ids": [
+        "7.23",
+        "7.24"
+      ],
+      "figure_count": 0,
+      "render_sha256": "a7d2f4f76e438bf450e3c7bbfeed8ab2795d3d5a414f1b23c1fe175c0083a4e4",
+      "status": "passed",
+      "review_method": "终稿页面目视复查"
+    }
+  ],
+  "status": "passed",
+  "prior_visually_reviewed_proof_sha256": "d625ed23208c0fb691f65ff2356d38f56e7f6b28dcd67e4779a89ac76318434a",
+  "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+  "figures": 25,
+  "regression_tests_passed": 29
+}

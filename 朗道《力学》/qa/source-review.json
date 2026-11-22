@@ -1,0 +1,1217 @@
+{
+  "status": "verified",
+  "scope": "原书正文逐页识别与正式习题题首覆盖核对",
+  "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+  "source_sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+  "source_page_count": 179,
+  "body_page_count": 168,
+  "excluded_ranges": [
+    {
+      "first_page": 1,
+      "last_page": 1,
+      "reason": "封面"
+    },
+    {
+      "first_page": 2,
+      "last_page": 4,
+      "reason": "卷首序言"
+    },
+    {
+      "first_page": 5,
+      "last_page": 7,
+      "reason": "目录"
+    },
+    {
+      "first_page": 176,
+      "last_page": 177,
+      "reason": "朗道撰写的第一版序"
+    },
+    {
+      "first_page": 178,
+      "last_page": 179,
+      "reason": "索引"
+    }
+  ],
+  "method": "逐页查看原书，按章整理题干，再以经原书确认的题首逐页核对 PaddleOCR-VL 1.6 文本。公式、跨页条件和图形以原书及校订记录为据。",
+  "formal_exercise_count": 96,
+  "rewritten_example_count": 47,
+  "curated_sha256": "0850533fad4d716d46d488ffd84f114870009d93a0b38221633544b130e91719",
+  "page_results": [
+    {
+      "chapter": 1,
+      "physical_page_number": 8,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "8bdbe444d3eec24081992f304a6ed1a24cc97e9a193d29b5c8ed61b749e5ed0f"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 9,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "2547178ece5fea855d996a61ca278676d107dfa07d7f7a6b60c142a5022c679e"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 10,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "fa3ed0c0ee08f34ed01e1c7b1117203a69ab43e3ebfb6201e3e7f16b6aec11ee"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 11,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "ffe8a75bd3a2e879e67150405730d3b923f0dbeb2ed1a4e499bc3d7579633a61"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 12,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "dd06b94423461073de1015d992f1ebd99b19fad0d385184a743cc92382e67c93"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 13,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "fa7908a49ba8ea37b49a30598bacfbb36a601387f2b8f6a024eff36f5181f0ca"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 14,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "0ff9be75a1247889987a5358393bad924f0d4e8449d44febc6a5b4b93673055e"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 15,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "be1f8061d5642b8dcf4d11cccc2153d2fce52a8459d049a78db3f7d0109328e4"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 16,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "2cdeb1c0054abeca3366559efbe5c605a4358588291f2cc12dd7b160171398b0"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 17,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 5,
+      "ocr_markdown_sha256": "e53e4764e20d84d93c2a861cd96368f7e94fec077eaeab8ef7e1d2ae5651d4d7"
+    },
+    {
+      "chapter": 1,
+      "physical_page_number": 18,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 5,
+      "ocr_markdown_sha256": "7a17b24f1634ef83800bbbe303d79b949559463ce340e54d689dd71cee15063e"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 19,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "a75b9e7a2521f728ba552e0364968f58dfd3af6a335f8be3215747445e96c662"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 20,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "ca43e6890f5722f858891fb79354f441bf3ec106ae65b9974297762020798de8"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 21,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "757e0bff5a373251479b4a2c97daf15a4b6fa962ce484b98497f9aa3a45a0f36"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 22,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "0fc82c856c1d74972ec03804a02696a434f5f48e321ff678e3ebe311783e97d7"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 23,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "0b8679aef6bc44f2f24ef4c1c739b69c1c8e8be69356006cadabc3663e9bb2b7"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 24,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "984db3f6e1e1da6b0a2518dd21dc426910554f1763148948e810f20cbae7ba90"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 25,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "3dea445115dff0025d1f40a73b4d4c13c8cc577a3065363449f8a3efc3acbba1"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 26,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 4,
+      "ocr_markdown_sha256": "7c1a38ad42e5d872b397710dc96cb0f31cc8ced6cecb66966a0124429345e170"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 27,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "da7991f7cc43304079a4483ff998a291dc48dda0737f9ba3f3eabfc3e67fc4a8"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 28,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "6371b7b8b7230bd41ae460fc2a979918029505622d2fc10ab64b368b15c6ebad"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 29,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "5ef13d9ec2a2269a56c21599e37791034941e8d65e0f1ec756d0b426fa1a6453"
+    },
+    {
+      "chapter": 2,
+      "physical_page_number": 30,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "0003d65af0c6b418f8f4d590af531944144aed6493f5d96dd2ec296a5eada18d"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 31,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "0ce271b047ed3bb53840d1515f54c92b79ba951bd19e353da989f33d4261eb2a"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 32,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "395ec48a42098c0e4fee73ec50514b2e7450bf1541e3b05484fa5dbdce498b9f"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 33,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "e00f6954fa2ea21905372d02c6421311dd29027d00b9a83ea2c4cc64623290c1"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 34,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "a21529ff5d06cae637c8cce46843972e652d76f390010141ad3db16a09bc2723"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 35,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "db6b86eda373f1e53464af7e711a0f6f8eba31d3699af1ea10744a451d9cdb70"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 36,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "9badd6a85c04765b94c6b2dbd6eafd9d8b11417f0aaf697cb493cb8a655e42a8"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 37,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "563c710045bd9c1cbdb3407d2ebd66e3a9c203d376335a7711e3437c4b81ee5a"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 38,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "1501d4178ff3fc0d0efc0d4229851d62f5edaeea5389f84e433b19a0685b39c6"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 39,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "d0dd3da813897e19d631cd92cd6d6a700e0aa81fc91c491e31395b1dcc6b5db3"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 40,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "14e88649841e375fc0c470798567849b5ca91a8143636f361d8ff24476c22aee"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 41,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "ef70ae47351373ec1acc505fb2ad0b5bc1718728642198e73e35b96b8ae64061"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 42,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "016202b447401e9dd6dac58e397a8df37d42cc5c6e349ecb1ceb18f4287dda87"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 43,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "6fd263cb21fcafbb00aca0fff48c46c27fd578e1f3ed54c146f050f985655ddc"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 44,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "77bd9af2f8985bf4394150252b0cfbecc35ead9ee14dbab080b66829509ae590"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 45,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "7f9793db98c4ce0724776c169c1fabae73bc5b11892140b131629acb74bab8fc"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 46,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "5cc16dd5595ae1ff442f4b1217e21760d8b742bd0e0221816fd88a5c43a4ebc0"
+    },
+    {
+      "chapter": 3,
+      "physical_page_number": 47,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "8fe6f87c2ab64b3b11cbafa9c40112c061d57b0c0d22ef9a832fe8d755dd0dbe"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 48,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "00627c0a4b043fdbd921767611fcd9eba886e7a5bc51c2a6c2411f03012a797a"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 49,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "17d32ef691a9a337da2475588b5df4008de64fe5c64e7302fb51cfc6817af6ef"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 50,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "b5d6813a36f051166cde239e4186153281e915529bb28a54ade55f52e2fca69e"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 51,
+      "formal_problem_starts": 3,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "ea40ccfaac22e29407d1983c926e0a8d61ab13b5cc5659a9e10317ccb09ae7ec"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 52,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "c6dd3fb1bbb926625261638b3f795b762e41e9e9005aba75a1af7b13ba16d49c"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 53,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "a09f0670065dd63234a387975786d9880c763bd2babcd2960e7490ab5ec6ffad"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 54,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "0d95395de940541275a4f8f90ff1afd5de431c38e8efb9e6a01cc061709a7e1f"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 55,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "9071298a6f64ca02400d84a0b1342ed39a2133d24f130d3eb17dcf75be28f51e"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 56,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "61fad4919ceceeb0bed287f8f0b0b6974d555b9161d00f40681ddd6e478d5d6a"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 57,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "a211135ec5f5720b41ec578236ec0bafe8bb3b664e0918dee56e185d033fa4a1"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 58,
+      "formal_problem_starts": 4,
+      "reviewed_units_referencing_page": 4,
+      "ocr_markdown_sha256": "cb78ad080cef1a96b67c8db41527ef9e3fda3a6329ded24e5a541b82cd12434b"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 59,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "8c78f472ebd8ea881be149dce6bffb1b0cac71436244694fea982391cd33f632"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 60,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "0b7bcbf910416f8a2e49833a7f1fdd4369f6535fbc8831b978fcc17e4f238a2f"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 61,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "9c09262082bae125d8627e7ac99304d9f5abdb7a886974a4a1e4d385747f382c"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 62,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "3612b1e02df86f0a576b6b502df5044f9419a02f6fbcec000da299163073ee58"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 63,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "5518113a389a7ab59fa9328e7e99ec2c9d753d90325ec547a11069f40ce9ce12"
+    },
+    {
+      "chapter": 4,
+      "physical_page_number": 64,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "cc7ea83c87b1cab1b0cccdbbe6c7e4083fc91ec56faab9b2d9ffe99cc063fd65"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 65,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "c99433e7c12516c59c57c3ab0928dda60b838f07bfa33f87f0791257c5b26794"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 66,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "2e71612a962800cc4ab3a244273f41c9aeb0b2f79b0cc366468438a23ac4eb3a"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 67,
+      "formal_problem_starts": 4,
+      "reviewed_units_referencing_page": 4,
+      "ocr_markdown_sha256": "88062f1db251444d46e49cd15f4bd612109f44d5052b24d637f19ffdddab743a"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 68,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "2b2720959f0f39194fe9b531d2e859f18e3eafe01f0889c5dfbb1f955d0cff97"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 69,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "5d6ac631649f366f1e42c9b5ff66b8fe59857a367f2e4343294241f4fd0546cd"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 70,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "db5872f7cb59464f142713f18a9f690359b0087dac17cc78108516ccf8c5e558"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 71,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "b1b7c7eefddec6d84bd52ee539afd8df2ff54f5a6e4fe799e990946d287deee1"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 72,
+      "formal_problem_starts": 3,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "23e85b48fd59422ba9bd5d1c7f886159edee520f84d27ad38af228a6c3c00aeb"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 73,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "97036a21d1c298593c1c6b16117bd2fa6083ab7a04db053b3b50b7b48046b2fc"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 74,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "647b8e45651a68297a975699bb72643a3278b6f63508b88acf3fa3d945b77e87"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 75,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "e7fdb174af8e53dbee3f5b5739d0d9e6d89756206da2b7b7443658a4f7e8051a"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 76,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "dd5a747647aa25b24165f840bed2f48bd7355793f24215ef20d6725edad9be0c"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 77,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "be6bb570df1a7e1226b22800c5479eb33bda51a8b630250eee23a0090040d7d5"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 78,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "71cb64007d9c13f8817bd30f6d3b1fedf1e42880705f333a769fc90fd6c7965d"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 79,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "1bf60af044cd94d60f39d3d41062fc2441b86d3c317f80ef113a7bb7b402c3c6"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 80,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "24cffd6eb485b34f8a9c9a72de5e783e29c50f0c526d5f986656f27809eaa0de"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 81,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "6b8dbd01b52faafbe9a3ea0d2409762040108578e3e06c7c0baea43031fd5c39"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 82,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "d2afa606452f881ca88dccb75fbbc8c0ca4a90b0d1f8dd89f506cdf7789f843f"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 83,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "8c5381a1fa971154cc4c42b7bb235fe5b0fd823b97714c456dd0c7aef062f607"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 84,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "b334ce353d3e601efea83a44b2197e85f9ecfdc5458c33472abcd5f7dfb6b6e2"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 85,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "d5fad47b00178af6e7a8e3e9a54f2282dab12180ef16b8b5bb3d6d10c075b91f"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 86,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "39a98b12b40cf1fb40983a9163356da53853b174293525db779072310bcf4c45"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 87,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "b31b5265af8a0ffeaa9213bc423f06f25c8d1e8dfd71cd320bc8279632717b12"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 88,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "5dae0726d83ed3f495bce76d9bf705f6d4b5b67459178b498849458128cb075a"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 89,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "c5fe262f11b86fc691e567475f803fec893482cf3d7066503e2371468ab106e0"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 90,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "26e083edcd4933f9f8652248968a4ce7d3c8ffff488186b5791944eb08760ef4"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 91,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "d1fb3afa231be3bc94df659511ccd1c30cabbe02b6df635d8b45886ab8bd7655"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 92,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "0d211f892d8f9dd74dc393494ae1ed8d139f25c8adda8ee059db2887fabb47e7"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 93,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "7bdbc154d65feb4ba51a51886999d43fd09af1bd76682bb457959f6afed5bbaf"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 94,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "7cfd98ee0cee48bd6e77768c9bf8a3cd4bde69ca0fa545b4737cde0f7a023648"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 95,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 5,
+      "ocr_markdown_sha256": "35990025bdd1644bc8034651728512e401c4a8b26f5a1c48dc82420bf164cc40"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 96,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 4,
+      "ocr_markdown_sha256": "d23277f3441c63616493ca4b3ee488a934072be0d88ec4a933c1fe03a3671280"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 97,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "9542b443ae22f256042db3dd11ded1a7c36d6d9715ddaeddb5f0741c972d8464"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 98,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "747ece443398e74381f5add7bcd099f087aeaa99ac8b6704ba7df14d8d9c9883"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 99,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "12f5458363a5cad99bda3393266585c93c3b7f2166b42847a2bf655a79a43ade"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 100,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "d130471343ce50fb9264f2f110942d85bf3c3006f8fe2261da11d01f0750d3be"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 101,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "d913b916a090139350da5db1f11c33948f3b495c4afd1de93c9fb028c908ee02"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 102,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "68342d25091ffa8f81ba6cf9ac9dd91798cd0dd29afb64b495742f3405d01330"
+    },
+    {
+      "chapter": 5,
+      "physical_page_number": 103,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "40fbfaf5d29ff545814072375b8f00b99b799825a371dc807368f4ef7adb44a9"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 104,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "919f34a421b3be16934e6de947e932195ef61f3edf2947ad858d57a0f9f4ce99"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 105,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "4fedf1d1e551cd4cf27b8d4ef0c23892f9ec1119b305d9122691e37cb249ba9a"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 106,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "d5d383568510806c03dcc7cfe1e868690e240e3ea714346efe12b2e04ff5c51d"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 107,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "91fc3be23d42a624dab1b12a5cc46040bdb3a0322d48764489dc9cf4fc539900"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 108,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "52f4cb4e597d071fa34a8b384802ce85a3f7637cccb485a28c9ad2e6005286dc"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 109,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "ed4fcf58707fe4b5f829e65aeadd78aec537e34c97c38d0125749499d745dc47"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 110,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "e23446527b272f38e71f84529f9f25b411aaedec272b0b6f58e4bfc2e9ed320d"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 111,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "ba8f6024c044d8572bf36fba3c1209bbe56fedd42a076a944d6f0544cc00cb5f"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 112,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "3414c2b34ac518920ee8dddcfdb831c9cf6928d7ae85d8a980ada5ceb2e08865"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 113,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "98aa8dc4689199cf54352854477e396e00a656f2d38ca3d07c17bc31889fbdc0"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 114,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "c4546dd94d0812f031aaabae0b9253c4a4ba2b04954321e6581ff080ab1260c8"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 115,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "3a265555f0e82a37917770cfee741dfedcfeb3c098fc2e453caaa9b03af658e9"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 116,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "f77a7cfb7fe7dcd66d35caaac81bec79a1b41fbf87f23d863dca01b33ca7d832"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 117,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "e181fab24ac79798e6f636f11d130f48a3dc48381f294e0dc710e2061eff6070"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 118,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "40656d7ed29d391fe738f75f0d6b19d6ccf1188ca94572046d13d0fbc706fc73"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 119,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "924d9a6f7b167b3bb49eab92bab2a58431aa606bbe593292234634b1c7d66e30"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 120,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "7a6bd4497f96426968b65fb7cb60cd83f782dc009a40189673a64bad203ec809"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 121,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "a5d92e8548b3dc047356b247e240b6238faaa3f9acd5b21866587f965bef5d99"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 122,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "27d2e49d50b602b235096fddf66d57940bc650f357625c7587555417b00a20b7"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 123,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "451ec10956646f9d9656f822e9d3ee0e06ac23af2cef1e734078dd432730b673"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 124,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "8657b55fc6a0a5b888f4cbfc5accb62aa00039548a2ca2dbc40ae2b934d32f6b"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 125,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "57af0af3d425ee7e7f8f99e806beb2ba232a4c247425e9a63d5e3fb078f1c9fe"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 126,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "84051e45796ebb5cd7e561a40997ceb15440dae1c842c620af0eb3065d06537b"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 127,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "4232e6ac547c1586e83edda3949340f02ae348692c8cd4e2bec5bfe879016043"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 128,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "cce7b66b67b0aa4b283c10b3eec68fd447fba872583eca29595302ef2cc09363"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 129,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "278fa6b420f2db3b0be98c7c8954f5159318e3bf6ee6f9f33205d92f7be4df01"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 130,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "5ba992eeb889d0f9cff250585fb26f1c57b9a0e4b6d8c787252e1fa31f4ae790"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 131,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "ae42e9594253f5b19826034fcfa36150f5dda28cfe7b772947ea77cf20482615"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 132,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "47526b1bdee8295fba9916b7527b67a9473a41c9879927163b2ab7b4039c2f6a"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 133,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "95b7dba02fc74da7cbf9469ea0f84d9c8b1dfd68cd3280b9c71ebdfcc80eff99"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 134,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "4a21f6e3d1dceede7027aed5dcb0ec1189d4ad53d741d324c60e5275a9c3729f"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 135,
+      "formal_problem_starts": 3,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "ff65d532ac5f93675b551366cf0d1085b0f8365a7e98c81462ad439abd7e5cce"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 136,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "549cc820835a24d7b4606bc35cc8da42937b6be1bb286f708af7202af67034a8"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 137,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "26a63c7db094c87e2ade140e15433fc935b8ee7478b01ff9f7d958e0e0afc0f2"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 138,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "7ac24085a3240f1ffeddc23ea71e1c78e48a7249a60b2ee141578b4d9b8ae6f3"
+    },
+    {
+      "chapter": 6,
+      "physical_page_number": 139,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "337a4a65162eb14d541a484ee60594ab3b1e8c7bbcebbf16e123e049873daf0d"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 140,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "32a076031ab730670bdd5cef43d4316ad6f9a334961d663105dca8c1249a9f34"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 141,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "82aed978068174aa9e1ba8f4919109ddcf4ab917f20cb70942857ecf00410392"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 142,
+      "formal_problem_starts": 3,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "c81b493ea3fc3fc3c0fdfc65ef23c75fb463cc81898581cc126c6f61a81f7a2c"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 143,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "576c4759ec8160be85f24a44a43734398f449c084f09ff5636cd4d6cdb2f72ad"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 144,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "89bfebdabfae44f92ea2936f162343c8746813796b3c1c633f6b210b02987db3"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 145,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "c01d1c1ca49a734bc327c601b1735225ace059c17cda36f6b4885d0a0b42a2f9"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 146,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "0ee4604e4a542885fd93213aa80974b703400b6cb6e8e07c5d96c6e0b00f3ffc"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 147,
+      "formal_problem_starts": 4,
+      "reviewed_units_referencing_page": 4,
+      "ocr_markdown_sha256": "30eae35a440f2fa4146b52b7773af40610e08aebb2e7cf8b02dcd0f207371759"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 148,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "3c6539ef661c2c254133bae6f0bcf503efcf1264c2e55106cae5c025618d9969"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 149,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "f8b5a386bdc822130c23bee1845c5b8591c9555767a0f652f0541eeeb29d9ddc"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 150,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "ccdb68800fdd5a804473fbf1f99210bb8591ede0f8958b68c8b200bd71dd89b8"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 151,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "9ba95c43c3880d7ee5e8d453b18ea1deeed000f7cc050fad45a9f8c18e30c126"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 152,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "da8949d2dd6932141bd9eeb26f85f0746ccbda9ea7a61dd29d4a37c5d50da68a"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 153,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "9785880665a58209a03c19375d0b0c065b399d047e6a47a9bf3323dd1bd85ab4"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 154,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "454bfdf30d7d4cea516e3e2b57ece71fa3d13cf381b094c014dd75829b54471f"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 155,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "e94c00c6592caade8bbf39f2c12fe4baafda8ad15070bcc21a6391c80f6aaaf1"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 156,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "8b437ed287c2a6238ba52284c67bb5f65fdc83e1c7e2cc7384f99ed454efb519"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 157,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "3571e5fd4950c26fe97055bb1b04957f1c0785787b967b945724c319ff3e9361"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 158,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "d940ad6aa011d9c07f5c4172c71a19b78f034a8dcfe97b30261f1e0b866f41b7"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 159,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "8820746de21fbc17ad07dc4391e9d01757db188f993d4ebd6f136da26383b143"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 160,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "5ccf5942ea125f92ce3f57b643f37776526fc64cbd512e69e70795bfa262a569"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 161,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "b6a539050953ec540d3726a3942dc8ee690b550f5d2988c705371046e6f1033d"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 162,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "9fe718158d7f36b34b565c781dbc4dcda01275f8cbfab893583822d20e5584ad"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 163,
+      "formal_problem_starts": 2,
+      "reviewed_units_referencing_page": 3,
+      "ocr_markdown_sha256": "ddfb94eb87744b16dff0b36101b5ccf86621f08a13598ce7ae7a2af5f0831131"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 164,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "658530a71d7b2c6183aabd526ab94e617432bb30a1b6e64bc0e8fe0d337bf604"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 165,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "8c015ef0e266de0ff15d8454766a3ed86c156aca540b26c39f63713a13a33771"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 166,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 2,
+      "ocr_markdown_sha256": "0c4292ff050ec24e125307211f688848b0d8ba2725b85703a70786f5d64d8604"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 167,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "cdcd97b92f12d5f56f4d015b83b765905c89363c056ef48d4ec4d7d84e42230b"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 168,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "cf41d1c609722e6066d17f945a064eef72c51074e4d64566ad2b23e7e5362ea8"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 169,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "c1d13761115f422541c9ab85948ed07d0548371f1e9e388bc35f0486acb2d758"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 170,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "12222c495418d7fd65b43597a2c1feb0db5d60149c09dbe19d96637298b12fb8"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 171,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "80c9cbdeb024aa256d88bcbe3a32713392512e7dd03f7f55db66edb3611fbaec"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 172,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 0,
+      "ocr_markdown_sha256": "68fb00fdf7b9c82ae6a804b87541ea1a3f352ee7467c11d5f30a175bd21c7e77"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 173,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "50be7b63f1abf39695646fd7accde98658aa754b628223561c02b3d33333a235"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 174,
+      "formal_problem_starts": 0,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "f3f0235d6851c46969006a1b331e73da28b70c823abb11687e55942ac5f4a9a2"
+    },
+    {
+      "chapter": 7,
+      "physical_page_number": 175,
+      "formal_problem_starts": 1,
+      "reviewed_units_referencing_page": 1,
+      "ocr_markdown_sha256": "defd93083d2ace8f2702acd821a9dba3ca70dc8dff84d865020feffb49bfacf0"
+    }
+  ]
+}

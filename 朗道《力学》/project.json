@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "name": "朗道《力学》",
+      "problems_per_page": 2,
+      "sources": ["力学(第五版)-朗道 十分清晰.pdf"],
+      "combine_volumes": false
+    }
+  ]
+}

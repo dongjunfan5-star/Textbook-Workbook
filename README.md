@@ -9,6 +9,7 @@
 | 《数学分析讲义》 | 三册合订，18 章 | 1762 | 468 | 4 题/页 | [PDF](数学分析讲义/main.pdf) · [源码与使用说明](数学分析讲义/README.md) |
 | 《数学分析教程》 | 上下册合订，18 章及附录 A | 1811 | 615 | 3 题/页 | [PDF](数学分析教程/main.pdf) · [源码与使用说明](数学分析教程/README.md) |
 | 《近世代数引论》第四版 | 全书 3 章及各章附录中的题目 | 461 | 156 | 3 题/页 | [PDF](近世代数引论/main.pdf) · [源码与使用说明](近世代数引论/README.md) |
+| 力学(第五版)-朗道 十分清晰 | 全书 7 章 | 147 | 76 | 2 题/页 | [PDF](朗道《力学》/main.pdf) · [源码与使用说明](朗道《力学》/README.md) |
 
 页数包含说明与目录，题量按拆分后的最终题号统计。长题可单独成页。
 
@@ -19,6 +20,7 @@
 - 《数学分析讲义》分别对应 `数学分析讲义（第一册）`、`数学分析讲义（第二册）`、`数学分析讲义（第三册）`。
 - 《数学分析教程》分别对应 `数学分析教程 上册（数分A教材）`、`数学分析教程 下册（数分A教材）`。
 - 《近世代数引论》第四版对应 `近世代数引论_第四版(1)`。
+- 朗道《力学》第五版对应 `力学(第五版)-朗道 十分清晰`。
 
 ## 制作规则
 
@@ -56,7 +58,8 @@ Textbook-Workbook/
 │   ├── qa/                # 本书构建及验收记录
 │   └── input/             # 本地原始教材，不上传
 ├── 数学分析教程/           # 文件结构同上
-└── 近世代数引论/           # 文件结构同上，项目配置存于本目录
+├── 近世代数引论/           # 文件结构同上，项目配置存于本目录
+└── 朗道《力学》/           # 文件结构同上，项目配置存于本目录
 ```
 
 原始教材、OCR 原文、整页渲染、模型、虚拟环境、构建中间文件和凭据不提交。制作期间的分章数据保留在本地，发布版本以合并后的 `data/curated.json` 为准。
@@ -66,7 +69,7 @@ Textbook-Workbook/
 安装含 XeLaTeX、ctex、Fandol、amsmath、geometry、fancyhdr、hyperref、graphicx 的 TeX Live。在项目目录执行：
 
 ```powershell
-cd 数学分析讲义  # 或进入数学分析教程、近世代数引论目录
+cd 数学分析讲义  # 或进入数学分析教程、近世代数引论、朗道《力学》目录
 xelatex -interaction=nonstopmode -halt-on-error main.tex
 xelatex -interaction=nonstopmode -halt-on-error main.tex
 ```
@@ -75,7 +78,7 @@ xelatex -interaction=nonstopmode -halt-on-error main.tex
 
 ## 从校对数据重新生成
 
-此步骤会重新生成章节、题目数据和成品，需自行在 `input/` 放入与 `config/production-books.json` 或项目教材清单校验值一致的原始教材；脚本会核对来源文件。Python 使用独立虚拟环境：
+此步骤会重新生成章节、题目数据和成品，需按各项目说明放置与教材清单校验值一致的原始教材。数学分析讲义、数学分析教程和近世代数引论使用 `input/`，朗道《力学》使用本书目录。脚本会核对来源文件。Python 使用独立虚拟环境：
 
 ```powershell
 python -m venv .venv
@@ -83,6 +86,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -X utf8 scripts/build_workbook.py 数学分析讲义
 .\.venv\Scripts\python.exe -X utf8 scripts/build_workbook.py 数学分析教程
 .\.venv\Scripts\python.exe -X utf8 scripts/build_workbook.py 近世代数引论 --config 近世代数引论/project.json
+.\.venv\Scripts\python.exe -X utf8 scripts/build_workbook.py '朗道《力学》' --config '朗道《力学》/project.json'
 ```
 
 程序按题目实际高度和每页题数分页，在每题后加入 `\vfill`；至少编译两次，并继续至目录、引用及书签文件稳定（最多五次）。可用 `--xelatex` 指定编译器。重新生成后必须重新验收，旧 PDF 的视觉验收记录不能直接沿用到改变了页面的版本。
@@ -126,4 +130,3 @@ python -m venv .venv-gpu
 | 数学 | 线性代数及其应用 | 排队中 |
 | 物理 | 力学（舒幼生） | 排队中 |
 | 物理 | 经典力学（高显） | 排队中 |
-| 物理 | 力学（朗道） | 排队中 |

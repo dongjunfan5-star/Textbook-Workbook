@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "source_file": "力学(第五版)-朗道 十分清晰.pdf",
+  "sha256": "36c53f159e0b3de5df732fa67fa5cd9d1dd4ad276ed97292e4b8febdb0971e48",
+  "page_count": 179,
+  "has_text_layer": false,
+  "page_numbering": "页码为从 1 开始的 PDF 物理页码。正文印刷页码加 7 即为 PDF 物理页码。",
+  "inventory_basis": "原书目录（PDF 第 5–7 页）。此清单记录原书范围与各节起页。",
+  "excluded_ranges": [
+    {"first_page": 1, "last_page": 1, "reason": "封面"},
+    {"first_page": 2, "last_page": 4, "reason": "卷首序言"},
+    {"first_page": 5, "last_page": 7, "reason": "目录"},
+    {"first_page": 176, "last_page": 177, "reason": "朗道撰写的第一版序"},
+    {"first_page": 178, "last_page": 179, "reason": "索引"}
+  ],
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "运动方程",
+      "first_page": 8,
+      "last_page": 18,
+      "sections": [
+        {"section_number": 1, "title": "广义坐标", "page_number": 8},
+        {"section_number": 2, "title": "最小作用量原理", "page_number": 9},
+        {"section_number": 3, "title": "伽利略相对性原理", "page_number": 11},
+        {"section_number": 4, "title": "自由质点的拉格朗日函数", "page_number": 12},
+        {"section_number": 5, "title": "质点系的拉格朗日函数", "page_number": 14}
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "守恒定律",
+      "first_page": 19,
+      "last_page": 30,
+      "sections": [
+        {"section_number": 6, "title": "能量", "page_number": 19},
+        {"section_number": 7, "title": "动量", "page_number": 21},
+        {"section_number": 8, "title": "质心", "page_number": 22},
+        {"section_number": 9, "title": "动量矩", "page_number": 24},
+        {"section_number": 10, "title": "力学相似性", "page_number": 27}
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "运动方程的积分",
+      "first_page": 31,
+      "last_page": 47,
+      "sections": [
+        {"section_number": 11, "title": "一维运动", "page_number": 31},
+        {"section_number": 12, "title": "根据振动周期确定势能", "page_number": 33},
+        {"section_number": 13, "title": "折合质量", "page_number": 35},
+        {"section_number": 14, "title": "有心力场内的运动", "page_number": 36},
+        {"section_number": 15, "title": "开普勒问题", "page_number": 42}
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "质点碰撞",
+      "first_page": 48,
+      "last_page": 64,
+      "sections": [
+        {"section_number": 16, "title": "质点分裂", "page_number": 48},
+        {"section_number": 17, "title": "质点弹性碰撞", "page_number": 51},
+        {"section_number": 18, "title": "质点散射", "page_number": 54},
+        {"section_number": 19, "title": "卢瑟福公式", "page_number": 60},
+        {"section_number": 20, "title": "小角度散射", "page_number": 63}
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "微振动",
+      "first_page": 65,
+      "last_page": 103,
+      "sections": [
+        {"section_number": 21, "title": "一维自由振动", "page_number": 65},
+        {"section_number": 22, "title": "强迫振动", "page_number": 68},
+        {"section_number": 23, "title": "多自由度系统振动", "page_number": 73},
+        {"section_number": 24, "title": "分子振动", "page_number": 78},
+        {"section_number": 25, "title": "阻尼振动", "page_number": 83},
+        {"section_number": 26, "title": "有摩擦的强迫振动", "page_number": 85},
+        {"section_number": 27, "title": "参数共振", "page_number": 88},
+        {"section_number": 28, "title": "非简谐振动", "page_number": 92},
+        {"section_number": 29, "title": "非线性振动中的共振", "page_number": 95},
+        {"section_number": 30, "title": "快速交变场中的运动", "page_number": 101}
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "刚体的运动",
+      "first_page": 104,
+      "last_page": 139,
+      "sections": [
+        {"section_number": 31, "title": "角速度", "page_number": 104},
+        {"section_number": 32, "title": "惯性张量", "page_number": 106},
+        {"section_number": 33, "title": "刚体动量矩", "page_number": 114},
+        {"section_number": 34, "title": "刚体运动方程", "page_number": 116},
+        {"section_number": 35, "title": "欧拉角", "page_number": 118},
+        {"section_number": 36, "title": "欧拉方程", "page_number": 123},
+        {"section_number": 37, "title": "非对称陀螺", "page_number": 125},
+        {"section_number": 38, "title": "刚体接触", "page_number": 132},
+        {"section_number": 39, "title": "非惯性参考系中的运动", "page_number": 136}
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "title": "正则方程",
+      "first_page": 140,
+      "last_page": 175,
+      "sections": [
+        {"section_number": 40, "title": "哈密顿方程", "page_number": 140},
+        {"section_number": 41, "title": "罗斯函数", "page_number": 142},
+        {"section_number": 42, "title": "泊松括号", "page_number": 144},
+        {"section_number": 43, "title": "作为坐标函数的作用量", "page_number": 148},
+        {"section_number": 44, "title": "莫培督原理", "page_number": 150},
+        {"section_number": 45, "title": "正则变换", "page_number": 152},
+        {"section_number": 46, "title": "刘维尔定理", "page_number": 155},
+        {"section_number": 47, "title": "哈密顿－雅可比方程", "page_number": 156},
+        {"section_number": 48, "title": "分离变量", "page_number": 158},
+        {"section_number": 49, "title": "绝热不变量", "page_number": 164},
+        {"section_number": 50, "title": "正则变量", "page_number": 166},
+        {"section_number": 51, "title": "绝热不变量守恒精确性", "page_number": 168},
+        {"section_number": 52, "title": "条件周期运动", "page_number": 171}
+      ]
+    }
+  ]
+}

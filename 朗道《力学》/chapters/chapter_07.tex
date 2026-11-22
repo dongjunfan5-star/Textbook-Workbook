@@ -1,0 +1,110 @@
+\renewcommand{\thesection}{\arabic{section}}\renewcommand{\theHsection}{chapter.\arabic{section}}\setcounter{section}{6}\section{正则方程}
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.1}
+质量为 $m$ 的质点在势能为 $U$ 的场中运动。分别用下列坐标及与之共轭的广义动量写出哈密顿函数。
+\SubQ{1}{笛卡儿坐标 $(x,y,z)$。}
+\SubQ{2}{柱坐标 $(r,\varphi,z)$，其中 $r$ 为到 $z$ 轴的距离，$\varphi$ 为方位角。}
+\SubQ{3}{球坐标 $(r,\theta,\varphi)$，其中 $r$ 为到原点的距离，$\theta$ 为极角，$\varphi$ 为方位角。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.2}
+一质量为 $m$ 的质点在势能为 $U$ 的场中运动。参考系的原点固定，坐标轴相对惯性系以恒定角速度 $\boldsymbol{\Omega}$ 转动。用转动参考系中的坐标 $\mathbf r$ 和共轭动量 $\mathbf p$ 写出质点的哈密顿函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.3}
+一个封闭系统由质量为 $M$ 的质点和 $n$ 个质量均为 $m$ 的质点组成。略去质心运动，以各质量为 $m$ 的质点相对于质量为 $M$ 的质点的位置 $\mathbf r_a$ 为广义坐标。设相互作用势能为 $U(\mathbf r_1,\dots,\mathbf r_n)$，求内部运动的哈密顿函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.4}
+一对称陀螺绕对称轴上的固定点转动，关于固定点的横向主惯量为 $I_1^\prime$，对称轴的主惯量为 $I_3$。用欧拉角 $\varphi$、$\theta$、$\psi$ 描述进动、章动和自转，外场势能为 $U(\varphi,\theta)$。采用 $R=p_\psi\dot\psi-L$ 的约定，消去循环坐标 $\psi$，求罗斯函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.5（改写）}
+设 $(q_k,p_k)$ 是正则坐标与动量，$f$ 为相空间上的可微函数。采用原书的泊松括号约定
+\[
+\{f,g\}=\sum_k\left(\frac{\partial f}{\partial p_k}\frac{\partial g}{\partial q_k}
+-\frac{\partial f}{\partial q_k}\frac{\partial g}{\partial p_k}\right).
+\]
+\SubQ{1}{用 $f$ 的偏导数表示 $\{f,q_k\}$ 和 $\{f,p_k\}$。}
+\SubQ{2}{求 $\{q_i,q_k\}$、$\{p_i,p_k\}$ 和 $\{p_i,q_k\}$。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.6}
+设质点的动量为 $\mathbf p$，动量矩为 $\mathbf M=\mathbf r\times\mathbf p$。求笛卡儿分量 $M_i$ 和 $p_j$ 的泊松括号 $\{M_i,p_j\}$。采用满足 $\{p_i,x_j\}=\delta_{ij}$ 的泊松括号约定。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.7}
+设质点的动量矩为 $\mathbf M=\mathbf r\times\mathbf p$。求其各笛卡儿分量组成的泊松括号 $\{M_i,M_j\}$。采用满足 $\{p_i,x_j\}=\delta_{ij}$ 的泊松括号约定。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.8}
+设 $\varphi(\mathbf r,\mathbf p)$ 是质点坐标和动量的任意旋转标量，$M_z$ 是 $\mathbf r\times\mathbf p$ 的 $z$ 分量。试证 $\{\varphi,M_z\}=0$。采用满足 $\{p_i,x_j\}=\delta_{ij}$ 的泊松括号约定。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.9}
+设 $\mathbf f(\mathbf r,\mathbf p)$ 是质点坐标和动量的任意旋转矢量，即同时旋转坐标和动量时随之作同一转动。令 $\mathbf n$ 为 $z$ 轴正向的单位矢量，$M_z$ 为动量矩的 $z$ 分量。试证 $\{\mathbf f,M_z\}=\mathbf f\times\mathbf n$，其中括号对矢量逐分量计算。采用满足 $\{p_i,x_j\}=\delta_{ij}$ 的泊松括号约定。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.10（改写）}
+对于在欧氏空间中运动的自由质点，利用固定能量下的轨迹变分原理 $\delta\int_A^B\sqrt{2m(E-U)}\,\mathrm dl=0$，证明它在给定的两点 $A$、$B$ 之间的运动轨迹是直线。这里 $l$ 为弧长，$m$ 为质点质量，$E>0$，$U=0$。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.11}
+质量为 $m$ 的质点在势能 $U(\mathbf r)$ 中运动，能量 $E$ 给定。在 $E>U$ 的轨迹区段，固定两端点，对路径应用莫培督原理
+\[
+\delta\int_A^B\sqrt{2m\bigl(E-U(\mathbf r)\bigr)}\,\mathrm dl=0.
+\]
+以弧长 $l$ 为参数，推导轨迹 $\mathbf r(l)$ 的微分方程。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.12（改写）}
+对哈密顿系统取常数 $a\ne0$，令 $Q_i=q_i$、$P_i=ap_i$，并定义 $H^\prime(Q,P,t)=aH(Q,P/a,t)$。
+\SubQ{1}{验证新变量满足以 $H^\prime$ 为哈密顿函数的正则形式运动方程。}
+\SubQ{2}{用基本泊松括号判断该变换在何种 $a$ 下为正则变换。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.13（改写）}
+考虑不显含时间的变量变换 $Q_i=p_i$、$P_i=-q_i$。证明这是正则变换，并求一个以 $(q,Q)$ 为自变量的母函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.14（改写）}
+质量为 $m$ 的质点在势能 $U(r,\theta)=a(r)+b(\theta)/r^2$ 中运动，其中 $a,b$ 是给定函数，$(r,\theta,\varphi)$ 为球坐标。写出哈密顿－雅可比方程，并用分离变量法把它的全积分表示为求积。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.15（改写）}
+质量为 $m$ 的质点用抛物线坐标 $(\xi,\eta,\varphi)$ 描述。设 $\xi,\eta>0$，并令柱坐标 $z=(\xi-\eta)/2$、$\rho=\sqrt{\xi\eta}$。势能为 $U=\bigl[a(\xi)+b(\eta)\bigr]/(\xi+\eta)$，其中 $a,b$ 是给定函数。
+\SubQ{1}{求哈密顿函数。}
+\SubQ{2}{用分离变量法把哈密顿－雅可比方程的全积分表示为求积。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.16（改写）}
+质量为 $m$ 的质点用椭圆坐标 $(\xi,\eta,\varphi)$ 描述。设 $\sigma>0$，并令柱坐标 $\rho=\sigma\sqrt{(\xi^2-1)(1-\eta^2)}$、$z=\sigma\xi\eta$，其中 $\xi>1$、$-1<\eta<1$。势能为 $U=\bigl[a(\xi)+b(\eta)\bigr]/(\xi^2-\eta^2)$，其中 $a,b$ 是给定函数。
+\SubQ{1}{求哈密顿函数。}
+\SubQ{2}{用分离变量法把哈密顿－雅可比方程的全积分表示为求积。}
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.17}
+质量为 $m$ 的质点在库仑场和均匀场叠加的势能 $U=\alpha/r-Fz$ 中运动，其中 $r=|\mathbf r|$，$z$ 为沿均匀场所在轴的坐标，$\alpha,F$ 为常数。求哈密顿－雅可比方程的全积分，并把分离常数对应的额外守恒量写成坐标和动量的函数。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.18}
+质量为 $m$ 的质点在两个不动库仑中心产生的势能 $U=\alpha_1/r_1+\alpha_2/r_2$ 中运动。两中心相距 $2\sigma$，$r_1,r_2$ 分别为质点到两中心的距离，$\alpha_1,\alpha_2$ 为常数。求哈密顿－雅可比方程的全积分，并把分离常数对应的额外守恒量写成坐标和动量的函数。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.19（改写）}
+一维简谐振子的哈密顿函数为 $H=p^2/(2m)+m\omega^2q^2/2$。设其能量为 $E$，作用变量定义为 $I=(2\pi)^{-1}\oint p\,\mathrm dq$。求 $I$，并确定振子参数缓慢改变时能量 $E$ 与角频率 $\omega$ 的关系。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.20}
+设简谐振子的角频率 $\omega(t)>0$ 随时间改变，其哈密顿函数为 $H=p^2/(2m)+m\omega(t)^2q^2/2$。对每个固定的瞬时频率采用作用变量 $I=(2\pi)^{-1}\oint p\,\mathrm dq$，并取 $q=0$ 且 $p>0$ 对应的角变量 $w=0$。写出用正则变量 $(I,w)$ 表示的运动方程。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.21（校订）}
+简谐振子的角频率随时间按下式变化
+\[
+\omega^2(t)=\omega_0^2\frac{1+a\mathrm e^{\alpha t}}{1+\mathrm e^{\alpha t}},
+\qquad a>0,\quad 0<\alpha\ll\omega_0 .
+\]
+当 $t$ 从 $-\infty$ 变到 $+\infty$ 时，角频率从 $\omega_0$ 变到 $\sqrt a\,\omega_0$。设 $a\ne1$ 固定，初始作用变量为 $I_-=I(-\infty)>0$。当 $\alpha/\omega_0\to0$ 时，估计 $|I(+\infty)-I_-|/I_-$ 对初相位取最大时的主导指数阶。
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.22}
+质量为 $m$ 的质点在一维势阱内振动。取 $x$ 为笛卡儿坐标，并施加阻力 $f=-\alpha\dot x$。阻尼很弱，即 $\alpha T/m\ll1$，其中 $T$ 为无阻尼时在相应能量下的周期。求振动能量按周期平均后随时间缓慢变化的规律。
+\end{minipage}\par\vfill
+\newpage
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{例题}{7.23（改写）}
+在作用－角变量 $(I_i,w_i)$ 中，系统的基频为 $\omega_i=\partial E/\partial I_i$。假定对任意作用变量 $I_i$，两个基频满足 $n_1\omega_1=n_2\omega_2$，其中 $n_1,n_2$ 为给定正整数。各角变量 $w_i$ 按模 $2\pi$ 取值。
+\SubQ{1}{求 $I_1,I_2$ 在能量 $E$ 中出现的线性组合。}
+\SubQ{2}{用角变量 $w_1,w_2$ 构造一个单值的运动积分。}
+\end{minipage}\par\vfill
+\noindent\begin{minipage}{\textwidth}\ProblemHeading{习题}{7.24}
+质量为 $m$ 的质点在中心势 $U=-\alpha/r$（$\alpha>0$）中作平面椭圆运动。以极坐标 $r,\varphi$ 描述运动，取极角正向与绕行方向一致。求径向和角向的作用变量 $I_r,I_\varphi$，其中 $I_i=(2\pi)^{-1}\oint p_i\,\mathrm dq_i$。
+\end{minipage}\par\vfill
